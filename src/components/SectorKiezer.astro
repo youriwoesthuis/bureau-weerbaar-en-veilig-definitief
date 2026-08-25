@@ -42,7 +42,7 @@ const regels = perSector
 <div class="kiezer">
   <fieldset class="kiezer-keuze">
     <legend class="bovenkop">Kies je sector</legend>
-    <div class="chips">
+    <div class="sectorlijst">
       {perSector.map((s) => (
         <>
           <input
@@ -52,7 +52,10 @@ const regels = perSector
             class="chip-radio"
             checked={s.slug === grootste}
           />
-          <label for={`sector-${s.slug}`} class="chip">{s.naam}</label>
+          <label for={`sector-${s.slug}`} class="chip">
+            <span class="chip-naam">{s.naam}</span>
+            <span class="chip-aantal">{s.groepen.length}</span>
+          </label>
         </>
       ))}
     </div>
@@ -93,19 +96,36 @@ const regels = perSector
 <style is:inline set:html={regels}></style>
 
 <style>
+  /* Sectoren boven, uitkomst eronder. Naast elkaar werkte niet: een lijst
+     van negentien rijen is ruim twee keer zo hoog als het paneel, dus bleef
+     er rechts een groot leeg vlak staan. Zo staat de keuze bovendien direct
+     boven het resultaat dat erbij hoort. */
   .kiezer {
     display: grid;
-    gap: clamp(1.25rem, 1rem + 1.5vw, 2.25rem);
-    align-items: start;
-  }
-  @media (min-width: 950px) {
-    .kiezer { grid-template-columns: minmax(0, 21rem) minmax(0, 1fr); }
+    gap: clamp(1.25rem, 1rem + 1.5vw, 2rem);
   }
 
   .kiezer-keuze { border: 0; padding: 0; margin: 0; min-width: 0; }
   .kiezer-keuze legend { padding: 0; margin-bottom: 1rem; }
 
-  .chips { display: flex; flex-wrap: wrap; gap: 0.45rem; }
+  /* Elke cel exact even breed. Dat is het verschil met een rij pillen die
+     op woordlengte afbreekt: negentien namen van sterk wisselende lengte
+     vielen daar in rijen van twee en drie met een rafelige rechterrand, en
+     de gekozen sector belandde willekeurig ergens onderin. In een raster
+     lopen de kolommen en rijen door. */
+  .sectorlijst {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 14rem), 1fr));
+    border: 1px solid var(--rand);
+    border-radius: var(--hoek);
+    overflow: hidden;
+    /* Zelfde kleur als de cellen. Negentien is niet deelbaar door het
+       aantal kolommen, dus de laatste rij houdt lege plekken over; die
+       moeten wegvallen tegen de rest in plaats van als grijs blok op te
+       vallen. Daarom worden de scheidingslijnen niet met de achtergrond
+       getekend maar met een schaduw op de cellen zelf. */
+    background: var(--inkt-850);
+  }
 
   /* De radioknop blijft bedienbaar met het toetsenbord, alleen onzichtbaar. */
   .chip-radio {
@@ -117,32 +137,51 @@ const regels = perSector
   }
 
   .chip {
-    display: inline-flex;
+    display: flex;
     align-items: center;
-    min-height: 2.5rem;
-    padding: 0.45rem 0.85rem;
-    border: 1px solid var(--rand-fel);
-    border-radius: 999px;
-    background: transparent;
+    justify-content: space-between;
+    gap: 0.75rem;
+    min-height: 2.75rem;
+    padding: 0.45rem 0.9rem;
+    background: var(--inkt-850);
     color: var(--tekst-zacht);
     font-family: 'Space Grotesk Variable', sans-serif;
-    font-size: 0.9rem;
+    font-size: 0.95rem;
     font-weight: 500;
     cursor: pointer;
     user-select: none;
-    transition: background 160ms, color 160ms, border-color 160ms, transform 160ms;
+    border-left: 3px solid transparent;
+    /* De scheidingslijnen. Een schaduw neemt geen ruimte in, dus de
+       buitenste lijnen vallen weg tegen de rand van het kader. */
+    box-shadow: 1px 0 0 var(--rand), 0 1px 0 var(--rand);
+    transition: background 150ms, color 150ms, border-color 150ms, padding-left 160ms;
   }
-  .chip:hover { color: var(--tekst); border-color: var(--tekst-zacht); transform: translateY(-1px); }
-  .chip-radio:focus-visible + .chip { outline: 3px solid var(--amber-400); outline-offset: 3px; }
+  .chip-naam { min-width: 0; }
+  .chip-aantal {
+    flex: none;
+    font-size: 0.8rem;
+    font-variant-numeric: tabular-nums;
+    color: var(--tekst-gedempt);
+  }
 
-  /* De gekozen sector. Donkere tekst op het oranje verloop: 8,9:1. */
+  .chip:hover {
+    background: var(--inkt-800);
+    color: var(--tekst);
+    border-left-color: var(--oranje-500);
+    padding-left: 1.2rem;
+  }
+  .chip-radio:focus-visible + .chip { outline: 3px solid var(--amber-400); outline-offset: -3px; }
+
+  /* De gekozen sector. Donkere tekst op het oranje verloop van het logo. */
   .chip-radio:checked + .chip {
     background: var(--verloop-warm);
     color: #1a0d00;
-    border-color: transparent;
+    border-left-color: transparent;
     font-weight: 600;
+    padding-left: 0.9rem;
   }
-  .chip-radio:checked + .chip:hover { color: #1a0d00; transform: none; }
+  .chip-radio:checked + .chip .chip-aantal { color: #3d2400; }
+  .chip-radio:checked + .chip:hover { color: #1a0d00; padding-left: 0.9rem; }
 
   .kiezer-uitkomst {
     background: var(--inkt-850);
@@ -171,14 +210,22 @@ const regels = perSector
     padding: 0;
     margin: 0;
     display: grid;
-    gap: 1px;
-    background: var(--rand);
-    border-block: 1px solid var(--rand);
+    border: 1px solid var(--rand);
+    border-radius: var(--hoek);
+    overflow: hidden;
+    /* Zie de toelichting bij .sectorlijst: het aantal beroepsgroepen past
+       zelden precies in het aantal kolommen. */
+    background: var(--inkt-850);
   }
   @media (min-width: 620px) {
-    .groeplijst { grid-template-columns: 1fr 1fr; }
+    .groeplijst { grid-template-columns: repeat(auto-fill, minmax(min(100%, 15rem), 1fr)); }
   }
+  /* Zonder deze twee regels rekt een cel niet mee wanneer de buurcel twee
+     regels wordt, en zie je de achtergrond van het raster als grijs gat
+     onder de kortere naam. */
+  .groeplijst li { display: grid; }
   .groeplijst a {
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -189,6 +236,7 @@ const regels = perSector
     color: var(--tekst-zacht);
     text-decoration: none;
     font-size: 0.95rem;
+    box-shadow: 1px 0 0 var(--rand), 0 1px 0 var(--rand);
     transition: background 150ms, color 150ms, padding-left 180ms;
   }
   .groeplijst a .pijl {
@@ -211,14 +259,23 @@ const regels = perSector
      en zonder deze regels erft hij de kleuren voor donkere achtergronden:
      lichtblauwe chips op bijna-wit en donkere koppen op een donker paneel.
      ---------------------------------------------------------------------- */
+  :global(.op-licht) .sectorlijst,
+  :global(.op-wit) .sectorlijst { background: var(--wit); border-color: var(--rand-licht); }
   :global(.op-licht) .chip,
-  :global(.op-wit) .chip {
-    border-color: var(--rand-licht);
-    background: var(--wit);
-    color: var(--tekst-donker-zacht);
-  }
+  :global(.op-wit) .chip { box-shadow: 1px 0 0 var(--rand-licht), 0 1px 0 var(--rand-licht); }
+
+  :global(.op-licht) .chip,
+  :global(.op-wit) .chip { background: var(--wit); color: var(--tekst-donker-zacht); }
   :global(.op-licht) .chip:hover,
-  :global(.op-wit) .chip:hover { color: var(--tekst-donker); border-color: var(--tekst-donker-zacht); }
+  :global(.op-wit) .chip:hover {
+    background: var(--mist-50);
+    color: var(--tekst-donker);
+    border-left-color: var(--oranje-op-wit);
+  }
+  :global(.op-licht) .chip-aantal,
+  :global(.op-wit) .chip-aantal { color: var(--tekst-donker-zacht); }
+  :global(.op-licht) .chip-radio:checked + .chip .chip-aantal,
+  :global(.op-wit) .chip-radio:checked + .chip .chip-aantal { color: #3d2400; }
   :global(.op-licht) .chip-radio:focus-visible + .chip,
   :global(.op-wit) .chip-radio:focus-visible + .chip { outline-color: var(--blauw-op-wit); }
 
@@ -229,7 +286,9 @@ const regels = perSector
   :global(.op-wit) .paneel-aantal { color: var(--tekst-donker-zacht); }
 
   :global(.op-licht) .groeplijst,
-  :global(.op-wit) .groeplijst { background: var(--rand-licht); border-color: var(--rand-licht); }
+  :global(.op-wit) .groeplijst { background: var(--wit); border-color: var(--rand-licht); }
+  :global(.op-licht) .groeplijst a,
+  :global(.op-wit) .groeplijst a { box-shadow: 1px 0 0 var(--rand-licht), 0 1px 0 var(--rand-licht); }
   :global(.op-licht) .groeplijst a,
   :global(.op-wit) .groeplijst a { background: var(--wit); color: var(--tekst-donker-zacht); }
   :global(.op-licht) .groeplijst a .pijl,
