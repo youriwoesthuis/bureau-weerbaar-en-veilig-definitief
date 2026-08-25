@@ -45,17 +45,25 @@ nadat er al een dag werk in zat.
 Dit is de kern van de herbouw. Er komt voorlopig geen beeldmateriaal, dus
 de site wordt daar niet meer op gebouwd. In plaats daarvan:
 
-- **Donkere basis.** Een donkere pagina met felle kleurvlakken oogt gevuld;
-  een witte brochurepagina zonder foto's oogt leeg. Dat is het hele verschil.
-- **Typografie is het beeld.** De display-koppen lopen tot 7,5rem, met het
-  merkverloop door het woord heen. De kop draagt de pagina, niet een foto.
+- **Donkere basis.** Een donkere pagina met kleurvlakken oogt gevuld; een
+  witte brochurepagina zonder foto's oogt leeg. Dat is het hele verschil.
+  De donkere vlakken zijn bewust bijna neutraal en niet marineblauw — blauw
+  concurreert met het oranje en maakt de pagina koel.
+- **Typografie draagt mee, maar niet alles.** De display-kop gaat tot 4rem.
+  Een eerdere versie liet hem tot 7,5rem lopen; dat oogde schreeuwerig en
+  liet geen ruimte voor beeld. Het zustermerk houdt de h1 op 52px.
 - **De chevron uit het logo is een bouwelement**, geen behang: sectiemarkering,
   opsommingsteken, hoekafsluiting.
-- **Sfeerlicht in plaats van beeld.** De klasse `.gloed` legt drie zachte
-  radiale verlopen (oranje, violet, indigo) achter donkere secties, zodat er
-  diepte is zonder illustratie.
+- **Sfeerlicht in plaats van beeld.** De klasse `.gloed` legt één warme
+  lichtbron achter donkere secties. Hier stonden drie gekleurde vlekken;
+  die lieten op de neutrale achtergrond een blauwpaarse veeg achter.
 - **Initiaaltegels voor het team.** Geen lege plek die op een portret wacht,
   maar een bewuste tegel in de niveaukleur.
+- **Eigen illustraties in SVG.** De hero toont drie oplopende treden in de
+  drie niveaukleuren; elke trainingspagina toont diezelfde treden met het
+  eigen niveau opgelicht. Getekend, dus altijd scherp en geen extra verzoek.
+- **Een icoon op elke kaart**, in een getint tegeltje — hetzelfde patroon als
+  op het zustermerk agressievisie.nl.
 
 Het `afbeelding:`-veld staat nog in het contentmodel maar wordt door **geen
 enkele template gebruikt**. Er kan dus geen gebroken afbeelding ontstaan.
@@ -70,13 +78,20 @@ beeldmerk.
 | Rol | Waarde | Waar in het logo |
 |---|---|---|
 | Oranje | `#f18816` | de bol, de bovenkant van de chevron, "Bureau" |
-| Paars | `#8b5e76` | het middenpunt van het verloop |
-| Diepblauw | `#284191` | de onderkant van de chevron |
 | Marine | `#212e56` | "Weerbaar en Veilig" |
+| Paars | `#8b5e76` | het middenpunt van het verloop |
+| Indigo | `#4f4a8a` | de onderkant van de chevron |
 
-Het merkverloop is diezelfde reeks, met de stops op de plek waar ze in het
-bestand liggen. De donkere ondergronden van de site zijn het marineblauw van
-het woordmerk, alleen donkerder gemaakt.
+De twee woordmerkkleuren zijn exact bevestigd als mediaan over 18.783
+respectievelijk 3.298 pixels. Daar zit geen ruimte tussen.
+
+Het merkverloop is punt voor punt gemeten langs de werkelijke verloopas, die
+55° schuin loopt. Het logo blijft langer oranje dan je zou denken (tot 33%)
+en gaat via een warm terracotta naar een gedempt indigo — niet rechtstreeks
+naar fel blauw. De volledige reeks staat in `DESIGN.md`.
+
+De kop en de voettekst gebruiken **het echte logobestand**, niet een
+nagetekende versie.
 
 De drie niveaus volgen het verloop van boven naar beneden — de volgorde die
 het logo zelf al maakt: **oranje = basis, paars = gevorderd, diepblauw =
@@ -103,18 +118,29 @@ en blauw in elkaar overlopen. Het is daardoor van nature een gedempte tint
 en geen fel paars. Dat is geen fout in de afleiding maar een eigenschap van
 het logo — het valt op omdat het tussen twee sterke kleuren staat.
 
-### 2.3 Er valt iets te doen
+### 2.3 Er valt iets te doen, en er valt iets te lezen
 
-De vorige homepage was 1818 woorden lezen. Deze opent met een sectorkiezer:
-negentien chips, en het paneel ernaast toont direct de beroepsgroepen van de
-gekozen sector. Verder: uitklapbare programmablokken op elke trainingspagina,
-een niveaufilter op de trainingenlijst, uitklapbare vragen, tellende cijfers
-en scroll-onthulling.
+De vorige homepage was 1818 woorden lezen. Deze is een instrument:
+
+- **Een triageblok bovenaan** met vier ingangen op aanleiding in plaats van
+  op sector: er is net iets gebeurd / we willen structureel trainen / ik moet
+  beleid vastleggen / ik weet niet welk niveau past.
+- **Een sectorkiezer**: negentien sectoren met een eigen icoon, en het paneel
+  eronder toont meteen de beroepsgroepen.
+- **Een niveau-keuzehulp**: drie vragen, uitkomst is het hoogste niveau dat is
+  aangevinkt. Wie op één punt bij expert uitkomt, heeft aan basis niet genoeg.
+- **De PDCA-cyclus** met de eigen werkwijze erin. Dat kader is bewust gekozen:
+  het is de taal waarin HR en preventiemedewerkers over verbetering praten, en
+  het laat zien dat een training een stap in een cyclus is.
+- **Wie wij zijn** in drie kolommen — wie, wat, waarom.
+
+Verder: uitklapbare programmablokken op elke trainingspagina, een niveaufilter
+op de trainingenlijst en uitklapbare vragen.
 
 Alles daarvan werkt **zonder JavaScript** — via `:has()`, `:checked`,
 `<details>` en `animation-timeline`. Er staat geen enkel script op de site.
-Dat is geen principekwestie maar een eis: AI-crawlers voeren vaak geen
-scripts uit, en de volledige inhoud moet in de HTML staan.
+Dat is geen principekwestie maar een eis: AI-crawlers voeren vaak geen scripts
+uit, en de volledige inhoud moet in de HTML staan.
 
 ### 2.4 Eerst het gezicht, dan de schaal
 
@@ -140,8 +166,8 @@ een eigen CSS-systeem met vaste tokens geeft meer grip en minder standaardlook.
 
 - **Astro 5**, statisch gegenereerd, `trailingSlash: 'always'`
 - **Geen CSS-framework.** Eigen ontwerpsysteem in `src/styles/global.css`
-- **Space Grotesk** voor koppen, **Inter** voor lopende tekst, beide variabel
-  en zelf gehost via `@fontsource-variable`
+- **Manrope** 400–800, zelf gehost vanuit `public/fonts/`. Eén letter voor
+  alles, net als op agressievisie.nl — dat maakt de drie merken familie
 - **Geen JavaScript op de site.** Alle interactie is CSS
 - Content als markdown in `src/content/`, getypeerd via `src/content.config.ts`
 - Sitemap en `robots.txt` automatisch; `llms.txt` wordt uit de content

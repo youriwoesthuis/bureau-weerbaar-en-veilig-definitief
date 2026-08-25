@@ -63,7 +63,7 @@ scripts/
 
 - Astro 5, statisch, `trailingSlash: 'always'`
 - Geen CSS-framework; eigen ontwerpsysteem met tokens
-- Space Grotesk en Inter, variabel en zelf gehost
+- Manrope 400–800, zelf gehost — hetzelfde lettertype als agressievisie.nl
 - Geen JavaScript op de site — alle interactie via `:has()`, `:checked`,
   `<details>` en `animation-timeline`
 - Sitemap en `robots.txt` automatisch, `llms.txt` uit de content gegenereerd

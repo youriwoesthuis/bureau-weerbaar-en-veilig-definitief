@@ -94,7 +94,7 @@ Vaste definities, staan in `NIVEAU_INFO` in `src/lib/site.ts`:
 - **Expert** — beleid, teamnorm, nazorgstructuur en borging. Voor
   leidinggevenden en coördinatoren.
 
-Kleur volgt het niveau: oranje, violet, indigo. Nooit als versiering.
+Kleur volgt het niveau: oranje, paars, diepblauw. Nooit als versiering.
 
 ## 8. Eisen voor vindbaarheid
 
