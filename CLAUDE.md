@@ -67,9 +67,14 @@ zestig tekens.
 
 **Verander je iets aan kleur, dan óók de contrastcontrole** uit
 `scripts/contrast-audit.js` in de browser draaien. Dat script vond tijdens de
-bouw drie kleurfouten die met het oog niet te zien waren. De reden dat het in
+bouw vijf kleurfouten die met het oog niet te zien waren. De reden dat het in
 de browser draait en niet in Node: je hebt echte computed styles nodig om
 doorzichtige kleuren en kleurverlopen door te rekenen.
+
+**Voeg je links toe in een dichte lijst, meet dan de doelgrootte.** De eis is
+24px (WCAG 2.2 AA, 2.5.8). Losse tekstlinks komen daar zonder staand
+binnenwit niet aan: in de voettekst stonden er 43 op 21px. Meet op 375px
+breed, niet alleen op desktop.
 
 ## 6. Vaste feiten over het aanbod
 

@@ -207,7 +207,12 @@ Twee elementen binden de vlakken aan elkaar:
 - Elke `:has()`-constructie hangt aan een echte radioknop of checkbox die met
   het toetsenbord bereikbaar is. De knop is onzichtbaar maar niet
   `display: none`, anders verdwijnt hij uit de tabvolgorde.
-- Doelgrootte minimaal 44px: `min-height: 2.75rem` op alles wat klikbaar is.
+- **Doelgrootte minimaal 24px** (WCAG 2.2 AA, 2.5.8). Knoppen en chips staan
+  op `min-height: 2.75rem` (44px), maar let op de losse tekstlinks in dichte
+  lijsten: die stonden op 19–23px en zijn met `display: inline-block` plus
+  `padding-block` opgetrokken. Dat trof de voettekst (43 links), het
+  kruimelpad, de sectorkoppen in de kaarten en de sectorlink in de
+  trainingskop. Links binnen lopende tekst vallen buiten de eis.
 - Springlink naar de hoofdinhoud staat in `Kop.astro`.
 - Contrast: 4,5:1 voor normale tekst, 3:1 vanaf 24px of 18,66px vet. Gemeten
   met doorrekening van doorzichtige kleuren én kleurverlopen.

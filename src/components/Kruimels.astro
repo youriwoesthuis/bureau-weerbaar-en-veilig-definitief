@@ -34,7 +34,14 @@ const { kruimels } = Astro.props;
     margin: 0;
   }
   .kruimels li { display: flex; align-items: center; gap: 0.4rem; }
-  .kruimels a { color: var(--tekst-gedempt); text-decoration: none; }
+  /* padding-block brengt het klikvlak van 22px naar 30px; onder de 24px
+     voldoet het niet aan de doelgrootte-eis (WCAG 2.2 AA, 2.5.8). */
+  .kruimels a {
+    display: inline-block;
+    padding-block: 0.25rem;
+    color: var(--tekst-gedempt);
+    text-decoration: none;
+  }
   .kruimels a:hover { color: var(--oranje-400); text-decoration: underline; text-underline-offset: 3px; }
   .kruimels [aria-current='page'] { color: var(--tekst-zacht); }
   .scheider { color: var(--tekst-gedempt); opacity: 0.5; }

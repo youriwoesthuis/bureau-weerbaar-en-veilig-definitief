@@ -298,6 +298,10 @@ const feiten = [
   .kop-regel { display: flex; align-items: center; gap: 0.85rem; flex-wrap: wrap; }
   .kop-scheiding { width: 1px; height: 1rem; background: var(--rand-fel); }
   .kop-sector {
+    display: inline-block;
+    /* Zonder dit staat het klikvlak op 23px: één pixel onder de
+       doelgrootte-eis van 24px (WCAG 2.2 AA, 2.5.8). */
+    padding-block: 0.25rem;
     font-family: 'Manrope', system-ui, sans-serif;
     font-size: 0.875rem;
     color: var(--tekst-zacht);

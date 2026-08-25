@@ -118,7 +118,12 @@ const jaar = new Date().getFullYear();
     color: var(--tekst-gedempt);
     margin-bottom: 1rem;
   }
-  .voet-kolom ul { list-style: none; padding: 0; display: grid; gap: 0.4rem; }
+  /* De links stonden op 21px hoog. De doelgrootte-eis (WCAG 2.2 AA, 2.5.8)
+     is 24px; met dit staande binnenwit komen ze op 32px. Op een telefoon
+     scheelt dat echt: negentien sectorlinks vlak onder elkaar zijn anders
+     nauwelijks te raken zonder de verkeerde te pakken. */
+  .voet-kolom ul { list-style: none; padding: 0; display: grid; gap: 0.15rem; }
+  .voet-kolom ul a { display: block; padding-block: 0.35rem; }
 
   /* :not(.knop) is nodig: anders wint deze regel van .knop uit global.css
      en krijgt de oranje knop lichtblauwe tekst (1,02:1). */
@@ -140,5 +145,6 @@ const jaar = new Date().getFullYear();
     font-size: 0.875rem;
     color: var(--tekst-gedempt);
   }
-  .voet-links { display: flex; gap: 1.1rem; list-style: none; padding: 0; margin: 0; }
+  .voet-links { display: flex; gap: 0.5rem; list-style: none; padding: 0; margin: 0; }
+  .voet-links a { display: block; padding: 0.35rem 0.5rem; }
 </style>

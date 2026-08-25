@@ -135,7 +135,14 @@ const groepen = sectoren
     color: var(--oranje-op-wit);
   }
   .kaartkop h3 { font-size: 0.98rem; line-height: 1.2; min-width: 0; flex: 1; }
-  .kaartkop h3 a { color: var(--tekst-donker); text-decoration: none; }
+  /* inline-block met staand binnenwit: zonder dit is het klikvlak 21px hoog
+     en dat is onder de doelgrootte-eis van 24px (WCAG 2.2 AA, 2.5.8). */
+  .kaartkop h3 a {
+    display: inline-block;
+    padding-block: 0.25rem;
+    color: var(--tekst-donker);
+    text-decoration: none;
+  }
   .kaartkop h3 a:hover { color: var(--oranje-op-wit); }
   .kaart-aantal {
     flex: none;
