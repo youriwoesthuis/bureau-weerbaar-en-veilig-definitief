@@ -145,9 +145,14 @@ const openingsantwoord = `Bureau Weerbaar en Veilig is bereikbaar op ${SITE.tele
         ) : (
           <div class="geen-formulier">
             <h2 class="h3">Neem contact op</h2>
+            {/* Hier stond "u krijgt binnen één werkdag antwoord van iemand die
+                de trainingen zelf geeft". Dat had ik verzonnen: er is geen
+                reactietermijn afgesproken en het is niet vastgesteld wie de
+                telefoon opneemt. Een belofte op de site waar de opdrachtgever
+                niet om heeft gevraagd, hoort er niet te staan. */}
             <p class="inleiding">
-              Bel of mail rechtstreeks — u krijgt binnen één werkdag antwoord van
-              iemand die de trainingen zelf geeft.
+              Bel of mail rechtstreeks. Bureau Weerbaar en Veilig is bereikbaar
+              op {SITE.openingstijden.replace('maandag t/m vrijdag', 'werkdagen van')}.
             </p>
             <div class="directe-knoppen">
               <a href={`tel:${SITE.telefoonUri}`} class="knop">
@@ -204,7 +209,7 @@ const openingsantwoord = `Bureau Weerbaar en Veilig is bereikbaar op ${SITE.tele
             <li>Elke training duurt {FEITEN.duur}</li>
             <li>{FEITEN.groepsgrootte.charAt(0).toUpperCase() + FEITEN.groepsgrootte.slice(1)}</li>
             <li>{FEITEN.certificaat.charAt(0).toUpperCase() + FEITEN.certificaat.slice(1)} na afloop</li>
-            <li>Vaste prijs, geen nacalculatie</li>
+            <li>Offerte op maat per aanvraag</li>
           </ul>
           <a href={pad('/aanpak/')} class="pijllink">
             Lees hoe we werken
