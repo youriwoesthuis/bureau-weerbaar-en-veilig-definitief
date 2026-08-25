@@ -83,7 +83,7 @@ const lijst = lijstSchema(
   kruimels={kruimels}
   schema={[lijst].filter(Boolean)}
 >
-  <section class="kop-sectie gloed raster-achtergrond schuin-onder">
+  <section class="kop-sectie op-licht gloed raster-achtergrond schuin-onder">
     <div class="omhulsel kop-binnen">
       <Kruimels kruimels={kruimels} />
       <p class="bovenkop">Het volledige aanbod</p>
@@ -153,12 +153,12 @@ const lijst = lijstSchema(
 
 <style>
   .kop-sectie {
-    background: var(--inkt-950);
+    background: var(--mist-50);
     padding-block: clamp(1.5rem, 1rem + 2vw, 2.5rem) clamp(3rem, 2rem + 4vw, 5.5rem);
   }
   .kop-binnen { display: grid; gap: 1.25rem; justify-items: start; }
   .verloopwoord {
-    background: var(--verloop-tekst);
+    background: var(--verloop-merk);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -203,7 +203,7 @@ const lijst = lijstSchema(
     color: var(--wit);
     font-weight: 600;
   }
-  .filter-radio:checked + .filterknop .stip { background: var(--niveau); }
+  .filter-radio:checked + .filterknop .stip { background: var(--niveau-op-wit); }
 
   .letterbalk { display: flex; flex-wrap: wrap; gap: 0.35rem; }
   .letterknop {

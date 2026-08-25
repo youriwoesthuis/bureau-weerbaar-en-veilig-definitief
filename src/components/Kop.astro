@@ -72,7 +72,10 @@ const actief = (url: string) =>
     position: sticky;
     top: 0;
     z-index: 50;
-    background: color-mix(in oklab, var(--inkt-950) 82%, transparent);
+    /* Niet color-mix(): dat rekent uit tot een oklab()-waarde, en dan meet
+       de contrastcontrole deze balk als een licht vlak. Zelfde kleur
+       (#121216 op 82%), maar leesbaar voor het meetscript. */
+    background: rgba(18, 18, 22, 0.82);
     backdrop-filter: blur(14px);
     border-bottom: 1px solid var(--rand);
   }
@@ -168,6 +171,9 @@ const actief = (url: string) =>
 
   @media (max-width: 900px) {
     .menu-knop {
+      /* Erfde sinds de omslag naar licht de donkere bodytekst, terwijl deze
+         knop op de donkere balk staat. */
+      color: var(--tekst);
       display: inline-flex;
       align-items: center;
       gap: 0.55rem;
@@ -195,6 +201,10 @@ const actief = (url: string) =>
       display: grid;
       gap: 0.25rem;
       padding: 1rem clamp(0.875rem, 4vw, 1.25rem) 1.5rem;
+      /* Het uitklapmenu hoort bij de donkere balk, niet bij de lichte pagina.
+         Met --mist-50 stond hier lichtgrijze tekst op bijna wit; de
+         contrastcontrole zag dat niet, omdat het menu dichtgeklapt op
+         visibility: hidden staat. */
       background: var(--inkt-950);
       border-bottom: 1px solid var(--rand);
       /* Zonder :checked onbereikbaar houden voor toetsenbord en voorlezer */

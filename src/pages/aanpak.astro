@@ -91,7 +91,7 @@ const vragen = [
   niveau="gevorderd"
   kruimels={kruimels}
 >
-  <section class="kop-sectie gloed raster-achtergrond">
+  <section class="kop-sectie op-licht gloed raster-achtergrond">
     <div class="omhulsel kop-binnen">
       <Kruimels kruimels={kruimels} />
       <p class="bovenkop">Aanpak</p>
@@ -106,7 +106,7 @@ const vragen = [
       concurreren en voor de lezer als herhaling lezen. De cyclus hoort op
       deze pagina thuis, dus die staat hier nu voluit; de homepage verwijst
       er alleen nog naar. */}
-  <section class="sectie">
+  <section class="sectie op-wit">
     <div class="omhulsel">
       <div class="kop-blok">
         <p class="bovenkop">Van eerste gesprek tot werkvloer</p>
@@ -138,7 +138,7 @@ const vragen = [
   </section>
 
   <!-- ---------------- Rolverdeling ---------------- -->
-  <section class="sectie">
+  <section class="sectie op-wit">
     <div class="omhulsel">
       <div class="kop-blok">
         <p class="bovenkop">Wie doet wat</p>
@@ -213,7 +213,7 @@ const vragen = [
     </div>
   </section>
 
-  <section class="sectie">
+  <section class="sectie op-wit">
     <div class="omhulsel">
       <div class="kop-blok">
         <p class="bovenkop">Uitgangspunten</p>
@@ -248,12 +248,12 @@ const vragen = [
 
 <style>
   .kop-sectie {
-    background: var(--inkt-950);
+    background: var(--mist-50);
     padding-block: clamp(1.5rem, 1rem + 2vw, 2.5rem) clamp(3rem, 2rem + 4vw, 5.5rem);
   }
   .kop-binnen { display: grid; gap: 1.25rem; justify-items: start; }
   .verloopwoord {
-    background: var(--verloop-tekst);
+    background: var(--verloop-merk);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;

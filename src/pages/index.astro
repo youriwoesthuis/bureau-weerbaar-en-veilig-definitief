@@ -92,11 +92,15 @@ const ingangen = [
 // Korte weergave van de cyclus. De volledige, uitklapbare versie staat op
 // /aanpak/ — die pagina gaat erover, dus daar hoort de uitleg. Hier alleen
 // de vier stappen, zodat de homepage er niet mee gaat concurreren.
+// De vier stops van het logoverloop, maar dan de varianten die op wit
+// leesbaar zijn. De originele tinten (#f18816, #d99a6a, #c49bb0, #8fa2e6)
+// zijn gekozen voor een bijna zwart vlak en halen als tekst op wit de
+// 4,5:1 niet.
 const cyclus = [
-  { letter: 'P', naam: 'Plan', kort: 'Wat speelt er precies?', kleur: '#f18816' },
-  { letter: 'D', naam: 'Do', kort: 'De trainingsdag', kleur: '#d99a6a' },
-  { letter: 'C', naam: 'Check', kort: 'Wat werkt er op de werkvloer?', kleur: '#c49bb0' },
-  { letter: 'A', naam: 'Act', kort: 'Vastleggen en doorgroeien', kleur: '#8fa2e6' },
+  { letter: 'P', naam: 'Plan', kort: 'Wat speelt er precies?', kleur: '#a45a0a' },
+  { letter: 'D', naam: 'Do', kort: 'De trainingsdag', kleur: '#96551f' },
+  { letter: 'C', naam: 'Check', kort: 'Wat werkt er op de werkvloer?', kleur: '#8d6078' },
+  { letter: 'A', naam: 'Act', kort: 'Vastleggen en doorgroeien', kleur: '#4767cc' },
 ];
 
 const praktisch = [
@@ -117,7 +121,7 @@ const praktisch = [
   kruimels={[{ naam: 'Home', url: pad('/') }]}
 >
   <!-- ---------------- Hero ---------------- -->
-  <section class="hero">
+  <section class="hero op-licht">
     <div class="omhulsel hero-raster">
       <div class="hero-tekst">
         <p class="bovenkop">{SITE.slogan}</p>
@@ -246,7 +250,7 @@ const praktisch = [
   </section>
 
   <!-- ---------------- De drie niveaus ---------------- -->
-  <section class="sectie">
+  <section class="sectie op-wit">
     <div class="omhulsel">
       <div class="kop-blok">
         <p class="bovenkop">Drie niveaus</p>
@@ -284,7 +288,7 @@ const praktisch = [
   </section>
 
   <!-- ---------------- Werkwijze, kort ---------------- -->
-  <section class="sectie">
+  <section class="sectie op-wit">
     <div class="omhulsel">
       <div class="kop-blok">
         <p class="bovenkop">Hoe wij werken</p>
@@ -337,7 +341,7 @@ const praktisch = [
   </section>
 
   <!-- ---------------- Praktisch ---------------- -->
-  <section class="sectie-krap">
+  <section class="sectie-krap op-wit">
     <div class="omhulsel">
       <div class="praktischrij">
         {praktisch.map((p) => (
@@ -358,7 +362,7 @@ const praktisch = [
 
 <style>
   .hero {
-    background: var(--inkt-900);
+    background: var(--mist-50);
     padding-block: clamp(3rem, 2rem + 5vw, 6rem) 0;
     position: relative;
     /* Bewust géén overflow: hidden. Dat knipte de cijferstrip af, die er
@@ -391,7 +395,7 @@ const praktisch = [
   .hero-tekst { display: grid; gap: 1.35rem; justify-items: start; }
   .hero-kop { max-width: 16ch; }
   .verloopwoord {
-    background: var(--verloop-tekst);
+    background: var(--verloop-merk);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -426,8 +430,8 @@ const praktisch = [
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(min(100%, 13rem), 1fr));
     gap: 1px;
-    background: var(--rand);
-    border: 1px solid var(--rand);
+    background: var(--rand-licht);
+    border: 1px solid var(--rand-licht);
     border-radius: var(--hoek);
     overflow: hidden;
   }
@@ -436,7 +440,7 @@ const praktisch = [
     align-items: center;
     gap: 0.8rem;
     padding: 1.1rem 1.2rem;
-    background: var(--inkt-850);
+    background: var(--wit);
     border-top: 3px solid var(--fasekleur);
   }
   .cyclusletter {
@@ -459,7 +463,7 @@ const praktisch = [
     font-weight: 800;
     letter-spacing: -0.01em;
   }
-  .cyclustekst small { font-size: 0.85rem; color: var(--tekst-gedempt); line-height: 1.35; }
+  .cyclustekst small { font-size: 0.85rem; color: var(--tekst-donker-zacht); line-height: 1.35; }
 
   /* ---- Praktische feitenrij ---- */
   .praktischrij {
@@ -476,7 +480,7 @@ const praktisch = [
     flex: none;
     border-radius: var(--hoek-klein);
     background: color-mix(in oklab, var(--oranje-500) 16%, transparent);
-    color: var(--oranje-400);
+    color: var(--oranje-op-wit);
   }
   .praktisch-tekst { display: grid; }
   .praktisch-tekst strong {
@@ -485,5 +489,5 @@ const praktisch = [
     font-weight: 800;
     letter-spacing: -0.01em;
   }
-  .praktisch-tekst small { font-size: 0.85rem; color: var(--tekst-gedempt); }
+  .praktisch-tekst small { font-size: 0.85rem; color: var(--tekst-donker-zacht); }
 </style>

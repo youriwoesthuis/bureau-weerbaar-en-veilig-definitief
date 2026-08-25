@@ -168,7 +168,7 @@ const KLEUREN = ['#f18816', '#d99a6a', '#c49bb0', '#8fa2e6'];
     font-size: 21px;
     font-weight: 800;
     letter-spacing: 0.06em;
-    fill: var(--tekst);
+    fill: var(--tekst-donker);
   }
   .ring-hart-klein {
     font-family: 'Manrope', system-ui, sans-serif;
@@ -176,7 +176,7 @@ const KLEUREN = ['#f18816', '#d99a6a', '#c49bb0', '#8fa2e6'];
     font-weight: 600;
     letter-spacing: 0.08em;
     text-transform: uppercase;
-    fill: var(--tekst-gedempt);
+    fill: var(--tekst-donker-zacht);
   }
 
   /* ---- De vier knoppen ---- */
@@ -198,9 +198,9 @@ const KLEUREN = ['#f18816', '#d99a6a', '#c49bb0', '#8fa2e6'];
     gap: 0.45rem;
     min-height: 2.75rem;
     padding: 0.45rem 0.9rem;
-    border: 1px solid var(--rand-fel);
+    border: 1px solid var(--rand-licht);
     border-radius: var(--hoek-rond);
-    color: var(--tekst-zacht);
+    color: var(--tekst-donker-zacht);
     font-family: 'Manrope', system-ui, sans-serif;
     font-size: 0.92rem;
     font-weight: 600;
@@ -220,18 +220,18 @@ const KLEUREN = ['#f18816', '#d99a6a', '#c49bb0', '#8fa2e6'];
     font-weight: 800;
     flex: none;
   }
-  .fase-knop:hover { color: var(--tekst); border-color: var(--tekst-zacht); }
+  .fase-knop:hover { color: var(--tekst-donker); border-color: var(--tekst-donker-zacht); }
   .fase-radio:focus-visible + .fase-knop { outline: 3px solid var(--amber-400); outline-offset: 3px; }
   .fase-radio:checked + .fase-knop {
     background: color-mix(in oklab, var(--fasekleur) 20%, transparent);
     border-color: var(--fasekleur);
-    color: var(--tekst);
+    color: var(--tekst-donker);
   }
 
   /* ---- De panelen ---- */
   .pdca-panelen {
-    background: var(--inkt-850);
-    border: 1px solid var(--rand);
+    background: var(--wit);
+    border: 1px solid var(--rand-licht);
     border-radius: var(--hoek);
     padding: clamp(1.25rem, 1rem + 1.2vw, 2rem);
     min-height: 17rem;
@@ -251,7 +251,7 @@ const KLEUREN = ['#f18816', '#d99a6a', '#c49bb0', '#8fa2e6'];
     color: var(--fasekleur);
   }
   .fase-paneel h3 { font-size: clamp(1.2rem, 1.1rem + 0.5vw, 1.45rem); }
-  .fase-paneel p { color: var(--tekst-zacht); line-height: 1.6; max-width: 44rem; }
+  .fase-paneel p { color: var(--tekst-donker-zacht); line-height: 1.6; max-width: 44rem; }
 
   .fase-uitkomst {
     margin-top: 0.35rem;
@@ -259,5 +259,5 @@ const KLEUREN = ['#f18816', '#d99a6a', '#c49bb0', '#8fa2e6'];
     border-left: 3px solid var(--fasekleur);
     font-size: 0.92rem;
   }
-  .fase-uitkomst strong { color: var(--tekst); font-weight: 700; }
+  .fase-uitkomst strong { color: var(--tekst-donker); font-weight: 700; }
 </style>

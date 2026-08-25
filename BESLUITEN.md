@@ -35,17 +35,19 @@ Status per punt: **[ ]** nog te doen, **[x]** verwerkt.
 ## 2. Verhouding tot de zustermerken
 
 - **Geen kennisbank op BWV.** Alle kennis hoort op AgressieVisie. BWV blijft
-  commercieel: beroepsgroep, niveau, boeken.
+  commercieel: beroepsgroep, niveau, boeken. ✔ Vastgelegd als hoofdstuk 3a in
+  `MERKGROEP.md`.
+
+> **Let op:** `MERKGROEP.md` staat in elke repo van de groep en moet overal
+> gelijk zijn. De bijgewerkte versie moet nog gekopieerd worden naar de repo
+> van agressievisie.nl en naar de werkmap van actinmove.nl.
 - **BWV linkt niet naar AgressieVisie.** Het verkeer loopt alleen de andere kant
-  op. → `MERKGROEP.md` hoofdstuk 3 moet hierop worden aangepast; de regel
-  "Bureau → AgressieVisie contextueel vanuit kennisbankartikelen" vervalt.
+  op. ✔ Verwerkt in `MERKGROEP.md` hoofdstuk 3 op 25-08-2026.
 - **Act in Move verdwijnt uit de voet.** De vermelding blijft alleen op
-  `/over-ons/`. → `MERKGROEP.md` hoofdstuk 3 moet hierop worden aangepast; de
-  regel "Bureau → Act in Move uitsluitend vanuit de footer en /over-ons/" wordt
-  "uitsluitend vanaf /over-ons/".
+  `/over-ons/`. ✔ Verwerkt in `MERKGROEP.md` hoofdstuk 3 op 25-08-2026.
 - **De twee niveauladders blijven verschillend.** Act in Move houdt basis en
-  verdieping, BWV houdt basis, gevorderd en expert. → open punt 6 in
-  `MERKGROEP.md` is hiermee gesloten.
+  verdieping, BWV houdt basis, gevorderd en expert. ✔ Open punt 6 in
+  `MERKGROEP.md` is gesloten op 25-08-2026.
 
 ## 3. Feitelijke correcties
 
@@ -71,7 +73,7 @@ Status per punt: **[ ]** nog te doen, **[x]** verwerkt.
 
 ## 4. Uiterlijk
 
-- [ ] **Licht wordt de basis, donker het accent.** Alleen de balk bovenaan en
+- [x] **Licht wordt de basis, donker het accent.** Alleen de balk bovenaan en
       de voet blijven donker. De donkere tussensecties vervallen.
 - [ ] **Kaarten zijn niet goed uitgelijnd.** Youri pakt het visuele verder stap
       voor stap op; dit is het eerste concrete punt.

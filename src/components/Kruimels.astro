@@ -44,7 +44,10 @@ const { kruimels } = Astro.props;
   }
   .kruimels a:hover { color: var(--oranje-400); text-decoration: underline; text-underline-offset: 3px; }
   .kruimels [aria-current='page'] { color: var(--tekst-zacht); }
-  .scheider { color: var(--tekst-gedempt); opacity: 0.5; }
+  /* Was --tekst-gedempt met opacity 0.5. Op een licht vlak kwam dat uit op
+     2,78:1 — zesendertig keer op de site. De opacity is eruit: een
+     doorzichtige tekstkleur is nooit betrouwbaar te meten of te lezen. */
+  .scheider { color: var(--tekst-donker-zacht); }
 
   :global(.op-licht) .kruimels a,
   :global(.op-wit) .kruimels a { color: var(--tekst-donker-zacht); }

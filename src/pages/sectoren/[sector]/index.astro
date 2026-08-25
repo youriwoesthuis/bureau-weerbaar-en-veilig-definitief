@@ -56,7 +56,7 @@ const schema = [faqSchema(d.veelgestelde_vragen)].filter(Boolean);
   kruimels={kruimels}
   schema={schema}
 >
-  <section class="sector-kop gloed raster-achtergrond">
+  <section class="sector-kop op-licht gloed raster-achtergrond">
     <div class="omhulsel sector-kop-binnen">
       <Kruimels kruimels={kruimels} />
       <p class="bovenkop">Sector</p>
@@ -65,7 +65,7 @@ const schema = [faqSchema(d.veelgestelde_vragen)].filter(Boolean);
     </div>
   </section>
 
-  <section class="sectie-krap">
+  <section class="sectie-krap op-wit">
     <div class="omhulsel">
       <Cijferstrip cijfers={cijfers} />
     </div>
@@ -109,7 +109,7 @@ const schema = [faqSchema(d.veelgestelde_vragen)].filter(Boolean);
     </div>
   </section>
 
-  <section class="sectie">
+  <section class="sectie op-wit">
     <div class="omhulsel">
       <div class="kop-blok">
         <p class="bovenkop">Over deze sector</p>
@@ -143,7 +143,7 @@ const schema = [faqSchema(d.veelgestelde_vragen)].filter(Boolean);
   </section>
 
   {d.veelgestelde_vragen.length > 0 && (
-    <section class="sectie">
+    <section class="sectie op-wit">
       <div class="omhulsel">
         <Vragen
           vragen={d.veelgestelde_vragen}
@@ -167,12 +167,12 @@ const schema = [faqSchema(d.veelgestelde_vragen)].filter(Boolean);
 
 <style>
   .sector-kop {
-    background: var(--inkt-950);
+    background: var(--mist-50);
     padding-block: clamp(1.5rem, 1rem + 2vw, 2.5rem) clamp(3rem, 2rem + 4vw, 5.5rem);
   }
   .sector-kop-binnen { display: grid; gap: 1.25rem; justify-items: start; }
   .sector-titel {
-    background: var(--verloop-tekst);
+    background: var(--verloop-merk);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;

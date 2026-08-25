@@ -115,7 +115,7 @@ const schema = [faqSchema(contactVragen)].filter(Boolean);
   kruimels={kruimels}
   schema={schema}
 >
-  <section class="kop-sectie gloed raster-achtergrond">
+  <section class="kop-sectie op-licht gloed raster-achtergrond">
     <div class="omhulsel kop-binnen">
       <Kruimels kruimels={kruimels} />
       <p class="bovenkop">Contact</p>
@@ -124,7 +124,7 @@ const schema = [faqSchema(contactVragen)].filter(Boolean);
     </div>
   </section>
 
-  <section class="sectie">
+  <section class="sectie op-wit">
     <div class="omhulsel contact-indeling">
       <!-- ---------- Formulier of directe gegevens ---------- -->
       <div class="formulierkant">
@@ -334,7 +334,7 @@ const schema = [faqSchema(contactVragen)].filter(Boolean);
     </div>
   </section>
 
-  <section class="sectie">
+  <section class="sectie op-wit">
     <div class="omhulsel">
       <Vragen vragen={contactVragen} kop="Vragen over aanvraag en offerte" groep="vragen-contact" />
       <p class="vragen-voet">
@@ -349,12 +349,12 @@ const schema = [faqSchema(contactVragen)].filter(Boolean);
 
 <style>
   .kop-sectie {
-    background: var(--inkt-950);
+    background: var(--mist-50);
     padding-block: clamp(1.5rem, 1rem + 2vw, 2.5rem) clamp(3rem, 2rem + 4vw, 5rem);
   }
   .kop-binnen { display: grid; gap: 1.25rem; justify-items: start; }
   .verloopwoord {
-    background: var(--verloop-tekst);
+    background: var(--verloop-merk);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -373,8 +373,8 @@ const schema = [faqSchema(contactVragen)].filter(Boolean);
     display: grid;
     gap: 1.1rem;
     padding: clamp(1.25rem, 1rem + 1.2vw, 2.25rem);
-    background: var(--inkt-850);
-    border: 1px solid var(--rand);
+    background: var(--wit);
+    border: 1px solid var(--rand-licht);
     border-top: 3px solid var(--oranje-500);
     border-radius: var(--hoek);
   }
@@ -389,30 +389,30 @@ const schema = [faqSchema(contactVragen)].filter(Boolean);
     font-family: 'Manrope', system-ui, sans-serif;
     font-size: 0.9rem;
     font-weight: 600;
-    color: var(--tekst);
+    color: var(--tekst-donker);
     padding: 0;
   }
-  .verplicht { color: var(--oranje-400); }
+  .verplicht { color: var(--oranje-op-wit); }
 
   input[type='text'], input[type='email'], input[type='tel'], input[type='number'],
   select, textarea {
     width: 100%;
     min-height: 3rem;
     padding: 0.7rem 0.9rem;
-    background: var(--inkt-950);
-    border: 1px solid var(--rand-fel);
+    background: var(--mist-50);
+    border: 1px solid var(--rand-licht);
     border-radius: var(--hoek);
-    color: var(--tekst);
+    color: var(--tekst-donker);
     font-size: 1rem;
     transition: border-color 160ms, background 160ms;
   }
   textarea { min-height: 8rem; resize: vertical; line-height: 1.6; }
-  input:hover, select:hover, textarea:hover { border-color: var(--tekst-gedempt); }
+  input:hover, select:hover, textarea:hover { border-color: var(--tekst-donker-zacht); }
   input:focus, select:focus, textarea:focus {
     border-color: var(--oranje-500);
-    background: var(--inkt-900);
+    background: var(--mist-50);
   }
-  ::placeholder { color: var(--tekst-gedempt); opacity: 1; }
+  ::placeholder { color: var(--tekst-donker-zacht); opacity: 1; }
 
   .keuzerij { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.15rem; }
   .keuze {
@@ -421,46 +421,46 @@ const schema = [faqSchema(contactVragen)].filter(Boolean);
     gap: 0.5rem;
     min-height: 2.75rem;
     padding: 0.5rem 0.9rem;
-    border: 1px solid var(--rand-fel);
+    border: 1px solid var(--rand-licht);
     border-radius: 999px;
     cursor: pointer;
     font-weight: 500;
     transition: border-color 160ms, background 160ms;
   }
-  .keuze:hover { border-color: var(--niveau); }
-  .keuze input { accent-color: var(--niveau); width: 1.05rem; height: 1.05rem; }
+  .keuze:hover { border-color: var(--niveau-op-wit); }
+  .keuze input { accent-color: var(--niveau-op-wit); width: 1.05rem; height: 1.05rem; }
   .keuze:has(input:checked) {
-    border-color: var(--niveau);
-    background: color-mix(in oklab, var(--niveau) 16%, transparent);
+    border-color: var(--niveau-op-wit);
+    background: color-mix(in oklab, var(--niveau-op-wit) 16%, transparent);
   }
 
-  .privacyregel { font-size: 0.85rem; color: var(--tekst-gedempt); }
-  .privacyregel a { color: var(--oranje-400); }
+  .privacyregel { font-size: 0.85rem; color: var(--tekst-donker-zacht); }
+  .privacyregel a { color: var(--oranje-op-wit); }
 
   .formulier button { justify-self: start; }
 
   .directe-knoppen { display: flex; flex-wrap: wrap; gap: 0.75rem; }
   .notitie {
     font-size: 0.85rem;
-    color: var(--tekst-gedempt);
+    color: var(--tekst-donker-zacht);
     padding: 0.9rem 1rem;
-    background: var(--inkt-950);
-    border-left: 3px solid var(--paars-400);
+    background: var(--mist-50);
+    border-left: 3px solid var(--paars-op-wit);
     border-radius: var(--hoek);
   }
-  .notitie code { font-size: 0.95em; color: var(--tekst-zacht); }
+  .notitie code { font-size: 0.95em; color: var(--tekst-donker-zacht); }
 
   .gegevens { display: grid; gap: 1rem; }
   .gegevensblok {
     display: grid;
     gap: 0.7rem;
     padding: clamp(1.1rem, 1rem + 0.5vw, 1.5rem);
-    background: var(--inkt-850);
-    border: 1px solid var(--rand);
-    border-left: 3px solid var(--niveau);
+    background: var(--wit);
+    border: 1px solid var(--rand-licht);
+    border-left: 3px solid var(--niveau-op-wit);
     border-radius: var(--hoek);
   }
-  .gegevensblok :global(.chevron) { color: var(--niveau); }
+  .gegevensblok :global(.chevron) { color: var(--niveau-op-wit); }
 
   .gegevenslijst, .feitlijst { list-style: none; padding: 0; margin: 0; display: grid; gap: 0.7rem; }
   .gegevenslijst li { display: grid; gap: 0.1rem; }
@@ -469,21 +469,21 @@ const schema = [faqSchema(contactVragen)].filter(Boolean);
     font-weight: 600;
     letter-spacing: 0.12em;
     text-transform: uppercase;
-    color: var(--tekst-gedempt);
+    color: var(--tekst-donker-zacht);
   }
   .gegevenslijst a {
     font-family: 'Manrope', system-ui, sans-serif;
     font-weight: 600;
-    color: var(--tekst);
+    color: var(--tekst-donker);
     text-decoration: none;
   }
-  .gegevenslijst a:hover { color: var(--oranje-400); text-decoration: underline; text-underline-offset: 3px; }
+  .gegevenslijst a:hover { color: var(--oranje-op-wit); text-decoration: underline; text-underline-offset: 3px; }
 
   .feitlijst li {
     position: relative;
     padding-left: 1.1rem;
     font-size: 0.92rem;
-    color: var(--tekst-zacht);
+    color: var(--tekst-donker-zacht);
   }
   .feitlijst li::before {
     content: '';
@@ -493,11 +493,11 @@ const schema = [faqSchema(contactVragen)].filter(Boolean);
     width: 0.4rem;
     height: 0.4rem;
     border-radius: 50%;
-    background: var(--niveau);
+    background: var(--niveau-op-wit);
   }
 
-  address { font-style: normal; line-height: 1.7; color: var(--tekst-zacht); }
-  .klein { font-size: 0.85rem; color: var(--tekst-gedempt); }
+  address { font-style: normal; line-height: 1.7; color: var(--tekst-donker-zacht); }
+  .klein { font-size: 0.85rem; color: var(--tekst-donker-zacht); }
 
   /* De vier dingen die in een aanvraag horen. Kolommen in plaats van een
      grid: dan bepaalt de langste kaart niet de hoogte van alle vier. */

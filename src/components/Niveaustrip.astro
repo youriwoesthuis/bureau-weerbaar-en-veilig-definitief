@@ -50,10 +50,13 @@ const REGEL: Record<(typeof NIVEAUS)[number], string> = {
     border: 1px solid var(--rand-licht);
     border-radius: var(--hoek);
     padding: clamp(1rem, 0.85rem + 0.8vw, 1.5rem);
+    box-shadow: var(--schaduw-md);
   }
-  /* Zelfde truc als bij de oude cijferstrip: over de onderrand van de hero
-     heen. De hero mag daarom geen overflow: hidden hebben. */
-  .niveaustrip.overlappend { margin-top: clamp(-4.5rem, -3rem - 3vw, -2.5rem); }
+  /* De oude cijferstrip viel met een negatieve marge over de onderrand van
+     de hero heen: dat bond een donker en een licht vlak aan elkaar. Nu de
+     hero zelf licht is, valt er niets meer te binden en botste de strip
+     alleen nog met de knoppen erboven. Gewone ruimte dus. */
+  .niveaustrip.overlappend { margin-top: clamp(1.75rem, 1rem + 2vw, 3rem); }
 
   .strip-kop {
     display: flex;

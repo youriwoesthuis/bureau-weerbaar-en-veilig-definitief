@@ -59,7 +59,7 @@ const cijfers = [
   niveau="gevorderd"
   kruimels={kruimels}
 >
-  <section class="kop-sectie gloed raster-achtergrond">
+  <section class="kop-sectie op-licht gloed raster-achtergrond">
     <div class="omhulsel kop-binnen">
       <Kruimels kruimels={kruimels} />
       <p class="bovenkop">Over ons</p>
@@ -68,7 +68,7 @@ const cijfers = [
     </div>
   </section>
 
-  <section class="sectie-krap">
+  <section class="sectie-krap op-wit">
     <div class="omhulsel"><Cijferstrip cijfers={cijfers} /></div>
   </section>
 
@@ -106,7 +106,7 @@ const cijfers = [
     </div>
   </section>
 
-  <section class="sectie">
+  <section class="sectie op-wit">
     <div class="omhulsel">
       <div class="kop-blok">
         <p class="bovenkop">Het team</p>
@@ -168,12 +168,12 @@ const cijfers = [
 
 <style>
   .kop-sectie {
-    background: var(--inkt-950);
+    background: var(--mist-50);
     padding-block: clamp(1.5rem, 1rem + 2vw, 2.5rem) clamp(3rem, 2rem + 4vw, 5.5rem);
   }
   .kop-binnen { display: grid; gap: 1.25rem; justify-items: start; }
   .verloopwoord {
-    background: var(--verloop-tekst);
+    background: var(--verloop-merk);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -198,8 +198,8 @@ const cijfers = [
     grid-template-columns: auto minmax(0, 1fr);
     gap: 1.1rem;
     padding: clamp(1.1rem, 1rem + 0.6vw, 1.6rem);
-    background: var(--inkt-850);
-    border: 1px solid var(--rand);
+    background: var(--wit);
+    border: 1px solid var(--rand-licht);
     border-radius: var(--hoek);
     align-items: start;
   }
@@ -212,9 +212,9 @@ const cijfers = [
     height: 3.5rem;
     flex: none;
     border-radius: var(--hoek);
-    background: color-mix(in oklab, var(--niveau) 22%, var(--inkt-800));
-    border: 1px solid color-mix(in oklab, var(--niveau) 45%, transparent);
-    color: var(--niveau);
+    background: color-mix(in oklab, var(--niveau-op-wit) 22%, var(--mist-100));
+    border: 1px solid color-mix(in oklab, var(--niveau-op-wit) 45%, transparent);
+    color: var(--niveau-op-wit);
     font-family: 'Manrope', system-ui, sans-serif;
     font-size: 1.15rem;
     font-weight: 700;
@@ -227,9 +227,9 @@ const cijfers = [
     font-family: 'Manrope', system-ui, sans-serif;
     font-size: 0.85rem;
     font-weight: 600;
-    color: var(--niveau);
+    color: var(--niveau-op-wit);
   }
-  .teamlid-body { font-size: 0.92rem; color: var(--tekst-zacht); margin-top: 0.4rem; }
+  .teamlid-body { font-size: 0.92rem; color: var(--tekst-donker-zacht); margin-top: 0.4rem; }
   .teamlid-body :global(p + p) { margin-top: 0.8em; }
 
   .adresblok {

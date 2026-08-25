@@ -7,7 +7,9 @@ voor actinmove.nl — dat heeft geen repo, maar valt wel onder deze afspraken.
 Doel: de drie sites versterken elkaar in plaats van elkaar te beconcurreren, bij
 klassieke zoekmachines én bij AI-antwoordsystemen.
 
-Laatst gemeten en herzien: **24 augustus 2026**.
+Laatst gemeten en herzien: **25 augustus 2026**. Wijzigingen van die datum komen
+uit een besluitenronde met de opdrachtgever; zie `BESLUITEN.md` in de repo van
+bureauweerbaarenveilig.nl.
 
 ---
 
@@ -42,15 +44,45 @@ controleren, en dat hoort bij elke nieuwe pagina te gebeuren.
 
 ## 3. Onderlinge links
 
+De links lopen bewust asymmetrisch: naar Bureau toe, en er nauwelijks vandaan.
+Bureau is de plek waar de transactie hoort te gebeuren.
+
 - **AgressieVisie → Bureau** bij trainingsintentie, met expliciete vermelding dat
   het dezelfde organisatie is. Zonder die vermelding breekt het redactiestatuut.
 - **AgressieVisie → Act in Move** bij bredere communicatie- en coachingvragen.
 - **Act in Move → Bureau** vanaf de agressietrainingpagina's: wie het per
   beroepsgroep en niveau wil, gaat naar de specialist.
-- **Bureau → Act in Move** uitsluitend vanuit de footer en `/over-ons/`, nooit
-  vanaf een trainingspagina. De transactie moet op Bureau blijven.
-- **Bureau → AgressieVisie** contextueel vanuit kennisbankartikelen, naar het
-  specifieke achtergrondartikel, niet naar de homepage.
+- **Bureau → Act in Move** uitsluitend vanaf `/over-ons/`. *Herzien 25-08-2026:*
+  stond eerder ook in de footer van elke pagina. Bureau moet zelfstandig lezen;
+  een bezoeker die op een trainingspagina staat, hoort daar niet weggeleid te
+  worden naar het moederbedrijf.
+- **Bureau → AgressieVisie: niet.** *Herzien 25-08-2026:* dit was "contextueel
+  vanuit kennisbankartikelen". Bureau heeft geen kennisbank meer (zie hoofdstuk
+  2a), dus die route bestaat niet, en er komt geen vervangende route voor. Het
+  verkeer tussen deze twee loopt één kant op.
+
+## 3a. Kennis hoort op AgressieVisie
+
+*Toegevoegd 25-08-2026.* Bureau Weerbaar en Veilig heeft **geen kennisbank**. De
+vorige versie van die site had er 53 artikelen; die komen niet terug. Alle
+kennis over agressie — cijfers, methodiek, wetgeving, achtergrond — hoort op
+AgressieVisie.
+
+Dat is niet alleen een taakverdeling maar ook wat de scheiding scherp houdt:
+zodra Bureau gaat uitleggen wat agressie is, ordent het op thema in plaats van
+op beroepsgroep, en botst het met allebei de andere merken tegelijk.
+
+Bureau blijft daarmee zuiver commercieel: beroepsgroep, niveau, boeken.
+
+## 3b. Het niveaumodel heet De Weerbaarheidsladder
+
+*Toegevoegd 25-08-2026.* De drie niveaus van Bureau — herkennen, begrenzen,
+borgen — hebben een naam gekregen. Dat maakt ze aanwijsbaar in een offerte en
+in een opleidingsplan, en citeerbaar voor een AI-antwoordsysteem.
+
+De naam hoort bij Bureau en wordt door de andere twee merken niet gebruikt.
+AgressieVisie mag ernaar verwijzen als het model van Bureau; Act in Move houdt
+zijn eigen indeling (basis en verdieping).
 
 ## 4. Schema.org
 
@@ -96,10 +128,15 @@ repo's van de andere twee sites.
 
 ### bureauweerbaarenveilig.nl
 
-- 426 pagina's: 132 trainingen, 19 sectoren, 44 beroepsgroepen, 53
-  kennisbankartikelen, 8 teamleden; 166 redirects
+De cijfers hieronder gingen over de vorige versie van de site. **Bijgewerkt op
+25-08-2026** naar de herbouwde versie:
+
+- 207 pagina's: 132 trainingen, 19 sectoren, 44 beroepsgroepen, 12 teamleden en
+  de vaste pagina's. Geen kennisbank en geen redirects.
 - Titels consequent "Agressietraining {sector}" en
   "agressietraining-{beroepsgroep}-{niveau}"
+- `FAQPage` op 196 pagina's, met per pagina andere vragen
+- Geen uitvoerbare JavaScript; de enige script-tags zijn JSON-LD
 - Het eigen domein draait op dit moment nog een WordPress-wachtpagina
 
 ### agressievisie.nl
@@ -131,9 +168,10 @@ repo's van de andere twee sites.
    non-www staat: rechtzetten.
 5. **llms.txt van AgressieVisie bijwerken.** Die beschrijft nu een groep van twee
    merken.
-6. **Twee niveauladders naast elkaar.** Act in Move heeft basis en verdieping,
-   Bureau heeft basis, gevorderd en expert. Geen zoekprobleem, wel verwarrend voor
-   een inkoper die beide ziet. Nog te beslissen of dit gelijkgetrokken wordt.
+6. ~~**Twee niveauladders naast elkaar.**~~ **Gesloten op 25-08-2026:** ze
+   blijven verschillend. De merken ordenen op een andere as, dus een andere
+   ladder hoort daarbij. Act in Move houdt basis en verdieping; Bureau houdt
+   basis, gevorderd en expert, nu onder de naam De Weerbaarheidsladder.
 7. **Gedeelde KvK-naam (`legalName`)** is nog niet ingevuld op de drie sites.
 
 ## 8. Wat hier is herzien

@@ -16,7 +16,7 @@ const sectoren = (await getCollection('sectoren')).sort((a, b) =>
   niveau="basis"
   noindex={true}
 >
-  <section class="vier-nul-vier gloed raster-achtergrond">
+  <section class="vier-nul-vier op-licht gloed raster-achtergrond">
     <div class="omhulsel binnen">
       <Chevron aantal={3} breedte="3rem" verloop={true} />
       <p class="bovenkop">Foutmelding 404</p>
@@ -48,7 +48,7 @@ const sectoren = (await getCollection('sectoren')).sort((a, b) =>
 
 <style>
   .vier-nul-vier {
-    background: var(--inkt-950);
+    background: var(--mist-50);
     min-height: 70vh;
     display: grid;
     align-items: center;
@@ -56,7 +56,7 @@ const sectoren = (await getCollection('sectoren')).sort((a, b) =>
   }
   .binnen { display: grid; gap: 1.15rem; justify-items: start; }
   .verloopwoord {
-    background: var(--verloop-tekst);
+    background: var(--verloop-merk);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -67,14 +67,14 @@ const sectoren = (await getCollection('sectoren')).sort((a, b) =>
     width: 100%;
     margin-top: 1.5rem;
     padding-top: 1.5rem;
-    border-top: 1px solid var(--rand);
+    border-top: 1px solid var(--rand-licht);
   }
   .etiket {
     font-size: 0.75rem;
     font-weight: 600;
     letter-spacing: 0.14em;
     text-transform: uppercase;
-    color: var(--tekst-gedempt);
+    color: var(--tekst-donker-zacht);
     margin-bottom: 0.9rem;
   }
   .sectorwegen ul {
@@ -90,15 +90,15 @@ const sectoren = (await getCollection('sectoren')).sort((a, b) =>
     align-items: center;
     min-height: 2.5rem;
     padding: 0.4rem 0.85rem;
-    border: 1px solid var(--rand-fel);
+    border: 1px solid var(--rand-licht);
     border-radius: 999px;
-    color: var(--tekst-zacht);
+    color: var(--tekst-donker-zacht);
     text-decoration: none;
     font-size: 0.9rem;
     transition: color 160ms, border-color 160ms, transform 160ms;
   }
   .sectorwegen a:hover {
-    color: var(--oranje-400);
+    color: var(--oranje-op-wit);
     border-color: var(--oranje-500);
     transform: translateY(-1px);
   }

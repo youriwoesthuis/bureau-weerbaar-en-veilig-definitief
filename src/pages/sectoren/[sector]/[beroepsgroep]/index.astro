@@ -57,7 +57,7 @@ const schema = [faqSchema(d.veelgestelde_vragen)].filter(Boolean);
   kruimels={kruimels}
   schema={schema}
 >
-  <section class="groep-kop gloed schuin-onder">
+  <section class="groep-kop op-licht gloed schuin-onder">
     <div class="omhulsel groep-kop-raster">
       <div class="groep-kop-binnen">
         <Kruimels kruimels={kruimels} />
@@ -94,7 +94,7 @@ const schema = [faqSchema(d.veelgestelde_vragen)].filter(Boolean);
     </div>
   </section>
 
-  <section class="sectie">
+  <section class="sectie op-wit">
     <div class="omhulsel">
       <div class="kop-blok">
         <p class="bovenkop">De praktijk</p>
@@ -128,7 +128,7 @@ const schema = [faqSchema(d.veelgestelde_vragen)].filter(Boolean);
   )}
 
   {d.veelgestelde_vragen.length > 0 && (
-    <section class="sectie">
+    <section class="sectie op-wit">
       <div class="omhulsel">
         <Vragen
           vragen={d.veelgestelde_vragen}
@@ -152,7 +152,7 @@ const schema = [faqSchema(d.veelgestelde_vragen)].filter(Boolean);
 
 <style>
   .groep-kop {
-    background: var(--inkt-950);
+    background: var(--mist-50);
     padding-block: clamp(1.5rem, 1rem + 2vw, 2.5rem) clamp(3rem, 2rem + 4vw, 5rem);
   }
   /* minmax(0, ...) is nodig, anders duwt de lange kop de illustratie weg
@@ -178,14 +178,14 @@ const schema = [faqSchema(d.veelgestelde_vragen)].filter(Boolean);
     list-style: none;
     padding: 1.25rem 0 0;
     margin: 0.25rem 0 0;
-    border-top: 1px solid var(--rand);
+    border-top: 1px solid var(--rand-licht);
     width: 100%;
-    color: var(--tekst-zacht);
+    color: var(--tekst-donker-zacht);
     font-size: 0.95rem;
   }
   .snelfeiten strong {
     font-family: 'Manrope', system-ui, sans-serif;
-    color: var(--oranje-400);
+    color: var(--oranje-op-wit);
     font-weight: 700;
   }
 
