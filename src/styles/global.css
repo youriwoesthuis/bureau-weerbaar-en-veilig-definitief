@@ -1,34 +1,52 @@
 /* =========================================================================
    Bureau Weerbaar en Veilig — ontwerpsysteem
-   Donker-eerst, felle kleuren, gebouwd om compleet te ogen zonder fotografie.
+   Donker-eerst, kleuren gemeten uit het logo, gebouwd om compleet te ogen
+   zonder fotografie.
 
    Kleur draagt betekenis, nooit versiering:
-     oranje = basis     violet = gevorderd     indigo = expert
+     oranje = basis     paars = gevorderd     diepblauw = expert
    ========================================================================= */
 
 /* ---------- 1. Tokens ---------------------------------------------------- */
+/*
+ * Alle kleuren komen uit public/images/logo/logo-origineel.png, gemeten uit
+ * de pixels van het bestand — niet gekozen, niet benaderd.
+ *
+ *   #f18816  oranje     — de bol, de bovenkant van de chevron, "Bureau"
+ *   #8b5e76  paars      — het middenpunt van het verloop in de chevron
+ *   #284191  diepblauw  — de onderkant van de chevron
+ *   #212e56  marine     — "Weerbaar en Veilig" in het woordmerk
+ *
+ * Waar een logokleur genoeg contrast haalt, staat hij hieronder ongewijzigd.
+ * Waar dat niet kan, is alleen de lichtheid bijgesteld en blijft de tint
+ * exact gelijk. Elke afwijking staat erbij met de reden.
+ */
 :root {
-  /* Donkere basis — de site staat hierop */
-  --inkt-950: #07081a;
-  --inkt-900: #0b0d26;
-  --inkt-850: #0f1233;
-  --inkt-800: #121640;
-  --inkt-700: #1b2159;
-  --inkt-600: #262e73;
+  /* De vier logokleuren, onaangeroerd. Gebruik deze voor vlakken,
+     verlopen en het beeldmerk zelf — niet voor kleine tekst. */
+  --logo-oranje: #f18816;
+  --logo-paars: #8b5e76;
+  --logo-blauw: #284191;
+  --logo-marine: #212e56;
 
-  /* Felle merkkleuren */
-  --indigo-600: #2d37a8;
-  --indigo-500: #3b47d4;
-  /* Bewust lichter dan #5a66f0: die haalde in de expert-badge maar 3,98:1
-     tegen zijn eigen doorzichtige vulling. Deze komt op 5,07:1. */
-  --indigo-400: #8b95ff;
-  --violet-600: #7b2fe0;
-  --violet-500: #9333ea;
-  --violet-400: #a855f7;
-  --oranje-600: #e2620a;
-  --oranje-500: #ff7a18;
-  --oranje-400: #ff9838;
-  --amber-400: #ffb020;
+  /* Donkere ondergronden: de marinetint van het woordmerk, uitgedund
+     tot een reeks. Zelfde tint, alleen donkerder. */
+  --inkt-950: #0a0e1a;
+  --inkt-900: #0f1527;
+  --inkt-850: #131b32;
+  --inkt-800: #17213d;
+  --inkt-700: #212d55; /* dit is het marineblauw van het woordmerk zelf */
+  --inkt-600: #2c3d72;
+
+  /* Accentkleuren op donkere vlakken.
+     Oranje kan onveranderd: #f18816 haalt 7,15:1 op --inkt-900.
+     Paars (3,42:1) en blauw (1,95:1) niet — die zijn lichter gemaakt met
+     behoud van tint, tot ze ook op hun eigen badge-vulling 4,5:1 halen. */
+  --oranje-500: #f18816;
+  --oranje-400: #f6a03a;
+  --paars-400: #b490a3;
+  --blauw-400: #8398dd;
+  --amber-400: #f6a03a;
 
   /* Lichte vlakken */
   --wit: #ffffff;
@@ -37,17 +55,19 @@
   --mist-200: #dcdeed;
 
   /* Tekst op donker */
-  --tekst: #eef0ff;
-  --tekst-zacht: #b9c0e8;
-  --tekst-gedempt: #8f98c9;
+  --tekst: #eef0f8;
+  --tekst-zacht: #b6bdd4;
+  --tekst-gedempt: #8b93b0;
 
-  /* Tekst op licht — de felle kleuren halen op wit geen contrast,
-     daarom aparte, donkerdere varianten. Nooit door elkaar gebruiken. */
-  --tekst-donker: #0b0d26;
-  --tekst-donker-zacht: #3d4470;
-  --oranje-op-wit: #9a4a05;
-  --violet-op-wit: #7c22ce;
-  --indigo-op-wit: #2f3ab8;
+  /* Accentkleuren op lichte vlakken.
+     Blauw (9,31:1) en paars (5,30:1) zouden onveranderd kunnen, maar zijn
+     licht bijgesteld zodat ze ook op hun eigen badge-vulling voldoen.
+     Oranje moest wél donkerder: #f18816 haalt op wit maar 2,54:1. */
+  --tekst-donker: #131b32;
+  --tekst-donker-zacht: #414a6b;
+  --oranje-op-wit: #a45a0a;
+  --paars-op-wit: #8d6078;
+  --blauw-op-wit: #4767cc;
 
   /* Randen en scheidingen */
   --rand: color-mix(in oklab, var(--tekst) 14%, transparent);
@@ -58,10 +78,32 @@
   --niveau: var(--oranje-500);
   --niveau-op-wit: var(--oranje-op-wit);
 
-  /* Merkverloop, afgeleid van het logo */
-  --verloop-merk: linear-gradient(135deg, #ff9838 0%, #ff7a18 22%, #9333ea 62%, #3b47d4 100%);
-  --verloop-warm: linear-gradient(135deg, #ffb020 0%, #ff7a18 100%);
-  --verloop-koel: linear-gradient(135deg, #9333ea 0%, #3b47d4 100%);
+  /* Het merkverloop: de kleurstops zoals ze in het logobestand staan,
+     gemeten over 14.000 pixels van het beeldmerk. Niet bijgekleurd. */
+  --verloop-merk: linear-gradient(
+    160deg,
+    #f18816 0%,
+    #ea8627 27%,
+    #ce784a 45%,
+    #8b5e76 72%,
+    #284191 100%
+  );
+  /* Hetzelfde verloop, maar voor tékst op een donkere achtergrond.
+     Het diepblauw van het logo haalt daar 1,95:1 — in een kop van 100px
+     loopt het laatste woord dus weg in de achtergrond. Deze variant houdt
+     dezelfde tinten aan en licht alleen de staart op tot leesbaar niveau.
+     Gebruik --verloop-merk voor vlakken en beeldmerk, deze voor tekst. */
+  --verloop-tekst: linear-gradient(
+    100deg,
+    #f18816 0%,
+    #e29154 38%,
+    #b490a3 68%,
+    #8398dd 100%
+  );
+  /* De warme kop van het verloop, voor knoppen. */
+  --verloop-warm: linear-gradient(135deg, #f6a03a 0%, #e87e12 100%);
+  /* De koele staart, vanaf het paarse middenpunt. */
+  --verloop-koel: linear-gradient(135deg, #8b5e76 0%, #284191 100%);
 
   /* Ritme */
   --hoek: 4px;
@@ -75,8 +117,8 @@
   /* Op donker werkt licht beter dan schaduw */
   --gloed-oranje: 0 0 0 1px color-mix(in oklab, var(--oranje-500) 40%, transparent),
                   0 18px 50px -20px color-mix(in oklab, var(--oranje-500) 55%, transparent);
-  --gloed-violet: 0 0 0 1px color-mix(in oklab, var(--violet-500) 40%, transparent),
-                  0 18px 50px -20px color-mix(in oklab, var(--violet-500) 55%, transparent);
+  --gloed-koel: 0 0 0 1px color-mix(in oklab, var(--logo-blauw) 45%, transparent),
+                0 18px 50px -20px color-mix(in oklab, var(--logo-blauw) 60%, transparent);
 }
 
 /* ---------- 2. Reset ----------------------------------------------------- */
@@ -344,9 +386,11 @@ h4, .h4 { font-size: clamp(1.1rem, 1rem + 0.4vw, 1.3rem); line-height: 1.25; }
   border-color: color-mix(in oklab, var(--niveau-op-wit) 35%, transparent);
 }
 
+/* De drie niveaus volgen het verloop van het logo, van boven naar beneden:
+   oranje bovenaan, paars in het midden, diepblauw onderaan. */
 [data-niveau="basis"]     { --niveau: var(--oranje-500); --niveau-op-wit: var(--oranje-op-wit); }
-[data-niveau="gevorderd"] { --niveau: var(--violet-400); --niveau-op-wit: var(--violet-op-wit); }
-[data-niveau="expert"]    { --niveau: var(--indigo-400); --niveau-op-wit: var(--indigo-op-wit); }
+[data-niveau="gevorderd"] { --niveau: var(--paars-400);  --niveau-op-wit: var(--paars-op-wit); }
+[data-niveau="expert"]    { --niveau: var(--blauw-400);  --niveau-op-wit: var(--blauw-op-wit); }
 [data-niveau="geen"]      { --niveau: var(--tekst-gedempt); --niveau-op-wit: var(--tekst-donker-zacht); }
 
 /* ---------- 9. Toegankelijkheid ------------------------------------------ */
@@ -355,7 +399,7 @@ h4, .h4 { font-size: clamp(1.1rem, 1rem + 0.4vw, 1.3rem); line-height: 1.25; }
   outline-offset: 3px;
   border-radius: 2px;
 }
-.op-licht :focus-visible, .op-wit :focus-visible { outline-color: var(--violet-op-wit); }
+.op-licht :focus-visible, .op-wit :focus-visible { outline-color: var(--blauw-op-wit); }
 
 .springlink {
   position: absolute;
@@ -426,9 +470,9 @@ h4, .h4 { font-size: clamp(1.1rem, 1rem + 0.4vw, 1.3rem); line-height: 1.25; }
   height: 120%;
   z-index: -1;
   background:
-    radial-gradient(52% 46% at 12% 8%,  color-mix(in oklab, var(--oranje-500) 30%, transparent) 0%, transparent 62%),
-    radial-gradient(46% 44% at 88% 22%, color-mix(in oklab, var(--violet-500) 34%, transparent) 0%, transparent 64%),
-    radial-gradient(60% 50% at 58% 92%, color-mix(in oklab, var(--indigo-500) 32%, transparent) 0%, transparent 66%);
+    radial-gradient(52% 46% at 12% 8%,  color-mix(in oklab, var(--logo-oranje) 34%, transparent) 0%, transparent 62%),
+    radial-gradient(46% 44% at 88% 22%, color-mix(in oklab, var(--logo-paars) 42%, transparent) 0%, transparent 64%),
+    radial-gradient(60% 50% at 58% 92%, color-mix(in oklab, var(--logo-blauw) 48%, transparent) 0%, transparent 66%);
   pointer-events: none;
 }
 

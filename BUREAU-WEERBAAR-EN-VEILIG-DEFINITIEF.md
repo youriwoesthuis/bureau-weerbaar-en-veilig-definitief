@@ -61,25 +61,47 @@ Het `afbeelding:`-veld staat nog in het contentmodel maar wordt door **geen
 enkele template gebruikt**. Er kan dus geen gebroken afbeelding ontstaan.
 Komen er ooit echte foto's, dan is dat een bewuste toevoeging.
 
-### 2.2 Kleur betekent iets
+### 2.2 De kleuren komen uit het logo, gemeten
 
-De felle kleuren die je vroeg — donkerblauw/paars en oranje — dragen
-informatie in plaats van sfeer:
+Niet gekozen en niet benaderd: de kleuren zijn uit de pixels van
+`public/images/logo/logo-origineel.png` gelezen, over 14.000 pixels van het
+beeldmerk.
 
-| Kleur | Token | Betekenis |
+| Rol | Waarde | Waar in het logo |
 |---|---|---|
-| Oranje | `--oranje-500` `#ff7a18` | niveau **basis** |
-| Violet | `--violet-400` `#a855f7` | niveau **gevorderd** |
-| Indigo | `--indigo-400` `#8b95ff` | niveau **expert** |
+| Oranje | `#f18816` | de bol, de bovenkant van de chevron, "Bureau" |
+| Paars | `#8b5e76` | het middenpunt van het verloop |
+| Diepblauw | `#284191` | de onderkant van de chevron |
+| Marine | `#212e56` | "Weerbaar en Veilig" |
 
-Eén plek regelt dit: `[data-niveau="…"]` in `global.css` zet `--niveau`, en
-elk onderdeel gebruikt die variabele. Je ziet dus aan de kleur waar je bent,
-zonder dat er een woord bij hoeft.
+Het merkverloop is diezelfde reeks, met de stops op de plek waar ze in het
+bestand liggen. De donkere ondergronden van de site zijn het marineblauw van
+het woordmerk, alleen donkerder gemaakt.
 
-**Belangrijk:** de felle kleuren halen op wit geen contrast. Daarom bestaat
-elke kleur in twee varianten — `--oranje-500` voor donkere vlakken en
-`--oranje-op-wit` (`#9a4a05`) voor lichte. Nooit door elkaar gebruiken; het
-contrastscript vindt het anders alsnog.
+De drie niveaus volgen het verloop van boven naar beneden — de volgorde die
+het logo zelf al maakt: **oranje = basis, paars = gevorderd, diepblauw =
+expert.** Eén plek regelt dat: `[data-niveau="…"]` in `global.css` zet
+`--niveau`, en elk onderdeel gebruikt die variabele.
+
+**Waar een kleur afwijkt, is alleen de lichtheid bijgesteld en is de tint
+exact gelijk gebleven.** Dat moest op drie plekken, want een kleur die in
+een logo werkt, werkt niet automatisch als tekst:
+
+- Oranje staat op donkere vlakken onveranderd (7,15:1), maar haalt op wit
+  maar 2,54:1 — daar staat `#a45a0a`.
+- Diepblauw haalt op wit 9,31:1, maar op donker 1,95:1.
+- Paars haalt op donker 3,42:1, te weinig voor tekst.
+
+Om dezelfde reden zijn er twee verlopen: `--verloop-merk` is het logoverloop
+onaangeroerd, voor het beeldmerk en gekleurde vlakken. `--verloop-tekst`
+gebruikt dezelfde tinten met een lichtere staart, voor de grote koppen —
+anders loopt het laatste woord van "Agressietraining voor uw beroepsgroep"
+weg in de achtergrond.
+
+Eén observatie om te weten: het paars van het logo is het punt waar oranje
+en blauw in elkaar overlopen. Het is daardoor van nature een gedempte tint
+en geen fel paars. Dat is geen fout in de afleiding maar een eigenschap van
+het logo — het valt op omdat het tussen twee sterke kleuren staat.
 
 ### 2.3 Er valt iets te doen
 

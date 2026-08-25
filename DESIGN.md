@@ -26,16 +26,60 @@ gebruikt. Zo kan er geen gebroken afbeelding ontstaan.
 
 ---
 
-## 2. Kleur betekent niveau
+## 2. Kleur komt uit het logo
 
-Kleur is nooit versiering. Ze zegt op welk niveau je bent:
+**Alle kleuren zijn gemeten uit `public/images/logo/logo-origineel.png`** —
+uit de pixels van het bestand, niet gekozen en niet benaderd. Over 14.000
+pixels van het beeldmerk:
+
+| Rol | Waarde | Waar in het logo |
+|---|---|---|
+| Oranje | `#f18816` | de bol, de bovenkant van de chevron, het woord "Bureau" |
+| Paars | `#8b5e76` | het middenpunt van het verloop in de chevron |
+| Diepblauw | `#284191` | de onderkant van de chevron |
+| Marine | `#212e56` | "Weerbaar en Veilig" in het woordmerk |
+
+Het merkverloop is diezelfde reeks:
+`#f18816 → #ea8627 27% → #ce784a 45% → #8b5e76 72% → #284191`.
+
+De donkere ondergronden van de site zijn het marineblauw van het woordmerk,
+in lichtheid uitgedund tot een reeks. Zelfde tint, donkerder.
+
+### Kleur betekent niveau
+
+De drie niveaus volgen het verloop van boven naar beneden — dat is de
+volgorde die het logo zelf al maakt:
 
 | Niveau | Op donker | Op licht |
 |---|---|---|
-| Basis | `--oranje-500` `#ff7a18` | `--oranje-op-wit` `#9a4a05` |
-| Gevorderd | `--violet-400` `#a855f7` | `--violet-op-wit` `#7c22ce` |
-| Expert | `--indigo-400` `#8b95ff` | `--indigo-op-wit` `#2f3ab8` |
+| Basis | `--oranje-500` `#f18816` | `--oranje-op-wit` `#a45a0a` |
+| Gevorderd | `--paars-400` `#b490a3` | `--paars-op-wit` `#8d6078` |
+| Expert | `--blauw-400` `#8398dd` | `--blauw-op-wit` `#4767cc` |
 | Geen niveau | `--tekst-gedempt` | `--tekst-donker-zacht` |
+
+**Waar een kleur afwijkt van het logo, is alleen de lichtheid bijgesteld en
+is de tint exact gelijk gebleven.** Dat was op drie plekken nodig, en de
+reden staat er in `global.css` bij:
+
+- Oranje `#f18816` haalt op donker 7,15:1 en staat er dus onveranderd, maar
+  op wit maar 2,54:1 — vandaar `#a45a0a`.
+- Diepblauw `#284191` haalt op wit 9,31:1, maar op donker 1,95:1.
+- Paars `#8b5e76` haalt op donker 3,42:1, te weinig voor tekst.
+
+Het paars van het logo is het punt waar oranje en blauw in elkaar overlopen.
+Het is daardoor van nature een gedempte tint, geen fel paars — dat is geen
+fout in de afleiding maar een eigenschap van het logo.
+
+### Twee verlopen: één voor vlakken, één voor tekst
+
+`--verloop-merk` is het logoverloop, onaangeroerd. Gebruik dat voor het
+beeldmerk en gekleurde vlakken.
+
+`--verloop-tekst` is voor koppen die met `background-clip: text` gevuld
+worden. Nodig omdat het diepblauw van het logo op een donkere achtergrond
+1,95:1 haalt: in een kop van 100px loopt het laatste woord dan weg in de
+achtergrond. Deze variant houdt dezelfde tinten aan en licht alleen de
+staart op.
 
 Dit wordt geregeld door één blok:
 

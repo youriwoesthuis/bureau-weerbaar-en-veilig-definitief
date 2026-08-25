@@ -38,11 +38,15 @@ const vulling = verloop ? `url(#${id})` : 'currentColor';
 >
   {verloop && (
     <defs>
-      <linearGradient id={id} x1="0" y1="0" x2="0.4" y2="1">
-        <stop offset="0%" stop-color="#ff9838" />
-        <stop offset="30%" stop-color="#ff7a18" />
-        <stop offset="70%" stop-color="#9333ea" />
-        <stop offset="100%" stop-color="#3b47d4" />
+      {/* De kleurstops zoals ze in logo-origineel.png staan, uit de
+          pixels gemeten. Het beeldmerk hier hoort exact hetzelfde
+          verloop te tonen als het echte logo. */}
+      <linearGradient id={id} x1="0" y1="0" x2="0.25" y2="1">
+        <stop offset="0%" stop-color="#f18816" />
+        <stop offset="27%" stop-color="#ea8627" />
+        <stop offset="45%" stop-color="#ce784a" />
+        <stop offset="72%" stop-color="#8b5e76" />
+        <stop offset="100%" stop-color="#284191" />
       </linearGradient>
     </defs>
   )}
