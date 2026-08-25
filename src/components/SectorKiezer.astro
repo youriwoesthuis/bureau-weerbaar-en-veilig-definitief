@@ -87,7 +87,10 @@ const regels = perSector
   </div>
 </div>
 
-<style set:html={regels}></style>
+{/* is:inline omdat de inhoud pas tijdens het bouwen ontstaat, en omdat
+    deze regels ongescoped moeten blijven — ze verwijzen naar de id's van
+    de radioknoppen. */}
+<style is:inline set:html={regels}></style>
 
 <style>
   .kiezer {

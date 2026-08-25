@@ -104,7 +104,6 @@ const filterRegels = NIVEAUS.map(
   <Cta />
 </Basis>
 
-<style set:html={filterRegels}></style>
 
 <style>
   .kop-sectie {
@@ -214,3 +213,8 @@ const filterRegels = NIVEAUS.map(
   /* Badge compact houden in de rij */
   .rij .badge { font-size: 0.68rem; padding: 0.2rem 0.5rem; }
 </style>
+
+{/* is:inline omdat de inhoud van dit blok pas tijdens het bouwen ontstaat.
+    De regels moeten bovendien ongescoped blijven: ze verwijzen naar de
+    id's van de radioknoppen, niet naar de scoped klassen van deze pagina. */}
+<style is:inline set:html={filterRegels}></style>
