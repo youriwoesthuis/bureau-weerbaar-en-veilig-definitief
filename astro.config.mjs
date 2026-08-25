@@ -15,7 +15,7 @@ export default defineConfig({
   build: { format: 'directory' },
   integrations: [
     sitemap({
-      filter: (page) => !page.includes('/bedankt/') && !page.includes('/ontwerpkeuze/'),
+      filter: (page) => !page.includes('/bedankt/'),
       changefreq: 'monthly',
     }),
   ],
