@@ -41,14 +41,8 @@ werkvormen:
 veelgestelde_vragen:
   - vraag: "Wordt agressie van ouders ook behandeld?"
     antwoord: Ja. Een agressieve ouder op school is een aparte situatie met een eigen aanpak en komt expliciet aan bod in de training.
-  - vraag: "Hoe lang duurt de agressietraining voor leraren in het voortgezet onderwijs?"
-    antwoord: De training duurt 1 dag. De groep telt maximaal 10 deelnemers.
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: Alle leraren en onderwijsmedewerkers in het voortgezet onderwijs met direct contact met leerlingen en ouders. Er is geen voorkennis nodig; dit is het instapniveau.
-  - vraag: "Waar vindt de training plaats?"
-    antwoord: "Incompany op de eigen locatie, of bij Bureau Weerbaar en Veilig in Neede (Gelderland)."
-  - vraag: "Krijgen deelnemers een certificaat?"
-    antwoord: "Ja, elke deelnemer ontvangt na afloop een deelnamecertificaat."
   - vraag: "Wat is het verschil met de andere niveaus?"
     antwoord: "De basistraining leert leraren voortgezet onderwijs agressie herkennen, de eigen reactie reguleren en situaties de-escaleren. Wie structureel met zwaardere situaties werkt, gaat daarna verder met het gevorderde niveau."
 gerelateerd:
@@ -56,9 +50,6 @@ gerelateerd:
   - "agressietraining-leraren-voortgezet-onderwijs-expert"
   - "agressietraining-leraren-mbo-basis"
   - "agressietraining-leerplichtambtenaren-basis"
-afbeelding:
-  src: /images/trainingen/leraren-vo.jpg
-  alt: Deelnemers oefenen een praktijksituatie tijdens de agressietraining voor leraren voortgezet onderwijs
 ---
 
 ## Waarom deze training

@@ -40,14 +40,8 @@ werkvormen:
 veelgestelde_vragen:
   - vraag: "Hoe wordt de training op onze dienst afgestemd?"
     antwoord: "Een intakegesprek vooraf brengt de situatie in kaart. Bureau Weerbaar en Veilig analyseert incidentgegevens en het bestaande beleid, zodat de training aansluit op de eigen organisatie."
-  - vraag: "Hoe lang duurt de expert agressietraining voor ambulancemedewerkers in sleutelfuncties?"
-    antwoord: De training duurt 1 dag. De groep telt maximaal 8 deelnemers.
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Rayonmanagers, teamleiders, veiligheidscoördinatoren en senior medewerkers in leidinggevende rollen bij ambulancediensten. Voorwaarde voor deelname: leidinggevende of coördinerende functie met aantoonbare werkervaring met agressie."
-  - vraag: "Waar vindt de training plaats?"
-    antwoord: "Incompany op de eigen locatie, of bij Bureau Weerbaar en Veilig in Neede (Gelderland)."
-  - vraag: "Krijgen deelnemers een certificaat?"
-    antwoord: "Ja, elke deelnemer ontvangt na afloop een deelnamecertificaat."
   - vraag: "Wat is het verschil met de andere niveaus?"
     antwoord: "De basis- en gevorderde training gaan over het eigen handelen. Dit expertniveau gaat over de organisatie: beleid, escalatiestructuur, nazorg, meldcultuur en het coachen van medewerkers."
 gerelateerd:
@@ -55,9 +49,6 @@ gerelateerd:
   - "agressietraining-ambulancemedewerkers-gevorderd"
   - "agressietraining-huisartsassistenten-expert"
   - "agressietraining-ggd-expert"
-afbeelding:
-  src: /images/trainingen/ambulancemedewerkers.jpg
-  alt: Teamleider bespreekt incidentmeldingen met ambulancepersoneel
 ---
 
 ## Waarom deze training

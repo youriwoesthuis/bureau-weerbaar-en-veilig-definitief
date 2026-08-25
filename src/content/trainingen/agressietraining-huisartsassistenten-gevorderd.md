@@ -44,8 +44,6 @@ veelgestelde_vragen:
     antwoord: Voor huisartsassistenten die de basis beheersen en regelmatig complexe of herhaalde agressie-incidenten meemaken.
   - vraag: Is een basistraining verplicht?
     antwoord: Een afgeronde basistraining is de standaardvoorwaarde; aantoonbare werkervaring met agressie-incidenten kan daarvoor in de plaats komen.
-  - vraag: Hoe lang duurt de training en hoe groot is de groep?
-    antwoord: De training duurt 1 dag, met maximaal 10 deelnemers per groep.
   - vraag: Wat is het verschil met de basistraining?
     antwoord: "De basistraining behandelt het herkennen en de-escaleren van agressie in het moment. Dit gevorderde niveau richt zich op agressie die niet impulsief is: instrumenteel gedrag, manipulatie, risicoprofielen en consistent teamoptreden."
   - vraag: Hoe gaat de training om met patiënten met dementie of verslaving?
@@ -55,9 +53,6 @@ gerelateerd:
   - agressietraining-huisartsassistenten-expert
   - agressietraining-apotheekmedewerkers-gevorderd
   - agressietraining-ggd-gevorderd
-afbeelding:
-  src: /images/trainingen/agressietraining-huisartsassistenten.jpg
-  alt: Huisartsassistenten bespreken een complexe patiëntcasus tijdens een training
 ---
 
 ## Waarom deze training

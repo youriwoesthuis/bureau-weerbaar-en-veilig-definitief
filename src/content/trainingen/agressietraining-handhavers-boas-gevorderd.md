@@ -41,14 +41,8 @@ werkvormen:
   - analyse van eigen situaties met feedback op besluitvorming
   - oefeningen gericht op samenwerking
 veelgestelde_vragen:
-  - vraag: "Hoe lang duurt de gevorderde agressietraining voor handhavers en boa’s?"
-    antwoord: De training duurt 1 dag. De groep telt maximaal 10 deelnemers.
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Handhavers en boa’s met basistraining die werken in gebieden met een hoog incidentcijfer of structurele overlastproblematiek. Voorwaarde voor deelname: afgeronde basistraining of aantoonbare werkervaring met agressie-incidenten."
-  - vraag: "Waar vindt de training plaats?"
-    antwoord: "Incompany op de eigen locatie, of bij Bureau Weerbaar en Veilig in Neede (Gelderland)."
-  - vraag: "Krijgen deelnemers een certificaat?"
-    antwoord: "Ja, elke deelnemer ontvangt na afloop een deelnamecertificaat."
   - vraag: "Wat is het verschil met de andere niveaus?"
     antwoord: "De basistraining behandelt het herkennen en de-escaleren van agressie in het moment. Dit gevorderde niveau richt zich op patronen die niet impulsief zijn: bewuste grensoverschrijding, manipulatie en consistent teamoptreden."
 gerelateerd:
@@ -56,9 +50,6 @@ gerelateerd:
   - "agressietraining-handhavers-boas-expert"
   - "agressietraining-parkeerwachters-toezichthouders-gevorderd"
   - "agressietraining-treinpersoneel-gevorderd"
-afbeelding:
-  src: /images/trainingen/handhavers-boas.jpg
-  alt: "Deelnemers oefenen een praktijksituatie tijdens de agressietraining voor handhavers & boa’s"
 ---
 
 ## Waarom deze training

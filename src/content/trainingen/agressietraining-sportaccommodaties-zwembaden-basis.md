@@ -38,14 +38,8 @@ werkvormen:
   - casuïstiek van de eigen locatie
   - aandacht voor de spanning tussen gastvrijheid en gezaghebbend optreden
 veelgestelde_vragen:
-  - vraag: "Hoe lang duurt de agressietraining voor medewerkers in sportaccommodaties en zwembaden?"
-    antwoord: De training duurt 1 dag. De groep telt maximaal 10 deelnemers.
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: Alle medewerkers met direct bezoekerscontact in sportaccommodaties en zwembaden. Er is geen voorkennis nodig; dit is het instapniveau.
-  - vraag: "Waar vindt de training plaats?"
-    antwoord: "Incompany op de eigen locatie, of bij Bureau Weerbaar en Veilig in Neede (Gelderland)."
-  - vraag: "Krijgen deelnemers een certificaat?"
-    antwoord: "Ja, elke deelnemer ontvangt na afloop een deelnamecertificaat."
   - vraag: "Wat is het verschil met de andere niveaus?"
     antwoord: "De basistraining leert medewerkers sportaccommodaties & zwembaden agressie herkennen, de eigen reactie reguleren en situaties de-escaleren. Wie structureel met zwaardere situaties werkt, gaat daarna verder met het gevorderde niveau."
 gerelateerd:
@@ -53,9 +47,6 @@ gerelateerd:
   - "agressietraining-sportaccommodaties-zwembaden-expert"
   - "agressietraining-bibliotheekmedewerkers-basis"
   - "agressietraining-evenementenbeveiligers-basis"
-afbeelding:
-  src: /images/trainingen/sportaccommodaties.jpg
-  alt: "Deelnemers oefenen een praktijksituatie tijdens de agressietraining voor medewerkers sportaccommodaties & zwembaden"
 ---
 
 ## Waarom deze training

@@ -41,14 +41,8 @@ werkvormen:
 veelgestelde_vragen:
   - vraag: "Waarom is het beoordelingssysteem onderwerp van de training?"
     antwoord: "Omdat het direct tegen veiligheid in kan werken. Een bezorger die weet dat afbreken of melden zijn beoordeling raakt, doet het niet, en dan blijft onveiligheid onzichtbaar voor de organisatie."
-  - vraag: "Hoe lang duurt de expert agressietraining voor leidinggevenden bij bezorgdiensten?"
-    antwoord: De training duurt 1 dag, met een intervisiebijeenkomst na 6 weken. De groep telt maximaal 8 deelnemers.
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Leidinggevenden, planners en operationeel managers bij bezorgdiensten met ervaring met agressie-incidenten. Voorwaarde voor deelname: leidinggevende functie bij een bezorgdienst."
-  - vraag: "Waar vindt de training plaats?"
-    antwoord: "Incompany op de eigen locatie, of bij Bureau Weerbaar en Veilig in Neede (Gelderland)."
-  - vraag: "Krijgen deelnemers een certificaat?"
-    antwoord: "Ja, elke deelnemer ontvangt na afloop een deelnamecertificaat."
   - vraag: "Wat is het verschil met de andere niveaus?"
     antwoord: "De basis- en gevorderde training gaan over het eigen handelen. Dit expertniveau gaat over de organisatie: beleid, escalatiestructuur, nazorg, meldcultuur en het coachen van medewerkers."
 gerelateerd:
@@ -56,9 +50,6 @@ gerelateerd:
   - "agressietraining-pakket-maaltijdbezorgers-gevorderd"
   - "agressietraining-taxichauffeurs-expert"
   - "agressietraining-energie-nutsbedrijven-expert"
-afbeelding:
-  src: /images/trainingen/bezorgers.jpg
-  alt: "Deelnemers oefenen een praktijksituatie tijdens de agressietraining voor pakket- & maaltijdbezorgers"
 ---
 
 ## Waarom deze training

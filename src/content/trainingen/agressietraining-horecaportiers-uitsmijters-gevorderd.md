@@ -40,14 +40,8 @@ werkvormen:
   - patroonsignalering door de trainer
   - feedback op besluitvorming en samenwerking
 veelgestelde_vragen:
-  - vraag: "Hoe lang duurt de gevorderde agressietraining voor horecaportiers en uitsmijters?"
-    antwoord: De training duurt 1 dag. De groep telt maximaal 10 deelnemers.
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Horecaportiers en uitsmijters met een afgeronde basistraining die werken op drukke of hoogrisicolocaties. Voorwaarde voor deelname: afgeronde basistraining."
-  - vraag: "Waar vindt de training plaats?"
-    antwoord: "Incompany op de eigen locatie, of bij Bureau Weerbaar en Veilig in Neede (Gelderland)."
-  - vraag: "Krijgen deelnemers een certificaat?"
-    antwoord: "Ja, elke deelnemer ontvangt na afloop een deelnamecertificaat."
   - vraag: "Wat is het verschil met de andere niveaus?"
     antwoord: "De basistraining behandelt het herkennen en de-escaleren van agressie in het moment. Dit gevorderde niveau richt zich op patronen die niet impulsief zijn: bewuste grensoverschrijding, manipulatie en consistent teamoptreden."
 gerelateerd:
@@ -55,9 +49,6 @@ gerelateerd:
   - "agressietraining-horecaportiers-uitsmijters-expert"
   - "agressietraining-evenementenbeveiligers-gevorderd"
   - "agressietraining-horeca-bediening-gevorderd"
-afbeelding:
-  src: /images/trainingen/horecaportiers.jpg
-  alt: "Deelnemers oefenen een praktijksituatie tijdens de agressietraining voor horecaportiers & uitsmijters"
 ---
 
 ## Waarom deze training

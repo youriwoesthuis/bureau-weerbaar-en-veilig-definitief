@@ -5,9 +5,10 @@ import Kruimels from '../../../../components/Kruimels.astro';
 import NiveauBeeld from '../../../../components/NiveauBeeld.astro';
 import NiveauLadder from '../../../../components/NiveauLadder.astro';
 import TrainingKaart from '../../../../components/TrainingKaart.astro';
+import Vragen from '../../../../components/Vragen.astro';
 import Cta from '../../../../components/Cta.astro';
 import { FEITEN, pad } from '../../../../lib/site';
-import { paginaTitel, description, kortenaam } from '../../../../lib/seo';
+import { paginaTitel, description, kortenaam, faqSchema } from '../../../../lib/seo';
 
 export async function getStaticPaths() {
   const beroepsgroepen = await getCollection('beroepsgroepen');
@@ -43,6 +44,10 @@ const kruimels = [
   { naam: sectorNaam, url: pad(`/sectoren/${d.sector}/`) },
   { naam: d.naam, url: pad(`/sectoren/${d.sector}/${d.slug}/`) },
 ];
+
+// De vragen staan per beroepsgroep in de content en verschillen dus per
+// pagina. Een gekopieerde FAQ zou de 44 pagina's juist inwisselbaar maken.
+const schema = [faqSchema(d.veelgestelde_vragen)].filter(Boolean);
 ---
 
 <Basis
@@ -50,6 +55,7 @@ const kruimels = [
   description={description(d.samenvatting)}
   niveau="basis"
   kruimels={kruimels}
+  schema={schema}
 >
   <section class="groep-kop gloed schuin-onder">
     <div class="omhulsel groep-kop-raster">
@@ -115,6 +121,23 @@ const kruimels = [
             </a>
           ))}
         </div>
+      </div>
+    </section>
+  )}
+
+  {d.veelgestelde_vragen.length > 0 && (
+    <section class="sectie">
+      <div class="omhulsel">
+        <Vragen
+          vragen={d.veelgestelde_vragen}
+          kop={`Vragen over agressietraining voor ${kortenaam(d.naam).toLowerCase()}`}
+          groep={`vragen-${d.slug}`}
+        />
+        <p class="vragen-voet">
+          Staat uw vraag er niet bij? <a href={pad('/contact/')}>Stel hem rechtstreeks</a>,
+          of lees eerst <a href={pad('/aanpak/')}>hoe Bureau Weerbaar en Veilig werkt</a> en
+          <a href={pad('/over-ons/')}>wie de trainingen geven</a>.
+        </p>
       </div>
     </section>
   )}

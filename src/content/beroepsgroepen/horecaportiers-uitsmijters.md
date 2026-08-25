@@ -8,9 +8,15 @@ samenvatting: >-
   juridische kaders (basis) tot probleembezoekers en gecoördineerd
   optreden (gevorderd) en veiligheidsbeleid en incidentregistratie
   (expert).
-afbeelding:
-  src: /images/beroepsgroepen/horecaportiers.jpg
-  alt: Portier houdt toezicht bij de ingang van een horecagelegenheid
+veelgestelde_vragen:
+  - vraag: "Onze juridische ruimte is smal. Houdt de training daar rekening mee?"
+    antwoord: "Ja, dat is het kader waarbinnen alles wordt geoefend. Eén verkeerde fysieke ingreep kan gevolgen hebben voor de portier én voor de vergunning van de zaak."
+  - vraag: "Gaat het over de-escaleren of over ingrijpen?"
+    antwoord: "Over de-escaleren binnen die juridische kaders. Dat is voor deze functie niet de zachte route maar de enige route die houdbaar is."
+  - vraag: "Komt de weigering aan de deur aan bod?"
+    antwoord: "Ja. Dat is het moment waarop het gebeurt: laat op de avond, tegenover iemand die gedronken heeft en een groep achter zich heeft staan."
+  - vraag: "Welk niveau past bij portiers?"
+    antwoord: "Basis voor nieuwe portiers, gevorderd voor ervaren krachten op drukke deuren, expert voor hoofdportiers en leidinggevenden die de norm en de nazorg bepalen."
 ---
 
 Een portier beslist aan de deur wie naar binnen mag. Die beslissing valt vaak laat op de avond, tegenover mensen die hebben gedronken en een groep achter zich hebben staan.

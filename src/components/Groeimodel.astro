@@ -1,0 +1,326 @@
+---
+import Icoon from './Icoon.astro';
+import { NIVEAUS, NIVEAU_INFO, pad } from '../lib/site';
+
+/**
+ * Wat er groeit als een team een niveau opschuift. De drie niveaus staan
+ * elders als ladder; hier gaat het om iets anders: het bereik. Basis en
+ * gevorderd gaan over het eigen handelen, expert over de organisatie.
+ * Dat onderscheid staat ook in NIVEAU_INFO en in de trainingsteksten.
+ *
+ * De bladeren zijn chevrons uit het logo, geen botanisch blad — het is
+ * een groeibeeld in de eigen vormtaal en niet een plaatje uit een
+ * brochure van iemand anders.
+ *
+ * Interactief zonder JavaScript: drie radioknoppen plus :has().
+ */
+
+const STAM = { x0: 60, y0: 168, x1: 60, y1: 26 };
+
+type Tak = { niveau: (typeof NIVEAUS)[number]; bladeren: number; hoogte: number };
+
+const TAKKEN: Tak[] = [
+  { niveau: 'basis', bladeren: 4, hoogte: 0.5 },
+  { niveau: 'gevorderd', bladeren: 8, hoogte: 0.76 },
+  { niveau: 'expert', bladeren: 13, hoogte: 1 },
+];
+
+const BEREIK: Record<(typeof NIVEAUS)[number], { bereik: string; kop: string; tekst: string; groeit: string[] }> = {
+  basis: {
+    bereik: 'De medewerker',
+    kop: 'Eén persoon die weet wat hij doet',
+    tekst:
+      'Op dit niveau gaat alles over het eigen handelen: agressie zien aankomen, het onderscheid maken tussen frustratie en bewuste intimidatie, en een gesprek terugbrengen voordat het escaleert. Wie de dag uit loopt, kan meer dan toen hij binnenkwam — de organisatie eromheen is nog niet veranderd.',
+    groeit: ['Herkennen', 'De-escaleren', 'Eigen reactie kiezen'],
+  },
+  gevorderd: {
+    bereik: 'De medewerker in zijn team',
+    kop: 'Wat je doet als het niet bij één keer blijft',
+    tekst:
+      'Hier komt het team in beeld. Grenzen stellen onder druk lukt alleen als collega’s dezelfde grens trekken, en een incident telt pas als het gemeld en nabesproken wordt. Het eigen handelen blijft het onderwerp, maar het staat niet langer op zichzelf.',
+    groeit: ['Grenzen stellen onder druk', 'Complexe casuïstiek', 'Melden en nabespreken'],
+  },
+  expert: {
+    bereik: 'De organisatie',
+    kop: 'Het verschil tussen kunnen en volhouden',
+    tekst:
+      'Een team dat leert de-escaleren in een organisatie die meldingen niet oppakt, houdt het niet vol. Op dit niveau gaat het daarom niet meer over de eigen reactie maar over wat eromheen staat: wat wel en niet geaccepteerd wordt, hoe er gemeld wordt, wie de nazorg doet en hoe dat blijft staan als de trainer weg is.',
+    groeit: ['Teamnorm vastleggen', 'Nazorgstructuur', 'Meldcultuur', 'Borgen'],
+  },
+};
+
+/** Punt en hoek op de stam, van 0 (onderaan) tot 1 (top). */
+function opStam(t: number, hoogte: number) {
+  const y = STAM.y0 - (STAM.y0 - STAM.y1) * hoogte * t;
+  // lichte S-kromming, zodat het geen kaarsrechte streep is
+  const x = STAM.x0 + Math.sin(t * Math.PI) * 7 * (hoogte > 0.6 ? 1 : 0.6);
+  return { x, y };
+}
+
+function stamPad(hoogte: number) {
+  const punten = Array.from({ length: 24 }, (_, i) => opStam(i / 23, hoogte));
+  return punten.map((p, i) => `${i === 0 ? 'M' : 'L'}${p.x.toFixed(1)} ${p.y.toFixed(1)}`).join(' ');
+}
+
+/** Bladeren afwisselend links en rechts, met de punt naar buiten. */
+function bladeren(tak: Tak) {
+  return Array.from({ length: tak.bladeren }, (_, i) => {
+    const t = 0.22 + (i / Math.max(tak.bladeren - 1, 1)) * 0.78;
+    const { x, y } = opStam(t, tak.hoogte);
+    const links = i % 2 === 0;
+    // Onderaan het grootst, naar de top toe kleiner: dat leest als groei.
+    const schaal = 1.15 - t * 0.45;
+    // De blaadjes wijzen schuin omhoog, weg van de stam.
+    const basisHoek = links ? 205 : -25;
+    return {
+      x,
+      y,
+      schaal,
+      draai: basisHoek + (links ? 1 : -1) * (t - 0.5) * 30,
+      vertraging: i * 45,
+    };
+  });
+}
+
+const regels = TAKKEN.map(
+  (t) => `.groei:has(#groei-${t.niveau}:checked) .groei-figuur[data-niveau="${t.niveau}"]{--vol:1}
+.groei:has(#groei-${t.niveau}:checked) .groei-paneel[data-niveau="${t.niveau}"]{display:grid}`,
+).join('\n');
+---
+
+<div class="groei">
+  <fieldset class="groei-rij">
+    <legend class="alleen-voorlezer">Kies een niveau om te zien wat er op dat niveau groeit</legend>
+    {TAKKEN.map((t, i) => {
+      const info = NIVEAU_INFO[t.niveau];
+      return (
+        <>
+          <input
+            type="radio"
+            name="groeimodel"
+            id={`groei-${t.niveau}`}
+            class="groei-radio"
+            checked={i === 0}
+          />
+          <label class="groei-figuur" for={`groei-${t.niveau}`} data-niveau={t.niveau}>
+            <svg class="plant" viewBox="0 0 120 190" aria-hidden="true" focusable="false">
+              <path class="stam" d={stamPad(t.hoogte)} fill="none" stroke-linecap="round" />
+              {bladeren(t).map((b) => (
+                <g
+                  class="blad"
+                  transform={`translate(${b.x.toFixed(1)} ${b.y.toFixed(1)}) rotate(${b.draai.toFixed(0)}) scale(${b.schaal.toFixed(2)})`}
+                  style={`--vertraging:${b.vertraging}ms`}
+                >
+                  {/* Gevuld blad met een nerf. De chevron uit het logo zit in
+                      de knik van de nerf, niet in de omtrek: als omtrek las
+                      het als een pijltje in plaats van als groei. */}
+                  <path class="blad-vlak" d="M0 0 C5 -8 15 -8 21 0 C15 8 5 8 0 0 Z" />
+                  <path class="blad-nerf" d="M2.5 0 L11 -2 L18 0" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+                </g>
+              ))}
+            </svg>
+            <span class="pot">
+              <span class="pot-icoon">
+                <Icoon
+                  naam={{ basis: 'signaleren', gevorderd: 'grens', expert: 'beleid' }[t.niveau] as any}
+                  breedte={22}
+                />
+              </span>
+            </span>
+            <span class="groei-naam">{info.naam}</span>
+            <span class="groei-bereik">{BEREIK[t.niveau].bereik}</span>
+          </label>
+        </>
+      );
+    })}
+  </fieldset>
+
+  <div class="groei-panelen">
+    {TAKKEN.map((t) => {
+      const b = BEREIK[t.niveau];
+      return (
+        <div class="groei-paneel" data-niveau={t.niveau}>
+          <p class="groei-bovenkop">Bereik: {b.bereik.toLowerCase()}</p>
+          <h3>{b.kop}</h3>
+          <p>{b.tekst}</p>
+          <ul class="groei-lijst">
+            {b.groeit.map((g) => (
+              <li>{g}</li>
+            ))}
+          </ul>
+          <a href={pad(`/niveaus/${t.niveau}/`)} class="pijllink">
+            Alles over {NIVEAU_INFO[t.niveau].naam.toLowerCase()}
+            <span class="pijl" aria-hidden="true">→</span>
+          </a>
+        </div>
+      );
+    })}
+  </div>
+</div>
+
+<style is:inline set:html={regels}></style>
+
+<style>
+  .groei {
+    display: grid;
+    gap: clamp(1.5rem, 1rem + 2vw, 2.75rem);
+    align-items: start;
+  }
+  @media (min-width: 950px) {
+    .groei { grid-template-columns: minmax(0, 1fr) minmax(0, 24rem); }
+  }
+
+  .groei-rij {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: clamp(0.5rem, 0.25rem + 1vw, 1.25rem);
+    align-items: end;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+  }
+
+  .groei-radio {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .groei-figuur {
+    /* --vol springt naar 1 als deze knop aanstaat; alle bladeren hangen
+       daaraan, zodat de plant "uitloopt" bij het kiezen. */
+    --vol: 0;
+    display: grid;
+    justify-items: center;
+    gap: 0.35rem;
+    padding: 0.75rem 0.35rem 1rem;
+    border-radius: var(--hoek);
+    border: 1px solid transparent;
+    cursor: pointer;
+    text-align: center;
+    transition: background 200ms, border-color 200ms;
+  }
+  .groei-figuur:hover { background: color-mix(in oklab, var(--niveau-op-wit) 6%, transparent); }
+  .groei-radio:checked + .groei-figuur {
+    background: color-mix(in oklab, var(--niveau-op-wit) 8%, transparent);
+    border-color: color-mix(in oklab, var(--niveau-op-wit) 30%, transparent);
+  }
+  .groei-radio:focus-visible + .groei-figuur {
+    outline: 3px solid var(--focus);
+    outline-offset: 2px;
+  }
+
+  .plant { width: 100%; max-width: 8.5rem; height: auto; display: block; }
+
+  .stam {
+    stroke: color-mix(in oklab, var(--niveau-op-wit) 55%, transparent);
+    stroke-width: 3.5;
+  }
+
+  .blad {
+    /* Ongekozen takken staan er wel, maar ingehouden: zo blijft zichtbaar
+       dat het een reeks is en niet drie losse plaatjes. */
+    opacity: calc(0.5 + var(--vol) * 0.5);
+    transform-box: fill-box;
+    transform-origin: 0 50%;
+    scale: calc(0.86 + var(--vol) * 0.14);
+    transition:
+      opacity 420ms ease var(--vertraging),
+      scale 420ms cubic-bezier(0.2, 0.7, 0.3, 1) var(--vertraging);
+  }
+  .blad-vlak { fill: var(--niveau-op-wit); }
+  .blad-nerf {
+    stroke: var(--wit);
+    stroke-width: 1.4;
+    opacity: 0.75;
+  }
+
+  .pot {
+    display: grid;
+    place-items: center;
+    width: clamp(2.4rem, 2rem + 1.6vw, 3rem);
+    aspect-ratio: 1;
+    margin-top: -0.35rem;
+    border-radius: 0.55rem;
+    background: var(--niveau-op-wit);
+    color: var(--wit);
+    /* Trapezium, net als een pot: onder smaller dan boven. */
+    clip-path: polygon(0 0, 100% 0, 86% 100%, 14% 100%);
+    transition: transform 200ms cubic-bezier(0.2, 0.7, 0.3, 1);
+  }
+  .groei-figuur:hover .pot { transform: translateY(-2px); }
+  .pot-icoon { display: grid; place-items: center; margin-bottom: 0.15rem; }
+
+  .groei-naam {
+    font-family: 'Manrope', system-ui, sans-serif;
+    font-weight: 700;
+    font-size: clamp(0.95rem, 0.9rem + 0.3vw, 1.1rem);
+    letter-spacing: -0.01em;
+    color: var(--tekst-donker);
+  }
+  .groei-bereik {
+    font-size: 0.8rem;
+    line-height: 1.35;
+    color: var(--tekst-donker-zacht);
+  }
+
+  .groei-panelen { display: grid; }
+  .groei-paneel {
+    display: none;
+    gap: 0.75rem;
+    align-content: start;
+    padding: clamp(1.25rem, 1rem + 1vw, 1.85rem);
+    background: var(--wit);
+    border: 1px solid var(--rand-licht);
+    border-radius: var(--hoek);
+    border-top: 3px solid var(--niveau-op-wit);
+  }
+  /* Zonder :has() zouden alle panelen verborgen blijven. Dan liever alle
+     drie zichtbaar: minder mooi, wel volledig leesbaar. Een harde regel
+     voor "basis" kan hier niet — die krijgt van Astro een scope-attribuut
+     en wint het daarmee van de :has()-regels, waardoor er twee panelen
+     tegelijk open stonden. */
+  @supports not selector(:has(*)) {
+    .groei-paneel { display: grid; }
+  }
+
+  .groei-bovenkop {
+    font-family: 'Manrope', system-ui, sans-serif;
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--niveau-op-wit);
+    margin: 0;
+  }
+  .groei-paneel h3 { margin: 0; }
+  .groei-paneel p { margin: 0; color: var(--tekst-donker-zacht); font-size: 0.95rem; line-height: 1.6; }
+
+  .groei-lijst {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    list-style: none;
+    padding: 0;
+    margin: 0.25rem 0 0;
+  }
+  .groei-lijst li {
+    font-family: 'Manrope', system-ui, sans-serif;
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding: 0.3rem 0.7rem;
+    border-radius: var(--hoek-rond);
+    background: color-mix(in oklab, var(--niveau-op-wit) 12%, var(--wit));
+    color: var(--tekst-donker);
+    border: 1px solid color-mix(in oklab, var(--niveau-op-wit) 28%, transparent);
+  }
+
+  .groei-paneel .pijllink { margin-top: 0.35rem; }
+
+  @media (prefers-reduced-motion: reduce) {
+    .blad, .pot { transition: none; }
+  }
+</style>

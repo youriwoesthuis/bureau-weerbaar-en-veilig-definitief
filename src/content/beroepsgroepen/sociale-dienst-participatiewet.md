@@ -8,9 +8,15 @@ samenvatting: >-
   boodschappen brengen zonder escalatie (basis) tot strategische agressie
   en fraudeconstatering (gevorderd) en beleid rond grensoverschrijdend
   cliëntgedrag (expert).
-afbeelding:
-  src: /images/beroepsgroepen/participatiewet.jpg
-  alt: "Klantmanager bespreekt een re-integratietraject met een cliënt"
+veelgestelde_vragen:
+  - vraag: "Hoe breng je een maatregel of stopzetting zonder dat het escaleert?"
+    antwoord: "Daar is deze training op gericht. De cliënt is voor zijn inkomen afhankelijk van precies dat besluit; dat maakt de volgorde en de toon van het gesprek bepalend voor wat erna gebeurt."
+  - vraag: "Komt het gesprek over rechten, plichten en sancties aan bod?"
+    antwoord: "Ja. Dat gesprek is potentieel explosief omdat het over bestaanszekerheid gaat, en het wordt geoefend met de casuïstiek die klantmanagers zelf inbrengen."
+  - vraag: "Wij hebben ook consulenten zonder beslissingsbevoegdheid. Kunnen die mee?"
+    antwoord: "Ja. Wie het besluit niet neemt maar wel uitlegt, staat vaak het dichtst bij de reactie erop. Die rol hoort in dezelfde groep thuis."
+  - vraag: "Welk niveau past bij klantmanagers Participatiewet?"
+    antwoord: "Basis voor nieuwe klantmanagers, gevorderd voor wie regelmatig maatregelgesprekken voert. Expert voor teamleiders die de escalatie- en nazorgstructuur inrichten."
 ---
 
 Klantmanagers en consulenten in de uitvoering van de Participatiewet brengen boodschappen met directe gevolgen: een korting, een maatregel, een stopzetting. De cliënt is voor zijn inkomen afhankelijk van precies dat besluit.

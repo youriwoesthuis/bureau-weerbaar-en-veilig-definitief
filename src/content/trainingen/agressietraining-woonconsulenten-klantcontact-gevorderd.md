@@ -39,14 +39,8 @@ werkvormen:
   - directe feedback van de trainer
   - aandacht voor de morele kant van grenzen stellen tegenover afhankelijke huurders
 veelgestelde_vragen:
-  - vraag: "Hoe lang duurt de gevorderde agressietraining voor medewerkers klantcontact en woonconsulenten bij woningcorporaties?"
-    antwoord: De training duurt 1 dag. De groep telt maximaal 10 deelnemers.
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Medewerkers klantcontact en woonconsulenten met basistraining die regelmatig complexe agressie-incidenten meemaken. Voorwaarde voor deelname: afgeronde basistraining of aantoonbare werkervaring met complexe agressiesituaties."
-  - vraag: "Waar vindt de training plaats?"
-    antwoord: "Incompany op de eigen locatie, of bij Bureau Weerbaar en Veilig in Neede (Gelderland)."
-  - vraag: "Krijgen deelnemers een certificaat?"
-    antwoord: "Ja, elke deelnemer ontvangt na afloop een deelnamecertificaat."
   - vraag: "Wat is het verschil met de andere niveaus?"
     antwoord: "De basistraining behandelt het herkennen en de-escaleren van agressie in het moment. Dit gevorderde niveau richt zich op patronen die niet impulsief zijn: bewuste grensoverschrijding, manipulatie en consistent teamoptreden."
 gerelateerd:
@@ -54,9 +48,6 @@ gerelateerd:
   - "agressietraining-woonconsulenten-klantcontact-expert"
   - "agressietraining-buurtbeheerders-opzichters-gevorderd"
   - "agressietraining-incasso-schuldhulpverlening-gevorderd"
-afbeelding:
-  src: /images/trainingen/woonconsulenten.jpg
-  alt: "Deelnemers oefenen een praktijksituatie tijdens de agressietraining voor woonconsulenten & klantcontact"
 ---
 
 ## Waarom deze training

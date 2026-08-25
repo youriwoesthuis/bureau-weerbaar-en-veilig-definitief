@@ -44,22 +44,13 @@ veelgestelde_vragen:
     antwoord: "Ja. Een deel van de agressie richting GGD-medewerkers verloopt schriftelijk of telefonisch; die situaties komen expliciet aan bod."
   - vraag: "Is er aandacht voor huisbezoeken en buitenlocaties?"
     antwoord: "Ja. Veilig handelen bij huisbezoeken, inspecties en solo-werkzaamheden op risicovolle locaties is een vast onderdeel."
-  - vraag: "Hoe lang duurt de agressietraining voor medewerkers van de GGD en publieke gezondheidszorg?"
-    antwoord: De training duurt 1 dag. De groep telt maximaal 10 deelnemers.
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Alle GGD-medewerkers en professionals in de publieke gezondheidszorg met direct burgercontact. Er is geen voorkennis nodig; dit is het instapniveau."
-  - vraag: "Waar vindt de training plaats?"
-    antwoord: "Incompany op de eigen locatie, of bij Bureau Weerbaar en Veilig in Neede (Gelderland)."
-  - vraag: "Krijgen deelnemers een certificaat?"
-    antwoord: "Ja, elke deelnemer ontvangt na afloop een deelnamecertificaat."
 gerelateerd:
   - "agressietraining-ggd-gevorderd"
   - "agressietraining-ggd-expert"
   - "agressietraining-huisartsassistenten-basis"
   - "agressietraining-handhavers-boas-basis"
-afbeelding:
-  src: /images/trainingen/ggd.jpg
-  alt: "GGD-medewerker voert een gesprek tijdens een huisbezoek"
 ---
 
 ## Waarom deze training

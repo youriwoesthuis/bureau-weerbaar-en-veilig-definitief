@@ -1,0 +1,276 @@
+---
+import Icoon from './Icoon.astro';
+
+/**
+ * Wie doet wat. Op de aanpakpagina staat al hoe een traject verloopt
+ * (PDCA); dit gaat over iets anders: wie waarvoor aan de lat staat.
+ *
+ * Dat is geen sierplaat maar een inhoudelijk punt. Een van de
+ * uitgangspunten op deze pagina is dat de organisatie erbij hoort — een
+ * team dat leert de-escaleren terwijl meldingen blijven liggen, houdt het
+ * niet vol. Dit schema maakt zichtbaar wat dat concreet betekent, en dat
+ * er dus dingen zijn die de opdrachtgever zelf moet doen.
+ *
+ * Interactie zonder JavaScript: :has() op hover en focus licht de pijlen
+ * op die bij de aangewezen rol horen.
+ */
+
+const ROLLEN = [
+  {
+    id: 'organisatie',
+    niveau: 'expert',
+    icoon: 'beleid' as const,
+    naam: 'Uw organisatie',
+    wie: 'Leidinggevende, HR, preventiemedewerker of arbocoördinator',
+    doet: [
+      'Brengt in wat er werkelijk gebeurt: meldingen, incidenten, wat het team al probeerde',
+      'Bepaalt mee welke beroepsgroep en welk niveau aan de beurt zijn',
+      'Legt vast wat wel en niet geaccepteerd wordt, en wie de nazorg doet',
+    ],
+  },
+  {
+    id: 'bureau',
+    niveau: 'basis',
+    icoon: 'oefenen' as const,
+    naam: 'Bureau Weerbaar en Veilig',
+    wie: 'Trainer, en waar dat de oefening beter maakt een trainingsacteur',
+    doet: [
+      'Vertaalt die meldingen naar oefensituaties die deelnemers herkennen',
+      'Geeft de trainingsdag: korte theorieblokken, veel oefenen',
+      'Levert de vragen waarmee u zelf kunt nagaan wat er blijft hangen',
+    ],
+  },
+  {
+    id: 'team',
+    niveau: 'gevorderd',
+    icoon: 'team' as const,
+    naam: 'Het team',
+    wie: 'De deelnemers, maximaal tien tegelijk',
+    doet: [
+      'Oefent met de eigen praktijk, en mag dezelfde situatie meerdere keren overdoen',
+      'Past toe op de werkvloer en merkt waar het alsnog vastloopt',
+      'Meldt en bespreekt na — anders blijft er niets van over',
+    ],
+  },
+];
+
+const PIJLEN = [
+  { van: 'organisatie', naar: 'bureau', label: 'Meldingen en casuïstiek' },
+  { van: 'bureau', naar: 'team', label: 'De trainingsdag' },
+];
+
+// Eén regel per rol: wijs een rol aan en de pijlen eromheen lichten op.
+const regels = ROLLEN.map((r) => {
+  const raak = [
+    ...PIJLEN.map((p, i) => (p.van === r.id || p.naar === r.id ? `.rol-pijl[data-pijl="${i}"]` : null)),
+    r.id !== 'bureau' ? '.terugweg' : null,
+  ].filter(Boolean);
+  if (!raak.length) return '';
+  const kies = raak.map((k) => `.rollen:has(.rolkaart[data-rol="${r.id}"]:hover) ${k}`).join(',');
+  const kiesFocus = raak
+    .map((k) => `.rollen:has(.rolkaart[data-rol="${r.id}"]:focus-within) ${k}`)
+    .join(',');
+  return `${kies},${kiesFocus}{--pijl-aan:1}`;
+}).join('\n');
+---
+
+<div class="rollen">
+  <ol class="rolrij">
+    {ROLLEN.map((r, i) => (
+      <>
+        <li class="rolkaart" data-rol={r.id} data-niveau={r.niveau} tabindex="0">
+          <span class="rol-icoon"><Icoon naam={r.icoon} breedte={22} /></span>
+          <p class="rol-nummer" aria-hidden="true">{String(i + 1).padStart(2, '0')}</p>
+          <h3>{r.naam}</h3>
+          <p class="rol-wie">{r.wie}</p>
+          <ul class="rol-doet">
+            {r.doet.map((d) => (
+              <li>{d}</li>
+            ))}
+          </ul>
+        </li>
+        {i < PIJLEN.length && (
+          <li class="rol-pijl" data-pijl={i} aria-hidden="true">
+            <svg viewBox="0 0 40 24" focusable="false">
+              <path d="M2 12h30" fill="none" stroke-linecap="round" />
+              <path d="M26 5l8 7-8 7" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+            <span>{PIJLEN[i].label}</span>
+          </li>
+        )}
+      </>
+    ))}
+  </ol>
+
+  <p class="terugweg">
+    <svg class="terugweg-pijl" viewBox="0 0 40 24" aria-hidden="true" focusable="false">
+      <path d="M38 12H8" fill="none" stroke-linecap="round" />
+      <path d="M14 5l-8 7 8 7" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+    </svg>
+    <span>
+      <strong>En terug:</strong> wat er op de werkvloer werkt en waar het nog knelt, gaat naar de
+      organisatie. Daar wordt het teamnorm — of de aanleiding voor een niveau hoger.
+    </span>
+  </p>
+</div>
+
+<style is:inline set:html={regels}></style>
+
+<style>
+  .rollen { display: grid; gap: clamp(1rem, 0.75rem + 1vw, 1.75rem); }
+
+  .rolrij {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: clamp(0.75rem, 0.5rem + 1vw, 1.25rem);
+    align-items: stretch;
+  }
+  @media (min-width: 1000px) {
+    /* kaart, pijl, kaart, pijl, kaart */
+    .rolrij { grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr) auto minmax(0, 1fr); }
+  }
+
+  .rolkaart {
+    position: relative;
+    display: grid;
+    align-content: start;
+    gap: 0.6rem;
+    padding: clamp(1.25rem, 1rem + 1vw, 1.85rem);
+    background: var(--inkt-850);
+    border: 1px solid var(--rand);
+    border-radius: var(--hoek);
+    border-top: 3px solid var(--niveau);
+    transition: transform 200ms cubic-bezier(0.2, 0.7, 0.3, 1), background 200ms, border-color 200ms;
+  }
+  .rolkaart:hover, .rolkaart:focus-within {
+    transform: translateY(-3px);
+    background: var(--inkt-800);
+    border-color: color-mix(in oklab, var(--niveau) 40%, var(--rand));
+  }
+  .rolkaart:focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; }
+
+  .rol-icoon {
+    display: grid;
+    place-items: center;
+    width: 2.6rem;
+    aspect-ratio: 1;
+    border-radius: 0.6rem;
+    background: color-mix(in oklab, var(--niveau) 16%, transparent);
+    border: 1px solid color-mix(in oklab, var(--niveau) 32%, transparent);
+    color: var(--niveau);
+  }
+
+  .rol-nummer {
+    position: absolute;
+    top: clamp(1rem, 0.8rem + 0.6vw, 1.4rem);
+    right: clamp(1rem, 0.8rem + 0.6vw, 1.4rem);
+    margin: 0;
+    font-family: 'Manrope', system-ui, sans-serif;
+    font-size: 2.1rem;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: -0.05em;
+    color: var(--niveau);
+    opacity: 0.2;
+  }
+
+  .rolkaart h3 { margin: 0; font-size: clamp(1.05rem, 1rem + 0.4vw, 1.25rem); }
+  .rol-wie {
+    margin: 0;
+    font-size: 0.85rem;
+    line-height: 1.45;
+    color: var(--tekst-gedempt);
+  }
+
+  .rol-doet {
+    display: grid;
+    gap: 0.5rem;
+    list-style: none;
+    padding: 0;
+    margin: 0.35rem 0 0;
+  }
+  .rol-doet li {
+    position: relative;
+    padding-left: 1.1rem;
+    font-size: 0.92rem;
+    line-height: 1.55;
+    color: var(--tekst-zacht);
+  }
+  .rol-doet li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0.6em;
+    width: 0.4rem;
+    height: 0.4rem;
+    border-radius: 50%;
+    background: var(--niveau);
+  }
+
+  /* ---- de pijlen ertussen ---- */
+  .rol-pijl {
+    --pijl-aan: 0;
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    gap: 0.3rem;
+    padding: 0.35rem 0.5rem;
+    text-align: center;
+  }
+  .rol-pijl svg {
+    width: clamp(2rem, 1.5rem + 2vw, 2.75rem);
+    height: auto;
+    stroke: var(--oranje-400);
+    stroke-width: 2;
+    opacity: calc(0.5 + var(--pijl-aan) * 0.5);
+    transition: opacity 220ms, transform 220ms cubic-bezier(0.2, 0.7, 0.3, 1);
+    transform: rotate(90deg) scale(calc(1 + var(--pijl-aan) * 0.08));
+  }
+  .rol-pijl span {
+    font-family: 'Manrope', system-ui, sans-serif;
+    font-size: 0.78rem;
+    font-weight: 600;
+    line-height: 1.3;
+    max-width: 8rem;
+    color: var(--tekst-gedempt);
+    opacity: calc(0.72 + var(--pijl-aan) * 0.28);
+    transition: opacity 220ms;
+  }
+  @media (min-width: 1000px) {
+    .rol-pijl svg { transform: rotate(0deg) scale(calc(1 + var(--pijl-aan) * 0.08)); }
+  }
+
+  /* ---- de terugweg ---- */
+  .terugweg {
+    --pijl-aan: 0;
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
+    align-items: center;
+    gap: 0.9rem;
+    margin: 0;
+    padding: clamp(0.9rem, 0.75rem + 0.6vw, 1.25rem) clamp(1rem, 0.85rem + 0.8vw, 1.5rem);
+    background: color-mix(in oklab, var(--blauw-400) 9%, var(--inkt-900));
+    border: 1px dashed color-mix(in oklab, var(--blauw-400) 38%, transparent);
+    border-radius: var(--hoek);
+    font-size: 0.92rem;
+    line-height: 1.6;
+    color: var(--tekst-zacht);
+    transition: border-color 220ms, background 220ms;
+  }
+  .terugweg strong { color: var(--blauw-400); font-weight: 700; }
+  .terugweg-pijl {
+    width: clamp(2rem, 1.6rem + 1.6vw, 2.75rem);
+    height: auto;
+    stroke: var(--blauw-400);
+    stroke-width: 2;
+    opacity: calc(0.6 + var(--pijl-aan) * 0.4);
+    transition: opacity 220ms;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .rolkaart, .rol-pijl svg, .rol-pijl span, .terugweg, .terugweg-pijl { transition: none; }
+    .rolkaart:hover, .rolkaart:focus-within { transform: none; }
+  }
+</style>

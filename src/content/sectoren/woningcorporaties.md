@@ -6,9 +6,13 @@ samenvatting: >-
   het omgaan met agressie van huurders voor wie het over hun woning gaat:
   een existentieel belang. Voor buurtbeheerders, opzichters,
   woonconsulenten en klantcontact, elk in drie niveaus.
-afbeelding:
-  src: /images/sectoren/woningcorporaties.jpg
-  alt: Woonconsulent in gesprek met een huurder bij een woningcomplex
+veelgestelde_vragen:
+  - vraag: "Waarom traint u binnen en buiten apart?"
+    antwoord: "Omdat de situatie fundamenteel verschilt. Achter een balie of aan de telefoon kun je afronden; in de wijk sta je tussen de mensen over wie je ook rapporteert, en kom je ze morgen weer tegen."
+  - vraag: "Onze huurders kunnen niet naar een andere aanbieder. Wat betekent dat?"
+    antwoord: "Dat de afhankelijkheid groot is en de relatie jaren duurt. Die combinatie maakt de drempel voor agressie laag en maakt tegelijk dat een harde confrontatie nog lang doorwerkt."
+  - vraag: "Gaan de gesprekken echt over zulke zware onderwerpen?"
+    antwoord: "Elk moeilijk gesprek bij een corporatie gaat over iemands huis: een huurverhoging, een overlastdossier, een achterstand of een dreigende uitzetting. Dat raakt aan bestaanszekerheid."
 ---
 
 Bij een woningcorporatie gaat elk moeilijk gesprek over iemands huis. Een huurverhoging, een overlastdossier, een huurachterstand of een dreigende uitzetting raakt aan bestaanszekerheid, en de huurder kan niet naar een andere aanbieder stappen.

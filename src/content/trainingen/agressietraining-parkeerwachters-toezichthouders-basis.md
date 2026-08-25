@@ -41,14 +41,8 @@ werkvormen:
 veelgestelde_vragen:
   - vraag: "Leren deelnemers wanneer ze een situatie moeten afbreken?"
     antwoord: "Ja. Bepalen wanneer je weggaat is een expliciet onderdeel van de training: het is vaak de veiligste beslissing en de moeilijkste om te nemen."
-  - vraag: "Hoe lang duurt de agressietraining voor parkeerwachters en toezichthouders in de openbare ruimte?"
-    antwoord: De training duurt 1 dag. De groep telt maximaal 10 deelnemers.
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Alle parkeerwachters, toezichthouders en handhavers die werkzaam zijn in de openbare ruimte. Er is geen voorkennis nodig; dit is het instapniveau."
-  - vraag: "Waar vindt de training plaats?"
-    antwoord: "Incompany op de eigen locatie, of bij Bureau Weerbaar en Veilig in Neede (Gelderland)."
-  - vraag: "Krijgen deelnemers een certificaat?"
-    antwoord: "Ja, elke deelnemer ontvangt na afloop een deelnamecertificaat."
   - vraag: "Wat is het verschil met de andere niveaus?"
     antwoord: "De basistraining leert parkeerwachters & toezichthouders agressie herkennen, de eigen reactie reguleren en situaties de-escaleren. Wie structureel met zwaardere situaties werkt, gaat daarna verder met het gevorderde niveau."
 gerelateerd:
@@ -56,9 +50,6 @@ gerelateerd:
   - "agressietraining-parkeerwachters-toezichthouders-expert"
   - "agressietraining-handhavers-boas-basis"
   - "agressietraining-gemeenteloket-publieksbalie-basis"
-afbeelding:
-  src: /images/trainingen/parkeerwachters.jpg
-  alt: "Deelnemers oefenen een praktijksituatie tijdens de agressietraining voor parkeerwachters & toezichthouders"
 ---
 
 ## Waarom deze training

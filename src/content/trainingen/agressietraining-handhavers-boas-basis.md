@@ -40,14 +40,8 @@ werkvormen:
 veelgestelde_vragen:
   - vraag: "Komt de juridische positie van de boa aan bod?"
     antwoord: "Ja. Handelen binnen de juridische kaders van de boa-bevoegdheid is een expliciet onderwerp: de-escaleren en rechtmatig optreden gaan in dit werk samen."
-  - vraag: "Hoe lang duurt de agressietraining voor handhavers en boa’s?"
-    antwoord: De training duurt 1 dag. De groep telt maximaal 10 deelnemers.
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: Alle handhavers en boa’s die dagelijks alleen of in tweetallen in de openbare ruimte werken. Er is geen voorkennis nodig; dit is het instapniveau.
-  - vraag: "Waar vindt de training plaats?"
-    antwoord: "Incompany op de eigen locatie, of bij Bureau Weerbaar en Veilig in Neede (Gelderland)."
-  - vraag: "Krijgen deelnemers een certificaat?"
-    antwoord: "Ja, elke deelnemer ontvangt na afloop een deelnamecertificaat."
   - vraag: "Wat is het verschil met de andere niveaus?"
     antwoord: "De basistraining leert handhavers & boa’s agressie herkennen, de eigen reactie reguleren en situaties de-escaleren. Wie structureel met zwaardere situaties werkt, gaat daarna verder met het gevorderde niveau."
 gerelateerd:
@@ -55,9 +49,6 @@ gerelateerd:
   - "agressietraining-handhavers-boas-expert"
   - "agressietraining-parkeerwachters-toezichthouders-basis"
   - "agressietraining-gemeenteloket-publieksbalie-basis"
-afbeelding:
-  src: /images/trainingen/handhavers-boas.jpg
-  alt: "Deelnemers oefenen een praktijksituatie tijdens de agressietraining voor handhavers & boa’s"
 ---
 
 ## Waarom deze training

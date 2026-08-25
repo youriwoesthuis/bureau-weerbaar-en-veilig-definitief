@@ -40,14 +40,8 @@ werkvormen:
 veelgestelde_vragen:
   - vraag: "Wordt onderscheid gemaakt tussen conducteurs en bestuurders?"
     antwoord: "Ja. De rollen verschillen wezenlijk: een bestuurder moet de rit veilig houden, een conducteur staat in het contact. De training behandelt beide rollen apart."
-  - vraag: "Hoe lang duurt de gevorderde agressietraining voor treinpersoneel, conducteurs en metro- en trambestuurders?"
-    antwoord: De training duurt 1 dag. De groep telt maximaal 10 deelnemers.
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Treinpersoneel, conducteurs en metro- en trambestuurders met basistraining die regelmatig complexe agressie-incidenten meemaken. Voorwaarde voor deelname: afgeronde basistraining."
-  - vraag: "Waar vindt de training plaats?"
-    antwoord: "Incompany op de eigen locatie, of bij Bureau Weerbaar en Veilig in Neede (Gelderland)."
-  - vraag: "Krijgen deelnemers een certificaat?"
-    antwoord: "Ja, elke deelnemer ontvangt na afloop een deelnamecertificaat."
   - vraag: "Wat is het verschil met de andere niveaus?"
     antwoord: "De basistraining behandelt het herkennen en de-escaleren van agressie in het moment. Dit gevorderde niveau richt zich op patronen die niet impulsief zijn: bewuste grensoverschrijding, manipulatie en consistent teamoptreden."
 gerelateerd:
@@ -55,9 +49,6 @@ gerelateerd:
   - "agressietraining-treinpersoneel-expert"
   - "agressietraining-buschauffeurs-gevorderd"
   - "agressietraining-handhavers-boas-gevorderd"
-afbeelding:
-  src: /images/trainingen/treinpersoneel.jpg
-  alt: "Deelnemers oefenen een praktijksituatie tijdens de agressietraining voor treinpersoneel & conducteurs"
 ---
 
 ## Waarom deze training

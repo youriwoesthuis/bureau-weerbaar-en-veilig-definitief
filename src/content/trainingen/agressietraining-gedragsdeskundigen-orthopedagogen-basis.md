@@ -43,22 +43,13 @@ veelgestelde_vragen:
     antwoord: "Omdat gedragsdeskundigen wél de reacties krijgen op beslissingen die ingrijpen in het leven van een cliënt, zonder de uitvoering in eigen hand te hebben. Dat brengt eigen agressierisico’s mee, van familiedruk tot intimidatie via e-mail."
   - vraag: "Komt intimidatie via e-mail en sociale media aan bod?"
     antwoord: "Ja. Intimidatie via verschillende kanalen, ook buiten het directe contact, is een vast onderdeel van deze training."
-  - vraag: "Hoe lang duurt de agressietraining voor gedragsdeskundigen en orthopedagogen in de gehandicaptenzorg?"
-    antwoord: De training duurt 1 dag. De groep telt maximaal 10 deelnemers.
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Gedragsdeskundigen, orthopedagogen en gedragsondersteuners die werkzaam zijn in de zorg voor mensen met een beperking. Er is geen voorkennis nodig; dit is het instapniveau."
-  - vraag: "Waar vindt de training plaats?"
-    antwoord: "Incompany op de eigen locatie, of bij Bureau Weerbaar en Veilig in Neede (Gelderland)."
-  - vraag: "Krijgen deelnemers een certificaat?"
-    antwoord: "Ja, elke deelnemer ontvangt na afloop een deelnamecertificaat."
 gerelateerd:
   - "agressietraining-gedragsdeskundigen-orthopedagogen-gevorderd"
   - "agressietraining-gedragsdeskundigen-orthopedagogen-expert"
   - "agressietraining-woonbegeleiding-gehandicaptenzorg-basis"
   - "agressietraining-persoonlijk-begeleiders-basis"
-afbeelding:
-  src: /images/trainingen/gedragsdeskundigen.jpg
-  alt: Orthopedagoog voert een observatie uit op een woongroep
 ---
 
 ## Waarom deze training

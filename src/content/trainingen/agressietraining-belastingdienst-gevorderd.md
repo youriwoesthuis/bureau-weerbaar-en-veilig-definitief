@@ -40,14 +40,8 @@ werkvormen:
   - oefening met directe feedback op standvastigheid
   - aandacht voor de gezagsbalans in het gesprek
 veelgestelde_vragen:
-  - vraag: "Hoe lang duurt de gevorderde agressietraining voor medewerkers bij de belastingdienst?"
-    antwoord: De training duurt 1 dag. De groep telt maximaal 10 deelnemers.
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Medewerkers die de basis beheersen en werken met complexe of herhaalde agressie-incidenten bij controles, invordering of behandeling. Voorwaarde voor deelname: afgeronde basistraining of aantoonbare werkervaring met agressie-incidenten."
-  - vraag: "Waar vindt de training plaats?"
-    antwoord: "Incompany op de eigen locatie, of bij Bureau Weerbaar en Veilig in Neede (Gelderland)."
-  - vraag: "Krijgen deelnemers een certificaat?"
-    antwoord: "Ja, elke deelnemer ontvangt na afloop een deelnamecertificaat."
   - vraag: "Wat is het verschil met de andere niveaus?"
     antwoord: "De basistraining behandelt het herkennen en de-escaleren van agressie in het moment. Dit gevorderde niveau richt zich op patronen die niet impulsief zijn: bewuste grensoverschrijding, manipulatie en consistent teamoptreden."
 gerelateerd:
@@ -55,9 +49,6 @@ gerelateerd:
   - "agressietraining-belastingdienst-expert"
   - "agressietraining-vergunningverlening-bezwaar-beroep-gevorderd"
   - "agressietraining-gemeenteloket-publieksbalie-gevorderd"
-afbeelding:
-  src: /images/trainingen/belastingdienst.jpg
-  alt: Deelnemers oefenen een praktijksituatie tijdens de agressietraining voor belastingdienst
 ---
 
 ## Waarom deze training

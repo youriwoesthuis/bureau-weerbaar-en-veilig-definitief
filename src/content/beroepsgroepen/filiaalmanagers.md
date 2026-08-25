@@ -8,9 +8,15 @@ samenvatting: >-
   medewerkers (basis) tot structurele overlast aanpakken (gevorderd) en
   organisatiebreed agressiebeleid (expert, voor regiomanagers en
   beleidsverantwoordelijken).
-afbeelding:
-  src: /images/beroepsgroepen/filiaalmanagers.jpg
-  alt: Filiaalmanager overlegt met een medewerker op de winkelvloer
+veelgestelde_vragen:
+  - vraag: "Wij moeten zelf ingrijpen én het team opvangen. Zit dat allebei in de training?"
+    antwoord: "Ja, en dat dubbele is hier het uitgangspunt. Zelf professioneel ingrijpen is één ding; zorgen dat het team zich veilig voelt en goed wordt opgevangen na een incident is een tweede."
+  - vraag: "Komt georganiseerde winkeldiefstal aan bod?"
+    antwoord: "Ja. Dat is een ander vraagstuk dan een boze klant: het gaat om groepen, om herhaling en om de vraag wanneer je als manager niet meer zelf optreedt."
+  - vraag: "Wat doen we met \"de klant eist de manager\"?"
+    antwoord: "Dat moment is een vast onderdeel. Overgenomen worden door je eigen medewerker is soms goed en soms precies verkeerd; wanneer welk van de twee geldt, is te leren."
+  - vraag: "Welk niveau past bij filiaalmanagers en teamleiders?"
+    antwoord: "Expert ligt hier het meest voor de hand: beleid, teamnorm, nazorgstructuur en het coachen van medewerkers. Wie zelf nog veel op de vloer staat, doet er goed aan eerst basis of gevorderd te volgen."
 ---
 
 Filiaalmanagers en teamleiders dragen een dubbele verantwoordelijkheid: zelf

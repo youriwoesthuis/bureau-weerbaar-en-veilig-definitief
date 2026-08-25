@@ -40,14 +40,8 @@ werkvormen:
   - feedback op patronen die de hulpverlener zelf niet ziet
   - aandacht voor compassiemoeheid
 veelgestelde_vragen:
-  - vraag: "Hoe lang duurt de gevorderde agressietraining voor maatschappelijk werkers?"
-    antwoord: De training duurt 1 dag. De groep telt maximaal 10 deelnemers.
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Maatschappelijk werkers met een afgeronde basistraining die werken met complexe, langdurige cliëntsituaties. Voorwaarde voor deelname: afgeronde basistraining."
-  - vraag: "Waar vindt de training plaats?"
-    antwoord: "Incompany op de eigen locatie, of bij Bureau Weerbaar en Veilig in Neede (Gelderland)."
-  - vraag: "Krijgen deelnemers een certificaat?"
-    antwoord: "Ja, elke deelnemer ontvangt na afloop een deelnamecertificaat."
   - vraag: "Wat is het verschil met de andere niveaus?"
     antwoord: "De basistraining behandelt het herkennen en de-escaleren van agressie in het moment. Dit gevorderde niveau richt zich op patronen die niet impulsief zijn: bewuste grensoverschrijding, manipulatie en consistent teamoptreden."
 gerelateerd:
@@ -55,9 +49,6 @@ gerelateerd:
   - "agressietraining-maatschappelijk-werkers-expert"
   - "agressietraining-sociale-dienst-participatiewet-gevorderd"
   - "agressietraining-reclasseringsmedewerkers-gevorderd"
-afbeelding:
-  src: /images/trainingen/maatschappelijk-werkers.jpg
-  alt: Deelnemers oefenen een praktijksituatie tijdens de agressietraining voor maatschappelijk werkers
 ---
 
 ## Waarom deze training

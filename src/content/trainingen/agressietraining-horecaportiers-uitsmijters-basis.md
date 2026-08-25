@@ -40,14 +40,8 @@ werkvormen:
 veelgestelde_vragen:
   - vraag: "Behandelt de training de juridische positie van de portier?"
     antwoord: "Ja. De juridische kaders waarbinnen een portier mag optreden zijn een expliciet onderdeel van de training, naast de gesprekstechniek."
-  - vraag: "Hoe lang duurt de agressietraining voor horecaportiers en uitsmijters?"
-    antwoord: De training duurt 1 dag. De groep telt maximaal 10 deelnemers.
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: Horecaportiers en uitsmijters met direct publiekscontact in de nachthoreca. Er is geen voorkennis nodig; dit is het instapniveau.
-  - vraag: "Waar vindt de training plaats?"
-    antwoord: "Incompany op de eigen locatie, of bij Bureau Weerbaar en Veilig in Neede (Gelderland)."
-  - vraag: "Krijgen deelnemers een certificaat?"
-    antwoord: "Ja, elke deelnemer ontvangt na afloop een deelnamecertificaat."
   - vraag: "Wat is het verschil met de andere niveaus?"
     antwoord: "De basistraining leert horecaportiers & uitsmijters agressie herkennen, de eigen reactie reguleren en situaties de-escaleren. Wie structureel met zwaardere situaties werkt, gaat daarna verder met het gevorderde niveau."
 gerelateerd:
@@ -55,9 +49,6 @@ gerelateerd:
   - "agressietraining-horecaportiers-uitsmijters-expert"
   - "agressietraining-evenementenbeveiligers-basis"
   - "agressietraining-horeca-bediening-basis"
-afbeelding:
-  src: /images/trainingen/horecaportiers.jpg
-  alt: "Deelnemers oefenen een praktijksituatie tijdens de agressietraining voor horecaportiers & uitsmijters"
 ---
 
 ## Waarom deze training

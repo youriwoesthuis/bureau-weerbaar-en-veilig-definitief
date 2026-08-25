@@ -39,24 +39,13 @@ werkvormen:
   - casuïstiek uit de eigen winkelpraktijk
   - feedback van de trainer
 veelgestelde_vragen:
-  - vraag: Hoe lang duurt de agressietraining voor winkelmedewerkers?
-    antwoord: De basistraining duurt 1 dag.
   - vraag: Voor wie is deze training bedoeld?
     antwoord: Voor alle winkelmedewerkers met klantcontact. Er is geen voorkennis nodig; dit is het instapniveau. Voor medewerkers die structureel met zwaardere situaties te maken hebben is er de gevorderde training.
-  - vraag: Waar vindt de training plaats?
-    antwoord: Incompany op de eigen vestiging, of bij Bureau Weerbaar en Veilig in Neede (Gelderland).
-  - vraag: Hoeveel deelnemers kunnen er per groep meedoen?
-    antwoord: Maximaal 10 deelnemers per groep, zodat iedereen actief kan oefenen.
-  - vraag: Krijgen deelnemers een certificaat?
-    antwoord: Ja, elke deelnemer ontvangt na afloop een deelnamecertificaat.
 gerelateerd:
   - agressietraining-winkelmedewerkers-gevorderd
   - agressietraining-winkelmedewerkers-expert
   - agressietraining-kassamedewerkers-baliemedewerkers-basis
   - agressietraining-filiaalmanagers-basis
-afbeelding:
-  src: /images/trainingen/agressietraining-winkelmedewerkers.jpg
-  alt: Trainer oefent een winkelsituatie met deelnemers tijdens een agressietraining
 ---
 
 ## Waarom deze training

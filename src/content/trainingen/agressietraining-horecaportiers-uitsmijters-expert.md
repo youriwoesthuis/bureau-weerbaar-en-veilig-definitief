@@ -38,14 +38,8 @@ werkvormen:
   - juridische verdieping met operationele verbetering
   - begeleiding bij protocolverandering
 veelgestelde_vragen:
-  - vraag: "Hoe lang duurt de expert agressietraining voor hoofden beveiliging in de horeca?"
-    antwoord: De training duurt 1 dag, met een intervisiebijeenkomst na 6 weken. De groep telt maximaal 8 deelnemers.
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Hoofden beveiliging, horecaondernemers en leidinggevende portiers die het veiligheidsbeleid van hun locatie willen versterken. Voorwaarde voor deelname: leidinggevende verantwoordelijkheid voor een portiersteam of voor de veiligheid van een locatie."
-  - vraag: "Waar vindt de training plaats?"
-    antwoord: "Incompany op de eigen locatie, of bij Bureau Weerbaar en Veilig in Neede (Gelderland)."
-  - vraag: "Krijgen deelnemers een certificaat?"
-    antwoord: "Ja, elke deelnemer ontvangt na afloop een deelnamecertificaat."
   - vraag: "Wat is het verschil met de andere niveaus?"
     antwoord: "De basis- en gevorderde training gaan over het eigen handelen. Dit expertniveau gaat over de organisatie: beleid, escalatiestructuur, nazorg, meldcultuur en het coachen van medewerkers."
 gerelateerd:
@@ -53,9 +47,6 @@ gerelateerd:
   - "agressietraining-horecaportiers-uitsmijters-gevorderd"
   - "agressietraining-evenementenbeveiligers-expert"
   - "agressietraining-horeca-bediening-expert"
-afbeelding:
-  src: /images/trainingen/horecaportiers.jpg
-  alt: "Deelnemers oefenen een praktijksituatie tijdens de agressietraining voor horecaportiers & uitsmijters"
 ---
 
 ## Waarom deze training

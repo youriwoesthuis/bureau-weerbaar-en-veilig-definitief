@@ -3,8 +3,9 @@ import { getCollection } from 'astro:content';
 import Basis from '../layouts/Basis.astro';
 import Kruimels from '../components/Kruimels.astro';
 import Chevron from '../components/Chevron.astro';
+import Vragen from '../components/Vragen.astro';
 import { SITE, NIVEAUS, NIVEAU_INFO, FEITEN, pad } from '../lib/site';
-import { paginaTitel, description } from '../lib/seo';
+import { paginaTitel, description, faqSchema } from '../lib/seo';
 
 const [sectoren, beroepsgroepen] = await Promise.all([
   getCollection('sectoren'),
@@ -66,6 +67,45 @@ const mailLink =
   `mailto:${SITE.email}` +
   `?subject=${encodeURIComponent('Aanvraag agressietraining')}` +
   `&body=${encodeURIComponent(mailRegels.join('\n'))}`;
+
+/**
+ * Vragen die over de aanvraag zelf gaan, niet over de inhoud van een
+ * training — die staan per beroepsgroep en per sector. Alles hieronder
+ * volgt uit FEITEN of uit wat elders op deze pagina al staat. Er staat
+ * bewust geen reactietermijn en geen prijs in: die zijn niet vastgesteld.
+ */
+const contactVragen = [
+  {
+    vraag: 'Wat kost een agressietraining?',
+    antwoord:
+      'Elke training wordt per aanvraag geoffreerd. De prijs hangt af van de beroepsgroep, het niveau, het aantal groepen en of er met een trainingsacteur wordt gewerkt. Vertel wat er speelt, dan komt daar een offerte op maat uit.',
+  },
+  {
+    vraag: 'Werkt Bureau Weerbaar en Veilig door heel Nederland?',
+    antwoord: `Ja. De trainingen worden incompany gegeven, ${FEITEN.locatie}. Het bureau is gevestigd in ${SITE.adres.plaats} (${SITE.adres.provincie}) en werkt door het hele land.`,
+  },
+  {
+    vraag: 'Wij hebben meer medewerkers dan er in één groep passen. Hoe werkt dat?',
+    antwoord: `De groepsgrootte is ${FEITEN.groepsgrootte}, bij expert ${FEITEN.groepsgrootteExpert}. Een groter team wordt dus over meerdere groepen verdeeld. Hoe die verdeling loopt — per afdeling, per locatie of gemengd — bepalen we samen in de intake.`,
+  },
+  {
+    vraag: 'Wij weten nog niet welk niveau we nodig hebben. Kunnen we toch contact opnemen?',
+    antwoord:
+      'Ja, en dat is normaal. U kunt de niveau-keuzehulp op de homepagina gebruiken voor een eerste richting, maar het niveau vaststellen hoort bij de intake en niet bij de aanvraag.',
+  },
+  {
+    vraag: 'Wat heeft Bureau Weerbaar en Veilig nodig om een aanvraag te kunnen beoordelen?',
+    antwoord:
+      'De beroepsgroep, het aantal deelnemers en een beschrijving van wat er speelt: wat er is gebeurd, hoe vaak het voorkomt en wat het team al heeft geprobeerd. Op basis daarvan wordt het niveau bepaald en de casuïstiek gekozen.',
+  },
+  {
+    vraag: 'Kunnen medewerkers van verschillende afdelingen in één groep?',
+    antwoord:
+      'Dat kan, maar het aanbod is bewust per beroepsgroep opgebouwd omdat de situaties verschillen. Of een gemengde groep werkt, hangt af van hoeveel de deelnemers in de praktijk delen. Dat is een vraag voor de intake.',
+  },
+];
+
+const schema = [faqSchema(contactVragen)].filter(Boolean);
 ---
 
 <Basis
@@ -73,6 +113,7 @@ const mailLink =
   description={description(openingsantwoord)}
   niveau="basis"
   kruimels={kruimels}
+  schema={schema}
 >
   <section class="kop-sectie gloed raster-achtergrond">
     <div class="omhulsel kop-binnen">
@@ -245,6 +286,65 @@ const mailLink =
       </aside>
     </div>
   </section>
+
+  <section class="sectie op-licht">
+    <div class="omhulsel">
+      <div class="kop-blok">
+        <p class="bovenkop">Voor u het bericht stuurt</p>
+        <h2>Wat er in een aanvraag hoort</h2>
+        <p class="inleiding">
+          Hoe concreter de aanvraag, hoe sneller er iets zinnigs over te zeggen is.
+          Deze vier dingen zijn genoeg om mee te beginnen; de rest komt in de intake.
+        </p>
+      </div>
+      <ol class="aanleveren">
+        <li>
+          <span class="kaart-cijfer" aria-hidden="true">01</span>
+          <h3 class="h4">Welke beroepsgroep</h3>
+          <p>
+            Het aanbod is per beroepsgroep opgebouwd. Staat de uwe er
+            <a href={pad('/sectoren/')}>tussen</a>, noem hem dan; zo niet, beschrijf dan het werk.
+          </p>
+        </li>
+        <li>
+          <span class="kaart-cijfer" aria-hidden="true">02</span>
+          <h3 class="h4">Hoeveel mensen</h3>
+          <p>
+            De groep telt {FEITEN.groepsgrootte}, bij expert {FEITEN.groepsgrootteExpert}.
+            Bij een groter team gaat het om meerdere groepen.
+          </p>
+        </li>
+        <li>
+          <span class="kaart-cijfer" aria-hidden="true">03</span>
+          <h3 class="h4">Wat er speelt</h3>
+          <p>
+            Wat er is gebeurd, hoe vaak het voorkomt en wat het team al heeft geprobeerd.
+            Hieruit komt de casuïstiek waarmee geoefend wordt.
+          </p>
+        </li>
+        <li>
+          <span class="kaart-cijfer" aria-hidden="true">04</span>
+          <h3 class="h4">Welk niveau, als u dat al weet</h3>
+          <p>
+            Nog onbekend mag ook. De <a href={pad('/niveaus/')}>drie niveaus</a> staan
+            uitgelegd, en het vaststellen hoort bij de intake.
+          </p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="sectie">
+    <div class="omhulsel">
+      <Vragen vragen={contactVragen} kop="Vragen over aanvraag en offerte" groep="vragen-contact" />
+      <p class="vragen-voet">
+        Vragen over de inhoud van een training staan op de pagina van uw
+        <a href={pad('/sectoren/')}>beroepsgroep</a>. Hoe een traject verloopt, staat bij
+        <a href={pad('/aanpak/')}>de werkwijze</a>; wie de trainingen geven, bij
+        <a href={pad('/over-ons/')}>over ons</a>.
+      </p>
+    </div>
+  </section>
 </Basis>
 
 <style>
@@ -398,4 +498,29 @@ const mailLink =
 
   address { font-style: normal; line-height: 1.7; color: var(--tekst-zacht); }
   .klein { font-size: 0.85rem; color: var(--tekst-gedempt); }
+
+  /* De vier dingen die in een aanvraag horen. Kolommen in plaats van een
+     grid: dan bepaalt de langste kaart niet de hoogte van alle vier. */
+  .aanleveren {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: clamp(0.75rem, 0.5rem + 1vw, 1.25rem);
+  }
+  @media (min-width: 640px) { .aanleveren { grid-template-columns: 1fr 1fr; } }
+  @media (min-width: 1040px) { .aanleveren { grid-template-columns: repeat(4, 1fr); } }
+
+  .aanleveren li {
+    display: grid;
+    align-content: start;
+    gap: 0.5rem;
+    padding: clamp(1.1rem, 0.9rem + 0.8vw, 1.6rem);
+    background: var(--wit);
+    border: 1px solid var(--rand-licht);
+    border-radius: var(--hoek);
+    border-top: 3px solid var(--oranje-op-wit);
+  }
+  .aanleveren p { color: var(--tekst-donker-zacht); font-size: 0.93rem; line-height: 1.6; margin: 0; }
+  .aanleveren h3 { margin: 0; }
 </style>

@@ -6,9 +6,13 @@ samenvatting: >-
   tegelijk moeten begrenzen en begeleiden, met cliënten en jongeren voor
   wie de inzet hoog is. Voor reclasseringsmedewerkers en medewerkers van
   justitiële jeugdinrichtingen, elk in drie niveaus.
-afbeelding:
-  src: /images/sectoren/justitiele-keten.jpg
-  alt: Begeleider in gesprek met een jongere in een gesloten setting
+veelgestelde_vragen:
+  - vraag: "Wat maakt agressie in de justitiële keten anders?"
+    antwoord: "Ze is vaker strategisch dan impulsief. De inzet is groot — een terugmelding, een verlofbeslissing of een plaatsing raakt iemands vrijheid — en dat maakt gedrag berekend in plaats van ongecontroleerd."
+  - vraag: "Iedereen bij ons heeft een dubbelrol. Kan een training daarmee om?"
+    antwoord: "Die dubbelrol is hier het uitgangspunt. Toezichthouder én begeleider zijn botst juist op het moment dat het spannend wordt, en cliënten voelen precies waar die spanning zit."
+  - vraag: "Wordt dreigingsherkenning behandeld?"
+    antwoord: "Ja, samen met standhouden zonder de relatie op te geven. Dat tweede is in deze keten net zo belangrijk als het eerste, omdat het contact daarna doorgaat."
 ---
 
 In de justitiële keten heeft vrijwel elke professional een dubbelrol: toezichthouder én begeleider, beveiliger én pedagoog. Die twee taken botsen op het moment dat het spannend wordt, en cliënten of jongeren voelen precies waar die spanning zit.

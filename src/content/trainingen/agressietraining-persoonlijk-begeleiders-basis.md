@@ -44,22 +44,13 @@ veelgestelde_vragen:
     antwoord: "Omdat de één-op-één begeleidingsrelatie een eigen dynamiek heeft. Grenzen stellen bij een cliënt met wie je een langdurige, intensieve relatie hebt vraagt een andere aanpak dan bij incidenteel contact."
   - vraag: "Wordt contact via sociale media behandeld?"
     antwoord: Ja. Contact buiten werktijd via sociale media is een herkenbaar risico in intensieve begeleidingsrelaties en komt expliciet aan bod.
-  - vraag: "Hoe lang duurt de agressietraining voor persoonlijk begeleiders in de gehandicaptenzorg?"
-    antwoord: De training duurt 1 dag. De groep telt maximaal 10 deelnemers.
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Persoonlijk begeleiders in de gehandicaptenzorg die werken in een één-op-één begeleidingsrelatie met intensief cliëntcontact. Er is geen voorkennis nodig; dit is het instapniveau."
-  - vraag: "Waar vindt de training plaats?"
-    antwoord: "Incompany op de eigen locatie, of bij Bureau Weerbaar en Veilig in Neede (Gelderland)."
-  - vraag: "Krijgen deelnemers een certificaat?"
-    antwoord: "Ja, elke deelnemer ontvangt na afloop een deelnamecertificaat."
 gerelateerd:
   - "agressietraining-persoonlijk-begeleiders-gevorderd"
   - "agressietraining-persoonlijk-begeleiders-expert"
   - "agressietraining-woonbegeleiding-gehandicaptenzorg-basis"
   - "agressietraining-gedragsdeskundigen-orthopedagogen-basis"
-afbeelding:
-  src: /images/trainingen/persoonlijk-begeleiders.jpg
-  alt: Persoonlijk begeleider en cliënt tijdens een activiteit buitenshuis
 ---
 
 ## Waarom deze training

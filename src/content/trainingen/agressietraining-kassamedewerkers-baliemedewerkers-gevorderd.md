@@ -44,20 +44,13 @@ veelgestelde_vragen:
     antwoord: "Voor kassa- en baliemedewerkers die een basistraining hebben gevolgd en regelmatig te maken hebben met complexe of herhaalde agressie-incidenten: vooral in drukke vestigingen of gebieden met een hoog incidentcijfer."
   - vraag: Is een basistraining verplicht?
     antwoord: Ja, een afgeronde basistraining is de voorwaarde voor deelname.
-  - vraag: Hoe lang duurt de training en hoe groot is de groep?
-    antwoord: De training duurt 1 dag, met maximaal 10 deelnemers per groep.
   - vraag: Wat is het verschil met de basistraining?
     antwoord: De basistraining behandelt het herkennen en de-escaleren van agressie in het moment. Dit gevorderde niveau richt zich op bewuste, herhaalde grensoverschrijding, manipulatie en bekende probleemklanten, en op consistent teamgedrag.
-  - vraag: Waar vindt de training plaats?
-    antwoord: Incompany op de eigen vestiging, of bij Bureau Weerbaar en Veilig in Neede (Gelderland).
 gerelateerd:
   - agressietraining-kassamedewerkers-baliemedewerkers-basis
   - agressietraining-kassamedewerkers-baliemedewerkers-expert
   - agressietraining-winkelmedewerkers-gevorderd
   - agressietraining-filiaalmanagers-gevorderd
-afbeelding:
-  src: /images/trainingen/agressietraining-kassamedewerkers.jpg
-  alt: Deelnemers analyseren een terugkerende klantcasus tijdens een gevorderde agressietraining
 ---
 
 ## Waarom deze training

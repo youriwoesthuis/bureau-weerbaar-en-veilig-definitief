@@ -1,10 +1,17 @@
 import { defineCollection, z } from 'astro:content';
 import { glob } from 'astro/loaders';
 
-/** Het veld `afbeelding` staat nog in de oude content maar er zijn geen
- *  bestanden. Het schema laat het toe en de templates negeren het, zodat
- *  er nergens een gebroken afbeelding kan ontstaan. */
+/** Alleen het team heeft echte fotobestanden. In trainingen, sectoren en
+ *  beroepsgroepen stond een `afbeelding`-veld dat naar 120 bestanden wees die
+ *  niet bestaan; geen enkele template gebruikte het. Die velden zijn uit de
+ *  content gehaald en staan hier bewust niet meer in het schema, zodat ze niet
+ *  stilletjes terug kunnen komen. Zie DESIGN.md hoofdstuk 1. */
 const afbeelding = z.object({ src: z.string(), alt: z.string() }).optional();
+
+/** Veelgestelde vragen bestaan op drie niveaus: per training, per
+ *  beroepsgroep en per sector. Ze moeten per pagina verschillen — een
+ *  gekopieerde FAQ maakt de pagina's inwisselbaar in plaats van vindbaar. */
+const vragen = z.array(z.object({ vraag: z.string(), antwoord: z.string() })).default([]);
 
 const niveau = z.enum(['basis', 'gevorderd', 'expert']);
 
@@ -26,9 +33,8 @@ const trainingen = defineCollection({
     resultaat: z.array(z.string()),
     programma: z.array(z.object({ titel: z.string(), inhoud: z.string() })),
     werkvormen: z.array(z.string()),
-    veelgestelde_vragen: z.array(z.object({ vraag: z.string(), antwoord: z.string() })).default([]),
+    veelgestelde_vragen: vragen,
     gerelateerd: z.array(z.string()).default([]),
-    afbeelding,
   }),
 });
 
@@ -39,7 +45,7 @@ const beroepsgroepen = defineCollection({
     slug: z.string(),
     sector: z.string(),
     samenvatting: z.string(),
-    afbeelding,
+    veelgestelde_vragen: vragen,
   }),
 });
 
@@ -49,7 +55,7 @@ const sectoren = defineCollection({
     naam: z.string(),
     slug: z.string(),
     samenvatting: z.string(),
-    afbeelding,
+    veelgestelde_vragen: vragen,
   }),
 });
 

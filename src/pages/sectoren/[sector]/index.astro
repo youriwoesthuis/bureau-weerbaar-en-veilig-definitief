@@ -4,9 +4,10 @@ import Basis from '../../../layouts/Basis.astro';
 import Kruimels from '../../../components/Kruimels.astro';
 import Icoon from '../../../components/Icoon.astro';
 import Cijferstrip from '../../../components/Cijferstrip.astro';
+import Vragen from '../../../components/Vragen.astro';
 import Cta from '../../../components/Cta.astro';
 import { NIVEAUS, NIVEAU_INFO, pad } from '../../../lib/site';
-import { paginaTitel, description } from '../../../lib/seo';
+import { paginaTitel, description, faqSchema } from '../../../lib/seo';
 
 export async function getStaticPaths() {
   const sectoren = await getCollection('sectoren');
@@ -39,6 +40,11 @@ const cijfers = [
   { waarde: sectorTrainingen.length, label: 'trainingen beschikbaar' },
   { waarde: 3, label: 'niveaus per beroepsgroep' },
 ];
+
+// Sectorvragen gaan bewust over de sector als geheel — kiezen tussen
+// beroepsgroepen, gemengde groepen — zodat ze niet botsen met de vragen op
+// de beroepsgroeppagina's eronder.
+const schema = [faqSchema(d.veelgestelde_vragen)].filter(Boolean);
 ---
 
 <Basis
@@ -46,6 +52,7 @@ const cijfers = [
   description={description(d.samenvatting)}
   niveau="basis"
   kruimels={kruimels}
+  schema={schema}
 >
   <section class="sector-kop gloed raster-achtergrond">
     <div class="omhulsel sector-kop-binnen">
@@ -132,6 +139,23 @@ const cijfers = [
       </div>
     </div>
   </section>
+
+  {d.veelgestelde_vragen.length > 0 && (
+    <section class="sectie">
+      <div class="omhulsel">
+        <Vragen
+          vragen={d.veelgestelde_vragen}
+          kop={`Vragen over agressietraining in ${d.naam.toLowerCase()}`}
+          groep={`vragen-${d.slug}`}
+        />
+        <p class="vragen-voet">
+          Per beroepsgroep staan er andere vragen. Bekijk de pagina van uw beroepsgroep
+          hierboven, lees <a href={pad('/aanpak/')}>de werkwijze</a> of
+          <a href={pad('/over-ons/')}>maak kennis met de trainers</a>.
+        </p>
+      </div>
+    </section>
+  )}
 
   <Cta
     kop={`Agressietraining in de sector ${d.naam.toLowerCase()}?`}

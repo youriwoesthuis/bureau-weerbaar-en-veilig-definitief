@@ -45,22 +45,13 @@ veelgestelde_vragen:
     antwoord: "Agressie die niet voortkomt uit frustratie over een concrete beslissing, maar uit een overtuiging over de overheid of de gezondheidszorg. Die vraagt een andere reactie, omdat de-escaleren het onderliggende motief niet wegneemt."
   - vraag: "Komen online bedreigingen aan bod?"
     antwoord: Ja. Online bedreigingen en intimidatiecampagnes richting individuele medewerkers zijn een vaste module in deze training.
-  - vraag: "Hoe lang duurt de gevorderde agressietraining voor medewerkers van de GGD en publieke gezondheidszorg?"
-    antwoord: De training duurt 1 dag. De groep telt maximaal 10 deelnemers.
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "GGD-professionals zoals inspecteurs, contactonderzoekers en medewerkers reizigersvaccinatie die regelmatig met ernstige of complexe agressie-incidenten te maken hebben. Voorwaarde voor deelname: afgeronde basistraining of aantoonbare werkervaring met complexe agressiesituaties in de publieke gezondheidszorg."
-  - vraag: "Waar vindt de training plaats?"
-    antwoord: "Incompany op de eigen locatie, of bij Bureau Weerbaar en Veilig in Neede (Gelderland)."
-  - vraag: "Krijgen deelnemers een certificaat?"
-    antwoord: "Ja, elke deelnemer ontvangt na afloop een deelnamecertificaat."
 gerelateerd:
   - "agressietraining-ggd-basis"
   - "agressietraining-ggd-expert"
   - "agressietraining-handhavers-boas-gevorderd"
   - "agressietraining-gemeenteloket-publieksbalie-gevorderd"
-afbeelding:
-  src: /images/trainingen/ggd.jpg
-  alt: "GGD-inspecteurs bespreken een casus over georganiseerde weerstand"
 ---
 
 ## Waarom deze training

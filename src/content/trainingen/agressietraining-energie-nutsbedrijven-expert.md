@@ -38,14 +38,8 @@ werkvormen:
   - "concrete protocollen voor solo-werk bij klanten thuis"
   - intervisie na 6 weken
 veelgestelde_vragen:
-  - vraag: "Hoe lang duurt de expert agressietraining voor leidinggevenden bij energie- en nutsbedrijven?"
-    antwoord: De training duurt 1 dag, met een intervisiebijeenkomst na 6 weken. De groep telt maximaal 8 deelnemers.
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Teamleiders, planners en operationeel managers bij energie- en nutsbedrijven die verantwoordelijk zijn voor de veiligheid bij huisbezoeken. Voorwaarde voor deelname: leidinggevende of operationele verantwoordelijkheid voor een team medewerkers met huisbezoeken."
-  - vraag: "Waar vindt de training plaats?"
-    antwoord: "Incompany op de eigen locatie, of bij Bureau Weerbaar en Veilig in Neede (Gelderland)."
-  - vraag: "Krijgen deelnemers een certificaat?"
-    antwoord: "Ja, elke deelnemer ontvangt na afloop een deelnamecertificaat."
   - vraag: "Wat is het verschil met de andere niveaus?"
     antwoord: "De basis- en gevorderde training gaan over het eigen handelen. Dit expertniveau gaat over de organisatie: beleid, escalatiestructuur, nazorg, meldcultuur en het coachen van medewerkers."
 gerelateerd:
@@ -53,9 +47,6 @@ gerelateerd:
   - "agressietraining-energie-nutsbedrijven-gevorderd"
   - "agressietraining-thuiszorg-wijkverpleging-expert"
   - "agressietraining-pakket-maaltijdbezorgers-expert"
-afbeelding:
-  src: /images/trainingen/energie.jpg
-  alt: "Deelnemers oefenen een praktijksituatie tijdens de agressietraining voor medewerkers energie- & nutsbedrijven"
 ---
 
 ## Waarom deze training

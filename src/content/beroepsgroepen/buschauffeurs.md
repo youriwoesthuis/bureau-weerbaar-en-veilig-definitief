@@ -7,9 +7,15 @@ samenvatting: >-
   drie niveaus. Van agressie bij het inchecken de-escaleren (basis) tot
   probleemreizigers en crisisbesluiten (gevorderd) en agressiebeleid per
   lijn (expert).
-afbeelding:
-  src: /images/beroepsgroepen/buschauffeurs.jpg
-  alt: Buschauffeur achter het stuur van een stadsbus
+veelgestelde_vragen:
+  - vraag: "De chauffeur kan niet weglopen en niet overleggen. Wat kan hij dan wel?"
+    antwoord: "Meer dan het lijkt, maar het moet passen bij de situatie: rijdend, alleen, met tientallen reizigers in de rug. De training gaat over wat werkelijk uitvoerbaar is achter dat stuur."
+  - vraag: "Wordt het besluit om de bus stil te zetten behandeld?"
+    antwoord: "Ja. Dat besluit raakt de veiligheid van iedereen aan boord en is daarmee een van de belangrijkste keuzes die een chauffeur maakt."
+  - vraag: "Komt agressie van een groep reizigers aan bod?"
+    antwoord: "Ja. Een groep gedraagt zich anders dan één reiziger, en de chauffeur heeft geen collega naast zich om te verdelen. Dat verandert de aanpak."
+  - vraag: "Welk niveau past bij buschauffeurs?"
+    antwoord: "Basis voor alle chauffeurs. Gevorderd voor wie op lijnen of tijden rijdt waar het structureel is. Expert voor teamleiders en veiligheidscoördinatoren."
 ---
 
 Een buschauffeur werkt alleen, achter een stuur, met tientallen reizigers in de rug. Bij een conflict kan hij niet weglopen en niet even overleggen, en tegelijk moet de bus veilig blijven rijden.

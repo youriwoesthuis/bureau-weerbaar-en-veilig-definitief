@@ -4,6 +4,8 @@ import Basis from '../layouts/Basis.astro';
 import Kruimels from '../components/Kruimels.astro';
 import Icoon from '../components/Icoon.astro';
 import Pdca from '../components/Pdca.astro';
+import Groeimodel from '../components/Groeimodel.astro';
+import Rolverdeling from '../components/Rolverdeling.astro';
 import Vragen from '../components/Vragen.astro';
 import Cta from '../components/Cta.astro';
 import { FEITEN, pad } from '../lib/site';
@@ -115,6 +117,38 @@ const vragen = [
         </p>
       </div>
       <Pdca />
+    </div>
+  </section>
+
+  <!-- ---------------- Groeimodel: wat er per niveau groeit ---------------- -->
+  <section class="sectie op-licht">
+    <div class="omhulsel">
+      <div class="kop-blok">
+        <p class="bovenkop">Het groeimodel</p>
+        <h2>Wat er groeit als een team een niveau opschuift</h2>
+        <p class="inleiding">
+          De drie niveaus verschillen niet in zwaarte alleen, maar in bereik.
+          Basis en gevorderd gaan over het eigen handelen; expert gaat over de
+          organisatie eromheen. Kies een niveau om te zien wat er dan bij komt.
+        </p>
+      </div>
+      <Groeimodel />
+    </div>
+  </section>
+
+  <!-- ---------------- Rolverdeling ---------------- -->
+  <section class="sectie">
+    <div class="omhulsel">
+      <div class="kop-blok">
+        <p class="bovenkop">Wie doet wat</p>
+        <h2>Een training werkt alleen als drie partijen iets doen</h2>
+        <p class="inleiding">
+          Bureau Weerbaar en Veilig geeft de trainingsdag, maar dat is één van
+          de drie rollen. Zonder wat de organisatie inbrengt is er geen
+          casuïstiek, en zonder wat het team erna doet blijft er niets van over.
+        </p>
+      </div>
+      <Rolverdeling />
     </div>
   </section>
 

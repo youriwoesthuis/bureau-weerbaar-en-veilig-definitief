@@ -41,14 +41,8 @@ werkvormen:
 veelgestelde_vragen:
   - vraag: "Blijft de verkeersveiligheid een aandachtspunt in de training?"
     antwoord: "Ja. De-escaleren mag nooit ten koste gaan van veilig rijden. Het reguleren van de eigen reactie zonder de aandacht van het verkeer te halen is een expliciet leerdoel."
-  - vraag: "Hoe lang duurt de agressietraining voor taxichauffeurs?"
-    antwoord: De training duurt 1 dag. De groep telt maximaal 10 deelnemers.
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: Alle taxichauffeurs en personenvervoerders met direct passagierscontact. Er is geen voorkennis nodig; dit is het instapniveau.
-  - vraag: "Waar vindt de training plaats?"
-    antwoord: "Incompany op de eigen locatie, of bij Bureau Weerbaar en Veilig in Neede (Gelderland)."
-  - vraag: "Krijgen deelnemers een certificaat?"
-    antwoord: "Ja, elke deelnemer ontvangt na afloop een deelnamecertificaat."
   - vraag: "Wat is het verschil met de andere niveaus?"
     antwoord: "De basistraining leert taxichauffeurs agressie herkennen, de eigen reactie reguleren en situaties de-escaleren. Wie structureel met zwaardere situaties werkt, gaat daarna verder met het gevorderde niveau."
 gerelateerd:
@@ -56,9 +50,6 @@ gerelateerd:
   - "agressietraining-taxichauffeurs-expert"
   - "agressietraining-buschauffeurs-basis"
   - "agressietraining-pakket-maaltijdbezorgers-basis"
-afbeelding:
-  src: /images/trainingen/taxichauffeurs.jpg
-  alt: Deelnemers oefenen een praktijksituatie tijdens de agressietraining voor taxichauffeurs
 ---
 
 ## Waarom deze training

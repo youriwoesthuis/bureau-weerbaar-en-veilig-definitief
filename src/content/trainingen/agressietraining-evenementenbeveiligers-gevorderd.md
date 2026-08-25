@@ -39,14 +39,8 @@ werkvormen:
   - scenario’s die de grenzen opzoeken
   - feedback op teamoptreden en proportionaliteit
 veelgestelde_vragen:
-  - vraag: "Hoe lang duurt de gevorderde agressietraining voor evenementenbeveiligers?"
-    antwoord: De training duurt 1 dag. De groep telt maximaal 10 deelnemers.
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Beveiligers met basistraining die regelmatig bij grootschalige of hoogrisico-evenementen worden ingezet. Voorwaarde voor deelname: afgeronde basistraining."
-  - vraag: "Waar vindt de training plaats?"
-    antwoord: "Incompany op de eigen locatie, of bij Bureau Weerbaar en Veilig in Neede (Gelderland)."
-  - vraag: "Krijgen deelnemers een certificaat?"
-    antwoord: "Ja, elke deelnemer ontvangt na afloop een deelnamecertificaat."
   - vraag: "Wat is het verschil met de andere niveaus?"
     antwoord: "De basistraining behandelt het herkennen en de-escaleren van agressie in het moment. Dit gevorderde niveau richt zich op patronen die niet impulsief zijn: bewuste grensoverschrijding, manipulatie en consistent teamoptreden."
 gerelateerd:
@@ -54,9 +48,6 @@ gerelateerd:
   - "agressietraining-evenementenbeveiligers-expert"
   - "agressietraining-horecaportiers-uitsmijters-gevorderd"
   - "agressietraining-sportaccommodaties-zwembaden-gevorderd"
-afbeelding:
-  src: /images/trainingen/evenementenbeveiligers.jpg
-  alt: Deelnemers oefenen een praktijksituatie tijdens de agressietraining voor evenementenbeveiligers
 ---
 
 ## Waarom deze training

@@ -44,8 +44,6 @@ veelgestelde_vragen:
     antwoord: Voor regiomanagers, HR-professionals, loss prevention managers en leidinggevenden met verantwoordelijkheid voor meerdere vestigingen of organisatiebreed veiligheidsbeleid.
   - vraag: Wat is de voorwaarde voor deelname?
     antwoord: Verantwoordelijkheid voor meerdere vestigingen of voor het organisatiebrede veiligheidsbeleid.
-  - vraag: Hoe lang duurt de training?
-    antwoord: 1 dag, inclusief een intervisiebijeenkomst na 6 weken. De groep telt maximaal 8 deelnemers.
   - vraag: Hoe wordt de training op onze organisatie afgestemd?
     antwoord: Een intakegesprek vooraf brengt de situatie in kaart. Bureau Weerbaar en Veilig analyseert incidentdata, bestaand beleid en de organisatiestructuur, zodat de training direct op de eigen praktijk aansluit.
   - vraag: Wat is het verschil met de experttraining voor de winkelvloer?
@@ -55,9 +53,6 @@ gerelateerd:
   - agressietraining-filiaalmanagers-gevorderd
   - agressietraining-winkelmedewerkers-expert
   - agressietraining-kassamedewerkers-baliemedewerkers-expert
-afbeelding:
-  src: /images/trainingen/agressietraining-filiaalmanagers.jpg
-  alt: Regiomanagers werken aan organisatiebreed agressiebeleid tijdens een experttraining
 ---
 
 ## Waarom deze training

@@ -39,14 +39,8 @@ werkvormen:
   - "coaching- en ondersteuningsstrategieën"
   - vervolgmoment na 6 weken
 veelgestelde_vragen:
-  - vraag: "Hoe lang duurt de expert agressietraining voor leidinggevenden in hypotheek- en kredietadvies?"
-    antwoord: De training duurt 1 dag, met een intervisiebijeenkomst na 6 weken. De groep telt maximaal 8 deelnemers.
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Teamleiders en directeuren van hypotheek- en kredietadviseurskantoren met ervaring in klantconflicten. Voorwaarde voor deelname: leidinggevende verantwoordelijkheid voor een adviseursteam."
-  - vraag: "Waar vindt de training plaats?"
-    antwoord: "Incompany op de eigen locatie, of bij Bureau Weerbaar en Veilig in Neede (Gelderland)."
-  - vraag: "Krijgen deelnemers een certificaat?"
-    antwoord: "Ja, elke deelnemer ontvangt na afloop een deelnamecertificaat."
   - vraag: "Wat is het verschil met de andere niveaus?"
     antwoord: "De basis- en gevorderde training gaan over het eigen handelen. Dit expertniveau gaat over de organisatie: beleid, escalatiestructuur, nazorg, meldcultuur en het coachen van medewerkers."
 gerelateerd:
@@ -54,9 +48,6 @@ gerelateerd:
   - "agressietraining-hypotheek-kredietadviseurs-gevorderd"
   - "agressietraining-bankmedewerkers-expert"
   - "agressietraining-verzekeringsmedewerkers-expert"
-afbeelding:
-  src: /images/trainingen/hypotheekadvies.jpg
-  alt: "Deelnemers oefenen een praktijksituatie tijdens de agressietraining voor hypotheek- & kredietadviseurs"
 ---
 
 ## Waarom deze training

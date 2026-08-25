@@ -44,20 +44,13 @@ veelgestelde_vragen:
     antwoord: "Voor medewerkers in een leidinggevende of coördinerende rol: filiaalmanagers, assistent-managers, teamleiders en senior medewerkers die collega's aan kassa en balie begeleiden bij agressie-incidenten."
   - vraag: Wat zijn de voorwaarden voor deelname?
     antwoord: Een leidinggevende functie met aantoonbare werkervaring met agressie in de retail.
-  - vraag: Hoe lang duurt de training?
-    antwoord: 1 dag, inclusief een intervisiebijeenkomst na 6 weken. De groep telt maximaal 8 deelnemers.
   - vraag: Wat levert de training de organisatie op?
     antwoord: Een getoetst en aangescherpt agressieprotocol, een heldere escalatiestructuur, structurele nazorg en een sterkere meldcultuur, zodat het team consistent reageert en incidenten benut worden om te leren.
-  - vraag: Waar vindt de training plaats?
-    antwoord: Incompany op de eigen vestiging, of bij Bureau Weerbaar en Veilig in Neede (Gelderland).
 gerelateerd:
   - agressietraining-kassamedewerkers-baliemedewerkers-basis
   - agressietraining-kassamedewerkers-baliemedewerkers-gevorderd
   - agressietraining-winkelmedewerkers-expert
   - agressietraining-filiaalmanagers-expert
-afbeelding:
-  src: /images/trainingen/agressietraining-kassamedewerkers.jpg
-  alt: Leidinggevenden bespreken het agressieprotocol tijdens een experttraining
 ---
 
 ## Waarom deze training

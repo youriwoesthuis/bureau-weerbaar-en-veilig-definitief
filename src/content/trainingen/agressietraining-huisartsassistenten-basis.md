@@ -38,14 +38,8 @@ werkvormen:
   - casuïstiek uit de eigen huisartsenpraktijk
   - feedback van de trainer
 veelgestelde_vragen:
-  - vraag: Hoe lang duurt de agressietraining voor huisartsassistenten?
-    antwoord: De basistraining duurt 1 dag.
   - vraag: Voor wie is deze training bedoeld?
     antwoord: Voor alle huisartsassistenten met direct patiëntcontact via balie en telefoon. Er is geen voorkennis nodig; dit is het instapniveau.
-  - vraag: Waar vindt de training plaats?
-    antwoord: Incompany op de eigen locatie, of bij Bureau Weerbaar en Veilig in Neede (Gelderland).
-  - vraag: Hoeveel deelnemers kunnen er per groep meedoen?
-    antwoord: Maximaal 10 deelnemers per groep, zodat iedereen actief kan oefenen.
   - vraag: Wordt telefonische agressie ook behandeld?
     antwoord: Ja. Een groot deel van de agressie bij huisartsassistenten komt via de telefoon, bijvoorbeeld na een triage-beslissing. De training behandelt zowel balie- als telefoonsituaties.
 gerelateerd:
@@ -53,9 +47,6 @@ gerelateerd:
   - agressietraining-huisartsassistenten-expert
   - agressietraining-apotheekmedewerkers-basis
   - agressietraining-ggd-basis
-afbeelding:
-  src: /images/trainingen/agressietraining-huisartsassistenten.jpg
-  alt: Huisartsassistent aan de balie in gesprek met een patiënt
 ---
 
 ## Waarom deze training

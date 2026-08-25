@@ -8,9 +8,15 @@ samenvatting: >-
   herkennen vóór het aanbellen (basis) tot veiligheidstaxatie en fysieke
   dreiging (gevorderd) en veiligheidsprotocol en platformdynamiek
   (expert).
-afbeelding:
-  src: /images/beroepsgroepen/bezorgers.jpg
-  alt: Maaltijdbezorger op een scooter in een woonwijk
+veelgestelde_vragen:
+  - vraag: "Onze bezorgers melden incidenten bijna nooit. Kan een training daar iets aan doen?"
+    antwoord: "De training benoemt dat mechanisme expliciet: als een klacht werk kan kosten, houd je incidenten liever stil. Zolang dat niet besproken is, blijft onveiligheid onzichtbaar en verandert er weinig."
+  - vraag: "Hoe bereid je iemand voor op een deur waarvan hij niet weet wat erachter zit?"
+    antwoord: "Door te oefenen met inschatten in de seconden die je hebt, en met het besluit om niet af te leveren. Dat besluit is de kern voor deze groep."
+  - vraag: "Komen conflicten over bezorgtijd en de staat van de bestelling aan bod?"
+    antwoord: "Ja. Dat is de directe aanleiding voor de meeste incidenten: de klant heeft verwachtingen en de bezorger krijgt de reactie als iets niet klopt."
+  - vraag: "Welk niveau past bij bezorgers?"
+    antwoord: "Basis voor alle bezorgers, ook tijdelijke krachten. Gevorderd voor wie in gebieden of tijdvakken rijdt waar het structureel is. Expert voor de planner of teamleider die de meldnorm bepaalt."
 ---
 
 Een bezorger staat tientallen keren per dag aan een voordeur zonder te weten wat erachter zit. De klant heeft verwachtingen over tijd en staat van de bestelling, en de bezorger krijgt de reactie als iets niet klopt.

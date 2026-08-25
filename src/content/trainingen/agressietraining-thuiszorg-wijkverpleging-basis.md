@@ -44,22 +44,13 @@ veelgestelde_vragen:
     antwoord: "Ja. Bepalen wanneer een bezoek veilig kan worden beëindigd is een vast onderdeel van de training, inclusief wat je doet als je wordt tegengehouden."
   - vraag: "Komt seksueel grensoverschrijdend gedrag aan bod?"
     antwoord: Ja. Seksueel grensoverschrijdend gedrag tijdens de verzorging is een herkenbare situatie in de thuiszorg en wordt expliciet behandeld en geoefend.
-  - vraag: "Hoe lang duurt de agressietraining voor thuiszorgmedewerkers, verzorgenden en wijkverpleegkundigen?"
-    antwoord: De training duurt 1 dag. De groep telt maximaal 10 deelnemers.
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Alle thuiszorgmedewerkers, verzorgenden en wijkverpleegkundigen die zorg verlenen in de privéomgeving van cliënten. Er is geen voorkennis nodig; dit is het instapniveau."
-  - vraag: "Waar vindt de training plaats?"
-    antwoord: "Incompany op de eigen locatie, of bij Bureau Weerbaar en Veilig in Neede (Gelderland)."
-  - vraag: "Krijgen deelnemers een certificaat?"
-    antwoord: "Ja, elke deelnemer ontvangt na afloop een deelnamecertificaat."
 gerelateerd:
   - "agressietraining-thuiszorg-wijkverpleging-gevorderd"
   - "agressietraining-thuiszorg-wijkverpleging-expert"
   - "agressietraining-verpleeghuizen-ouderenzorg-basis"
   - "agressietraining-energie-nutsbedrijven-basis"
-afbeelding:
-  src: /images/trainingen/thuiszorg.jpg
-  alt: Wijkverpleegkundige belt aan bij een cliënt thuis
 ---
 
 ## Waarom deze training

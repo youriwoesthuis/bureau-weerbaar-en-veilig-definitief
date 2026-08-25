@@ -40,14 +40,8 @@ werkvormen:
   - patroonanalyse met directe feedback
   - morele spanning wordt bespreekbaar gemaakt
 veelgestelde_vragen:
-  - vraag: "Hoe lang duurt de gevorderde agressietraining voor medewerkers bij de sociale dienst en uitkeringsinstanties?"
-    antwoord: De training duurt 1 dag. De groep telt maximaal 10 deelnemers.
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Medewerkers die regelmatig complexe of herhaalde agressie-incidenten meemaken bij schuldhulp, bijzondere bijstand en re-integratie. Voorwaarde voor deelname: afgeronde basistraining of aantoonbare werkervaring met agressie-incidenten."
-  - vraag: "Waar vindt de training plaats?"
-    antwoord: "Incompany op de eigen locatie, of bij Bureau Weerbaar en Veilig in Neede (Gelderland)."
-  - vraag: "Krijgen deelnemers een certificaat?"
-    antwoord: "Ja, elke deelnemer ontvangt na afloop een deelnamecertificaat."
   - vraag: "Wat is het verschil met de andere niveaus?"
     antwoord: "De basistraining behandelt het herkennen en de-escaleren van agressie in het moment. Dit gevorderde niveau richt zich op patronen die niet impulsief zijn: bewuste grensoverschrijding, manipulatie en consistent teamoptreden."
 gerelateerd:
@@ -55,9 +49,6 @@ gerelateerd:
   - "agressietraining-sociale-dienst-uitkeringsinstanties-expert"
   - "agressietraining-sociale-dienst-participatiewet-gevorderd"
   - "agressietraining-incasso-schuldhulpverlening-gevorderd"
-afbeelding:
-  src: /images/trainingen/sociale-dienst.jpg
-  alt: "Deelnemers oefenen een praktijksituatie tijdens de agressietraining voor sociale dienst & uitkeringsinstanties"
 ---
 
 ## Waarom deze training

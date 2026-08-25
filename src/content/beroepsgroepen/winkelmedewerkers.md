@@ -7,9 +7,15 @@ samenvatting: >-
   drie niveaus. Van het herkennen en de-escaleren van agressie op de winkelvloer
   (basis) tot omgaan met terugkerende overlastgevers (gevorderd) en het
   agressiebeleid van de vestiging (expert, voor leidinggevenden).
-afbeelding:
-  src: /images/beroepsgroepen/winkelmedewerkers.jpg
-  alt: Winkelmedewerker vult vakken terwijl klanten door de winkel lopen
+veelgestelde_vragen:
+  - vraag: "Onze mensen werken vaak alleen in hun deel van de winkel. Wordt daarop getraind?"
+    antwoord: "Ja. Alleen werken in een open ruimte tussen de klanten is de uitgangspositie van deze beroepsgroep, en dat bepaalt wat wel en niet verstandig is om te doen."
+  - vraag: "Hoe spreek je iemand aan op vermoedelijke diefstal?"
+    antwoord: "Dat is een van de vaste situaties in de training. Het gaat om aanspreken zonder te beschuldigen, en om weten waar je eigen grens ligt in wat je zelf oppakt."
+  - vraag: "Komen groepen die de boel verstoren aan bod?"
+    antwoord: "Ja. Een groep vraagt iets anders dan één klant: de aandacht is verdeeld, publiek versterkt het gedrag, en de-escaleren werkt daar anders."
+  - vraag: "Welk niveau past bij winkelmedewerkers?"
+    antwoord: "Basis voor de hele vloer. Gevorderd voor wie vaak alleenstaat of met terugkerende overlast te maken heeft. Expert voor de filiaalmanager of teamleider."
 ---
 
 Winkelmedewerkers werken in een open ruimte, tussen de klanten, en zijn vaak

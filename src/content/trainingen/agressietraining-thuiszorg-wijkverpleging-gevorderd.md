@@ -45,22 +45,13 @@ veelgestelde_vragen:
     antwoord: "Ja. Het taxeren van veiligheidsrisico’s in de thuissituatie omvat signalen van huiselijk geweld en verwaarlozing, en wat een medewerker daarmee doet."
   - vraag: "Wat als de mantelzorger het probleem is?"
     antwoord: Dat is een vaste module. Structurele intimidatie door een partner of mantelzorger vraagt een andere aanpak dan agressie van de cliënt zelf.
-  - vraag: "Hoe lang duurt de gevorderde agressietraining voor thuiszorgmedewerkers, verzorgenden en wijkverpleegkundigen?"
-    antwoord: De training duurt 1 dag. De groep telt maximaal 10 deelnemers.
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Thuiszorgmedewerkers en wijkverpleegkundigen met basiskennis die regelmatig werken met cliënten met structurele of complexe agressie. Voorwaarde voor deelname: afgeronde basistraining of aantoonbare werkervaring met complexe agressiesituaties."
-  - vraag: "Waar vindt de training plaats?"
-    antwoord: "Incompany op de eigen locatie, of bij Bureau Weerbaar en Veilig in Neede (Gelderland)."
-  - vraag: "Krijgen deelnemers een certificaat?"
-    antwoord: "Ja, elke deelnemer ontvangt na afloop een deelnamecertificaat."
 gerelateerd:
   - "agressietraining-thuiszorg-wijkverpleging-basis"
   - "agressietraining-thuiszorg-wijkverpleging-expert"
   - "agressietraining-verpleeghuizen-ouderenzorg-gevorderd"
   - "agressietraining-energie-nutsbedrijven-gevorderd"
-afbeelding:
-  src: /images/trainingen/thuiszorg.jpg
-  alt: Thuiszorgmedewerkers bespreken een complexe cliëntsituatie
 ---
 
 ## Waarom deze training

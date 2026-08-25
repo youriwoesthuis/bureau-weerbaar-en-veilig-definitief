@@ -42,14 +42,8 @@ werkvormen:
 veelgestelde_vragen:
   - vraag: "Waarom is dit een apart expertniveau?"
     antwoord: "Omdat het aansturen van persoonlijk begeleiders andere vragen oproept dan het leiden van een woongroep. De risico’s zitten in de één-op-één relatie zelf: grensvervaging, isolatie en werk zonder toezicht."
-  - vraag: "Hoe lang duurt de expert agressietraining voor leidinggevenden over persoonlijk begeleiders in de gehandicaptenzorg?"
-    antwoord: De training duurt 1 dag, met een intervisiebijeenkomst na 6 weken. De groep telt maximaal 8 deelnemers.
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Teamleiders, locatiemanagers en gedragscoördinatoren die persoonlijk begeleiders aansturen in intensieve één-op-één begeleidingsrelaties. Voorwaarde voor deelname: leidinggevende verantwoordelijkheid voor een team persoonlijk begeleiders in de gehandicaptenzorg."
-  - vraag: "Waar vindt de training plaats?"
-    antwoord: "Incompany op de eigen locatie, of bij Bureau Weerbaar en Veilig in Neede (Gelderland)."
-  - vraag: "Krijgen deelnemers een certificaat?"
-    antwoord: "Ja, elke deelnemer ontvangt na afloop een deelnamecertificaat."
   - vraag: "Wat is het verschil met de andere niveaus?"
     antwoord: "De basis- en gevorderde training gaan over het eigen handelen. Dit expertniveau gaat over de organisatie: beleid, escalatiestructuur, nazorg, meldcultuur en het coachen van medewerkers."
 gerelateerd:
@@ -57,9 +51,6 @@ gerelateerd:
   - "agressietraining-persoonlijk-begeleiders-gevorderd"
   - "agressietraining-woonbegeleiding-gehandicaptenzorg-expert"
   - "agressietraining-gedragsdeskundigen-orthopedagogen-expert"
-afbeelding:
-  src: /images/trainingen/persoonlijk-begeleiders.jpg
-  alt: Teamleider bespreekt begeleidingsrelaties met een persoonlijk begeleider
 ---
 
 ## Waarom deze training

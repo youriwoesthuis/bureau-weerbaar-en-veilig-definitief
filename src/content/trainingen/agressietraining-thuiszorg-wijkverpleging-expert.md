@@ -42,14 +42,8 @@ werkvormen:
 veelgestelde_vragen:
   - vraag: "Hoe zit de intervisie in het programma?"
     antwoord: "De training bestaat uit 1 dag, waarvan de tweede na ongeveer 6 weken plaatsvindt. Deelnemers brengen dan hun eigen casussen en de voortgang van de implementatie in."
-  - vraag: "Hoe lang duurt de expert agressietraining voor leidinggevenden in de thuiszorg en wijkverpleging?"
-    antwoord: De training duurt 1 dag, met een intervisiebijeenkomst na 6 weken. De groep telt maximaal 8 deelnemers.
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Teamleiders, zorgcoördinatoren en managers in de thuiszorg en wijkverpleging. Voorwaarde voor deelname: leidinggevende of coördinerende verantwoordelijkheid voor een thuiszorgteam."
-  - vraag: "Waar vindt de training plaats?"
-    antwoord: "Incompany op de eigen locatie, of bij Bureau Weerbaar en Veilig in Neede (Gelderland)."
-  - vraag: "Krijgen deelnemers een certificaat?"
-    antwoord: "Ja, elke deelnemer ontvangt na afloop een deelnamecertificaat."
   - vraag: "Wat is het verschil met de andere niveaus?"
     antwoord: "De basis- en gevorderde training gaan over het eigen handelen. Dit expertniveau gaat over de organisatie: beleid, escalatiestructuur, nazorg, meldcultuur en het coachen van medewerkers."
 gerelateerd:
@@ -57,9 +51,6 @@ gerelateerd:
   - "agressietraining-thuiszorg-wijkverpleging-gevorderd"
   - "agressietraining-verpleeghuizen-ouderenzorg-expert"
   - "agressietraining-ggd-expert"
-afbeelding:
-  src: /images/trainingen/thuiszorg.jpg
-  alt: Zorgcoördinator bespreekt veiligheidsafspraken met een thuiszorgteam
 ---
 
 ## Waarom deze training

@@ -320,6 +320,26 @@ h4, .h4 { font-size: 1.05rem; line-height: 1.3; }
 .pijllink:hover { text-decoration: underline; text-underline-offset: 4px; }
 .op-licht .pijllink, .op-wit .pijllink { color: var(--oranje-op-wit); }
 
+/* Voetregel onder een vragenblok: doorverwijzing naar de pagina's waar het
+   antwoord wél staat. Staat hier en niet scoped per pagina, omdat drie
+   sjablonen hem gebruiken. Een kale <a> kreeg anders de browserstandaard
+   (#0000ee) en kwam op donker uit op 1,9:1.
+   Het staande binnenwit is er voor de doelgrootte van 24px (WCAG 2.5.8);
+   losse tekstlinks halen die anders niet. */
+.vragen-voet {
+  margin-top: clamp(1.5rem, 1rem + 1.5vw, 2.25rem);
+  color: var(--tekst-zacht);
+  font-size: 0.95rem;
+  line-height: 1.9;
+}
+.vragen-voet a {
+  color: var(--oranje-400);
+  padding-block: 0.3rem;
+  text-underline-offset: 3px;
+}
+.op-licht .vragen-voet, .op-wit .vragen-voet { color: var(--tekst-donker-zacht); }
+.op-licht .vragen-voet a, .op-wit .vragen-voet a { color: var(--oranje-op-wit); }
+
 /* ---------- 7. Kaarten --------------------------------------------------- */
 .kaart {
   position: relative;

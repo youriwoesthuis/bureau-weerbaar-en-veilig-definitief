@@ -42,14 +42,8 @@ werkvormen:
 veelgestelde_vragen:
   - vraag: "Hoe voorkom je dat agressie genormaliseerd wordt?"
     antwoord: "Door meldgedrag zichtbaar te maken, patronen op afdelingsniveau te bespreken en incidenten consequent na te bespreken. Dat is een kernonderdeel van deze training."
-  - vraag: "Hoe lang duurt de expert agressietraining voor leidinggevenden in verpleeghuizen en ouderenzorg?"
-    antwoord: De training duurt 1 dag. De groep telt maximaal 8 deelnemers.
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Teamleiders, afdelingshoofden en locatiemanagers in verpleeghuizen en de ouderenzorg. Voorwaarde voor deelname: leidinggevende verantwoordelijkheid voor een team in een verpleeghuis of ouderenzorginstelling."
-  - vraag: "Waar vindt de training plaats?"
-    antwoord: "Incompany op de eigen locatie, of bij Bureau Weerbaar en Veilig in Neede (Gelderland)."
-  - vraag: "Krijgen deelnemers een certificaat?"
-    antwoord: "Ja, elke deelnemer ontvangt na afloop een deelnamecertificaat."
   - vraag: "Wat is het verschil met de andere niveaus?"
     antwoord: "De basis- en gevorderde training gaan over het eigen handelen. Dit expertniveau gaat over de organisatie: beleid, escalatiestructuur, nazorg, meldcultuur en het coachen van medewerkers."
 gerelateerd:
@@ -57,9 +51,6 @@ gerelateerd:
   - "agressietraining-verpleeghuizen-ouderenzorg-gevorderd"
   - "agressietraining-thuiszorg-wijkverpleging-expert"
   - "agressietraining-woonbegeleiding-gehandicaptenzorg-expert"
-afbeelding:
-  src: /images/trainingen/verpleeghuizen.jpg
-  alt: Afdelingshoofd bespreekt agressiebeleid met een zorgteam
 ---
 
 ## Waarom deze training

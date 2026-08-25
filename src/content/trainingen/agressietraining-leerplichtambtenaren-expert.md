@@ -40,14 +40,8 @@ werkvormen:
   - beleidsverdieping met concrete protocollen
   - intervisie na 6 weken
 veelgestelde_vragen:
-  - vraag: "Hoe lang duurt de expert agressietraining voor leidinggevenden over leerplichtambtenaren?"
-    antwoord: De training duurt 1 dag, met een intervisiebijeenkomst na 6 weken. De groep telt maximaal 8 deelnemers.
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Coördinatoren leerplicht, teamleiders en beleidsmedewerkers bij gemeenten die verantwoordelijk zijn voor de veiligheid van het leerplichtwerk. Voorwaarde voor deelname: coördinerende of leidinggevende verantwoordelijkheid voor een leerplichtteam."
-  - vraag: "Waar vindt de training plaats?"
-    antwoord: "Incompany op de eigen locatie, of bij Bureau Weerbaar en Veilig in Neede (Gelderland)."
-  - vraag: "Krijgen deelnemers een certificaat?"
-    antwoord: "Ja, elke deelnemer ontvangt na afloop een deelnamecertificaat."
   - vraag: "Wat is het verschil met de andere niveaus?"
     antwoord: "De basis- en gevorderde training gaan over het eigen handelen. Dit expertniveau gaat over de organisatie: beleid, escalatiestructuur, nazorg, meldcultuur en het coachen van medewerkers."
 gerelateerd:
@@ -55,9 +49,6 @@ gerelateerd:
   - "agressietraining-leerplichtambtenaren-gevorderd"
   - "agressietraining-handhavers-boas-expert"
   - "agressietraining-gemeenteloket-publieksbalie-expert"
-afbeelding:
-  src: /images/trainingen/leerplichtambtenaren.jpg
-  alt: Deelnemers oefenen een praktijksituatie tijdens de agressietraining voor leerplichtambtenaren
 ---
 
 ## Waarom deze training

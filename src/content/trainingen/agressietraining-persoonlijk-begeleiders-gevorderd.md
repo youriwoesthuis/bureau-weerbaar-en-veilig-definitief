@@ -43,14 +43,8 @@ werkvormen:
 veelgestelde_vragen:
   - vraag: "Wat wordt bedoeld met grensvervaging?"
     antwoord: "Dat de grens tussen professioneel en persoonlijk langzaam verschuift in een intensieve, langdurige begeleidingsrelatie. Begeleiders zien dat bij zichzelf vaak als laatste; deze training leert die signalen herkennen en bespreken."
-  - vraag: "Hoe lang duurt de gevorderde agressietraining voor persoonlijk begeleiders (pb-ers) in de gehandicaptenzorg?"
-    antwoord: De training duurt 1 dag. De groep telt maximaal 10 deelnemers.
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Persoonlijk begeleiders die de basistraining hebben gevolgd en werken met cliënten met een hoog risicoprofiel of complexe gedragsproblematiek. Voorwaarde voor deelname: afgeronde basistraining of aantoonbare werkervaring met complexe begeleidingsrelaties in de gehandicaptenzorg."
-  - vraag: "Waar vindt de training plaats?"
-    antwoord: "Incompany op de eigen locatie, of bij Bureau Weerbaar en Veilig in Neede (Gelderland)."
-  - vraag: "Krijgen deelnemers een certificaat?"
-    antwoord: "Ja, elke deelnemer ontvangt na afloop een deelnamecertificaat."
   - vraag: "Wat is het verschil met de andere niveaus?"
     antwoord: "De basistraining behandelt het herkennen en de-escaleren van agressie in het moment. Dit gevorderde niveau richt zich op patronen die niet impulsief zijn: bewuste grensoverschrijding, manipulatie en consistent teamoptreden."
 gerelateerd:
@@ -58,9 +52,6 @@ gerelateerd:
   - "agressietraining-persoonlijk-begeleiders-expert"
   - "agressietraining-woonbegeleiding-gehandicaptenzorg-gevorderd"
   - "agressietraining-gedragsdeskundigen-orthopedagogen-gevorderd"
-afbeelding:
-  src: /images/trainingen/persoonlijk-begeleiders.jpg
-  alt: Persoonlijk begeleiders bespreken grensvervaging tijdens een training
 ---
 
 ## Waarom deze training

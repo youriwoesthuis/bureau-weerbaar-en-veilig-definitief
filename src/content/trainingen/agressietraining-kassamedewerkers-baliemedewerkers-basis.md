@@ -39,24 +39,13 @@ werkvormen:
   - praktijkgerichte oefeningen
   - feedback van de trainer
 veelgestelde_vragen:
-  - vraag: Hoe lang duurt de agressietraining voor kassamedewerkers en baliemedewerkers?
-    antwoord: De basistraining duurt 1 dag.
   - vraag: Voor wie is deze training bedoeld?
     antwoord: Voor alle kassamedewerkers en baliemedewerkers in de retail. Er is geen voorkennis nodig; dit is het instapniveau.
-  - vraag: Waar vindt de training plaats?
-    antwoord: Incompany op de eigen vestiging, of bij Bureau Weerbaar en Veilig in Neede (Gelderland).
-  - vraag: Hoeveel deelnemers kunnen er per groep meedoen?
-    antwoord: Maximaal 10 deelnemers per groep, zodat iedereen actief kan oefenen.
-  - vraag: Krijgen deelnemers een certificaat?
-    antwoord: Ja, elke deelnemer ontvangt na afloop een deelnamecertificaat.
 gerelateerd:
   - agressietraining-kassamedewerkers-baliemedewerkers-gevorderd
   - agressietraining-kassamedewerkers-baliemedewerkers-expert
   - agressietraining-winkelmedewerkers-basis
   - agressietraining-filiaalmanagers-basis
-afbeelding:
-  src: /images/trainingen/agressietraining-kassamedewerkers.jpg
-  alt: Kassamedewerker oefent een gesprek met een boze klant tijdens een agressietraining
 ---
 
 ## Waarom deze training

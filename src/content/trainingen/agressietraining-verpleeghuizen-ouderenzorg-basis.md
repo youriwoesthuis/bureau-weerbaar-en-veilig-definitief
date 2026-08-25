@@ -43,22 +43,13 @@ veelgestelde_vragen:
     antwoord: "Ja. Familieleden die zorgmedewerkers intimideren over de zorg voor hun naaste vormen een aparte module: dit gedrag is begrensbaar en vraagt een andere aanpak dan agressie bij dementie."
   - vraag: "Leert de training ook fysieke technieken?"
     antwoord: "De nadruk ligt op het begrijpen van het gedrag, het reguleren van de eigen reactie en de-escaleren met passende technieken, zodat een situatie niet verder escaleert."
-  - vraag: "Hoe lang duurt de agressietraining voor zorgmedewerkers in verpleeghuizen en ouderenzorg?"
-    antwoord: De training duurt 1 dag. De groep telt maximaal 10 deelnemers.
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Alle zorgmedewerkers, verzorgenden en verpleegkundigen in verpleeghuizen en ouderenzorginstellingen. Er is geen voorkennis nodig; dit is het instapniveau."
-  - vraag: "Waar vindt de training plaats?"
-    antwoord: "Incompany op de eigen locatie, of bij Bureau Weerbaar en Veilig in Neede (Gelderland)."
-  - vraag: "Krijgen deelnemers een certificaat?"
-    antwoord: "Ja, elke deelnemer ontvangt na afloop een deelnamecertificaat."
 gerelateerd:
   - "agressietraining-verpleeghuizen-ouderenzorg-gevorderd"
   - "agressietraining-verpleeghuizen-ouderenzorg-expert"
   - "agressietraining-thuiszorg-wijkverpleging-basis"
   - "agressietraining-woonbegeleiding-gehandicaptenzorg-basis"
-afbeelding:
-  src: /images/trainingen/verpleeghuizen.jpg
-  alt: Verzorgende ondersteunt een bewoner met dementie
 ---
 
 ## Waarom deze training

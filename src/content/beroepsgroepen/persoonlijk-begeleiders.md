@@ -8,9 +8,15 @@ samenvatting: >-
   één-op-één begeleiding (basis) tot grensvervaging en ontspoorde
   begeleidingsrelaties (gevorderd) en beleid rond intensieve
   begeleidingsrelaties (expert).
-afbeelding:
-  src: /images/beroepsgroepen/persoonlijk-begeleiders.jpg
-  alt: Persoonlijk begeleider onderneemt een activiteit met een cliënt
+veelgestelde_vragen:
+  - vraag: "Gaat de training over grensvervaging in een langdurige relatie?"
+    antwoord: "Ja, dat is hier het hoofdonderwerp. De intensiteit van de band is de kracht van het werk en tegelijk het risico: een cliënt weet precies wat bij jou werkt en welke grens hij kan opzoeken."
+  - vraag: "Onze begeleiders werken vaak alleen, buiten de locatie. Komt dat aan bod?"
+    antwoord: "Ja. Een activiteit buitenshuis, een bezoek, een één-op-één moment: daar is geen collega die meekijkt. Veilig handelen zonder achterwacht is een vast onderdeel."
+  - vraag: "Wordt er geoefend met een cliënt die begeleiders tegen elkaar uitspeelt?"
+    antwoord: "Ja. Losgeweekt worden van de rest van het team is een herkenbaar patroon in deze functie. Het wordt behandeld als teamvraagstuk, niet als individuele fout."
+  - vraag: "Welk niveau past bij een team persoonlijk begeleiders?"
+    antwoord: "Basis voor nieuwe begeleiders en invalkrachten, gevorderd voor wie langer met dezelfde cliënten werkt. Expert voor gedragsdeskundigen en teamleiders die de teamnorm bewaken."
 ---
 
 De kracht van een persoonlijk begeleider is de relatie: jij kent deze cliënt beter dan wie ook. Precies die intensiteit is ook het risico. Een cliënt weet wat werkt bij jou, welke grens hij kan opzoeken, en hoe hij jou los kan weken van de rest van het team.

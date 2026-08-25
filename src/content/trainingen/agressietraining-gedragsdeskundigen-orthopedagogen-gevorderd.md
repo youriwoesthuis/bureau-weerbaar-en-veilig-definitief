@@ -43,14 +43,8 @@ werkvormen:
 veelgestelde_vragen:
   - vraag: "Hoe weeg je een juridische dreiging?"
     antwoord: "Het evalueren van juridische dreigingen: wat is reëel, wat is druk uitoefenen, en het tijdig escaleren daarvan is een expliciete module in deze training."
-  - vraag: "Hoe lang duurt de gevorderde agressietraining voor gedragsdeskundigen en orthopedagogen in de gehandicaptenzorg?"
-    antwoord: De training duurt 1 dag. De groep telt maximaal 10 deelnemers.
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Gedragsdeskundigen en orthopedagogen met een basistraining die werken met cliënten in complexe familiesituaties, forensische contexten of met ernstige meervoudige problematiek. Voorwaarde voor deelname: afgeronde basistraining of aantoonbare werkervaring met ernstige druk of agressie."
-  - vraag: "Waar vindt de training plaats?"
-    antwoord: "Incompany op de eigen locatie, of bij Bureau Weerbaar en Veilig in Neede (Gelderland)."
-  - vraag: "Krijgen deelnemers een certificaat?"
-    antwoord: "Ja, elke deelnemer ontvangt na afloop een deelnamecertificaat."
   - vraag: "Wat is het verschil met de andere niveaus?"
     antwoord: "De basistraining behandelt het herkennen en de-escaleren van agressie in het moment. Dit gevorderde niveau richt zich op patronen die niet impulsief zijn: bewuste grensoverschrijding, manipulatie en consistent teamoptreden."
 gerelateerd:
@@ -58,9 +52,6 @@ gerelateerd:
   - "agressietraining-gedragsdeskundigen-orthopedagogen-expert"
   - "agressietraining-woonbegeleiding-gehandicaptenzorg-gevorderd"
   - "agressietraining-persoonlijk-begeleiders-gevorderd"
-afbeelding:
-  src: /images/trainingen/gedragsdeskundigen.jpg
-  alt: Gedragsdeskundigen bespreken een casus over familiedruk
 ---
 
 ## Waarom deze training

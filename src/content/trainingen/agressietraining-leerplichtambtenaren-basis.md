@@ -41,14 +41,8 @@ werkvormen:
 veelgestelde_vragen:
   - vraag: "Is er aandacht voor huisbezoeken?"
     antwoord: "Ja. Veilig handelen bij huisbezoeken, zowel aan de deur als binnen, is een kernonderdeel van de training, net als het vooraf herkennen van risicosignalen."
-  - vraag: "Hoe lang duurt de agressietraining voor leerplichtambtenaren?"
-    antwoord: De training duurt 1 dag. De groep telt maximaal 10 deelnemers.
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Leerplichtambtenaren en RMC-medewerkers met direct contact met ouders en jongeren. Er is geen voorkennis nodig; dit is het instapniveau."
-  - vraag: "Waar vindt de training plaats?"
-    antwoord: "Incompany op de eigen locatie, of bij Bureau Weerbaar en Veilig in Neede (Gelderland)."
-  - vraag: "Krijgen deelnemers een certificaat?"
-    antwoord: "Ja, elke deelnemer ontvangt na afloop een deelnamecertificaat."
   - vraag: "Wat is het verschil met de andere niveaus?"
     antwoord: "De basistraining leert leerplichtambtenaren agressie herkennen, de eigen reactie reguleren en situaties de-escaleren. Wie structureel met zwaardere situaties werkt, gaat daarna verder met het gevorderde niveau."
 gerelateerd:
@@ -56,9 +50,6 @@ gerelateerd:
   - "agressietraining-leerplichtambtenaren-expert"
   - "agressietraining-leraren-voortgezet-onderwijs-basis"
   - "agressietraining-handhavers-boas-basis"
-afbeelding:
-  src: /images/trainingen/leerplichtambtenaren.jpg
-  alt: Deelnemers oefenen een praktijksituatie tijdens de agressietraining voor leerplichtambtenaren
 ---
 
 ## Waarom deze training

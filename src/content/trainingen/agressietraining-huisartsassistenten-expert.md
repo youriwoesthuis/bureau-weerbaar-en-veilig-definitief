@@ -42,8 +42,6 @@ veelgestelde_vragen:
     antwoord: Voor praktijkmanagers en senior huisartsassistenten in een leidinggevende of coördinerende rol die het agressiebeleid versterken en collega's coachen.
   - vraag: Wat is de voorwaarde voor deelname?
     antwoord: Een leidinggevende of coördinerende functie met aantoonbare werkervaring in de omgang met agressie.
-  - vraag: Hoe lang duurt de training?
-    antwoord: 1 dag, met maximaal 8 deelnemers per groep.
   - vraag: Wat levert de training de praktijk op?
     antwoord: Een getoetst agressieprotocol, een geborgde escalatiestructuur, structurele nazorg en een sterkere meldcultuur.
   - vraag: Wordt de training afgestemd op onze praktijk?
@@ -53,9 +51,6 @@ gerelateerd:
   - agressietraining-huisartsassistenten-gevorderd
   - agressietraining-apotheekmedewerkers-expert
   - agressietraining-ggd-expert
-afbeelding:
-  src: /images/trainingen/agressietraining-huisartsassistenten.jpg
-  alt: Praktijkmanager bespreekt het agressieprotocol met een team huisartsassistenten
 ---
 
 ## Waarom deze training

@@ -44,8 +44,6 @@ veelgestelde_vragen:
     antwoord: "Voor filiaalmanagers en teamleiders met een eerdere basistraining die regelmatig complexe of herhaalde agressiesituaties tegenkomen: vooral in drukke, stedelijke vestigingen met hoge incidentcijfers of structurele overlast."
   - vraag: Is een basistraining verplicht?
     antwoord: Een afgeronde basistraining is de standaardvoorwaarde; aantoonbare werkervaring met agressie-incidenten kan daarvoor in de plaats komen.
-  - vraag: Hoe lang duurt de training en hoe groot is de groep?
-    antwoord: De training duurt 1 dag, met maximaal 10 deelnemers per groep.
   - vraag: Wat is het verschil met de basistraining voor filiaalmanagers?
     antwoord: "De basistraining gaat over ingrijpen bij losse escalaties en het opvangen van medewerkers. Dit gevorderde niveau richt zich op structurele problematiek: overlastpatronen, gedemotiveerde teams, samenwerking met politie en gemeente, en op de positie van de manager zelf."
   - vraag: Wordt de training afgestemd op onze vestiging?
@@ -55,9 +53,6 @@ gerelateerd:
   - agressietraining-filiaalmanagers-expert
   - agressietraining-winkelmedewerkers-gevorderd
   - agressietraining-kassamedewerkers-baliemedewerkers-gevorderd
-afbeelding:
-  src: /images/trainingen/agressietraining-filiaalmanagers.jpg
-  alt: Teamleiders analyseren overlastpatronen tijdens een gevorderde agressietraining
 ---
 
 ## Waarom deze training

@@ -38,14 +38,8 @@ werkvormen:
   - beleidsontwikkeling toegespitst op de hulpverleningscontext
   - intervisie na 6 weken
 veelgestelde_vragen:
-  - vraag: "Hoe lang duurt de expert agressietraining voor leidinggevenden in het maatschappelijk werk?"
-    antwoord: De training duurt 1 dag, met een intervisiebijeenkomst na 6 weken. De groep telt maximaal 8 deelnemers.
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Teamleiders, coördinatoren en afdelingshoofden in het maatschappelijk werk en welzijn. Voorwaarde voor deelname: leidinggevende ervaring met een hulpverleningsteam."
-  - vraag: "Waar vindt de training plaats?"
-    antwoord: "Incompany op de eigen locatie, of bij Bureau Weerbaar en Veilig in Neede (Gelderland)."
-  - vraag: "Krijgen deelnemers een certificaat?"
-    antwoord: "Ja, elke deelnemer ontvangt na afloop een deelnamecertificaat."
   - vraag: "Wat is het verschil met de andere niveaus?"
     antwoord: "De basis- en gevorderde training gaan over het eigen handelen. Dit expertniveau gaat over de organisatie: beleid, escalatiestructuur, nazorg, meldcultuur en het coachen van medewerkers."
 gerelateerd:
@@ -53,9 +47,6 @@ gerelateerd:
   - "agressietraining-maatschappelijk-werkers-gevorderd"
   - "agressietraining-sociale-dienst-participatiewet-expert"
   - "agressietraining-reclasseringsmedewerkers-expert"
-afbeelding:
-  src: /images/trainingen/maatschappelijk-werkers.jpg
-  alt: Deelnemers oefenen een praktijksituatie tijdens de agressietraining voor maatschappelijk werkers
 ---
 
 ## Waarom deze training

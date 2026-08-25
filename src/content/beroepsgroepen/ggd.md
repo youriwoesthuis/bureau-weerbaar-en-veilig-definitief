@@ -8,9 +8,15 @@ samenvatting: >-
   burgercontact de-escaleren (basis) tot ideologisch gemotiveerde en
   georganiseerde weerstand (gevorderd) en veiligheidsbeleid bij online
   bedreigingen (expert).
-afbeelding:
-  src: /images/beroepsgroepen/ggd.jpg
-  alt: "GGD-medewerker in gesprek met een burger aan een balie"
+veelgestelde_vragen:
+  - vraag: "Onze medewerkers krijgen agressie die niet persoonlijk is maar ideologisch. Kan de training daarmee om?"
+    antwoord: "Ja, en dat onderscheid is hier het uitgangspunt. Iemand die je legitimiteit als overheidsdienaar betwist, is niet te kalmeren met technieken die op een boze klant werken. Dat vraagt een andere aanpak en die wordt apart behandeld."
+  - vraag: "Medewerkers worden ook buiten werktijd benaderd. Hoort dat bij de training?"
+    antwoord: "Ja. Wanneer agressie doorloopt tot in de privésfeer of zich online organiseert, is het geen incident meer maar een patroon. Wat de medewerker en de organisatie dan doen, hoort in de training thuis."
+  - vraag: "Kunnen inspecteurs en baliemedewerkers in dezelfde groep?"
+    antwoord: "Vaak wel. Beiden hebben overheidsbevoegdheden nodig én de medewerking van de burger; dat gedeelde spanningsveld maakt de oefening voor allebei bruikbaar."
+  - vraag: "Welk niveau past bij GGD-medewerkers?"
+    antwoord: "Basis voor iedereen met publiekscontact. Gevorderd wanneer de agressie structureel of georganiseerd is. Expert voor wie verantwoordelijk is voor beleid, meldcultuur en nazorg."
 ---
 
 GGD-medewerkers werken op een bijzonder snijvlak: zij hebben overheidsbevoegdheden nodig én de medewerking van burgers. Wie een oproep voor contactonderzoek krijgt, een inspectie op bezoek heeft of bij een vaccinatielocatie werkt, merkt hoe snel dat spanning oplevert.

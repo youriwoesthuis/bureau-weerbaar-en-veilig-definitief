@@ -44,20 +44,13 @@ veelgestelde_vragen:
     antwoord: "Voor winkelmedewerkers die een basistraining hebben afgerond en regelmatig met herhaalde of complexe agressie-incidenten te maken hebben: bijvoorbeeld in drukke stadslocaties, avond- en weekendploegen of winkels met veel diefstal en overlast."
   - vraag: Is een basistraining verplicht om mee te doen?
     antwoord: Een afgeronde basistraining is de standaardvoorwaarde. Aantoonbare werkervaring met agressie-incidenten kan daarvoor in de plaats komen.
-  - vraag: Hoe lang duurt de training en hoe groot is de groep?
-    antwoord: De training duurt 1 dag, met maximaal 10 deelnemers per groep.
   - vraag: Wat is het verschil met de basistraining?
     antwoord: "De basistraining gaat over herkennen en de-escaleren van agressie in het moment. De gevorderde training richt zich op patronen die niet impulsief zijn: bewuste grensoverschrijding, manipulatie en terugkerende overlastgevers, en op consistent teamgedrag."
-  - vraag: Waar vindt de training plaats?
-    antwoord: Incompany op de eigen vestiging, of bij Bureau Weerbaar en Veilig in Neede (Gelderland).
 gerelateerd:
   - agressietraining-winkelmedewerkers-basis
   - agressietraining-winkelmedewerkers-expert
   - agressietraining-kassamedewerkers-baliemedewerkers-gevorderd
   - agressietraining-filiaalmanagers-gevorderd
-afbeelding:
-  src: /images/trainingen/agressietraining-winkelmedewerkers.jpg
-  alt: Deelnemers bespreken een complexe winkelcasus tijdens een gevorderde agressietraining
 ---
 
 ## Waarom deze training

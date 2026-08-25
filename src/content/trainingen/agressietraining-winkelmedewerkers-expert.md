@@ -43,8 +43,6 @@ veelgestelde_vragen:
     antwoord: "Voor medewerkers in een leidinggevende of coördinerende rol: filiaalmanagers, assistent-managers, teamleiders en senior medewerkers die collega's begeleiden bij agressie-incidenten."
   - vraag: Wat zijn de voorwaarden voor deelname?
     antwoord: Een leidinggevende of coördinerende functie met aantoonbare werkervaring met agressie op de winkelvloer.
-  - vraag: Hoe lang duurt de training?
-    antwoord: 1 dag, inclusief een intervisiebijeenkomst na 6 weken. De groep telt maximaal 8 deelnemers.
   - vraag: Waarin verschilt dit niveau van de gevorderde training?
     antwoord: "De gevorderde training gaat over het eigen handelen bij complexe incidenten. Het expertniveau gaat over de organisatie: beleid, escalatiestructuur, nazorg, meldcultuur en het coachen van het team."
   - vraag: Hoe wordt de training op onze situatie afgestemd?
@@ -54,9 +52,6 @@ gerelateerd:
   - agressietraining-winkelmedewerkers-gevorderd
   - agressietraining-kassamedewerkers-baliemedewerkers-expert
   - agressietraining-filiaalmanagers-expert
-afbeelding:
-  src: /images/trainingen/agressietraining-winkelmedewerkers.jpg
-  alt: Leidinggevenden analyseren meldingsdata tijdens een expert agressietraining
 ---
 
 ## Waarom deze training

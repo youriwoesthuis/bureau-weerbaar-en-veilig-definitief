@@ -45,22 +45,13 @@ veelgestelde_vragen:
     antwoord: "Voor afdelingen met een hoge agressiebelasting, zoals PG-afdelingen en gecombineerde somatiek- en dementieafdelingen."
   - vraag: "Is er aandacht voor de belasting van medewerkers zelf?"
     antwoord: Ja. Het herkennen en delen van de eigen emotionele en fysieke belasting is een expliciet onderdeel van de training.
-  - vraag: "Hoe lang duurt de gevorderde agressietraining voor zorgmedewerkers in verpleeghuizen en ouderenzorg?"
-    antwoord: De training duurt 1 dag. De groep telt maximaal 10 deelnemers.
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Zorgmedewerkers op afdelingen met een hoge agressiebelasting, zoals PG-afdelingen en gecombineerde somatiek- en dementieafdelingen. Voorwaarde voor deelname: afgeronde basistraining of aantoonbare werkervaring met ernstige agressie in de ouderenzorg."
-  - vraag: "Waar vindt de training plaats?"
-    antwoord: "Incompany op de eigen locatie, of bij Bureau Weerbaar en Veilig in Neede (Gelderland)."
-  - vraag: "Krijgen deelnemers een certificaat?"
-    antwoord: "Ja, elke deelnemer ontvangt na afloop een deelnamecertificaat."
 gerelateerd:
   - "agressietraining-verpleeghuizen-ouderenzorg-basis"
   - "agressietraining-verpleeghuizen-ouderenzorg-expert"
   - "agressietraining-thuiszorg-wijkverpleging-gevorderd"
   - "agressietraining-woonbegeleiding-gehandicaptenzorg-gevorderd"
-afbeelding:
-  src: /images/trainingen/verpleeghuizen.jpg
-  alt: "Zorgteam bespreekt een casus op een PG-afdeling"
 ---
 
 ## Waarom deze training

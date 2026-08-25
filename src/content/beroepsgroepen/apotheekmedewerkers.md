@@ -8,9 +8,15 @@ samenvatting: >-
   als agressiebron begrijpen (basis) tot verslavingsproblematiek en
   bekende probleempatiënten (gevorderd) en beleid rond de zorgrelatie
   (expert).
-afbeelding:
-  src: /images/beroepsgroepen/apotheek.jpg
-  alt: Apothekersassistent helpt een patiënt aan de balie van de apotheek
+veelgestelde_vragen:
+  - vraag: "Hoe bewaar je de balans tussen zorg verlenen en grenzen stellen?"
+    antwoord: "Dat is voor deze beroepsgroep de kernvraag, en de trainingen zijn er expliciet op gericht. Aan de balie gaat elk conflict uiteindelijk over medicatie die iemand nodig heeft."
+  - vraag: "Komt de groep patiënten met verslavingsproblematiek aan bod?"
+    antwoord: "Ja. Die groep kan dagelijks aan de balie staan, en dat vraagt een aanpak die herhaalbaar is in plaats van eenmalig."
+  - vraag: "Wordt er geoefend met een weigering, bijvoorbeeld van een herhaalrecept?"
+    antwoord: "Ja. De weigering is het moment waarop het misgaat: de patiënt is afhankelijk van het middel en de medewerker gaat niet over het besluit."
+  - vraag: "Welk niveau past bij een apotheekteam?"
+    antwoord: "Basis voor het hele team, inclusief bezorgers en baliemedewerkers. Gevorderd voor wie met terugkerende patiënten werkt. Expert voor de apotheker of teamleider."
 ---
 
 Aan de apotheekbalie gaat elk conflict uiteindelijk over medicatie die iemand nodig heeft: het recept dat er niet is, het middel dat niet vergoed wordt, de herhaling die geweigerd wordt. Die afhankelijkheid maakt de drempel voor agressie laag.

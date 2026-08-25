@@ -41,14 +41,8 @@ werkvormen:
 veelgestelde_vragen:
   - vraag: "Hoe verhoudt medewerkersveiligheid zich tot het gedragsplan van een cliënt?"
     antwoord: "Beide zijn nodig. In deze training leren leidinggevenden gedragsplannen te beoordelen met medewerkersveiligheid als expliciet criterium, zonder de zorg voor de cliënt te ondermijnen."
-  - vraag: "Hoe lang duurt de expert agressietraining voor leidinggevenden in de woonbegeleiding gehandicaptenzorg?"
-    antwoord: De training duurt 1 dag, met een intervisiebijeenkomst na 6 weken. De groep telt maximaal 8 deelnemers.
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Teamleiders, locatiemanagers en gedragscoördinatoren in de woonbegeleiding gehandicaptenzorg. Voorwaarde voor deelname: leidinggevende verantwoordelijkheid voor een woongroep of locatie in de gehandicaptenzorg."
-  - vraag: "Waar vindt de training plaats?"
-    antwoord: "Incompany op de eigen locatie, of bij Bureau Weerbaar en Veilig in Neede (Gelderland)."
-  - vraag: "Krijgen deelnemers een certificaat?"
-    antwoord: "Ja, elke deelnemer ontvangt na afloop een deelnamecertificaat."
   - vraag: "Wat is het verschil met de andere niveaus?"
     antwoord: "De basis- en gevorderde training gaan over het eigen handelen. Dit expertniveau gaat over de organisatie: beleid, escalatiestructuur, nazorg, meldcultuur en het coachen van medewerkers."
 gerelateerd:
@@ -56,9 +50,6 @@ gerelateerd:
   - "agressietraining-woonbegeleiding-gehandicaptenzorg-gevorderd"
   - "agressietraining-persoonlijk-begeleiders-expert"
   - "agressietraining-gedragsdeskundigen-orthopedagogen-expert"
-afbeelding:
-  src: /images/trainingen/woonbegeleiding.jpg
-  alt: Locatiemanager overlegt met een gedragsdeskundige over teamveiligheid
 ---
 
 ## Waarom deze training

@@ -41,14 +41,8 @@ werkvormen:
 veelgestelde_vragen:
   - vraag: "Hoe blijf je professioneel als je het besluit zelf niet kunt veranderen?"
     antwoord: "Dat is precies het uitgangspunt van deze training: standhouden bij een besluit dat je niet hebt genomen, zonder de burger het gevoel te geven dat hij niet gehoord wordt."
-  - vraag: "Hoe lang duurt de agressietraining voor medewerkers aan het gemeenteloket en de publieksbalie?"
-    antwoord: De training duurt 1 dag. De groep telt maximaal 10 deelnemers.
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: Alle medewerkers in frontlijnfuncties bij overheidsorganisaties met direct burgercontact aan loket of balie. Er is geen voorkennis nodig; dit is het instapniveau.
-  - vraag: "Waar vindt de training plaats?"
-    antwoord: "Incompany op de eigen locatie, of bij Bureau Weerbaar en Veilig in Neede (Gelderland)."
-  - vraag: "Krijgen deelnemers een certificaat?"
-    antwoord: "Ja, elke deelnemer ontvangt na afloop een deelnamecertificaat."
   - vraag: "Wat is het verschil met de andere niveaus?"
     antwoord: "De basistraining leert gemeenteloket & publieksbalie agressie herkennen, de eigen reactie reguleren en situaties de-escaleren. Wie structureel met zwaardere situaties werkt, gaat daarna verder met het gevorderde niveau."
 gerelateerd:
@@ -56,9 +50,6 @@ gerelateerd:
   - "agressietraining-gemeenteloket-publieksbalie-expert"
   - "agressietraining-sociale-dienst-uitkeringsinstanties-basis"
   - "agressietraining-belastingdienst-basis"
-afbeelding:
-  src: /images/trainingen/gemeenteloket.jpg
-  alt: "Deelnemers oefenen een praktijksituatie tijdens de agressietraining voor gemeenteloket & publieksbalie"
 ---
 
 ## Waarom deze training

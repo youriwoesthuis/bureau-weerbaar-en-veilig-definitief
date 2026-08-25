@@ -38,14 +38,8 @@ werkvormen:
   - casuïstiek van de eigen leefgroep
   - "expliciete focus op de dubbelrol: begrenzen én begeleiden"
 veelgestelde_vragen:
-  - vraag: "Hoe lang duurt de agressietraining voor medewerkers van justitiële jeugdinrichtingen?"
-    antwoord: De training duurt 1 dag. De groep telt maximaal 10 deelnemers.
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Groepsleiders, pedagogisch medewerkers en beveiligers in justitiële jeugdinrichtingen. Er is geen voorkennis nodig; dit is het instapniveau."
-  - vraag: "Waar vindt de training plaats?"
-    antwoord: "Incompany op de eigen locatie, of bij Bureau Weerbaar en Veilig in Neede (Gelderland)."
-  - vraag: "Krijgen deelnemers een certificaat?"
-    antwoord: "Ja, elke deelnemer ontvangt na afloop een deelnamecertificaat."
   - vraag: "Wat is het verschil met de andere niveaus?"
     antwoord: "De basistraining leert justitiële jeugdinrichtingen agressie herkennen, de eigen reactie reguleren en situaties de-escaleren. Wie structureel met zwaardere situaties werkt, gaat daarna verder met het gevorderde niveau."
 gerelateerd:
@@ -53,9 +47,6 @@ gerelateerd:
   - "agressietraining-justitiele-jeugdinrichtingen-expert"
   - "agressietraining-reclasseringsmedewerkers-basis"
   - "agressietraining-woonbegeleiding-gehandicaptenzorg-basis"
-afbeelding:
-  src: /images/trainingen/jeugdinrichtingen.jpg
-  alt: Deelnemers oefenen een praktijksituatie tijdens de agressietraining voor justitiële jeugdinrichtingen
 ---
 
 ## Waarom deze training

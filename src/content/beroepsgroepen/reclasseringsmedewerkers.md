@@ -8,9 +8,15 @@ samenvatting: >-
   toezicht en begeleiding hanteren (basis) tot complexe dreigingspatronen
   en systematische intimidatie (gevorderd) en dreigingsmanagementbeleid
   (expert).
-afbeelding:
-  src: /images/beroepsgroepen/reclassering.jpg
-  alt: Reclasseringsmedewerker voert een toezichtgesprek met een cliënt
+veelgestelde_vragen:
+  - vraag: "Wij begeleiden en houden toezicht tegelijk. Komt die spanning aan bod?"
+    antwoord: "Ja, dat is het hoofdonderwerp. De cliënt weet dat een terugmelding grote gevolgen heeft, en die wetenschap zit in elk gesprek — bij beide partijen."
+  - vraag: "Worden huisbezoeken behandeld?"
+    antwoord: "Ja, inclusief veilig werken op locatie: wat je vooraf inschat, waar je gaat zitten en wanneer je een bezoek beëindigt."
+  - vraag: "Hoe voer je een gesprek over voorwaarden zonder dat het klapt?"
+    antwoord: "Door de machtsdynamiek expliciet te maken in plaats van te doen alsof die er niet is. Dat is precies wat in de training geoefend wordt."
+  - vraag: "Welk niveau past bij reclasseringsmedewerkers?"
+    antwoord: "Basis voor nieuwe medewerkers, gevorderd voor wie zwaardere toezichten draait, expert voor teamleiders die beleid en nazorg inrichten."
 ---
 
 Een reclasseringsmedewerker begeleidt iemand én houdt toezicht op diezelfde persoon. Wie voorwaarden moet handhaven of een terugmelding overweegt, weet dat de gevolgen voor de cliënt groot zijn, en dat de cliënt dat ook weet.

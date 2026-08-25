@@ -6,9 +6,13 @@ samenvatting: >-
   grenzen zonder de gastvrijheid te verliezen, inclusief het benoemen van
   seksuele intimidatie. Voor bediening, gastheren en gastvrouwen, in drie
   niveaus.
-afbeelding:
-  src: /images/sectoren/horeca.jpg
-  alt: Medewerker neemt een bestelling op in een restaurant
+veelgestelde_vragen:
+  - vraag: "Gastvrijheid en grenzen stellen botsen bij ons. Hoe lost een training dat op?"
+    antwoord: "Door de aanname om te draaien: gastvrijheid betekent ook dat medewerkers veilig hun werk kunnen doen. De trainingen zijn rond precies die spanning opgebouwd."
+  - vraag: "Worden ook leidinggevenden getraind?"
+    antwoord: "Ja. De norm over wat wel en niet geaccepteerd wordt, kan een medewerker in de bediening niet alleen dragen. Het expertniveau is voor de leidinggevenden die die norm stellen."
+  - vraag: "Seksuele intimidatie wordt bij ons vaak weggelachen. Kan dat besproken worden?"
+    antwoord: "Ja, en het wordt expliciet benoemd. Zolang het geldt als iets dat bij het vak hoort, is het geen incident dat gemeld wordt en verandert er niets."
 ---
 
 De horeca heeft een probleem dat andere sectoren niet zo scherp kennen: de gast heeft altijd voorrang. Dat maakt het lastig om iemand te weigeren, aan te spreken of de deur te wijzen, en gasten voelen dat.

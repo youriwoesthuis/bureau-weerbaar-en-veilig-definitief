@@ -40,14 +40,8 @@ werkvormen:
   - patroonanalyse door de trainer
   - directe feedback op besluitvorming
 veelgestelde_vragen:
-  - vraag: "Hoe lang duurt de gevorderde agressietraining voor buschauffeurs?"
-    antwoord: De training duurt 1 dag. De groep telt maximaal 10 deelnemers.
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Buschauffeurs met een afgeronde basistraining die regelmatig complexe agressie-incidenten meemaken. Voorwaarde voor deelname: afgeronde basistraining of aantoonbare werkervaring met agressie-incidenten in het openbaar vervoer."
-  - vraag: "Waar vindt de training plaats?"
-    antwoord: "Incompany op de eigen locatie, of bij Bureau Weerbaar en Veilig in Neede (Gelderland)."
-  - vraag: "Krijgen deelnemers een certificaat?"
-    antwoord: "Ja, elke deelnemer ontvangt na afloop een deelnamecertificaat."
   - vraag: "Wat is het verschil met de andere niveaus?"
     antwoord: "De basistraining behandelt het herkennen en de-escaleren van agressie in het moment. Dit gevorderde niveau richt zich op patronen die niet impulsief zijn: bewuste grensoverschrijding, manipulatie en consistent teamoptreden."
 gerelateerd:
@@ -55,9 +49,6 @@ gerelateerd:
   - "agressietraining-buschauffeurs-expert"
   - "agressietraining-treinpersoneel-gevorderd"
   - "agressietraining-taxichauffeurs-gevorderd"
-afbeelding:
-  src: /images/trainingen/buschauffeurs.jpg
-  alt: Deelnemers oefenen een praktijksituatie tijdens de agressietraining voor buschauffeurs
 ---
 
 ## Waarom deze training

@@ -39,14 +39,8 @@ werkvormen:
   - analyse van teampatronen
   - aandacht voor de emotionele belasting van medewerkers
 veelgestelde_vragen:
-  - vraag: "Hoe lang duurt de gevorderde agressietraining voor medewerkers van de sociale dienst en participatiewet?"
-    antwoord: De training duurt 1 dag. De groep telt maximaal 10 deelnemers.
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Klantmanagers en consulenten die de basistraining hebben afgerond en regelmatig met complexe cliëntsituaties werken. Voorwaarde voor deelname: afgeronde basistraining of aantoonbare werkervaring met complexe agressiesituaties."
-  - vraag: "Waar vindt de training plaats?"
-    antwoord: "Incompany op de eigen locatie, of bij Bureau Weerbaar en Veilig in Neede (Gelderland)."
-  - vraag: "Krijgen deelnemers een certificaat?"
-    antwoord: "Ja, elke deelnemer ontvangt na afloop een deelnamecertificaat."
   - vraag: "Wat is het verschil met de andere niveaus?"
     antwoord: "De basistraining behandelt het herkennen en de-escaleren van agressie in het moment. Dit gevorderde niveau richt zich op patronen die niet impulsief zijn: bewuste grensoverschrijding, manipulatie en consistent teamoptreden."
 gerelateerd:
@@ -54,9 +48,6 @@ gerelateerd:
   - "agressietraining-sociale-dienst-participatiewet-expert"
   - "agressietraining-sociale-dienst-uitkeringsinstanties-gevorderd"
   - "agressietraining-incasso-schuldhulpverlening-gevorderd"
-afbeelding:
-  src: /images/trainingen/participatiewet.jpg
-  alt: "Deelnemers oefenen een praktijksituatie tijdens de agressietraining voor sociale dienst & participatiewet"
 ---
 
 ## Waarom deze training

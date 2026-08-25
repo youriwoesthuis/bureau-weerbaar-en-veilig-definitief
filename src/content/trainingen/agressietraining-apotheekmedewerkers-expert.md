@@ -38,14 +38,8 @@ werkvormen:
   - beleidsontwikkeling op organisatieniveau
   - intervisie na 6 weken
 veelgestelde_vragen:
-  - vraag: "Hoe lang duurt de expert agressietraining voor apothekers en leidinggevenden van apotheken?"
-    antwoord: De training duurt 1 dag, met een intervisiebijeenkomst na 6 weken. De groep telt maximaal 8 deelnemers.
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Apothekers, apotheekmanagers en leidinggevende apothekersassistenten die verantwoordelijk zijn voor de veiligheid in de apotheek. Voorwaarde voor deelname: leidinggevende of eigenaarverantwoordelijkheid voor een apotheek of apotheekteam."
-  - vraag: "Waar vindt de training plaats?"
-    antwoord: "Incompany op de eigen locatie, of bij Bureau Weerbaar en Veilig in Neede (Gelderland)."
-  - vraag: "Krijgen deelnemers een certificaat?"
-    antwoord: "Ja, elke deelnemer ontvangt na afloop een deelnamecertificaat."
   - vraag: "Wat is het verschil met de andere niveaus?"
     antwoord: "De basis- en gevorderde training gaan over het eigen handelen. Dit expertniveau gaat over de organisatie: beleid, escalatiestructuur, nazorg, meldcultuur en het coachen van medewerkers."
 gerelateerd:
@@ -53,9 +47,6 @@ gerelateerd:
   - "agressietraining-apotheekmedewerkers-gevorderd"
   - "agressietraining-huisartsassistenten-expert"
   - "agressietraining-ggd-expert"
-afbeelding:
-  src: /images/trainingen/apotheek.jpg
-  alt: Deelnemers oefenen een praktijksituatie tijdens de agressietraining voor apotheekmedewerkers
 ---
 
 ## Waarom deze training

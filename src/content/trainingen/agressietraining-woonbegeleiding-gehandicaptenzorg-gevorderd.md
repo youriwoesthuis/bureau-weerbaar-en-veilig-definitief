@@ -45,22 +45,13 @@ veelgestelde_vragen:
     antwoord: Ja. Veilig optreden bij geweld tijdens een nachtdienst in alleenstand is een expliciet onderdeel van deze training.
   - vraag: "Wat als agressie zich richt op één specifieke medewerker?"
     antwoord: "Doelgerichte agressie richting een specifieke begeleider is een aparte module: hoe je die dynamiek herkent en aanpakt zonder haar te versterken."
-  - vraag: "Hoe lang duurt de gevorderde agressietraining voor begeleiders en agogisch medewerkers in de woonbegeleiding gehandicaptenzorg?"
-    antwoord: De training duurt 1 dag. De groep telt maximaal 10 deelnemers.
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Begeleiders op woongroepen met een hoge agressiebelasting, werkzaam met cliënten met ernstige meervoudige beperkingen of LVB-plus problematiek. Voorwaarde voor deelname: afgeronde basistraining of aantoonbare werkervaring met ernstige gedragsproblematiek in de gehandicaptenzorg."
-  - vraag: "Waar vindt de training plaats?"
-    antwoord: "Incompany op de eigen locatie, of bij Bureau Weerbaar en Veilig in Neede (Gelderland)."
-  - vraag: "Krijgen deelnemers een certificaat?"
-    antwoord: "Ja, elke deelnemer ontvangt na afloop een deelnamecertificaat."
 gerelateerd:
   - "agressietraining-woonbegeleiding-gehandicaptenzorg-basis"
   - "agressietraining-woonbegeleiding-gehandicaptenzorg-expert"
   - "agressietraining-persoonlijk-begeleiders-gevorderd"
   - "agressietraining-verpleeghuizen-ouderenzorg-gevorderd"
-afbeelding:
-  src: /images/trainingen/woonbegeleiding.jpg
-  alt: Begeleiders analyseren gedragspatronen tijdens een training
 ---
 
 ## Waarom deze training

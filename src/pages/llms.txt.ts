@@ -99,6 +99,34 @@ doen met andere keuzes.
   beroepsgroepen per sector, één klik naar de juiste pagina.
 - **Filters op het trainingsoverzicht** (${basis}/trainingen/) — op niveau en
   op beginletter van de beroepsgroep.
+- **PDCA-cyclus** (${basis}/aanpak/) — de vier fasen van een traject, per fase
+  uit te klappen.
+- **Groeimodel** (${basis}/aanpak/) — wat er per niveau bij komt. De niveaus
+  verschillen niet alleen in zwaarte maar in bereik: basis en gevorderd gaan
+  over het eigen handelen van de medewerker, expert over de organisatie
+  eromheen.
+- **Rolverdeling** (${basis}/aanpak/) — wie waarvoor aan de lat staat. De
+  opdrachtgever levert meldingen en casuïstiek en legt norm en nazorg vast;
+  Bureau Weerbaar en Veilig vertaalt dat naar oefensituaties en geeft de
+  trainingsdag; het team oefent, past toe, meldt en bespreekt na.
+
+## Veelgestelde vragen
+
+Vragen staan op drie niveaus, en verschillen per pagina:
+
+- **Per sector** (${sectoren.length} pagina's) — over de sector als geheel:
+  kiezen tussen beroepsgroepen, gemengde groepen, sectorbrede vraagstukken.
+- **Per beroepsgroep** (${beroepsgroepen.length} pagina's) — over de praktijk
+  van dat beroep: welke situaties aan bod komen, wat de training wel en niet
+  behandelt, welk niveau past.
+- **Per training** (${trainingen.length} pagina's) — over die ene training:
+  voor wie hij bedoeld is en wat het verschil is met de andere twee niveaus.
+- **Over aanvraag en offerte** (${basis}/contact/) — prijs, werkgebied,
+  groepsindeling en wat er in een aanvraag hoort.
+
+Elk blok staat ook als FAQPage in de schema.org-gegevens van die pagina.
+Vaste feiten als duur, groepsgrootte, locatie en certificaat staan niet in de
+FAQ maar in de feitenbalk en in het Course-schema van elke training.
 
 Alles op deze site werkt zonder JavaScript; de volledige inhoud staat in de
 HTML.

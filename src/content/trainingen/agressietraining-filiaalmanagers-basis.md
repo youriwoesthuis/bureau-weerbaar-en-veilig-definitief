@@ -40,22 +40,13 @@ werkvormen:
 veelgestelde_vragen:
   - vraag: Voor wie is de agressietraining voor filiaalmanagers en teamleiders bedoeld?
     antwoord: Voor filiaalmanagers, assistent-managers en teamleiders in de retail. Er is geen voorkennis nodig; dit is het instapniveau voor leidinggevenden.
-  - vraag: Hoe lang duurt de training en hoe groot is de groep?
-    antwoord: De training duurt 1 dag, met maximaal 10 deelnemers per groep.
   - vraag: Wat maakt deze training anders dan de training voor winkelmedewerkers?
     antwoord: "Leidinggevenden hebben een dubbele verantwoordelijkheid: zelf ingrijpen én teamveiligheid garanderen. De training behandelt daarom ook het opvangen van medewerkers na een incident en het aanpakken van structureel onveilige situaties."
-  - vraag: Waar vindt de training plaats?
-    antwoord: Incompany op de eigen locatie, of bij Bureau Weerbaar en Veilig in Neede (Gelderland).
-  - vraag: Krijgen deelnemers een certificaat?
-    antwoord: Ja, elke deelnemer ontvangt na afloop een deelnamecertificaat.
 gerelateerd:
   - agressietraining-filiaalmanagers-gevorderd
   - agressietraining-filiaalmanagers-expert
   - agressietraining-winkelmedewerkers-basis
   - agressietraining-kassamedewerkers-baliemedewerkers-basis
-afbeelding:
-  src: /images/trainingen/agressietraining-filiaalmanagers.jpg
-  alt: Filiaalmanager oefent het stabiliseren van een escalatie tijdens een agressietraining
 ---
 
 ## Waarom deze training

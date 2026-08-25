@@ -40,14 +40,8 @@ werkvormen:
   - directe feedback op handelen en op wijkdynamiek
   - oefening van ingebrachte situaties
 veelgestelde_vragen:
-  - vraag: "Hoe lang duurt de gevorderde agressietraining voor buurtbeheerders en opzichters bij woningcorporaties?"
-    antwoord: De training duurt 1 dag. De groep telt maximaal 10 deelnemers.
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Buurtbeheerders en opzichters met basistraining die complexe agressie- en intimidatiepatronen in wijken hanteren. Voorwaarde voor deelname: afgeronde basistraining."
-  - vraag: "Waar vindt de training plaats?"
-    antwoord: "Incompany op de eigen locatie, of bij Bureau Weerbaar en Veilig in Neede (Gelderland)."
-  - vraag: "Krijgen deelnemers een certificaat?"
-    antwoord: "Ja, elke deelnemer ontvangt na afloop een deelnamecertificaat."
   - vraag: "Wat is het verschil met de andere niveaus?"
     antwoord: "De basistraining behandelt het herkennen en de-escaleren van agressie in het moment. Dit gevorderde niveau richt zich op patronen die niet impulsief zijn: bewuste grensoverschrijding, manipulatie en consistent teamoptreden."
 gerelateerd:
@@ -55,9 +49,6 @@ gerelateerd:
   - "agressietraining-buurtbeheerders-opzichters-expert"
   - "agressietraining-woonconsulenten-klantcontact-gevorderd"
   - "agressietraining-parkeerwachters-toezichthouders-gevorderd"
-afbeelding:
-  src: /images/trainingen/buurtbeheerders.jpg
-  alt: "Deelnemers oefenen een praktijksituatie tijdens de agressietraining voor buurtbeheerders & opzichters"
 ---
 
 ## Waarom deze training

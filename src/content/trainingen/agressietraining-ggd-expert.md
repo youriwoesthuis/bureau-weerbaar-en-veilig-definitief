@@ -42,14 +42,8 @@ werkvormen:
 veelgestelde_vragen:
   - vraag: "Wat doet de organisatie als een medewerker persoonlijk wordt bedreigd?"
     antwoord: "Het ontwikkelen van beleid voor online bedreigingen en intimidatiecampagnes richting individuele medewerkers is een kernonderdeel van deze training, inclusief de samenwerking met politie en justitie."
-  - vraag: "Hoe lang duurt de expert agressietraining voor leidinggevenden bij de GGD en publieke gezondheidszorg?"
-    antwoord: De training duurt 1 dag, met een intervisiebijeenkomst na 6 weken. De groep telt maximaal 8 deelnemers.
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Teamleiders, afdelingshoofden en managers bij de GGD en aanverwante organisaties die medewerkers aansturen in agressieve burgersituaties. Voorwaarde voor deelname: leidinggevende verantwoordelijkheid voor een team GGD-medewerkers of publieke gezondheidsprofessionals."
-  - vraag: "Waar vindt de training plaats?"
-    antwoord: "Incompany op de eigen locatie, of bij Bureau Weerbaar en Veilig in Neede (Gelderland)."
-  - vraag: "Krijgen deelnemers een certificaat?"
-    antwoord: "Ja, elke deelnemer ontvangt na afloop een deelnamecertificaat."
   - vraag: "Wat is het verschil met de andere niveaus?"
     antwoord: "De basis- en gevorderde training gaan over het eigen handelen. Dit expertniveau gaat over de organisatie: beleid, escalatiestructuur, nazorg, meldcultuur en het coachen van medewerkers."
 gerelateerd:
@@ -57,9 +51,6 @@ gerelateerd:
   - "agressietraining-ggd-gevorderd"
   - "agressietraining-handhavers-boas-expert"
   - "agressietraining-gemeenteloket-publieksbalie-expert"
-afbeelding:
-  src: /images/trainingen/ggd.jpg
-  alt: Managers bij de GGD werken aan veiligheidsbeleid voor hun teams
 ---
 
 ## Waarom deze training

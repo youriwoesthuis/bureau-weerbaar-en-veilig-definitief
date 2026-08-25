@@ -40,24 +40,15 @@ werkvormen:
   - casuïstiek uit de eigen dienst
   - praktijkgericht oefenen zonder naïeve rollenspellen
 veelgestelde_vragen:
-  - vraag: Hoe lang duurt de agressietraining voor ambulancemedewerkers?
-    antwoord: De basistraining duurt 1 dag.
   - vraag: Voor wie is deze training bedoeld?
     antwoord: Voor alle ambulancemedewerkers met direct patiëntcontact. Er is geen voorkennis nodig; dit is het instapniveau.
-  - vraag: Waar vindt de training plaats?
-    antwoord: Incompany op de eigen locatie, of bij Bureau Weerbaar en Veilig in Neede (Gelderland).
   - vraag: Komen omstanders en familieleden ook aan bod?
     antwoord: Ja. Agressie komt in de ambulancezorg vaak niet van de patiënt zelf maar van familieleden die de hulpverlening tegenwerken of omstanders die zich bemoeien. Beide situaties worden geoefend.
-  - vraag: Hoeveel deelnemers kunnen er per groep meedoen?
-    antwoord: Maximaal 10 deelnemers per groep, zodat iedereen actief kan oefenen.
 gerelateerd:
   - agressietraining-ambulancemedewerkers-gevorderd
   - agressietraining-ambulancemedewerkers-expert
   - agressietraining-huisartsassistenten-basis
   - agressietraining-ggd-basis
-afbeelding:
-  src: /images/trainingen/agressietraining-ambulancemedewerkers.jpg
-  alt: Ambulancemedewerkers verlenen zorg aan een patiënt op straat
 ---
 
 ## Waarom deze training
