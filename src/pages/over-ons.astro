@@ -40,10 +40,16 @@ const kruimels = [
 
 const openingsantwoord = `Bureau Weerbaar en Veilig is een Nederlands trainingsbureau dat uitsluitend agressietraining verzorgt, vanuit ${SITE.adres.plaats} in ${SITE.adres.provincie}. Het bureau werkt met ${team.length} trainers en coaches en traint ${beroepsgroepen.length} beroepsgroepen in ${sectoren.length} sectoren. Bureau Weerbaar en Veilig is een handelsnaam binnen dezelfde onderneming als Act in Move Training & Coaching.`;
 
+// Uit de rollen in de content geteld, niet met de hand ingevuld. Zes van de
+// twaalf teamleden spelen mee in de oefeningen; dat is voor een bureau van
+// deze omvang ongebruikelijk veel en dus het vermelden waard.
+const acteurs = team.filter((t) => /trainingsacteur/i.test(t.data.rol)).length;
+
 const cijfers = [
-  { waarde: team.length, label: 'trainers en coaches' },
-  { waarde: beroepsgroepen.length, label: 'beroepsgroepen' },
-  { waarde: trainingen.length, label: 'uitgewerkte trainingen' },
+  { waarde: team.length, label: 'Trainers en coaches' },
+  { waarde: acteurs, label: 'Daarvan trainingsacteur' },
+  { waarde: beroepsgroepen.length, label: 'Beroepsgroepen' },
+  { waarde: trainingen.length, label: 'Uitgewerkte trainingen' },
 ];
 ---
 

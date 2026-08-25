@@ -1,0 +1,241 @@
+---
+import Icoon from './Icoon.astro';
+import { NIVEAU_INFO, pad } from '../lib/site';
+
+/**
+ * Niveau-keuzehulp. Drie vragen; elk antwoord hoort bij een niveau, en de
+ * uitkomst is het hóógste niveau dat is aangevinkt. Dat is bewust: wie op
+ * één punt bij expert uitkomt, heeft aan basis niet genoeg.
+ *
+ * Werkt zonder JavaScript. Er zijn maar drie CSS-regels voor nodig in plaats
+ * van een regel per combinatie (dat zouden er 27 zijn):
+ *   - staat er ergens een expert-antwoord aan  -> expert
+ *   - anders, staat er ergens gevorderd aan    -> gevorderd
+ *   - anders                                    -> basis
+ */
+
+const VRAGEN = [
+  {
+    id: 'ervaring',
+    icoon: 'ladder' as const,
+    vraag: 'Heeft het team eerder een agressietraining gehad?',
+    antwoorden: [
+      { niveau: 'basis', tekst: 'Nee, of zo lang geleden dat het weggezakt is' },
+      { niveau: 'gevorderd', tekst: 'Ja, de basis zit er wel in' },
+      { niveau: 'expert', tekst: 'Ja, meerdere keren — we lopen nu tegen de organisatie aan' },
+    ],
+  },
+  {
+    id: 'aanleiding',
+    icoon: 'signaleren' as const,
+    vraag: 'Wat is de aanleiding om nu te trainen?',
+    antwoorden: [
+      { niveau: 'basis', tekst: 'Medewerkers weten niet goed wat te doen als de spanning oploopt' },
+      { niveau: 'gevorderd', tekst: 'Situaties lopen uit de hand, ook als er netjes wordt gede-escaleerd' },
+      { niveau: 'expert', tekst: 'We moeten vastleggen wat de norm is, hoe we melden en wie nazorg doet' },
+    ],
+  },
+  {
+    id: 'deelnemers',
+    icoon: 'team' as const,
+    vraag: 'Wie gaat de training volgen?',
+    antwoorden: [
+      { niveau: 'basis', tekst: 'Uitvoerende medewerkers met klant- of cliëntcontact' },
+      { niveau: 'gevorderd', tekst: 'Medewerkers die structureel met zware situaties werken' },
+      { niveau: 'expert', tekst: 'Leidinggevenden, coördinatoren of preventiemedewerkers' },
+    ],
+  },
+];
+
+const regels = `
+.keuzehulp:has(input[value="expert"]:checked) .uitkomst[data-niveau="expert"]{display:grid}
+.keuzehulp:has(input[value="gevorderd"]:checked):not(:has(input[value="expert"]:checked)) .uitkomst[data-niveau="gevorderd"]{display:grid}
+.keuzehulp:not(:has(input[value="gevorderd"]:checked)):not(:has(input[value="expert"]:checked)) .uitkomst[data-niveau="basis"]{display:grid}
+`;
+---
+
+<div class="keuzehulp">
+  <div class="vragen">
+    {VRAGEN.map((v, i) => (
+      <fieldset class="vraag">
+        <legend>
+          <span class="vraag-nummer" aria-hidden="true">{i + 1}</span>
+          {v.vraag}
+        </legend>
+        <div class="antwoorden">
+          {v.antwoorden.map((a, j) => (
+            <>
+              <input
+                type="radio"
+                name={v.id}
+                id={`${v.id}-${j}`}
+                value={a.niveau}
+                class="antwoord-radio"
+                checked={j === 0}
+              />
+              <label for={`${v.id}-${j}`} class="antwoord">{a.tekst}</label>
+            </>
+          ))}
+        </div>
+      </fieldset>
+    ))}
+  </div>
+
+  <div class="uitkomsten" role="status">
+    {(['basis', 'gevorderd', 'expert'] as const).map((n) => {
+      const info = NIVEAU_INFO[n];
+      return (
+        <div class="uitkomst" data-niveau={n}>
+          <p class="uitkomst-label">Op basis van uw antwoorden</p>
+          <span class="uitkomst-icoon"><Icoon naam="vinkje" breedte={24} /></span>
+          <h3>Niveau {info.naam.toLowerCase()}</h3>
+          <p class="uitkomst-kort">{info.kort}</p>
+          <p class="uitkomst-tekst">{info.omschrijving}</p>
+          <a href={pad(`/niveaus/${n}/`)} class="knop uitkomst-knop">
+            Bekijk niveau {info.naam.toLowerCase()}
+            <span class="pijl" aria-hidden="true">→</span>
+          </a>
+          <p class="uitkomst-noot">
+            Dit is een richting, geen diagnose. Bureau Weerbaar en Veilig kijkt
+            er bij de intake samen met u naar — ook als dat een ander niveau
+            oplevert dan hier staat.
+          </p>
+        </div>
+      );
+    })}
+  </div>
+</div>
+
+<style is:inline set:html={regels}></style>
+
+<style>
+  .keuzehulp {
+    display: grid;
+    gap: clamp(1.5rem, 1rem + 2vw, 2.5rem);
+    align-items: start;
+  }
+  @media (min-width: 950px) {
+    .keuzehulp { grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr); }
+  }
+
+  .vragen { display: grid; gap: clamp(1.25rem, 1rem + 1vw, 1.75rem); }
+
+  .vraag { border: 0; padding: 0; margin: 0; min-width: 0; display: grid; gap: 0.7rem; }
+  .vraag legend {
+    display: flex;
+    align-items: center;
+    gap: 0.65rem;
+    padding: 0;
+    font-family: 'Manrope', system-ui, sans-serif;
+    font-size: 1.02rem;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    color: var(--tekst-donker);
+  }
+  .vraag-nummer {
+    display: grid;
+    place-items: center;
+    width: 1.6rem;
+    height: 1.6rem;
+    flex: none;
+    border-radius: 50%;
+    background: var(--verloop-warm);
+    color: #1f1000;
+    font-size: 0.8rem;
+    font-weight: 800;
+  }
+
+  .antwoorden { display: grid; gap: 0.4rem; }
+  .antwoord-radio { position: absolute; width: 1px; height: 1px; opacity: 0; pointer-events: none; }
+
+  .antwoord {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    min-height: 2.9rem;
+    padding: 0.6rem 0.9rem;
+    background: var(--wit);
+    border: 1px solid var(--rand-licht);
+    border-radius: var(--hoek);
+    color: var(--tekst-donker-zacht);
+    font-size: 0.95rem;
+    line-height: 1.4;
+    cursor: pointer;
+    transition: border-color 150ms, background 150ms, color 150ms;
+  }
+  /* Het bolletje links is puur visueel; de radioknop zelf stuurt alles aan. */
+  .antwoord::before {
+    content: '';
+    width: 1.05rem;
+    height: 1.05rem;
+    flex: none;
+    border-radius: 50%;
+    border: 2px solid var(--rand-licht);
+    transition: border-color 150ms, box-shadow 150ms;
+  }
+  .antwoord:hover { border-color: var(--tekst-donker-zacht); color: var(--tekst-donker); }
+  .antwoord-radio:focus-visible + .antwoord { outline: 3px solid var(--blauw-op-wit); outline-offset: 2px; }
+  .antwoord-radio:checked + .antwoord {
+    border-color: var(--oranje-op-wit);
+    background: color-mix(in oklab, var(--oranje-op-wit) 7%, var(--wit));
+    color: var(--tekst-donker);
+    font-weight: 600;
+  }
+  .antwoord-radio:checked + .antwoord::before {
+    border-color: var(--oranje-op-wit);
+    box-shadow: inset 0 0 0 3px var(--wit), inset 0 0 0 1rem var(--oranje-op-wit);
+  }
+
+  /* ---- De uitkomst ---- */
+  .uitkomsten { position: relative; }
+  .uitkomst {
+    gap: 0.55rem;
+    align-content: start;
+    padding: clamp(1.25rem, 1rem + 1.2vw, 1.9rem);
+    background: var(--wit);
+    border: 1px solid var(--rand-licht);
+    border-top: 4px solid var(--niveau-op-wit);
+    border-radius: var(--hoek);
+    box-shadow: var(--schaduw-md);
+  }
+  /* Zonder :has() staan alle drie de uitkomsten onder elkaar: minder mooi,
+     wel volledig leesbaar. */
+  .uitkomst { display: grid; }
+  @supports selector(:has(*)) {
+    .uitkomst { display: none; }
+  }
+
+  .uitkomst-label {
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--tekst-donker-zacht);
+  }
+  .uitkomst-icoon {
+    display: grid;
+    place-items: center;
+    width: 46px;
+    height: 46px;
+    border-radius: var(--hoek);
+    background: color-mix(in oklab, var(--niveau-op-wit) 12%, var(--wit));
+    color: var(--niveau-op-wit);
+    margin-top: 0.2rem;
+  }
+  .uitkomst h3 { font-size: clamp(1.25rem, 1.1rem + 0.6vw, 1.5rem); color: var(--tekst-donker); }
+  .uitkomst-kort {
+    font-family: 'Manrope', system-ui, sans-serif;
+    font-weight: 700;
+    color: var(--niveau-op-wit);
+  }
+  .uitkomst-tekst { color: var(--tekst-donker-zacht); font-size: 0.95rem; line-height: 1.6; }
+  .uitkomst-knop { justify-self: start; margin-top: 0.4rem; }
+  .uitkomst-noot {
+    font-size: 0.85rem;
+    color: var(--tekst-donker-zacht);
+    padding-top: 0.7rem;
+    margin-top: 0.3rem;
+    border-top: 1px solid var(--rand-licht);
+    line-height: 1.5;
+  }
+</style>

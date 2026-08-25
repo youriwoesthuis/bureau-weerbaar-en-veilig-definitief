@@ -5,6 +5,7 @@ import Icoon from '../components/Icoon.astro';
 import HeroBeeld from '../components/HeroBeeld.astro';
 import Cijferstrip from '../components/Cijferstrip.astro';
 import Pdca from '../components/Pdca.astro';
+import Keuzehulp from '../components/Keuzehulp.astro';
 import SectorKiezer from '../components/SectorKiezer.astro';
 import NiveauLadder from '../components/NiveauLadder.astro';
 import Cta from '../components/Cta.astro';
@@ -54,6 +55,41 @@ const verschillen = [
     kop: 'Drie niveaus die op elkaar staan',
     tekst:
       'Van herkennen en de-escaleren, via begrenzen onder druk, naar beleid en teamnorm. Een team kan meegroeien.',
+  },
+];
+
+const ingangen = [
+  {
+    icoon: 'telefoon' as const,
+    niveau: 'basis',
+    kop: 'Er is net iets gebeurd',
+    tekst: 'Een incident, en het team moet verder. Bel gerust; we denken mee over wat er nu nodig is — ook als dat geen training is.',
+    link: pad('/contact/'),
+    linktekst: 'Neem contact op',
+  },
+  {
+    icoon: 'ladder' as const,
+    niveau: 'gevorderd',
+    kop: 'We willen structureel trainen',
+    tekst: 'Geen losse dag maar een lijn: kies de beroepsgroep en zie welke drie niveaus daarbij horen.',
+    link: pad('/sectoren/'),
+    linktekst: 'Kies uw beroepsgroep',
+  },
+  {
+    icoon: 'beleid' as const,
+    niveau: 'expert',
+    kop: 'Ik moet beleid vastleggen',
+    tekst: 'Teamnorm, meldingsbereidheid, nazorg en borging. Dat is waar niveau expert over gaat.',
+    link: pad('/niveaus/expert/'),
+    linktekst: 'Bekijk niveau expert',
+  },
+  {
+    icoon: 'vinkje' as const,
+    niveau: 'basis',
+    kop: 'Ik weet niet welk niveau past',
+    tekst: 'Drie vragen over het team en de aanleiding, en u weet welke richting het op gaat.',
+    link: '#niveauhulp',
+    linktekst: 'Naar de keuzehulp',
   },
 ];
 
@@ -114,6 +150,34 @@ const praktisch = [
     </div>
   </section>
 
+
+
+  <!-- ---------------- Waar wil je beginnen ---------------- -->
+  <section class="sectie op-licht">
+    <div class="omhulsel">
+      <div class="kop-blok">
+        <p class="bovenkop">Waar wilt u beginnen?</p>
+        <h2>Wat speelt er nu bij u?</h2>
+        <p class="inleiding">
+          Vier ingangen naar wat u op dit moment nodig hebt, zonder eerst het
+          hele aanbod door te hoeven.
+        </p>
+      </div>
+      <div class="rooster rooster-4">
+        {ingangen.map((i) => (
+          <a href={i.link} class="kaart onthul" data-niveau={i.niveau}>
+            <span class="kaart-icoon"><Icoon naam={i.icoon} /></span>
+            <h3>{i.kop}</h3>
+            <p>{i.tekst}</p>
+            <span class="pijllink kaart-voet">
+              {i.linktekst}
+              <span class="pijl" aria-hidden="true">→</span>
+            </span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
 
   <!-- ---------------- Wie wij zijn ---------------- -->
   <section class="sectie op-licht">
@@ -193,6 +257,22 @@ const praktisch = [
     </div>
   </section>
 
+
+
+  <!-- ---------------- Niveau-keuzehulp ---------------- -->
+  <section class="sectie op-licht" id="niveauhulp">
+    <div class="omhulsel">
+      <div class="kop-blok">
+        <p class="bovenkop">Keuzehulp</p>
+        <h2>Welk niveau past bij uw team?</h2>
+        <p class="inleiding">
+          Drie vragen. De uitkomst verschijnt meteen — er wordt niets
+          verstuurd en u hoeft niets in te vullen.
+        </p>
+      </div>
+      <Keuzehulp />
+    </div>
+  </section>
 
   <!-- ---------------- Onze werkwijze als cyclus ---------------- -->
   <section class="sectie">
@@ -299,6 +379,8 @@ const praktisch = [
 
   /* Ruimte laten voor de strip die eroverheen valt. */
   .na-hero { padding-top: clamp(5.5rem, 4.5rem + 3vw, 7rem); }
+
+  .kaart-voet { margin-top: auto; padding-top: 0.5rem; font-size: 0.9rem; }
 
   .wie-rooster { gap: clamp(1.25rem, 1rem + 1.5vw, 2.25rem); }
   .wie-blok { display: grid; gap: 0.6rem; align-content: start; }

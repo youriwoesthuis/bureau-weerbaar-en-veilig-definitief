@@ -4,6 +4,7 @@ import Basis from '../../layouts/Basis.astro';
 import Kruimels from '../../components/Kruimels.astro';
 import Chevron from '../../components/Chevron.astro';
 import Icoon from '../../components/Icoon.astro';
+import NiveauBeeld from '../../components/NiveauBeeld.astro';
 import NiveauLadder from '../../components/NiveauLadder.astro';
 import TrainingKaart from '../../components/TrainingKaart.astro';
 import Vragen from '../../components/Vragen.astro';
@@ -112,7 +113,8 @@ const feiten = [
 >
   <!-- ---------------- Kop ---------------- -->
   <section class="training-kop gloed schuin-onder">
-    <div class="omhulsel training-kop-binnen">
+    <div class="omhulsel training-kop-raster">
+      <div class="training-kop-binnen">
       <Kruimels kruimels={kruimels} />
 
       <div class="kop-regel">
@@ -142,7 +144,12 @@ const feiten = [
           <span class="pijl" aria-hidden="true">→</span>
         </a>
         <a href={`tel:${SITE.telefoonUri}`} class="knop knop-tweede">Bel {SITE.telefoon}</a>
+        </div>
       </div>
+
+      {/* De drie treden met dit niveau opgelicht: laat zien waar deze
+          training in de leerlijn staat, zonder dat er een woord bij hoeft. */}
+      <div class="training-kop-beeld"><NiveauBeeld huidig={d.niveau} /></div>
     </div>
   </section>
 
@@ -272,6 +279,19 @@ const feiten = [
     background: var(--inkt-950);
     padding-block: clamp(1.5rem, 1rem + 2vw, 2.5rem) clamp(3rem, 2rem + 4vw, 5rem);
   }
+  /* minmax(0, ...) is nodig, anders duwt de lange trainingstitel de
+     illustratie weg tot een streepje. */
+  .training-kop-raster {
+    display: grid;
+    gap: clamp(1.5rem, 1rem + 3vw, 3rem);
+    align-items: center;
+  }
+  @media (min-width: 950px) {
+    .training-kop-raster { grid-template-columns: minmax(0, 1fr) minmax(0, 17rem); }
+  }
+  .training-kop-beeld { max-width: 17rem; width: 100%; margin-inline: auto; }
+  @media (max-width: 949px) { .training-kop-beeld { max-width: 12rem; } }
+
   .training-kop-binnen { display: grid; gap: 1.35rem; justify-items: start; }
   .training-kop h1 { max-width: 20ch; }
 
