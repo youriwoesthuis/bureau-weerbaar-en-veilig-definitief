@@ -1,0 +1,75 @@
+---
+titel: Agressietraining voor uitvaartmedewerkers en begrafenisondernemers
+slug: agressietraining-uitvaartmedewerkers-basis
+sector: uitvaart
+beroepsgroep: uitvaartmedewerkers
+niveau: basis
+duur: 1 dag
+groepsgrootte: maximaal 10 deelnemers
+locatie: incompany
+locatie_detail: op eigen locatie of bij Bureau Weerbaar en Veilig in Neede
+certificaat: deelnamecertificaat na afloop
+doelgroep: "Alle uitvaartmedewerkers, uitvaartverzorgers en medewerkers met direct contact met nabestaanden."
+samenvatting: >-
+  De agressietraining voor uitvaartmedewerkers en begrafenisondernemers
+  van Bureau Weerbaar en Veilig leert medewerkers de emotionele dynamiek
+  achter agressie herkennen: rouw, schuld en machteloosheid, en
+  familieconflicten hanteren zonder partij te kiezen. De training duurt 1
+  dag en telt maximaal 10 deelnemers.
+resultaat:
+  - "De emotionele dynamiek achter agressie herkennen: rouw, schuld en machteloosheid"
+  - De eigen reactie reguleren bij agressief gedrag van nabestaanden
+  - Verbale agressie professioneel begrenzen zonder de zorgrelatie te beschadigen
+  - Familieconflicten hanteren zonder partij te kiezen
+  - Moeilijke boodschappen zo brengen dat de kans op escalatie klein blijft
+  - Incidenten correct melden en bespreken
+programma:
+  - titel: Rouw en agressie
+    inhoud: "Begrijpen hoe verdriet, schuldgevoel en machteloosheid omslaan in woede."
+  - titel: Reguleren in geladen situaties
+    inhoud: Rustig blijven bij nabestaanden die in acute rouw de controle verliezen.
+  - titel: Begrenzen met behoud van de relatie
+    inhoud: Professioneel begrenzen bij agressie over kosten of afspraken.
+  - titel: Tussen familieleden
+    inhoud: Familieconflicten hanteren zonder zondebok of scheidsrechter te worden.
+  - titel: De plechtigheid en daarna
+    inhoud: Handelen bij spanningen tijdens de plechtigheid en bij online beschuldigingen na afloop.
+werkvormen:
+  - realistische oefeningen op basis van herkenbare praktijksituaties
+  - expliciete aandacht voor de dynamiek tussen rouw en agressie
+  - geen generieke rollenspellen
+veelgestelde_vragen:
+  - vraag: "Hoe lang duurt de agressietraining voor uitvaartmedewerkers en begrafenisondernemers?"
+    antwoord: De training duurt 1 dag. De groep telt maximaal 10 deelnemers.
+  - vraag: "Voor wie is deze training bedoeld?"
+    antwoord: "Alle uitvaartmedewerkers, uitvaartverzorgers en medewerkers met direct contact met nabestaanden. Er is geen voorkennis nodig; dit is het instapniveau."
+  - vraag: "Waar vindt de training plaats?"
+    antwoord: "Incompany op de eigen locatie, of bij Bureau Weerbaar en Veilig in Neede (Gelderland)."
+  - vraag: "Krijgen deelnemers een certificaat?"
+    antwoord: "Ja, elke deelnemer ontvangt na afloop een deelnamecertificaat."
+  - vraag: "Wat is het verschil met de andere niveaus?"
+    antwoord: "De basistraining leert uitvaartmedewerkers & begrafenisondernemers agressie herkennen, de eigen reactie reguleren en situaties de-escaleren. Wie structureel met zwaardere situaties werkt, gaat daarna verder met het gevorderde niveau."
+gerelateerd:
+  - "agressietraining-uitvaartmedewerkers-gevorderd"
+  - "agressietraining-uitvaartmedewerkers-expert"
+  - "agressietraining-maatschappelijk-werkers-basis"
+  - "agressietraining-dierenartsen-dierklinieken-basis"
+afbeelding:
+  src: /images/trainingen/uitvaart.jpg
+  alt: "Deelnemers oefenen een praktijksituatie tijdens de agressietraining voor uitvaartmedewerkers & begrafenisondernemers"
+---
+
+## Waarom deze training
+
+Nabestaanden zijn in acute rouw en emotioneel kwetsbaar op het moment dat zij met de uitvaartverzorger aan tafel zitten. Die instabiliteit vergroot het risico op agressie aanzienlijk.
+
+De basistraining van Bureau Weerbaar en Veilig leert medewerkers die dynamiek te herkennen en te hanteren, met behoud van de zorgrelatie die dit vak vraagt.
+
+## Herkenbare praktijksituaties
+
+- Nabestaanden die agressief reageren op de uitvaartkosten
+- Familieleden in onderlinge ruzie die de medewerker als zondebok gebruiken
+- Personen in acute rouw die de controle verliezen
+- Afwijzing van afspraken, met dreigende escalatie
+- Spanningen tijdens de plechtigheid zelf
+- Online beschuldigingen na afloop

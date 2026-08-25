@@ -1,0 +1,55 @@
+---
+import Chevron from './Chevron.astro';
+import { SITE, pad } from '../lib/site';
+
+interface Props {
+  kop?: string;
+  tekst?: string;
+}
+const {
+  kop = 'Overleggen over wat uw team nodig heeft?',
+  tekst = 'Vertel wat er speelt. Bureau Weerbaar en Veilig denkt mee over beroepsgroep, niveau en aanpak — en zegt het ook als een training niet het antwoord is.',
+} = Astro.props;
+---
+
+<section class="cta gloed" data-niveau="basis">
+  <div class="omhulsel cta-binnen">
+    <Chevron aantal={3} breedte="3.5rem" verloop={true} class="cta-chevron" />
+    <h2>{kop}</h2>
+    <p class="inleiding">{tekst}</p>
+    <div class="cta-knoppen">
+      <a href={pad('/contact/')} class="knop">
+        Offerte aanvragen
+        <span class="pijl" aria-hidden="true">→</span>
+      </a>
+      <a href={`tel:${SITE.telefoonUri}`} class="knop knop-tweede">Bel {SITE.telefoon}</a>
+    </div>
+    <p class="cta-klein">{SITE.openingstijden} · {SITE.email}</p>
+  </div>
+</section>
+
+<style>
+  .cta {
+    background: var(--inkt-950);
+    border-top: 1px solid var(--rand);
+    padding-block: clamp(3.5rem, 2.4rem + 5vw, 7rem);
+  }
+  .cta-binnen {
+    display: grid;
+    gap: 1.15rem;
+    justify-items: center;
+    text-align: center;
+    max-width: 46rem;
+  }
+  .cta-chevron { margin-bottom: 0.5rem; }
+  .cta h2 { font-size: clamp(1.9rem, 1.4rem + 2.2vw, 3rem); }
+  .cta .inleiding { max-width: 40rem; }
+  .cta-knoppen {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    justify-content: center;
+    margin-top: 0.5rem;
+  }
+  .cta-klein { font-size: 0.875rem; color: var(--tekst-gedempt); margin-top: 0.25rem; }
+</style>

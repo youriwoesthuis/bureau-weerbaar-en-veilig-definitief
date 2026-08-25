@@ -1,0 +1,76 @@
+---
+titel: Gevorderde agressietraining voor reclasseringsmedewerkers
+slug: agressietraining-reclasseringsmedewerkers-gevorderd
+sector: justitiele-keten
+beroepsgroep: reclasseringsmedewerkers
+niveau: gevorderd
+duur: 1 dag
+groepsgrootte: maximaal 10 deelnemers
+locatie: incompany
+locatie_detail: op eigen locatie of bij Bureau Weerbaar en Veilig in Neede
+certificaat: deelnamecertificaat na afloop
+voorwaarde: afgeronde basistraining
+doelgroep: Reclasseringsmedewerkers met basistraining die werken met cliënten met een ernstig gewelddadig verleden of een hoog risicoprofiel.
+samenvatting: >-
+  De gevorderde agressietraining voor reclasseringsmedewerkers van Bureau
+  Weerbaar en Veilig richt zich op complexe dreigingspatronen:
+  systematisch volgen, netwerkdruk en dreiging die pas achteraf zichtbaar
+  wordt. De training duurt 1 dag, telt maximaal 10 deelnemers en vraagt
+  een afgeronde basistraining.
+resultaat:
+  - Complexe dreigingspatronen onderscheiden van impulsieve agressie
+  - Risicovolle situaties taxeren met gestructureerde methoden
+  - Professioneel standhouden bij manipulatieve cliënten
+  - Veiligheidsmaatregelen treffen bij huisbezoeken
+  - Systematische intimidatie herkennen en escaleren
+  - Professionele distantie behouden in langdurige relaties
+programma:
+  - titel: Dreiging of impuls
+    inhoud: Onderscheid maken tussen een impulsieve uitbarsting en een bewust dreigingspatroon.
+  - titel: Gestructureerde risicotaxatie
+    inhoud: Risicovolle situaties systematisch taxeren in plaats van op gevoel.
+  - titel: Manipulatie en standhouden
+    inhoud: Professioneel blijven bij cliënten die bewust manipuleren.
+  - titel: Systematische intimidatie
+    inhoud: "Volgen, fotograferen en netwerkdruk via medeverdachten of familie herkennen en escaleren."
+  - titel: Huisbezoek in risicovolle omgeving
+    inhoud: Veiligheidsmaatregelen bij huisbezoeken in omgevingen met georganiseerde criminaliteit.
+werkvormen:
+  - casuïstiek uit de eigen organisatie
+  - directe feedback op dreigingsherkenning
+  - oefening van ingebrachte situaties
+veelgestelde_vragen:
+  - vraag: "Hoe lang duurt de gevorderde agressietraining voor reclasseringsmedewerkers?"
+    antwoord: De training duurt 1 dag. De groep telt maximaal 10 deelnemers.
+  - vraag: "Voor wie is deze training bedoeld?"
+    antwoord: "Reclasseringsmedewerkers met basistraining die werken met cliënten met een ernstig gewelddadig verleden of een hoog risicoprofiel. Voorwaarde voor deelname: afgeronde basistraining."
+  - vraag: "Waar vindt de training plaats?"
+    antwoord: "Incompany op de eigen locatie, of bij Bureau Weerbaar en Veilig in Neede (Gelderland)."
+  - vraag: "Krijgen deelnemers een certificaat?"
+    antwoord: "Ja, elke deelnemer ontvangt na afloop een deelnamecertificaat."
+  - vraag: "Wat is het verschil met de andere niveaus?"
+    antwoord: "De basistraining behandelt het herkennen en de-escaleren van agressie in het moment. Dit gevorderde niveau richt zich op patronen die niet impulsief zijn: bewuste grensoverschrijding, manipulatie en consistent teamoptreden."
+gerelateerd:
+  - "agressietraining-reclasseringsmedewerkers-basis"
+  - "agressietraining-reclasseringsmedewerkers-expert"
+  - "agressietraining-justitiele-jeugdinrichtingen-gevorderd"
+  - "agressietraining-maatschappelijk-werkers-gevorderd"
+afbeelding:
+  src: /images/trainingen/reclassering.jpg
+  alt: Deelnemers oefenen een praktijksituatie tijdens de agressietraining voor reclasseringsmedewerkers
+---
+
+## Waarom deze training
+
+Sommige agressie in de reclassering is niet impulsief maar bewust manipulerend of intimiderend. Het patroon wordt vaak pas zichtbaar als je de losse signalen naast elkaar legt.
+
+Deze verdiepingstraining van Bureau Weerbaar en Veilig bereidt medewerkers voor op die complexe dreigingspatronen, met gestructureerde risicotaxatie als basis.
+
+## Herkenbare praktijksituaties
+
+- Cliënten die bewust grensoverschrijdend gedrag vertonen
+- Onvoorspelbare escalatie bij toenemende druk
+- Systematisch volgen of fotograferen door cliënten
+- Netwerkdruk via medeverdachten of familie
+- Huisbezoeken in omgevingen met georganiseerde criminaliteit
+- Dreiging die pas achteraf via sociale media duidelijk wordt

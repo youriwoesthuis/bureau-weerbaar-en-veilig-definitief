@@ -1,0 +1,135 @@
+---
+import Chevron from './Chevron.astro';
+import { SITE, pad } from '../lib/site';
+import { getCollection } from 'astro:content';
+
+const sectoren = (await getCollection('sectoren')).sort((a, b) =>
+  a.data.naam.localeCompare(b.data.naam, 'nl'),
+);
+const jaar = new Date().getFullYear();
+---
+
+<footer class="voet">
+  <div class="omhulsel">
+    <div class="voet-boven">
+      <div class="voet-merk">
+        <Chevron aantal={2} bol={true} breedte="2.4rem" verloop={true} />
+        <p class="voet-naam">Bureau Weerbaar en Veilig</p>
+        <p class="voet-slogan">{SITE.beschrijving}</p>
+        <a href={pad('/contact/')} class="knop">
+          Offerte aanvragen
+          <span class="pijl" aria-hidden="true">→</span>
+        </a>
+      </div>
+
+      <nav class="voet-kolom" aria-label="Sectoren">
+        <h2>Sectoren</h2>
+        <ul>
+          {sectoren.map((s) => (
+            <li><a href={pad(`/sectoren/${s.data.slug}/`)}>{s.data.naam}</a></li>
+          ))}
+        </ul>
+      </nav>
+
+      <nav class="voet-kolom" aria-label="Trainingen">
+        <h2>Trainingen</h2>
+        <ul>
+          <li><a href={pad('/trainingen/')}>Alle trainingen</a></li>
+          <li><a href={pad('/niveaus/basis/')}>Niveau basis</a></li>
+          <li><a href={pad('/niveaus/gevorderd/')}>Niveau gevorderd</a></li>
+          <li><a href={pad('/niveaus/expert/')}>Niveau expert</a></li>
+          <li><a href={pad('/aanpak/')}>Onze aanpak</a></li>
+        </ul>
+      </nav>
+
+      <div class="voet-kolom">
+        <h2>Contact</h2>
+        <address>
+          <p>{SITE.adres.straat}<br />{SITE.adres.postcode} {SITE.adres.plaats}</p>
+          <p>
+            <a href={`tel:${SITE.telefoonUri}`}>{SITE.telefoon}</a><br />
+            <a href={`mailto:${SITE.email}`}>{SITE.email}</a>
+          </p>
+          <p class="voet-tijden">{SITE.openingstijden}</p>
+        </address>
+      </div>
+    </div>
+
+    <div class="voet-onder">
+      <p>© {jaar} {SITE.naam}</p>
+      <p class="voet-groep">
+        Onderdeel van
+        {SITE.zustermerken.map((m, i) => (
+          <>
+            {i > 0 && ' en '}
+            <a href={m.url} rel="noopener">{m.naam}</a>
+          </>
+        ))}
+      </p>
+      <ul class="voet-links">
+        <li><a href={pad('/over-ons/')}>Over ons</a></li>
+        <li><a href={pad('/contact/')}>Contact</a></li>
+        <li><a href={pad('/privacy/')}>Privacy</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+<style>
+  .voet {
+    background: var(--inkt-950);
+    border-top: 1px solid var(--rand);
+    padding-block: clamp(3rem, 2rem + 3vw, 5rem) 2rem;
+    color: var(--tekst-zacht);
+    font-size: 0.95rem;
+  }
+
+  .voet-boven {
+    display: grid;
+    gap: clamp(2rem, 1rem + 3vw, 3.5rem);
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 14rem), 1fr));
+  }
+  .voet-merk { grid-column: span 1; display: grid; gap: 0.85rem; justify-items: start; }
+  @media (min-width: 900px) { .voet-merk { max-width: 22rem; } }
+
+  .voet-naam {
+    font-family: 'Space Grotesk Variable', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    color: var(--tekst);
+  }
+  .voet-slogan { color: var(--tekst-gedempt); font-size: 0.925rem; line-height: 1.55; }
+
+  .voet-kolom h2 {
+    font-size: 0.8125rem;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--tekst-gedempt);
+    margin-bottom: 1rem;
+  }
+  .voet-kolom ul { list-style: none; padding: 0; display: grid; gap: 0.4rem; }
+
+  /* :not(.knop) is nodig: anders wint deze regel van .knop uit global.css
+     en krijgt de oranje knop lichtblauwe tekst (1,02:1). */
+  .voet a:not(.knop) { color: var(--tekst-zacht); text-decoration: none; }
+  .voet a:not(.knop):hover { color: var(--oranje-400); text-decoration: underline; text-underline-offset: 3px; }
+
+  address { font-style: normal; display: grid; gap: 0.8rem; }
+  .voet-tijden { color: var(--tekst-gedempt); font-size: 0.875rem; }
+
+  .voet-onder {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem 1.5rem;
+    margin-top: clamp(2.5rem, 1.5rem + 3vw, 4rem);
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--rand);
+    font-size: 0.875rem;
+    color: var(--tekst-gedempt);
+  }
+  .voet-links { display: flex; gap: 1.1rem; list-style: none; padding: 0; margin: 0; }
+</style>

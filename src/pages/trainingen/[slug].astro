@@ -1,0 +1,401 @@
+---
+import { getCollection, render } from 'astro:content';
+import Basis from '../../layouts/Basis.astro';
+import Kruimels from '../../components/Kruimels.astro';
+import Chevron from '../../components/Chevron.astro';
+import NiveauLadder from '../../components/NiveauLadder.astro';
+import TrainingKaart from '../../components/TrainingKaart.astro';
+import Vragen from '../../components/Vragen.astro';
+import Cta from '../../components/Cta.astro';
+import { SITE, NIVEAU_INFO, pad } from '../../lib/site';
+import { trainingTitel, description, faqSchema, ids } from '../../lib/seo';
+
+export async function getStaticPaths() {
+  const trainingen = await getCollection('trainingen');
+  return trainingen.map((t) => ({ params: { slug: t.data.slug }, props: { training: t } }));
+}
+
+const { training } = Astro.props;
+const d = training.data;
+const { Content } = await render(training);
+
+const [beroepsgroepen, sectoren, alleTrainingen] = await Promise.all([
+  getCollection('beroepsgroepen'),
+  getCollection('sectoren'),
+  getCollection('trainingen'),
+]);
+
+const beroepsgroep = beroepsgroepen.find((b) => b.data.slug === d.beroepsgroep);
+const sector = sectoren.find((s) => s.data.slug === d.sector);
+const groepNaam = beroepsgroep?.data.naam ?? d.beroepsgroep;
+const sectorNaam = sector?.data.naam ?? d.sector;
+
+// De andere niveaus van dezelfde beroepsgroep
+const zusters = alleTrainingen.filter((t) => t.data.beroepsgroep === d.beroepsgroep);
+const perNiveau = Object.fromEntries(zusters.map((t) => [t.data.niveau, t.data.slug]));
+
+// Aanpalende beroepsgroepen binnen dezelfde sector, zelfde niveau
+const buren = alleTrainingen
+  .filter(
+    (t) =>
+      t.data.sector === d.sector &&
+      t.data.beroepsgroep !== d.beroepsgroep &&
+      t.data.niveau === d.niveau,
+  )
+  .slice(0, 3);
+
+const info = NIVEAU_INFO[d.niveau];
+const siteUrl = new URL(import.meta.env.BASE_URL, Astro.site).href;
+
+const kruimels = [
+  { naam: 'Home', url: pad('/') },
+  { naam: 'Sectoren', url: pad('/sectoren/') },
+  { naam: sectorNaam, url: pad(`/sectoren/${d.sector}/`) },
+  { naam: groepNaam, url: pad(`/sectoren/${d.sector}/${d.beroepsgroep}/`) },
+  { naam: info.naam, url: pad(`/trainingen/${d.slug}/`) },
+];
+
+const cursusSchema = {
+  '@type': 'Course',
+  '@id': `${new URL(Astro.url.pathname, Astro.site).href}#cursus`,
+  name: d.titel,
+  description: d.samenvatting,
+  url: new URL(Astro.url.pathname, Astro.site).href,
+  inLanguage: 'nl-NL',
+  provider: { '@id': ids(siteUrl).organisatie },
+  educationalLevel: info.naam,
+  audience: { '@type': 'EducationalAudience', educationalRole: 'Professional', audienceType: d.doelgroep },
+  teaches: d.resultaat,
+  timeRequired: 'P1D',
+  courseMode: 'onsite',
+  hasCourseInstance: {
+    '@type': 'CourseInstance',
+    courseMode: 'onsite',
+    courseWorkload: 'P1D',
+    inLanguage: 'nl-NL',
+    location: {
+      '@type': 'Place',
+      name: d.locatie_detail ?? SITE.naam,
+      address: {
+        '@type': 'PostalAddress',
+        addressLocality: SITE.adres.plaats,
+        addressCountry: SITE.adres.land,
+      },
+    },
+  },
+  ...(d.certificaat && {
+    educationalCredentialAwarded: {
+      '@type': 'EducationalOccupationalCredential',
+      name: 'Deelnamecertificaat',
+      description: d.certificaat,
+    },
+  }),
+};
+
+const schema = [cursusSchema, faqSchema(d.veelgestelde_vragen)].filter(Boolean);
+
+const feiten = [
+  { label: 'Duur', waarde: d.duur },
+  { label: 'Groepsgrootte', waarde: d.groepsgrootte },
+  { label: 'Locatie', waarde: d.locatie_detail ?? d.locatie },
+  ...(d.certificaat ? [{ label: 'Afsluiting', waarde: d.certificaat }] : []),
+];
+---
+
+<Basis
+  titel={trainingTitel(groepNaam, d.niveau)}
+  description={description(d.samenvatting)}
+  niveau={d.niveau}
+  kruimels={kruimels}
+  schema={schema}
+>
+  <!-- ---------------- Kop ---------------- -->
+  <section class="training-kop gloed">
+    <div class="omhulsel training-kop-binnen">
+      <Kruimels kruimels={kruimels} />
+
+      <div class="kop-regel">
+        <span class="badge">Niveau {info.naam}</span>
+        <span class="kop-scheiding" aria-hidden="true"></span>
+        <a href={pad(`/sectoren/${d.sector}/`)} class="kop-sector">{sectorNaam}</a>
+      </div>
+
+      <h1>{d.titel}</h1>
+      <p class="openingsantwoord">{d.samenvatting}</p>
+
+      <dl class="feitenbalk">
+        {feiten.map((f) => (
+          <div class="feit">
+            <dt>{f.label}</dt>
+            <dd>{f.waarde}</dd>
+          </div>
+        ))}
+      </dl>
+
+      <div class="kop-knoppen">
+        <a href={pad('/contact/')} class="knop">
+          Offerte aanvragen
+          <span class="pijl" aria-hidden="true">→</span>
+        </a>
+        <a href={`tel:${SITE.telefoonUri}`} class="knop knop-tweede">Bel {SITE.telefoon}</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ---------------- Voor wie + resultaat ---------------- -->
+  <section class="sectie op-licht">
+    <div class="omhulsel twee-kolom">
+      <div>
+        <p class="bovenkop">Voor wie</p>
+        <h2 class="h3 blok-kop">{d.doelgroep}</h2>
+        <div class="leestekst achtergrondtekst"><Content /></div>
+      </div>
+
+      <div class="resultaat">
+        <p class="bovenkop">Na deze dag</p>
+        <h2 class="h3 blok-kop">Wat deelnemers kunnen</h2>
+        <ul class="vinklijst">
+          {d.resultaat.map((r) => (
+            <li>
+              <Chevron aantal={1} breedte="0.85rem" />
+              <span>{r}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ---------------- Programma ---------------- -->
+  <section class="sectie">
+    <div class="omhulsel">
+      <div class="kop-blok">
+        <p class="bovenkop">Het programma</p>
+        <h2>Zo ziet de dag eruit</h2>
+        <p class="inleiding">
+          {d.programma.length} blokken in {d.duur}. Klap een blok open om te zien wat er gebeurt.
+        </p>
+      </div>
+
+      <ol class="tijdlijn">
+        {d.programma.map((blok, i) => (
+          <li>
+            <details open={i === 0} class="tijdblok">
+              <summary>
+                <span class="tijdblok-nummer" aria-hidden="true">{String(i + 1).padStart(2, '0')}</span>
+                <span class="tijdblok-titel">{blok.titel}</span>
+                <span class="teken" aria-hidden="true"></span>
+              </summary>
+              <div class="tijdblok-inhoud"><p>{blok.inhoud}</p></div>
+            </details>
+          </li>
+        ))}
+      </ol>
+
+      <div class="werkvormen">
+        <h3 class="h4">Werkvormen</h3>
+        <ul class="etiketten">
+          {d.werkvormen.map((w) => <li>{w}</li>)}
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ---------------- De drie niveaus ---------------- -->
+  <section class="sectie op-licht">
+    <div class="omhulsel">
+      <div class="kop-blok">
+        <p class="bovenkop">Niveaus</p>
+        <h2>Deze training binnen de leerlijn</h2>
+        <p class="inleiding">
+          Voor {groepNaam.toLowerCase()} zijn alle drie de niveaus beschikbaar.
+          U bekijkt nu {info.naam.toLowerCase()}.
+        </p>
+      </div>
+      <NiveauLadder trainingen={perNiveau} beroepsgroep={groepNaam} huidig={d.niveau} />
+    </div>
+  </section>
+
+  <!-- ---------------- Vragen ---------------- -->
+  {d.veelgestelde_vragen.length > 0 && (
+    <section class="sectie">
+      <div class="omhulsel">
+        <Vragen vragen={d.veelgestelde_vragen} groep={`vragen-${d.slug}`} />
+      </div>
+    </section>
+  )}
+
+  <!-- ---------------- Aanpalende beroepsgroepen ---------------- -->
+  {buren.length > 0 && (
+    <section class="sectie op-licht">
+      <div class="omhulsel">
+        <div class="kop-blok">
+          <p class="bovenkop">Ook in {sectorNaam.toLowerCase()}</p>
+          <h2>Andere beroepsgroepen, zelfde niveau</h2>
+        </div>
+        <div class="rooster rooster-3">
+          {buren.map((t) => {
+            const bg = beroepsgroepen.find((b) => b.data.slug === t.data.beroepsgroep);
+            return (
+              <TrainingKaart
+                slug={t.data.slug}
+                titel={t.data.titel}
+                niveau={t.data.niveau}
+                beroepsgroep={bg?.data.naam}
+                samenvatting={bg?.data.samenvatting}
+              />
+            );
+          })}
+        </div>
+        <p class="meer-link">
+          <a href={pad(`/sectoren/${d.sector}/`)} class="pijllink">
+            Alle beroepsgroepen in {sectorNaam.toLowerCase()}
+            <span class="pijl" aria-hidden="true">→</span>
+          </a>
+        </p>
+      </div>
+    </section>
+  )}
+
+  <Cta
+    kop={`Deze training voor uw team?`}
+    tekst={`Bureau Weerbaar en Veilig verzorgt deze training incompany. Vertel wat er speelt bij ${groepNaam.toLowerCase()} in uw organisatie, dan kijken we samen of dit niveau het juiste is.`}
+  />
+</Basis>
+
+<style>
+  .training-kop {
+    background: var(--inkt-950);
+    padding-block: clamp(1.5rem, 1rem + 2vw, 2.5rem) clamp(3rem, 2rem + 4vw, 5rem);
+  }
+  .training-kop-binnen { display: grid; gap: 1.35rem; justify-items: start; }
+  .training-kop h1 { max-width: 20ch; }
+
+  .kop-regel { display: flex; align-items: center; gap: 0.85rem; flex-wrap: wrap; }
+  .kop-scheiding { width: 1px; height: 1rem; background: var(--rand-fel); }
+  .kop-sector {
+    font-family: 'Space Grotesk Variable', sans-serif;
+    font-size: 0.875rem;
+    color: var(--tekst-zacht);
+    text-decoration: none;
+  }
+  .kop-sector:hover { color: var(--oranje-400); text-decoration: underline; text-underline-offset: 3px; }
+
+  .feitenbalk {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 11rem), 1fr));
+    gap: 1px;
+    background: var(--rand);
+    border: 1px solid var(--rand);
+    border-radius: var(--hoek);
+    overflow: hidden;
+    width: 100%;
+    margin: 0;
+  }
+  .feit { background: var(--inkt-900); padding: 1rem 1.15rem; display: grid; gap: 0.2rem; }
+  .feit dt {
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--tekst-gedempt);
+  }
+  .feit dd {
+    margin: 0;
+    font-family: 'Space Grotesk Variable', sans-serif;
+    font-size: 0.98rem;
+    font-weight: 600;
+    color: var(--tekst);
+  }
+
+  .kop-knoppen { display: flex; flex-wrap: wrap; gap: 0.75rem; }
+
+  .twee-kolom {
+    display: grid;
+    gap: clamp(2rem, 1.2rem + 3vw, 4rem);
+    align-items: start;
+  }
+  @media (min-width: 900px) { .twee-kolom { grid-template-columns: 1.1fr 1fr; } }
+  .blok-kop { margin: 0.8rem 0 1.1rem; }
+  .achtergrondtekst { color: var(--tekst-donker-zacht); }
+
+  .vinklijst { list-style: none; padding: 0; display: grid; gap: 0.8rem; }
+  .vinklijst li { display: grid; grid-template-columns: auto 1fr; gap: 0.75rem; align-items: start; }
+  .vinklijst :global(.chevron) { color: var(--niveau-op-wit); margin-top: 0.42em; }
+
+  .tijdlijn {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: 1px;
+    background: var(--rand);
+    border: 1px solid var(--rand);
+    border-radius: var(--hoek);
+    overflow: hidden;
+    max-width: 56rem;
+  }
+  .tijdblok { background: var(--inkt-850); }
+  .tijdblok summary {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    gap: 1rem;
+    min-height: 3.5rem;
+    padding: 1rem clamp(1rem, 0.85rem + 0.6vw, 1.4rem);
+    cursor: pointer;
+    list-style: none;
+    transition: background 160ms;
+  }
+  .tijdblok summary::-webkit-details-marker { display: none; }
+  .tijdblok summary:hover { background: var(--inkt-800); }
+  .tijdblok-nummer {
+    font-family: 'Space Grotesk Variable', sans-serif;
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: var(--niveau);
+    letter-spacing: 0.02em;
+  }
+  .tijdblok-titel {
+    font-family: 'Space Grotesk Variable', sans-serif;
+    font-size: 1.05rem;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+  }
+  .teken { position: relative; width: 1rem; height: 1rem; flex: none; }
+  .teken::before, .teken::after {
+    content: '';
+    position: absolute;
+    inset: 50% 0 auto 0;
+    height: 2px;
+    background: var(--niveau);
+    transition: transform 200ms cubic-bezier(0.2, 0.7, 0.3, 1);
+  }
+  .teken::after { transform: rotate(90deg); }
+  .tijdblok[open] .teken::after { transform: rotate(0deg); }
+  .tijdblok-inhoud {
+    padding: 0 clamp(1rem, 0.85rem + 0.6vw, 1.4rem) 1.25rem;
+    padding-left: calc(clamp(1rem, 0.85rem + 0.6vw, 1.4rem) + 1.9rem);
+    color: var(--tekst-zacht);
+    max-width: 48rem;
+  }
+
+  .werkvormen { margin-top: clamp(2rem, 1.5rem + 2vw, 3rem); }
+  .etiketten {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    list-style: none;
+    padding: 0;
+    margin-top: 1rem;
+  }
+  .etiketten li {
+    padding: 0.4rem 0.8rem;
+    border: 1px solid var(--rand-fel);
+    border-radius: 999px;
+    font-size: 0.9rem;
+    color: var(--tekst-zacht);
+  }
+
+  .meer-link { margin-top: clamp(1.25rem, 1rem + 1vw, 2rem); }
+</style>

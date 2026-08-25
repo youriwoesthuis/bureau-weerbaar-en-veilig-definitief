@@ -1,0 +1,154 @@
+---
+import { getCollection } from 'astro:content';
+import Basis from '../../layouts/Basis.astro';
+import Kruimels from '../../components/Kruimels.astro';
+import Cta from '../../components/Cta.astro';
+import { pad } from '../../lib/site';
+import { paginaTitel, description } from '../../lib/seo';
+
+const [sectoren, beroepsgroepen, trainingen] = await Promise.all([
+  getCollection('sectoren'),
+  getCollection('beroepsgroepen'),
+  getCollection('trainingen'),
+]);
+
+const lijst = sectoren
+  .map((s) => ({
+    ...s.data,
+    groepen: beroepsgroepen
+      .filter((b) => b.data.sector === s.data.slug)
+      .sort((a, b) => a.data.naam.localeCompare(b.data.naam, 'nl')),
+  }))
+  .sort((a, b) => b.groepen.length - a.groepen.length || a.naam.localeCompare(b.naam, 'nl'));
+
+const kruimels = [
+  { naam: 'Home', url: pad('/') },
+  { naam: 'Sectoren', url: pad('/sectoren/') },
+];
+
+const openingsantwoord = `Bureau Weerbaar en Veilig verzorgt agressietraining in ${sectoren.length} sectoren, van zorg en onderwijs tot openbaar vervoer en handhaving. Binnen elke sector is het aanbod uitgesplitst naar beroepsgroep — ${beroepsgroepen.length} in totaal — en elke beroepsgroep heeft de niveaus basis, gevorderd en expert.`;
+---
+
+<Basis
+  titel={paginaTitel('Agressietraining per sector')}
+  description={description(openingsantwoord)}
+  niveau="basis"
+  kruimels={kruimels}
+>
+  <section class="kop-sectie gloed raster-achtergrond">
+    <div class="omhulsel kop-binnen">
+      <Kruimels kruimels={kruimels} />
+      <p class="bovenkop">Alle sectoren</p>
+      <h1 class="display">In welke sector<br /><span class="verloopwoord">werkt uw team?</span></h1>
+      <p class="openingsantwoord">{openingsantwoord}</p>
+    </div>
+  </section>
+
+  <section class="sectie op-licht">
+    <div class="omhulsel sectorlijst">
+      {lijst.map((s) => (
+        <article class="sectorblok onthul" data-niveau="basis">
+          <div class="sectorblok-kop">
+            <h2 class="h3">
+              <a href={pad(`/sectoren/${s.slug}/`)} class="sectorlink">{s.naam}</a>
+            </h2>
+            <p class="sectorblok-aantal">
+              {s.groepen.length} {s.groepen.length === 1 ? 'beroepsgroep' : 'beroepsgroepen'}
+              · {s.groepen.length * 3} trainingen
+            </p>
+            <p class="sectorblok-tekst">{description(s.samenvatting, 165)}</p>
+          </div>
+
+          <ul class="groeplijst">
+            {s.groepen.map((b) => (
+              <li>
+                <a href={pad(`/sectoren/${s.slug}/${b.data.slug}/`)}>
+                  {b.data.naam}
+                  <span class="pijl" aria-hidden="true">→</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </article>
+      ))}
+    </div>
+  </section>
+
+  <Cta />
+</Basis>
+
+<style>
+  .kop-sectie {
+    background: var(--inkt-950);
+    padding-block: clamp(1.5rem, 1rem + 2vw, 2.5rem) clamp(3rem, 2rem + 4vw, 5.5rem);
+  }
+  .kop-binnen { display: grid; gap: 1.25rem; justify-items: start; }
+  .verloopwoord {
+    background: var(--verloop-merk);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  .sectorlijst { display: grid; gap: clamp(1.5rem, 1rem + 2vw, 2.5rem); }
+
+  .sectorblok {
+    display: grid;
+    gap: clamp(1rem, 0.8rem + 1.2vw, 2rem);
+    padding: clamp(1.25rem, 1rem + 1vw, 2rem);
+    background: var(--wit);
+    border: 1px solid var(--rand-licht);
+    border-left: 3px solid var(--niveau-op-wit);
+    border-radius: var(--hoek);
+  }
+  @media (min-width: 900px) { .sectorblok { grid-template-columns: minmax(0, 20rem) minmax(0, 1fr); } }
+
+  .sectorblok-kop { display: grid; gap: 0.45rem; align-content: start; }
+  .sectorlink { color: inherit; text-decoration: none; }
+  .sectorlink:hover { color: var(--oranje-op-wit); text-decoration: underline; text-underline-offset: 4px; }
+  .sectorblok-aantal {
+    font-family: 'Space Grotesk Variable', sans-serif;
+    font-size: 0.85rem;
+    color: var(--oranje-op-wit);
+    font-weight: 600;
+  }
+  .sectorblok-tekst { font-size: 0.95rem; color: var(--tekst-donker-zacht); line-height: 1.55; }
+
+  .groeplijst {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: 0.35rem;
+    align-content: start;
+  }
+  @media (min-width: 620px) { .groeplijst { grid-template-columns: 1fr 1fr; } }
+
+  .groeplijst a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+    min-height: 2.75rem;
+    padding: 0.5rem 0.75rem;
+    border: 1px solid var(--rand-licht);
+    border-radius: var(--hoek);
+    color: var(--tekst-donker-zacht);
+    text-decoration: none;
+    font-size: 0.92rem;
+    transition: border-color 160ms, color 160ms, transform 160ms, background 160ms;
+  }
+  .groeplijst a .pijl {
+    color: var(--oranje-op-wit);
+    opacity: 0;
+    transform: translateX(-4px);
+    transition: opacity 180ms, transform 180ms;
+  }
+  .groeplijst a:hover {
+    color: var(--tekst-donker);
+    border-color: var(--oranje-op-wit);
+    background: var(--mist-50);
+    transform: translateX(2px);
+  }
+  .groeplijst a:hover .pijl { opacity: 1; transform: none; }
+</style>

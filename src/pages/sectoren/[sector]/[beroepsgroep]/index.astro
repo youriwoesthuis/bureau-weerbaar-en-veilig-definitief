@@ -1,0 +1,148 @@
+---
+import { getCollection, render } from 'astro:content';
+import Basis from '../../../../layouts/Basis.astro';
+import Kruimels from '../../../../components/Kruimels.astro';
+import NiveauLadder from '../../../../components/NiveauLadder.astro';
+import TrainingKaart from '../../../../components/TrainingKaart.astro';
+import Cta from '../../../../components/Cta.astro';
+import { FEITEN, pad } from '../../../../lib/site';
+import { paginaTitel, description, kortenaam } from '../../../../lib/seo';
+
+export async function getStaticPaths() {
+  const beroepsgroepen = await getCollection('beroepsgroepen');
+  return beroepsgroepen.map((b) => ({
+    params: { sector: b.data.sector, beroepsgroep: b.data.slug },
+    props: { beroepsgroep: b },
+  }));
+}
+
+const { beroepsgroep } = Astro.props;
+const d = beroepsgroep.data;
+const { Content } = await render(beroepsgroep);
+
+const [sectoren, trainingen, beroepsgroepen] = await Promise.all([
+  getCollection('sectoren'),
+  getCollection('trainingen'),
+  getCollection('beroepsgroepen'),
+]);
+
+const sector = sectoren.find((s) => s.data.slug === d.sector);
+const sectorNaam = sector?.data.naam ?? d.sector;
+
+const eigen = trainingen.filter((t) => t.data.beroepsgroep === d.slug);
+const perNiveau = Object.fromEntries(eigen.map((t) => [t.data.niveau, t.data.slug]));
+
+const buren = beroepsgroepen
+  .filter((b) => b.data.sector === d.sector && b.data.slug !== d.slug)
+  .slice(0, 4);
+
+const kruimels = [
+  { naam: 'Home', url: pad('/') },
+  { naam: 'Sectoren', url: pad('/sectoren/') },
+  { naam: sectorNaam, url: pad(`/sectoren/${d.sector}/`) },
+  { naam: d.naam, url: pad(`/sectoren/${d.sector}/${d.slug}/`) },
+];
+---
+
+<Basis
+  titel={paginaTitel(`Agressietraining ${kortenaam(d.naam).toLowerCase()}`)}
+  description={description(d.samenvatting)}
+  niveau="basis"
+  kruimels={kruimels}
+>
+  <section class="groep-kop gloed">
+    <div class="omhulsel groep-kop-binnen">
+      <Kruimels kruimels={kruimels} />
+      <p class="bovenkop">{sectorNaam}</p>
+      <h1>Agressietraining voor {d.naam.toLowerCase()}</h1>
+      <p class="openingsantwoord">{d.samenvatting}</p>
+
+      <ul class="snelfeiten">
+        <li><strong>{eigen.length}</strong> trainingen</li>
+        <li><strong>{FEITEN.duur}</strong> per training</li>
+        <li><strong>{FEITEN.groepsgrootte}</strong></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="sectie op-licht">
+    <div class="omhulsel">
+      <div class="kop-blok">
+        <p class="bovenkop">Kies een niveau</p>
+        <h2>Drie niveaus voor {d.naam.toLowerCase()}</h2>
+        <p class="inleiding">
+          De niveaus bouwen op elkaar voort. Weet u niet zeker welk niveau past?
+          Bureau Weerbaar en Veilig denkt mee.
+        </p>
+      </div>
+      <NiveauLadder trainingen={perNiveau} beroepsgroep={d.naam} />
+    </div>
+  </section>
+
+  <section class="sectie">
+    <div class="omhulsel">
+      <div class="kop-blok">
+        <p class="bovenkop">De praktijk</p>
+        <h2>Waarom deze beroepsgroep een eigen training heeft</h2>
+      </div>
+      <div class="leestekst"><Content /></div>
+    </div>
+  </section>
+
+  {buren.length > 0 && (
+    <section class="sectie op-licht">
+      <div class="omhulsel">
+        <div class="kop-blok">
+          <p class="bovenkop">Ook in {sectorNaam.toLowerCase()}</p>
+          <h2>Andere beroepsgroepen</h2>
+        </div>
+        <div class="rooster rooster-4">
+          {buren.map((b) => (
+            <a href={pad(`/sectoren/${b.data.sector}/${b.data.slug}/`)} class="kaart" data-niveau="basis">
+              <h3>{b.data.naam}</h3>
+              <p>{description(b.data.samenvatting, 110)}</p>
+              <span class="pijllink kaart-voet">
+                Bekijk
+                <span class="pijl" aria-hidden="true">→</span>
+              </span>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+  <Cta
+    kop={`Agressietraining voor ${d.naam.toLowerCase()}?`}
+    tekst="Vertel wat er speelt in uw organisatie. Bureau Weerbaar en Veilig adviseert over het juiste niveau en stemt de casuïstiek af op uw praktijk."
+  />
+</Basis>
+
+<style>
+  .groep-kop {
+    background: var(--inkt-950);
+    padding-block: clamp(1.5rem, 1rem + 2vw, 2.5rem) clamp(3rem, 2rem + 4vw, 5rem);
+  }
+  .groep-kop-binnen { display: grid; gap: 1.25rem; justify-items: start; }
+  .groep-kop h1 { max-width: 18ch; }
+
+  .snelfeiten {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem 2rem;
+    list-style: none;
+    padding: 1.25rem 0 0;
+    margin: 0.25rem 0 0;
+    border-top: 1px solid var(--rand);
+    width: 100%;
+    color: var(--tekst-zacht);
+    font-size: 0.95rem;
+  }
+  .snelfeiten strong {
+    font-family: 'Space Grotesk Variable', sans-serif;
+    color: var(--oranje-400);
+    font-weight: 700;
+  }
+
+  .kaart-voet { margin-top: auto; padding-top: 0.4rem; font-size: 0.9rem; }
+</style>

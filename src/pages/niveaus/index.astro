@@ -1,0 +1,167 @@
+---
+import { getCollection } from 'astro:content';
+import Basis from '../../layouts/Basis.astro';
+import Kruimels from '../../components/Kruimels.astro';
+import NiveauLadder from '../../components/NiveauLadder.astro';
+import Vragen from '../../components/Vragen.astro';
+import Cta from '../../components/Cta.astro';
+import { NIVEAUS, NIVEAU_INFO, FEITEN, pad } from '../../lib/site';
+import { paginaTitel, description } from '../../lib/seo';
+
+const trainingen = await getCollection('trainingen');
+
+const kruimels = [
+  { naam: 'Home', url: pad('/') },
+  { naam: 'Niveaus', url: pad('/niveaus/') },
+];
+
+const openingsantwoord = `Bureau Weerbaar en Veilig biedt elke agressietraining aan in drie niveaus. Basis leert agressie herkennen en de-escaleren, gevorderd gaat over begrenzen onder druk en nazorg, en expert richt zich op leidinggevenden die beleid en teamnorm moeten borgen. Elk niveau duurt ${FEITEN.duur}.`;
+
+const vergelijking = [
+  {
+    vraag: 'Waar begint een team dat nog nooit een agressietraining heeft gehad?',
+    antwoord:
+      'Bij basis. Dat niveau gaat ervan uit dat deelnemers geen voorkennis hebben en legt het fundament: signalen herkennen, de eigen reactie reguleren en het gesprek terugbrengen. Ook ervaren medewerkers halen er iets uit, omdat de casuïstiek uit hun eigen beroepsgroep komt.',
+  },
+  {
+    vraag: 'Moet iedereen eerst basis doen voordat gevorderd kan?',
+    antwoord:
+      'Niet per se. Gevorderd gaat ervan uit dat de basis beheerst wordt — door training of door ervaring. Werkt een team al jaren met zware situaties, dan kan gevorderd het juiste startpunt zijn. Bureau Weerbaar en Veilig kijkt daar per team naar.',
+  },
+  {
+    vraag: 'Voor wie is expert bedoeld?',
+    antwoord:
+      'Voor leidinggevenden, coördinatoren en preventiemedewerkers. Het gaat niet over de eigen vaardigheid in een confrontatie, maar over wat de organisatie eromheen moet regelen: teamnorm, meldingsbereidheid, nazorg en borging.',
+  },
+  {
+    vraag: 'Kan een team meerdere niveaus na elkaar doen?',
+    antwoord:
+      'Ja, en dat is ook de bedoeling. De drie niveaus zijn zo geschreven dat ze op elkaar voortbouwen zonder te herhalen. Veel organisaties trainen eerst de uitvoerende medewerkers op basis en daarna de leidinggevenden op expert.',
+  },
+];
+---
+
+<Basis
+  titel={paginaTitel('De drie niveaus: basis, gevorderd en expert')}
+  description={description(openingsantwoord)}
+  niveau="basis"
+  kruimels={kruimels}
+>
+  <section class="kop-sectie gloed raster-achtergrond">
+    <div class="omhulsel kop-binnen">
+      <Kruimels kruimels={kruimels} />
+      <p class="bovenkop">Niveaus</p>
+      <h1 class="display">Drie niveaus,<br /><span class="verloopwoord">één leerlijn</span></h1>
+      <p class="openingsantwoord">{openingsantwoord}</p>
+    </div>
+  </section>
+
+  <section class="sectie">
+    <div class="omhulsel">
+      <NiveauLadder />
+    </div>
+  </section>
+
+  <section class="sectie op-licht">
+    <div class="omhulsel">
+      <div class="kop-blok">
+        <p class="bovenkop">Naast elkaar</p>
+        <h2>Wat is het verschil precies?</h2>
+      </div>
+
+      <div class="tabelomhulsel">
+        <table class="vergelijk">
+          <thead>
+            <tr>
+              <th scope="col">
+                <span class="alleen-voorlezer">Onderwerp</span>
+              </th>
+              {NIVEAUS.map((n) => (
+                <th scope="col" data-niveau={n}>
+                  <span class="badge">{NIVEAU_INFO[n].naam}</span>
+                </th>
+              ))}
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Kern</th>
+              {NIVEAUS.map((n) => <td>{NIVEAU_INFO[n].kort}</td>)}
+            </tr>
+            <tr>
+              <th scope="row">Voor wie</th>
+              {NIVEAUS.map((n) => <td>{NIVEAU_INFO[n].voorWie}</td>)}
+            </tr>
+            <tr>
+              <th scope="row">Duur</th>
+              {NIVEAUS.map(() => <td>{FEITEN.duur}</td>)}
+            </tr>
+            <tr>
+              <th scope="row">Groepsgrootte</th>
+              <td>{FEITEN.groepsgrootte}</td>
+              <td>{FEITEN.groepsgrootte}</td>
+              <td>{FEITEN.groepsgrootteExpert}</td>
+            </tr>
+            <tr>
+              <th scope="row">Aantal trainingen</th>
+              {NIVEAUS.map((n) => (
+                <td>{trainingen.filter((t) => t.data.niveau === n).length}</td>
+              ))}
+            </tr>
+            <tr>
+              <th scope="row"><span class="alleen-voorlezer">Naar het niveau</span></th>
+              {NIVEAUS.map((n) => (
+                <td>
+                  <a href={pad(`/niveaus/${n}/`)} class="pijllink">
+                    Bekijk
+                    <span class="pijl" aria-hidden="true">→</span>
+                  </a>
+                </td>
+              ))}
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="sectie">
+    <div class="omhulsel">
+      <Vragen vragen={vergelijking} kop="Vragen over de niveaus" groep="niveauvragen" />
+    </div>
+  </section>
+
+  <Cta
+    kop="Niet zeker welk niveau past?"
+    tekst="Vertel wat er speelt en wat het team al kan. Bureau Weerbaar en Veilig adviseert welk niveau aansluit — ook als dat een lager niveau is dan u in gedachten had."
+  />
+</Basis>
+
+<style>
+  .kop-sectie {
+    background: var(--inkt-950);
+    padding-block: clamp(1.5rem, 1rem + 2vw, 2.5rem) clamp(3rem, 2rem + 4vw, 5.5rem);
+  }
+  .kop-binnen { display: grid; gap: 1.25rem; justify-items: start; }
+  .verloopwoord {
+    background: var(--verloop-merk);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  .vergelijk { min-width: 46rem; }
+  .vergelijk th[scope='col'] { padding-bottom: 1rem; }
+  .vergelijk th[scope='row'] {
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--tekst-donker-zacht);
+    white-space: nowrap;
+    padding-right: 1.5rem;
+    vertical-align: top;
+  }
+  .vergelijk td { vertical-align: top; color: var(--tekst-donker); }
+  .vergelijk tbody tr:hover { background: var(--mist-100); }
+</style>

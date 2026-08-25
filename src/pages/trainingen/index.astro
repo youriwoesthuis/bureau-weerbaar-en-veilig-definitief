@@ -1,0 +1,216 @@
+---
+import { getCollection } from 'astro:content';
+import Basis from '../../layouts/Basis.astro';
+import Kruimels from '../../components/Kruimels.astro';
+import Cta from '../../components/Cta.astro';
+import { NIVEAUS, NIVEAU_INFO, FEITEN, pad } from '../../lib/site';
+import { paginaTitel, description } from '../../lib/seo';
+
+const [trainingen, beroepsgroepen, sectoren] = await Promise.all([
+  getCollection('trainingen'),
+  getCollection('beroepsgroepen'),
+  getCollection('sectoren'),
+]);
+
+const naamVan = new Map(beroepsgroepen.map((b) => [b.data.slug, b.data.naam]));
+const sectorNaam = new Map(sectoren.map((s) => [s.data.slug, s.data.naam]));
+
+// Gegroepeerd per sector, want 132 losse regels leest niemand.
+const perSector = sectoren
+  .map((s) => ({
+    naam: s.data.naam,
+    slug: s.data.slug,
+    rijen: trainingen
+      .filter((t) => t.data.sector === s.data.slug)
+      .sort(
+        (a, b) =>
+          (naamVan.get(a.data.beroepsgroep) ?? '').localeCompare(naamVan.get(b.data.beroepsgroep) ?? '', 'nl') ||
+          NIVEAUS.indexOf(a.data.niveau) - NIVEAUS.indexOf(b.data.niveau),
+      ),
+  }))
+  .sort((a, b) => a.naam.localeCompare(b.naam, 'nl'));
+
+const kruimels = [
+  { naam: 'Home', url: pad('/') },
+  { naam: 'Trainingen', url: pad('/trainingen/') },
+];
+
+const openingsantwoord = `Bureau Weerbaar en Veilig biedt ${trainingen.length} agressietrainingen aan: voor ${beroepsgroepen.length} beroepsgroepen, elk in de niveaus basis, gevorderd en expert. Elke training duurt ${FEITEN.duur}, telt ${FEITEN.groepsgrootte} en wordt incompany gegeven.`;
+
+// Het filter werkt met :has() op de radioknoppen. Zonder ondersteuning
+// blijft alles zichtbaar — de lijst is dan compleet, alleen niet gefilterd.
+const filterRegels = NIVEAUS.map(
+  (n) => `.lijst:has(#filter-${n}:checked) .rij:not([data-niveau="${n}"]){display:none}
+.lijst:has(#filter-${n}:checked) .sectorgroep:not(:has(.rij[data-niveau="${n}"])){display:none}`,
+).join('\n');
+---
+
+<Basis
+  titel={paginaTitel('Alle agressietrainingen')}
+  description={description(openingsantwoord)}
+  niveau="basis"
+  kruimels={kruimels}
+>
+  <section class="kop-sectie gloed raster-achtergrond">
+    <div class="omhulsel kop-binnen">
+      <Kruimels kruimels={kruimels} />
+      <p class="bovenkop">Het volledige aanbod</p>
+      <h1 class="display">{trainingen.length} <span class="verloopwoord">trainingen</span></h1>
+      <p class="openingsantwoord">{openingsantwoord}</p>
+    </div>
+  </section>
+
+  <section class="sectie op-licht">
+    <div class="omhulsel lijst">
+      <fieldset class="filter">
+        <legend class="bovenkop">Filter op niveau</legend>
+        <div class="filterknoppen">
+          <input type="radio" name="niveaufilter" id="filter-alle" class="filter-radio" checked />
+          <label for="filter-alle" class="filterknop" data-niveau="geen">Alle niveaus</label>
+          {NIVEAUS.map((n) => (
+            <>
+              <input type="radio" name="niveaufilter" id={`filter-${n}`} class="filter-radio" />
+              <label for={`filter-${n}`} class="filterknop" data-niveau={n}>
+                <span class="stip" aria-hidden="true"></span>
+                {NIVEAU_INFO[n].naam}
+              </label>
+            </>
+          ))}
+        </div>
+      </fieldset>
+
+      {perSector.map((s) => (
+        <section class="sectorgroep">
+          <h2 class="h3 sectorgroep-kop">
+            <a href={pad(`/sectoren/${s.slug}/`)}>{s.naam}</a>
+          </h2>
+          <ul class="rijen">
+            {s.rijen.map((t) => (
+              <li class="rij" data-niveau={t.data.niveau}>
+                <a href={pad(`/trainingen/${t.data.slug}/`)}>
+                  <span class="rij-groep">{naamVan.get(t.data.beroepsgroep)}</span>
+                  <span class="badge">{NIVEAU_INFO[t.data.niveau].naam}</span>
+                  <span class="rij-kort">{NIVEAU_INFO[t.data.niveau].kort}</span>
+                  <span class="pijl" aria-hidden="true">→</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </section>
+      ))}
+    </div>
+  </section>
+
+  <Cta />
+</Basis>
+
+<style set:html={filterRegels}></style>
+
+<style>
+  .kop-sectie {
+    background: var(--inkt-950);
+    padding-block: clamp(1.5rem, 1rem + 2vw, 2.5rem) clamp(3rem, 2rem + 4vw, 5.5rem);
+  }
+  .kop-binnen { display: grid; gap: 1.25rem; justify-items: start; }
+  .verloopwoord {
+    background: var(--verloop-merk);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  .lijst { display: grid; gap: clamp(2rem, 1.4rem + 2vw, 3.5rem); }
+
+  .filter { border: 0; padding: 0; margin: 0; }
+  .filter legend { padding: 0; margin-bottom: 0.9rem; }
+  .filterknoppen { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+  .filter-radio { position: absolute; width: 1px; height: 1px; opacity: 0; pointer-events: none; }
+
+  .filterknop {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    min-height: 2.75rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--rand-licht);
+    border-radius: 999px;
+    background: var(--wit);
+    color: var(--tekst-donker-zacht);
+    font-family: 'Space Grotesk Variable', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+    user-select: none;
+    transition: border-color 160ms, color 160ms, background 160ms;
+  }
+  .filterknop .stip {
+    width: 0.55rem;
+    height: 0.55rem;
+    border-radius: 50%;
+    background: var(--niveau-op-wit);
+  }
+  .filterknop:hover { color: var(--tekst-donker); border-color: var(--tekst-donker-zacht); }
+  .filter-radio:focus-visible + .filterknop { outline: 3px solid var(--violet-op-wit); outline-offset: 3px; }
+  .filter-radio:checked + .filterknop {
+    background: var(--tekst-donker);
+    border-color: var(--tekst-donker);
+    color: var(--wit);
+    font-weight: 600;
+  }
+  .filter-radio:checked + .filterknop .stip { background: var(--niveau); }
+
+  .sectorgroep-kop { margin-bottom: 1rem; }
+  .sectorgroep-kop a { color: inherit; text-decoration: none; }
+  .sectorgroep-kop a:hover { color: var(--oranje-op-wit); text-decoration: underline; text-underline-offset: 4px; }
+
+  .rijen {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: 1px;
+    background: var(--rand-licht);
+    border: 1px solid var(--rand-licht);
+    border-radius: var(--hoek);
+    overflow: hidden;
+  }
+  .rij a {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: center;
+    gap: 0.35rem 1rem;
+    min-height: 3.25rem;
+    padding: 0.75rem 1rem;
+    background: var(--wit);
+    color: var(--tekst-donker);
+    text-decoration: none;
+    border-left: 3px solid transparent;
+    transition: background 150ms, border-color 150ms, padding-left 180ms;
+  }
+  @media (min-width: 760px) {
+    .rij a { grid-template-columns: minmax(0, 1.4fr) auto minmax(0, 1fr) auto; }
+  }
+  .rij-groep {
+    font-family: 'Space Grotesk Variable', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    letter-spacing: -0.01em;
+  }
+  .rij-kort { font-size: 0.9rem; color: var(--tekst-donker-zacht); }
+  .rij .pijl {
+    color: var(--niveau-op-wit);
+    opacity: 0;
+    transform: translateX(-4px);
+    transition: opacity 180ms, transform 180ms;
+    justify-self: end;
+  }
+  .rij a:hover {
+    background: var(--mist-50);
+    border-left-color: var(--niveau-op-wit);
+    padding-left: 1.35rem;
+  }
+  .rij a:hover .pijl { opacity: 1; transform: none; }
+
+  /* Badge compact houden in de rij */
+  .rij .badge { font-size: 0.68rem; padding: 0.2rem 0.5rem; }
+</style>

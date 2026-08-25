@@ -1,0 +1,238 @@
+---
+import { getCollection, render } from 'astro:content';
+import Basis from '../layouts/Basis.astro';
+import Kruimels from '../components/Kruimels.astro';
+import Statistieken from '../components/Statistieken.astro';
+import Cta from '../components/Cta.astro';
+import { SITE, pad } from '../lib/site';
+import { paginaTitel, description } from '../lib/seo';
+
+const [team, trainingen, beroepsgroepen, sectoren] = await Promise.all([
+  getCollection('team'),
+  getCollection('trainingen'),
+  getCollection('beroepsgroepen'),
+  getCollection('sectoren'),
+]);
+
+const leden = await Promise.all(
+  team
+    .sort((a, b) => a.data.volgorde - b.data.volgorde)
+    .map(async (lid) => ({ data: lid.data, Inhoud: (await render(lid)).Content })),
+);
+
+// Er is nog geen fotografie. In plaats van een lege plek die op een foto
+// wacht, krijgt elk teamlid een initiaaltegel in een van de merkkleuren.
+const initialen = (naam: string) =>
+  naam
+    .split(/\s+/)
+    .filter((w) => w.length > 2 || /^[A-Z]/.test(w))
+    .slice(0, 2)
+    .map((w) => w[0])
+    .join('')
+    .toUpperCase();
+
+const niveaus = ['basis', 'gevorderd', 'expert'] as const;
+
+const kruimels = [
+  { naam: 'Home', url: pad('/') },
+  { naam: 'Over ons', url: pad('/over-ons/') },
+];
+
+const openingsantwoord = `Bureau Weerbaar en Veilig is een Nederlands trainingsbureau dat uitsluitend agressietraining verzorgt, vanuit ${SITE.adres.plaats} in ${SITE.adres.provincie}. Het bureau werkt met ${team.length} trainers en coaches en traint ${beroepsgroepen.length} beroepsgroepen in ${sectoren.length} sectoren. Bureau Weerbaar en Veilig is een handelsnaam binnen dezelfde onderneming als Act in Move Training & Coaching.`;
+
+const cijfers = [
+  { waarde: team.length, label: 'trainers en coaches' },
+  { waarde: beroepsgroepen.length, label: 'beroepsgroepen' },
+  { waarde: trainingen.length, label: 'uitgewerkte trainingen' },
+];
+---
+
+<Basis
+  titel={paginaTitel('Over Bureau Weerbaar en Veilig')}
+  description={description(openingsantwoord)}
+  niveau="gevorderd"
+  kruimels={kruimels}
+>
+  <section class="kop-sectie gloed raster-achtergrond">
+    <div class="omhulsel kop-binnen">
+      <Kruimels kruimels={kruimels} />
+      <p class="bovenkop">Over ons</p>
+      <h1 class="display">Eén onderwerp,<br /><span class="verloopwoord">geen bijvak</span></h1>
+      <p class="openingsantwoord">{openingsantwoord}</p>
+    </div>
+  </section>
+
+  <section class="sectie-krap">
+    <div class="omhulsel"><Statistieken cijfers={cijfers} /></div>
+  </section>
+
+  <section class="sectie op-licht">
+    <div class="omhulsel twee-kolom">
+      <div class="kop-blok">
+        <p class="bovenkop">Waarom een apart bureau</p>
+        <h2>De specialist naast de generalist</h2>
+      </div>
+      <div class="leestekst">
+        <p>
+          Bureau Weerbaar en Veilig is opgericht om één ding heel goed te doen.
+          Agressie op de werkvloer is geen onderwerp dat je in een middag
+          afhandelt binnen een bredere communicatietraining — het vraagt om
+          kennis van de beroepsgroep, van de situaties die daar voorkomen, en
+          van wat er wettelijk en organisatorisch omheen hoort.
+        </p>
+        <p>
+          Daarom is het aanbod niet ingedeeld op werkvorm of thema, maar op
+          <strong>beroepsgroep en niveau</strong>. Een wijkverpleegkundige die
+          alleen in een woonkamer staat heeft een ander probleem dan een
+          conducteur op een perron of een baliemedewerker bij de gemeente. Die
+          verschillen zijn niet cosmetisch, en de trainingen zijn er ook niet
+          naar geschreven.
+        </p>
+        <p>
+          Bureau Weerbaar en Veilig is een handelsnaam binnen dezelfde
+          onderneming als <a href="https://actinmove.nl" rel="noopener">Act in Move
+          Training &amp; Coaching</a>, dat communicatiebreed traint, en
+          <a href="https://agressievisie.nl" rel="noopener">AgressieVisie</a>, dat
+          kennis over agressie verzamelt en deelt. Wie een training zoekt die
+          niet over agressie gaat, is bij Act in Move aan het juiste adres.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="sectie">
+    <div class="omhulsel">
+      <div class="kop-blok">
+        <p class="bovenkop">Het team</p>
+        <h2>Wie de training geeft</h2>
+        <p class="inleiding">
+          {team.length} trainers en coaches. Bij een agressietraining staat er
+          altijd een trainer én, waar dat de oefening beter maakt, een
+          trainingsacteur.
+        </p>
+      </div>
+
+      <div class="teamlijst">
+        {leden.map((lid, i) => (
+          <article class="teamlid onthul" data-niveau={niveaus[i % 3]}>
+            <div class="tegel" aria-hidden="true">{initialen(lid.data.naam)}</div>
+            <div class="teamlid-tekst">
+              <h3>{lid.data.naam}</h3>
+              <p class="rol">{lid.data.rol}</p>
+              <div class="leestekst teamlid-body"><lid.Inhoud /></div>
+              {lid.data.linkedin && (
+                <a href={lid.data.linkedin} class="pijllink" rel="noopener">
+                  LinkedIn
+                  <span class="pijl" aria-hidden="true">→</span>
+                </a>
+              )}
+            </div>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="sectie op-licht">
+    <div class="omhulsel twee-kolom">
+      <div class="kop-blok">
+        <p class="bovenkop">Praktisch</p>
+        <h2>Waar u ons vindt</h2>
+      </div>
+      <div class="leestekst">
+        <p>
+          Bureau Weerbaar en Veilig traint in heel Nederland, vrijwel altijd
+          incompany: op de locatie van de opdrachtgever, met casuïstiek uit de
+          eigen praktijk. Trainen op onze locatie in {SITE.adres.plaats} kan ook.
+        </p>
+        <address class="adresblok">
+          <strong>{SITE.naam}</strong><br />
+          {SITE.adres.straat}<br />
+          {SITE.adres.postcode} {SITE.adres.plaats}<br />
+          <a href={`tel:${SITE.telefoonUri}`}>{SITE.telefoon}</a><br />
+          <a href={`mailto:${SITE.email}`}>{SITE.email}</a><br />
+          <span class="tijden">{SITE.openingstijden}</span>
+        </address>
+      </div>
+    </div>
+  </section>
+
+  <Cta />
+</Basis>
+
+<style>
+  .kop-sectie {
+    background: var(--inkt-950);
+    padding-block: clamp(1.5rem, 1rem + 2vw, 2.5rem) clamp(3rem, 2rem + 4vw, 5.5rem);
+  }
+  .kop-binnen { display: grid; gap: 1.25rem; justify-items: start; }
+  .verloopwoord {
+    background: var(--verloop-merk);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  .twee-kolom {
+    display: grid;
+    gap: clamp(1.5rem, 1rem + 2.5vw, 3.5rem);
+    align-items: start;
+  }
+  @media (min-width: 900px) { .twee-kolom { grid-template-columns: minmax(0, 20rem) minmax(0, 1fr); } }
+  .twee-kolom .kop-blok { margin-bottom: 0; }
+
+  .teamlijst {
+    display: grid;
+    gap: clamp(1rem, 0.8rem + 1vw, 1.6rem);
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 20rem), 1fr));
+  }
+
+  .teamlid {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
+    gap: 1.1rem;
+    padding: clamp(1.1rem, 1rem + 0.6vw, 1.6rem);
+    background: var(--inkt-850);
+    border: 1px solid var(--rand);
+    border-radius: var(--hoek);
+    align-items: start;
+  }
+
+  /* Initiaaltegel: vult de plek van een portret zonder er een te suggereren. */
+  .tegel {
+    display: grid;
+    place-items: center;
+    width: 3.5rem;
+    height: 3.5rem;
+    flex: none;
+    border-radius: var(--hoek);
+    background: color-mix(in oklab, var(--niveau) 22%, var(--inkt-800));
+    border: 1px solid color-mix(in oklab, var(--niveau) 45%, transparent);
+    color: var(--niveau);
+    font-family: 'Space Grotesk Variable', sans-serif;
+    font-size: 1.15rem;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+  }
+
+  .teamlid-tekst { display: grid; gap: 0.3rem; }
+  .teamlid h3 { font-size: 1.1rem; }
+  .rol {
+    font-family: 'Space Grotesk Variable', sans-serif;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--niveau);
+  }
+  .teamlid-body { font-size: 0.92rem; color: var(--tekst-zacht); margin-top: 0.4rem; }
+  .teamlid-body :global(p + p) { margin-top: 0.8em; }
+
+  .adresblok {
+    font-style: normal;
+    margin-top: 1.5rem;
+    padding-left: 1.1rem;
+    border-left: 3px solid var(--oranje-op-wit);
+    line-height: 1.8;
+  }
+  .adresblok strong { font-family: 'Space Grotesk Variable', sans-serif; }
+  .tijden { color: var(--tekst-donker-zacht); font-size: 0.9rem; }
+</style>

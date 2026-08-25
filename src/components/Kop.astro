@@ -1,0 +1,217 @@
+---
+import Chevron from './Chevron.astro';
+import { pad } from '../lib/site';
+
+const huidig = Astro.url.pathname.replace(import.meta.env.BASE_URL, '/').replace(/\/{2,}/g, '/');
+
+const menu = [
+  { naam: 'Sectoren', url: pad('/sectoren/') },
+  { naam: 'Trainingen', url: pad('/trainingen/') },
+  { naam: 'Niveaus', url: pad('/niveaus/') },
+  { naam: 'Aanpak', url: pad('/aanpak/') },
+  { naam: 'Over ons', url: pad('/over-ons/') },
+];
+
+const actief = (url: string) => huidig.startsWith(url) && url !== pad('/');
+---
+
+<a class="springlink" href="#hoofd">Naar de hoofdinhoud</a>
+
+<header class="kop">
+  <!-- Voortgangsbalk: laat op lange pagina's zien hoe ver je bent. Puur CSS. -->
+  <div class="voortgang" aria-hidden="true"></div>
+
+  <div class="omhulsel kop-binnen">
+    <a href={pad('/')} class="merk" aria-label="Bureau Weerbaar en Veilig, naar de homepage">
+      <Chevron aantal={2} bol={true} breedte="1.5rem" verloop={true} />
+      <span class="merk-tekst">
+        <strong>Bureau</strong>
+        Weerbaar en Veilig
+      </span>
+    </a>
+
+    <input type="checkbox" id="menu-schakelaar" class="menu-schakelaar" />
+    <label for="menu-schakelaar" class="menu-knop">
+      <span class="menu-streep" aria-hidden="true"></span>
+      <span class="menu-label-open">Menu</span>
+      <span class="menu-label-dicht">Sluiten</span>
+    </label>
+
+    <nav class="navigatie" aria-label="Hoofdmenu">
+      <ul>
+        {menu.map((item) => (
+          <li>
+            <a href={item.url} aria-current={actief(item.url) ? 'page' : undefined}>{item.naam}</a>
+          </li>
+        ))}
+      </ul>
+      <a href={pad('/contact/')} class="knop kop-knop">
+        Offerte aanvragen
+        <span class="pijl" aria-hidden="true">→</span>
+      </a>
+    </nav>
+  </div>
+</header>
+
+<style>
+  .kop {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    background: color-mix(in oklab, var(--inkt-950) 82%, transparent);
+    backdrop-filter: blur(14px);
+    border-bottom: 1px solid var(--rand);
+  }
+
+  .voortgang {
+    position: absolute;
+    inset: auto 0 -1px 0;
+    height: 2px;
+    background: var(--verloop-merk);
+    transform-origin: left;
+    transform: scaleX(0);
+  }
+  @supports (animation-timeline: scroll()) {
+    @media (prefers-reduced-motion: no-preference) {
+      .voortgang {
+        animation: voortgang linear both;
+        animation-timeline: scroll(root block);
+      }
+    }
+  }
+
+  .kop-binnen {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    min-height: 4.5rem;
+  }
+
+  .merk {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    text-decoration: none;
+    color: var(--tekst);
+    flex: none;
+  }
+  .merk-tekst {
+    font-family: 'Space Grotesk Variable', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+    display: grid;
+  }
+  .merk-tekst strong {
+    font-weight: 700;
+    color: var(--oranje-400);
+    font-size: 0.78rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  .navigatie {
+    display: flex;
+    align-items: center;
+    gap: clamp(0.5rem, 1.6vw, 1.6rem);
+  }
+  .navigatie ul {
+    display: flex;
+    align-items: center;
+    gap: clamp(0.25rem, 1.2vw, 0.6rem);
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .navigatie a:not(.knop) {
+    display: block;
+    padding: 0.6rem 0.7rem;
+    color: var(--tekst-zacht);
+    text-decoration: none;
+    font-size: 0.95rem;
+    font-weight: 500;
+    border-radius: var(--hoek);
+    position: relative;
+    transition: color 160ms;
+  }
+  .navigatie a:not(.knop)::after {
+    content: '';
+    position: absolute;
+    left: 0.7rem;
+    right: 0.7rem;
+    bottom: 0.35rem;
+    height: 2px;
+    background: var(--oranje-500);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 200ms cubic-bezier(0.2, 0.7, 0.3, 1);
+  }
+  .navigatie a:not(.knop):hover { color: var(--tekst); }
+  .navigatie a:not(.knop):hover::after { transform: scaleX(1); }
+  .navigatie a[aria-current='page'] { color: var(--tekst); }
+  .navigatie a[aria-current='page']::after { transform: scaleX(1); }
+
+  .kop-knop { min-height: 2.6rem; padding: 0.5rem 1.05rem; font-size: 0.9rem; }
+
+  /* Mobiel menu zonder JavaScript: een checkbox stuurt de navigatie aan. */
+  .menu-schakelaar { position: absolute; opacity: 0; pointer-events: none; }
+  .menu-knop { display: none; }
+
+  @media (max-width: 900px) {
+    .menu-knop {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.55rem;
+      min-height: 2.75rem;
+      padding: 0.5rem 0.9rem;
+      border: 1px solid var(--rand-fel);
+      border-radius: var(--hoek);
+      font-family: 'Space Grotesk Variable', sans-serif;
+      font-size: 0.9rem;
+      font-weight: 600;
+      cursor: pointer;
+      user-select: none;
+    }
+    .menu-streep {
+      width: 1rem;
+      height: 2px;
+      background: currentColor;
+      box-shadow: 0 -5px 0 currentColor, 0 5px 0 currentColor;
+    }
+    .menu-label-dicht { display: none; }
+
+    .navigatie {
+      position: absolute;
+      inset: 100% 0 auto 0;
+      display: grid;
+      gap: 0.25rem;
+      padding: 1rem clamp(0.875rem, 4vw, 1.25rem) 1.5rem;
+      background: var(--inkt-950);
+      border-bottom: 1px solid var(--rand);
+      /* Zonder :checked onbereikbaar houden voor toetsenbord en voorlezer */
+      visibility: hidden;
+      opacity: 0;
+      transform: translateY(-8px);
+      transition: opacity 180ms, transform 180ms, visibility 180ms;
+    }
+    .navigatie ul { display: grid; gap: 0.15rem; }
+    .navigatie a:not(.knop) { padding: 0.8rem 0.6rem; font-size: 1.05rem; }
+    .navigatie a:not(.knop)::after { bottom: 0.55rem; }
+    .kop-knop { margin-top: 0.6rem; width: 100%; }
+
+    .menu-schakelaar:checked ~ .navigatie {
+      visibility: visible;
+      opacity: 1;
+      transform: none;
+    }
+    .menu-schakelaar:checked ~ .menu-knop .menu-label-open { display: none; }
+    .menu-schakelaar:checked ~ .menu-knop .menu-label-dicht { display: inline; }
+    .menu-schakelaar:checked ~ .menu-knop .menu-streep { box-shadow: none; }
+    .menu-schakelaar:focus-visible ~ .menu-knop {
+      outline: 3px solid var(--amber-400);
+      outline-offset: 3px;
+    }
+  }
+</style>

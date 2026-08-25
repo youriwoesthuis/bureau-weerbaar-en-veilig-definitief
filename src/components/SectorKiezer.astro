@@ -1,0 +1,236 @@
+---
+import { getCollection } from 'astro:content';
+import { pad } from '../lib/site';
+
+/**
+ * Kies een sector, zie meteen de beroepsgroepen.
+ * Werkt zonder JavaScript: radioknoppen plus :has(). Elke beroepsgroep
+ * staat in de HTML, dus ook crawlers en voorlezers zien alles.
+ */
+
+const sectoren = (await getCollection('sectoren')).sort((a, b) =>
+  a.data.naam.localeCompare(b.data.naam, 'nl'),
+);
+const beroepsgroepen = await getCollection('beroepsgroepen');
+
+// De kiezer opent op de grootste sector, niet op de alfabetisch eerste:
+// een paneel met acht beroepsgroepen laat direct zien wat het aanbod is.
+const grootste = [...sectoren]
+  .map((s) => ({ slug: s.data.slug, n: beroepsgroepen.filter((b) => b.data.sector === s.data.slug).length }))
+  .sort((a, b) => b.n - a.n)[0]?.slug;
+
+const perSector = sectoren.map((s) => ({
+  ...s.data,
+  groepen: beroepsgroepen
+    .filter((b) => b.data.sector === s.data.slug)
+    .sort((a, b) => a.data.naam.localeCompare(b.data.naam, 'nl')),
+}));
+
+// Eén CSS-regel per sector om het juiste paneel te tonen. Zonder deze
+// regels valt de kiezer terug op "alles zichtbaar" — minder mooi, wel
+// volledig bruikbaar.
+//
+// De opmaak van de actieve chip staat hier bewust níét bij: die gaat via
+// `.chip-radio:checked + .chip` in het scoped stijlblok hieronder. Elke
+// radioknop staat direct voor zijn eigen label, dus dat kan met een
+// simpele buurselector — en die vecht niet met Astro's scoping.
+const regels = perSector
+  .map((s) => `.kiezer:has(#sector-${s.slug}:checked) .paneel[data-sector="${s.slug}"]{display:grid}`)
+  .join('\n');
+---
+
+<div class="kiezer">
+  <fieldset class="kiezer-keuze">
+    <legend class="bovenkop">Kies je sector</legend>
+    <div class="chips">
+      {perSector.map((s) => (
+        <>
+          <input
+            type="radio"
+            name="sector"
+            id={`sector-${s.slug}`}
+            class="chip-radio"
+            checked={s.slug === grootste}
+          />
+          <label for={`sector-${s.slug}`} class="chip">{s.naam}</label>
+        </>
+      ))}
+    </div>
+  </fieldset>
+
+  <div class="kiezer-uitkomst">
+    {perSector.map((s) => (
+      <div class="paneel" data-sector={s.slug}>
+        <div class="paneel-kop">
+          <h3>{s.naam}</h3>
+          <p class="paneel-aantal">
+            {s.groepen.length} {s.groepen.length === 1 ? 'beroepsgroep' : 'beroepsgroepen'}
+            · {s.groepen.length * 3} trainingen
+          </p>
+        </div>
+        <ul class="groeplijst">
+          {s.groepen.map((b) => (
+            <li>
+              <a href={pad(`/sectoren/${s.slug}/${b.data.slug}/`)}>
+                <span>{b.data.naam}</span>
+                <span class="pijl" aria-hidden="true">→</span>
+              </a>
+            </li>
+          ))}
+        </ul>
+        <a href={pad(`/sectoren/${s.slug}/`)} class="pijllink paneel-link">
+          Alles over agressietraining in de sector {s.naam.toLowerCase()}
+          <span class="pijl" aria-hidden="true">→</span>
+        </a>
+      </div>
+    ))}
+  </div>
+</div>
+
+<style set:html={regels}></style>
+
+<style>
+  .kiezer {
+    display: grid;
+    gap: clamp(1.25rem, 1rem + 1.5vw, 2.25rem);
+    align-items: start;
+  }
+  @media (min-width: 950px) {
+    .kiezer { grid-template-columns: minmax(0, 21rem) minmax(0, 1fr); }
+  }
+
+  .kiezer-keuze { border: 0; padding: 0; margin: 0; min-width: 0; }
+  .kiezer-keuze legend { padding: 0; margin-bottom: 1rem; }
+
+  .chips { display: flex; flex-wrap: wrap; gap: 0.45rem; }
+
+  /* De radioknop blijft bedienbaar met het toetsenbord, alleen onzichtbaar. */
+  .chip-radio {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .chip {
+    display: inline-flex;
+    align-items: center;
+    min-height: 2.5rem;
+    padding: 0.45rem 0.85rem;
+    border: 1px solid var(--rand-fel);
+    border-radius: 999px;
+    background: transparent;
+    color: var(--tekst-zacht);
+    font-family: 'Space Grotesk Variable', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+    user-select: none;
+    transition: background 160ms, color 160ms, border-color 160ms, transform 160ms;
+  }
+  .chip:hover { color: var(--tekst); border-color: var(--tekst-zacht); transform: translateY(-1px); }
+  .chip-radio:focus-visible + .chip { outline: 3px solid var(--amber-400); outline-offset: 3px; }
+
+  /* De gekozen sector. Donkere tekst op het oranje verloop: 8,9:1. */
+  .chip-radio:checked + .chip {
+    background: var(--verloop-warm);
+    color: #1a0d00;
+    border-color: transparent;
+    font-weight: 600;
+  }
+  .chip-radio:checked + .chip:hover { color: #1a0d00; transform: none; }
+
+  .kiezer-uitkomst {
+    background: var(--inkt-850);
+    border: 1px solid var(--rand);
+    border-radius: var(--hoek);
+    padding: clamp(1.25rem, 1rem + 1vw, 2rem);
+    min-height: 20rem;
+  }
+
+  /* Zonder :has() blijven alle panelen staan: minder mooi, wel volledig. */
+  .paneel { display: grid; gap: 1.25rem; }
+  @supports selector(:has(*)) {
+    .paneel { display: none; }
+  }
+
+  .paneel-kop { display: grid; gap: 0.3rem; }
+  .paneel-kop h3 { font-size: clamp(1.4rem, 1.2rem + 0.8vw, 1.9rem); }
+  .paneel-aantal {
+    font-size: 0.875rem;
+    color: var(--tekst-gedempt);
+    font-family: 'Space Grotesk Variable', sans-serif;
+  }
+
+  .groeplijst {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: 1px;
+    background: var(--rand);
+    border-block: 1px solid var(--rand);
+  }
+  @media (min-width: 620px) {
+    .groeplijst { grid-template-columns: 1fr 1fr; }
+  }
+  .groeplijst a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+    min-height: 3rem;
+    padding: 0.7rem 0.85rem;
+    background: var(--inkt-850);
+    color: var(--tekst-zacht);
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: background 150ms, color 150ms, padding-left 180ms;
+  }
+  .groeplijst a .pijl {
+    color: var(--oranje-500);
+    opacity: 0;
+    transform: translateX(-4px);
+    transition: opacity 180ms, transform 180ms;
+  }
+  .groeplijst a:hover {
+    background: var(--inkt-800);
+    color: var(--tekst);
+    padding-left: 1.15rem;
+  }
+  .groeplijst a:hover .pijl { opacity: 1; transform: none; }
+
+  .paneel-link { font-size: 0.95rem; }
+
+  /* ----------------------------------------------------------------------
+     Op een lichte sectie. De kiezer staat op de homepage binnen .op-licht,
+     en zonder deze regels erft hij de kleuren voor donkere achtergronden:
+     lichtblauwe chips op bijna-wit en donkere koppen op een donker paneel.
+     ---------------------------------------------------------------------- */
+  :global(.op-licht) .chip,
+  :global(.op-wit) .chip {
+    border-color: var(--rand-licht);
+    background: var(--wit);
+    color: var(--tekst-donker-zacht);
+  }
+  :global(.op-licht) .chip:hover,
+  :global(.op-wit) .chip:hover { color: var(--tekst-donker); border-color: var(--tekst-donker-zacht); }
+  :global(.op-licht) .chip-radio:focus-visible + .chip,
+  :global(.op-wit) .chip-radio:focus-visible + .chip { outline-color: var(--violet-op-wit); }
+
+  :global(.op-licht) .kiezer-uitkomst,
+  :global(.op-wit) .kiezer-uitkomst { background: var(--wit); border-color: var(--rand-licht); }
+
+  :global(.op-licht) .paneel-aantal,
+  :global(.op-wit) .paneel-aantal { color: var(--tekst-donker-zacht); }
+
+  :global(.op-licht) .groeplijst,
+  :global(.op-wit) .groeplijst { background: var(--rand-licht); border-color: var(--rand-licht); }
+  :global(.op-licht) .groeplijst a,
+  :global(.op-wit) .groeplijst a { background: var(--wit); color: var(--tekst-donker-zacht); }
+  :global(.op-licht) .groeplijst a .pijl,
+  :global(.op-wit) .groeplijst a .pijl { color: var(--oranje-op-wit); }
+  :global(.op-licht) .groeplijst a:hover,
+  :global(.op-wit) .groeplijst a:hover { background: var(--mist-50); color: var(--tekst-donker); }
+</style>

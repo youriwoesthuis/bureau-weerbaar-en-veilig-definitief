@@ -1,0 +1,75 @@
+---
+titel: Gevorderde agressietraining voor evenementenbeveiligers
+slug: agressietraining-evenementenbeveiligers-gevorderd
+sector: beveiliging
+beroepsgroep: evenementenbeveiligers
+niveau: gevorderd
+duur: 1 dag
+groepsgrootte: maximaal 10 deelnemers
+locatie: incompany
+locatie_detail: op eigen locatie of bij Bureau Weerbaar en Veilig in Neede
+certificaat: deelnamecertificaat na afloop
+voorwaarde: afgeronde basistraining
+doelgroep: "Beveiligers met basistraining die regelmatig bij grootschalige of hoogrisico-evenementen worden ingezet."
+samenvatting: >-
+  De gevorderde agressietraining voor evenementenbeveiligers van Bureau
+  Weerbaar en Veilig richt zich op groepsdynamiek, crowd control en
+  gecoördineerd optreden bij meerpersoonsincidenten. De training duurt 1
+  dag, telt maximaal 10 deelnemers en vraagt een afgeronde basistraining.
+resultaat:
+  - Groepsdynamieken herkennen voordat escalatie optreedt
+  - Gecoördineerd handelen met collega’s bij meerpersoonsincidenten
+  - "Crowd control-principes toepassen"
+  - Professioneel reageren wanneer er gefilmd wordt
+  - Omstanders neutraliseren zonder de focus te verliezen
+  - Bepalen wanneer wordt opgeschaald naar de politie
+programma:
+  - titel: Groepsdynamiek lezen
+    inhoud: "Herkennen wanneer een groep gaat kantelen, vóórdat het escaleert."
+  - titel: Gecoördineerd optreden
+    inhoud: Samenwerken met collega’s bij incidenten met meerdere personen.
+  - titel: Crowd control
+    inhoud: Principes van crowd control toepassen bij massadrang en ongecontroleerde publieksstromen.
+  - titel: Provocateurs en camera
+    inhoud: Professioneel reageren op provocateurs die opnames gebruiken.
+  - titel: Opschalen
+    inhoud: "Bepalen wanneer je opschaalt naar de politie, en proportioneel blijven."
+werkvormen:
+  - casuïstiek van de eigen organisatie
+  - scenario’s die de grenzen opzoeken
+  - feedback op teamoptreden en proportionaliteit
+veelgestelde_vragen:
+  - vraag: "Hoe lang duurt de gevorderde agressietraining voor evenementenbeveiligers?"
+    antwoord: De training duurt 1 dag. De groep telt maximaal 10 deelnemers.
+  - vraag: "Voor wie is deze training bedoeld?"
+    antwoord: "Beveiligers met basistraining die regelmatig bij grootschalige of hoogrisico-evenementen worden ingezet. Voorwaarde voor deelname: afgeronde basistraining."
+  - vraag: "Waar vindt de training plaats?"
+    antwoord: "Incompany op de eigen locatie, of bij Bureau Weerbaar en Veilig in Neede (Gelderland)."
+  - vraag: "Krijgen deelnemers een certificaat?"
+    antwoord: "Ja, elke deelnemer ontvangt na afloop een deelnamecertificaat."
+  - vraag: "Wat is het verschil met de andere niveaus?"
+    antwoord: "De basistraining behandelt het herkennen en de-escaleren van agressie in het moment. Dit gevorderde niveau richt zich op patronen die niet impulsief zijn: bewuste grensoverschrijding, manipulatie en consistent teamoptreden."
+gerelateerd:
+  - "agressietraining-evenementenbeveiligers-basis"
+  - "agressietraining-evenementenbeveiligers-expert"
+  - "agressietraining-horecaportiers-uitsmijters-gevorderd"
+  - "agressietraining-sportaccommodaties-zwembaden-gevorderd"
+afbeelding:
+  src: /images/trainingen/evenementenbeveiligers.jpg
+  alt: Deelnemers oefenen een praktijksituatie tijdens de agressietraining voor evenementenbeveiligers
+---
+
+## Waarom deze training
+
+Groepsincidenten bij evenementen vragen meer dan basisvaardigheden. Wie een groep verkeerd leest of niet gecoördineerd optreedt, maakt een situatie groter dan hij was.
+
+Deze verdiepingstraining van Bureau Weerbaar en Veilig leert beveiligers complexe groepsdynamieken lezen en gecoördineerd handelen in hoogrisicoscenario’s.
+
+## Herkenbare praktijksituaties
+
+- Groepsconflicten die snel escaleren
+- Georganiseerde confrontaties tussen rivaliserende groepen
+- Massadrang en ongecontroleerde publieksstromen
+- Provocateurs die opnames gebruiken
+- Omstanders die de agressor steunen
+- Agressie in combinatie met intoxicatie of psychiatrische ontregeling

@@ -1,0 +1,195 @@
+---
+import { getCollection } from 'astro:content';
+import Basis from '../layouts/Basis.astro';
+import Chevron from '../components/Chevron.astro';
+import SectorKiezer from '../components/SectorKiezer.astro';
+import Statistieken from '../components/Statistieken.astro';
+import NiveauLadder from '../components/NiveauLadder.astro';
+import Cta from '../components/Cta.astro';
+import { SITE, FEITEN, pad } from '../lib/site';
+import { paginaTitel, description } from '../lib/seo';
+
+const trainingen = await getCollection('trainingen');
+const beroepsgroepen = await getCollection('beroepsgroepen');
+const sectoren = await getCollection('sectoren');
+
+// Alle cijfers geteld uit de content, nooit met de hand ingevuld.
+const cijfers = [
+  { waarde: trainingen.length, label: 'trainingen, per beroepsgroep geschreven' },
+  { waarde: beroepsgroepen.length, label: 'beroepsgroepen tot in detail uitgewerkt' },
+  { waarde: sectoren.length, label: 'sectoren, van zorg tot openbaar vervoer' },
+  { waarde: 3, label: 'niveaus: basis, gevorderd en expert' },
+];
+
+const openingsantwoord = `Bureau Weerbaar en Veilig is een trainingsbureau dat uitsluitend agressietraining verzorgt. Het aanbod is opgebouwd per beroepsgroep — ${beroepsgroepen.length} in totaal, verdeeld over ${sectoren.length} sectoren — en elk daarvan in de niveaus basis, gevorderd en expert. Elke training duurt ${FEITEN.duur} en telt ${FEITEN.groepsgrootte}.`;
+
+const verschillen = [
+  {
+    kop: 'Eén onderwerp, geen bijvak',
+    tekst:
+      'Bureau Weerbaar en Veilig doet agressietraining en verder niets. Geen brede communicatietraining waar agressie een module in is, maar één onderwerp waar alle aandacht naartoe gaat.',
+  },
+  {
+    kop: 'Geschreven voor uw beroep',
+    tekst:
+      'Een wijkverpleegkundige alleen in een woonkamer heeft een ander probleem dan een conducteur op een perron. Daarom is er geen algemene training, maar één per beroepsgroep.',
+  },
+  {
+    kop: 'Oefenen met trainingsacteurs',
+    tekst:
+      'De situaties komen uit de praktijk van de deelnemers zelf. Er wordt geoefend tot het gedrag zit, niet tot de theorie is uitgelegd.',
+  },
+  {
+    kop: 'Drie niveaus die op elkaar staan',
+    tekst:
+      'Van herkennen en de-escaleren, via begrenzen onder druk, naar beleid en teamnorm. Een team kan meegroeien zonder telkens opnieuw te beginnen.',
+  },
+];
+---
+
+<Basis
+  titel={paginaTitel('Agressietraining per beroepsgroep en niveau')}
+  description={description(
+    `Bureau Weerbaar en Veilig verzorgt agressietraining voor ${beroepsgroepen.length} beroepsgroepen in ${sectoren.length} sectoren, in drie niveaus. Incompany, ${FEITEN.duur}, ${FEITEN.groepsgrootte}.`,
+  )}
+  niveau="basis"
+  kruimels={[{ naam: 'Home', url: pad('/') }]}
+>
+  <!-- ---------------- Hero ---------------- -->
+  <section class="hero gloed raster-achtergrond">
+    <div class="omhulsel hero-binnen">
+      <p class="bovenkop">{SITE.slogan}</p>
+
+      <h1 class="display hero-kop">
+        Agressietraining voor<br />
+        <span class="verloopwoord">uw beroepsgroep</span>
+      </h1>
+
+      <p class="inleiding hero-inleiding">
+        Geen algemene weerbaarheidscursus, maar de situaties die in uw werk
+        daadwerkelijk voorkomen. {beroepsgroepen.length} beroepsgroepen,
+        {sectoren.length} sectoren, elk in drie niveaus.
+      </p>
+
+      <div class="hero-knoppen">
+        <a href="#kiezen" class="knop">
+          Vind de training voor uw team
+          <span class="pijl" aria-hidden="true">→</span>
+        </a>
+        <a href={pad('/aanpak/')} class="knop knop-tweede">Zo werken wij</a>
+      </div>
+
+      <ul class="hero-feiten">
+        <li><Chevron aantal={1} breedte="0.8rem" /> {FEITEN.duur}</li>
+        <li><Chevron aantal={1} breedte="0.8rem" /> {FEITEN.groepsgrootte}</li>
+        <li><Chevron aantal={1} breedte="0.8rem" /> incompany of in Neede</li>
+        <li><Chevron aantal={1} breedte="0.8rem" /> {FEITEN.certificaat}</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ---------------- Openingsantwoord + cijfers ---------------- -->
+  <section class="sectie-krap">
+    <div class="omhulsel antwoord-blok">
+      <p class="openingsantwoord onthul">{openingsantwoord}</p>
+      <div class="onthul"><Statistieken cijfers={cijfers} /></div>
+    </div>
+  </section>
+
+  <!-- ---------------- De kiezer: het eerste wat je doet ---------------- -->
+  <section class="sectie op-licht" id="kiezen">
+    <div class="omhulsel">
+      <div class="kop-blok">
+        <p class="bovenkop">Direct naar uw vak</p>
+        <h2>Welke beroepsgroep traint u?</h2>
+        <p class="inleiding">
+          Kies een sector en zie meteen welke beroepsgroepen daaronder vallen.
+          Elke beroepsgroep heeft een eigen pagina met drie niveaus.
+        </p>
+      </div>
+      <SectorKiezer />
+    </div>
+  </section>
+
+  <!-- ---------------- De drie niveaus ---------------- -->
+  <section class="sectie">
+    <div class="omhulsel">
+      <div class="kop-blok">
+        <p class="bovenkop">Drie niveaus</p>
+        <h2>Van herkennen tot beleid</h2>
+        <p class="inleiding">
+          De niveaus staan op elkaar. De kleur die u bij een training ziet,
+          zegt om welk niveau het gaat — oranje, paars of indigo.
+        </p>
+      </div>
+      <NiveauLadder />
+      <p class="niveau-voet">
+        <a href={pad('/niveaus/')} class="pijllink">
+          Vergelijk de drie niveaus naast elkaar
+          <span class="pijl" aria-hidden="true">→</span>
+        </a>
+      </p>
+    </div>
+  </section>
+
+  <!-- ---------------- Waarom dit bureau ---------------- -->
+  <section class="sectie op-licht">
+    <div class="omhulsel">
+      <div class="kop-blok">
+        <p class="bovenkop">Waarom Bureau Weerbaar en Veilig</p>
+        <h2>Specialist, geen generalist</h2>
+      </div>
+      <div class="rooster rooster-4">
+        {verschillen.map((v, i) => (
+          <article class="kaart onthul" data-niveau={['basis', 'gevorderd', 'expert', 'basis'][i]}>
+            <Chevron aantal={1} breedte="1.4rem" />
+            <h3>{v.kop}</h3>
+            <p>{v.tekst}</p>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <Cta />
+</Basis>
+
+<style>
+  .hero {
+    background: var(--inkt-950);
+    padding-block: clamp(3.5rem, 2rem + 8vw, 8rem) clamp(3rem, 2rem + 5vw, 6rem);
+  }
+  .hero-binnen { display: grid; gap: 1.5rem; justify-items: start; }
+
+  .hero-kop { max-width: 16ch; }
+  .verloopwoord {
+    background: var(--verloop-merk);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  .hero-inleiding { max-width: 40rem; font-size: clamp(1.15rem, 1.02rem + 0.6vw, 1.45rem); }
+
+  .hero-knoppen { display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 0.5rem; }
+
+  .hero-feiten {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.65rem 1.5rem;
+    list-style: none;
+    padding: 1.5rem 0 0;
+    margin: 0.5rem 0 0;
+    border-top: 1px solid var(--rand);
+    width: 100%;
+    font-family: 'Space Grotesk Variable', sans-serif;
+    font-size: 0.9rem;
+    color: var(--tekst-zacht);
+  }
+  .hero-feiten li { display: flex; align-items: center; gap: 0.5rem; }
+  .hero-feiten :global(.chevron) { color: var(--oranje-500); flex: none; }
+
+  .antwoord-blok { display: grid; gap: clamp(1.75rem, 1.2rem + 2vw, 3rem); }
+
+  .niveau-voet { margin-top: clamp(1.25rem, 1rem + 1vw, 2rem); }
+</style>

@@ -1,0 +1,370 @@
+---
+import { getCollection } from 'astro:content';
+import Basis from '../layouts/Basis.astro';
+import Kruimels from '../components/Kruimels.astro';
+import Chevron from '../components/Chevron.astro';
+import { SITE, NIVEAUS, NIVEAU_INFO, FEITEN, pad } from '../lib/site';
+import { paginaTitel, description } from '../lib/seo';
+
+const [sectoren, beroepsgroepen] = await Promise.all([
+  getCollection('sectoren'),
+  getCollection('beroepsgroepen'),
+]);
+
+const groepen = beroepsgroepen
+  .map((b) => ({
+    naam: b.data.naam,
+    slug: b.data.slug,
+    sector: sectoren.find((s) => s.data.slug === b.data.sector)?.data.naam ?? b.data.sector,
+  }))
+  .sort((a, b) => a.sector.localeCompare(b.sector, 'nl') || a.naam.localeCompare(b.naam, 'nl'));
+
+// Groeperen per sector voor de <optgroup> in het keuzemenu.
+const perSector = [...new Set(groepen.map((g) => g.sector))].sort((a, b) => a.localeCompare(b, 'nl'));
+
+/**
+ * De verzenddienst wordt via een omgevingsvariabele ingesteld
+ * (Web3Forms of Formspree). Zolang die niet is ingevuld, tonen we
+ * bewust géén formulier: een knop die niets doet is erger dan geen knop.
+ * Zie WERKWIJZE.md, hoofdstuk "Het contactformulier aanzetten".
+ */
+const formulierEndpoint = import.meta.env.PUBLIC_FORMULIER_ENDPOINT ?? '';
+const formulierSleutel = import.meta.env.PUBLIC_FORMULIER_SLEUTEL ?? '';
+const formulierActief = Boolean(formulierEndpoint);
+
+const kruimels = [
+  { naam: 'Home', url: pad('/') },
+  { naam: 'Contact', url: pad('/contact/') },
+];
+
+const openingsantwoord = `Bureau Weerbaar en Veilig is bereikbaar op ${SITE.telefoon} en via ${SITE.email}, op ${SITE.openingstijden}. Het bureau is gevestigd aan de ${SITE.adres.straat} in ${SITE.adres.plaats} en verzorgt agressietraining door heel Nederland, vrijwel altijd incompany.`;
+---
+
+<Basis
+  titel={paginaTitel('Contact en offerte aanvragen')}
+  description={description(openingsantwoord)}
+  niveau="basis"
+  kruimels={kruimels}
+>
+  <section class="kop-sectie gloed raster-achtergrond">
+    <div class="omhulsel kop-binnen">
+      <Kruimels kruimels={kruimels} />
+      <p class="bovenkop">Contact</p>
+      <h1 class="display">Vertel wat<br /><span class="verloopwoord">er speelt</span></h1>
+      <p class="openingsantwoord">{openingsantwoord}</p>
+    </div>
+  </section>
+
+  <section class="sectie">
+    <div class="omhulsel contact-indeling">
+      <!-- ---------- Formulier of directe gegevens ---------- -->
+      <div class="formulierkant">
+        {formulierActief ? (
+          <form action={formulierEndpoint} method="POST" class="formulier">
+            {formulierSleutel && <input type="hidden" name="access_key" value={formulierSleutel} />}
+            <input type="hidden" name="subject" value="Aanvraag via bureauweerbaarenveilig.nl" />
+            <input type="hidden" name="from_name" value={SITE.naam} />
+            {/* Spamval: een veld dat mensen niet zien en bots wel invullen. */}
+            <input type="checkbox" name="botcheck" class="botval" tabindex="-1" autocomplete="off" />
+
+            <h2 class="h3">Offerte aanvragen</h2>
+
+            <div class="veld">
+              <label for="naam">Uw naam <span class="verplicht">*</span></label>
+              <input type="text" id="naam" name="naam" required autocomplete="name" />
+            </div>
+
+            <div class="veld-rij">
+              <div class="veld">
+                <label for="organisatie">Organisatie <span class="verplicht">*</span></label>
+                <input type="text" id="organisatie" name="organisatie" required autocomplete="organization" />
+              </div>
+              <div class="veld">
+                <label for="email">E-mailadres <span class="verplicht">*</span></label>
+                <input type="email" id="email" name="email" required autocomplete="email" />
+              </div>
+            </div>
+
+            <div class="veld-rij">
+              <div class="veld">
+                <label for="telefoon">Telefoonnummer</label>
+                <input type="tel" id="telefoon" name="telefoon" autocomplete="tel" />
+              </div>
+              <div class="veld">
+                <label for="aantal">Aantal deelnemers</label>
+                <input type="number" id="aantal" name="aantal" min="1" max="500" />
+              </div>
+            </div>
+
+            <div class="veld">
+              <label for="beroepsgroep">Beroepsgroep</label>
+              <select id="beroepsgroep" name="beroepsgroep">
+                <option value="">Weet ik nog niet</option>
+                {perSector.map((s) => (
+                  <optgroup label={s}>
+                    {groepen.filter((g) => g.sector === s).map((g) => (
+                      <option value={g.naam}>{g.naam}</option>
+                    ))}
+                  </optgroup>
+                ))}
+              </select>
+            </div>
+
+            <fieldset class="veld">
+              <legend>Welk niveau?</legend>
+              <div class="keuzerij">
+                {NIVEAUS.map((n) => (
+                  <label class="keuze" data-niveau={n}>
+                    <input type="radio" name="niveau" value={NIVEAU_INFO[n].naam} />
+                    <span>{NIVEAU_INFO[n].naam}</span>
+                  </label>
+                ))}
+                <label class="keuze" data-niveau="geen">
+                  <input type="radio" name="niveau" value="Nog onbekend" checked />
+                  <span>Weet ik nog niet</span>
+                </label>
+              </div>
+            </fieldset>
+
+            <div class="veld">
+              <label for="bericht">Wat speelt er? <span class="verplicht">*</span></label>
+              <textarea id="bericht" name="bericht" rows="5" required
+                placeholder="Bijvoorbeeld: wat er is gebeurd, hoe vaak het voorkomt, en wat het team al heeft geprobeerd."></textarea>
+            </div>
+
+            <p class="privacyregel">
+              Uw gegevens worden alleen gebruikt om op deze aanvraag te reageren.
+              Zie de <a href={pad('/privacy/')}>privacyverklaring</a>.
+            </p>
+
+            <button type="submit" class="knop">
+              Aanvraag versturen
+              <span class="pijl" aria-hidden="true">→</span>
+            </button>
+          </form>
+        ) : (
+          <div class="geen-formulier">
+            <h2 class="h3">Neem contact op</h2>
+            <p class="inleiding">
+              Bel of mail rechtstreeks — u krijgt binnen één werkdag antwoord van
+              iemand die de trainingen zelf geeft.
+            </p>
+            <div class="directe-knoppen">
+              <a href={`tel:${SITE.telefoonUri}`} class="knop">
+                Bel {SITE.telefoon}
+                <span class="pijl" aria-hidden="true">→</span>
+              </a>
+              <a href={`mailto:${SITE.email}?subject=Aanvraag%20agressietraining`} class="knop knop-tweede">
+                Mail ons
+              </a>
+            </div>
+            <p class="notitie">
+              <strong>Voor de beheerder:</strong> het online formulier staat klaar
+              maar is nog niet gekoppeld aan een verzenddienst. Zie
+              <code>WERKWIJZE.md</code>, hoofdstuk “Het contactformulier aanzetten”.
+            </p>
+          </div>
+        )}
+      </div>
+
+      <!-- ---------- Gegevens ---------- -->
+      <aside class="gegevens">
+        <div class="gegevensblok" data-niveau="basis">
+          <Chevron aantal={2} breedte="1.8rem" />
+          <h2 class="h4">Direct contact</h2>
+          <ul class="gegevenslijst">
+            <li>
+              <span class="etiket">Telefoon</span>
+              <a href={`tel:${SITE.telefoonUri}`}>{SITE.telefoon}</a>
+            </li>
+            <li>
+              <span class="etiket">E-mail</span>
+              <a href={`mailto:${SITE.email}`}>{SITE.email}</a>
+            </li>
+            <li>
+              <span class="etiket">Bereikbaar</span>
+              <span>{SITE.openingstijden}</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="gegevensblok" data-niveau="gevorderd">
+          <h2 class="h4">Bezoekadres</h2>
+          <address>
+            {SITE.adres.straat}<br />
+            {SITE.adres.postcode} {SITE.adres.plaats}<br />
+            {SITE.adres.provincie}
+          </address>
+          <p class="klein">Trainingen vinden vrijwel altijd plaats op uw eigen locatie.</p>
+        </div>
+
+        <div class="gegevensblok" data-niveau="expert">
+          <h2 class="h4">Goed om te weten</h2>
+          <ul class="feitlijst">
+            <li>Elke training duurt {FEITEN.duur}</li>
+            <li>{FEITEN.groepsgrootte.charAt(0).toUpperCase() + FEITEN.groepsgrootte.slice(1)}</li>
+            <li>{FEITEN.certificaat.charAt(0).toUpperCase() + FEITEN.certificaat.slice(1)} na afloop</li>
+            <li>Vaste prijs, geen nacalculatie</li>
+          </ul>
+          <a href={pad('/aanpak/')} class="pijllink">
+            Lees hoe we werken
+            <span class="pijl" aria-hidden="true">→</span>
+          </a>
+        </div>
+      </aside>
+    </div>
+  </section>
+</Basis>
+
+<style>
+  .kop-sectie {
+    background: var(--inkt-950);
+    padding-block: clamp(1.5rem, 1rem + 2vw, 2.5rem) clamp(3rem, 2rem + 4vw, 5rem);
+  }
+  .kop-binnen { display: grid; gap: 1.25rem; justify-items: start; }
+  .verloopwoord {
+    background: var(--verloop-merk);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  .contact-indeling {
+    display: grid;
+    gap: clamp(1.5rem, 1rem + 2.5vw, 3rem);
+    align-items: start;
+  }
+  @media (min-width: 950px) {
+    .contact-indeling { grid-template-columns: minmax(0, 1.25fr) minmax(0, 20rem); }
+  }
+
+  .formulier, .geen-formulier {
+    display: grid;
+    gap: 1.1rem;
+    padding: clamp(1.25rem, 1rem + 1.2vw, 2.25rem);
+    background: var(--inkt-850);
+    border: 1px solid var(--rand);
+    border-top: 3px solid var(--oranje-500);
+    border-radius: var(--hoek);
+  }
+
+  .botval { position: absolute; opacity: 0; width: 0; height: 0; pointer-events: none; }
+
+  .veld { display: grid; gap: 0.4rem; border: 0; padding: 0; margin: 0; min-width: 0; }
+  .veld-rij { display: grid; gap: 1.1rem; }
+  @media (min-width: 560px) { .veld-rij { grid-template-columns: 1fr 1fr; } }
+
+  label, legend {
+    font-family: 'Space Grotesk Variable', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--tekst);
+    padding: 0;
+  }
+  .verplicht { color: var(--oranje-400); }
+
+  input[type='text'], input[type='email'], input[type='tel'], input[type='number'],
+  select, textarea {
+    width: 100%;
+    min-height: 3rem;
+    padding: 0.7rem 0.9rem;
+    background: var(--inkt-950);
+    border: 1px solid var(--rand-fel);
+    border-radius: var(--hoek);
+    color: var(--tekst);
+    font-size: 1rem;
+    transition: border-color 160ms, background 160ms;
+  }
+  textarea { min-height: 8rem; resize: vertical; line-height: 1.6; }
+  input:hover, select:hover, textarea:hover { border-color: var(--tekst-gedempt); }
+  input:focus, select:focus, textarea:focus {
+    border-color: var(--oranje-500);
+    background: var(--inkt-900);
+  }
+  ::placeholder { color: var(--tekst-gedempt); opacity: 1; }
+
+  .keuzerij { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.15rem; }
+  .keuze {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    min-height: 2.75rem;
+    padding: 0.5rem 0.9rem;
+    border: 1px solid var(--rand-fel);
+    border-radius: 999px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: border-color 160ms, background 160ms;
+  }
+  .keuze:hover { border-color: var(--niveau); }
+  .keuze input { accent-color: var(--niveau); width: 1.05rem; height: 1.05rem; }
+  .keuze:has(input:checked) {
+    border-color: var(--niveau);
+    background: color-mix(in oklab, var(--niveau) 16%, transparent);
+  }
+
+  .privacyregel { font-size: 0.85rem; color: var(--tekst-gedempt); }
+  .privacyregel a { color: var(--oranje-400); }
+
+  .formulier button { justify-self: start; }
+
+  .directe-knoppen { display: flex; flex-wrap: wrap; gap: 0.75rem; }
+  .notitie {
+    font-size: 0.85rem;
+    color: var(--tekst-gedempt);
+    padding: 0.9rem 1rem;
+    background: var(--inkt-950);
+    border-left: 3px solid var(--violet-400);
+    border-radius: var(--hoek);
+  }
+  .notitie code { font-size: 0.95em; color: var(--tekst-zacht); }
+
+  .gegevens { display: grid; gap: 1rem; }
+  .gegevensblok {
+    display: grid;
+    gap: 0.7rem;
+    padding: clamp(1.1rem, 1rem + 0.5vw, 1.5rem);
+    background: var(--inkt-850);
+    border: 1px solid var(--rand);
+    border-left: 3px solid var(--niveau);
+    border-radius: var(--hoek);
+  }
+  .gegevensblok :global(.chevron) { color: var(--niveau); }
+
+  .gegevenslijst, .feitlijst { list-style: none; padding: 0; margin: 0; display: grid; gap: 0.7rem; }
+  .gegevenslijst li { display: grid; gap: 0.1rem; }
+  .etiket {
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--tekst-gedempt);
+  }
+  .gegevenslijst a {
+    font-family: 'Space Grotesk Variable', sans-serif;
+    font-weight: 600;
+    color: var(--tekst);
+    text-decoration: none;
+  }
+  .gegevenslijst a:hover { color: var(--oranje-400); text-decoration: underline; text-underline-offset: 3px; }
+
+  .feitlijst li {
+    position: relative;
+    padding-left: 1.1rem;
+    font-size: 0.92rem;
+    color: var(--tekst-zacht);
+  }
+  .feitlijst li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0.62em;
+    width: 0.4rem;
+    height: 0.4rem;
+    border-radius: 50%;
+    background: var(--niveau);
+  }
+
+  address { font-style: normal; line-height: 1.7; color: var(--tekst-zacht); }
+  .klein { font-size: 0.85rem; color: var(--tekst-gedempt); }
+</style>

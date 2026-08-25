@@ -1,0 +1,230 @@
+---
+import { getCollection } from 'astro:content';
+import Basis from '../../layouts/Basis.astro';
+import Kruimels from '../../components/Kruimels.astro';
+import Chevron from '../../components/Chevron.astro';
+import Cta from '../../components/Cta.astro';
+import { NIVEAUS, NIVEAU_INFO, FEITEN, pad, type Niveau } from '../../lib/site';
+import { paginaTitel, description } from '../../lib/seo';
+
+export async function getStaticPaths() {
+  return NIVEAUS.map((niveau) => ({ params: { niveau }, props: { niveau } }));
+}
+
+const { niveau } = Astro.props as { niveau: Niveau };
+const info = NIVEAU_INFO[niveau];
+
+const [trainingen, beroepsgroepen, sectoren] = await Promise.all([
+  getCollection('trainingen'),
+  getCollection('beroepsgroepen'),
+  getCollection('sectoren'),
+]);
+
+const naamVan = new Map(beroepsgroepen.map((b) => [b.data.slug, b.data.naam]));
+
+const eigen = trainingen.filter((t) => t.data.niveau === niveau);
+
+const perSector = sectoren
+  .map((s) => ({
+    naam: s.data.naam,
+    slug: s.data.slug,
+    rijen: eigen
+      .filter((t) => t.data.sector === s.data.slug)
+      .sort((a, b) =>
+        (naamVan.get(a.data.beroepsgroep) ?? '').localeCompare(naamVan.get(b.data.beroepsgroep) ?? '', 'nl'),
+      ),
+  }))
+  .filter((s) => s.rijen.length > 0)
+  .sort((a, b) => a.naam.localeCompare(b.naam, 'nl'));
+
+const kruimels = [
+  { naam: 'Home', url: pad('/') },
+  { naam: 'Niveaus', url: pad('/niveaus/') },
+  { naam: info.naam, url: pad(`/niveaus/${niveau}/`) },
+];
+
+const groepsgrootte = niveau === 'expert' ? FEITEN.groepsgrootteExpert : FEITEN.groepsgrootte;
+const openingsantwoord = `${info.naam} is het niveau van de agressietraining van Bureau Weerbaar en Veilig dat draait om ${info.kort.toLowerCase()}. Het is bedoeld voor ${info.voorWie.toLowerCase()}. Er zijn ${eigen.length} trainingen op dit niveau, elk geschreven voor één beroepsgroep, en elke training duurt ${FEITEN.duur} met ${groepsgrootte}.`;
+
+const anders = NIVEAUS.filter((n) => n !== niveau);
+---
+
+<Basis
+  titel={paginaTitel(`Agressietraining niveau ${info.naam.toLowerCase()}`)}
+  description={description(openingsantwoord)}
+  niveau={niveau}
+  kruimels={kruimels}
+>
+  <section class="kop-sectie gloed raster-achtergrond">
+    <div class="omhulsel kop-binnen">
+      <Kruimels kruimels={kruimels} />
+      <div class="kop-badge">
+        <Chevron aantal={2} breedte="1.6rem" />
+        <span class="badge">Niveau {info.naam}</span>
+      </div>
+      <h1 class="display">{info.kort}</h1>
+      <p class="openingsantwoord">{openingsantwoord}</p>
+      <p class="inleiding">{info.omschrijving}</p>
+
+      <dl class="feitenbalk">
+        <div class="feit"><dt>Voor wie</dt><dd>{info.voorWie}</dd></div>
+        <div class="feit"><dt>Duur</dt><dd>{FEITEN.duur}</dd></div>
+        <div class="feit"><dt>Groepsgrootte</dt><dd>{groepsgrootte}</dd></div>
+        <div class="feit"><dt>Trainingen</dt><dd>{eigen.length} beroepsgroepen</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <section class="sectie op-licht">
+    <div class="omhulsel">
+      <div class="kop-blok">
+        <p class="bovenkop">Alle {eigen.length} trainingen op dit niveau</p>
+        <h2>Kies uw beroepsgroep</h2>
+      </div>
+
+      <div class="sectorlijst">
+        {perSector.map((s) => (
+          <section class="sectorgroep onthul">
+            <h3 class="sectorgroep-kop">
+              <a href={pad(`/sectoren/${s.slug}/`)}>{s.naam}</a>
+              <span class="aantal">{s.rijen.length}</span>
+            </h3>
+            <ul class="rijen">
+              {s.rijen.map((t) => (
+                <li>
+                  <a href={pad(`/trainingen/${t.data.slug}/`)}>
+                    {naamVan.get(t.data.beroepsgroep)}
+                    <span class="pijl" aria-hidden="true">→</span>
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </section>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="sectie">
+    <div class="omhulsel">
+      <div class="kop-blok">
+        <p class="bovenkop">De andere niveaus</p>
+        <h2>Past dit niveau niet?</h2>
+      </div>
+      <div class="rooster rooster-2">
+        {anders.map((n) => (
+          <a href={pad(`/niveaus/${n}/`)} class="kaart" data-niveau={n}>
+            <span class="badge">{NIVEAU_INFO[n].naam}</span>
+            <h3>{NIVEAU_INFO[n].kort}</h3>
+            <p>{NIVEAU_INFO[n].omschrijving}</p>
+            <span class="pijllink kaart-voet">
+              Naar niveau {NIVEAU_INFO[n].naam.toLowerCase()}
+              <span class="pijl" aria-hidden="true">→</span>
+            </span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <Cta
+    kop={`${info.naam} voor uw team?`}
+    tekst={`Bureau Weerbaar en Veilig verzorgt dit niveau incompany voor ${eigen.length} beroepsgroepen. Vertel welk team het betreft, dan kijken we of dit het juiste startpunt is.`}
+  />
+</Basis>
+
+<style>
+  .kop-sectie {
+    background: var(--inkt-950);
+    padding-block: clamp(1.5rem, 1rem + 2vw, 2.5rem) clamp(3rem, 2rem + 4vw, 5rem);
+  }
+  .kop-binnen { display: grid; gap: 1.2rem; justify-items: start; }
+  .kop-badge { display: flex; align-items: center; gap: 0.75rem; }
+  .kop-badge :global(.chevron) { color: var(--niveau); }
+  .kop-sectie h1 { max-width: 14ch; color: var(--niveau); }
+
+  .feitenbalk {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 12rem), 1fr));
+    gap: 1px;
+    background: var(--rand);
+    border: 1px solid var(--rand);
+    border-radius: var(--hoek);
+    overflow: hidden;
+    width: 100%;
+    margin: 0.5rem 0 0;
+  }
+  .feit { background: var(--inkt-900); padding: 1rem 1.15rem; display: grid; gap: 0.2rem; }
+  .feit dt {
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--tekst-gedempt);
+  }
+  .feit dd {
+    margin: 0;
+    font-family: 'Space Grotesk Variable', sans-serif;
+    font-size: 0.95rem;
+    font-weight: 600;
+  }
+
+  .sectorlijst {
+    display: grid;
+    gap: clamp(1rem, 0.8rem + 1vw, 1.75rem);
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 17rem), 1fr));
+    align-items: start;
+  }
+  .sectorgroep {
+    background: var(--wit);
+    border: 1px solid var(--rand-licht);
+    border-top: 3px solid var(--niveau-op-wit);
+    border-radius: var(--hoek);
+    padding: clamp(1rem, 0.9rem + 0.5vw, 1.4rem);
+  }
+  .sectorgroep-kop {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 0.75rem;
+    font-size: 1.05rem;
+    margin-bottom: 0.75rem;
+  }
+  .sectorgroep-kop a { color: inherit; text-decoration: none; }
+  .sectorgroep-kop a:hover { color: var(--niveau-op-wit); text-decoration: underline; text-underline-offset: 3px; }
+  .aantal {
+    font-family: 'Space Grotesk Variable', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--niveau-op-wit);
+  }
+
+  .rijen { list-style: none; padding: 0; margin: 0; display: grid; gap: 0.15rem; }
+  .rijen a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+    min-height: 2.6rem;
+    padding: 0.45rem 0.5rem;
+    color: var(--tekst-donker-zacht);
+    text-decoration: none;
+    font-size: 0.92rem;
+    border-radius: var(--hoek);
+    transition: background 150ms, color 150ms, padding-left 180ms;
+  }
+  .rijen a .pijl {
+    color: var(--niveau-op-wit);
+    opacity: 0;
+    transform: translateX(-4px);
+    transition: opacity 180ms, transform 180ms;
+  }
+  .rijen a:hover {
+    background: var(--mist-50);
+    color: var(--tekst-donker);
+    padding-left: 0.85rem;
+  }
+  .rijen a:hover .pijl { opacity: 1; transform: none; }
+
+  .kaart-voet { margin-top: auto; padding-top: 0.4rem; font-size: 0.9rem; }
+</style>

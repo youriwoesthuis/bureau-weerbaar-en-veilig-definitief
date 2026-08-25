@@ -1,0 +1,59 @@
+name: Bouwen en publiceren
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+# Alleen lezen wat nodig is, plus het recht om naar Pages te publiceren.
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Loopt er al een publicatie, dan die eerst afmaken. Zo kan een nieuwe
+# push nooit een half gepubliceerde site achterlaten.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  bouwen:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Pakketten installeren
+        run: npm ci
+
+      - name: Site bouwen
+        env:
+          # Deze twee regels vervallen bij verhuizing naar het eigen domein.
+          # Zie WERKWIJZE.md hoofdstuk 9.
+          PUBLIC_SITE_URL: https://youriwoesthuis.github.io
+          PUBLIC_BASE_PATH: /bureau-weerbaar-en-veilig-definitief/
+          PUBLIC_FORMULIER_ENDPOINT: ${{ vars.PUBLIC_FORMULIER_ENDPOINT }}
+          PUBLIC_FORMULIER_SLEUTEL: ${{ vars.PUBLIC_FORMULIER_SLEUTEL }}
+        run: npm run build
+
+      - name: Controleren op gebroken links, metadata en schema
+        run: npm run controleer
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  publiceren:
+    needs: bouwen
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.publicatie.outputs.page_url }}
+    steps:
+      - id: publicatie
+        uses: actions/deploy-pages@v4

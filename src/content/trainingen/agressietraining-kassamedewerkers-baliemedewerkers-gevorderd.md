@@ -1,0 +1,83 @@
+---
+titel: Gevorderde agressietraining voor kassamedewerkers en baliemedewerkers
+slug: agressietraining-kassamedewerkers-baliemedewerkers-gevorderd
+sector: retail
+beroepsgroep: kassamedewerkers-baliemedewerkers
+niveau: gevorderd
+duur: 1 dag
+groepsgrootte: maximaal 10 deelnemers
+locatie: incompany
+locatie_detail: op eigen vestiging of bij Bureau Weerbaar en Veilig in Neede
+certificaat: deelnamecertificaat na afloop
+voorwaarde: afgeronde basistraining
+doelgroep: Kassa- en baliemedewerkers die de basistraining hebben gevolgd en regelmatig te maken hebben met complexe of herhaalde agressie-incidenten, vooral in drukke vestigingen of gebieden met een hoog incidentcijfer.
+samenvatting: >-
+  De gevorderde agressietraining voor kassamedewerkers en baliemedewerkers van
+  Bureau Weerbaar en Veilig gaat verder dan basisvaardigheden: herhaalde
+  grensoverschrijding, instrumentele agressie en bekende probleemklanten. De
+  training duurt 1 dag, telt maximaal 10 deelnemers en vereist een afgeronde
+  basistraining.
+resultaat:
+  - Onderscheid maken tussen agressievormen
+  - Manipulatie en druktactieken neutraliseren
+  - Gedrag van bekende probleemklanten analyseren
+  - Teamafspraken maken en nakomen
+  - Consistent reageren als team
+  - Grenzen stellen zonder de klantrelatie te beschadigen
+programma:
+  - titel: Niet-impulsieve agressie herkennen
+    inhoud: Klanten die herhaald grenzen testen, instrumentele agressie als strategie en het verschil met frustratie in het moment.
+  - titel: Manipulatie en druktactieken
+    inhoud: Omgaan met manipulatie via klachten en (sociale) media, en met groepsdruk op medewerkers.
+  - titel: Bekende probleemklanten
+    inhoud: Patronen analyseren en samen afspraken maken over de aanpak van terugkerende overlastgevers.
+  - titel: Teamconsistentie
+    inhoud: Als team eenduidig reageren, ook als escalatie ondanks de-escalatiepogingen doorzet.
+  - titel: Casuïstiek van de eigen vestiging
+    inhoud: Analyse van eigen praktijksituaties met patronen en directe feedback van de trainer.
+werkvormen:
+  - casuïstiek van de eigen vestiging
+  - patroonanalyse met feedback
+  - oefeningen gericht op teamgedrag en consistentie
+veelgestelde_vragen:
+  - vraag: Voor wie is de gevorderde agressietraining voor kassamedewerkers bedoeld?
+    antwoord: "Voor kassa- en baliemedewerkers die een basistraining hebben gevolgd en regelmatig te maken hebben met complexe of herhaalde agressie-incidenten: vooral in drukke vestigingen of gebieden met een hoog incidentcijfer."
+  - vraag: Is een basistraining verplicht?
+    antwoord: Ja, een afgeronde basistraining is de voorwaarde voor deelname.
+  - vraag: Hoe lang duurt de training en hoe groot is de groep?
+    antwoord: De training duurt 1 dag, met maximaal 10 deelnemers per groep.
+  - vraag: Wat is het verschil met de basistraining?
+    antwoord: De basistraining behandelt het herkennen en de-escaleren van agressie in het moment. Dit gevorderde niveau richt zich op bewuste, herhaalde grensoverschrijding, manipulatie en bekende probleemklanten, en op consistent teamgedrag.
+  - vraag: Waar vindt de training plaats?
+    antwoord: Incompany op de eigen vestiging, of bij Bureau Weerbaar en Veilig in Neede (Gelderland).
+gerelateerd:
+  - agressietraining-kassamedewerkers-baliemedewerkers-basis
+  - agressietraining-kassamedewerkers-baliemedewerkers-expert
+  - agressietraining-winkelmedewerkers-gevorderd
+  - agressietraining-filiaalmanagers-gevorderd
+afbeelding:
+  src: /images/trainingen/agressietraining-kassamedewerkers.jpg
+  alt: Deelnemers analyseren een terugkerende klantcasus tijdens een gevorderde agressietraining
+---
+
+## Waarom deze training
+
+Niet alle agressie is impulsief. Klanten die herhaald grenzen testen, bekende
+probleemklanten en strategisch gedrag om iets af te dwingen vragen om meer dan
+basisvaardigheden.
+
+Deze verdiepingstraining van Bureau Weerbaar en Veilig leert kassa- en
+baliemedewerkers patronen herkennen en er als team consistent op reageren,
+zonder de klantrelatie onnodig te beschadigen.
+
+## Herkenbare situaties op gevorderd niveau
+
+- Bewuste en herhaalde grensoverschrijding
+- Instrumentele agressie als strategisch gedrag
+- Manipulatie via klachten en (sociale) media
+- Bekende probleemklanten
+- Groepsdruk op medewerkers
+- Escalaties ondanks de-escalatiepogingen
+
+De training werkt met casuïstiek van de eigen vestiging, met nadruk op
+teamgedrag en consistentie.

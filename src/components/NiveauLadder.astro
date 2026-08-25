@@ -1,0 +1,138 @@
+---
+import { NIVEAUS, NIVEAU_INFO, pad } from '../lib/site';
+
+/**
+ * De drie niveaus als ladder. Op brede schermen naast elkaar, op smalle
+ * schermen onder elkaar met een doorlopende lijn ertussen — zodat het
+ * ook daar als opeenvolging leest en niet als drie losse blokken.
+ */
+interface Props {
+  /** map niveau -> slug van de training, als die bestaat */
+  trainingen?: Partial<Record<(typeof NIVEAUS)[number], string>>;
+  beroepsgroep?: string;
+  huidig?: string;
+}
+const { trainingen, beroepsgroep, huidig } = Astro.props;
+---
+
+<ol class="ladder">
+  {NIVEAUS.map((n, i) => {
+    const info = NIVEAU_INFO[n];
+    const slug = trainingen?.[n];
+    const isHuidig = huidig === n;
+    const Tag = slug && !isHuidig ? 'a' : 'div';
+    return (
+      <li>
+        <Tag
+          class:list={['trede', { 'trede-huidig': isHuidig, 'trede-link': slug && !isHuidig }]}
+          data-niveau={n}
+          href={slug && !isHuidig ? pad(`/trainingen/${slug}/`) : undefined}
+          aria-current={isHuidig ? 'true' : undefined}
+        >
+          <span class="trede-nummer" aria-hidden="true">{String(i + 1).padStart(2, '0')}</span>
+          <span class="badge">{info.naam}</span>
+          <span class="trede-kort">{info.kort}</span>
+          <span class="trede-tekst">{info.omschrijving}</span>
+          <span class="trede-wie"><strong>Voor wie:</strong> {info.voorWie}</span>
+          {isHuidig && <span class="trede-hier">Je bekijkt dit niveau</span>}
+          {slug && !isHuidig && (
+            <span class="pijllink trede-voet">
+              {beroepsgroep ? `${info.naam} voor ${beroepsgroep.toLowerCase()}` : `Naar ${info.naam.toLowerCase()}`}
+              <span class="pijl" aria-hidden="true">→</span>
+            </span>
+          )}
+        </Tag>
+      </li>
+    );
+  })}
+</ol>
+
+<style>
+  .ladder {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: clamp(0.75rem, 0.5rem + 1vw, 1.25rem);
+    counter-reset: trede;
+  }
+  @media (min-width: 900px) {
+    .ladder { grid-template-columns: repeat(3, 1fr); }
+  }
+
+  .ladder li { display: grid; }
+
+  .trede {
+    position: relative;
+    display: grid;
+    gap: 0.55rem;
+    align-content: start;
+    height: 100%;
+    padding: clamp(1.25rem, 1rem + 0.9vw, 1.85rem);
+    background: var(--inkt-850);
+    border: 1px solid var(--rand);
+    border-radius: var(--hoek);
+    border-top: 3px solid var(--niveau);
+    color: inherit;
+    text-decoration: none;
+    transition: transform 200ms cubic-bezier(0.2, 0.7, 0.3, 1), background 200ms, border-color 200ms;
+  }
+  .trede-link:hover { transform: translateY(-4px); background: var(--inkt-800); }
+
+  .trede-huidig {
+    background: color-mix(in oklab, var(--niveau) 12%, var(--inkt-850));
+    border-color: color-mix(in oklab, var(--niveau) 45%, transparent);
+    border-top-color: var(--niveau);
+  }
+
+  .trede-nummer {
+    position: absolute;
+    top: clamp(1rem, 0.8rem + 0.6vw, 1.4rem);
+    right: clamp(1rem, 0.8rem + 0.6vw, 1.4rem);
+    font-family: 'Space Grotesk Variable', sans-serif;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 1;
+    color: var(--niveau);
+    opacity: 0.22;
+    letter-spacing: -0.05em;
+  }
+
+  .trede-kort {
+    font-family: 'Space Grotesk Variable', sans-serif;
+    font-size: clamp(1.15rem, 1.05rem + 0.5vw, 1.4rem);
+    font-weight: 700;
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+  }
+  .trede-tekst { color: var(--tekst-zacht); font-size: 0.95rem; line-height: 1.55; }
+  .trede-wie { font-size: 0.875rem; color: var(--tekst-gedempt); }
+  .trede-wie strong { color: var(--tekst-zacht); font-weight: 600; }
+
+  .trede-hier {
+    font-family: 'Space Grotesk Variable', sans-serif;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--niveau);
+    margin-top: auto;
+    padding-top: 0.4rem;
+  }
+  .trede-voet { margin-top: auto; padding-top: 0.4rem; font-size: 0.9rem; }
+
+  :global(.op-licht) .trede,
+  :global(.op-wit) .trede { background: var(--wit); border-color: var(--rand-licht); border-top-color: var(--niveau-op-wit); }
+  :global(.op-licht) .trede-huidig,
+  :global(.op-wit) .trede-huidig { background: color-mix(in oklab, var(--niveau-op-wit) 7%, var(--wit)); }
+  :global(.op-licht) .trede-nummer,
+  :global(.op-wit) .trede-nummer { color: var(--niveau-op-wit); opacity: 0.18; }
+  :global(.op-licht) .trede-tekst,
+  :global(.op-wit) .trede-tekst { color: var(--tekst-donker-zacht); }
+  :global(.op-licht) .trede-wie,
+  :global(.op-wit) .trede-wie { color: var(--tekst-donker-zacht); }
+  /* Zonder deze regel houdt "Voor wie:" de kleur voor donkere vlakken
+     en komt op wit uit op 1,78:1. */
+  :global(.op-licht) .trede-wie strong,
+  :global(.op-wit) .trede-wie strong { color: var(--tekst-donker); }
+  :global(.op-licht) .trede-hier,
+  :global(.op-wit) .trede-hier { color: var(--niveau-op-wit); }
+</style>

@@ -1,0 +1,455 @@
+/* =========================================================================
+   Bureau Weerbaar en Veilig — ontwerpsysteem
+   Donker-eerst, felle kleuren, gebouwd om compleet te ogen zonder fotografie.
+
+   Kleur draagt betekenis, nooit versiering:
+     oranje = basis     violet = gevorderd     indigo = expert
+   ========================================================================= */
+
+/* ---------- 1. Tokens ---------------------------------------------------- */
+:root {
+  /* Donkere basis — de site staat hierop */
+  --inkt-950: #07081a;
+  --inkt-900: #0b0d26;
+  --inkt-850: #0f1233;
+  --inkt-800: #121640;
+  --inkt-700: #1b2159;
+  --inkt-600: #262e73;
+
+  /* Felle merkkleuren */
+  --indigo-600: #2d37a8;
+  --indigo-500: #3b47d4;
+  /* Bewust lichter dan #5a66f0: die haalde in de expert-badge maar 3,98:1
+     tegen zijn eigen doorzichtige vulling. Deze komt op 5,07:1. */
+  --indigo-400: #8b95ff;
+  --violet-600: #7b2fe0;
+  --violet-500: #9333ea;
+  --violet-400: #a855f7;
+  --oranje-600: #e2620a;
+  --oranje-500: #ff7a18;
+  --oranje-400: #ff9838;
+  --amber-400: #ffb020;
+
+  /* Lichte vlakken */
+  --wit: #ffffff;
+  --mist-50: #f7f7fb;
+  --mist-100: #edeef7;
+  --mist-200: #dcdeed;
+
+  /* Tekst op donker */
+  --tekst: #eef0ff;
+  --tekst-zacht: #b9c0e8;
+  --tekst-gedempt: #8f98c9;
+
+  /* Tekst op licht — de felle kleuren halen op wit geen contrast,
+     daarom aparte, donkerdere varianten. Nooit door elkaar gebruiken. */
+  --tekst-donker: #0b0d26;
+  --tekst-donker-zacht: #3d4470;
+  --oranje-op-wit: #9a4a05;
+  --violet-op-wit: #7c22ce;
+  --indigo-op-wit: #2f3ab8;
+
+  /* Randen en scheidingen */
+  --rand: color-mix(in oklab, var(--tekst) 14%, transparent);
+  --rand-fel: color-mix(in oklab, var(--tekst) 28%, transparent);
+  --rand-licht: #dcdeed;
+
+  /* Niveaukleur — wordt per context omgezet, zie blok 8 */
+  --niveau: var(--oranje-500);
+  --niveau-op-wit: var(--oranje-op-wit);
+
+  /* Merkverloop, afgeleid van het logo */
+  --verloop-merk: linear-gradient(135deg, #ff9838 0%, #ff7a18 22%, #9333ea 62%, #3b47d4 100%);
+  --verloop-warm: linear-gradient(135deg, #ffb020 0%, #ff7a18 100%);
+  --verloop-koel: linear-gradient(135deg, #9333ea 0%, #3b47d4 100%);
+
+  /* Ritme */
+  --hoek: 4px;
+  --hoek-groot: 10px;
+
+  /* Breedtes */
+  --breedte: 1240px;
+  --breedte-smal: 760px;
+  --leesbreedte: 42rem;
+
+  /* Op donker werkt licht beter dan schaduw */
+  --gloed-oranje: 0 0 0 1px color-mix(in oklab, var(--oranje-500) 40%, transparent),
+                  0 18px 50px -20px color-mix(in oklab, var(--oranje-500) 55%, transparent);
+  --gloed-violet: 0 0 0 1px color-mix(in oklab, var(--violet-500) 40%, transparent),
+                  0 18px 50px -20px color-mix(in oklab, var(--violet-500) 55%, transparent);
+}
+
+/* ---------- 2. Reset ----------------------------------------------------- */
+*, *::before, *::after { box-sizing: border-box; }
+* { margin: 0; }
+
+html {
+  -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
+  scroll-padding-top: 6rem;
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}
+
+body {
+  background: var(--inkt-900);
+  color: var(--tekst);
+  font-family: "Inter Variable", ui-sans-serif, system-ui, sans-serif;
+  font-size: 1.0625rem;
+  line-height: 1.65;
+  font-synthesis-weight: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+img, svg, video { display: block; max-width: 100%; height: auto; }
+input, button, textarea, select { font: inherit; color: inherit; }
+button { cursor: pointer; }
+
+/* ---------- 3. Typografie ------------------------------------------------ */
+h1, h2, h3, h4, .kop {
+  font-family: "Space Grotesk Variable", ui-sans-serif, system-ui, sans-serif;
+  font-weight: 700;
+  line-height: 1.05;
+  letter-spacing: -0.025em;
+  text-wrap: balance;
+}
+
+h1, .h1 { font-size: clamp(2.6rem, 1.6rem + 4.6vw, 5.4rem); }
+h2, .h2 { font-size: clamp(2rem, 1.4rem + 2.6vw, 3.4rem); }
+h3, .h3 { font-size: clamp(1.35rem, 1.15rem + 0.9vw, 1.85rem); line-height: 1.15; }
+h4, .h4 { font-size: clamp(1.1rem, 1rem + 0.4vw, 1.3rem); line-height: 1.25; }
+
+/* Reusachtige display-kop: de typografie is het beeld */
+.display {
+  font-family: "Space Grotesk Variable", sans-serif;
+  font-weight: 700;
+  font-size: clamp(3rem, 1.4rem + 7.2vw, 7.5rem);
+  line-height: 0.94;
+  letter-spacing: -0.04em;
+  text-wrap: balance;
+}
+
+.bovenkop {
+  font-family: "Space Grotesk Variable", sans-serif;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--tekst-gedempt);
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+}
+.bovenkop::before {
+  content: "";
+  width: 1.9rem;
+  height: 2px;
+  background: var(--niveau);
+  flex: none;
+}
+.op-licht .bovenkop, .op-wit .bovenkop { color: var(--tekst-donker-zacht); }
+.op-licht .bovenkop::before, .op-wit .bovenkop::before { background: var(--niveau-op-wit); }
+
+.inleiding {
+  font-size: clamp(1.125rem, 1.02rem + 0.5vw, 1.375rem);
+  line-height: 1.55;
+  color: var(--tekst-zacht);
+  max-width: 38rem;
+  text-wrap: pretty;
+}
+.op-licht .inleiding, .op-wit .inleiding { color: var(--tekst-donker-zacht); }
+
+/* Lopende tekst — één systeem voor alle bodytekst */
+.leestekst { max-width: var(--leesbreedte); }
+.leestekst > * + * { margin-top: 1.15em; }
+.leestekst p { text-wrap: pretty; }
+.leestekst h2 { margin-top: 2.4em; }
+.leestekst h3 { margin-top: 1.9em; }
+.leestekst a { color: var(--oranje-400); text-underline-offset: 3px; }
+.op-licht .leestekst a, .op-wit .leestekst a { color: var(--oranje-op-wit); }
+.leestekst ul, .leestekst ol { padding-left: 1.2em; }
+.leestekst li + li { margin-top: 0.45em; }
+.leestekst strong { color: var(--wit); font-weight: 650; }
+.op-licht .leestekst strong, .op-wit .leestekst strong { color: var(--tekst-donker); }
+
+/* Het openingsantwoord: losknipbaar, voor AI-antwoordsystemen en lezers */
+.openingsantwoord {
+  font-size: clamp(1.1rem, 1rem + 0.55vw, 1.4rem);
+  line-height: 1.5;
+  color: var(--tekst);
+  border-left: 3px solid var(--niveau);
+  padding-left: clamp(1rem, 2vw, 1.6rem);
+  max-width: 44rem;
+  text-wrap: pretty;
+}
+.op-licht .openingsantwoord, .op-wit .openingsantwoord {
+  color: var(--tekst-donker);
+  border-color: var(--niveau-op-wit);
+}
+
+/* ---------- 4. Layout ---------------------------------------------------- */
+.omhulsel {
+  width: min(100% - 2.5rem, var(--breedte));
+  margin-inline: auto;
+}
+@media (max-width: 640px) {
+  .omhulsel { width: min(100% - 1.75rem, var(--breedte)); }
+}
+
+.sectie { padding-block: clamp(4rem, 2.4rem + 6.5vw, 8.5rem); }
+.sectie-krap { padding-block: clamp(2.5rem, 1.8rem + 3vw, 4.5rem); }
+
+.op-licht { background: var(--mist-50); color: var(--tekst-donker); }
+.op-wit { background: var(--wit); color: var(--tekst-donker); }
+.op-licht h1, .op-licht h2, .op-licht h3, .op-licht h4,
+.op-wit h1, .op-wit h2, .op-wit h3, .op-wit h4 { color: var(--tekst-donker); }
+
+.rooster { display: grid; gap: clamp(1rem, 0.7rem + 1.1vw, 1.6rem); }
+.rooster-2 { grid-template-columns: repeat(auto-fit, minmax(min(100%, 22rem), 1fr)); }
+.rooster-3 { grid-template-columns: repeat(auto-fit, minmax(min(100%, 17rem), 1fr)); }
+.rooster-4 { grid-template-columns: repeat(auto-fit, minmax(min(100%, 13rem), 1fr)); }
+
+.kop-blok { display: grid; gap: 1.1rem; margin-bottom: clamp(2rem, 1.4rem + 2vw, 3.5rem); }
+
+/* ---------- 5. Chevron: het bouwelement uit het logo ---------------------- */
+.chevron { display: block; width: 100%; height: auto; color: var(--niveau); }
+.chevron-rij { display: flex; gap: 0.35rem; align-items: center; }
+
+/* ---------- 6. Knoppen --------------------------------------------------- */
+.knop {
+  --knop-vlak: var(--verloop-warm);
+  --knop-tekst: #1a0d00;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  min-height: 3rem;
+  padding: 0.85rem 1.6rem;
+  border: 0;
+  border-radius: var(--hoek);
+  background: var(--knop-vlak);
+  color: var(--knop-tekst);
+  font-family: "Space Grotesk Variable", sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  letter-spacing: -0.01em;
+  text-decoration: none;
+  position: relative;
+  isolation: isolate;
+  transition: transform 180ms cubic-bezier(.2,.7,.3,1), box-shadow 180ms;
+}
+.knop:hover { transform: translateY(-2px); box-shadow: var(--gloed-oranje); }
+.knop:active { transform: translateY(0); }
+.knop .pijl { transition: transform 180ms cubic-bezier(.2,.7,.3,1); }
+.knop:hover .pijl { transform: translateX(4px); }
+
+.knop-tweede {
+  --knop-vlak: transparent;
+  --knop-tekst: var(--tekst);
+  border: 1px solid var(--rand-fel);
+}
+.knop-tweede:hover {
+  background: color-mix(in oklab, var(--tekst) 8%, transparent);
+  box-shadow: none;
+}
+.op-licht .knop-tweede, .op-wit .knop-tweede {
+  --knop-tekst: var(--tekst-donker);
+  border-color: var(--rand-licht);
+}
+.op-licht .knop-tweede:hover, .op-wit .knop-tweede:hover { background: var(--mist-100); }
+
+/* Tekstlink met pijl */
+.pijllink {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  font-family: "Space Grotesk Variable", sans-serif;
+  font-weight: 600;
+  color: var(--oranje-400);
+  text-decoration: none;
+}
+.pijllink .pijl { transition: transform 180ms cubic-bezier(.2,.7,.3,1); }
+.pijllink:hover .pijl { transform: translateX(4px); }
+.pijllink:hover { text-decoration: underline; text-underline-offset: 4px; }
+.op-licht .pijllink, .op-wit .pijllink { color: var(--oranje-op-wit); }
+
+/* ---------- 7. Kaarten --------------------------------------------------- */
+.kaart {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  padding: clamp(1.25rem, 1rem + 0.8vw, 1.9rem);
+  background: var(--inkt-850);
+  border: 1px solid var(--rand);
+  border-radius: var(--hoek);
+  text-decoration: none;
+  color: inherit;
+  overflow: hidden;
+  transition: transform 200ms cubic-bezier(.2,.7,.3,1), border-color 200ms, background 200ms;
+}
+/* De niveaustreep bovenaan elke kaart */
+.kaart::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: 3px;
+  background: var(--niveau);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 260ms cubic-bezier(.2,.7,.3,1);
+}
+.kaart:hover, .kaart:focus-visible {
+  transform: translateY(-4px);
+  border-color: var(--rand-fel);
+  background: var(--inkt-800);
+}
+.kaart:hover::before, .kaart:focus-visible::before { transform: scaleX(1); }
+.kaart h3 { font-size: 1.15rem; }
+.kaart p { color: var(--tekst-zacht); font-size: 0.95rem; line-height: 1.55; }
+
+.op-licht .kaart, .op-wit .kaart { background: var(--wit); border-color: var(--rand-licht); }
+.op-licht .kaart:hover, .op-wit .kaart:hover,
+.op-licht .kaart:focus-visible, .op-wit .kaart:focus-visible {
+  background: var(--wit);
+  border-color: var(--tekst-donker-zacht);
+  box-shadow: 0 16px 40px -24px rgba(11,13,38,.5);
+}
+.op-licht .kaart::before, .op-wit .kaart::before { background: var(--niveau-op-wit); }
+.op-licht .kaart p, .op-wit .kaart p { color: var(--tekst-donker-zacht); }
+
+/* ---------- 8. Niveau: de enige plek waar kleur betekenis krijgt ---------- */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.3rem 0.65rem;
+  border-radius: 999px;
+  font-family: "Space Grotesk Variable", sans-serif;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  background: color-mix(in oklab, var(--niveau) 18%, transparent);
+  color: var(--niveau);
+  border: 1px solid color-mix(in oklab, var(--niveau) 40%, transparent);
+  width: fit-content;
+}
+.op-licht .badge, .op-wit .badge {
+  background: color-mix(in oklab, var(--niveau-op-wit) 10%, transparent);
+  color: var(--niveau-op-wit);
+  border-color: color-mix(in oklab, var(--niveau-op-wit) 35%, transparent);
+}
+
+[data-niveau="basis"]     { --niveau: var(--oranje-500); --niveau-op-wit: var(--oranje-op-wit); }
+[data-niveau="gevorderd"] { --niveau: var(--violet-400); --niveau-op-wit: var(--violet-op-wit); }
+[data-niveau="expert"]    { --niveau: var(--indigo-400); --niveau-op-wit: var(--indigo-op-wit); }
+[data-niveau="geen"]      { --niveau: var(--tekst-gedempt); --niveau-op-wit: var(--tekst-donker-zacht); }
+
+/* ---------- 9. Toegankelijkheid ------------------------------------------ */
+:focus-visible {
+  outline: 3px solid var(--amber-400);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+.op-licht :focus-visible, .op-wit :focus-visible { outline-color: var(--violet-op-wit); }
+
+.springlink {
+  position: absolute;
+  left: 1rem;
+  top: -100%;
+  z-index: 100;
+  padding: 0.8rem 1.2rem;
+  background: var(--amber-400);
+  color: #1a0d00;
+  font-weight: 600;
+  border-radius: var(--hoek);
+  text-decoration: none;
+  transition: top 160ms;
+}
+.springlink:focus { top: 1rem; }
+
+.alleen-voorlezer {
+  position: absolute;
+  width: 1px; height: 1px;
+  padding: 0; margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+/* ---------- 10. Beweging -------------------------------------------------- */
+/* Scroll-onthulling zonder JavaScript. Zonder ondersteuning voor
+   animation-timeline blijft alles gewoon zichtbaar — geen lege pagina. */
+@keyframes komt-op {
+  from { opacity: 0; transform: translateY(26px); }
+  to   { opacity: 1; transform: none; }
+}
+
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .onthul {
+      animation: komt-op linear both;
+      animation-timeline: view();
+      animation-range: entry 0% entry 62%;
+    }
+    /* Items in een raster vouwen zich achter elkaar uit in plaats van
+       tegelijk te verschijnen */
+    .rooster > .onthul:nth-child(2)   { animation-range: entry 4% entry 66%; }
+    .rooster > .onthul:nth-child(3)   { animation-range: entry 8% entry 70%; }
+    .rooster > .onthul:nth-child(4)   { animation-range: entry 12% entry 74%; }
+    .rooster > .onthul:nth-child(n+5) { animation-range: entry 16% entry 78%; }
+  }
+}
+
+@keyframes voortgang { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* ---------- 11. Sfeerlicht ------------------------------------------------ */
+/* De site heeft geen fotografie. Deze verlopen geven diepte aan donkere
+   vlakken, zodat een pagina gevuld oogt zonder beeld. */
+.gloed { position: relative; isolation: isolate; overflow: hidden; }
+.gloed::after {
+  content: "";
+  position: absolute;
+  inset: -30% -10% auto -10%;
+  height: 120%;
+  z-index: -1;
+  background:
+    radial-gradient(52% 46% at 12% 8%,  color-mix(in oklab, var(--oranje-500) 30%, transparent) 0%, transparent 62%),
+    radial-gradient(46% 44% at 88% 22%, color-mix(in oklab, var(--violet-500) 34%, transparent) 0%, transparent 64%),
+    radial-gradient(60% 50% at 58% 92%, color-mix(in oklab, var(--indigo-500) 32%, transparent) 0%, transparent 66%);
+  pointer-events: none;
+}
+
+/* Fijne rasterlijnen: geeft karakter zonder druk te worden */
+.raster-achtergrond { position: relative; isolation: isolate; }
+.raster-achtergrond::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background-image:
+    linear-gradient(to right, color-mix(in oklab, var(--tekst) 6%, transparent) 1px, transparent 1px),
+    linear-gradient(to bottom, color-mix(in oklab, var(--tekst) 6%, transparent) 1px, transparent 1px);
+  background-size: 84px 84px;
+  mask-image: radial-gradient(70% 60% at 50% 0%, #000 0%, transparent 78%);
+  pointer-events: none;
+}
+
+/* ---------- 12. Tabellen -------------------------------------------------- */
+.tabelomhulsel { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; font-size: 0.95rem; }
+th, td { text-align: left; padding: 0.75rem 0.9rem; border-bottom: 1px solid var(--rand); }
+.op-licht th, .op-licht td, .op-wit th, .op-wit td { border-color: var(--rand-licht); }
+th { font-family: "Space Grotesk Variable", sans-serif; font-weight: 600; }

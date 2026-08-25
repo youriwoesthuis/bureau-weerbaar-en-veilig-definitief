@@ -1,0 +1,75 @@
+---
+titel: "Agressietraining voor treinpersoneel, conducteurs en metro- en trambestuurders"
+slug: agressietraining-treinpersoneel-basis
+sector: openbaar-vervoer
+beroepsgroep: treinpersoneel
+niveau: basis
+duur: 1 dag
+groepsgrootte: maximaal 10 deelnemers
+locatie: incompany
+locatie_detail: op eigen locatie of bij Bureau Weerbaar en Veilig in Neede
+certificaat: deelnamecertificaat na afloop
+doelgroep: "Treinpersoneel, conducteurs en metro- en trambestuurders met direct reizigerscontact."
+samenvatting: >-
+  De agressietraining voor treinpersoneel, conducteurs en metro- en
+  trambestuurders van Bureau Weerbaar en Veilig leert medewerkers agressie
+  herkennen en de-escaleren in een rijdend voertuig met beperkte
+  vluchtmogelijkheden. De training duurt 1 dag en telt maximaal 10
+  deelnemers.
+resultaat:
+  - "Verschillende agressievormen herkennen: frustratie, instrumenteel gedrag en gedrag onder invloed"
+  - De-escaleren in een rijdend voertuig zonder vluchtmogelijkheid
+  - Rustig blijven wanneer een reiziger weigert uit te stappen of een groep de coupé verstoort
+  - Verbaal begrenzen bij controle op vervoerbewijzen en bij conflicten tussen reizigers
+  - Handelen bij passagiers onder invloed met onvoorspelbaar gedrag
+  - "Professioneel blijven wanneer je optreden wordt gefilmd, en incidenten correct melden"
+programma:
+  - titel: Agressie in een afgesloten ruimte
+    inhoud: "Wat het betekent om te de-escaleren in een rijdend voertuig zonder vluchtmogelijkheid."
+  - titel: Reguleren onder druk
+    inhoud: Rustig blijven wanneer een reiziger weigert uit te stappen of een groep de coupé verstoort.
+  - titel: "Begrenzen en de-escaleren"
+    inhoud: Verbaal begrenzen bij controle op vervoerbewijzen en bij conflicten tussen reizigers.
+  - titel: Onder invloed
+    inhoud: Handelen bij passagiers onder invloed met onvoorspelbaar gedrag.
+  - titel: "Gefilmd worden, protocol en melden"
+    inhoud: "Professioneel blijven wanneer optreden wordt gefilmd, en incidenten correct melden."
+werkvormen:
+  - "realistische oefeningen met trainers met ov-ervaring"
+  - casuïstiek van de eigen lijnen
+  - theorie alleen waar die de praktijk ondersteunt
+veelgestelde_vragen:
+  - vraag: "Hoe lang duurt de agressietraining voor treinpersoneel, conducteurs en metro- en trambestuurders?"
+    antwoord: De training duurt 1 dag. De groep telt maximaal 10 deelnemers.
+  - vraag: "Voor wie is deze training bedoeld?"
+    antwoord: "Treinpersoneel, conducteurs en metro- en trambestuurders met direct reizigerscontact. Er is geen voorkennis nodig; dit is het instapniveau."
+  - vraag: "Waar vindt de training plaats?"
+    antwoord: "Incompany op de eigen locatie, of bij Bureau Weerbaar en Veilig in Neede (Gelderland)."
+  - vraag: "Krijgen deelnemers een certificaat?"
+    antwoord: "Ja, elke deelnemer ontvangt na afloop een deelnamecertificaat."
+  - vraag: "Wat is het verschil met de andere niveaus?"
+    antwoord: "De basistraining leert treinpersoneel & conducteurs agressie herkennen, de eigen reactie reguleren en situaties de-escaleren. Wie structureel met zwaardere situaties werkt, gaat daarna verder met het gevorderde niveau."
+gerelateerd:
+  - "agressietraining-treinpersoneel-gevorderd"
+  - "agressietraining-treinpersoneel-expert"
+  - "agressietraining-buschauffeurs-basis"
+  - "agressietraining-handhavers-boas-basis"
+afbeelding:
+  src: /images/trainingen/treinpersoneel.jpg
+  alt: "Deelnemers oefenen een praktijksituatie tijdens de agressietraining voor treinpersoneel & conducteurs"
+---
+
+## Waarom deze training
+
+Medewerkers in het rail- en stadsvervoer werken in rijdende voertuigen met beperkte vluchtmogelijkheden en een hoge passagiersdichtheid. Een conflict is er direct zichtbaar voor iedereen.
+
+Zonder training leidt dat tot stress en handelingsverlegenheid bij grensoverschrijdend gedrag. De basistraining van Bureau Weerbaar en Veilig geeft concrete vaardigheden voor precies die omstandigheden.
+
+## Herkenbare praktijksituaties
+
+- Reizigers zonder geldig vervoerbewijs die weigeren uit te stappen
+- Jongeren die de coupé verstoren en intimideren
+- Passagiers onder invloed met onvoorspelbaar gedrag
+- Conflicten tussen reizigers in een rijdend voertuig
+- Verbale agressie op het perron
+- Optreden dat wordt gefilmd voor klachten of sociale media

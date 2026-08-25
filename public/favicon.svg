@@ -1,0 +1,19 @@
+<svg viewBox="0 0 208 208" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Bureau Weerbaar en Veilig">
+  <!--
+    Alleen het beeldmerk uit logo.svg: de cirkel met de dubbele chevron.
+    De woordmerkregels zijn weggelaten, want op 16 bij 16 pixels zijn die
+    onleesbaar. Het verloop is hetzelfde als in het logo.
+  -->
+  <defs>
+    <linearGradient id="bwv" x1="10" y1="34" x2="198" y2="182" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#f18919" />
+      <stop offset="50%" stop-color="#e8801f" />
+      <stop offset="72%" stop-color="#b06a55" />
+      <stop offset="100%" stop-color="#35409b" />
+    </linearGradient>
+  </defs>
+  <rect width="208" height="208" rx="44" fill="#17203d" />
+  <circle cx="104" cy="58" r="26" fill="#f18919" />
+  <path d="M43 58 L104 103 L165 58 L165 93 L104 138 L43 93 Z" fill="url(#bwv)" />
+  <path d="M74 138 L104 161 L165 116 L165 151 L104 196 L74 173 Z" fill="url(#bwv)" />
+</svg>

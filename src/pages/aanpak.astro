@@ -1,0 +1,218 @@
+---
+import { getCollection } from 'astro:content';
+import Basis from '../layouts/Basis.astro';
+import Kruimels from '../components/Kruimels.astro';
+import Chevron from '../components/Chevron.astro';
+import Vragen from '../components/Vragen.astro';
+import Cta from '../components/Cta.astro';
+import { FEITEN, pad } from '../lib/site';
+import { paginaTitel, description } from '../lib/seo';
+
+const [beroepsgroepen, trainingen] = await Promise.all([
+  getCollection('beroepsgroepen'),
+  getCollection('trainingen'),
+]);
+
+const kruimels = [
+  { naam: 'Home', url: pad('/') },
+  { naam: 'Aanpak', url: pad('/aanpak/') },
+];
+
+const openingsantwoord = `Een agressietraining van Bureau Weerbaar en Veilig duurt ${FEITEN.duur}, telt ${FEITEN.groepsgrootte} en wordt incompany gegeven met casuïstiek uit de eigen praktijk van de deelnemers. Er wordt geoefend met een trainer en, waar dat de oefening beter maakt, met een trainingsacteur. Deelnemers ontvangen na afloop een ${FEITEN.certificaat}.`;
+
+const stappen = [
+  {
+    kop: 'Kennismaken en scherpstellen',
+    tekst:
+      'Wat is er gebeurd, wat gebeurt er vaker, en wat heeft het team al geprobeerd? Uit dat gesprek volgt de beroepsgroep, het niveau en de situaties waarmee geoefend gaat worden. Blijkt een training niet het antwoord, dan zeggen we dat.',
+  },
+  {
+    kop: 'Situaties ophalen uit uw praktijk',
+    tekst:
+      'De oefensituaties komen niet uit een map met standaardrollenspellen. Ze komen uit de meldingen, de incidenten en de verhalen van het team zelf. Herkenbaarheid is het verschil tussen meedoen en toekijken.',
+  },
+  {
+    kop: 'De trainingsdag',
+    tekst:
+      'Korte theorieblokken, veel oefenen. Deelnemers krijgen de kans om een situatie meerdere keren over te doen, met andere keuzes, tot het gedrag zit. Niet tot de theorie is uitgelegd.',
+  },
+  {
+    kop: 'Meenemen naar de werkvloer',
+    tekst:
+      'De dag eindigt met wat er maandag anders gaat. Bij niveau expert gaat dat verder: dan wordt vastgelegd wat de teamnorm is, hoe er gemeld wordt en wie de nazorg doet.',
+  },
+];
+
+const uitgangspunten = [
+  {
+    kop: 'Oefenen boven uitleggen',
+    tekst:
+      'Weten wat je moet doen en het kunnen doen terwijl iemand tegen je schreeuwt, zijn twee verschillende dingen. Daarom ligt het zwaartepunt op oefenen.',
+  },
+  {
+    kop: 'Geen angstverhalen',
+    tekst:
+      'De training gaat over vakmanschap, niet over dreiging. Deelnemers moeten na afloop meer grip voelen, niet meer angst.',
+  },
+  {
+    kop: 'Grenzen stellen mag',
+    tekst:
+      'Veel medewerkers denken dat begrenzen onprofessioneel is. De training laat zien dat het omgekeerde waar is: duidelijk zijn is onderdeel van goede dienstverlening en goede zorg.',
+  },
+  {
+    kop: 'De organisatie hoort erbij',
+    tekst:
+      'Een team dat leert de-escaleren in een organisatie die meldingen niet oppakt, houdt het niet vol. Daarom bestaat niveau expert: voor de mensen die daarover gaan.',
+  },
+];
+
+const vragen = [
+  {
+    vraag: 'Hoe lang duurt een agressietraining?',
+    antwoord: `Elke training van Bureau Weerbaar en Veilig duurt ${FEITEN.duur}. Dat geldt voor alle drie de niveaus en voor alle ${beroepsgroepen.length} beroepsgroepen.`,
+  },
+  {
+    vraag: 'Hoeveel deelnemers kunnen er mee?',
+    antwoord: `${FEITEN.groepsgrootte.charAt(0).toUpperCase() + FEITEN.groepsgrootte.slice(1)}. Bij niveau expert is de groep kleiner: ${FEITEN.groepsgrootteExpert}, omdat daar meer ruimte nodig is voor het eigen beleid van de organisatie.`,
+  },
+  {
+    vraag: 'Werken jullie met trainingsacteurs?',
+    antwoord:
+      'Ja, waar dat de oefening beter maakt. Een trainingsacteur kan een situatie precies zo neerzetten als een deelnemer die kent, en kan het gedrag bijstellen zodat er stap voor stap geoefend kan worden.',
+  },
+  {
+    vraag: 'Kan de training bij ons op locatie?',
+    antwoord: `Ja. Bureau Weerbaar en Veilig traint vrijwel altijd incompany, op de locatie van de opdrachtgever. Trainen op onze eigen locatie kan ook: ${FEITEN.locatie}.`,
+  },
+  {
+    vraag: 'Krijgen deelnemers een certificaat?',
+    antwoord: `Deelnemers ontvangen na afloop een ${FEITEN.certificaat}. Dat is geen wettelijk erkend diploma, maar een bewijs van deelname dat organisaties kunnen opnemen in het eigen opleidingsdossier.`,
+  },
+  {
+    vraag: 'Wat kost een training?',
+    antwoord:
+      'De prijs hangt af van het aantal groepen, de locatie en of er een trainingsacteur meekomt. Neem contact op voor een offerte op maat; u krijgt een vaste prijs, geen nacalculatie.',
+  },
+];
+---
+
+<Basis
+  titel={paginaTitel('Onze aanpak van agressietraining')}
+  description={description(openingsantwoord)}
+  niveau="gevorderd"
+  kruimels={kruimels}
+>
+  <section class="kop-sectie gloed raster-achtergrond">
+    <div class="omhulsel kop-binnen">
+      <Kruimels kruimels={kruimels} />
+      <p class="bovenkop">Aanpak</p>
+      <h1 class="display">Oefenen tot<br /><span class="verloopwoord">het gedrag zit</span></h1>
+      <p class="openingsantwoord">{openingsantwoord}</p>
+    </div>
+  </section>
+
+  <section class="sectie">
+    <div class="omhulsel">
+      <div class="kop-blok">
+        <p class="bovenkop">Van eerste gesprek tot werkvloer</p>
+        <h2>Vier stappen</h2>
+      </div>
+
+      <ol class="stappen">
+        {stappen.map((s, i) => (
+          <li class="stap onthul" data-niveau={['basis', 'gevorderd', 'expert', 'basis'][i]}>
+            <span class="stap-nummer" aria-hidden="true">{String(i + 1).padStart(2, '0')}</span>
+            <div class="stap-tekst">
+              <h3>{s.kop}</h3>
+              <p>{s.tekst}</p>
+            </div>
+          </li>
+        ))}
+      </ol>
+    </div>
+  </section>
+
+  <section class="sectie op-licht">
+    <div class="omhulsel">
+      <div class="kop-blok">
+        <p class="bovenkop">Uitgangspunten</p>
+        <h2>Waar we van uitgaan</h2>
+      </div>
+      <div class="rooster rooster-4">
+        {uitgangspunten.map((u, i) => (
+          <article class="kaart onthul" data-niveau={['basis', 'gevorderd', 'expert', 'basis'][i]}>
+            <Chevron aantal={1} breedte="1.3rem" />
+            <h3>{u.kop}</h3>
+            <p>{u.tekst}</p>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="sectie">
+    <div class="omhulsel">
+      <Vragen vragen={vragen} kop="Praktische vragen" groep="aanpakvragen" />
+      <p class="meer">
+        <a href={pad('/trainingen/')} class="pijllink">
+          Bekijk alle {trainingen.length} trainingen
+          <span class="pijl" aria-hidden="true">→</span>
+        </a>
+      </p>
+    </div>
+  </section>
+
+  <Cta />
+</Basis>
+
+<style>
+  .kop-sectie {
+    background: var(--inkt-950);
+    padding-block: clamp(1.5rem, 1rem + 2vw, 2.5rem) clamp(3rem, 2rem + 4vw, 5.5rem);
+  }
+  .kop-binnen { display: grid; gap: 1.25rem; justify-items: start; }
+  .verloopwoord {
+    background: var(--verloop-merk);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  .stappen {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: clamp(1rem, 0.8rem + 1vw, 1.5rem);
+    counter-reset: stap;
+  }
+
+  .stap {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
+    gap: clamp(1rem, 0.8rem + 1vw, 1.75rem);
+    align-items: start;
+    padding: clamp(1.25rem, 1rem + 1vw, 1.9rem);
+    background: var(--inkt-850);
+    border: 1px solid var(--rand);
+    border-left: 3px solid var(--niveau);
+    border-radius: var(--hoek);
+    transition: background 200ms, transform 200ms cubic-bezier(0.2, 0.7, 0.3, 1);
+  }
+  .stap:hover { background: var(--inkt-800); transform: translateX(3px); }
+
+  .stap-nummer {
+    font-family: 'Space Grotesk Variable', sans-serif;
+    font-size: clamp(1.8rem, 1.4rem + 1.4vw, 2.6rem);
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: -0.05em;
+    color: var(--niveau);
+    opacity: 0.55;
+  }
+  .stap-tekst { display: grid; gap: 0.5rem; }
+  .stap-tekst h3 { font-size: clamp(1.15rem, 1.05rem + 0.5vw, 1.4rem); }
+  .stap-tekst p { color: var(--tekst-zacht); max-width: 46rem; }
+
+  .meer { margin-top: clamp(1.5rem, 1.2rem + 1vw, 2.5rem); }
+</style>

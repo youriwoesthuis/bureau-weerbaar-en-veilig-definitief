@@ -1,0 +1,107 @@
+---
+/**
+ * Veelgestelde vragen als uitklapbare lijst.
+ * <details> werkt zonder JavaScript en is standaard toegankelijk;
+ * `name` zorgt dat er telkens één openstaat (accordeon-gedrag in CSS).
+ */
+interface Props {
+  vragen: { vraag: string; antwoord: string }[];
+  kop?: string;
+  groep?: string;
+}
+const { vragen, kop = 'Veelgestelde vragen', groep = 'vragen' } = Astro.props;
+---
+
+{vragen.length > 0 && (
+  <div class="vragen">
+    <h2>{kop}</h2>
+    <div class="vragenlijst">
+      {vragen.map((v) => (
+        <details name={groep}>
+          <summary>
+            <span>{v.vraag}</span>
+            <span class="teken" aria-hidden="true"></span>
+          </summary>
+          <div class="antwoord"><p>{v.antwoord}</p></div>
+        </details>
+      ))}
+    </div>
+  </div>
+)}
+
+<style>
+  .vragen h2 { margin-bottom: clamp(1.25rem, 1rem + 1vw, 2rem); }
+
+  .vragenlijst {
+    display: grid;
+    gap: 1px;
+    background: var(--rand);
+    border: 1px solid var(--rand);
+    border-radius: var(--hoek);
+    overflow: hidden;
+    max-width: 52rem;
+  }
+
+  details { background: var(--inkt-850); }
+
+  summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    min-height: 3.25rem;
+    padding: 1rem clamp(1rem, 0.85rem + 0.6vw, 1.4rem);
+    cursor: pointer;
+    list-style: none;
+    font-family: 'Space Grotesk Variable', sans-serif;
+    font-size: 1.02rem;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    transition: background 160ms, color 160ms;
+  }
+  summary::-webkit-details-marker { display: none; }
+  summary:hover { background: var(--inkt-800); color: var(--oranje-400); }
+
+  /* Het plusteken wordt een minteken als de vraag openstaat. */
+  .teken {
+    position: relative;
+    flex: none;
+    width: 1rem;
+    height: 1rem;
+  }
+  .teken::before,
+  .teken::after {
+    content: '';
+    position: absolute;
+    inset: 50% 0 auto 0;
+    height: 2px;
+    background: var(--oranje-500);
+    transition: transform 200ms cubic-bezier(0.2, 0.7, 0.3, 1);
+  }
+  .teken::after { transform: rotate(90deg); }
+  details[open] .teken::after { transform: rotate(0deg); }
+
+  .antwoord {
+    padding: 0 clamp(1rem, 0.85rem + 0.6vw, 1.4rem) 1.25rem;
+    color: var(--tekst-zacht);
+    max-width: 46rem;
+  }
+  details[open] > .antwoord {
+    animation: vouw-uit 220ms cubic-bezier(0.2, 0.7, 0.3, 1) both;
+  }
+  @keyframes vouw-uit {
+    from { opacity: 0; transform: translateY(-6px); }
+    to { opacity: 1; transform: none; }
+  }
+
+  :global(.op-licht) .vragenlijst,
+  :global(.op-wit) .vragenlijst { background: var(--rand-licht); border-color: var(--rand-licht); }
+  :global(.op-licht) details,
+  :global(.op-wit) details { background: var(--wit); }
+  :global(.op-licht) summary:hover,
+  :global(.op-wit) summary:hover { background: var(--mist-50); color: var(--oranje-op-wit); }
+  :global(.op-licht) .teken::before, :global(.op-licht) .teken::after,
+  :global(.op-wit) .teken::before, :global(.op-wit) .teken::after { background: var(--oranje-op-wit); }
+  :global(.op-licht) .antwoord,
+  :global(.op-wit) .antwoord { color: var(--tekst-donker-zacht); }
+</style>

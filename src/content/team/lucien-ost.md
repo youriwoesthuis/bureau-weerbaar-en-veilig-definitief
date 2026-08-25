@@ -1,0 +1,15 @@
+---
+naam: Lucien Ost
+rol: Trainingsacteur en co-trainer
+foto:
+  src: /images/team/lucien-ost.jpg
+  alt: Portretfoto van Lucien Ost, trainingsacteur en co-trainer
+volgorde: 5
+---
+
+"Sinds 2003 ben ik werkzaam als trainingsacteur en sinds een paar jaar ook als
+co-trainer. Ik vind het fijn om te spelen, maar doe dit werk voornamelijk omdat ik
+het zeer waardevol vind om deelnemers door middel van spel iets te kunnen leren.
+Mijn expertise is agressiecommunicatie en alles wat aan vervelend gedrag linkt.
+Mijn kwaliteiten zijn realistische situaties neerzetten en opbouwende feedback
+geven. Naast hard werken maken we het in een training ook gezellig."

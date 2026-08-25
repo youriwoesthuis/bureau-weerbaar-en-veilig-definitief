@@ -1,0 +1,48 @@
+---
+interface Props {
+  kruimels: { naam: string; url: string }[];
+}
+const { kruimels } = Astro.props;
+---
+
+<nav class="kruimels" aria-label="Kruimelpad">
+  <ol>
+    {kruimels.map((k, i) => (
+      <li>
+        {i < kruimels.length - 1 ? (
+          <>
+            <a href={k.url}>{k.naam}</a>
+            <span class="scheider" aria-hidden="true">/</span>
+          </>
+        ) : (
+          <span aria-current="page">{k.naam}</span>
+        )}
+      </li>
+    ))}
+  </ol>
+</nav>
+
+<style>
+  .kruimels { font-size: 0.85rem; }
+  .kruimels ol {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.4rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .kruimels li { display: flex; align-items: center; gap: 0.4rem; }
+  .kruimels a { color: var(--tekst-gedempt); text-decoration: none; }
+  .kruimels a:hover { color: var(--oranje-400); text-decoration: underline; text-underline-offset: 3px; }
+  .kruimels [aria-current='page'] { color: var(--tekst-zacht); }
+  .scheider { color: var(--tekst-gedempt); opacity: 0.5; }
+
+  :global(.op-licht) .kruimels a,
+  :global(.op-wit) .kruimels a { color: var(--tekst-donker-zacht); }
+  :global(.op-licht) .kruimels a:hover,
+  :global(.op-wit) .kruimels a:hover { color: var(--oranje-op-wit); }
+  :global(.op-licht) .kruimels [aria-current='page'],
+  :global(.op-wit) .kruimels [aria-current='page'] { color: var(--tekst-donker); }
+</style>

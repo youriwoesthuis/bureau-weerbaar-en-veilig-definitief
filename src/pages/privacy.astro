@@ -1,0 +1,99 @@
+---
+import Basis from '../layouts/Basis.astro';
+import Kruimels from '../components/Kruimels.astro';
+import { SITE, pad } from '../lib/site';
+import { paginaTitel, description } from '../lib/seo';
+
+const kruimels = [
+  { naam: 'Home', url: pad('/') },
+  { naam: 'Privacy', url: pad('/privacy/') },
+];
+
+const openingsantwoord = `Bureau Weerbaar en Veilig verwerkt alleen de gegevens die u zelf achterlaat via het contactformulier, per e-mail of per telefoon. Deze website plaatst geen trackingcookies en gebruikt geen analysesoftware die u volgt.`;
+---
+
+<Basis
+  titel={paginaTitel('Privacyverklaring')}
+  description={description(openingsantwoord)}
+  niveau="geen"
+  kruimels={kruimels}
+>
+  <section class="kop-sectie">
+    <div class="omhulsel kop-binnen">
+      <Kruimels kruimels={kruimels} />
+      <p class="bovenkop">Privacy</p>
+      <h1>Privacyverklaring</h1>
+      <p class="openingsantwoord">{openingsantwoord}</p>
+    </div>
+  </section>
+
+  <section class="sectie op-licht">
+    <div class="omhulsel">
+      <div class="leestekst">
+        <h2>Welke gegevens worden verwerkt</h2>
+        <p>
+          Bureau Weerbaar en Veilig verwerkt uitsluitend gegevens die u zelf
+          verstrekt: uw naam, organisatie, e-mailadres, telefoonnummer en de
+          inhoud van uw bericht. Er worden geen gegevens gekocht, verrijkt of
+          gecombineerd met andere bronnen.
+        </p>
+
+        <h2>Waarvoor worden ze gebruikt</h2>
+        <p>
+          Alleen om op uw vraag of aanvraag te reageren en, als daar een
+          opdracht uit volgt, om de training te kunnen organiseren en
+          factureren. Uw gegevens worden niet gebruikt voor nieuwsbrieven of
+          reclame zonder dat u daar expliciet om vraagt.
+        </p>
+
+        <h2>Hoe lang worden ze bewaard</h2>
+        <p>
+          Aanvragen die niet tot een opdracht leiden worden na uiterlijk twee
+          jaar verwijderd. Gegevens die bij een opdracht horen bewaart Bureau
+          Weerbaar en Veilig zeven jaar, omdat de Belastingdienst dat voor de
+          administratie voorschrijft.
+        </p>
+
+        <h2>Delen met anderen</h2>
+        <p>
+          Uw gegevens worden niet doorverkocht en niet gedeeld met derden, met
+          twee uitzonderingen: de partij die het contactformulier verwerkt en
+          onze boekhouding, beide alleen voor zover dat nodig is om hun werk te
+          doen.
+        </p>
+
+        <h2>Cookies</h2>
+        <p>
+          Deze website plaatst geen trackingcookies en gebruikt geen
+          analyseprogramma dat uw gedrag volgt. Er is daarom ook geen
+          cookiebanner: er valt niets te weigeren.
+        </p>
+
+        <h2>Uw rechten</h2>
+        <p>
+          U mag opvragen welke gegevens er over u zijn vastgelegd, ze laten
+          corrigeren of laten verwijderen. Stuur daarvoor een e-mail naar
+          <a href={`mailto:${SITE.email}`}>{SITE.email}</a>. U krijgt binnen vier
+          weken antwoord. Bent u het oneens met de afhandeling, dan kunt u een
+          klacht indienen bij de Autoriteit Persoonsgegevens.
+        </p>
+
+        <h2>Contactgegevens</h2>
+        <p>
+          {SITE.naam}<br />
+          {SITE.adres.straat}, {SITE.adres.postcode} {SITE.adres.plaats}<br />
+          <a href={`tel:${SITE.telefoonUri}`}>{SITE.telefoon}</a> ·
+          <a href={`mailto:${SITE.email}`}>{SITE.email}</a>
+        </p>
+      </div>
+    </div>
+  </section>
+</Basis>
+
+<style>
+  .kop-sectie {
+    background: var(--inkt-950);
+    padding-block: clamp(1.5rem, 1rem + 2vw, 2.5rem) clamp(2.5rem, 2rem + 3vw, 4rem);
+  }
+  .kop-binnen { display: grid; gap: 1.15rem; justify-items: start; }
+</style>

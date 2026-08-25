@@ -1,0 +1,174 @@
+---
+import { getCollection, render } from 'astro:content';
+import Basis from '../../../layouts/Basis.astro';
+import Kruimels from '../../../components/Kruimels.astro';
+import Chevron from '../../../components/Chevron.astro';
+import Statistieken from '../../../components/Statistieken.astro';
+import Cta from '../../../components/Cta.astro';
+import { NIVEAUS, NIVEAU_INFO, pad } from '../../../lib/site';
+import { paginaTitel, description } from '../../../lib/seo';
+
+export async function getStaticPaths() {
+  const sectoren = await getCollection('sectoren');
+  return sectoren.map((s) => ({ params: { sector: s.data.slug }, props: { sector: s } }));
+}
+
+const { sector } = Astro.props;
+const d = sector.data;
+const { Content } = await render(sector);
+
+const [beroepsgroepen, trainingen] = await Promise.all([
+  getCollection('beroepsgroepen'),
+  getCollection('trainingen'),
+]);
+
+const groepen = beroepsgroepen
+  .filter((b) => b.data.sector === d.slug)
+  .sort((a, b) => a.data.naam.localeCompare(b.data.naam, 'nl'));
+
+const sectorTrainingen = trainingen.filter((t) => t.data.sector === d.slug);
+
+const kruimels = [
+  { naam: 'Home', url: pad('/') },
+  { naam: 'Sectoren', url: pad('/sectoren/') },
+  { naam: d.naam, url: pad(`/sectoren/${d.slug}/`) },
+];
+
+const cijfers = [
+  { waarde: groepen.length, label: 'beroepsgroepen in deze sector' },
+  { waarde: sectorTrainingen.length, label: 'trainingen beschikbaar' },
+  { waarde: 3, label: 'niveaus per beroepsgroep' },
+];
+---
+
+<Basis
+  titel={paginaTitel(`Agressietraining ${d.naam.toLowerCase()}`)}
+  description={description(d.samenvatting)}
+  niveau="basis"
+  kruimels={kruimels}
+>
+  <section class="sector-kop gloed raster-achtergrond">
+    <div class="omhulsel sector-kop-binnen">
+      <Kruimels kruimels={kruimels} />
+      <p class="bovenkop">Sector</p>
+      <h1 class="display sector-titel">{d.naam}</h1>
+      <p class="openingsantwoord">{d.samenvatting}</p>
+    </div>
+  </section>
+
+  <section class="sectie-krap">
+    <div class="omhulsel">
+      <Statistieken cijfers={cijfers} />
+    </div>
+  </section>
+
+  <section class="sectie op-licht">
+    <div class="omhulsel">
+      <div class="kop-blok">
+        <p class="bovenkop">Beroepsgroepen</p>
+        <h2>Kies de beroepsgroep die u traint</h2>
+        <p class="inleiding">
+          Elke beroepsgroep heeft een eigen pagina met drie niveaus en een
+          training die op dat vak is geschreven.
+        </p>
+      </div>
+
+      <div class="rooster rooster-3">
+        {groepen.map((b) => {
+          const eigen = trainingen.filter((t) => t.data.beroepsgroep === b.data.slug);
+          return (
+            <article class="kaart groepkaart onthul" data-niveau="basis">
+              <h3>
+                <a href={pad(`/sectoren/${d.slug}/${b.data.slug}/`)} class="dekkende-link">
+                  {b.data.naam}
+                </a>
+              </h3>
+              <p>{description(b.data.samenvatting, 130)}</p>
+              <ul class="niveaurij">
+                {NIVEAUS.filter((n) => eigen.some((t) => t.data.niveau === n)).map((n) => (
+                  <li data-niveau={n}><span class="stip" aria-hidden="true"></span>{NIVEAU_INFO[n].naam}</li>
+                ))}
+              </ul>
+            </article>
+          );
+        })}
+      </div>
+    </div>
+  </section>
+
+  <section class="sectie">
+    <div class="omhulsel">
+      <div class="kop-blok">
+        <p class="bovenkop">Over deze sector</p>
+        <h2>Agressie in {d.naam.toLowerCase()}</h2>
+      </div>
+      <div class="leestekst"><Content /></div>
+    </div>
+  </section>
+
+  <section class="sectie op-licht">
+    <div class="omhulsel">
+      <div class="kop-blok">
+        <p class="bovenkop">De drie niveaus</p>
+        <h2>Waar begint uw team?</h2>
+      </div>
+      <div class="rooster rooster-3">
+        {NIVEAUS.map((n) => (
+          <a href={pad(`/niveaus/${n}/`)} class="kaart onthul" data-niveau={n}>
+            <Chevron aantal={1} breedte="1.3rem" />
+            <span class="badge">{NIVEAU_INFO[n].naam}</span>
+            <h3>{NIVEAU_INFO[n].kort}</h3>
+            <p>{NIVEAU_INFO[n].omschrijving}</p>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <Cta
+    kop={`Agressietraining in de sector ${d.naam.toLowerCase()}?`}
+    tekst="Bureau Weerbaar en Veilig traint incompany, met casuïstiek uit uw eigen praktijk. Vertel wat er speelt, dan denken we mee over beroepsgroep en niveau."
+  />
+</Basis>
+
+<style>
+  .sector-kop {
+    background: var(--inkt-950);
+    padding-block: clamp(1.5rem, 1rem + 2vw, 2.5rem) clamp(3rem, 2rem + 4vw, 5.5rem);
+  }
+  .sector-kop-binnen { display: grid; gap: 1.25rem; justify-items: start; }
+  .sector-titel {
+    background: var(--verloop-merk);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  /* De hele kaart is klikbaar, maar er is één echte link — beter voor
+     voorlezers dan een link om het hele blok heen. */
+  .groepkaart { position: relative; }
+  .dekkende-link { color: inherit; text-decoration: none; }
+  .dekkende-link::after { content: ''; position: absolute; inset: 0; }
+  .groepkaart:hover .dekkende-link { color: var(--oranje-op-wit); }
+
+  .niveaurij {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem 0.9rem;
+    list-style: none;
+    padding: 0;
+    margin-top: auto;
+    padding-top: 0.5rem;
+    font-family: 'Space Grotesk Variable', sans-serif;
+    font-size: 0.82rem;
+    color: var(--tekst-donker-zacht);
+  }
+  .niveaurij li { display: flex; align-items: center; gap: 0.4rem; }
+  .stip {
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background: var(--niveau-op-wit);
+    flex: none;
+  }
+</style>

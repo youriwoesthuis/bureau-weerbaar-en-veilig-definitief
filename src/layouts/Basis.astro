@@ -1,0 +1,85 @@
+---
+import '@fontsource-variable/space-grotesk';
+import '@fontsource-variable/inter';
+import '../styles/global.css';
+
+import Kop from '../components/Kop.astro';
+import Voet from '../components/Voet.astro';
+import { SITE } from '../lib/site';
+import { organisatieSchema, breadcrumbSchema } from '../lib/seo';
+
+interface Props {
+  titel: string;
+  description: string;
+  /** extra schema.org-blokken, komen in dezelfde @graph */
+  schema?: unknown[];
+  kruimels?: { naam: string; url: string }[];
+  /** zet de niveaukleur voor de hele pagina */
+  niveau?: 'basis' | 'gevorderd' | 'expert' | 'geen';
+  noindex?: boolean;
+}
+
+const {
+  titel,
+  description,
+  schema = [],
+  kruimels = [],
+  niveau = 'geen',
+  noindex = false,
+} = Astro.props;
+
+const canonical = new URL(Astro.url.pathname, Astro.site).href;
+const siteUrl = new URL(import.meta.env.BASE_URL, Astro.site).href;
+const ogAfbeelding = new URL('og-afbeelding.png', siteUrl).href;
+
+const graaf = [
+  organisatieSchema(siteUrl),
+  {
+    '@type': 'WebSite',
+    '@id': `${siteUrl}#website`,
+    url: siteUrl,
+    name: SITE.naam,
+    inLanguage: 'nl-NL',
+    publisher: { '@id': `${siteUrl}#organisatie` },
+  },
+  ...(kruimels.length > 1 ? [breadcrumbSchema(siteUrl, kruimels)] : []),
+  ...schema,
+].filter(Boolean);
+---
+
+<!doctype html>
+<html lang="nl" data-niveau={niveau}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{titel}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    {noindex && <meta name="robots" content="noindex, follow" />}
+
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="nl_NL" />
+    <meta property="og:site_name" content={SITE.naam} />
+    <meta property="og:title" content={titel} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={ogAfbeelding} />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <meta name="theme-color" content="#0b0d26" />
+    <link rel="icon" href={new URL('favicon.svg', siteUrl).pathname} type="image/svg+xml" />
+
+    <script
+      type="application/ld+json"
+      set:html={JSON.stringify({ '@context': 'https://schema.org', '@graph': graaf })}
+    />
+  </head>
+
+  <body>
+    <Kop />
+    <main id="hoofd">
+      <slot />
+    </main>
+    <Voet />
+  </body>
+</html>

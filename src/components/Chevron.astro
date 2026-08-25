@@ -1,0 +1,61 @@
+---
+/**
+ * De dubbele chevron uit het logo, als bouwelement.
+ * Wordt gebruikt als sectiemarkering, opsommingsteken en hoekafsluiting —
+ * niet als achtergrondbehang, want dan draagt hij niets bij.
+ */
+interface Props {
+  /** aantal chevrons onder elkaar */
+  aantal?: 1 | 2 | 3;
+  /** true = met de bol erboven, zoals in het volledige beeldmerk */
+  bol?: boolean;
+  breedte?: string;
+  verloop?: boolean;
+  class?: string;
+}
+
+const { aantal = 2, bol = false, breedte = '2.5rem', verloop = false, class: klasse = '' } = Astro.props;
+
+const bandHoogte = 30;
+const punt = 45;
+const stap = 42;
+const start = bol ? 46 : 0;
+const totaleHoogte = start + (aantal - 1) * stap + punt + bandHoogte;
+
+// Uniek id per instantie, anders pakken meerdere verlopen op één pagina
+// elkaars definitie.
+const id = `chev-${Math.random().toString(36).slice(2, 9)}`;
+const vulling = verloop ? `url(#${id})` : 'currentColor';
+---
+
+<svg
+  class={`chevron ${klasse}`}
+  style={`width:${breedte}`}
+  viewBox={`0 0 100 ${totaleHoogte}`}
+  fill="none"
+  aria-hidden="true"
+  focusable="false"
+>
+  {verloop && (
+    <defs>
+      <linearGradient id={id} x1="0" y1="0" x2="0.4" y2="1">
+        <stop offset="0%" stop-color="#ff9838" />
+        <stop offset="30%" stop-color="#ff7a18" />
+        <stop offset="70%" stop-color="#9333ea" />
+        <stop offset="100%" stop-color="#3b47d4" />
+      </linearGradient>
+    </defs>
+  )}
+
+  {bol && <circle cx="50" cy="18" r="18" fill={vulling} />}
+
+  {Array.from({ length: aantal }).map((_, i) => {
+    const y = start + i * stap;
+    return (
+      <path
+        d={`M0 ${y} L50 ${y + punt} L100 ${y} L100 ${y + bandHoogte} L50 ${y + punt + bandHoogte} L0 ${y + bandHoogte} Z`}
+        fill={vulling}
+      />
+    );
+  })}
+</svg>
