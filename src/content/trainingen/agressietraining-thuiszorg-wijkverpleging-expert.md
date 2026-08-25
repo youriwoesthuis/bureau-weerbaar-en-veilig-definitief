@@ -7,7 +7,7 @@ niveau: expert
 duur: 1 dag
 groepsgrootte: maximaal 8 deelnemers
 locatie: incompany
-locatie_detail: op eigen locatie of bij Bureau Weerbaar en Veilig in Neede
+locatie_detail: bij jullie op locatie, in heel Nederland
 certificaat: deelnamecertificaat na afloop
 voorwaarde: leidinggevende of coördinerende verantwoordelijkheid voor een thuiszorgteam
 doelgroep: "Teamleiders, zorgcoördinatoren en managers in de thuiszorg en wijkverpleging."
@@ -16,7 +16,7 @@ samenvatting: >-
   wijkverpleging van Bureau Weerbaar en Veilig leert teamleiders
   veiligheidsbeleid voor thuisbezoeken opstellen, risicovolle
   cliëntsituaties vertalen naar afspraken en medewerkers coachen na
-  incidenten. De training duurt 1 dag en telt maximaal 8 deelnemers, met een intervisiebijeenkomst na 6 weken.
+  incidenten. De training duurt 1 dag en telt maximaal 8 deelnemers.
 resultaat:
   - Helder veiligheidsbeleid voor thuisbezoeken opstellen
   - Risicovolle cliëntsituaties signaleren en vertalen naar veiligheidsafspraken
@@ -38,7 +38,7 @@ programma:
 werkvormen:
   - analyse van bestaand beleid en cliëntpopulatie
   - beleidsmatige verdieping gecombineerd met concrete protocollen
-  - intervisie na 6 weken
+  - intervisie na afloop (op verzoek)
 veelgestelde_vragen:
   - vraag: "Hoe zit de intervisie in het programma?"
     antwoord: "De training bestaat uit 1 dag, waarvan de tweede na ongeveer 6 weken plaatsvindt. Deelnemers brengen dan hun eigen casussen en de voortgang van de implementatie in."

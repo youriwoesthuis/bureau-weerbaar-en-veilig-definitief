@@ -7,7 +7,7 @@ niveau: expert
 duur: 1 dag
 groepsgrootte: maximaal 8 deelnemers
 locatie: incompany
-locatie_detail: op eigen locatie of bij Bureau Weerbaar en Veilig in Neede
+locatie_detail: bij jullie op locatie, in heel Nederland
 certificaat: deelnamecertificaat na afloop
 voorwaarde: leidinggevende of eigenaarverantwoordelijkheid voor een uitvaartonderneming of team
 doelgroep: "Uitvaartondernemers, praktijkmanagers en leidinggevenden die verantwoordelijk zijn voor de veiligheid van hun medewerkers."
@@ -15,7 +15,7 @@ samenvatting: >-
   De expert agressietraining voor uitvaartondernemers en leidinggevenden
   van Bureau Weerbaar en Veilig leert leidinggevenden beleid opstellen
   over het beëindigen van dienstverlening bij grensoverschrijdend gedrag
-  en teambeleid implementeren voor risicosituaties. De training duurt 1 dag en telt maximaal 8 deelnemers, met een intervisiebijeenkomst na 6 weken.
+  en teambeleid implementeren voor risicosituaties. De training duurt 1 dag en telt maximaal 8 deelnemers.
 resultaat:
   - Beleid opstellen over het beëindigen van dienstverlening bij grensoverschrijdend gedrag
   - Teambeleid implementeren voor probleemfamilies en risicosituaties
@@ -31,12 +31,12 @@ programma:
     inhoud: Eenduidige afspraken voor probleemfamilies en hoogrisicosituaties.
   - titel: "Coachen, reputatie en meldcultuur"
     inhoud: "Debriefing en nazorg inrichten, omgaan met online beschuldigingen en zorgen dat incidenten gemeld worden."
-  - titel: Intervisie na 6 weken
+  - titel: Intervisie na afloop (op verzoek)
     inhoud: Terugkombijeenkomst over de implementatie.
 werkvormen:
   - "analyse van beleid, klantenpopulatie en veiligheidscultuur"
   - maatwerk op basis van een intakegesprek
-  - intervisie na 6 weken
+  - intervisie na afloop (op verzoek)
 veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Uitvaartondernemers, praktijkmanagers en leidinggevenden die verantwoordelijk zijn voor de veiligheid van hun medewerkers. Voorwaarde voor deelname: leidinggevende of eigenaarverantwoordelijkheid voor een uitvaartonderneming of team."

@@ -7,7 +7,7 @@ niveau: expert
 duur: 1 dag
 groepsgrootte: maximaal 8 deelnemers
 locatie: incompany
-locatie_detail: op eigen locatie of bij Bureau Weerbaar en Veilig in Neede
+locatie_detail: bij jullie op locatie, in heel Nederland
 certificaat: deelnamecertificaat na afloop
 voorwaarde: leidinggevende of coördinerende functie met aantoonbare werkervaring met agressie
 doelgroep: "Rayonmanagers, teamleiders, veiligheidscoördinatoren en senior medewerkers in leidinggevende rollen bij ambulancediensten."

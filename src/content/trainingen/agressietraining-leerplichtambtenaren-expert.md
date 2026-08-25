@@ -7,7 +7,7 @@ niveau: expert
 duur: 1 dag
 groepsgrootte: maximaal 8 deelnemers
 locatie: incompany
-locatie_detail: op eigen locatie of bij Bureau Weerbaar en Veilig in Neede
+locatie_detail: bij jullie op locatie, in heel Nederland
 certificaat: deelnamecertificaat na afloop
 voorwaarde: coördinerende of leidinggevende verantwoordelijkheid voor een leerplichtteam
 doelgroep: "Coördinatoren leerplicht, teamleiders en beleidsmedewerkers bij gemeenten die verantwoordelijk zijn voor de veiligheid van het leerplichtwerk."
@@ -16,7 +16,7 @@ samenvatting: >-
   leerplichtambtenaren van Bureau Weerbaar en Veilig leert coördinatoren
   een veiligheidsprotocol voor solo-huisbezoeken ontwikkelen,
   ketensamenwerking organiseren en medewerkers coachen na incidenten. De
-  training duurt 1 dag en telt maximaal 8 deelnemers, met een intervisiebijeenkomst na 6 weken.
+  training duurt 1 dag en telt maximaal 8 deelnemers.
 resultaat:
   - "Een veiligheidsprotocol voor solo-huisbezoeken ontwikkelen"
   - Ketensamenwerking met jeugdzorg en politie organiseren
@@ -33,12 +33,12 @@ programma:
     inhoud: Beleid opstellen voor gezinnen waar agressie een patroon is.
   - titel: Coachen en juridische ondersteuning
     inhoud: Debriefing na incidenten inrichten en medewerkers bijstaan bij juridische dreiging.
-  - titel: Intervisie na 6 weken
+  - titel: Intervisie na afloop (op verzoek)
     inhoud: Terugkombijeenkomst over de implementatie binnen de gemeente.
 werkvormen:
   - "analyse van veiligheidsbeleid, incidentrapportages en ketensamenwerking"
   - beleidsverdieping met concrete protocollen
-  - intervisie na 6 weken
+  - intervisie na afloop (op verzoek)
 veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Coördinatoren leerplicht, teamleiders en beleidsmedewerkers bij gemeenten die verantwoordelijk zijn voor de veiligheid van het leerplichtwerk. Voorwaarde voor deelname: coördinerende of leidinggevende verantwoordelijkheid voor een leerplichtteam."

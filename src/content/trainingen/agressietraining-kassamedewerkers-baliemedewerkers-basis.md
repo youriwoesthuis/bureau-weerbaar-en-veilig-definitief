@@ -7,7 +7,7 @@ niveau: basis
 duur: 1 dag
 groepsgrootte: maximaal 10 deelnemers
 locatie: incompany
-locatie_detail: op eigen vestiging of bij Bureau Weerbaar en Veilig in Neede
+locatie_detail: bij jullie op locatie, in heel Nederland
 certificaat: deelnamecertificaat na afloop
 doelgroep: Alle kassamedewerkers en baliemedewerkers in de retail die dagelijks klanten helpen en verbale agressie of intimidatie willen leren herkennen en de-escaleren.
 samenvatting: >-
@@ -15,7 +15,7 @@ samenvatting: >-
   Weerbaar en Veilig leert medewerkers in de frontlinie van de winkel
   agressievormen herkennen, hun eigen reactie reguleren en conflicten aan kassa
   en balie vroegtijdig de-escaleren. De training duurt 1 dag, telt maximaal 10
-  deelnemers en wordt incompany of in Neede gegeven.
+  deelnemers en wordt bij jullie op locatie gegeven.
 resultaat:
   - Verschillende agressievormen herkennen
   - De eigen reactie reguleren onder druk

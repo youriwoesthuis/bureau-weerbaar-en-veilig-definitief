@@ -65,8 +65,10 @@ const schema = [faqSchema(d.veelgestelde_vragen)].filter(Boolean);
         <h1>Agressietraining voor {d.naam.toLowerCase()}</h1>
         <p class="openingsantwoord">{d.samenvatting}</p>
 
+        {/* Hier stond "{eigen.length} trainingen". Aantallen noemen we niet;
+            zie BESLUITEN.md hoofdstuk 3. */}
         <ul class="snelfeiten">
-          <li><strong>{eigen.length}</strong> trainingen</li>
+          <li><strong>Drie niveaus</strong> basis, gevorderd, expert</li>
           <li><strong>{FEITEN.duur}</strong> per training</li>
           <li><strong>{FEITEN.groepsgrootte}</strong></li>
         </ul>
@@ -84,7 +86,7 @@ const schema = [faqSchema(d.veelgestelde_vragen)].filter(Boolean);
         <p class="bovenkop">Kies een niveau</p>
         <h2>Drie niveaus voor {d.naam.toLowerCase()}</h2>
         <p class="inleiding">
-          De niveaus bouwen op elkaar voort. Weet u niet zeker welk niveau past?
+          De niveaus bouwen op elkaar voort. Weet je niet zeker welk niveau past?
           Bureau Weerbaar en Veilig denkt mee.
         </p>
       </div>
@@ -134,7 +136,7 @@ const schema = [faqSchema(d.veelgestelde_vragen)].filter(Boolean);
           groep={`vragen-${d.slug}`}
         />
         <p class="vragen-voet">
-          Staat uw vraag er niet bij? <a href={pad('/contact/')}>Stel hem rechtstreeks</a>,
+          Staat je vraag er niet bij? <a href={pad('/contact/')}>Stel hem rechtstreeks</a>,
           of lees eerst <a href={pad('/aanpak/')}>hoe Bureau Weerbaar en Veilig werkt</a> en
           <a href={pad('/over-ons/')}>wie de trainingen geven</a>.
         </p>
@@ -144,7 +146,7 @@ const schema = [faqSchema(d.veelgestelde_vragen)].filter(Boolean);
 
   <Cta
     kop={`Agressietraining voor ${d.naam.toLowerCase()}?`}
-    tekst="Vertel wat er speelt in uw organisatie. Bureau Weerbaar en Veilig adviseert over het juiste niveau en stemt de casuïstiek af op uw praktijk."
+    tekst="Vertel wat er speelt in jullie organisatie. Bureau Weerbaar en Veilig adviseert over het juiste niveau en stemt de casuïstiek af op jullie praktijk."
   />
 </Basis>
 

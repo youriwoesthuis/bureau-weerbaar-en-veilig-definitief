@@ -7,7 +7,7 @@ niveau: expert
 duur: 1 dag
 groepsgrootte: maximaal 8 deelnemers
 locatie: incompany
-locatie_detail: op eigen locatie of bij Bureau Weerbaar en Veilig in Neede
+locatie_detail: bij jullie op locatie, in heel Nederland
 certificaat: deelnamecertificaat na afloop
 voorwaarde: leidinggevende verantwoordelijkheid voor een team medewerkers vergunningverlening of bezwaar en beroep
 doelgroep: "Teamleiders, afdelingshoofden en managers bij gemeentelijke en regionale uitvoeringsorganisaties die verantwoordelijk zijn voor veiligheid."
@@ -15,7 +15,7 @@ samenvatting: >-
   De expert agressietraining voor leidinggevenden vergunningverlening en
   bezwaar en beroep van Bureau Weerbaar en Veilig leert leidinggevenden
   protocollen opstellen voor dossiers met hoog agressierisico en
-  medewerkers ondersteunen na intimidatiecampagnes. De training duurt 1 dag en telt maximaal 8 deelnemers, met een intervisiebijeenkomst na 6 weken.
+  medewerkers ondersteunen na intimidatiecampagnes. De training duurt 1 dag en telt maximaal 8 deelnemers.
 resultaat:
   - Een protocol opstellen voor dossiers met hoog agressierisico
   - Beleid ontwikkelen voor structureel grensoverschrijdend gedrag
@@ -32,12 +32,12 @@ programma:
     inhoud: Medewerkers begeleiden die een negatief besluit moeten communiceren.
   - titel: Politieke druk afschermen
     inhoud: Politieke druk vanuit het bestuur beleidsmatig adresseren in plaats van doorschuiven naar de medewerker.
-  - titel: Intervisie na 6 weken
+  - titel: Intervisie na afloop (op verzoek)
     inhoud: Terugkombijeenkomst over de implementatie.
 werkvormen:
   - analyse van veiligheidsbeleid en incidentrapportages
   - beleidsverdieping met concrete protocollen
-  - intervisie na 6 weken
+  - intervisie na afloop (op verzoek)
 veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Teamleiders, afdelingshoofden en managers bij gemeentelijke en regionale uitvoeringsorganisaties die verantwoordelijk zijn voor veiligheid. Voorwaarde voor deelname: leidinggevende verantwoordelijkheid voor een team medewerkers vergunningverlening of bezwaar en beroep."

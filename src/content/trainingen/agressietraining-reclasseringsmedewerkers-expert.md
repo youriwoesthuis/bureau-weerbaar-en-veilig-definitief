@@ -7,7 +7,7 @@ niveau: expert
 duur: 1 dag
 groepsgrootte: maximaal 8 deelnemers
 locatie: incompany
-locatie_detail: op eigen locatie of bij Bureau Weerbaar en Veilig in Neede
+locatie_detail: bij jullie op locatie, in heel Nederland
 certificaat: deelnamecertificaat na afloop
 voorwaarde: leidinggevende verantwoordelijkheid voor een team reclasseringsmedewerkers
 doelgroep: "Teamleiders, unitmanagers en veiligheidscoördinatoren bij reclasseringsorganisaties."
@@ -15,7 +15,7 @@ samenvatting: >-
   De expert agressietraining voor leidinggevenden in de reclassering van
   Bureau Weerbaar en Veilig leert leidinggevenden
   dreigingsmanagementbeleid implementeren en medewerkers steunen bij
-  moeilijke terugmeldbeslissingen. De training duurt 1 dag en telt maximaal 8 deelnemers, met een intervisiebijeenkomst na 6 weken.
+  moeilijke terugmeldbeslissingen. De training duurt 1 dag en telt maximaal 8 deelnemers.
 resultaat:
   - Structureel dreigingsmanagementbeleid implementeren
   - Medewerkers coachen bij moeilijke meldingsbeslissingen
@@ -37,7 +37,7 @@ programma:
 werkvormen:
   - analyse van veiligheidsbeleid en incidentrapportages
   - beleidsverdieping vanuit kennis van de justitiële sector
-  - intervisie na 6 weken
+  - intervisie na afloop (op verzoek)
 veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Teamleiders, unitmanagers en veiligheidscoördinatoren bij reclasseringsorganisaties. Voorwaarde voor deelname: leidinggevende verantwoordelijkheid voor een team reclasseringsmedewerkers."

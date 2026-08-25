@@ -7,7 +7,7 @@ niveau: expert
 duur: 1 dag
 groepsgrootte: maximaal 8 deelnemers
 locatie: incompany
-locatie_detail: op eigen locatie of bij Bureau Weerbaar en Veilig in Neede
+locatie_detail: bij jullie op locatie, in heel Nederland
 certificaat: deelnamecertificaat na afloop
 voorwaarde: leidinggevende functie bij een bezorgdienst
 doelgroep: "Leidinggevenden, planners en operationeel managers bij bezorgdiensten met ervaring met agressie-incidenten."
@@ -15,7 +15,7 @@ samenvatting: >-
   De expert agressietraining voor leidinggevenden bij bezorgdiensten van
   Bureau Weerbaar en Veilig leert leidinggevenden veiligheidsprotocollen
   opstellen en de spanning tussen beoordelingssystemen en veiligheid
-  aanpakken. De training duurt 1 dag en telt maximaal 8 deelnemers, met een intervisiebijeenkomst na 6 weken.
+  aanpakken. De training duurt 1 dag en telt maximaal 8 deelnemers.
 resultaat:
   - Veiligheidsprotocollen voor bezorgers opstellen
   - De spanning tussen beoordelingssystemen en veiligheid adresseren
@@ -32,12 +32,12 @@ programma:
     inhoud: "Adressen, gebieden en tijdstippen in kaart brengen."
   - titel: Melden zonder angst
     inhoud: Een meldcultuur bouwen waarin een incident melden geen risico is voor de bezorger.
-  - titel: Intervisie na 6 weken
+  - titel: Intervisie na afloop (op verzoek)
     inhoud: Terugkombijeenkomst over de implementatie.
 werkvormen:
   - organisatiebrede beleidsanalyse met focus op platformdynamiek
   - concrete protocollen voor de bezorgsector
-  - intervisie na 6 weken
+  - intervisie na afloop (op verzoek)
 veelgestelde_vragen:
   - vraag: "Waarom is het beoordelingssysteem onderwerp van de training?"
     antwoord: "Omdat het direct tegen veiligheid in kan werken. Een bezorger die weet dat afbreken of melden zijn beoordeling raakt, doet het niet, en dan blijft onveiligheid onzichtbaar voor de organisatie."

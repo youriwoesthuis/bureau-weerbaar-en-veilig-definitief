@@ -7,7 +7,7 @@ niveau: expert
 duur: 1 dag
 groepsgrootte: maximaal 8 deelnemers
 locatie: incompany
-locatie_detail: op eigen locatie of bij Bureau Weerbaar en Veilig in Neede
+locatie_detail: bij jullie op locatie, in heel Nederland
 certificaat: deelnamecertificaat na afloop
 voorwaarde: leidinggevende functie met aantoonbare werkervaring
 doelgroep: "Lijnmanagers, depotmanagers en veiligheidscoördinatoren in het openbaar vervoer."
@@ -15,7 +15,7 @@ samenvatting: >-
   De expert agressietraining voor leidinggevenden in het openbaar vervoer
   van Bureau Weerbaar en Veilig leert leidinggevenden agressiepatronen per
   lijn analyseren, escalatie- en meldbeleid implementeren en chauffeurs
-  structureel coachen. De training duurt 1 dag en telt maximaal 8 deelnemers, met een intervisiebijeenkomst na 6 weken.
+  structureel coachen. De training duurt 1 dag en telt maximaal 8 deelnemers.
 resultaat:
   - Agressiepatronen per lijn analyseren en vertalen naar maatregelen
   - Het agressieprotocol testen op praktische bruikbaarheid
@@ -32,12 +32,12 @@ programma:
     inhoud: Duidelijk maken wanneer een rit wordt gestaakt en de politie wordt ingeschakeld.
   - titel: Coachen na incidenten
     inhoud: Structurele coaching van chauffeurs inrichten.
-  - titel: Intervisie na 6 weken
+  - titel: Intervisie na afloop (op verzoek)
     inhoud: Terugkombijeenkomst over de implementatie.
 werkvormen:
   - "analyse van bestaand beleid, meldingsdata per lijn en bedrijfscultuur"
   - casuïstiekbespreking
-  - intervisie na 6 weken
+  - intervisie na afloop (op verzoek)
 veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Lijnmanagers, depotmanagers en veiligheidscoördinatoren in het openbaar vervoer. Voorwaarde voor deelname: leidinggevende functie met aantoonbare werkervaring."

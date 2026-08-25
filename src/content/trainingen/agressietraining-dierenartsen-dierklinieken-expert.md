@@ -7,7 +7,7 @@ niveau: expert
 duur: 1 dag
 groepsgrootte: maximaal 8 deelnemers
 locatie: incompany
-locatie_detail: op eigen locatie of bij Bureau Weerbaar en Veilig in Neede
+locatie_detail: bij jullie op locatie, in heel Nederland
 certificaat: deelnamecertificaat na afloop
 voorwaarde: leidinggevende of eigenaarverantwoordelijkheid voor een dierkliniek of team
 doelgroep: "Praktijkhouders, kliniekmanagers en leidinggevende dierenartsen van dierklinieken."
@@ -15,7 +15,7 @@ samenvatting: >-
   De expert agressietraining voor praktijkhouders en leidinggevenden van
   dierklinieken van Bureau Weerbaar en Veilig leert leidinggevenden beleid
   opstellen voor het beëindigen van de zorgrelatie en het omgaan met
-  online beschuldigingen en reputatieschade. De training duurt 1 dag en telt maximaal 8 deelnemers, met een intervisiebijeenkomst na 6 weken.
+  online beschuldigingen en reputatieschade. De training duurt 1 dag en telt maximaal 8 deelnemers.
 resultaat:
   - Helder beleid opstellen voor het beëindigen van de zorgrelatie
   - Eenduidig teambeleid implementeren bij probleemeigenaren
@@ -37,7 +37,7 @@ programma:
 werkvormen:
   - analyse van bestaand beleid en kliniekcultuur
   - beleidsverdieping met protocollen voor de diergeneeskundige context
-  - intervisie na 6 weken
+  - intervisie na afloop (op verzoek)
 veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Praktijkhouders, kliniekmanagers en leidinggevende dierenartsen van dierklinieken. Voorwaarde voor deelname: leidinggevende of eigenaarverantwoordelijkheid voor een dierkliniek of team."

@@ -7,7 +7,7 @@ niveau: expert
 duur: 1 dag
 groepsgrootte: maximaal 8 deelnemers
 locatie: incompany
-locatie_detail: op eigen locatie of bij Bureau Weerbaar en Veilig in Neede
+locatie_detail: bij jullie op locatie, in heel Nederland
 certificaat: deelnamecertificaat na afloop
 voorwaarde: verantwoordelijkheid voor meerdere vestigingen of organisatiebreed veiligheidsbeleid
 doelgroep: Regiomanagers, HR-managers, loss prevention managers en beleidsverantwoordelijken die filiaalmanagers aansturen bij agressievraagstukken.
@@ -15,7 +15,7 @@ samenvatting: >-
   De expert agressietraining voor leidinggevenden op organisatieniveau van
   Bureau Weerbaar en Veilig leert regiomanagers en beleidsverantwoordelijken
   agressiedata organisatiebreed analyseren en omzetten in uniform beleid,
-  nazorgstructuur en een sterke meldcultuur. De training duurt 1 dag, met een intervisiebijeenkomst na 6 weken, met maximaal 8 deelnemers en een
+  nazorgstructuur en een sterke meldcultuur. De training duurt 1 dag, met maximaal 8 deelnemers en een
   intakegesprek vooraf.
 resultaat:
   - Agressiedata organisatiebreed analyseren en omzetten in beleid
@@ -33,12 +33,12 @@ programma:
     inhoud: De ondersteunende rol richting filiaalmanagers invullen, zodat beleid ook op de winkelvloer gaat leven.
   - titel: Juridische en verzekeringstechnische kaders
     inhoud: Verantwoordelijkheden begrijpen en vertalen naar de organisatie.
-  - titel: Intervisie na 6 weken
+  - titel: Intervisie na afloop (op verzoek)
     inhoud: Terugkombijeenkomst over de implementatie in de eigen organisatie.
 werkvormen:
   - analyse van beleid, incidentdata en organisatiecultuur
   - werken aan eigen structuren en processen
-  - intervisie na 6 weken
+  - intervisie na afloop (op verzoek)
 veelgestelde_vragen:
   - vraag: Voor wie is de expert agressietraining op organisatieniveau bedoeld?
     antwoord: Voor regiomanagers, HR-professionals, loss prevention managers en leidinggevenden met verantwoordelijkheid voor meerdere vestigingen of organisatiebreed veiligheidsbeleid.

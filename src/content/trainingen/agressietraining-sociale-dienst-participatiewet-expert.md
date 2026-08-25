@@ -7,7 +7,7 @@ niveau: expert
 duur: 1 dag
 groepsgrootte: maximaal 8 deelnemers
 locatie: incompany
-locatie_detail: op eigen locatie of bij Bureau Weerbaar en Veilig in Neede
+locatie_detail: bij jullie op locatie, in heel Nederland
 certificaat: deelnamecertificaat na afloop
 voorwaarde: leidinggevende verantwoordelijkheid voor een team bij een sociale dienst of in de uitvoering van de Participatiewet
 doelgroep: "Teamleiders, afdelingshoofden en managers van gemeentelijke sociale diensten en organisaties die de Participatiewet uitvoeren."
@@ -16,7 +16,7 @@ samenvatting: >-
   Participatiewet van Bureau Weerbaar en Veilig leert
   beleid opstellen voor grensoverschrijdend cliëntgedrag, medewerkers
   ondersteunen bij ingrijpende beslissingen en de spanning tussen
-  hulpverlening en handhaving verankeren. De training duurt 1 dag en telt maximaal 8 deelnemers, met een intervisiebijeenkomst na 6 weken.
+  hulpverlening en handhaving verankeren. De training duurt 1 dag en telt maximaal 8 deelnemers.
 resultaat:
   - Beleid opstellen voor grensoverschrijdend cliëntgedrag en escalatiemogelijkheden
   - Eenduidig teambeleid implementeren bij agressieve cliënten
@@ -33,12 +33,12 @@ programma:
     inhoud: "Medewerkers coachen die kortingen, maatregelen of stopzettingen moeten communiceren."
   - titel: Hulpverlening én handhaving
     inhoud: De spanning tussen die twee rollen beleidsmatig verankeren in plaats van bij de medewerker laten.
-  - titel: Intervisie na 6 weken
+  - titel: Intervisie na afloop (op verzoek)
     inhoud: Terugkombijeenkomst over de implementatie.
 werkvormen:
   - analyse van bestaand veiligheidsbeleid en incidentrapportages
   - beleidsverdieping met concrete protocollen
-  - intervisie na 6 weken
+  - intervisie na afloop (op verzoek)
 veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Teamleiders, afdelingshoofden en managers van gemeentelijke sociale diensten en organisaties die de Participatiewet uitvoeren. Voorwaarde voor deelname: leidinggevende verantwoordelijkheid voor een team bij een sociale dienst of in de uitvoering van de Participatiewet."

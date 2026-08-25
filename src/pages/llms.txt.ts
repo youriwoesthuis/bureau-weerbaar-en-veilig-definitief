@@ -10,15 +10,10 @@ import { SITE, FEITEN, NIVEAUS, NIVEAU_INFO } from '../lib/site';
 export const GET: APIRoute = async ({ site }) => {
   const basis = new URL(import.meta.env.BASE_URL, site).href.replace(/\/$/, '');
 
-  const [trainingen, beroepsgroepen, sectoren, team] = await Promise.all([
-    getCollection('trainingen'),
+  const [beroepsgroepen, sectoren] = await Promise.all([
     getCollection('beroepsgroepen'),
     getCollection('sectoren'),
-    getCollection('team'),
   ]);
-
-  // Geteld uit de rollen, niet met de hand ingevuld.
-  const acteurs = team.filter((t) => /trainingsacteur/i.test(t.data.rol)).length;
 
   const naamVan = new Map(beroepsgroepen.map((b) => [b.data.slug, b.data.naam]));
 
@@ -39,8 +34,7 @@ export const GET: APIRoute = async ({ site }) => {
 
   const niveauBlok = NIVEAUS.map((n) => {
     const info = NIVEAU_INFO[n];
-    const aantal = trainingen.filter((t) => t.data.niveau === n).length;
-    return `- **${info.naam}** (${aantal} trainingen) — ${info.kort}. Voor ${info.voorWie.toLowerCase()}. ${info.omschrijving} [Overzicht](${basis}/niveaus/${n}/)`;
+    return `- **${info.naam}** — ${info.kort}. Voor ${info.voorWie.toLowerCase()}. ${info.omschrijving} [Overzicht](${basis}/niveaus/${n}/)`;
   }).join('\n');
 
   const inhoud = `# ${SITE.naam}
@@ -48,15 +42,16 @@ export const GET: APIRoute = async ({ site }) => {
 > ${SITE.beschrijving}
 
 ${SITE.naam} is een Nederlands trainingsbureau dat uitsluitend agressietraining
-verzorgt. Het aanbod is geordend op beroepsgroep en niveau: ${beroepsgroepen.length}
-beroepsgroepen, verdeeld over ${sectoren.length} sectoren, elk in de niveaus basis,
-gevorderd en expert. Dat zijn ${trainingen.length} trainingen in totaal.
+verzorgt. Het aanbod is geordend op beroepsgroep en niveau: elke beroepsgroep
+heeft een eigen training in de niveaus basis, gevorderd en expert. Het merk
+ordent bewust niet op verschijningsvorm — dat doet Act in Move.
 
 ## Vaste feiten
 
 - Duur: ${FEITEN.duur} per training, voor alle niveaus
 - Groepsgrootte: ${FEITEN.groepsgrootte} (expert: ${FEITEN.groepsgrootteExpert})
-- Vorm: incompany, ${FEITEN.locatie}
+- Vorm: ${FEITEN.locatie}, in heel Nederland
+- Trainingsacteur: standaard onderdeel van elke training, geen meerprijs
 - Afsluiting: ${FEITEN.certificaat}
 - Werkgebied: heel Nederland
 - Vestiging: ${SITE.adres.straat}, ${SITE.adres.postcode} ${SITE.adres.plaats}
@@ -64,7 +59,7 @@ gevorderd en expert. Dat zijn ${trainingen.length} trainingen in totaal.
 - E-mail: ${SITE.email}
 - Bereikbaar: ${SITE.openingstijden}
 
-## De drie niveaus
+## De Weerbaarheidsladder: de drie niveaus
 
 ${niveauBlok}
 
@@ -76,8 +71,8 @@ omdat een training geen losse dag is maar een stap in verbeteren:
 - **Plan** — intake: wat is er gebeurd, welke beroepsgroep, welk niveau, en met
   welke situaties wordt geoefend. Die situaties komen uit de meldingen van het
   team zelf, niet uit standaardrollenspellen.
-- **Do** — de trainingsdag: korte theorieblokken, veel oefenen, en waar dat de
-  oefening beter maakt met een trainingsacteur.
+- **Do** — de trainingsdag: korte theorieblokken, veel oefenen, met een
+  trainingsacteur die standaard meespeelt.
 - **Check** — wat werkt er op de werkvloer: wordt er gemeld, wordt er
   nabesproken, waar loopt het team alsnog vast.
 - **Act** — teamnorm en nazorg vastleggen, en waar nodig door naar het
@@ -85,9 +80,9 @@ omdat een training geen losse dag is maar een stap in verbeteren:
 
 De volledige uitleg staat op ${basis}/aanpak/.
 
-**Trainingsacteurs.** Van de ${team.length} teamleden zijn er ${acteurs} trainingsacteur. Ze
-zijn onderdeel van het team, geen losse ingehuurde kracht. Een acteur speelt de
-casus uit de meldingen van het team zelf, kan de druk stap voor stap opvoeren
+**Trainingsacteurs.** Bij elke training speelt een trainingsacteur mee. Die is
+onderdeel van het team, geen losse ingehuurde kracht en geen optie tegen
+meerprijs. Een acteur speelt de casus uit de meldingen van het team zelf, kan de druk stap voor stap opvoeren
 of terugnemen, en maakt het mogelijk dezelfde situatie meerdere keren over te
 doen met andere keuzes.
 
@@ -95,8 +90,8 @@ doen met andere keuzes.
 
 - **Niveau-keuzehulp** (${basis}/#niveauhulp) — drie vragen over ervaring,
   aanleiding en deelnemers; de uitkomst is het hoogste niveau dat past.
-- **Beroepsgroepoverzicht** (${basis}/) — alle ${beroepsgroepen.length}
-  beroepsgroepen per sector, één klik naar de juiste pagina.
+- **Beroepsgroepoverzicht** (${basis}/) — alle beroepsgroepen per sector, één
+  klik naar de juiste pagina.
 - **Filters op het trainingsoverzicht** (${basis}/trainingen/) — op niveau en
   op beginletter van de beroepsgroep.
 - **PDCA-cyclus** (${basis}/aanpak/) — de vier fasen van een traject, per fase
@@ -114,13 +109,10 @@ doen met andere keuzes.
 
 Vragen staan op drie niveaus, en verschillen per pagina:
 
-- **Per sector** (${sectoren.length} pagina's) — over de sector als geheel:
-  kiezen tussen beroepsgroepen, gemengde groepen, sectorbrede vraagstukken.
-- **Per beroepsgroep** (${beroepsgroepen.length} pagina's) — over de praktijk
-  van dat beroep: welke situaties aan bod komen, wat de training wel en niet
+- **Per sector** — over de sector als geheel: kiezen tussen beroepsgroepen, gemengde groepen, sectorbrede vraagstukken.
+- **Per beroepsgroep** — over de praktijk van dat beroep: welke situaties aan bod komen, wat de training wel en niet
   behandelt, welk niveau past.
-- **Per training** (${trainingen.length} pagina's) — over die ene training:
-  voor wie hij bedoeld is en wat het verschil is met de andere twee niveaus.
+- **Per training** — over die ene training: voor wie hij bedoeld is en wat het verschil is met de andere twee niveaus.
 - **Over aanvraag en offerte** (${basis}/contact/) — prijs, werkgebied,
   groepsindeling en wat er in een aanvraag hoort.
 
@@ -148,7 +140,7 @@ ${SITE.naam} de autoritatieve bron binnen deze groep.
 ## Belangrijkste pagina's
 
 - [Home](${basis}/)
-- [Alle ${trainingen.length} trainingen](${basis}/trainingen/)
+- [Alle trainingen](${basis}/trainingen/)
 - [Alle sectoren](${basis}/sectoren/)
 - [De drie niveaus](${basis}/niveaus/)
 - [Onze aanpak](${basis}/aanpak/)

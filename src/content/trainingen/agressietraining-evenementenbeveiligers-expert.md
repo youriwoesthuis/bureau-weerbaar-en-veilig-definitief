@@ -7,7 +7,7 @@ niveau: expert
 duur: 1 dag
 groepsgrootte: maximaal 8 deelnemers
 locatie: incompany
-locatie_detail: op eigen locatie of bij Bureau Weerbaar en Veilig in Neede
+locatie_detail: bij jullie op locatie, in heel Nederland
 certificaat: deelnamecertificaat na afloop
 voorwaarde: leidinggevende rol in de evenementenbeveiliging met aantoonbare werkervaring
 doelgroep: "Hoofden beveiliging, veiligheidsmanagers en senior beveiligers in een leidinggevende rol bij evenementen."
@@ -15,7 +15,7 @@ samenvatting: >-
   De expert agressietraining voor hoofden beveiliging bij evenementen van
   Bureau Weerbaar en Veilig leert leidinggevenden risicoanalyses omzetten
   in maatregelen, teams briefen op incidentscenario’s en debriefing leiden
-  na ernstige incidenten. De training duurt 1 dag en telt maximaal 8 deelnemers, met een intervisiebijeenkomst na 6 weken.
+  na ernstige incidenten. De training duurt 1 dag en telt maximaal 8 deelnemers.
 resultaat:
   - Risicoanalyses uitvoeren en vertalen naar veiligheidsmaatregelen
   - Teams briefen op basis van incidentscenario’s
@@ -37,7 +37,7 @@ programma:
 werkvormen:
   - analyse van incidentrapportages en teamcultuur
   - strategische beleidsverdieping met teamcoaching
-  - intervisie na 6 weken
+  - intervisie na afloop (op verzoek)
 veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Hoofden beveiliging, veiligheidsmanagers en senior beveiligers in een leidinggevende rol bij evenementen. Voorwaarde voor deelname: leidinggevende rol in de evenementenbeveiliging met aantoonbare werkervaring."

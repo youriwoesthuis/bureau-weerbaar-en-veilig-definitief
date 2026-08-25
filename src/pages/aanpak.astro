@@ -17,15 +17,15 @@ const [beroepsgroepen, trainingen, team] = await Promise.all([
   getCollection('team'),
 ]);
 
-// Geteld uit de rollen in de content, niet met de hand ingevuld.
-const acteurs = team.filter((t) => /trainingsacteur/i.test(t.data.rol)).length;
+// Hier werd geteld hoeveel teamleden trainingsacteur zijn. Dat hoeft niet
+// zo expliciet: het zijn gewoon teamleden. Zie BESLUITEN.md hoofdstuk 3.
 
 const kruimels = [
   { naam: 'Home', url: pad('/') },
   { naam: 'Aanpak', url: pad('/aanpak/') },
 ];
 
-const openingsantwoord = `Een agressietraining van Bureau Weerbaar en Veilig duurt ${FEITEN.duur}, telt ${FEITEN.groepsgrootte} en wordt incompany gegeven met casuïstiek uit de eigen praktijk van de deelnemers. Er wordt geoefend met een trainer en, waar dat de oefening beter maakt, met een trainingsacteur. Deelnemers ontvangen na afloop een ${FEITEN.certificaat}.`;
+const openingsantwoord = `Een agressietraining van Bureau Weerbaar en Veilig duurt ${FEITEN.duur}, telt ${FEITEN.groepsgrootte} en wordt altijd bij jullie op locatie gegeven, met casuïstiek uit de eigen praktijk van de deelnemers. Er wordt geoefend met een trainer én een trainingsacteur; die speelt standaard mee. Deelnemers ontvangen na afloop een ${FEITEN.certificaat}.`;
 
 const uitgangspunten = [
   {
@@ -57,7 +57,7 @@ const uitgangspunten = [
 const vragen = [
   {
     vraag: 'Hoe lang duurt een agressietraining?',
-    antwoord: `Elke training van Bureau Weerbaar en Veilig duurt ${FEITEN.duur}. Dat geldt voor alle drie de niveaus en voor alle ${beroepsgroepen.length} beroepsgroepen.`,
+    antwoord: `Elke training duurt ${FEITEN.duur}. Dat geldt voor alle drie de niveaus en voor elke beroepsgroep.`,
   },
   {
     vraag: 'Hoeveel deelnemers kunnen er mee?',
@@ -66,11 +66,12 @@ const vragen = [
   {
     vraag: 'Werken jullie met trainingsacteurs?',
     antwoord:
-      'Ja, waar dat de oefening beter maakt. Een trainingsacteur kan een situatie precies zo neerzetten als een deelnemer die kent, en kan het gedrag bijstellen zodat er stap voor stap geoefend kan worden.',
+      'Ja, standaard. Een trainingsacteur speelt bij elke training mee. Die zet een situatie precies zo neer als een deelnemer hem kent, en kan het gedrag bijstellen zodat er stap voor stap geoefend kan worden.',
   },
   {
     vraag: 'Kan de training bij ons op locatie?',
-    antwoord: `Ja. Bureau Weerbaar en Veilig traint vrijwel altijd incompany, op de locatie van de opdrachtgever. Trainen op onze eigen locatie kan ook: ${FEITEN.locatie}.`,
+    antwoord:
+      'Ja, en anders niet. De trainingen worden altijd incompany gegeven, bij jullie op locatie, in heel Nederland. Dat is geen praktische keuze maar een inhoudelijke: er wordt geoefend in de ruimte waar het werk gebeurt.',
   },
   {
     vraag: 'Krijgen deelnemers een certificaat?',
@@ -79,7 +80,7 @@ const vragen = [
   {
     vraag: 'Wat kost een training?',
     antwoord:
-      'De prijs hangt af van het aantal groepen, de locatie en of er een trainingsacteur meekomt. Neem contact op voor een offerte op maat.',
+      'Er staat geen prijs op de site, omdat elke aanvraag anders is. Wat de prijs bepaalt: het aantal groepen, het niveau, de reisafstand en de omvang van het traject. De trainingsacteur niet — die zit er standaard bij.',
   },
 ];
 ---
@@ -111,7 +112,7 @@ const vragen = [
         <p class="bovenkop">Van eerste gesprek tot werkvloer</p>
         <h2>Een training is geen dag, maar een stap</h2>
         <p class="inleiding">
-          Bureau Weerbaar en Veilig werkt in de cyclus die u zelf ook gebruikt
+          Bureau Weerbaar en Veilig werkt in de cyclus die je zelf ook gebruikt
           bij verbeteren: plan, do, check, act. Klik een fase aan om te zien
           wat er in die stap gebeurt.
         </p>
@@ -162,15 +163,15 @@ const vragen = [
           Weten wat je moet doen en het kúnnen doen terwijl iemand tegen je
           schreeuwt, zijn twee verschillende dingen. Die tweede leer je alleen
           door het te doen — en daarvoor is iemand nodig die het gedrag
-          neerzet zoals u het kent.
+          neerzet zoals jij hem kent.
         </p>
 
         <ul class="acteurlijst">
           <li>
             <span class="acteur-icoon"><Icoon naam="gesprek" breedte={20} /></span>
             <span>
-              <strong>Uw situatie, niet een voorbeeld.</strong>
-              De acteur speelt de casus die uit de meldingen van uw eigen team
+              <strong>Jullie situatie, niet een voorbeeld.</strong>
+              De acteur speelt de casus die uit de meldingen van je eigen team
               komt, in de taal en de omgeving van dat team.
             </span>
           </li>
@@ -196,13 +197,13 @@ const vragen = [
 
       <aside class="acteur-cijfer">
         <p class="kaart-cijfer">
-          <b>{acteurs}</b>
-          <small>van de {team.length} teamleden</small>
+          <b>Altijd</b>
+          <small>een acteur erbij</small>
         </p>
         <p>
-          Bij Bureau Weerbaar en Veilig is de trainingsacteur geen ingehuurde
-          losse kracht maar onderdeel van het team: {acteurs} van de
-          {team.length} mensen spelen mee in de oefeningen.
+          De trainingsacteur is geen optie tegen meerprijs en geen ingehuurde
+          losse kracht, maar onderdeel van het team. Bij elke training speelt
+          er iemand mee.
         </p>
         <a href={pad('/over-ons/')} class="pijllink">
           Bekijk wie er meespelen
@@ -235,7 +236,7 @@ const vragen = [
       <Vragen vragen={vragen} kop="Praktische vragen" groep="aanpakvragen" />
       <p class="meer">
         <a href={pad('/trainingen/')} class="pijllink">
-          Bekijk alle {trainingen.length} trainingen
+          Bekijk alle trainingen
           <span class="pijl" aria-hidden="true">→</span>
         </a>
       </p>

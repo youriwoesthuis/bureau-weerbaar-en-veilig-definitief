@@ -7,7 +7,7 @@ niveau: expert
 duur: 1 dag
 groepsgrootte: maximaal 8 deelnemers
 locatie: incompany
-locatie_detail: op eigen locatie of bij Bureau Weerbaar en Veilig in Neede
+locatie_detail: bij jullie op locatie, in heel Nederland
 certificaat: deelnamecertificaat na afloop
 voorwaarde: leidinggevende verantwoordelijkheid voor verzekeringsmedewerkers of schadebehandelaars
 doelgroep: "Teamleiders, managers en veiligheidscoördinatoren bij verzekeraars."
@@ -15,7 +15,7 @@ samenvatting: >-
   De expert agressietraining voor leidinggevenden in de
   verzekeringsbranche van Bureau Weerbaar en Veilig leert leidinggevenden
   protocollen opstellen voor grensoverschrijdend klantgedrag en beleid
-  ontwikkelen voor het beëindigen van klantrelaties. De training duurt 1 dag en telt maximaal 8 deelnemers, met een intervisiebijeenkomst na 6 weken.
+  ontwikkelen voor het beëindigen van klantrelaties. De training duurt 1 dag en telt maximaal 8 deelnemers.
 resultaat:
   - Agressiepatronen op afdelingsniveau herkennen en vertalen naar beleidsmaatregelen
   - Protocollen opstellen voor grensoverschrijdend klantgedrag
@@ -31,12 +31,12 @@ programma:
     inhoud: Beleid ontwikkelen om een klantrelatie te beëindigen vanwege agressie.
   - titel: Coachen en veiligheid
     inhoud: Opvang na zware gesprekken en veiligheidsmaatregelen bij risicovolle contactmomenten.
-  - titel: Intervisie na 6 weken
+  - titel: Intervisie na afloop (op verzoek)
     inhoud: Terugkombijeenkomst over de implementatie.
 werkvormen:
   - beleidsanalyse op organisatieniveau
   - "coaching- en ondersteuningsstrategieën"
-  - intervisie na 6 weken
+  - intervisie na afloop (op verzoek)
 veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Teamleiders, managers en veiligheidscoördinatoren bij verzekeraars. Voorwaarde voor deelname: leidinggevende verantwoordelijkheid voor verzekeringsmedewerkers of schadebehandelaars."

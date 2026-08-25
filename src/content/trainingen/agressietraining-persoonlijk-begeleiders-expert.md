@@ -7,7 +7,7 @@ niveau: expert
 duur: 1 dag
 groepsgrootte: maximaal 8 deelnemers
 locatie: incompany
-locatie_detail: op eigen locatie of bij Bureau Weerbaar en Veilig in Neede
+locatie_detail: bij jullie op locatie, in heel Nederland
 certificaat: deelnamecertificaat na afloop
 voorwaarde: leidinggevende verantwoordelijkheid voor een team persoonlijk begeleiders in de gehandicaptenzorg
 doelgroep: "Teamleiders, locatiemanagers en gedragscoördinatoren die persoonlijk begeleiders aansturen in intensieve één-op-één begeleidingsrelaties."
@@ -16,7 +16,7 @@ samenvatting: >-
   begeleiders van Bureau Weerbaar en Veilig leert leidinggevenden
   grensvervaging in begeleidingsrelaties tijdig signaleren,
   veiligheidsafspraken maken voor één-op-één werk en medewerkers
-  structureel coachen. De training duurt 1 dag en telt maximaal 8 deelnemers, met een intervisiebijeenkomst na 6 weken.
+  structureel coachen. De training duurt 1 dag en telt maximaal 8 deelnemers.
 resultaat:
   - Grensvervaging in begeleidingsrelaties tijdig signaleren en bespreekbaar maken
   - "Veiligheidsafspraken maken voor één-op-één werk en activiteiten buitenshuis"
@@ -33,12 +33,12 @@ programma:
     inhoud: Helder beleid over sociale media en contact buiten diensttijd.
   - titel: Coachen en meldcultuur
     inhoud: "Structurele begeleiding na incidenten, en zorgen dat begeleiders blijven melden."
-  - titel: Intervisie na 6 weken
+  - titel: Intervisie na afloop (op verzoek)
     inhoud: Terugkombijeenkomst over de implementatie in de eigen organisatie.
 werkvormen:
   - casuïstiekbespreking op teamniveau
   - beleidsverdieping met concrete veiligheidsafspraken
-  - intervisie na 6 weken
+  - intervisie na afloop (op verzoek)
 veelgestelde_vragen:
   - vraag: "Waarom is dit een apart expertniveau?"
     antwoord: "Omdat het aansturen van persoonlijk begeleiders andere vragen oproept dan het leiden van een woongroep. De risico’s zitten in de één-op-één relatie zelf: grensvervaging, isolatie en werk zonder toezicht."

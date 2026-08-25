@@ -7,7 +7,7 @@ niveau: gevorderd
 duur: 1 dag
 groepsgrootte: maximaal 10 deelnemers
 locatie: incompany
-locatie_detail: op eigen vestiging of bij Bureau Weerbaar en Veilig in Neede
+locatie_detail: bij jullie op locatie, in heel Nederland
 certificaat: deelnamecertificaat na afloop
 voorwaarde: afgeronde basistraining of aantoonbare werkervaring met agressie-incidenten
 doelgroep: Winkelmedewerkers die de basis beheersen en regelmatig te maken hebben met herhaalde of complexe agressie-incidenten, zoals in drukke stadslocaties, avond- en weekendploegen of winkels met veel diefstal en overlast.

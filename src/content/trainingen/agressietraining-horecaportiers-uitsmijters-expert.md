@@ -7,7 +7,7 @@ niveau: expert
 duur: 1 dag
 groepsgrootte: maximaal 8 deelnemers
 locatie: incompany
-locatie_detail: op eigen locatie of bij Bureau Weerbaar en Veilig in Neede
+locatie_detail: bij jullie op locatie, in heel Nederland
 certificaat: deelnamecertificaat na afloop
 voorwaarde: leidinggevende verantwoordelijkheid voor een portiersteam of voor de veiligheid van een locatie
 doelgroep: "Hoofden beveiliging, horecaondernemers en leidinggevende portiers die het veiligheidsbeleid van hun locatie willen versterken."
@@ -15,7 +15,7 @@ samenvatting: >-
   De expert agressietraining voor hoofden beveiliging in de horeca van
   Bureau Weerbaar en Veilig leert leidinggevenden risicoanalyses omzetten
   in maatregelen, incidentregistratie inrichten als sturingsinstrument en
-  debriefing leiden. De training duurt 1 dag en telt maximaal 8 deelnemers, met een intervisiebijeenkomst na 6 weken.
+  debriefing leiden. De training duurt 1 dag en telt maximaal 8 deelnemers.
 resultaat:
   - Een risicoanalyse uitvoeren en vertalen naar maatregelen
   - Het portiersteam aansturen via gedragsprotocollen

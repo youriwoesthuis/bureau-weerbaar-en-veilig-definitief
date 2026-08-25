@@ -7,7 +7,7 @@ niveau: gevorderd
 duur: 1 dag
 groepsgrootte: maximaal 10 deelnemers
 locatie: incompany
-locatie_detail: op eigen locatie of bij Bureau Weerbaar en Veilig in Neede
+locatie_detail: bij jullie op locatie, in heel Nederland
 certificaat: deelnamecertificaat na afloop
 voorwaarde: afgeronde basistraining of aantoonbare werkervaring met ernstige druk of agressie
 doelgroep: "Gedragsdeskundigen en orthopedagogen met een basistraining die werken met cliënten in complexe familiesituaties, forensische contexten of met ernstige meervoudige problematiek."

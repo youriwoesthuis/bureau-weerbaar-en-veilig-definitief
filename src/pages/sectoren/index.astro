@@ -26,7 +26,7 @@ const kruimels = [
   { naam: 'Sectoren', url: pad('/sectoren/') },
 ];
 
-const openingsantwoord = `Bureau Weerbaar en Veilig verzorgt agressietraining in ${sectoren.length} sectoren, van zorg en onderwijs tot openbaar vervoer en handhaving. Binnen elke sector is het aanbod uitgesplitst naar beroepsgroep — ${beroepsgroepen.length} in totaal — en elke beroepsgroep heeft de niveaus basis, gevorderd en expert.`;
+const openingsantwoord = `Bureau Weerbaar en Veilig verzorgt agressietraining voor beroepsgroepen in zorg, onderwijs, openbaar vervoer, handhaving en meer. Binnen elke sector is het aanbod uitgesplitst naar beroepsgroep, en elke beroepsgroep heeft de niveaus basis, gevorderd en expert. Zoek je beroep op en je ziet meteen welke drie trainingen erbij horen.`;
 const siteUrl = new URL(import.meta.env.BASE_URL, Astro.site).href;
 const lijst = lijstSchema(siteUrl, 'Sectoren waarin Bureau Weerbaar en Veilig traint',
   lijstSectoren.map((x) => ({ naam: x.naam, url: pad(`/sectoren/${x.slug}/`) })));
@@ -43,7 +43,7 @@ const lijst = lijstSchema(siteUrl, 'Sectoren waarin Bureau Weerbaar en Veilig tr
     <div class="omhulsel kop-binnen">
       <Kruimels kruimels={kruimels} />
       <p class="bovenkop">Alle sectoren</p>
-      <h1 class="display">In welke sector<br /><span class="verloopwoord">werkt uw team?</span></h1>
+      <h1 class="display">In welke sector<br /><span class="verloopwoord">werkt je team?</span></h1>
       <p class="openingsantwoord">{openingsantwoord}</p>
     </div>
   </section>
@@ -53,11 +53,13 @@ const lijst = lijstSchema(siteUrl, 'Sectoren waarin Bureau Weerbaar en Veilig tr
       {lijstSectoren.map((s) => (
         <article class="sectorblok onthul" data-niveau="basis">
           <div class="sectorblok-kop">
-            {/* Hier verschilt het getal wél per sector — van 1 tot 8
-                beroepsgroepen — en dan is het een echte blikvanger. */}
+            {/* Het aantal beroepsgroepen verschilt per sector en is dan
+                een echte blikvanger. Het aantal trainingen erachter is
+                geschrapt: dat was catalogus tellen. Zie BESLUITEN.md
+                hoofdstuk 3. */}
             <p class="kaart-cijfer">
               <b>{s.groepen.length}</b>
-              <small>{s.groepen.length === 1 ? 'beroepsgroep' : 'beroepsgroepen'} · {s.groepen.length * 3} trainingen</small>
+              <small>{s.groepen.length === 1 ? 'beroepsgroep' : 'beroepsgroepen'}</small>
             </p>
             <h2 class="h3">
               <a href={pad(`/sectoren/${s.slug}/`)} class="sectorlink">{s.naam}</a>

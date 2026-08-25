@@ -7,7 +7,7 @@ niveau: expert
 duur: 1 dag
 groepsgrootte: maximaal 8 deelnemers
 locatie: incompany
-locatie_detail: op eigen locatie of bij Bureau Weerbaar en Veilig in Neede
+locatie_detail: bij jullie op locatie, in heel Nederland
 certificaat: deelnamecertificaat na afloop
 voorwaarde: aantoonbare leidinggevende ervaring en kennis van de dynamiek op de locatie
 doelgroep: Accommodatiemanagers en locatieleiders in sportaccommodaties en zwembaden.
@@ -15,7 +15,7 @@ samenvatting: >-
   De expert agressietraining voor leidinggevenden in sportaccommodaties en
   zwembaden van Bureau Weerbaar en Veilig leert managers gedragsnormen
   vaststellen, een toegangs- en ontzeggingsbeleid opstellen en de
-  meldcultuur versterken. De training duurt 1 dag en telt maximaal 8 deelnemers, met een intervisiebijeenkomst na 6 weken.
+  meldcultuur versterken. De training duurt 1 dag en telt maximaal 8 deelnemers.
 resultaat:
   - Gedragsnormen voor bezoekers helder definiëren en uitdragen
   - Een werkbaar agressieprotocol implementeren
@@ -37,7 +37,7 @@ programma:
 werkvormen:
   - "analyse van cultuur, beleid en incidentafhandeling op locatie"
   - beleidsontwikkeling met nadruk op gastvrijheid als veiligheidskwestie
-  - intervisie na 6 weken
+  - intervisie na afloop (op verzoek)
 veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Accommodatiemanagers en locatieleiders in sportaccommodaties en zwembaden. Voorwaarde voor deelname: aantoonbare leidinggevende ervaring en kennis van de dynamiek op de locatie."

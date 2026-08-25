@@ -7,7 +7,7 @@ niveau: gevorderd
 duur: 1 dag
 groepsgrootte: maximaal 10 deelnemers
 locatie: incompany
-locatie_detail: op eigen locatie of bij Bureau Weerbaar en Veilig in Neede
+locatie_detail: bij jullie op locatie, in heel Nederland
 certificaat: deelnamecertificaat na afloop
 voorwaarde: afgeronde basistraining of aantoonbare werkervaring met complexe klantgesprekken
 doelgroep: Adviseurs met basistraining die regelmatig complexe klantgesprekken voeren met klanten in financiële crisis.

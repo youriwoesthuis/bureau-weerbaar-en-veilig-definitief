@@ -7,7 +7,7 @@ niveau: expert
 duur: 1 dag
 groepsgrootte: maximaal 8 deelnemers
 locatie: incompany
-locatie_detail: op eigen locatie of bij Bureau Weerbaar en Veilig in Neede
+locatie_detail: bij jullie op locatie, in heel Nederland
 certificaat: deelnamecertificaat na afloop
 voorwaarde: leidinggevende functie bij een woningcorporatie met aantoonbare ervaring met agressie in huurderscontact
 doelgroep: "Teamleiders, afdelingsmanagers en veiligheidscoördinatoren bij woningcorporaties."
@@ -16,7 +16,7 @@ samenvatting: >-
   van Bureau Weerbaar en Veilig leert leidinggevenden een
   veiligheidsprotocol voor huisbezoeken opzetten, eenduidig teambeleid
   implementeren bij probleemhuurders en de meldcultuur versterken. De
-  training duurt 1 dag en telt maximaal 8 deelnemers, met een intervisiebijeenkomst na 6 weken.
+  training duurt 1 dag en telt maximaal 8 deelnemers.
 resultaat:
   - Agressiepatronen herkennen en vertalen naar beleidsmaatregelen
   - Een veiligheidsprotocol voor huisbezoeken opzetten
@@ -38,7 +38,7 @@ programma:
 werkvormen:
   - "analyse van beleid, huurderspopulatie en veiligheidscultuur"
   - beleidsverdieping met concrete protocollen en coachingsstrategieën
-  - intervisie na 6 weken
+  - intervisie na afloop (op verzoek)
 veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Teamleiders, afdelingsmanagers en veiligheidscoördinatoren bij woningcorporaties. Voorwaarde voor deelname: leidinggevende functie bij een woningcorporatie met aantoonbare ervaring met agressie in huurderscontact."

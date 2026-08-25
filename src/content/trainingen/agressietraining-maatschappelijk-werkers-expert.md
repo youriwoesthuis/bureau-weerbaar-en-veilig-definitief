@@ -7,7 +7,7 @@ niveau: expert
 duur: 1 dag
 groepsgrootte: maximaal 8 deelnemers
 locatie: incompany
-locatie_detail: op eigen locatie of bij Bureau Weerbaar en Veilig in Neede
+locatie_detail: bij jullie op locatie, in heel Nederland
 certificaat: deelnamecertificaat na afloop
 voorwaarde: leidinggevende ervaring met een hulpverleningsteam
 doelgroep: "Teamleiders, coördinatoren en afdelingshoofden in het maatschappelijk werk en welzijn."
@@ -15,7 +15,7 @@ samenvatting: >-
   De expert agressietraining voor leidinggevenden in het maatschappelijk
   werk van Bureau Weerbaar en Veilig leert leidinggevenden een
   agressieprotocol ontwikkelen dat aansluit op de hulpverleningsnorm en
-  medewerkers coachen zonder melden te ontmoedigen. De training duurt 1 dag en telt maximaal 8 deelnemers, met een intervisiebijeenkomst na 6 weken.
+  medewerkers coachen zonder melden te ontmoedigen. De training duurt 1 dag en telt maximaal 8 deelnemers.
 resultaat:
   - Agressiepatronen en veiligheidsrisico’s op teamniveau herkennen
   - Een agressieprotocol ontwikkelen dat aansluit op de hulpverleningsnorm
@@ -36,7 +36,7 @@ programma:
 werkvormen:
   - analyse van teampatronen en bestaand beleid
   - beleidsontwikkeling toegespitst op de hulpverleningscontext
-  - intervisie na 6 weken
+  - intervisie na afloop (op verzoek)
 veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Teamleiders, coördinatoren en afdelingshoofden in het maatschappelijk werk en welzijn. Voorwaarde voor deelname: leidinggevende ervaring met een hulpverleningsteam."

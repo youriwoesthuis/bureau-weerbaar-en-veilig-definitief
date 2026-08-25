@@ -12,7 +12,7 @@ veelgestelde_vragen:
   - vraag: "Waarom traint u per functie en niet de hele winkel tegelijk?"
     antwoord: "Omdat de werkplek de opties bepaalt. Wie aan de kassa vastzit heeft andere mogelijkheden dan wie tussen de schappen loopt, en een filiaalmanager heeft weer een andere taak."
   - vraag: "Werken de trainingen met rollenspellen?"
-    antwoord: "Er wordt geoefend met herkenbare winkelsituaties, praktijkgericht en op basis van wat er in uw filialen werkelijk gebeurt. Naïeve rollenspellen leveren voor deze sector niets op."
+    antwoord: "Er wordt geoefend met herkenbare winkelsituaties, praktijkgericht en op basis van wat er in jullie filialen werkelijk gebeurt. Naïeve rollenspellen leveren voor deze sector niets op."
 ---
 
 Winkels zijn open, publiek toegankelijke ruimten zonder fysieke barrières.

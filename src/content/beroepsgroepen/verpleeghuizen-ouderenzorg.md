@@ -14,7 +14,7 @@ veelgestelde_vragen:
   - vraag: "Komt agressie van familieleden ook aan bod?"
     antwoord: "Ja, en nadrukkelijk. Familieleden die zorgmedewerkers onder druk zetten over de zorg voor hun naaste is een apart onderwerp, met andere handvatten dan het gedrag van de bewoner zelf."
   - vraag: "Wordt er ook geoefend met wat je fysiek doet als een bewoner slaat of bijt?"
-    antwoord: "De training richt zich op het begrijpen van het gedrag en op handelen dat de medewerker fysiek en emotioneel heel houdt. Wat er precies geoefend wordt, stemmen we in de intake af op wat er op uw afdeling gebeurt."
+    antwoord: "De training richt zich op het begrijpen van het gedrag en op handelen dat de medewerker fysiek en emotioneel heel houdt. Wat er precies geoefend wordt, stemmen we in de intake af op wat er op jullie afdeling gebeurt."
   - vraag: "Welk niveau past bij een zorgteam in het verpleeghuis?"
     antwoord: "Basis voor alle zorgmedewerkers, inclusief leerlingen en invalkrachten. Gevorderd voor wie de basis beheerst. Expert voor de teamleider of kwaliteitsverpleegkundige die het beleid en de nazorgstructuur inricht."
 ---

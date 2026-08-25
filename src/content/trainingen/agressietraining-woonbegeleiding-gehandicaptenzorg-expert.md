@@ -7,7 +7,7 @@ niveau: expert
 duur: 1 dag
 groepsgrootte: maximaal 8 deelnemers
 locatie: incompany
-locatie_detail: op eigen locatie of bij Bureau Weerbaar en Veilig in Neede
+locatie_detail: bij jullie op locatie, in heel Nederland
 certificaat: deelnamecertificaat na afloop
 voorwaarde: leidinggevende verantwoordelijkheid voor een woongroep of locatie in de gehandicaptenzorg
 doelgroep: "Teamleiders, locatiemanagers en gedragscoördinatoren in de woonbegeleiding gehandicaptenzorg."
@@ -15,7 +15,7 @@ samenvatting: >-
   De expert agressietraining voor leidinggevenden in de woonbegeleiding
   gehandicaptenzorg van Bureau Weerbaar en Veilig leert leidinggevenden
   gedragsplannen beoordelen vanuit medewerkersveiligheid, eenduidig
-  teambeleid implementeren en de meldcultuur versterken. De training duurt 1 dag en telt maximaal 8 deelnemers, met een intervisiebijeenkomst na 6 weken.
+  teambeleid implementeren en de meldcultuur versterken. De training duurt 1 dag en telt maximaal 8 deelnemers.
 resultaat:
   - Gedragsplannen beoordelen vanuit het perspectief van medewerkersveiligheid
   - Eenduidig teambeleid implementeren bij terugkerende agressiepatronen
@@ -32,12 +32,12 @@ programma:
     inhoud: Medewerkers structureel begeleiden na incidenten en normalisering van agressie doorbreken.
   - titel: Samenwerking met gedragsdeskundigen
     inhoud: "De samenwerking organiseren tussen woongroep, gedragsdeskundige en leidinggevende."
-  - titel: Intervisie na 6 weken
+  - titel: Intervisie na afloop (op verzoek)
     inhoud: Terugkombijeenkomst over de implementatie op de eigen locatie.
 werkvormen:
   - beleidsmatige verdieping met concrete veiligheidsprotocollen
   - analyse van gedragsbeleid en incidentrapportages
-  - intervisie na 6 weken
+  - intervisie na afloop (op verzoek)
 veelgestelde_vragen:
   - vraag: "Hoe verhoudt medewerkersveiligheid zich tot het gedragsplan van een cliënt?"
     antwoord: "Beide zijn nodig. In deze training leren leidinggevenden gedragsplannen te beoordelen met medewerkersveiligheid als expliciet criterium, zonder de zorg voor de cliënt te ondermijnen."

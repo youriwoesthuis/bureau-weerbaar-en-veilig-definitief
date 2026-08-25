@@ -7,7 +7,7 @@ niveau: expert
 duur: 1 dag
 groepsgrootte: maximaal 8 deelnemers
 locatie: incompany
-locatie_detail: op eigen locatie of bij Bureau Weerbaar en Veilig in Neede
+locatie_detail: bij jullie op locatie, in heel Nederland
 certificaat: deelnamecertificaat na afloop
 voorwaarde: coördinerende of leidinggevende verantwoordelijkheid in een justitiële jeugdinrichting
 doelgroep: "Groepsleiders met coördinerende verantwoordelijkheid, afdelingshoofden en managers in justitiële jeugdinrichtingen."
@@ -15,7 +15,7 @@ samenvatting: >-
   De expert agressietraining voor leidinggevenden in justitiële
   jeugdinrichtingen van Bureau Weerbaar en Veilig leert leidinggevenden
   eenduidig teambeleid implementeren bij risicojongeren en
-  leefgroepsdynamiek bijsturen. De training duurt 1 dag en telt maximaal 8 deelnemers, met een intervisiebijeenkomst na 6 weken.
+  leefgroepsdynamiek bijsturen. De training duurt 1 dag en telt maximaal 8 deelnemers.
 resultaat:
   - Eenduidig teambeleid implementeren bij risicojongeren
   - Leefgroepsdynamieken analyseren en bijsturen
@@ -37,7 +37,7 @@ programma:
 werkvormen:
   - analyse van veiligheidsbeleid en incidentrapportages
   - beleidsverdieping met concrete protocollen voor de jeugdinrichting
-  - intervisie na 6 weken
+  - intervisie na afloop (op verzoek)
 veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Groepsleiders met coördinerende verantwoordelijkheid, afdelingshoofden en managers in justitiële jeugdinrichtingen. Voorwaarde voor deelname: coördinerende of leidinggevende verantwoordelijkheid in een justitiële jeugdinrichting."

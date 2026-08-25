@@ -7,14 +7,14 @@ niveau: basis
 duur: 1 dag
 groepsgrootte: maximaal 10 deelnemers
 locatie: incompany
-locatie_detail: op eigen vestiging of bij Bureau Weerbaar en Veilig in Neede
+locatie_detail: bij jullie op locatie, in heel Nederland
 certificaat: deelnamecertificaat na afloop
 doelgroep: Alle winkelmedewerkers met klantcontact die verbale agressie, intimidatie of dreigende situaties in de winkel willen leren herkennen en de-escaleren.
 samenvatting: >-
   De agressietraining voor winkelmedewerkers van Bureau Weerbaar en Veilig leert
   medewerkers met klantcontact agressie herkennen, hun eigen reactie reguleren en
   gespannen situaties de-escaleren. De training duurt 1 dag, telt maximaal 10
-  deelnemers en wordt incompany of in Neede gegeven, met realistische oefeningen
+  deelnemers en wordt bij jullie op locatie gegeven, met realistische oefeningen
   uit de dagelijkse winkelpraktijk.
 resultaat:
   - Verschillende vormen van agressie herkennen

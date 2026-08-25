@@ -44,7 +44,7 @@ const kruimels = [
 ];
 
 const groepsgrootte = niveau === 'expert' ? FEITEN.groepsgrootteExpert : FEITEN.groepsgrootte;
-const openingsantwoord = `${info.naam} is het niveau van de agressietraining van Bureau Weerbaar en Veilig dat draait om ${info.kort.toLowerCase()}. Het is bedoeld voor ${info.voorWie.toLowerCase()}. Er zijn ${eigen.length} trainingen op dit niveau, elk geschreven voor één beroepsgroep, en elke training duurt ${FEITEN.duur} met ${groepsgrootte}.`;
+const openingsantwoord = `${info.naam} is het niveau van de agressietraining van Bureau Weerbaar en Veilig dat draait om ${info.kort.toLowerCase()}. Het is bedoeld voor ${info.voorWie.toLowerCase()}. Elke beroepsgroep heeft op dit niveau een eigen training, en elke training duurt ${FEITEN.duur} met ${groepsgrootte}.`;
 
 const anders = NIVEAUS.filter((n) => n !== niveau);
 ---
@@ -71,7 +71,7 @@ const anders = NIVEAUS.filter((n) => n !== niveau);
         <div class="feit"><dt>Voor wie</dt><dd>{info.voorWie}</dd></div>
         <div class="feit"><dt>Duur</dt><dd>{FEITEN.duur}</dd></div>
         <div class="feit"><dt>Groepsgrootte</dt><dd>{groepsgrootte}</dd></div>
-        <div class="feit"><dt>Trainingen</dt><dd>{eigen.length} beroepsgroepen</dd></div>
+        <div class="feit"><dt>Trainingen</dt><dd>per beroepsgroep</dd></div>
       </dl>
     </div>
   </section>
@@ -79,8 +79,8 @@ const anders = NIVEAUS.filter((n) => n !== niveau);
   <section class="sectie op-licht">
     <div class="omhulsel">
       <div class="kop-blok">
-        <p class="bovenkop">Alle {eigen.length} trainingen op dit niveau</p>
-        <h2>Kies uw beroepsgroep</h2>
+        <p class="bovenkop">Alle trainingen op dit niveau</p>
+        <h2>Kies je beroepsgroep</h2>
       </div>
 
       <div class="sectorlijst">
@@ -129,8 +129,8 @@ const anders = NIVEAUS.filter((n) => n !== niveau);
   </section>
 
   <Cta
-    kop={`${info.naam} voor uw team?`}
-    tekst={`Bureau Weerbaar en Veilig verzorgt dit niveau incompany voor ${eigen.length} beroepsgroepen. Vertel welk team het betreft, dan kijken we of dit het juiste startpunt is.`}
+    kop={`${info.naam} voor je team?`}
+    tekst={`Bureau Weerbaar en Veilig geeft dit niveau altijd bij jullie op locatie. Vertel welk team het betreft, dan kijken we of dit het juiste startpunt is.`}
   />
 </Basis>
 

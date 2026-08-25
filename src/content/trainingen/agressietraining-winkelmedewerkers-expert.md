@@ -7,7 +7,7 @@ niveau: expert
 duur: 1 dag
 groepsgrootte: maximaal 8 deelnemers
 locatie: incompany
-locatie_detail: op eigen locatie of bij Bureau Weerbaar en Veilig in Neede
+locatie_detail: bij jullie op locatie, in heel Nederland
 certificaat: deelnamecertificaat na afloop
 voorwaarde: leidinggevende of coördinerende functie met aantoonbare werkervaring met agressie op de winkelvloer
 doelgroep: Filiaalmanagers, assistent-managers, teamleiders en senior medewerkers die collega's begeleiden bij agressie-incidenten en het agressiebeleid op de winkelvloer dragen.
@@ -15,7 +15,7 @@ samenvatting: >-
   De expert agressietraining voor leidinggevenden op de winkelvloer van Bureau
   Weerbaar en Veilig leert managers agressiepatronen op vestigingsniveau
   analyseren, medewerkers structureel coachen na incidenten en een sterke
-  meldcultuur opbouwen. De training duurt 1 dag, met een intervisiebijeenkomst na 6 weken, met maximaal 8 deelnemers, en start met een intakegesprek over de
+  meldcultuur opbouwen. De training duurt 1 dag, met maximaal 8 deelnemers, en start met een intakegesprek over de
   vestigingssituatie.
 resultaat:
   - Agressiepatronen op vestigingsniveau analyseren
@@ -32,12 +32,12 @@ programma:
     inhoud: Medewerkers structureel begeleiden na incidenten en nazorg organiseren die verder gaat dan één gesprek.
   - titel: Escalatiestructuur en juridische kaders
     inhoud: Een heldere escalatiestructuur opzetten en juridische verantwoordelijkheid rondom agressie begrijpen en communiceren.
-  - titel: Intervisie na 6 weken
+  - titel: Intervisie na afloop (op verzoek)
     inhoud: Terugkomdagdeel waarin deelnemers eigen casussen inbrengen en de toepassing in de praktijk wordt aangescherpt.
 werkvormen:
   - casuïstiekbespreking
   - analyse van bestaand beleid en meldingsdata
-  - intervisie na 6 weken
+  - intervisie na afloop (op verzoek)
 veelgestelde_vragen:
   - vraag: Voor wie is de expert agressietraining op de winkelvloer bedoeld?
     antwoord: "Voor medewerkers in een leidinggevende of coördinerende rol: filiaalmanagers, assistent-managers, teamleiders en senior medewerkers die collega's begeleiden bij agressie-incidenten."

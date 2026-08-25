@@ -7,7 +7,7 @@ niveau: expert
 duur: 1 dag
 groepsgrootte: maximaal 8 deelnemers
 locatie: incompany
-locatie_detail: op eigen locatie of bij Bureau Weerbaar en Veilig in Neede
+locatie_detail: bij jullie op locatie, in heel Nederland
 certificaat: deelnamecertificaat na afloop
 voorwaarde: "leidinggevende verantwoordelijkheid voor een team incasso- of schuldbehandelaars"
 doelgroep: "Teamleiders, afdelingsmanagers en veiligheidscoördinatoren bij incassobureaus en schuldhulpverleningsorganisaties."
@@ -16,7 +16,7 @@ samenvatting: >-
   schuldhulpverlening van Bureau Weerbaar en Veilig leert leidinggevenden
   agressiepatronen omzetten in beleid, veiligheidsprotocollen voor
   huisbezoeken opzetten en medewerkers coachen na zware contacten. De
-  training duurt 1 dag en telt maximaal 8 deelnemers, met een intervisiebijeenkomst na 6 weken.
+  training duurt 1 dag en telt maximaal 8 deelnemers.
 resultaat:
   - Agressiepatronen herkennen en vertalen naar concrete beleidsmaatregelen
   - Veiligheidsprotocollen voor huisbezoeken opzetten
@@ -32,12 +32,12 @@ programma:
     inhoud: Structurele opvang inrichten na emotioneel zware debiteurencontacten.
   - titel: Grenzen en verantwoordelijkheid
     inhoud: Juridische verantwoordelijkheid helder beleggen en grenzen communiceren rond contact buiten werktijd.
-  - titel: Intervisie na 6 weken
+  - titel: Intervisie na afloop (op verzoek)
     inhoud: "Terugkombijeenkomst over de implementatie, met aandacht voor de belasting van de leidinggevende zelf."
 werkvormen:
   - "analyse van bestaand beleid, dossieraard en organisatiecultuur"
   - "beleidsverdieping met veiligheids- en coachingsstrategieën"
-  - intervisie na 6 weken
+  - intervisie na afloop (op verzoek)
 veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Teamleiders, afdelingsmanagers en veiligheidscoördinatoren bij incassobureaus en schuldhulpverleningsorganisaties. Voorwaarde voor deelname: leidinggevende verantwoordelijkheid voor een team incasso- of schuldbehandelaars."

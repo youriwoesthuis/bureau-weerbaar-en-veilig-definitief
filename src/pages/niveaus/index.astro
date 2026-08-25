@@ -5,7 +5,7 @@ import Kruimels from '../../components/Kruimels.astro';
 import NiveauLadder from '../../components/NiveauLadder.astro';
 import Vragen from '../../components/Vragen.astro';
 import Cta from '../../components/Cta.astro';
-import { NIVEAUS, NIVEAU_INFO, FEITEN, pad } from '../../lib/site';
+import { NIVEAUS, NIVEAU_INFO, FEITEN, MODEL, pad } from '../../lib/site';
 import { paginaTitel, description, lijstSchema } from '../../lib/seo';
 
 const trainingen = await getCollection('trainingen');
@@ -15,7 +15,7 @@ const kruimels = [
   { naam: 'Niveaus', url: pad('/niveaus/') },
 ];
 
-const openingsantwoord = `Bureau Weerbaar en Veilig biedt elke agressietraining aan in drie niveaus. Basis leert agressie herkennen en de-escaleren, gevorderd gaat over begrenzen onder druk en nazorg, en expert richt zich op leidinggevenden die beleid en teamnorm moeten borgen. Elk niveau duurt ${FEITEN.duur}.`;
+const openingsantwoord = `Bureau Weerbaar en Veilig biedt elke agressietraining aan in drie niveaus, samen ${MODEL.naam}. Basis leert agressie herkennen en de-escaleren, gevorderd gaat over begrenzen onder druk en nazorg, en expert richt zich op leidinggevenden die beleid en teamnorm moeten borgen. Elk niveau duurt ${FEITEN.duur} en je team stapt in waar het staat.`;
 
 const vergelijking = [
   {
@@ -54,7 +54,7 @@ const lijst = lijstSchema(siteUrl, 'De drie niveaus agressietraining',
   <section class="kop-sectie gloed raster-achtergrond">
     <div class="omhulsel kop-binnen">
       <Kruimels kruimels={kruimels} />
-      <p class="bovenkop">Niveaus</p>
+      <p class="bovenkop">{MODEL.naamHoofdletter}</p>
       <h1 class="display">Drie niveaus,<br /><span class="verloopwoord">één leerlijn</span></h1>
       <p class="openingsantwoord">{openingsantwoord}</p>
     </div>

@@ -36,13 +36,54 @@ export const SITE = {
   ],
 } as const;
 
-/** Vaste feiten over het aanbod. Geen aannames — deze staan zo in de content. */
+/**
+ * Vaste feiten over het aanbod. Bevestigd door de opdrachtgever op 25-08-2026;
+ * zie BESLUITEN.md hoofdstuk 3. Wijzig hier, nooit in een pagina.
+ */
 export const FEITEN = {
   duur: '1 dag',
   groepsgrootte: 'maximaal 10 deelnemers',
   groepsgrootteExpert: 'maximaal 8 deelnemers',
   certificaat: 'deelnamecertificaat',
-  locatie: 'incompany, op eigen locatie of in Neede',
+  /** Altijd incompany. De variant "of bij ons in Neede" klopte niet. */
+  locatie: 'altijd bij jullie op locatie',
+  /** Standaard onderdeel, geen meerprijs en geen "waar dat nuttig is". */
+  acteur: 'een trainingsacteur speelt mee',
+} as const;
+
+/**
+ * Wat er wél kan maar niet standaard in de training zit. Als toezegging
+ * mag dit nergens staan — het is een mogelijkheid, geen belofte.
+ */
+export const OP_VERZOEK = [
+  {
+    naam: 'Intervisie na afloop',
+    tekst:
+      'Een terugkombijeenkomst enkele weken later, om na te gaan wat er in de praktijk van terechtkomt.',
+  },
+  {
+    naam: 'Fysieke technieken',
+    tekst:
+      'Losmaken en veilig afstand nemen. Geen standaardonderdeel; in de intake bespreken we of het bij jullie werk past.',
+  },
+] as const;
+
+/** Wat de prijs bepaalt. Bedragen staan bewust nergens op de site. */
+export const PRIJSFACTOREN = [
+  'Het aantal groepen — de groep telt maximaal tien deelnemers, dus een groter team wordt verdeeld',
+  'Het niveau — bij expert is de groep kleiner en de voorbereiding zwaarder',
+  'De reisafstand naar jullie locatie',
+  'De omvang van het traject — één dag of een reeks over meerdere teams',
+] as const;
+
+/**
+ * Het niveaumodel heeft een naam, zodat het aanwijsbaar is in een offerte,
+ * een opleidingsplan en een AI-antwoord. Zie BESLUITEN.md hoofdstuk 1.
+ */
+export const MODEL = {
+  naam: 'de Weerbaarheidsladder',
+  naamHoofdletter: 'De Weerbaarheidsladder',
+  kort: 'herkennen, begrenzen, borgen',
 } as const;
 
 export const NIVEAUS = ['basis', 'gevorderd', 'expert'] as const;

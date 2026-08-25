@@ -7,7 +7,7 @@ niveau: expert
 duur: 1 dag
 groepsgrootte: maximaal 8 deelnemers
 locatie: incompany
-locatie_detail: op eigen locatie of bij Bureau Weerbaar en Veilig in Neede
+locatie_detail: bij jullie op locatie, in heel Nederland
 certificaat: deelnamecertificaat na afloop
 voorwaarde: leidinggevende of coördinerende functie met aantoonbare werkervaring in de sociale dienstverlening
 doelgroep: "Teamleiders, afdelingshoofden en veiligheidscoördinatoren bij gemeentelijke sociale diensten en uitkeringsinstanties."
@@ -16,7 +16,7 @@ samenvatting: >-
   uitkeringsinstanties van Bureau Weerbaar en Veilig leert leidinggevenden
   agressiepatronen op teamniveau analyseren, beleid rond toegangsweigering
   en aangifte opzetten en de balans vinden tussen veiligheid en
-  zorgplicht. De training duurt 1 dag en telt maximaal 8 deelnemers, met een intervisiebijeenkomst na 6 weken.
+  zorgplicht. De training duurt 1 dag en telt maximaal 8 deelnemers.
 resultaat:
   - Agressiepatronen op teamniveau analyseren en bespreken
   - Het agressieprotocol toetsen en aanscherpen
@@ -33,12 +33,12 @@ programma:
     inhoud: De morele spanning tussen medewerkerveiligheid en de zorgplicht voor kwetsbare burgers beleidsmatig verankeren.
   - titel: Coachen en meldcultuur
     inhoud: Structurele begeleiding na incidenten en het versterken van de meldcultuur.
-  - titel: Intervisie na 6 weken
+  - titel: Intervisie na afloop (op verzoek)
     inhoud: Terugkombijeenkomst over de implementatie.
 werkvormen:
   - organisatiebrede analyse van beleid en cultuur
   - casuïstiekbespreking
-  - intervisie na 6 weken
+  - intervisie na afloop (op verzoek)
 veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Teamleiders, afdelingshoofden en veiligheidscoördinatoren bij gemeentelijke sociale diensten en uitkeringsinstanties. Voorwaarde voor deelname: leidinggevende of coördinerende functie met aantoonbare werkervaring in de sociale dienstverlening."

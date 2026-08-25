@@ -7,7 +7,7 @@ niveau: expert
 duur: 1 dag
 groepsgrootte: maximaal 8 deelnemers
 locatie: incompany
-locatie_detail: op eigen locatie of bij Bureau Weerbaar en Veilig in Neede
+locatie_detail: bij jullie op locatie, in heel Nederland
 certificaat: deelnamecertificaat na afloop
 voorwaarde: leidinggevende verantwoordelijkheid in een horecagelegenheid
 doelgroep: "Horecamanagers, bedrijfsleiders en shiftleiders met leidinggevende verantwoordelijkheid."
@@ -15,7 +15,7 @@ samenvatting: >-
   De expert agressietraining voor horecamanagers en leidinggevenden van
   Bureau Weerbaar en Veilig leert managers heldere normen stellen over
   gastengedrag, seksuele intimidatie structureel aanpakken en een
-  meldcultuur creëren. De training duurt 1 dag en telt maximaal 8 deelnemers, met een intervisiebijeenkomst na 6 weken.
+  meldcultuur creëren. De training duurt 1 dag en telt maximaal 8 deelnemers.
 resultaat:
   - Heldere normen stellen over acceptabel gastengedrag
   - Een werkbaar agressieprotocol ontwikkelen
@@ -37,7 +37,7 @@ programma:
 werkvormen:
   - cultuuranalyse op locatieniveau
   - constructieve confrontatie met de eigen rol als leidinggevende
-  - intervisie na 6 weken
+  - intervisie na afloop (op verzoek)
 veelgestelde_vragen:
   - vraag: "Waarom staat de rol van de leidinggevende zo centraal?"
     antwoord: Omdat teams hun norm afleiden van wat de leidinggevende doet. Inconsistent ingrijpen is de belangrijkste reden dat grensoverschrijdend gedrag blijft bestaan.

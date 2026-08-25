@@ -6,7 +6,7 @@ import Icoon from '../../../components/Icoon.astro';
 import Cijferstrip from '../../../components/Cijferstrip.astro';
 import Vragen from '../../../components/Vragen.astro';
 import Cta from '../../../components/Cta.astro';
-import { NIVEAUS, NIVEAU_INFO, pad } from '../../../lib/site';
+import { NIVEAUS, NIVEAU_INFO, FEITEN, pad } from '../../../lib/site';
 import { paginaTitel, description, faqSchema } from '../../../lib/seo';
 
 export async function getStaticPaths() {
@@ -35,10 +35,12 @@ const kruimels = [
   { naam: d.naam, url: pad(`/sectoren/${d.slug}/`) },
 ];
 
+// "X trainingen beschikbaar" is eruit: dat is de catalogus tellen.
+// Zie BESLUITEN.md hoofdstuk 3.
 const cijfers = [
-  { waarde: groepen.length, label: 'beroepsgroepen in deze sector' },
-  { waarde: sectorTrainingen.length, label: 'trainingen beschikbaar' },
+  { waarde: groepen.length, label: groepen.length === 1 ? 'beroepsgroep in deze sector' : 'beroepsgroepen in deze sector' },
   { waarde: 3, label: 'niveaus per beroepsgroep' },
+  { waarde: FEITEN.duur, label: 'per training' },
 ];
 
 // Sectorvragen gaan bewust over de sector als geheel — kiezen tussen
@@ -121,7 +123,7 @@ const schema = [faqSchema(d.veelgestelde_vragen)].filter(Boolean);
     <div class="omhulsel">
       <div class="kop-blok">
         <p class="bovenkop">De drie niveaus</p>
-        <h2>Waar begint uw team?</h2>
+        <h2>Waar begint je team?</h2>
       </div>
       <div class="rooster rooster-3">
         {NIVEAUS.map((n) => (
@@ -149,7 +151,7 @@ const schema = [faqSchema(d.veelgestelde_vragen)].filter(Boolean);
           groep={`vragen-${d.slug}`}
         />
         <p class="vragen-voet">
-          Per beroepsgroep staan er andere vragen. Bekijk de pagina van uw beroepsgroep
+          Per beroepsgroep staan er andere vragen. Bekijk de pagina van je beroepsgroep
           hierboven, lees <a href={pad('/aanpak/')}>de werkwijze</a> of
           <a href={pad('/over-ons/')}>maak kennis met de trainers</a>.
         </p>
@@ -159,7 +161,7 @@ const schema = [faqSchema(d.veelgestelde_vragen)].filter(Boolean);
 
   <Cta
     kop={`Agressietraining in de sector ${d.naam.toLowerCase()}?`}
-    tekst="Bureau Weerbaar en Veilig traint incompany, met casuïstiek uit uw eigen praktijk. Vertel wat er speelt, dan denken we mee over beroepsgroep en niveau."
+    tekst="Bureau Weerbaar en Veilig traint incompany, met casuïstiek uit je eigen praktijk. Vertel wat er speelt, dan denken we mee over beroepsgroep en niveau."
   />
 </Basis>
 

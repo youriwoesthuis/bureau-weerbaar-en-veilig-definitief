@@ -7,7 +7,7 @@ niveau: gevorderd
 duur: 1 dag
 groepsgrootte: maximaal 10 deelnemers
 locatie: incompany
-locatie_detail: op eigen locatie of bij Bureau Weerbaar en Veilig in Neede
+locatie_detail: bij jullie op locatie, in heel Nederland
 certificaat: deelnamecertificaat na afloop
 voorwaarde: afgeronde basistraining
 doelgroep: "Apotheekmedewerkers met basistraining die regelmatig ernstige agressie-incidenten meemaken."

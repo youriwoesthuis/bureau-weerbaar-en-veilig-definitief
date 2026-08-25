@@ -7,7 +7,7 @@ niveau: basis
 duur: 1 dag
 groepsgrootte: maximaal 10 deelnemers
 locatie: incompany
-locatie_detail: op eigen locatie of bij Bureau Weerbaar en Veilig in Neede
+locatie_detail: bij jullie op locatie, in heel Nederland
 certificaat: deelnamecertificaat na afloop
 doelgroep: Apotheekmedewerkers en apothekersassistenten met direct patiëntcontact aan de balie.
 samenvatting: >-

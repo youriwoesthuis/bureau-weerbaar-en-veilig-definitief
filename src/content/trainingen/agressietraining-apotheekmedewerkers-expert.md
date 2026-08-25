@@ -7,7 +7,7 @@ niveau: expert
 duur: 1 dag
 groepsgrootte: maximaal 8 deelnemers
 locatie: incompany
-locatie_detail: op eigen locatie of bij Bureau Weerbaar en Veilig in Neede
+locatie_detail: bij jullie op locatie, in heel Nederland
 certificaat: deelnamecertificaat na afloop
 voorwaarde: leidinggevende of eigenaarverantwoordelijkheid voor een apotheek of apotheekteam
 doelgroep: "Apothekers, apotheekmanagers en leidinggevende apothekersassistenten die verantwoordelijk zijn voor de veiligheid in de apotheek."
@@ -15,7 +15,7 @@ samenvatting: >-
   De expert agressietraining voor apothekers en leidinggevenden van Bureau
   Weerbaar en Veilig leert leidinggevenden beleid opstellen over het
   beëindigen van de zorgrelatie bij grensoverschrijdend gedrag en de
-  meldcultuur versterken. De training duurt 1 dag en telt maximaal 8 deelnemers, met een intervisiebijeenkomst na 6 weken.
+  meldcultuur versterken. De training duurt 1 dag en telt maximaal 8 deelnemers.
 resultaat:
   - Helder beleid opstellen over het beëindigen van de zorgrelatie bij grensoverschrijdend gedrag
   - "Medewerkers coachen na agressie-incidenten met structurele debriefing"
@@ -36,7 +36,7 @@ programma:
 werkvormen:
   - "analyse van beleid, patiëntenpopulatie en veiligheidscultuur"
   - beleidsontwikkeling op organisatieniveau
-  - intervisie na 6 weken
+  - intervisie na afloop (op verzoek)
 veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Apothekers, apotheekmanagers en leidinggevende apothekersassistenten die verantwoordelijk zijn voor de veiligheid in de apotheek. Voorwaarde voor deelname: leidinggevende of eigenaarverantwoordelijkheid voor een apotheek of apotheekteam."

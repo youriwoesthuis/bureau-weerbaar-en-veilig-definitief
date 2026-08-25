@@ -38,7 +38,7 @@ const kruimels = [
   { naam: 'Contact', url: pad('/contact/') },
 ];
 
-const openingsantwoord = `Bureau Weerbaar en Veilig is bereikbaar op ${SITE.telefoon} en via ${SITE.email}, op ${SITE.openingstijden}. Het bureau is gevestigd aan de ${SITE.adres.straat} in ${SITE.adres.plaats} en verzorgt agressietraining door heel Nederland, vrijwel altijd incompany.`;
+const openingsantwoord = `Bureau Weerbaar en Veilig is bereikbaar op ${SITE.telefoon} en via ${SITE.email}, op ${SITE.openingstijden}. Het bureau is gevestigd aan de ${SITE.adres.straat} in ${SITE.adres.plaats} en verzorgt agressietraining door heel Nederland, altijd bij jullie op locatie.`;
 
 /**
  * Zolang het formulier uit staat is mailen de belangrijkste route. Een lege
@@ -78,11 +78,11 @@ const contactVragen = [
   {
     vraag: 'Wat kost een agressietraining?',
     antwoord:
-      'Elke training wordt per aanvraag geoffreerd. De prijs hangt af van de beroepsgroep, het niveau, het aantal groepen en of er met een trainingsacteur wordt gewerkt. Vertel wat er speelt, dan komt daar een offerte op maat uit.',
+      'Er staat geen prijs op de site, omdat elke aanvraag anders is. Wat de prijs bepaalt: het aantal groepen, het niveau, de reisafstand en de omvang van het traject. De trainingsacteur niet — die speelt standaard mee. Vertel wat er speelt, dan komt daar een offerte op maat uit.',
   },
   {
     vraag: 'Werkt Bureau Weerbaar en Veilig door heel Nederland?',
-    antwoord: `Ja. De trainingen worden incompany gegeven, ${FEITEN.locatie}. Het bureau is gevestigd in ${SITE.adres.plaats} (${SITE.adres.provincie}) en werkt door het hele land.`,
+    antwoord: `Ja. De trainingen worden ${FEITEN.locatie} gegeven, in heel Nederland. Het bureau is gevestigd in ${SITE.adres.plaats} (${SITE.adres.provincie}), maar daar wordt niet getraind.`,
   },
   {
     vraag: 'Wij hebben meer medewerkers dan er in één groep passen. Hoe werkt dat?',
@@ -91,7 +91,7 @@ const contactVragen = [
   {
     vraag: 'Wij weten nog niet welk niveau we nodig hebben. Kunnen we toch contact opnemen?',
     antwoord:
-      'Ja, en dat is normaal. U kunt de niveau-keuzehulp op de homepagina gebruiken voor een eerste richting, maar het niveau vaststellen hoort bij de intake en niet bij de aanvraag.',
+      'Ja, en dat is normaal. Je kunt de niveau-keuzehulp op de homepagina gebruiken voor een eerste richting, maar het niveau vaststellen hoort bij de intake en niet bij de aanvraag.',
   },
   {
     vraag: 'Wat heeft Bureau Weerbaar en Veilig nodig om een aanvraag te kunnen beoordelen?',
@@ -139,7 +139,7 @@ const schema = [faqSchema(contactVragen)].filter(Boolean);
             <h2 class="h3">Offerte aanvragen</h2>
 
             <div class="veld">
-              <label for="naam">Uw naam <span class="verplicht">*</span></label>
+              <label for="naam">Je naam <span class="verplicht">*</span></label>
               <input type="text" id="naam" name="naam" required autocomplete="name" />
             </div>
 
@@ -202,7 +202,7 @@ const schema = [faqSchema(contactVragen)].filter(Boolean);
             </div>
 
             <p class="privacyregel">
-              Uw gegevens worden alleen gebruikt om op deze aanvraag te reageren.
+              Je gegevens worden alleen gebruikt om op deze aanvraag te reageren.
               Zie de <a href={pad('/privacy/')}>privacyverklaring</a>.
             </p>
 
@@ -228,7 +228,7 @@ const schema = [faqSchema(contactVragen)].filter(Boolean);
                 Bel {SITE.telefoon}
                 <span class="pijl" aria-hidden="true">→</span>
               </a>
-              <a href={mailLink} class="knop knop-tweede">Mail uw aanvraag</a>
+              <a href={mailLink} class="knop knop-tweede">Mail je aanvraag</a>
             </div>
             <p class="notitie">
               <strong>Voor de beheerder:</strong> het online formulier staat klaar
@@ -267,7 +267,7 @@ const schema = [faqSchema(contactVragen)].filter(Boolean);
             {SITE.adres.postcode} {SITE.adres.plaats}<br />
             {SITE.adres.provincie}
           </address>
-          <p class="klein">Trainingen vinden vrijwel altijd plaats op uw eigen locatie.</p>
+          <p class="klein">Trainingen vinden altijd plaats op jullie eigen locatie.</p>
         </div>
 
         <div class="gegevensblok" data-niveau="expert">
@@ -338,7 +338,7 @@ const schema = [faqSchema(contactVragen)].filter(Boolean);
     <div class="omhulsel">
       <Vragen vragen={contactVragen} kop="Vragen over aanvraag en offerte" groep="vragen-contact" />
       <p class="vragen-voet">
-        Vragen over de inhoud van een training staan op de pagina van uw
+        Vragen over de inhoud van een training staan op de pagina van je
         <a href={pad('/sectoren/')}>beroepsgroep</a>. Hoe een traject verloopt, staat bij
         <a href={pad('/aanpak/')}>de werkwijze</a>; wie de trainingen geven, bij
         <a href={pad('/over-ons/')}>over ons</a>.

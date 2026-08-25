@@ -61,16 +61,11 @@ const jaar = new Date().getFullYear();
     </div>
 
     <div class="voet-onder">
+      {/* Hier stonden links naar de twee zustermerken. Die zijn eruit:
+          Bureau Weerbaar en Veilig moet zelfstandig lezen, en de transactie
+          hoort op deze site te blijven. De merkgroep wordt uitgelegd op
+          /over-ons/ en nergens anders. Zie BESLUITEN.md hoofdstuk 2. */}
       <p>© {jaar} {SITE.naam}</p>
-      <p class="voet-groep">
-        Onderdeel van
-        {SITE.zustermerken.map((m, i) => (
-          <>
-            {i > 0 && ' en '}
-            <a href={m.url} rel="noopener">{m.naam}</a>
-          </>
-        ))}
-      </p>
       <ul class="voet-links">
         <li><a href={pad('/over-ons/')}>Over ons</a></li>
         <li><a href={pad('/contact/')}>Contact</a></li>

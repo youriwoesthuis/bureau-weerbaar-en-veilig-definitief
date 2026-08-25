@@ -7,7 +7,7 @@ niveau: expert
 duur: 1 dag
 groepsgrootte: maximaal 8 deelnemers
 locatie: incompany
-locatie_detail: op eigen locatie of bij Bureau Weerbaar en Veilig in Neede
+locatie_detail: bij jullie op locatie, in heel Nederland
 certificaat: deelnamecertificaat na afloop
 voorwaarde: leidinggevende functie met aantoonbare werkervaring met agressie bij de Belastingdienst
 doelgroep: "Teamleiders, afdelingshoofden en veiligheidscoördinatoren bij de Belastingdienst."
@@ -15,7 +15,7 @@ samenvatting: >-
   De expert agressietraining voor leidinggevenden bij de Belastingdienst
   van Bureau Weerbaar en Veilig leert leidinggevenden agressiepatronen op
   afdelingsniveau in beleid vertalen, veiligheidsbeleid voor controles
-  opzetten en de meldcultuur versterken. De training duurt 1 dag en telt maximaal 8 deelnemers, met een intervisiebijeenkomst na 6 weken.
+  opzetten en de meldcultuur versterken. De training duurt 1 dag en telt maximaal 8 deelnemers.
 resultaat:
   - Agressiepatronen op afdelingsniveau analyseren en in beleid vertalen
   - Het agressieprotocol toetsen op praktische bruikbaarheid
@@ -32,12 +32,12 @@ programma:
     inhoud: Beleid opzetten voor veilig werken tijdens controles en voor toegangsweigering.
   - titel: Standhouden of escaleren
     inhoud: "De grens bepalen tussen professioneel standhouden en escaleren, en die grens uitleggen aan het team."
-  - titel: Intervisie na 6 weken
+  - titel: Intervisie na afloop (op verzoek)
     inhoud: Terugkombijeenkomst over de implementatie.
 werkvormen:
   - casuïstiekbespreking
   - beleidsanalyse met aandacht voor de juridische context
-  - intervisie na 6 weken
+  - intervisie na afloop (op verzoek)
 veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Teamleiders, afdelingshoofden en veiligheidscoördinatoren bij de Belastingdienst. Voorwaarde voor deelname: leidinggevende functie met aantoonbare werkervaring met agressie bij de Belastingdienst."

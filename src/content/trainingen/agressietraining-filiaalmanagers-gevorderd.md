@@ -7,7 +7,7 @@ niveau: gevorderd
 duur: 1 dag
 groepsgrootte: maximaal 10 deelnemers
 locatie: incompany
-locatie_detail: op eigen locatie of bij Bureau Weerbaar en Veilig in Neede
+locatie_detail: bij jullie op locatie, in heel Nederland
 certificaat: deelnamecertificaat na afloop
 voorwaarde: afgeronde basistraining of werkervaring met agressie-incidenten
 doelgroep: "Filiaalmanagers en teamleiders die de basis beheersen en regelmatig complexe of herhaalde agressiesituaties tegenkomen: vooral in drukke, stedelijke vestigingen met hoge incidentcijfers of structurele overlast."

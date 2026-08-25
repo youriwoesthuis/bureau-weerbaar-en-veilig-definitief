@@ -4,14 +4,22 @@ import { pad } from '../lib/site';
 const huidig = Astro.url.pathname.replace(import.meta.env.BASE_URL, '/').replace(/\/{2,}/g, '/');
 
 const menu = [
-  { naam: 'Sectoren', url: pad('/sectoren/') },
-  { naam: 'Trainingen', url: pad('/trainingen/') },
+  // "Beroepsgroepen" en niet "Sectoren": dat is de as waarop dit merk ordent
+  // en waar bezoekers op zoeken. De sectorindeling blijft de structuur ván
+  // die pagina, maar is niet het label. "Trainingen" staat er bewust niet
+  // meer bij — die lijst van 132 blijft bestaan en vindbaar, maar bezoekers
+  // gaan via beroepsgroep of niveau. Zie BESLUITEN.md hoofdstuk 6.
+  { naam: 'Home', url: pad('/') },
+  { naam: 'Beroepsgroepen', url: pad('/sectoren/') },
   { naam: 'Niveaus', url: pad('/niveaus/') },
   { naam: 'Aanpak', url: pad('/aanpak/') },
   { naam: 'Over ons', url: pad('/over-ons/') },
 ];
 
-const actief = (url: string) => huidig.startsWith(url) && url !== pad('/');
+// Home is exact-match: anders zou startsWith('/') op elke pagina aanslaan
+// en stonden er twee items tegelijk als "actief" gemarkeerd.
+const actief = (url: string) =>
+  url === pad('/') ? huidig === pad('/') : huidig.startsWith(url);
 ---
 
 <a class="springlink" href="#hoofd">Naar de hoofdinhoud</a>

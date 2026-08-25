@@ -38,18 +38,18 @@ const kruimels = [
   { naam: 'Over ons', url: pad('/over-ons/') },
 ];
 
-const openingsantwoord = `Bureau Weerbaar en Veilig is een Nederlands trainingsbureau dat uitsluitend agressietraining verzorgt, vanuit ${SITE.adres.plaats} in ${SITE.adres.provincie}. Het bureau werkt met ${team.length} trainers en coaches en traint ${beroepsgroepen.length} beroepsgroepen in ${sectoren.length} sectoren. Bureau Weerbaar en Veilig is een handelsnaam binnen dezelfde onderneming als Act in Move Training & Coaching.`;
+const openingsantwoord = `Bureau Weerbaar en Veilig is een Nederlands trainingsbureau dat uitsluitend agressietraining verzorgt, vanuit ${SITE.adres.plaats} in ${SITE.adres.provincie}. Je traint met trainers die dit werk zelf doen, en bij elke training speelt een trainingsacteur mee. Bureau Weerbaar en Veilig is een handelsnaam binnen dezelfde onderneming als Act in Move Training & Coaching.`;
 
 // Uit de rollen in de content geteld, niet met de hand ingevuld. Zes van de
-// twaalf teamleden spelen mee in de oefeningen; dat is voor een bureau van
-// deze omvang ongebruikelijk veel en dus het vermelden waard.
-const acteurs = team.filter((t) => /trainingsacteur/i.test(t.data.rol)).length;
-
+// Hier stonden vier getallen: teamleden, acteurs, beroepsgroepen en
+// trainingen. Aantallen noemen we niet meer, en "6 van de 12 zijn acteur"
+// hoeft ook niet zo expliciet — het zijn gewoon teamleden.
+// Zie BESLUITEN.md hoofdstuk 3.
 const cijfers = [
-  { waarde: team.length, label: 'Trainers en coaches' },
-  { waarde: acteurs, label: 'Daarvan trainingsacteur' },
-  { waarde: beroepsgroepen.length, label: 'Beroepsgroepen' },
-  { waarde: trainingen.length, label: 'Uitgewerkte trainingen' },
+  { waarde: 'Alleen', label: 'agressietraining, geen bijvak' },
+  { waarde: 'Drie', label: 'niveaus om in door te groeien' },
+  { waarde: 'Altijd', label: 'een trainingsacteur erbij' },
+  { waarde: 'Overal', label: 'bij jullie op locatie, heel Nederland' },
 ];
 ---
 
@@ -112,9 +112,9 @@ const cijfers = [
         <p class="bovenkop">Het team</p>
         <h2>Wie de training geeft</h2>
         <p class="inleiding">
-          {team.length} trainers en coaches. Bij een agressietraining staat er
-          altijd een trainer én, waar dat de oefening beter maakt, een
-          trainingsacteur.
+          Bij een agressietraining staat er altijd een trainer én een
+          trainingsacteur. Die acteur is onderdeel van het team, geen
+          ingehuurde kracht.
         </p>
       </div>
 
@@ -143,7 +143,7 @@ const cijfers = [
     <div class="omhulsel twee-kolom">
       <div class="kop-blok">
         <p class="bovenkop">Praktisch</p>
-        <h2>Waar u ons vindt</h2>
+        <h2>Waar je ons vindt</h2>
       </div>
       <div class="leestekst">
         <p>

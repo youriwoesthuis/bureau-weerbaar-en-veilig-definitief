@@ -7,7 +7,7 @@ niveau: gevorderd
 duur: 1 dag
 groepsgrootte: maximaal 10 deelnemers
 locatie: incompany
-locatie_detail: op eigen locatie of bij Bureau Weerbaar en Veilig in Neede
+locatie_detail: bij jullie op locatie, in heel Nederland
 certificaat: deelnamecertificaat na afloop
 voorwaarde: afgeronde basistraining of aantoonbare werkervaring met ernstige gedragsproblematiek in de gehandicaptenzorg
 doelgroep: "Begeleiders op woongroepen met een hoge agressiebelasting, werkzaam met cliënten met ernstige meervoudige beperkingen of LVB-plus problematiek."

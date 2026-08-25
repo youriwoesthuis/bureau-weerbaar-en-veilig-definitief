@@ -3,7 +3,7 @@ import { getCollection } from 'astro:content';
 import Basis from '../layouts/Basis.astro';
 import Icoon from '../components/Icoon.astro';
 import HeroBeeld from '../components/HeroBeeld.astro';
-import Cijferstrip from '../components/Cijferstrip.astro';
+import Niveaustrip from '../components/Niveaustrip.astro';
 import Keuzehulp from '../components/Keuzehulp.astro';
 import BeroepsgroepIndex from '../components/BeroepsgroepIndex.astro';
 import NiveauLadder from '../components/NiveauLadder.astro';
@@ -16,15 +16,12 @@ const beroepsgroepen = await getCollection('beroepsgroepen');
 const sectoren = await getCollection('sectoren');
 const team = await getCollection('team');
 
-// Alle cijfers geteld uit de content, nooit met de hand ingevuld.
-const cijfers = [
-  { waarde: trainingen.length, label: 'Trainingen', url: pad('/trainingen/') },
-  { waarde: beroepsgroepen.length, label: 'Beroepsgroepen', url: pad('/sectoren/') },
-  { waarde: sectoren.length, label: 'Sectoren', url: pad('/sectoren/') },
-  { waarde: 3, label: 'Niveaus', url: pad('/niveaus/') },
-];
+// Hier stond een cijferstrip met vier catalogusgetallen. Die is vervangen
+// door de niveaustrip; zie Niveaustrip.astro en BESLUITEN.md hoofdstuk 4.
 
-const openingsantwoord = `Bureau Weerbaar en Veilig is een trainingsbureau dat uitsluitend agressietraining verzorgt. Het aanbod is opgebouwd per beroepsgroep — ${beroepsgroepen.length} in totaal, verdeeld over ${sectoren.length} sectoren — en elk daarvan in de niveaus basis, gevorderd en expert. Elke training duurt ${FEITEN.duur} en telt ${FEITEN.groepsgrootte}.`;
+// Eerste zin noemt de merknaam één keer, zodat een AI-antwoord de bron kan
+// aanwijzen. Daarna "je". Zie BESLUITEN.md hoofdstuk 5.
+const openingsantwoord = `Bureau Weerbaar en Veilig verzorgt uitsluitend agressietraining, opgebouwd per beroepsgroep en in drie niveaus. Je team traint met situaties uit het eigen werk, niet met algemene voorbeelden. Elke training duurt ${FEITEN.duur}, telt ${FEITEN.groepsgrootte} en wordt bij jullie op locatie gegeven, met een trainingsacteur erbij.`;
 
 const verschillen = [
   {
@@ -37,7 +34,7 @@ const verschillen = [
   {
     icoon: 'team' as const,
     niveau: 'gevorderd',
-    kop: 'Geschreven voor uw beroep',
+    kop: 'Geschreven voor jouw beroep',
     tekst:
       'Een wijkverpleegkundige alleen in een woonkamer heeft een ander probleem dan een conducteur op een perron. Daarom één training per beroepsgroep.',
   },
@@ -72,7 +69,7 @@ const ingangen = [
     kop: 'We willen structureel trainen',
     tekst: 'Geen losse dag maar een lijn: kies de beroepsgroep en zie welke drie niveaus daarbij horen.',
     link: pad('/sectoren/'),
-    linktekst: 'Kies uw beroepsgroep',
+    linktekst: 'Kies je beroepsgroep',
   },
   {
     icoon: 'beleid' as const,
@@ -86,7 +83,7 @@ const ingangen = [
     icoon: 'vinkje' as const,
     niveau: 'basis',
     kop: 'Ik weet niet welk niveau past',
-    tekst: 'Drie vragen over het team en de aanleiding, en u weet welke richting het op gaat.',
+    tekst: 'Drie vragen over het team en de aanleiding, en je weet welke richting het op gaat.',
     link: '#niveauhulp',
     linktekst: 'Naar de keuzehulp',
   },
@@ -105,7 +102,8 @@ const cyclus = [
 const praktisch = [
   { icoon: 'klok' as const, kop: FEITEN.duur, tekst: 'per training, alle niveaus' },
   { icoon: 'groep' as const, kop: 'Max. 10', tekst: 'deelnemers, bij expert acht' },
-  { icoon: 'locatie' as const, kop: 'Incompany', tekst: 'op uw locatie of in Neede' },
+  { icoon: 'team' as const, kop: 'Acteur', tekst: 'speelt standaard mee' },
+  { icoon: 'locatie' as const, kop: 'Incompany', tekst: 'altijd bij jullie op locatie' },
   { icoon: 'certificaat' as const, kop: 'Certificaat', tekst: 'deelnamebewijs na afloop' },
 ];
 ---
@@ -113,7 +111,7 @@ const praktisch = [
 <Basis
   titel={paginaTitel('Agressietraining per beroepsgroep en niveau')}
   description={description(
-    `Bureau Weerbaar en Veilig verzorgt agressietraining voor ${beroepsgroepen.length} beroepsgroepen in ${sectoren.length} sectoren, in drie niveaus. Incompany, ${FEITEN.duur}, ${FEITEN.groepsgrootte}.`,
+    `Bureau Weerbaar en Veilig verzorgt uitsluitend agressietraining, per beroepsgroep en in drie niveaus. Altijd bij jullie op locatie, ${FEITEN.duur}, ${FEITEN.groepsgrootte}.`,
   )}
   niveau="basis"
   kruimels={[{ naam: 'Home', url: pad('/') }]}
@@ -124,17 +122,17 @@ const praktisch = [
       <div class="hero-tekst">
         <p class="bovenkop">{SITE.slogan}</p>
         <h1 class="display hero-kop">
-          Agressietraining voor<br />
-          <span class="verloopwoord">uw beroepsgroep</span>
+          Agressie hoort niet bij het werk.<br />
+          <span class="verloopwoord">Ermee omgaan wel.</span>
         </h1>
         <p class="inleiding hero-inleiding">
-          Geen algemene weerbaarheidscursus, maar de situaties die in uw werk
-          daadwerkelijk voorkomen. {beroepsgroepen.length} beroepsgroepen,
-          {sectoren.length} sectoren, elk in drie niveaus.
+          Agressietraining per beroepsgroep, in drie niveaus, altijd bij jullie
+          op locatie. Geen algemene weerbaarheidscursus en geen e-learning, maar
+          de situaties die in jouw werk daadwerkelijk voorkomen.
         </p>
         <div class="hero-knoppen">
           <a href="#kiezen" class="knop">
-            Vind de training voor uw team
+            Vind de training voor je team
             <span class="pijl" aria-hidden="true">→</span>
           </a>
           <a href={pad('/aanpak/')} class="knop knop-tweede">Zo werken wij</a>
@@ -144,11 +142,11 @@ const praktisch = [
       <div class="hero-beeld"><HeroBeeld /></div>
     </div>
 
-    <!-- De cijferstrip valt over de onderrand van de hero heen, zoals op
+    <!-- De niveaustrip valt over de onderrand van de hero heen, zoals op
          agressievisie.nl. Dat bindt het donkere en het lichte vlak aan
          elkaar in plaats van ze hard op elkaar te laten stoten. -->
     <div class="omhulsel">
-      <Cijferstrip cijfers={cijfers} overlappend={true} />
+      <Niveaustrip overlappend={true} />
     </div>
   </section>
 
@@ -165,11 +163,11 @@ const praktisch = [
   <section class="sectie op-licht">
     <div class="omhulsel">
       <div class="kop-blok">
-        <p class="bovenkop">Waar wilt u beginnen?</p>
-        <h2>Wat speelt er nu bij u?</h2>
+        <p class="bovenkop">Waar wil je beginnen?</p>
+        <h2>Wat speelt er nu bij jullie?</h2>
         <p class="inleiding">
-          Vier ingangen naar wat u op dit moment nodig hebt, zonder eerst het
-          hele aanbod door te hoeven.
+          Vier ingangen naar wat jullie op dit moment nodig hebben, zonder eerst
+          het hele aanbod door te hoeven.
         </p>
       </div>
       <div class="rooster rooster-4">
@@ -200,20 +198,22 @@ const praktisch = [
           <span class="kaart-icoon"><Icoon naam="team" /></span>
           <h3>Wie</h3>
           <p>
-            Bureau Weerbaar en Veilig is een Nederlands trainingsbureau met
-            {team.length} trainers en coaches, gevestigd in {SITE.adres.plaats}
-            en werkzaam door heel Nederland. Het is een handelsnaam binnen
-            dezelfde onderneming als Act in Move Training &amp; Coaching.
+            {/* Geen teamtelling en geen vermelding van het zustermerk: de
+                merkgroep wordt uitgelegd op /over-ons/ en nergens anders.
+                Zie BESLUITEN.md hoofdstuk 2 en 3. */}
+            Bureau Weerbaar en Veilig is een Nederlands trainingsbureau van
+            trainers en trainingsacteurs, gevestigd in {SITE.adres.plaats} en
+            werkzaam door heel Nederland. Je krijgt trainers die dit werk zelf
+            doen, niet een pool van losse inhuurkrachten.
           </p>
         </article>
         <article class="wie-blok">
           <span class="kaart-icoon"><Icoon naam="oefenen" /></span>
           <h3>Wat</h3>
           <p>
-            Uitsluitend agressietraining. {trainingen.length} trainingen,
-            geschreven voor {beroepsgroepen.length} afzonderlijke beroepsgroepen,
-            elk in drie niveaus. Incompany, met casuïstiek uit de eigen praktijk
-            van de deelnemers en waar nodig een trainingsacteur.
+            Uitsluitend agressietraining, geschreven per beroepsgroep en in drie
+            niveaus. Altijd bij jullie op locatie, met casuïstiek uit de eigen
+            praktijk van de deelnemers en een trainingsacteur die meespeelt.
           </p>
         </article>
         <article class="wie-blok">
@@ -234,11 +234,11 @@ const praktisch = [
   <section class="sectie op-licht" id="kiezen">
     <div class="omhulsel">
       <div class="kop-blok">
-        <p class="bovenkop">Direct naar uw vak</p>
-        <h2>Welke beroepsgroep traint u?</h2>
+        <p class="bovenkop">Direct naar je vak</p>
+        <h2>Welke beroepsgroep train je?</h2>
         <p class="inleiding">
-          Alle 44 beroepsgroepen die Bureau Weerbaar en Veilig traint, geordend
-          per sector. Elke beroepsgroep heeft een eigen pagina met drie niveaus.
+          Zoek het beroep op, geordend per sector. Elke beroepsgroep heeft een
+          eigen pagina met de drie niveaus die erbij horen.
         </p>
       </div>
       <BeroepsgroepIndex />
@@ -273,7 +273,7 @@ const praktisch = [
     <div class="omhulsel">
       <div class="kop-blok">
         <p class="bovenkop">Keuzehulp</p>
-        <h2>Welk niveau past bij uw team?</h2>
+        <h2>Welk niveau past bij je team?</h2>
         <p class="inleiding">
           Drie vragen. De uitkomst verschijnt meteen — er wordt niets
           verstuurd en u hoeft niets in te vullen.

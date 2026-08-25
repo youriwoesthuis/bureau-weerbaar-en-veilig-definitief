@@ -7,7 +7,7 @@ niveau: expert
 duur: 1 dag
 groepsgrootte: maximaal 8 deelnemers
 locatie: incompany
-locatie_detail: op eigen vestiging of bij Bureau Weerbaar en Veilig in Neede
+locatie_detail: bij jullie op locatie, in heel Nederland
 certificaat: deelnamecertificaat na afloop
 voorwaarde: leidinggevende functie met aantoonbare werkervaring met agressie
 doelgroep: Filiaalmanagers, assistent-managers, teamleiders en senior medewerkers die kassateams en baliemedewerkers begeleiden bij agressie-incidenten.
@@ -15,7 +15,7 @@ samenvatting: >-
   De expert agressietraining voor leidinggevenden in de retail van Bureau
   Weerbaar en Veilig leert leidinggevenden agressiepatronen op vestigingsniveau
   analyseren, het agressieprotocol aanscherpen en de meldcultuur versterken.
-  De training duurt 1 dag, met een intervisiebijeenkomst na 6 weken, met maximaal 8
+  De training duurt 1 dag, met maximaal 8
   deelnemers en een leidinggevende functie als voorwaarde.
 resultaat:
   - Agressiepatronen op vestigingsniveau analyseren en bespreken
@@ -33,12 +33,12 @@ programma:
     inhoud: Medewerkers structureel begeleiden na incidenten en zorgen voor nazorg bij ernstige situaties.
   - titel: Juridische kaders en meldcultuur
     inhoud: Juridische verantwoordelijkheden begrijpen en communiceren, en incidenten inzetten als leermiddel.
-  - titel: Intervisie na 6 weken
+  - titel: Intervisie na afloop (op verzoek)
     inhoud: Terugkombijeenkomst waarin deelnemers eigen casussen inbrengen en de toepassing in de praktijk wordt aangescherpt.
 werkvormen:
   - casuïstiekbespreking
   - beleidsanalyse en concrete beleidsverbetering
-  - intervisie na 6 weken
+  - intervisie na afloop (op verzoek)
 veelgestelde_vragen:
   - vraag: Voor wie is de expert agressietraining voor leidinggevenden in de retail bedoeld?
     antwoord: "Voor medewerkers in een leidinggevende of coördinerende rol: filiaalmanagers, assistent-managers, teamleiders en senior medewerkers die collega's aan kassa en balie begeleiden bij agressie-incidenten."
