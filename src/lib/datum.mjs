@@ -18,14 +18,14 @@ import { statSync } from 'node:fs';
  * bestandsdatum.
  */
 
-let kaart: Map<string, string> | null = null;
+let kaart = null;
 
-function bouwKaart(): Map<string, string> {
-  const m = new Map<string, string>();
+function bouwKaart() {
+  const m = new Map();
   try {
     const uitvoer = execFileSync(
       'git',
-      ['log', '--pretty=format:%cI', '--name-only', '--', 'src/content'],
+      ['log', '--pretty=format:%cI', '--name-only'],
       { encoding: 'utf8', maxBuffer: 32 * 1024 * 1024 },
     );
     let huidig = '';
@@ -46,7 +46,7 @@ function bouwKaart(): Map<string, string> {
 }
 
 /** ISO-datum van de laatste wijziging, of null als die niet te bepalen is. */
-export function laatstGewijzigd(pad: string): string | null {
+export function laatstGewijzigd(pad) {
   if (!kaart) kaart = bouwKaart();
   const uitGit = kaart.get(pad.replace(/\\/g, '/'));
   if (uitGit) return uitGit;

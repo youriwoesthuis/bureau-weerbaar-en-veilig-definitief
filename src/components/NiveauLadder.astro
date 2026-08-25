@@ -11,8 +11,19 @@ interface Props {
   trainingen?: Partial<Record<(typeof NIVEAUS)[number], string>>;
   beroepsgroep?: string;
   huidig?: string;
+  /**
+   * Laat de lange beschrijvingen weg. Gebruik dit op de 132
+   * trainingspagina's: daar is de ladder navigatie, geen uitleg, en de
+   * volledige tekst maakte 90 woorden per pagina identiek. De overlap
+   * tussen willekeurige trainingspagina's zat daardoor op 42%.
+   *
+   * Op de beroepsgroeppagina's en /niveaus/ blijft de volledige versie
+   * staan — dáár moet iemand juist kiezen, en die pagina's zijn met 44 en 1
+   * te weinig in aantal om een duplicaatprobleem te vormen.
+   */
+  compact?: boolean;
 }
-const { trainingen, beroepsgroep, huidig } = Astro.props;
+const { trainingen, beroepsgroep, huidig, compact = false } = Astro.props;
 ---
 
 <ol class="ladder">
@@ -32,8 +43,8 @@ const { trainingen, beroepsgroep, huidig } = Astro.props;
           <span class="trede-nummer" aria-hidden="true">{String(i + 1).padStart(2, '0')}</span>
           <span class="badge">{info.naam}</span>
           <span class="trede-kort">{info.kort}</span>
-          <span class="trede-tekst">{info.omschrijving}</span>
-          <span class="trede-wie"><strong>Voor wie:</strong> {info.voorWie}</span>
+          {!compact && <span class="trede-tekst">{info.omschrijving}</span>}
+          {!compact && <span class="trede-wie"><strong>Voor wie:</strong> {info.voorWie}</span>}
           {isHuidig && <span class="trede-hier">Je bekijkt dit niveau</span>}
           {slug && !isHuidig && (
             <span class="pijllink trede-voet">

@@ -38,6 +38,34 @@ const kruimels = [
 ];
 
 const openingsantwoord = `Bureau Weerbaar en Veilig is bereikbaar op ${SITE.telefoon} en via ${SITE.email}, op ${SITE.openingstijden}. Het bureau is gevestigd aan de ${SITE.adres.straat} in ${SITE.adres.plaats} en verzorgt agressietraining door heel Nederland, vrijwel altijd incompany.`;
+
+/**
+ * Zolang het formulier uit staat is mailen de belangrijkste route. Een lege
+ * mail betekent dat de bezoeker zelf moet bedenken wat hij vertelt — en dan
+ * komt er "graag informatie over agressietraining" binnen, waar niemand mee
+ * verder kan. Met deze regels erin staat de aanvraag meteen compleet.
+ *
+ * De regels zijn precies de velden die het formulier ook zou uitvragen, in
+ * dezelfde volgorde, zodat de overstap later niets verandert aan wat er
+ * binnenkomt.
+ */
+const mailRegels = [
+  'Organisatie:',
+  'Beroepsgroep:',
+  'Aantal deelnemers:',
+  'Gewenst niveau (basis / gevorderd / expert, of nog onbekend):',
+  '',
+  'Wat speelt er?',
+  '(Bijvoorbeeld: wat er is gebeurd, hoe vaak het voorkomt, en wat het team al heeft geprobeerd.)',
+  '',
+  '',
+  'Met vriendelijke groet,',
+  '',
+];
+const mailLink =
+  `mailto:${SITE.email}` +
+  `?subject=${encodeURIComponent('Aanvraag agressietraining')}` +
+  `&body=${encodeURIComponent(mailRegels.join('\n'))}`;
 ---
 
 <Basis
@@ -159,9 +187,7 @@ const openingsantwoord = `Bureau Weerbaar en Veilig is bereikbaar op ${SITE.tele
                 Bel {SITE.telefoon}
                 <span class="pijl" aria-hidden="true">→</span>
               </a>
-              <a href={`mailto:${SITE.email}?subject=Aanvraag%20agressietraining`} class="knop knop-tweede">
-                Mail ons
-              </a>
+              <a href={mailLink} class="knop knop-tweede">Mail uw aanvraag</a>
             </div>
             <p class="notitie">
               <strong>Voor de beheerder:</strong> het online formulier staat klaar

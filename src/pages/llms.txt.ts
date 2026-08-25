@@ -10,11 +10,15 @@ import { SITE, FEITEN, NIVEAUS, NIVEAU_INFO } from '../lib/site';
 export const GET: APIRoute = async ({ site }) => {
   const basis = new URL(import.meta.env.BASE_URL, site).href.replace(/\/$/, '');
 
-  const [trainingen, beroepsgroepen, sectoren] = await Promise.all([
+  const [trainingen, beroepsgroepen, sectoren, team] = await Promise.all([
     getCollection('trainingen'),
     getCollection('beroepsgroepen'),
     getCollection('sectoren'),
+    getCollection('team'),
   ]);
+
+  // Geteld uit de rollen, niet met de hand ingevuld.
+  const acteurs = team.filter((t) => /trainingsacteur/i.test(t.data.rol)).length;
 
   const naamVan = new Map(beroepsgroepen.map((b) => [b.data.slug, b.data.naam]));
 
@@ -63,6 +67,41 @@ gevorderd en expert. Dat zijn ${trainingen.length} trainingen in totaal.
 ## De drie niveaus
 
 ${niveauBlok}
+
+## Werkwijze
+
+Bureau Weerbaar en Veilig beschrijft de eigen werkwijze als een PDCA-cyclus,
+omdat een training geen losse dag is maar een stap in verbeteren:
+
+- **Plan** — intake: wat is er gebeurd, welke beroepsgroep, welk niveau, en met
+  welke situaties wordt geoefend. Die situaties komen uit de meldingen van het
+  team zelf, niet uit standaardrollenspellen.
+- **Do** — de trainingsdag: korte theorieblokken, veel oefenen, en waar dat de
+  oefening beter maakt met een trainingsacteur.
+- **Check** — wat werkt er op de werkvloer: wordt er gemeld, wordt er
+  nabesproken, waar loopt het team alsnog vast.
+- **Act** — teamnorm en nazorg vastleggen, en waar nodig door naar het
+  volgende niveau. Daarna begint de cyclus opnieuw.
+
+De volledige uitleg staat op ${basis}/aanpak/.
+
+**Trainingsacteurs.** Van de ${team.length} teamleden zijn er ${acteurs} trainingsacteur. Ze
+zijn onderdeel van het team, geen losse ingehuurde kracht. Een acteur speelt de
+casus uit de meldingen van het team zelf, kan de druk stap voor stap opvoeren
+of terugnemen, en maakt het mogelijk dezelfde situatie meerdere keren over te
+doen met andere keuzes.
+
+## Hulpmiddelen op de site
+
+- **Niveau-keuzehulp** (${basis}/#niveauhulp) — drie vragen over ervaring,
+  aanleiding en deelnemers; de uitkomst is het hoogste niveau dat past.
+- **Beroepsgroepoverzicht** (${basis}/) — alle ${beroepsgroepen.length}
+  beroepsgroepen per sector, één klik naar de juiste pagina.
+- **Filters op het trainingsoverzicht** (${basis}/trainingen/) — op niveau en
+  op beginletter van de beroepsgroep.
+
+Alles op deze site werkt zonder JavaScript; de volledige inhoud staat in de
+HTML.
 
 ## Merkgroep
 
