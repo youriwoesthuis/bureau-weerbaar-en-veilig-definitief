@@ -20,9 +20,13 @@ const perSector = sectoren
   .map((s) => ({
     naam: s.data.naam,
     slug: s.data.slug,
+    // Platgeslagen tot { naam, slug }, zodat de varianten hieronder niet
+    // telkens b.data.… hoeven te schrijven — daar ging het al een keer mis
+    // en dat leverde links naar /undefined/ op.
     leden: beroepsgroepen
       .filter((b) => b.data.sector === s.data.slug)
-      .sort((a, b) => a.data.naam.localeCompare(b.data.naam, 'nl')),
+      .sort((a, b) => a.data.naam.localeCompare(b.data.naam, 'nl'))
+      .map((b) => ({ naam: b.data.naam, slug: b.data.slug })),
   }))
   .filter((s) => s.leden.length > 0)
   .sort((a, b) => a.naam.localeCompare(b.naam, 'nl'));
