@@ -73,6 +73,11 @@
   --paars-op-wit: #8d6078;
   --blauw-op-wit: #4767cc;
 
+  /* Focusrand. Moet zelf ook 3:1 halen tegen de achtergrond (WCAG 2.2,
+     1.4.11). Op wit haalt --amber-400 dat niet (2,4:1), dus de standaard is
+     de donkere oranje; op de donkere balk en voet gaat hij naar amber. */
+  --focus: var(--oranje-op-wit);
+
   /* Randen */
   --rand: rgba(255, 255, 255, 0.13);
   --rand-fel: rgba(255, 255, 255, 0.28);
@@ -253,7 +258,7 @@ h4, .h4 { font-size: 1.05rem; line-height: 1.3; }
 
 /* Donker is nu de uitzondering en heeft een eigen klasse nodig. Binnen
    .op-donker gelden de :root-tokens weer, dus daar hoeft niets omgezet. */
-.op-donker { background: var(--inkt-900); color: var(--tekst); }
+.op-donker { background: var(--inkt-900); color: var(--tekst); --focus: var(--amber-400); }
 .op-donker h1, .op-donker h2, .op-donker h3, .op-donker h4 { color: var(--tekst); }
 
 .op-licht { background: var(--mist-50); color: var(--tekst-donker); }
@@ -479,7 +484,7 @@ h4, .h4 { font-size: 1.05rem; line-height: 1.3; }
 
 /* ---------- 9. Toegankelijkheid ------------------------------------------ */
 :focus-visible {
-  outline: 3px solid var(--amber-400);
+  outline: 3px solid var(--focus);
   outline-offset: 3px;
   border-radius: 2px;
 }

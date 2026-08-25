@@ -69,6 +69,8 @@ const actief = (url: string) =>
 
 <style>
   .kop {
+    /* Donker vlak: daar is de lichte focuskleur de leesbare. */
+    --focus: var(--amber-400);
     position: sticky;
     top: 0;
     z-index: 50;
@@ -227,7 +229,7 @@ const actief = (url: string) =>
     .menu-schakelaar:checked ~ .menu-knop .menu-label-dicht { display: inline; }
     .menu-schakelaar:checked ~ .menu-knop .menu-streep { box-shadow: none; }
     .menu-schakelaar:focus-visible ~ .menu-knop {
-      outline: 3px solid var(--amber-400);
+      outline: 3px solid var(--focus);
       outline-offset: 3px;
     }
   }

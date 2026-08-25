@@ -4,6 +4,7 @@ import Basis from '../layouts/Basis.astro';
 import Icoon from '../components/Icoon.astro';
 import HeroBeeld from '../components/HeroBeeld.astro';
 import Niveaustrip from '../components/Niveaustrip.astro';
+import Spanningscurve from '../components/Spanningscurve.astro';
 import Keuzehulp from '../components/Keuzehulp.astro';
 import NiveauLadder from '../components/NiveauLadder.astro';
 import Cta from '../components/Cta.astro';
@@ -170,6 +171,21 @@ const praktisch = [
   </section>
 
 
+
+  <!-- ---------------- De spanningscurve ---------------- -->
+  <section class="sectie op-wit">
+    <div class="omhulsel">
+      <div class="kop-blok">
+        <p class="bovenkop">Het vak in één plaat</p>
+        <h2>Hoe eerder je het ziet, hoe meer je kunt</h2>
+        <p class="inleiding">
+          Spanning loopt op in stappen, en bij elke stap werkt iets anders.
+          Klik een fase aan om te zien wat je ziet, wat werkt en wat juist niet.
+        </p>
+      </div>
+      <Spanningscurve />
+    </div>
+  </section>
 
   <!-- ---------------- Waar wil je beginnen ---------------- -->
   <section class="sectie op-licht">
