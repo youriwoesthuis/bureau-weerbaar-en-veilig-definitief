@@ -575,3 +575,84 @@ table { border-collapse: collapse; width: 100%; font-size: 0.95rem; }
 th, td { text-align: left; padding: 0.75rem 0.9rem; border-bottom: 1px solid var(--rand); }
 .op-licht th, .op-licht td, .op-wit th, .op-wit td { border-color: var(--rand-licht); }
 th { font-family: 'Manrope', system-ui, sans-serif; font-weight: 600; }
+
+/* ---------- 13. Printen ---------------------------------------------------
+   Een HR-adviseur drukt een trainingspagina af om intern te bespreken. Zonder
+   deze regels rolt daar het donkere ontwerp uit: onleesbaar en een halve
+   cartridge inkt. Dit maakt er een schoon document van.
+
+   Twee dingen die je op papier niet hebt en die dus opgelost moeten worden:
+   een link kun je niet aanklikken (dus staat de URL erachter) en uitklappers
+   kun je niet openklappen (dus staan ze open). */
+@media print {
+  /* Alles op wit, zonder achtergrondkleuren. */
+  :root {
+    --tekst: #000;
+    --tekst-zacht: #333;
+    --tekst-gedempt: #555;
+    --tekst-donker: #000;
+    --tekst-donker-zacht: #333;
+    --rand: #bbb;
+    --rand-fel: #999;
+    --rand-licht: #bbb;
+  }
+  body {
+    background: #fff !important;
+    color: #000 !important;
+    font-size: 11pt;
+    line-height: 1.45;
+  }
+  .op-licht, .op-wit, .kaart, .sectie, .sectie-krap,
+  .hero, .kop-sectie, .training-kop, .groep-kop, .sector-kop {
+    background: #fff !important;
+    color: #000 !important;
+  }
+
+  /* Weg met alles wat op papier niets doet. */
+  .kop, .voet, .cta-sectie, .springlink, .voortgang,
+  .herobeeld, .niveaubeeld, .ring, .fasekeuze, .keuzehulp,
+  .schuin-onder::before, .gloed::after, .raster-achtergrond::before {
+    display: none !important;
+  }
+
+  /* Geen beweging, geen schaduw, geen verlooptekst. */
+  * {
+    animation: none !important;
+    transition: none !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+  .verloopwoord, .kaart-cijfer b, .cijferkaart b, .sector-titel {
+    background: none !important;
+    -webkit-text-fill-color: #000 !important;
+    color: #000 !important;
+  }
+
+  /* Kaders blijven, maar dun en grijs. */
+  .kaart, .trede, .feitenbalk, .feit, .sectorkaart, .vragenlijst, .tijdlijn {
+    border: 1px solid #bbb !important;
+    break-inside: avoid;
+  }
+
+  /* Uitklappers open: op papier kun je niets openklikken. */
+  details { display: block !important; }
+  details > summary { list-style: none; font-weight: 700; }
+  details:not([open]) > *:not(summary) { display: block !important; }
+  .tijdblok-inhoud, .antwoord { display: block !important; }
+
+  /* Een link is op papier alleen nuttig met de URL erbij. Alleen bij
+     externe links en in lopende tekst — anders staat de hele pagina vol. */
+  .leestekst a[href^="http"]::after {
+    content: " (" attr(href) ")";
+    font-size: 0.85em;
+    color: #555;
+    word-break: break-all;
+  }
+
+  h1, h2, h3 { break-after: avoid; }
+  p, li { orphans: 3; widows: 3; }
+  .omhulsel { width: 100%; padding: 0; }
+  .sectie, .sectie-krap { padding-block: 0.8rem; }
+
+  @page { margin: 18mm 16mm; }
+}

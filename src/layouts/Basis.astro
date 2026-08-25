@@ -16,6 +16,8 @@ interface Props {
   kruimels?: { naam: string; url: string }[];
   /** zet de niveaukleur voor de hele pagina */
   niveau?: 'basis' | 'gevorderd' | 'expert' | 'geen';
+  /** alleen voor paginas die echt over een niveau gaan; kiest de deelafbeelding */
+  ogNiveau?: 'basis' | 'gevorderd' | 'expert';
   noindex?: boolean;
 }
 
@@ -25,12 +27,30 @@ const {
   schema = [],
   kruimels = [],
   niveau = 'geen',
+  ogNiveau,
   noindex = false,
 } = Astro.props;
 
 const canonical = new URL(Astro.url.pathname, Astro.site).href;
 const siteUrl = new URL(import.meta.env.BASE_URL, Astro.site).href;
-const ogAfbeelding = new URL('og-afbeelding.png', siteUrl).href;
+/**
+ * De deelafbeelding voor WhatsApp, LinkedIn en Slack. Gemaakt met
+ * `node scripts/maak-og.mjs`.
+ *
+ * Bewust een eigen prop en niet afgeleid van `niveau`: die stuurt alleen de
+ * accentkleur aan, en staat op de homepage en de contactpagina ook op
+ * "basis". Die zouden dan een plaatje krijgen waarop "niveau basis" staat.
+ * Alleen pagina's die écht over één niveau gaan geven `ogNiveau` mee.
+ */
+const OG_PER_NIVEAU = {
+  basis: 'og-basis.png',
+  gevorderd: 'og-gevorderd.png',
+  expert: 'og-expert.png',
+} as const;
+const ogAfbeelding = new URL(
+  (ogNiveau && OG_PER_NIVEAU[ogNiveau]) || 'og-afbeelding.png',
+  siteUrl,
+).href;
 
 const graaf = [
   organisatieSchema(siteUrl),

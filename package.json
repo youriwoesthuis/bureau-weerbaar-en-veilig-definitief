@@ -8,10 +8,15 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "controleer": "node scripts/controleer.mjs"
+    "controleer": "node scripts/controleer.mjs",
+    "maak-og": "node scripts/maak-og.mjs"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.4.1",
     "astro": "^5.13.2"
+  },
+  "devDependencies": {
+    "@resvg/resvg-js": "^2.6.2",
+    "wawoff2": "^2.0.1"
   }
 }

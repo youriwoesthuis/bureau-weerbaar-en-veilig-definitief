@@ -26,6 +26,7 @@ Open daarna `http://localhost:4321/`.
 | `npm run build` | Bouwt de site naar `dist/` |
 | `npm run preview` | Bekijkt de gebouwde site zoals hij live komt |
 | `npm run controleer` | Controleert `dist/` op links, metadata, schema en openingsantwoorden |
+| `npm run maak-og` | Maakt de deelafbeeldingen opnieuw (alleen nodig bij ontwerp- of aantalwijziging) |
 
 **Draai `npm run build && npm run controleer` voordat je iets live zet.**
 
@@ -46,6 +47,7 @@ src/
   styles/global.css het ontwerpsysteem
 scripts/
   controleer.mjs      vier controles op de gebouwde site
+  maak-og.mjs         genereert de deelafbeeldingen voor WhatsApp en LinkedIn
   contrast-audit.js   contrastcontrole, draait in de browser
 ```
 

@@ -4,7 +4,6 @@ import Basis from '../layouts/Basis.astro';
 import Icoon from '../components/Icoon.astro';
 import HeroBeeld from '../components/HeroBeeld.astro';
 import Cijferstrip from '../components/Cijferstrip.astro';
-import Pdca from '../components/Pdca.astro';
 import Keuzehulp from '../components/Keuzehulp.astro';
 import BeroepsgroepIndex from '../components/BeroepsgroepIndex.astro';
 import NiveauLadder from '../components/NiveauLadder.astro';
@@ -91,6 +90,16 @@ const ingangen = [
     link: '#niveauhulp',
     linktekst: 'Naar de keuzehulp',
   },
+];
+
+// Korte weergave van de cyclus. De volledige, uitklapbare versie staat op
+// /aanpak/ — die pagina gaat erover, dus daar hoort de uitleg. Hier alleen
+// de vier stappen, zodat de homepage er niet mee gaat concurreren.
+const cyclus = [
+  { letter: 'P', naam: 'Plan', kort: 'Wat speelt er precies?', kleur: '#f18816' },
+  { letter: 'D', naam: 'Do', kort: 'De trainingsdag', kleur: '#d99a6a' },
+  { letter: 'C', naam: 'Check', kort: 'Wat werkt er op de werkvloer?', kleur: '#c49bb0' },
+  { letter: 'A', naam: 'Act', kort: 'Vastleggen en doorgroeien', kleur: '#8fa2e6' },
 ];
 
 const praktisch = [
@@ -274,7 +283,7 @@ const praktisch = [
     </div>
   </section>
 
-  <!-- ---------------- Onze werkwijze als cyclus ---------------- -->
+  <!-- ---------------- Werkwijze, kort ---------------- -->
   <section class="sectie">
     <div class="omhulsel">
       <div class="kop-blok">
@@ -282,11 +291,29 @@ const praktisch = [
         <h2>Een training is geen dag, maar een stap</h2>
         <p class="inleiding">
           Bureau Weerbaar en Veilig werkt in de cyclus die u zelf ook gebruikt
-          bij verbeteren: plan, do, check, act. Klik een fase aan om te zien
-          wat er in die stap gebeurt.
+          bij verbeteren: plan, do, check, act. Daarom staan er drie niveaus —
+          na afloop begint de cyclus opnieuw, een stap hoger.
         </p>
       </div>
-      <Pdca />
+
+      <ol class="cyclusstrip">
+        {cyclus.map((f) => (
+          <li class="cyclusstap" style={`--fasekleur:${f.kleur}`}>
+            <span class="cyclusletter">{f.letter}</span>
+            <span class="cyclustekst">
+              <strong>{f.naam}</strong>
+              <small>{f.kort}</small>
+            </span>
+          </li>
+        ))}
+      </ol>
+
+      <p class="niveau-voet">
+        <a href={pad('/aanpak/')} class="pijllink">
+          Bekijk wat er in elke stap gebeurt
+          <span class="pijl" aria-hidden="true">→</span>
+        </a>
+      </p>
     </div>
   </section>
 
@@ -388,6 +415,51 @@ const praktisch = [
   .wie-blok p { color: var(--tekst-donker-zacht); line-height: 1.6; }
 
   .niveau-voet { margin-top: clamp(1.25rem, 1rem + 1vw, 2rem); }
+
+  /* ---- Korte weergave van de PDCA-cyclus ----
+     De volledige, uitklapbare versie staat op /aanpak/. Hier alleen de vier
+     stappen als verwijzing, zodat de twee pagina's elkaar niet herhalen. */
+  .cyclusstrip {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 13rem), 1fr));
+    gap: 1px;
+    background: var(--rand);
+    border: 1px solid var(--rand);
+    border-radius: var(--hoek);
+    overflow: hidden;
+  }
+  .cyclusstap {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    padding: 1.1rem 1.2rem;
+    background: var(--inkt-850);
+    border-top: 3px solid var(--fasekleur);
+  }
+  .cyclusletter {
+    display: grid;
+    place-items: center;
+    width: 2.1rem;
+    height: 2.1rem;
+    flex: none;
+    border-radius: 50%;
+    background: color-mix(in oklab, var(--fasekleur) 22%, transparent);
+    color: var(--fasekleur);
+    font-family: 'Manrope', system-ui, sans-serif;
+    font-size: 0.95rem;
+    font-weight: 800;
+  }
+  .cyclustekst { display: grid; gap: 0.1rem; min-width: 0; }
+  .cyclustekst strong {
+    font-family: 'Manrope', system-ui, sans-serif;
+    font-size: 1rem;
+    font-weight: 800;
+    letter-spacing: -0.01em;
+  }
+  .cyclustekst small { font-size: 0.85rem; color: var(--tekst-gedempt); line-height: 1.35; }
 
   /* ---- Praktische feitenrij ---- */
   .praktischrij {

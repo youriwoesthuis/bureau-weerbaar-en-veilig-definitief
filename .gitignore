@@ -8,3 +8,6 @@ dist/
 
 # Lokale ontwikkelinstellingen met paden van deze machine
 .claude/
+
+# Uitgepakte TTF voor de deelafbeeldingen; wordt gemaakt uit de woff2
+scripts/fonts/

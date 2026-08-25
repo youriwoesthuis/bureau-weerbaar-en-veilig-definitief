@@ -9,7 +9,9 @@ import type { Niveau } from '../lib/site';
  * Dezelfde vormentaal als de illustratie op de homepage.
  */
 interface Props {
-  huidig: Niveau;
+  /** Laat één trede oplichten. Weglaten op een pagina die over alle drie
+   *  de niveaus gaat — dan staat de hele ladder aan. */
+  huidig?: Niveau;
 }
 const { huidig } = Astro.props;
 
@@ -37,7 +39,8 @@ const TREDEN = [
   <circle cx="146" cy="110" r="120" fill="url(#nb-gloed)" />
 
   {TREDEN.map((t) => {
-    const actief = t.niveau === huidig;
+    // Zonder `huidig` staat alles aan: de pagina gaat dan over alle drie.
+    const actief = !huidig || t.niveau === huidig;
     return (
       <g class:list={['trede', { 'trede-actief': actief }]}>
         <rect
@@ -53,7 +56,7 @@ const TREDEN = [
           fill="#14100a"
           opacity="0.34"
         />
-        {actief && (
+        {huidig && actief && (
           <circle cx={t.x + 40} cy={t.y - 18} r="9" fill="#f18816" />
         )}
       </g>

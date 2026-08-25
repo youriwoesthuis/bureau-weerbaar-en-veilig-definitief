@@ -2,6 +2,7 @@
 import { getCollection, render } from 'astro:content';
 import Basis from '../../../../layouts/Basis.astro';
 import Kruimels from '../../../../components/Kruimels.astro';
+import NiveauBeeld from '../../../../components/NiveauBeeld.astro';
 import NiveauLadder from '../../../../components/NiveauLadder.astro';
 import TrainingKaart from '../../../../components/TrainingKaart.astro';
 import Cta from '../../../../components/Cta.astro';
@@ -51,17 +52,23 @@ const kruimels = [
   kruimels={kruimels}
 >
   <section class="groep-kop gloed schuin-onder">
-    <div class="omhulsel groep-kop-binnen">
-      <Kruimels kruimels={kruimels} />
-      <p class="bovenkop">{sectorNaam}</p>
-      <h1>Agressietraining voor {d.naam.toLowerCase()}</h1>
-      <p class="openingsantwoord">{d.samenvatting}</p>
+    <div class="omhulsel groep-kop-raster">
+      <div class="groep-kop-binnen">
+        <Kruimels kruimels={kruimels} />
+        <p class="bovenkop">{sectorNaam}</p>
+        <h1>Agressietraining voor {d.naam.toLowerCase()}</h1>
+        <p class="openingsantwoord">{d.samenvatting}</p>
 
-      <ul class="snelfeiten">
-        <li><strong>{eigen.length}</strong> trainingen</li>
-        <li><strong>{FEITEN.duur}</strong> per training</li>
-        <li><strong>{FEITEN.groepsgrootte}</strong></li>
-      </ul>
+        <ul class="snelfeiten">
+          <li><strong>{eigen.length}</strong> trainingen</li>
+          <li><strong>{FEITEN.duur}</strong> per training</li>
+          <li><strong>{FEITEN.groepsgrootte}</strong></li>
+        </ul>
+      </div>
+
+      {/* Zonder `huidig` lichten alle drie de treden op: deze pagina gaat
+          over alle niveaus, niet over één. */}
+      <div class="groep-kop-beeld"><NiveauBeeld /></div>
     </div>
   </section>
 
@@ -123,6 +130,19 @@ const kruimels = [
     background: var(--inkt-950);
     padding-block: clamp(1.5rem, 1rem + 2vw, 2.5rem) clamp(3rem, 2rem + 4vw, 5rem);
   }
+  /* minmax(0, ...) is nodig, anders duwt de lange kop de illustratie weg
+     tot een streepje: een fr-kolom respecteert de minimale inhoudsbreedte. */
+  .groep-kop-raster {
+    display: grid;
+    gap: clamp(1.5rem, 1rem + 3vw, 3rem);
+    align-items: center;
+  }
+  @media (min-width: 950px) {
+    .groep-kop-raster { grid-template-columns: minmax(0, 1fr) minmax(0, 16rem); }
+  }
+  .groep-kop-beeld { max-width: 16rem; width: 100%; margin-inline: auto; }
+  @media (max-width: 949px) { .groep-kop-beeld { max-width: 11rem; } }
+
   .groep-kop-binnen { display: grid; gap: 1.25rem; justify-items: start; }
   .groep-kop h1 { max-width: 18ch; }
 
