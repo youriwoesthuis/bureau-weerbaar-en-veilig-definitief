@@ -1,0 +1,74 @@
+---
+/**
+ * De illustratie in de hero. Op agressievisie.nl staat daar een oplopende
+ * staafgrafiek; hier zijn het drie oplopende treden in de drie
+ * niveaukleuren, elk met de chevron uit het logo erop.
+ *
+ * Dat doet twee dingen tegelijk: het vult de rechterhelft van de hero, en
+ * het legt de kleurcode uit voordat iemand er een woord over leest.
+ * Puur SVG, geen bestand, dus altijd scherp en geen extra verzoek.
+ */
+---
+
+<svg class="herobeeld" viewBox="0 0 420 360" fill="none" aria-hidden="true" focusable="false">
+  <defs>
+    <linearGradient id="hb-oranje" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#f6a03a" />
+      <stop offset="100%" stop-color="#e87e12" />
+    </linearGradient>
+    <linearGradient id="hb-paars" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#c49bb0" />
+      <stop offset="100%" stop-color="#8b5e76" />
+    </linearGradient>
+    <linearGradient id="hb-blauw" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#8fa2e6" />
+      <stop offset="100%" stop-color="#284191" />
+    </linearGradient>
+    <radialGradient id="hb-gloed" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#f18816" stop-opacity="0.30" />
+      <stop offset="100%" stop-color="#f18816" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <circle cx="300" cy="86" r="118" fill="url(#hb-gloed)" />
+
+  <!-- Trede 1: basis -->
+  <g class="trede trede-1">
+    <rect x="26" y="212" width="104" height="130" rx="16" fill="url(#hb-oranje)" />
+    <path d="M52 246 L78 268 L104 246 L104 262 L78 284 L52 262 Z" fill="#1a0d00" opacity="0.34" />
+  </g>
+
+  <!-- Trede 2: gevorderd -->
+  <g class="trede trede-2">
+    <rect x="150" y="148" width="104" height="194" rx="16" fill="url(#hb-paars)" />
+    <path d="M176 186 L202 208 L228 186 L228 202 L202 224 L176 202 Z" fill="#241520" opacity="0.38" />
+  </g>
+
+  <!-- Trede 3: expert -->
+  <g class="trede trede-3">
+    <rect x="274" y="70" width="104" height="272" rx="16" fill="url(#hb-blauw)" />
+    <path d="M300 112 L326 134 L352 112 L352 128 L326 150 L300 128 Z" fill="#0d1330" opacity="0.42" />
+    <circle cx="326" cy="44" r="26" fill="#f18816" opacity="0.22" />
+    <circle cx="326" cy="44" r="12" fill="#f18816" />
+  </g>
+</svg>
+
+<style>
+  .herobeeld { width: 100%; height: auto; }
+
+  /* De treden komen één voor één omhoog bij het laden. Geen JavaScript,
+     en uit bij prefers-reduced-motion via de centrale regel in global.css. */
+  @media (prefers-reduced-motion: no-preference) {
+    .trede {
+      animation: trede-op 700ms cubic-bezier(0.2, 0.8, 0.3, 1) both;
+      transform-origin: 50% 100%;
+    }
+    .trede-1 { animation-delay: 60ms; }
+    .trede-2 { animation-delay: 180ms; }
+    .trede-3 { animation-delay: 300ms; }
+  }
+  @keyframes trede-op {
+    from { opacity: 0; transform: translateY(18px) scaleY(0.82); }
+    to { opacity: 1; transform: none; }
+  }
+</style>

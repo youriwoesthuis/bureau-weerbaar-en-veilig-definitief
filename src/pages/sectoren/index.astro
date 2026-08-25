@@ -49,13 +49,15 @@ const openingsantwoord = `Bureau Weerbaar en Veilig verzorgt agressietraining in
       {lijst.map((s) => (
         <article class="sectorblok onthul" data-niveau="basis">
           <div class="sectorblok-kop">
+            {/* Hier verschilt het getal wél per sector — van 1 tot 8
+                beroepsgroepen — en dan is het een echte blikvanger. */}
+            <p class="kaart-cijfer">
+              <b>{s.groepen.length}</b>
+              <small>{s.groepen.length === 1 ? 'beroepsgroep' : 'beroepsgroepen'} · {s.groepen.length * 3} trainingen</small>
+            </p>
             <h2 class="h3">
               <a href={pad(`/sectoren/${s.slug}/`)} class="sectorlink">{s.naam}</a>
             </h2>
-            <p class="sectorblok-aantal">
-              {s.groepen.length} {s.groepen.length === 1 ? 'beroepsgroep' : 'beroepsgroepen'}
-              · {s.groepen.length * 3} trainingen
-            </p>
             <p class="sectorblok-tekst">{description(s.samenvatting, 165)}</p>
           </div>
 
@@ -107,7 +109,7 @@ const openingsantwoord = `Bureau Weerbaar en Veilig verzorgt agressietraining in
   .sectorlink { color: inherit; text-decoration: none; }
   .sectorlink:hover { color: var(--oranje-op-wit); text-decoration: underline; text-underline-offset: 4px; }
   .sectorblok-aantal {
-    font-family: 'Space Grotesk Variable', sans-serif;
+    font-family: 'Manrope', system-ui, sans-serif;
     font-size: 0.85rem;
     color: var(--oranje-op-wit);
     font-weight: 600;

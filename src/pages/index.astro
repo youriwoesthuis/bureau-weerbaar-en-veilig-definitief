@@ -1,9 +1,9 @@
 ---
 import { getCollection } from 'astro:content';
 import Basis from '../layouts/Basis.astro';
-import Chevron from '../components/Chevron.astro';
+import Icoon from '../components/Icoon.astro';
+import HeroBeeld from '../components/HeroBeeld.astro';
 import SectorKiezer from '../components/SectorKiezer.astro';
-import Statistieken from '../components/Statistieken.astro';
 import NiveauLadder from '../components/NiveauLadder.astro';
 import Cta from '../components/Cta.astro';
 import { SITE, FEITEN, pad } from '../lib/site';
@@ -15,35 +15,50 @@ const sectoren = await getCollection('sectoren');
 
 // Alle cijfers geteld uit de content, nooit met de hand ingevuld.
 const cijfers = [
-  { waarde: trainingen.length, label: 'trainingen, per beroepsgroep geschreven' },
-  { waarde: beroepsgroepen.length, label: 'beroepsgroepen tot in detail uitgewerkt' },
-  { waarde: sectoren.length, label: 'sectoren, van zorg tot openbaar vervoer' },
-  { waarde: 3, label: 'niveaus: basis, gevorderd en expert' },
+  { waarde: trainingen.length, label: 'Trainingen', url: pad('/trainingen/') },
+  { waarde: beroepsgroepen.length, label: 'Beroepsgroepen', url: pad('/sectoren/') },
+  { waarde: sectoren.length, label: 'Sectoren', url: pad('/sectoren/') },
+  { waarde: 3, label: 'Niveaus', url: pad('/niveaus/') },
 ];
 
 const openingsantwoord = `Bureau Weerbaar en Veilig is een trainingsbureau dat uitsluitend agressietraining verzorgt. Het aanbod is opgebouwd per beroepsgroep — ${beroepsgroepen.length} in totaal, verdeeld over ${sectoren.length} sectoren — en elk daarvan in de niveaus basis, gevorderd en expert. Elke training duurt ${FEITEN.duur} en telt ${FEITEN.groepsgrootte}.`;
 
 const verschillen = [
   {
+    icoon: 'signaleren' as const,
+    niveau: 'basis',
     kop: 'Eén onderwerp, geen bijvak',
     tekst:
-      'Bureau Weerbaar en Veilig doet agressietraining en verder niets. Geen brede communicatietraining waar agressie een module in is, maar één onderwerp waar alle aandacht naartoe gaat.',
+      'Bureau Weerbaar en Veilig doet agressietraining en verder niets. Geen brede communicatietraining waar agressie een module in is.',
   },
   {
+    icoon: 'team' as const,
+    niveau: 'gevorderd',
     kop: 'Geschreven voor uw beroep',
     tekst:
-      'Een wijkverpleegkundige alleen in een woonkamer heeft een ander probleem dan een conducteur op een perron. Daarom is er geen algemene training, maar één per beroepsgroep.',
+      'Een wijkverpleegkundige alleen in een woonkamer heeft een ander probleem dan een conducteur op een perron. Daarom één training per beroepsgroep.',
   },
   {
+    icoon: 'oefenen' as const,
+    niveau: 'expert',
     kop: 'Oefenen met trainingsacteurs',
     tekst:
       'De situaties komen uit de praktijk van de deelnemers zelf. Er wordt geoefend tot het gedrag zit, niet tot de theorie is uitgelegd.',
   },
   {
+    icoon: 'ladder' as const,
+    niveau: 'basis',
     kop: 'Drie niveaus die op elkaar staan',
     tekst:
-      'Van herkennen en de-escaleren, via begrenzen onder druk, naar beleid en teamnorm. Een team kan meegroeien zonder telkens opnieuw te beginnen.',
+      'Van herkennen en de-escaleren, via begrenzen onder druk, naar beleid en teamnorm. Een team kan meegroeien.',
   },
+];
+
+const praktisch = [
+  { icoon: 'klok' as const, kop: FEITEN.duur, tekst: 'per training, alle niveaus' },
+  { icoon: 'groep' as const, kop: 'Max. 10', tekst: 'deelnemers, bij expert acht' },
+  { icoon: 'locatie' as const, kop: 'Incompany', tekst: 'op uw locatie of in Neede' },
+  { icoon: 'certificaat' as const, kop: 'Certificaat', tekst: 'deelnamebewijs na afloop' },
 ];
 ---
 
@@ -56,47 +71,54 @@ const verschillen = [
   kruimels={[{ naam: 'Home', url: pad('/') }]}
 >
   <!-- ---------------- Hero ---------------- -->
-  <section class="hero gloed raster-achtergrond">
-    <div class="omhulsel hero-binnen">
-      <p class="bovenkop">{SITE.slogan}</p>
-
-      <h1 class="display hero-kop">
-        Agressietraining voor<br />
-        <span class="verloopwoord">uw beroepsgroep</span>
-      </h1>
-
-      <p class="inleiding hero-inleiding">
-        Geen algemene weerbaarheidscursus, maar de situaties die in uw werk
-        daadwerkelijk voorkomen. {beroepsgroepen.length} beroepsgroepen,
-        {sectoren.length} sectoren, elk in drie niveaus.
-      </p>
-
-      <div class="hero-knoppen">
-        <a href="#kiezen" class="knop">
-          Vind de training voor uw team
-          <span class="pijl" aria-hidden="true">→</span>
-        </a>
-        <a href={pad('/aanpak/')} class="knop knop-tweede">Zo werken wij</a>
+  <section class="hero">
+    <div class="omhulsel hero-raster">
+      <div class="hero-tekst">
+        <p class="bovenkop">{SITE.slogan}</p>
+        <h1 class="display hero-kop">
+          Agressietraining voor<br />
+          <span class="verloopwoord">uw beroepsgroep</span>
+        </h1>
+        <p class="inleiding hero-inleiding">
+          Geen algemene weerbaarheidscursus, maar de situaties die in uw werk
+          daadwerkelijk voorkomen. {beroepsgroepen.length} beroepsgroepen,
+          {sectoren.length} sectoren, elk in drie niveaus.
+        </p>
+        <div class="hero-knoppen">
+          <a href="#kiezen" class="knop">
+            Vind de training voor uw team
+            <span class="pijl" aria-hidden="true">→</span>
+          </a>
+          <a href={pad('/aanpak/')} class="knop knop-tweede">Zo werken wij</a>
+        </div>
       </div>
 
-      <ul class="hero-feiten">
-        <li><Chevron aantal={1} breedte="0.8rem" /> {FEITEN.duur}</li>
-        <li><Chevron aantal={1} breedte="0.8rem" /> {FEITEN.groepsgrootte}</li>
-        <li><Chevron aantal={1} breedte="0.8rem" /> incompany of in Neede</li>
-        <li><Chevron aantal={1} breedte="0.8rem" /> {FEITEN.certificaat}</li>
-      </ul>
+      <div class="hero-beeld"><HeroBeeld /></div>
+    </div>
+
+    <!-- De cijferstrip valt over de onderrand van de hero heen, zoals op
+         agressievisie.nl. Dat bindt het donkere en het lichte vlak aan
+         elkaar in plaats van ze hard op elkaar te laten stoten. -->
+    <div class="omhulsel">
+      <div class="cijferstrip">
+        {cijfers.map((c) => (
+          <a class="cijferkaart" href={c.url}>
+            <b>{c.waarde}</b>
+            <span>{c.label}</span>
+          </a>
+        ))}
+      </div>
     </div>
   </section>
 
-  <!-- ---------------- Openingsantwoord + cijfers ---------------- -->
-  <section class="sectie-krap">
-    <div class="omhulsel antwoord-blok">
-      <p class="openingsantwoord onthul">{openingsantwoord}</p>
-      <div class="onthul"><Statistieken cijfers={cijfers} /></div>
+  <!-- ---------------- Openingsantwoord ---------------- -->
+  <section class="sectie-krap op-licht na-hero">
+    <div class="omhulsel">
+      <p class="openingsantwoord">{openingsantwoord}</p>
     </div>
   </section>
 
-  <!-- ---------------- De kiezer: het eerste wat je doet ---------------- -->
+  <!-- ---------------- De kiezer ---------------- -->
   <section class="sectie op-licht" id="kiezen">
     <div class="omhulsel">
       <div class="kop-blok">
@@ -140,12 +162,29 @@ const verschillen = [
         <h2>Specialist, geen generalist</h2>
       </div>
       <div class="rooster rooster-4">
-        {verschillen.map((v, i) => (
-          <article class="kaart onthul" data-niveau={['basis', 'gevorderd', 'expert', 'basis'][i]}>
-            <Chevron aantal={1} breedte="1.4rem" />
+        {verschillen.map((v) => (
+          <article class="kaart onthul" data-niveau={v.niveau}>
+            <span class="kaart-icoon"><Icoon naam={v.icoon} /></span>
             <h3>{v.kop}</h3>
             <p>{v.tekst}</p>
           </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- ---------------- Praktisch ---------------- -->
+  <section class="sectie-krap">
+    <div class="omhulsel">
+      <div class="praktischrij">
+        {praktisch.map((p) => (
+          <div class="praktisch">
+            <span class="praktisch-icoon"><Icoon naam={p.icoon} breedte={20} /></span>
+            <span class="praktisch-tekst">
+              <strong>{p.kop}</strong>
+              <small>{p.tekst}</small>
+            </span>
+          </div>
         ))}
       </div>
     </div>
@@ -156,11 +195,37 @@ const verschillen = [
 
 <style>
   .hero {
-    background: var(--inkt-950);
-    padding-block: clamp(3.5rem, 2rem + 8vw, 8rem) clamp(3rem, 2rem + 5vw, 6rem);
+    background: var(--inkt-900);
+    padding-block: clamp(3rem, 2rem + 5vw, 6rem) 0;
+    position: relative;
+    /* Bewust géén overflow: hidden. Dat knipte de cijferstrip af, die er
+       juist met een negatieve marge overheen moet vallen. Het sfeerlicht
+       hieronder blijft daarom zelf binnen de grenzen van de sectie. */
   }
-  .hero-binnen { display: grid; gap: 1.5rem; justify-items: start; }
+  /* Zacht licht achter de illustratie, zodat het donkere vlak niet vlak oogt. */
+  .hero::before {
+    content: '';
+    position: absolute;
+    inset: 0 0 0 25%;
+    background: radial-gradient(46% 52% at 62% 38%, rgba(241, 136, 22, 0.15) 0%, transparent 72%);
+    pointer-events: none;
+  }
 
+  .hero-raster {
+    display: grid;
+    gap: clamp(2rem, 1rem + 4vw, 3rem);
+    align-items: center;
+    position: relative;
+    z-index: 1;
+  }
+  @media (min-width: 900px) {
+    /* minmax(0, …) is nodig: zonder die nul respecteert een fr-kolom de
+       minimale inhoudsbreedte, en dan duwt de grote kop de illustratie
+       weg tot een streepje van 238px. */
+    .hero-raster { grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr); }
+  }
+
+  .hero-tekst { display: grid; gap: 1.35rem; justify-items: start; }
   .hero-kop { max-width: 16ch; }
   .verloopwoord {
     background: var(--verloop-tekst);
@@ -168,28 +233,86 @@ const verschillen = [
     background-clip: text;
     color: transparent;
   }
+  .hero-inleiding { max-width: 34rem; }
+  .hero-knoppen { display: flex; flex-wrap: wrap; gap: 0.85rem; margin-top: 0.4rem; }
 
-  .hero-inleiding { max-width: 40rem; font-size: clamp(1.15rem, 1.02rem + 0.6vw, 1.45rem); }
-
-  .hero-knoppen { display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 0.5rem; }
-
-  .hero-feiten {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.65rem 1.5rem;
-    list-style: none;
-    padding: 1.5rem 0 0;
-    margin: 0.5rem 0 0;
-    border-top: 1px solid var(--rand);
-    width: 100%;
-    font-family: 'Space Grotesk Variable', sans-serif;
-    font-size: 0.9rem;
-    color: var(--tekst-zacht);
+  .hero-beeld { max-width: 26rem; margin-inline: auto; width: 100%; }
+  @media (max-width: 899px) {
+    .hero-beeld { max-width: 17rem; order: -1; }
   }
-  .hero-feiten li { display: flex; align-items: center; gap: 0.5rem; }
-  .hero-feiten :global(.chevron) { color: var(--oranje-500); flex: none; }
 
-  .antwoord-blok { display: grid; gap: clamp(1.75rem, 1.2rem + 2vw, 3rem); }
+  /* ---- Cijferstrip die over de sectiegrens heen valt ---- */
+  .cijferstrip {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: clamp(0.75rem, 0.5rem + 1vw, 1.25rem);
+    margin-top: clamp(2.5rem, 2rem + 2vw, 4rem);
+    margin-bottom: -3.5rem;
+    position: relative;
+    z-index: 5;
+  }
+  @media (max-width: 700px) {
+    .cijferstrip { grid-template-columns: repeat(2, 1fr); margin-bottom: -2.5rem; }
+  }
+
+  .cijferkaart {
+    display: grid;
+    gap: 0.15rem;
+    justify-items: center;
+    text-align: center;
+    padding: clamp(1rem, 0.85rem + 0.7vw, 1.4rem) 1rem;
+    background: var(--wit);
+    border: 1px solid var(--rand-licht);
+    border-radius: var(--hoek);
+    box-shadow: var(--schaduw-md);
+    text-decoration: none;
+    transition: transform 160ms ease, box-shadow 160ms ease;
+  }
+  .cijferkaart:hover { transform: translateY(-3px); box-shadow: var(--schaduw-lg); }
+  .cijferkaart b {
+    font-family: 'Manrope', system-ui, sans-serif;
+    font-size: clamp(1.9rem, 1.5rem + 1.4vw, 2.35rem);
+    font-weight: 800;
+    line-height: 1.05;
+    background: var(--verloop-warm);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  .cijferkaart span {
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: var(--tekst-donker-zacht);
+  }
+
+  /* Ruimte laten voor de strip die eroverheen valt. */
+  .na-hero { padding-top: clamp(5.5rem, 4.5rem + 3vw, 7rem); }
 
   .niveau-voet { margin-top: clamp(1.25rem, 1rem + 1vw, 2rem); }
+
+  /* ---- Praktische feitenrij ---- */
+  .praktischrij {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 13rem), 1fr));
+    gap: clamp(1rem, 0.8rem + 1vw, 1.75rem);
+  }
+  .praktisch { display: flex; align-items: center; gap: 0.85rem; }
+  .praktisch-icoon {
+    display: grid;
+    place-items: center;
+    width: 42px;
+    height: 42px;
+    flex: none;
+    border-radius: var(--hoek-klein);
+    background: color-mix(in oklab, var(--oranje-500) 16%, transparent);
+    color: var(--oranje-400);
+  }
+  .praktisch-tekst { display: grid; }
+  .praktisch-tekst strong {
+    font-family: 'Manrope', system-ui, sans-serif;
+    font-size: 1.02rem;
+    font-weight: 800;
+    letter-spacing: -0.01em;
+  }
+  .praktisch-tekst small { font-size: 0.85rem; color: var(--tekst-gedempt); }
 </style>

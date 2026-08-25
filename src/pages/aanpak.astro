@@ -2,7 +2,7 @@
 import { getCollection } from 'astro:content';
 import Basis from '../layouts/Basis.astro';
 import Kruimels from '../components/Kruimels.astro';
-import Chevron from '../components/Chevron.astro';
+import Icoon from '../components/Icoon.astro';
 import Vragen from '../components/Vragen.astro';
 import Cta from '../components/Cta.astro';
 import { FEITEN, pad } from '../lib/site';
@@ -45,21 +45,25 @@ const stappen = [
 
 const uitgangspunten = [
   {
+    icoon: 'oefenen' as const,
     kop: 'Oefenen boven uitleggen',
     tekst:
       'Weten wat je moet doen en het kunnen doen terwijl iemand tegen je schreeuwt, zijn twee verschillende dingen. Daarom ligt het zwaartepunt op oefenen.',
   },
   {
+    icoon: 'signaleren' as const,
     kop: 'Geen angstverhalen',
     tekst:
       'De training gaat over vakmanschap, niet over dreiging. Deelnemers moeten na afloop meer grip voelen, niet meer angst.',
   },
   {
+    icoon: 'grens' as const,
     kop: 'Grenzen stellen mag',
     tekst:
       'Veel medewerkers denken dat begrenzen onprofessioneel is. De training laat zien dat het omgekeerde waar is: duidelijk zijn is onderdeel van goede dienstverlening en goede zorg.',
   },
   {
+    icoon: 'beleid' as const,
     kop: 'De organisatie hoort erbij',
     tekst:
       'Een team dat leert de-escaleren in een organisatie die meldingen niet oppakt, houdt het niet vol. Daarom bestaat niveau expert: voor de mensen die daarover gaan.',
@@ -141,7 +145,7 @@ const vragen = [
       <div class="rooster rooster-4">
         {uitgangspunten.map((u, i) => (
           <article class="kaart onthul" data-niveau={['basis', 'gevorderd', 'expert', 'basis'][i]}>
-            <Chevron aantal={1} breedte="1.3rem" />
+            <span class="kaart-icoon"><Icoon naam={u.icoon} /></span>
             <h3>{u.kop}</h3>
             <p>{u.tekst}</p>
           </article>
@@ -202,7 +206,7 @@ const vragen = [
   .stap:hover { background: var(--inkt-800); transform: translateX(3px); }
 
   .stap-nummer {
-    font-family: 'Space Grotesk Variable', sans-serif;
+    font-family: 'Manrope', system-ui, sans-serif;
     font-size: clamp(1.8rem, 1.4rem + 1.4vw, 2.6rem);
     font-weight: 700;
     line-height: 1;

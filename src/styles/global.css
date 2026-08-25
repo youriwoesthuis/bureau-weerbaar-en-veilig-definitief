@@ -1,124 +1,113 @@
 /* =========================================================================
    Bureau Weerbaar en Veilig — ontwerpsysteem
-   Donker-eerst, kleuren gemeten uit het logo, gebouwd om compleet te ogen
-   zonder fotografie.
+
+   Opgezet naar het voorbeeld van agressievisie.nl, het zustermerk: royale
+   hoeken, ronde knoppen, zachte schaduwen, iconen op elke kaart en cijfers
+   als blikvanger. De kleuren blijven uit het logo van dit merk gemeten.
 
    Kleur draagt betekenis, nooit versiering:
      oranje = basis     paars = gevorderd     diepblauw = expert
    ========================================================================= */
 
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400 800;
+  font-display: swap;
+  src: url('/fonts/manrope-latin.woff2') format('woff2');
+}
+
 /* ---------- 1. Tokens ---------------------------------------------------- */
 /*
- * Alle kleuren komen uit public/images/logo/logo-origineel.png, gemeten uit
- * de pixels van het bestand — niet gekozen, niet benaderd.
+ * De accentkleuren komen uit public/images/logo/logo-origineel.png, gemeten
+ * uit de pixels van het bestand — niet gekozen, niet benaderd.
  *
  *   #f18816  oranje     — de bol, de bovenkant van de chevron, "Bureau"
  *   #8b5e76  paars      — het middenpunt van het verloop in de chevron
  *   #284191  diepblauw  — de onderkant van de chevron
  *   #212e56  marine     — "Weerbaar en Veilig" in het woordmerk
  *
- * Waar een logokleur genoeg contrast haalt, staat hij hieronder ongewijzigd.
- * Waar dat niet kan, is alleen de lichtheid bijgesteld en blijft de tint
- * exact gelijk. Elke afwijking staat erbij met de reden.
+ * De donkere vlakken zijn bewust bijna neutraal en niet marineblauw. Een
+ * blauwe achtergrond concurreert met het oranje en maakt de hele pagina
+ * koel; op agressievisie.nl is de basis om die reden ook neutraal, zodat
+ * het accent het werk doet. Er zit nog een spoor van de marinetint in.
  */
 :root {
-  /* De vier logokleuren, onaangeroerd. Gebruik deze voor vlakken,
-     verlopen en het beeldmerk zelf — niet voor kleine tekst. */
+  /* De vier logokleuren, onaangeroerd. Voor vlakken, verlopen en beeldmerk. */
   --logo-oranje: #f18816;
   --logo-paars: #8b5e76;
   --logo-blauw: #284191;
   --logo-marine: #212e56;
 
-  /* Donkere ondergronden: de marinetint van het woordmerk, uitgedund
-     tot een reeks. Zelfde tint, alleen donkerder. */
-  --inkt-950: #0a0e1a;
-  --inkt-900: #0f1527;
-  --inkt-850: #131b32;
-  --inkt-800: #17213d;
-  --inkt-700: #212d55; /* dit is het marineblauw van het woordmerk zelf */
-  --inkt-600: #2c3d72;
+  /* Donkere vlakken */
+  --inkt-950: #121216;
+  --inkt-900: #17171c;
+  --inkt-850: #1e1e25;
+  --inkt-800: #26262f;
+  --inkt-700: #33333e;
+  --inkt-600: #45454f;
 
-  /* Accentkleuren op donkere vlakken.
-     Oranje kan onveranderd: #f18816 haalt 7,15:1 op --inkt-900.
-     Paars (3,42:1) en blauw (1,95:1) niet — die zijn lichter gemaakt met
-     behoud van tint, tot ze ook op hun eigen badge-vulling 4,5:1 halen. */
+  /* Accent op donker. Oranje kan onveranderd; paars en diepblauw zijn
+     lichter gemaakt met behoud van tint tot ze 4,5:1 halen. */
   --oranje-500: #f18816;
   --oranje-400: #f6a03a;
-  --paars-400: #b490a3;
-  --blauw-400: #8398dd;
+  --paars-400: #c49bb0;
+  --blauw-400: #8fa2e6;
   --amber-400: #f6a03a;
 
   /* Lichte vlakken */
   --wit: #ffffff;
-  --mist-50: #f7f7fb;
-  --mist-100: #edeef7;
-  --mist-200: #dcdeed;
+  --mist-50: #f6f6f8;
+  --mist-100: #eeeef1;
+  --mist-200: #e2e2e7;
 
   /* Tekst op donker */
-  --tekst: #eef0f8;
-  --tekst-zacht: #b6bdd4;
-  --tekst-gedempt: #8b93b0;
+  --tekst: #f4f4f6;
+  --tekst-zacht: #c3c3cc;
+  --tekst-gedempt: #94949f;
 
-  /* Accentkleuren op lichte vlakken.
-     Blauw (9,31:1) en paars (5,30:1) zouden onveranderd kunnen, maar zijn
-     licht bijgesteld zodat ze ook op hun eigen badge-vulling voldoen.
-     Oranje moest wél donkerder: #f18816 haalt op wit maar 2,54:1. */
-  --tekst-donker: #131b32;
-  --tekst-donker-zacht: #414a6b;
+  /* Accent en tekst op licht */
+  --tekst-donker: #1c1c20;
+  --tekst-donker-zacht: #62626d;
   --oranje-op-wit: #a45a0a;
   --paars-op-wit: #8d6078;
   --blauw-op-wit: #4767cc;
 
-  /* Randen en scheidingen */
-  --rand: color-mix(in oklab, var(--tekst) 14%, transparent);
-  --rand-fel: color-mix(in oklab, var(--tekst) 28%, transparent);
-  --rand-licht: #dcdeed;
+  /* Randen */
+  --rand: rgba(255, 255, 255, 0.13);
+  --rand-fel: rgba(255, 255, 255, 0.28);
+  --rand-licht: #e4e4e8;
 
   /* Niveaukleur — wordt per context omgezet, zie blok 8 */
   --niveau: var(--oranje-500);
   --niveau-op-wit: var(--oranje-op-wit);
 
-  /* Het merkverloop: de kleurstops zoals ze in het logobestand staan,
-     gemeten over 14.000 pixels van het beeldmerk. Niet bijgekleurd. */
-  --verloop-merk: linear-gradient(
-    160deg,
-    #f18816 0%,
-    #ea8627 27%,
-    #ce784a 45%,
-    #8b5e76 72%,
-    #284191 100%
-  );
-  /* Hetzelfde verloop, maar voor tékst op een donkere achtergrond.
-     Het diepblauw van het logo haalt daar 1,95:1 — in een kop van 100px
-     loopt het laatste woord dus weg in de achtergrond. Deze variant houdt
-     dezelfde tinten aan en licht alleen de staart op tot leesbaar niveau.
-     Gebruik --verloop-merk voor vlakken en beeldmerk, deze voor tekst. */
-  --verloop-tekst: linear-gradient(
-    100deg,
-    #f18816 0%,
-    #e29154 38%,
-    #b490a3 68%,
-    #8398dd 100%
-  );
-  /* De warme kop van het verloop, voor knoppen. */
+  /* Verlopen. De stops staan waar ze in het logobestand liggen. */
+  --verloop-merk: linear-gradient(160deg, #f18816 0%, #ea8627 27%, #ce784a 45%, #8b5e76 72%, #284191 100%);
+  /* Voor tekst met background-clip: het diepblauw van het logo haalt op een
+     donkere achtergrond 1,95:1, waardoor het laatste woord van een grote kop
+     wegvalt. Zelfde tinten, lichtere staart. */
+  --verloop-tekst: linear-gradient(100deg, #f18816 0%, #e29154 38%, #b490a3 68%, #8fa2e6 100%);
   --verloop-warm: linear-gradient(135deg, #f6a03a 0%, #e87e12 100%);
-  /* De koele staart, vanaf het paarse middenpunt. */
   --verloop-koel: linear-gradient(135deg, #8b5e76 0%, #284191 100%);
 
-  /* Ritme */
-  --hoek: 4px;
-  --hoek-groot: 10px;
+  /* Vorm. Royale hoeken zijn het grootste verschil met de vorige opzet:
+     4px las als een formulier, 12px leest als een kaart. */
+  --hoek: 12px;
+  --hoek-klein: 8px;
+  --hoek-groot: 20px;
+  --hoek-rond: 999px;
+
+  /* Zachte schaduwen in plaats van gloedranden */
+  --schaduw-sm: 0 2px 10px rgba(0, 0, 0, 0.06);
+  --schaduw-md: 0 10px 30px rgba(0, 0, 0, 0.10);
+  --schaduw-lg: 0 16px 36px rgba(0, 0, 0, 0.14);
+  --schaduw-donker: 0 14px 34px rgba(0, 0, 0, 0.45);
 
   /* Breedtes */
-  --breedte: 1240px;
+  --breedte: 1160px;
   --breedte-smal: 760px;
   --leesbreedte: 42rem;
-
-  /* Op donker werkt licht beter dan schaduw */
-  --gloed-oranje: 0 0 0 1px color-mix(in oklab, var(--oranje-500) 40%, transparent),
-                  0 18px 50px -20px color-mix(in oklab, var(--oranje-500) 55%, transparent);
-  --gloed-koel: 0 0 0 1px color-mix(in oklab, var(--logo-blauw) 45%, transparent),
-                0 18px 50px -20px color-mix(in oklab, var(--logo-blauw) 60%, transparent);
 }
 
 /* ---------- 2. Reset ----------------------------------------------------- */
@@ -137,7 +126,7 @@ html {
 body {
   background: var(--inkt-900);
   color: var(--tekst);
-  font-family: "Inter Variable", ui-sans-serif, system-ui, sans-serif;
+  font-family: 'Manrope', ui-sans-serif, system-ui, sans-serif;
   font-size: 1.0625rem;
   line-height: 1.65;
   font-synthesis-weight: none;
@@ -152,30 +141,30 @@ button { cursor: pointer; }
 
 /* ---------- 3. Typografie ------------------------------------------------ */
 h1, h2, h3, h4, .kop {
-  font-family: "Space Grotesk Variable", ui-sans-serif, system-ui, sans-serif;
-  font-weight: 700;
+  font-family: 'Manrope', ui-sans-serif, system-ui, sans-serif;
+  font-weight: 800;
   line-height: 1.05;
   letter-spacing: -0.025em;
   text-wrap: balance;
 }
 
-h1, .h1 { font-size: clamp(2.6rem, 1.6rem + 4.6vw, 5.4rem); }
-h2, .h2 { font-size: clamp(2rem, 1.4rem + 2.6vw, 3.4rem); }
-h3, .h3 { font-size: clamp(1.35rem, 1.15rem + 0.9vw, 1.85rem); line-height: 1.15; }
-h4, .h4 { font-size: clamp(1.1rem, 1rem + 0.4vw, 1.3rem); line-height: 1.25; }
+h1, .h1 { font-size: clamp(2rem, 1.4rem + 2.3vw, 3.25rem); }
+h2, .h2 { font-size: clamp(1.6rem, 1.25rem + 1.5vw, 2.25rem); }
+h3, .h3 { font-size: clamp(1.1rem, 1.02rem + 0.4vw, 1.3rem); line-height: 1.25; }
+h4, .h4 { font-size: 1.05rem; line-height: 1.3; }
 
 /* Reusachtige display-kop: de typografie is het beeld */
 .display {
-  font-family: "Space Grotesk Variable", sans-serif;
-  font-weight: 700;
-  font-size: clamp(3rem, 1.4rem + 7.2vw, 7.5rem);
-  line-height: 0.94;
-  letter-spacing: -0.04em;
+  font-family: 'Manrope', system-ui, sans-serif;
+  font-weight: 800;
+  font-size: clamp(2.3rem, 1.6rem + 2.9vw, 4rem);
+  line-height: 1.03;
+  letter-spacing: -0.03em;
   text-wrap: balance;
 }
 
 .bovenkop {
-  font-family: "Space Grotesk Variable", sans-serif;
+  font-family: 'Manrope', system-ui, sans-serif;
   font-size: 0.8125rem;
   font-weight: 600;
   letter-spacing: 0.16em;
@@ -196,7 +185,7 @@ h4, .h4 { font-size: clamp(1.1rem, 1rem + 0.4vw, 1.3rem); line-height: 1.25; }
 .op-licht .bovenkop::before, .op-wit .bovenkop::before { background: var(--niveau-op-wit); }
 
 .inleiding {
-  font-size: clamp(1.125rem, 1.02rem + 0.5vw, 1.375rem);
+  font-size: clamp(1.05rem, 1rem + 0.28vw, 1.19rem);
   line-height: 1.55;
   color: var(--tekst-zacht);
   max-width: 38rem;
@@ -219,8 +208,8 @@ h4, .h4 { font-size: clamp(1.1rem, 1rem + 0.4vw, 1.3rem); line-height: 1.25; }
 
 /* Het openingsantwoord: losknipbaar, voor AI-antwoordsystemen en lezers */
 .openingsantwoord {
-  font-size: clamp(1.1rem, 1rem + 0.55vw, 1.4rem);
-  line-height: 1.5;
+  font-size: clamp(1.02rem, 0.98rem + 0.28vw, 1.16rem);
+  line-height: 1.6;
   color: var(--tekst);
   border-left: 3px solid var(--niveau);
   padding-left: clamp(1rem, 2vw, 1.6rem);
@@ -270,11 +259,11 @@ h4, .h4 { font-size: clamp(1.1rem, 1rem + 0.4vw, 1.3rem); line-height: 1.25; }
   gap: 0.6rem;
   min-height: 3rem;
   padding: 0.85rem 1.6rem;
-  border: 0;
-  border-radius: var(--hoek);
+  border: 2px solid transparent;
+  border-radius: var(--hoek-rond);
   background: var(--knop-vlak);
   color: var(--knop-tekst);
-  font-family: "Space Grotesk Variable", sans-serif;
+  font-family: 'Manrope', system-ui, sans-serif;
   font-weight: 600;
   font-size: 1rem;
   letter-spacing: -0.01em;
@@ -283,7 +272,7 @@ h4, .h4 { font-size: clamp(1.1rem, 1rem + 0.4vw, 1.3rem); line-height: 1.25; }
   isolation: isolate;
   transition: transform 180ms cubic-bezier(.2,.7,.3,1), box-shadow 180ms;
 }
-.knop:hover { transform: translateY(-2px); box-shadow: var(--gloed-oranje); }
+.knop:hover { transform: translateY(-2px); box-shadow: 0 8px 22px rgba(241,136,22,.35); }
 .knop:active { transform: translateY(0); }
 .knop .pijl { transition: transform 180ms cubic-bezier(.2,.7,.3,1); }
 .knop:hover .pijl { transform: translateX(4px); }
@@ -308,7 +297,7 @@ h4, .h4 { font-size: clamp(1.1rem, 1rem + 0.4vw, 1.3rem); line-height: 1.25; }
   display: inline-flex;
   align-items: center;
   gap: 0.45rem;
-  font-family: "Space Grotesk Variable", sans-serif;
+  font-family: 'Manrope', system-ui, sans-serif;
   font-weight: 600;
   color: var(--oranje-400);
   text-decoration: none;
@@ -345,9 +334,10 @@ h4, .h4 { font-size: clamp(1.1rem, 1rem + 0.4vw, 1.3rem); line-height: 1.25; }
   transition: transform 260ms cubic-bezier(.2,.7,.3,1);
 }
 .kaart:hover, .kaart:focus-visible {
-  transform: translateY(-4px);
+  transform: translateY(-3px);
   border-color: var(--rand-fel);
   background: var(--inkt-800);
+  box-shadow: var(--schaduw-donker);
 }
 .kaart:hover::before, .kaart:focus-visible::before { transform: scaleX(1); }
 .kaart h3 { font-size: 1.15rem; }
@@ -357,9 +347,61 @@ h4, .h4 { font-size: clamp(1.1rem, 1rem + 0.4vw, 1.3rem); line-height: 1.25; }
 .op-licht .kaart:hover, .op-wit .kaart:hover,
 .op-licht .kaart:focus-visible, .op-wit .kaart:focus-visible {
   background: var(--wit);
-  border-color: var(--tekst-donker-zacht);
-  box-shadow: 0 16px 40px -24px rgba(11,13,38,.5);
+  border-color: transparent;
+  box-shadow: var(--schaduw-md);
 }
+
+/* ---------- 7b. Icoontegel op een kaart ----------------------------------
+   Het duidelijkste verschil met de vorige opzet: elke kaart opent met een
+   icoon in een getint vierkantje, zoals op agressievisie.nl. Een kaart met
+   alleen tekst leest als een alinea, een kaart met een icoon als een kaart. */
+.kaart-icoon {
+  display: grid;
+  place-items: center;
+  width: 46px;
+  height: 46px;
+  flex: none;
+  border-radius: var(--hoek);
+  background: color-mix(in oklab, var(--niveau) 18%, transparent);
+  color: var(--niveau);
+  margin-bottom: 0.35rem;
+}
+.kaart-icoon svg { width: 22px; height: 22px; }
+.op-licht .kaart-icoon, .op-wit .kaart-icoon {
+  background: color-mix(in oklab, var(--niveau-op-wit) 12%, var(--wit));
+  color: var(--niveau-op-wit);
+}
+
+/* ---------- 7c. Groot cijfer als blikvanger ------------------------------
+   Op agressievisie.nl opent vrijwel elke kaart met een getal. Dat werkt
+   omdat een cijfer sneller leest dan een zin. Alle getallen hier worden
+   geteld uit de content, dus ze kunnen niet verouderen of verzonnen zijn. */
+.kaart-cijfer {
+  display: flex;
+  align-items: baseline;
+  gap: 0.4rem;
+  font-family: 'Manrope', system-ui, sans-serif;
+  line-height: 1;
+}
+/* Alleen het getal krijgt het verloop. Het label eromheen moet een eigen,
+   dekkende kleur houden: verlooptekst op wit haalt 2,13:1, en dat is voor
+   een woord van 17px ruim onvoldoende. */
+.kaart-cijfer b {
+  font-size: clamp(1.9rem, 1.6rem + 1.2vw, 2.5rem);
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  background: var(--verloop-warm);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.kaart-cijfer small {
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: var(--tekst-gedempt);
+}
+.op-licht .kaart-cijfer small,
+.op-wit .kaart-cijfer small { color: var(--tekst-donker-zacht); }
 .op-licht .kaart::before, .op-wit .kaart::before { background: var(--niveau-op-wit); }
 .op-licht .kaart p, .op-wit .kaart p { color: var(--tekst-donker-zacht); }
 
@@ -370,7 +412,7 @@ h4, .h4 { font-size: clamp(1.1rem, 1rem + 0.4vw, 1.3rem); line-height: 1.25; }
   gap: 0.4rem;
   padding: 0.3rem 0.65rem;
   border-radius: 999px;
-  font-family: "Space Grotesk Variable", sans-serif;
+  font-family: 'Manrope', system-ui, sans-serif;
   font-size: 0.75rem;
   font-weight: 600;
   letter-spacing: 0.06em;
@@ -496,4 +538,4 @@ h4, .h4 { font-size: clamp(1.1rem, 1rem + 0.4vw, 1.3rem); line-height: 1.25; }
 table { border-collapse: collapse; width: 100%; font-size: 0.95rem; }
 th, td { text-align: left; padding: 0.75rem 0.9rem; border-bottom: 1px solid var(--rand); }
 .op-licht th, .op-licht td, .op-wit th, .op-wit td { border-color: var(--rand-licht); }
-th { font-family: "Space Grotesk Variable", sans-serif; font-weight: 600; }
+th { font-family: 'Manrope', system-ui, sans-serif; font-weight: 600; }

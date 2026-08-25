@@ -89,11 +89,21 @@ const jaar = new Date().getFullYear();
     gap: clamp(2rem, 1rem + 3vw, 3.5rem);
     grid-template-columns: repeat(auto-fit, minmax(min(100%, 14rem), 1fr));
   }
-  .voet-merk { grid-column: span 1; display: grid; gap: 0.85rem; justify-items: start; }
+  /* align-content: start is nodig. Zonder dat rekt deze kolom mee met de
+     langste kolom ernaast (negentien sectoren), verdeelt de overtollige
+     hoogte over de rijen, en wordt de ronde knop een uitgerekte ovaal. */
+  .voet-merk {
+    grid-column: span 1;
+    display: grid;
+    gap: 0.85rem;
+    justify-items: start;
+    align-content: start;
+  }
+  .voet-merk .knop { align-self: start; }
   @media (min-width: 900px) { .voet-merk { max-width: 22rem; } }
 
   .voet-naam {
-    font-family: 'Space Grotesk Variable', sans-serif;
+    font-family: 'Manrope', system-ui, sans-serif;
     font-size: 1.2rem;
     font-weight: 700;
     letter-spacing: -0.02em;
