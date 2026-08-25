@@ -1,0 +1,170 @@
+---
+import Icoon from './Icoon.astro';
+import { NIVEAUS, NIVEAU_INFO, pad } from '../lib/site';
+
+/**
+ * Welk niveau hoort bij welke rol in de organisatie.
+ *
+ * Dit is een besluit van de opdrachtgever dat nergens zichtbaar stond: de
+ * vier soorten kopers — teamleider, HR, preventiemedewerker, bestuur —
+ * worden bediend via de niveaus en niet via een aparte rolindeling. Zie
+ * BESLUITEN.md hoofdstuk 1. Zonder dit blok moet een bezoeker dat zelf
+ * afleiden uit drie niveaupagina's.
+ *
+ * Geen tabel maar drie kolommen: op een telefoon is een tabel met vier
+ * kolommen onleesbaar, en de rijen horen hier bij elkaar.
+ */
+
+const ROLLEN: Record<
+  (typeof NIVEAUS)[number],
+  { wie: string[]; vraag: string; uitkomst: string }
+> = {
+  basis: {
+    wie: ['Medewerkers met publieks- of cliëntcontact', 'Nieuwe collega’s en invalkrachten', 'De teamleider die zelf meedraait'],
+    vraag: '"Mijn mensen weten niet wat ze moeten doen als het misgaat."',
+    uitkomst: 'Iedereen in het team reageert vanuit dezelfde basis, en herkent het eerder.',
+  },
+  gevorderd: {
+    wie: ['Ervaren medewerkers die de basis beheersen', 'HR en opleidingsadviseurs die een leerlijn bouwen', 'Teams met terugkerende of zware casuïstiek'],
+    vraag: '"Het blijft niet bij één keer, en er wordt te weinig gemeld."',
+    uitkomst: 'Grenzen stellen onder druk, en melden en nabespreken als vaste gewoonte.',
+  },
+  expert: {
+    wie: ['Leidinggevenden en coördinatoren', 'Preventiemedewerkers en arbocoördinatoren', 'Directie en bestuur bij een groter traject'],
+    vraag: '"We hebben getraind, maar er is niets veranderd aan hoe we het regelen."',
+    uitkomst: 'Teamnorm, meldcultuur en nazorg liggen vast en blijven staan als de trainer weg is.',
+  },
+};
+---
+
+<ol class="rolniveaus">
+  {NIVEAUS.map((n, i) => (
+    <li class="rolniveau" data-niveau={n}>
+      <span class="rn-trede" aria-hidden="true">{i + 1}</span>
+      <span class="rn-icoon">
+        <Icoon naam={{ basis: 'signaleren', gevorderd: 'grens', expert: 'beleid' }[n] as any} breedte={20} />
+      </span>
+      <h3>{NIVEAU_INFO[n].naam}</h3>
+      <p class="rn-kort">{NIVEAU_INFO[n].kort}</p>
+
+      <p class="rn-label">Voor wie</p>
+      <ul class="rn-wie">
+        {ROLLEN[n].wie.map((w) => <li>{w}</li>)}
+      </ul>
+
+      <p class="rn-vraag">{ROLLEN[n].vraag}</p>
+
+      <p class="rn-label">Wat het oplevert</p>
+      <p class="rn-uitkomst">{ROLLEN[n].uitkomst}</p>
+
+      <a href={pad(`/niveaus/${n}/`)} class="pijllink rn-voet">
+        Naar {NIVEAU_INFO[n].naam.toLowerCase()}
+        <span class="pijl" aria-hidden="true">→</span>
+      </a>
+    </li>
+  ))}
+</ol>
+
+<style>
+  .rolniveaus {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: clamp(0.85rem, 0.6rem + 1vw, 1.35rem);
+  }
+  @media (min-width: 900px) { .rolniveaus { grid-template-columns: repeat(3, 1fr); } }
+
+  .rolniveau {
+    position: relative;
+    display: grid;
+    align-content: start;
+    gap: 0.5rem;
+    padding: clamp(1.25rem, 1rem + 1vw, 1.85rem);
+    background: var(--wit);
+    border: 1px solid var(--rand-licht);
+    border-radius: var(--hoek);
+    border-top: 3px solid var(--niveau-op-wit);
+  }
+
+  .rn-trede {
+    position: absolute;
+    top: clamp(1rem, 0.8rem + 0.6vw, 1.4rem);
+    right: clamp(1rem, 0.8rem + 0.6vw, 1.4rem);
+    font-family: 'Manrope', system-ui, sans-serif;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: -0.05em;
+    color: var(--niveau-op-wit);
+    opacity: 0.18;
+  }
+  .rn-icoon {
+    display: grid;
+    place-items: center;
+    width: 2.4rem;
+    aspect-ratio: 1;
+    border-radius: 0.55rem;
+    background: color-mix(in oklab, var(--niveau-op-wit) 12%, var(--wit));
+    border: 1px solid color-mix(in oklab, var(--niveau-op-wit) 26%, transparent);
+    color: var(--niveau-op-wit);
+  }
+  .rolniveau h3 { margin: 0.2rem 0 0; }
+  .rn-kort {
+    margin: 0;
+    font-size: 0.95rem;
+    color: var(--tekst-donker-zacht);
+  }
+
+  .rn-label {
+    margin: 0.7rem 0 0;
+    font-family: 'Manrope', system-ui, sans-serif;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--tekst-donker-zacht);
+  }
+
+  .rn-wie { display: grid; gap: 0.35rem; list-style: none; padding: 0; margin: 0; }
+  .rn-wie li {
+    position: relative;
+    padding-left: 1rem;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: var(--tekst-donker);
+  }
+  .rn-wie li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0.55em;
+    width: 0.35rem;
+    height: 0.35rem;
+    border-radius: 50%;
+    background: var(--niveau-op-wit);
+  }
+
+  /* De zin waaraan een lezer zichzelf herkent. */
+  .rn-vraag {
+    margin: 0.8rem 0 0;
+    padding: 0.7rem 0.9rem;
+    border-left: 3px solid var(--niveau-op-wit);
+    background: color-mix(in oklab, var(--niveau-op-wit) 7%, var(--wit));
+    border-radius: 0 var(--hoek-klein) var(--hoek-klein) 0;
+    font-size: 0.92rem;
+    line-height: 1.5;
+    font-style: italic;
+    color: var(--tekst-donker);
+  }
+
+  .rn-uitkomst {
+    margin: 0;
+    font-size: 0.92rem;
+    line-height: 1.55;
+    color: var(--tekst-donker-zacht);
+  }
+  /* Staand binnenwit: zonder dit meet deze link 23px en dat is net onder de
+     doelgrootte van 24px (WCAG 2.2 AA, 2.5.8). */
+  .rn-voet { margin-top: 0.7rem; font-size: 0.9rem; padding-block: 0.3rem; }
+</style>

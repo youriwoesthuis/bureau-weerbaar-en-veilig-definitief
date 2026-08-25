@@ -1,0 +1,162 @@
+---
+import Icoon from './Icoon.astro';
+import { pad } from '../lib/site';
+
+/**
+ * Wat er met één incident gebeurt — en waar het meestal stokt.
+ *
+ * Dit is de visuele versie van het argument voor niveau expert, dat elders
+ * op de site alleen in tekst staat: "een team dat leert de-escaleren in een
+ * organisatie die meldingen niet oppakt, houdt het niet vol."
+ *
+ * De vier stappen komen uit de PDCA-beschrijving op /aanpak/ en uit de
+ * rolverdeling. De haperingen zijn de keerzijde van diezelfde stappen —
+ * geen onderzoeksbevinding en geen cijfer, maar de logische plek waar een
+ * stap kan mislukken. Zo gebracht dat het geen claim wordt.
+ */
+
+const STAPPEN = [
+  {
+    nr: '01',
+    icoon: 'signaleren' as const,
+    kop: 'Er gebeurt iets',
+    tekst: 'Een medewerker krijgt te maken met agressie. Op dat moment is het nog een incident en geen patroon.',
+    hapering: 'Het wordt niet gemeld, omdat het "erbij hoort" of omdat melden tijd kost.',
+  },
+  {
+    nr: '02',
+    icoon: 'nazorg' as const,
+    kop: 'Het wordt besproken',
+    tekst: 'Het team hoort wat er gebeurde en de medewerker wordt opgevangen. Hier wordt zichtbaar of het vaker voorkomt.',
+    hapering: 'Alleen opvangen en verder. Het incident verdwijnt uit beeld zonder dat iemand iets anders gaat doen.',
+  },
+  {
+    nr: '03',
+    icoon: 'grens' as const,
+    kop: 'De norm wordt scherper',
+    tekst: 'Wat accepteren we wel en niet, en wat doen we als het weer gebeurt. Dit is een besluit, geen gevoel.',
+    hapering: 'Iedereen trekt zijn eigen grens. Dan is de zwakste plek in het team de norm geworden.',
+  },
+  {
+    nr: '04',
+    icoon: 'beleid' as const,
+    kop: 'Het blijft staan',
+    tekst: 'De afspraak wordt vastgelegd, nieuwe collega’s krijgen hem mee, en de nazorg is geregeld voordat je hem nodig hebt.',
+    hapering: 'Het staat in een document dat niemand opent. Over een half jaar begint de cyclus opnieuw bij stap 1.',
+  },
+];
+---
+
+<div class="naarnorm">
+  <ol class="nn-rij">
+    {STAPPEN.map((s, i) => (
+      <li class="nn-stap" data-niveau={i < 2 ? 'basis' : i === 2 ? 'gevorderd' : 'expert'}>
+        <div class="nn-kaart">
+          <span class="nn-nr" aria-hidden="true">{s.nr}</span>
+          <span class="nn-icoon"><Icoon naam={s.icoon} breedte={20} /></span>
+          <h3 class="h4">{s.kop}</h3>
+          <p>{s.tekst}</p>
+        </div>
+        <p class="nn-hapering">
+          <span class="nn-hapering-label">Hier stokt het vaak</span>
+          {s.hapering}
+        </p>
+      </li>
+    ))}
+  </ol>
+
+  <p class="nn-voet">
+    De eerste twee stappen leert een team op <a href={pad('/niveaus/basis/')}>basis</a> en
+    <a href={pad('/niveaus/gevorderd/')}>gevorderd</a>. De laatste twee liggen niet bij de
+    medewerker maar bij de organisatie — daarvoor bestaat
+    <a href={pad('/niveaus/expert/')}>expert</a>.
+  </p>
+</div>
+
+<style>
+  .naarnorm { display: grid; gap: clamp(1.25rem, 1rem + 1vw, 1.75rem); }
+
+  .nn-rij {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: clamp(0.85rem, 0.6rem + 1vw, 1.25rem);
+  }
+  @media (min-width: 760px) { .nn-rij { grid-template-columns: repeat(2, 1fr); } }
+  @media (min-width: 1080px) { .nn-rij { grid-template-columns: repeat(4, 1fr); } }
+
+  .nn-stap { display: grid; align-content: start; gap: 0.6rem; }
+
+  .nn-kaart {
+    position: relative;
+    display: grid;
+    align-content: start;
+    gap: 0.45rem;
+    height: 100%;
+    padding: clamp(1rem, 0.85rem + 0.6vw, 1.4rem);
+    background: var(--wit);
+    border: 1px solid var(--rand-licht);
+    border-radius: var(--hoek);
+    border-top: 3px solid var(--niveau-op-wit);
+  }
+  .nn-nr {
+    position: absolute;
+    top: 0.9rem;
+    right: 1rem;
+    font-family: 'Manrope', system-ui, sans-serif;
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: -0.05em;
+    color: var(--niveau-op-wit);
+    opacity: 0.2;
+  }
+  .nn-icoon {
+    display: grid;
+    place-items: center;
+    width: 2.15rem;
+    aspect-ratio: 1;
+    border-radius: 0.5rem;
+    background: color-mix(in oklab, var(--niveau-op-wit) 12%, var(--wit));
+    border: 1px solid color-mix(in oklab, var(--niveau-op-wit) 26%, transparent);
+    color: var(--niveau-op-wit);
+  }
+  .nn-kaart h3 { margin: 0; }
+  .nn-kaart p {
+    margin: 0;
+    font-size: 0.9rem;
+    line-height: 1.55;
+    color: var(--tekst-donker-zacht);
+  }
+
+  /* De keerzijde onder elke stap: waar het in de praktijk misgaat. */
+  .nn-hapering {
+    display: grid;
+    gap: 0.25rem;
+    margin: 0;
+    padding: 0.75rem 0.9rem;
+    border: 1px dashed color-mix(in oklab, var(--tekst-donker) 22%, transparent);
+    border-radius: var(--hoek-klein);
+    background: var(--mist-50);
+    font-size: 0.85rem;
+    line-height: 1.5;
+    color: var(--tekst-donker-zacht);
+  }
+  .nn-hapering-label {
+    font-family: 'Manrope', system-ui, sans-serif;
+    font-size: 0.68rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--tekst-donker);
+  }
+
+  .nn-voet {
+    margin: 0;
+    font-size: 0.95rem;
+    line-height: 1.8;
+    color: var(--tekst-donker-zacht);
+  }
+  .nn-voet a { color: var(--oranje-op-wit); padding-block: 0.3rem; }
+</style>

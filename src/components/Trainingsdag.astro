@@ -1,0 +1,173 @@
+---
+import Icoon from './Icoon.astro';
+import { FEITEN, pad } from '../lib/site';
+
+/**
+ * De trainingsdag als tijdlijn. Laat zien dat een dag een opbouw heeft en
+ * geen verzameling losse oefeningen is.
+ *
+ * De blokken zijn het vaste ritme van een dag zoals dat op /aanpak/ staat:
+ * korte theorieblokken, veel oefenen, een acteur die meespeelt, en afsluiten
+ * met wat er maandag anders gaat. De inhoud van die blokken verschilt per
+ * beroepsgroep — dat staat in het programma-veld van elke training, en de
+ * link onderaan wijst daarheen. Er staan bewust geen kloktijden bij: die
+ * zijn niet vastgesteld en zouden een toezegging zijn.
+ */
+
+const BLOKKEN = [
+  {
+    id: 'intake',
+    naam: 'Vooraf',
+    icoon: 'gesprek' as const,
+    kop: 'De intake',
+    tekst:
+      'Wat er is gebeurd, hoe vaak het voorkomt en wat het team al heeft geprobeerd. Hieruit volgen het niveau en de situaties waarmee geoefend wordt.',
+    apart: true,
+  },
+  {
+    id: 'openen',
+    naam: 'Start',
+    icoon: 'team' as const,
+    kop: 'Wat brengt iedereen mee',
+    tekst:
+      'De dag begint bij de deelnemers zelf: wat maakten zij mee, waar liepen zij vast. Dat bepaalt waar het zwaartepunt van de dag komt te liggen.',
+  },
+  {
+    id: 'theorie',
+    naam: 'Kort',
+    icoon: 'signaleren' as const,
+    kop: 'Theorie in korte blokken',
+    tekst:
+      'Geen college. Alleen wat je nodig hebt om de oefening erna te kunnen doen: signalen herkennen, en het verschil tussen gedrag dat je begrijpt en gedrag dat je begrenst.',
+  },
+  {
+    id: 'oefenen',
+    naam: 'Kern',
+    icoon: 'oefenen' as const,
+    kop: 'Oefenen met de eigen praktijk',
+    tekst:
+      'Het grootste deel van de dag. Dezelfde situatie mag meerdere keren over, met andere keuzes, tot het gedrag zit — niet tot de theorie is uitgelegd.',
+  },
+  {
+    id: 'acteur',
+    naam: 'Kern',
+    icoon: 'grens' as const,
+    kop: 'De acteur voert de druk op',
+    tekst:
+      'Een trainingsacteur speelt de casus uit de meldingen van het team zelf, en kan de druk stap voor stap opvoeren of terugnemen. Die speelt standaard mee.',
+  },
+  {
+    id: 'afsluiten',
+    naam: 'Slot',
+    icoon: 'beleid' as const,
+    kop: 'Wat gaat maandag anders',
+    tekst:
+      'De dag eindigt met afspraken die concreet genoeg zijn om na te komen. Wat daarna in de praktijk gebeurt, is waar het echte verschil valt.',
+  },
+];
+---
+
+<div class="dag">
+  <ol class="dag-lijn">
+    {BLOKKEN.map((b) => (
+      <li class:list={['dag-blok', { 'dag-vooraf': b.apart }]}>
+        <span class="dag-icoon"><Icoon naam={b.icoon} breedte={20} /></span>
+        <span class="dag-fase">{b.naam}</span>
+        <h3 class="h4">{b.kop}</h3>
+        <p>{b.tekst}</p>
+      </li>
+    ))}
+  </ol>
+
+  <p class="dag-voet">
+    Elke training duurt {FEITEN.duur} en telt {FEITEN.groepsgrootte}. Het ritme
+    is overal hetzelfde; wat er in de blokken gebeurt verschilt per beroepsgroep.
+    <a href={pad('/sectoren/')}>Zoek je beroep op</a> om te zien wat er dan op het
+    programma staat.
+  </p>
+</div>
+
+<style>
+  .dag { display: grid; gap: clamp(1.25rem, 1rem + 1vw, 1.75rem); }
+
+  .dag-lijn {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: clamp(0.75rem, 0.5rem + 1vw, 1.1rem);
+  }
+  @media (min-width: 700px) { .dag-lijn { grid-template-columns: repeat(2, 1fr); } }
+  @media (min-width: 1080px) { .dag-lijn { grid-template-columns: repeat(6, 1fr); } }
+
+  .dag-blok {
+    position: relative;
+    display: grid;
+    align-content: start;
+    gap: 0.45rem;
+    padding: clamp(1rem, 0.85rem + 0.6vw, 1.35rem);
+    background: var(--wit);
+    border: 1px solid var(--rand-licht);
+    border-radius: var(--hoek);
+    border-top: 3px solid var(--oranje-op-wit);
+  }
+  /* De intake hoort niet bij de dag zelf; die staat ervoor. */
+  .dag-vooraf {
+    background: var(--mist-50);
+    border-top-color: var(--blauw-op-wit);
+    border-style: dashed;
+  }
+
+  /* Het verbindingslijntje tussen de blokken, alleen op brede schermen. */
+  @media (min-width: 1080px) {
+    .dag-blok:not(:last-child)::after {
+      content: '';
+      position: absolute;
+      top: -1px;
+      right: calc(-1 * clamp(0.75rem, 0.5rem + 1vw, 1.1rem) - 1px);
+      width: clamp(0.75rem, 0.5rem + 1vw, 1.1rem);
+      height: 3px;
+      background: var(--rand-licht);
+    }
+  }
+
+  .dag-icoon {
+    display: grid;
+    place-items: center;
+    width: 2.25rem;
+    aspect-ratio: 1;
+    border-radius: 0.55rem;
+    background: color-mix(in oklab, var(--oranje-op-wit) 12%, var(--wit));
+    border: 1px solid color-mix(in oklab, var(--oranje-op-wit) 26%, transparent);
+    color: var(--oranje-op-wit);
+  }
+  .dag-vooraf .dag-icoon {
+    background: color-mix(in oklab, var(--blauw-op-wit) 12%, var(--wit));
+    border-color: color-mix(in oklab, var(--blauw-op-wit) 26%, transparent);
+    color: var(--blauw-op-wit);
+  }
+
+  .dag-fase {
+    font-family: 'Manrope', system-ui, sans-serif;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--tekst-donker-zacht);
+  }
+  .dag-blok h3 { margin: 0; }
+  .dag-blok p {
+    margin: 0;
+    font-size: 0.9rem;
+    line-height: 1.55;
+    color: var(--tekst-donker-zacht);
+  }
+
+  .dag-voet {
+    margin: 0;
+    font-size: 0.95rem;
+    line-height: 1.7;
+    color: var(--tekst-donker-zacht);
+  }
+  .dag-voet a { color: var(--oranje-op-wit); padding-block: 0.3rem; }
+</style>

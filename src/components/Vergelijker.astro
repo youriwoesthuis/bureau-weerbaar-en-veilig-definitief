@@ -1,0 +1,199 @@
+---
+import { getCollection } from 'astro:content';
+import { pad } from '../lib/site';
+
+/**
+ * Vier beroepen naast elkaar, met dezelfde drie vragen beantwoord.
+ *
+ * Dit is het bewijs voor de specialisatie in plaats van de bewering ervan:
+ * je ziet in één oogopslag dat dezelfde vaardigheid in vier beroepen iets
+ * anders betekent. Wie kan weglopen heeft andere opties dan wie vastzit aan
+ * een kassa; wie de ander volgende week terugziet, begrenst anders dan wie
+ * hem nooit meer ziet.
+ *
+ * De antwoorden komen uit de tekst die al op de beroepsgroeppagina's staat.
+ * Er is niets bij verzonnen; de bewoordingen zijn ingekort.
+ *
+ * Bewust vier vaste beroepen en geen keuzemenu met alle beroepsgroepen: een
+ * vergelijking van twee vrij te kiezen groepen vraagt in CSS een regel per
+ * combinatie, en dat zijn er bij vierenveertig groepen te veel om te
+ * onderhouden.
+ */
+
+const KOLOMMEN = [
+  {
+    slug: 'handhavers-boas',
+    sector: 'overheid-handhaving',
+    kort: 'Handhaver',
+    niveau: 'gevorderd',
+    waar: 'Op straat, alleen of met z’n tweeën, ver van ondersteuning.',
+    weg: 'Ja, maar wegkomen is ook een besluit dat verantwoord moet worden.',
+    terug: 'Vaak wel — in dezelfde wijk, en de camera draait mee.',
+    gevolg: 'Daarom staat de juridische positie van de boa expliciet in de training.',
+  },
+  {
+    slug: 'thuiszorg-wijkverpleging',
+    sector: 'zorg',
+    kort: 'Wijkverpleegkundige',
+    niveau: 'basis',
+    waar: 'In de woonkamer van iemand anders, als gast, zonder achterwacht.',
+    weg: 'In principe wel, maar dan blijft de zorg liggen.',
+    terug: 'Bijna zeker. De zorgrelatie loopt maanden door.',
+    gevolg: 'Daarom gaat het hier over begrenzen zonder de zorgrelatie te slopen.',
+  },
+  {
+    slug: 'treinpersoneel',
+    sector: 'openbaar-vervoer',
+    kort: 'Conducteur',
+    niveau: 'gevorderd',
+    waar: 'In een rijdende, afgesloten ruimte met publiek erbij.',
+    weg: 'Nee. Versterking is minuten weg.',
+    terug: 'Zelden dezelfde reiziger, wel dezelfde situatie.',
+    gevolg: 'Daarom moet alles wat geoefend wordt in die minuten alleen uitvoerbaar zijn.',
+  },
+  {
+    slug: 'kassamedewerkers-baliemedewerkers',
+    sector: 'retail',
+    kort: 'Kassamedewerker',
+    niveau: 'basis',
+    waar: 'Vast aan de werkplek, met een wachtrij als publiek.',
+    weg: 'Nee. Weglopen betekent de kassa verlaten.',
+    terug: 'Soms. Vaste klanten komen terug, de rest niet.',
+    gevolg: 'Daarom gaan alle scenario’s ervan uit dat weglopen geen optie is.',
+  },
+];
+
+const VRAGEN = [
+  { id: 'waar', vraag: 'Waar sta je?' },
+  { id: 'weg', vraag: 'Kun je weg?' },
+  { id: 'terug', vraag: 'Zie je diegene terug?' },
+] as const;
+
+const beroepsgroepen = await getCollection('beroepsgroepen');
+const naamVan = new Map(beroepsgroepen.map((b) => [b.data.slug, b.data.naam]));
+---
+
+<div class="vergelijk">
+  <div class="vg-rol">
+    <table class="vg-tabel">
+      <caption class="alleen-voorlezer">
+        Vier beroepen vergeleken op waar je staat, of je weg kunt en of je de ander terugziet.
+      </caption>
+      <thead>
+        <tr>
+          <th scope="col"><span class="alleen-voorlezer">Vraag</span></th>
+          {KOLOMMEN.map((k) => (
+            <th scope="col" data-niveau={k.niveau}>
+              <a href={pad(`/sectoren/${k.sector}/${k.slug}/`)}>{k.kort}</a>
+              <span class="vg-vol">{naamVan.get(k.slug)}</span>
+            </th>
+          ))}
+        </tr>
+      </thead>
+      <tbody>
+        {VRAGEN.map((v) => (
+          <tr>
+            <th scope="row">{v.vraag}</th>
+            {KOLOMMEN.map((k) => <td data-niveau={k.niveau}>{k[v.id]}</td>)}
+          </tr>
+        ))}
+        <tr class="vg-gevolg">
+          <th scope="row">Wat dat betekent</th>
+          {KOLOMMEN.map((k) => <td data-niveau={k.niveau}>{k.gevolg}</td>)}
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p class="vg-voet">
+    Vier van de beroepsgroepen die Bureau Weerbaar en Veilig traint. Dezelfde
+    vaardigheid betekent in elk van deze vier iets anders — daarom is er per
+    beroepsgroep een eigen training en geen algemene cursus.
+    <a href={pad('/sectoren/')}>Zoek je eigen beroep op</a>.
+  </p>
+</div>
+
+<style>
+  .vergelijk { display: grid; gap: clamp(1rem, 0.85rem + 0.8vw, 1.5rem); }
+
+  /* Een tabel van vijf kolommen past niet op een telefoon; horizontaal
+     scrollen binnen het blok is dan beter dan de tekst onleesbaar maken.
+     De pagina zelf blijft daardoor wel gewoon staan. */
+  .vg-rol {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    border: 1px solid var(--rand-licht);
+    border-radius: var(--hoek);
+    background: var(--wit);
+  }
+
+  .vg-tabel {
+    border-collapse: collapse;
+    width: 100%;
+    min-width: 46rem;
+  }
+
+  .vg-tabel th, .vg-tabel td {
+    text-align: left;
+    vertical-align: top;
+    padding: 0.9rem 1rem;
+    border-bottom: 1px solid var(--rand-licht);
+  }
+  .vg-tabel tbody tr:last-child th, .vg-tabel tbody tr:last-child td { border-bottom: 0; }
+
+  /* kolomkoppen */
+  .vg-tabel thead th {
+    border-bottom: 2px solid var(--niveau-op-wit);
+    background: color-mix(in oklab, var(--niveau-op-wit) 7%, var(--wit));
+  }
+  .vg-tabel thead th:first-child { background: var(--wit); border-bottom-color: var(--rand-licht); }
+  .vg-tabel thead a {
+    display: block;
+    font-family: 'Manrope', system-ui, sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    color: var(--tekst-donker);
+    text-decoration: none;
+    padding-block: 0.15rem;
+  }
+  .vg-tabel thead a:hover { color: var(--niveau-op-wit); text-decoration: underline; text-underline-offset: 3px; }
+  .vg-vol {
+    display: block;
+    font-size: 0.78rem;
+    line-height: 1.35;
+    color: var(--tekst-donker-zacht);
+  }
+
+  /* rijkoppen */
+  .vg-tabel tbody th {
+    width: 11rem;
+    font-family: 'Manrope', system-ui, sans-serif;
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: var(--tekst-donker);
+    background: var(--mist-50);
+  }
+
+  .vg-tabel td {
+    font-size: 0.9rem;
+    line-height: 1.55;
+    color: var(--tekst-donker-zacht);
+  }
+
+  /* de conclusieregel */
+  .vg-gevolg th, .vg-gevolg td {
+    background: color-mix(in oklab, var(--niveau-op-wit) 6%, var(--wit));
+    border-top: 1px solid var(--rand-licht);
+  }
+  .vg-gevolg th { background: var(--mist-100); }
+  .vg-gevolg td { color: var(--tekst-donker); }
+
+  .vg-voet {
+    margin: 0;
+    font-size: 0.95rem;
+    line-height: 1.7;
+    color: var(--tekst-donker-zacht);
+  }
+  .vg-voet a { color: var(--oranje-op-wit); padding-block: 0.3rem; }
+</style>

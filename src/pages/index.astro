@@ -5,6 +5,10 @@ import Icoon from '../components/Icoon.astro';
 import HeroBeeld from '../components/HeroBeeld.astro';
 import Niveaustrip from '../components/Niveaustrip.astro';
 import Spanningscurve from '../components/Spanningscurve.astro';
+import Vergelijker from '../components/Vergelijker.astro';
+import NiveauRol from '../components/NiveauRol.astro';
+import Trainingsdag from '../components/Trainingsdag.astro';
+import MeldingNaarNorm from '../components/MeldingNaarNorm.astro';
 import Keuzehulp from '../components/Keuzehulp.astro';
 import NiveauLadder from '../components/NiveauLadder.astro';
 import Cta from '../components/Cta.astro';
@@ -258,6 +262,22 @@ const praktisch = [
     </div>
   </section>
 
+  <!-- ---------------- Vier beroepen naast elkaar ---------------- -->
+  <section class="sectie op-wit">
+    <div class="omhulsel">
+      <div class="kop-blok">
+        <p class="bovenkop">Waarom per beroepsgroep</p>
+        <h2>Dezelfde vaardigheid, vier keer iets anders</h2>
+        <p class="inleiding">
+          Wie kan weglopen heeft andere mogelijkheden dan wie vastzit aan een
+          kassa. Wie de ander volgende week terugziet, begrenst anders dan wie
+          hem nooit meer ziet. Vandaar geen algemene cursus.
+        </p>
+      </div>
+      <Vergelijker />
+    </div>
+  </section>
+
   <!-- ---------------- De kiezer ---------------- -->
   <section class="sectie op-licht" id="kiezen">
     <div class="omhulsel">
@@ -317,6 +337,22 @@ const praktisch = [
 
 
 
+  <!-- ---------------- Welk niveau hoort bij welke rol ---------------- -->
+  <section class="sectie op-wit">
+    <div class="omhulsel">
+      <div class="kop-blok">
+        <p class="bovenkop">Wie doet welk niveau</p>
+        <h2>Niet iedereen hoort in dezelfde zaal</h2>
+        <p class="inleiding">
+          De niveaus verschillen niet alleen in zwaarte maar in bereik. Basis en
+          gevorderd gaan over het eigen handelen, expert over de organisatie
+          eromheen — en dus over andere mensen.
+        </p>
+      </div>
+      <NiveauRol />
+    </div>
+  </section>
+
   <!-- ---------------- Niveau-keuzehulp ---------------- -->
   <section class="sectie op-licht" id="niveauhulp">
     <div class="omhulsel">
@@ -363,6 +399,37 @@ const praktisch = [
           <span class="pijl" aria-hidden="true">→</span>
         </a>
       </p>
+    </div>
+  </section>
+
+  <!-- ---------------- De trainingsdag ---------------- -->
+  <section class="sectie op-wit">
+    <div class="omhulsel">
+      <div class="kop-blok">
+        <p class="bovenkop">Hoe een dag verloopt</p>
+        <h2>Een dag met een opbouw, geen losse oefeningen</h2>
+        <p class="inleiding">
+          Het ritme ligt vast; wat erin gebeurt komt uit de meldingen van je
+          eigen team.
+        </p>
+      </div>
+      <Trainingsdag />
+    </div>
+  </section>
+
+  <!-- ---------------- Van melding tot teamnorm ---------------- -->
+  <section class="sectie op-licht">
+    <div class="omhulsel">
+      <div class="kop-blok">
+        <p class="bovenkop">Na de training</p>
+        <h2>Wat er met één incident gebeurt</h2>
+        <p class="inleiding">
+          Trainen is één ding; er iets mee doen is een tweede. Deze vier stappen
+          bepalen of een incident iets verandert of alleen iets kost — met per
+          stap de plek waar het in de praktijk vastloopt.
+        </p>
+      </div>
+      <MeldingNaarNorm />
     </div>
   </section>
 
