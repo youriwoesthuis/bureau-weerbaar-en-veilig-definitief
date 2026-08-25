@@ -1,5 +1,4 @@
 ---
-import Chevron from './Chevron.astro';
 import { pad } from '../lib/site';
 
 const huidig = Astro.url.pathname.replace(import.meta.env.BASE_URL, '/').replace(/\/{2,}/g, '/');
@@ -22,12 +21,19 @@ const actief = (url: string) => huidig.startsWith(url) && url !== pad('/');
   <div class="voortgang" aria-hidden="true"></div>
 
   <div class="omhulsel kop-binnen">
+    {/* Het echte logobestand, niet een nagetekende versie. De witte
+        variant heeft een wit woordmerk en hoort dus op het donkere vlak
+        van deze kop. Vaste breedte en hoogte, zodat de regel niet
+        verspringt terwijl de afbeelding laadt. */}
     <a href={pad('/')} class="merk" aria-label="Bureau Weerbaar en Veilig, naar de homepage">
-      <Chevron aantal={2} bol={true} breedte="1.5rem" verloop={true} />
-      <span class="merk-tekst">
-        <strong>Bureau</strong>
-        Weerbaar en Veilig
-      </span>
+      <img
+        src={pad('/images/logo/logo-origineel-wit.png')}
+        alt=""
+        width="1044"
+        height="205"
+        class="merk-logo"
+        fetchpriority="high"
+      />
     </a>
 
     <input type="checkbox" id="menu-schakelaar" class="menu-schakelaar" />
@@ -96,20 +102,13 @@ const actief = (url: string) => huidig.startsWith(url) && url !== pad('/');
     color: var(--tekst);
     flex: none;
   }
-  .merk-tekst {
-    font-family: 'Manrope', system-ui, sans-serif;
-    font-size: 1rem;
-    font-weight: 500;
-    line-height: 1.15;
-    letter-spacing: -0.02em;
-    display: grid;
+  .merk-logo {
+    /* 205px hoog in het bestand; hier op 34px zodat het scherp blijft. */
+    height: 34px;
+    width: auto;
   }
-  .merk-tekst strong {
-    font-weight: 700;
-    color: var(--oranje-400);
-    font-size: 0.78rem;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
+  @media (max-width: 520px) {
+    .merk-logo { height: 28px; }
   }
 
   .navigatie {

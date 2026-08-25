@@ -3,132 +3,133 @@
 Alles staat in `src/styles/global.css`. Dit document legt uit waaróm het zo
 is, zodat een wijziging het systeem niet stilletjes ondermijnt.
 
----
-
-## 1. Het uitgangspunt: geen fotografie
-
-De site heeft geen beeldmateriaal en is ontworpen om dat niet te missen.
-Dat is geen tijdelijke noodgreep maar de kern van het ontwerp:
-
-- **Donker als basis.** Een donkere pagina met felle kleurvlakken oogt
-  gevuld. Een witte pagina zonder foto's oogt leeg. Dat verschil is de
-  belangrijkste ontwerpbeslissing van dit project.
-- **Typografie draagt de pagina.** De `.display`-kop loopt tot 7,5rem met
-  het merkverloop door de tekst. De kop ís het beeld.
-- **Sfeerlicht via `.gloed`.** Drie zachte radiale verlopen achter donkere
-  secties geven diepte zonder illustratie.
-- **De chevron is een bouwelement.** In de oude site stond hij als behang op
-  2,8% dekking — onzichtbaar en dus zinloos. Nu is hij sectiemarkering,
-  opsommingsteken en hoekafsluiting.
-
-Het veld `afbeelding` in de content wordt door **geen enkele template**
-gebruikt. Zo kan er geen gebroken afbeelding ontstaan.
+Het ontwerp volgt bewust dat van **agressievisie.nl**, het zustermerk: royale
+hoeken, ronde knoppen, zachte schaduwen, een icoon op elke kaart en cijfers
+als blikvanger. De kleuren zijn wél die van dit merk, gemeten uit het eigen
+logo.
 
 ---
 
-## 2. Kleur komt uit het logo
+## 1. Kleur komt uit het logo — gemeten, niet gekozen
 
-**Alle kleuren zijn gemeten uit `public/images/logo/logo-origineel.png`** —
-uit de pixels van het bestand, niet gekozen en niet benaderd. Over 14.000
-pixels van het beeldmerk:
+Alle kleuren zijn uit de pixels van `public/images/logo/logo-origineel.png`
+gelezen.
 
-| Rol | Waarde | Waar in het logo |
-|---|---|---|
-| Oranje | `#f18816` | de bol, de bovenkant van de chevron, het woord "Bureau" |
-| Paars | `#8b5e76` | het middenpunt van het verloop in de chevron |
-| Diepblauw | `#284191` | de onderkant van de chevron |
-| Marine | `#212e56` | "Weerbaar en Veilig" in het woordmerk |
+| Rol | Waarde | Waar in het logo | Steekproef |
+|---|---|---|---|
+| Oranje | `#f18816` | de bol, de bovenkant van de chevron, "Bureau" | 3.298 px |
+| Marine | `#212e56` | "Weerbaar en Veilig" in het woordmerk | 18.783 px |
+| Paars | `#8b5e76` | het middenpunt van het verloop | — |
+| Indigo | `#4f4a8a` | de onderkant van de chevron | — |
 
-Het merkverloop is diezelfde reeks:
-`#f18816 → #ea8627 27% → #ce784a 45% → #8b5e76 72% → #284191`.
+De twee woordmerkkleuren zijn exact bevestigd als mediaan over grote
+steekproeven. Daar zit geen ruimte tussen.
 
-De donkere ondergronden van de site zijn het marineblauw van het woordmerk,
-in lichtheid uitgedund tot een reeks. Zelfde tint, donkerder.
+### Het merkverloop
+
+Punt voor punt gemeten langs de werkelijke verloopas van het logo, die 55°
+schuin loopt — in CSS is dat `125deg`:
+
+```
+#f28915 0%  → #ef8819 22% → #ec8723 33% → #e58330 44% → #d37a45 56%
+→ #c77550 67% → #a2666a 78% → #75567f 89% → #4f4a8a 100%
+```
+
+**Let op de terracotta-tussenstops.** Het logo gaat niet rechtstreeks van
+oranje naar blauw maar via een warm bruin, en het blijft langer oranje dan je
+zou denken (tot 33%). Het eindigt op een gedempt indigo.
+
+Een eerdere, grovere meting kwam uit op `#284191` als eindpunt en sloeg al bij
+27% om naar paars. Die meting nam de blauwste lósse pixel; die zit in de
+anti-aliasing van de smalle chevronpunt en is niet representatief voor wat je
+ziet. De reeks hierboven is de mediaan per bakje langs de verloopas, en dat
+levert een nette oplopende ramp op.
 
 ### Kleur betekent niveau
 
-De drie niveaus volgen het verloop van boven naar beneden — dat is de
-volgorde die het logo zelf al maakt:
+De drie niveaus volgen het verloop van boven naar beneden — de volgorde die
+het logo zelf al maakt:
 
 | Niveau | Op donker | Op licht |
 |---|---|---|
 | Basis | `--oranje-500` `#f18816` | `--oranje-op-wit` `#a45a0a` |
-| Gevorderd | `--paars-400` `#b490a3` | `--paars-op-wit` `#8d6078` |
-| Expert | `--blauw-400` `#8398dd` | `--blauw-op-wit` `#4767cc` |
+| Gevorderd | `--paars-400` `#c49bb0` | `--paars-op-wit` `#8d6078` |
+| Expert | `--blauw-400` `#8fa2e6` | `--blauw-op-wit` `#4767cc` |
 | Geen niveau | `--tekst-gedempt` | `--tekst-donker-zacht` |
 
-**Waar een kleur afwijkt van het logo, is alleen de lichtheid bijgesteld en
-is de tint exact gelijk gebleven.** Dat was op drie plekken nodig, en de
-reden staat er in `global.css` bij:
-
-- Oranje `#f18816` haalt op donker 7,15:1 en staat er dus onveranderd, maar
-  op wit maar 2,54:1 — vandaar `#a45a0a`.
-- Diepblauw `#284191` haalt op wit 9,31:1, maar op donker 1,95:1.
-- Paars `#8b5e76` haalt op donker 3,42:1, te weinig voor tekst.
-
-Het paars van het logo is het punt waar oranje en blauw in elkaar overlopen.
-Het is daardoor van nature een gedempte tint, geen fel paars — dat is geen
-fout in de afleiding maar een eigenschap van het logo.
-
-### Twee verlopen: één voor vlakken, één voor tekst
-
-`--verloop-merk` is het logoverloop, onaangeroerd. Gebruik dat voor het
-beeldmerk en gekleurde vlakken.
-
-`--verloop-tekst` is voor koppen die met `background-clip: text` gevuld
-worden. Nodig omdat het diepblauw van het logo op een donkere achtergrond
-1,95:1 haalt: in een kop van 100px loopt het laatste woord dan weg in de
-achtergrond. Deze variant houdt dezelfde tinten aan en licht alleen de
-staart op.
-
-Dit wordt geregeld door één blok:
+Geregeld door één blok:
 
 ```css
 [data-niveau="basis"] { --niveau: var(--oranje-500); --niveau-op-wit: var(--oranje-op-wit); }
 ```
 
 Zet `data-niveau` op een element en alles eronder — badges, randen, cijfers,
-stippen — kleurt mee. Gebruik in componenten altijd `var(--niveau)`, nooit
-een kleur rechtstreeks.
+stippen — kleurt mee. Gebruik in componenten altijd `var(--niveau)`, nooit een
+kleur rechtstreeks.
 
 ### De valkuil: twee varianten per kleur
 
-**De felle kleuren halen op wit geen contrast.** `#ff7a18` op wit is 2,52:1,
-ver onder de norm van 4,5:1. Daarom bestaat elke kleur dubbel, en daarom
-staat overal in de componenten dit patroon:
+Een kleur die in een logo werkt, werkt niet automatisch als tekst:
+
+- Oranje `#f18816` haalt op donker 7,15:1 en staat er onveranderd, maar op wit
+  maar 2,54:1 — daar staat `#a45a0a`.
+- Diepblauw haalt op wit 9,31:1, maar op donker 1,95:1.
+- Paars haalt op donker 3,42:1, te weinig voor tekst.
+
+**Waar een kleur afwijkt is alleen de lichtheid bijgesteld; de tint is exact
+gelijk gebleven.** Daarom staat overal dit patroon:
 
 ```css
 .iets { color: var(--niveau); }
 :global(.op-licht) .iets { color: var(--niveau-op-wit); }
 ```
 
-Vergeet je de tweede regel, dan krijg je onleesbare tekst die er in de
-editor prima uitziet. Dat is tijdens deze bouw drie keer gebeurd en drie
-keer door de contrastcontrole gevonden, niet door iemand die keek.
+Vergeet je de tweede regel, dan krijg je onleesbare tekst die er in de editor
+prima uitziet. Dat is tijdens de bouw vijf keer gebeurd en vijf keer door de
+contrastcontrole gevonden, nooit door iemand die keek.
 
-**Draai daarom `scripts/contrast-audit.js` in de browser na elke wijziging
-aan kleur.**
+**Draai `scripts/contrast-audit.js` in de browser na elke wijziging aan kleur.**
+
+### Waarom de achtergrond niet marineblauw is
+
+De donkere vlakken (`--inkt-900` `#17171c` en familie) zijn bijna neutraal.
+Een blauwe achtergrond concurreert met het oranje en maakt de hele pagina
+koel; agressievisie.nl heeft om die reden ook een neutrale basis, zodat het
+accent het werk doet. Er zit nog een spoor van de marinetint in.
+
+---
+
+## 2. Het logo zelf
+
+De kop en de voettekst gebruiken **het echte logobestand**, niet een
+nagetekende versie: `logo-origineel-wit.png` (wit woordmerk, hoort op donker).
+Op 34px in de kop en 40px in de voet, uit een bron van 205px hoog — dus ruim
+scherp genoeg.
+
+`Chevron.astro` tekent het beeldmerk na en is alleen voor **decoratief**
+gebruik: opsommingstekens, sectiemarkeringen. Het verloop daarin gebruikt
+dezelfde gemeten stops.
 
 ---
 
 ## 3. Typografie
 
-- **Koppen: Space Grotesk.** Technische ondertoon, herkenbaar in de cijfers
-  en de `a`. Gezag zonder stoffigheid.
-- **Lopende tekst: Inter.** Hoge x-hoogte, rustig over lange alinea's, legt
-  het bewust af tegen de kop in karakter.
-- Beide variabel en zelf gehost via `@fontsource-variable`. Geen externe
-  verzoeken, geen verspringende tekst bij het laden.
+**Manrope**, gewicht 400–800, zelf gehost vanuit `public/fonts/`. Eén letter
+voor alles, net als op het zustermerk — dat maakt de drie merken familie.
 
-Klassen:
+De schaal is bewust bescheiden. Een eerdere versie liet koppen tot 120px
+lopen; agressievisie.nl houdt de h1 op 52px. Dat verschil was de belangrijkste
+reden dat de site schreeuwerig en krap oogde.
 
-| Klasse | Waarvoor |
+| Klasse | Grootte |
 |---|---|
-| `.display` | De grote kop van een pagina, tot 7,5rem |
-| `.bovenkop` | Het kleine label boven een kop, met streepje in de niveaukleur |
-| `.inleiding` | De zin onder een kop |
-| `.leestekst` | Alle lopende tekst, max 42rem |
-| `.openingsantwoord` | Het losknipbare antwoord bovenaan elke pagina |
+| `.display` | tot 4rem (64px) |
+| `h1` | tot 3,25rem (52px) |
+| `h2` | tot 2,25rem (36px) |
+| `h3` | tot 1,3rem (21px) |
+
+Verder: `.bovenkop` (het kleine label met streepje), `.inleiding`,
+`.leestekst` (max 42rem) en `.openingsantwoord`.
 
 `.openingsantwoord` staat op **elke** pagina en is geen opmaakkeuze: het is
 het blok dat Google en AI-antwoordsystemen citeren. Twee tot drie zinnen,
@@ -137,56 +138,76 @@ controlescript waarschuwt als dat niet klopt.
 
 ---
 
-## 4. Beweging
+## 4. Vorm
 
-Alle beweging is CSS. Er staat geen JavaScript op de site.
+| Token | Waarde | Waarvoor |
+|---|---|---|
+| `--hoek` | 12px | kaarten, panelen, invoervelden |
+| `--hoek-klein` | 8px | icoontegels |
+| `--hoek-groot` | 20px | het CTA-blok |
+| `--hoek-rond` | 999px | alle knoppen |
+
+Schaduwen zijn zacht (`--schaduw-sm/md/lg`) in plaats van gekleurde
+gloedranden. Kaarten liften 3px bij hover.
+
+Hoeken van 4px lazen als een formulier; 12px leest als een kaart. Dat klinkt
+klein maar was een van de grootste zichtbare verschillen.
+
+---
+
+## 5. Beweging
+
+Alle beweging is CSS. Er staat **geen JavaScript** op de site.
 
 | Wat | Hoe |
 |---|---|
 | Scroll-onthulling | `.onthul` met `animation-timeline: view()` |
 | Voortgangsbalk in de kop | `animation-timeline: scroll(root block)` |
-| Tellende cijfers | `@property --n` plus `counter()` |
-| Kaarten die reageren | `transform` en de niveaustreep via `::before` |
 | Sectorkiezer | `:has()` op radioknoppen |
+| PDCA-cyclus | `:has()` op radioknoppen |
+| Niveaufilter | `:has()` op radioknoppen |
 | Uitklapblokken | `<details>` met `name` voor accordeongedrag |
+| Hero-illustratie | keyframes met oplopende vertraging |
 
 Twee harde regels:
 
 1. **Zonder ondersteuning blijft alles zichtbaar.** De onthul-animaties staan
-   in `@supports (animation-timeline: view())`. Een oudere browser toont de
-   pagina gewoon, alleen zonder beweging. Nooit iets op `opacity: 0` zetten
-   buiten zo'n blok.
-2. **`prefers-reduced-motion` zet alles uit.** Dat staat centraal geregeld
-   onderaan `global.css`. Nieuwe animaties hoeven daar niets voor te doen,
-   maar controleer het wel.
+   in `@supports (animation-timeline: view())`. Nooit iets op `opacity: 0`
+   zetten buiten zo'n blok.
+2. **`prefers-reduced-motion` zet alles uit**, centraal geregeld onderaan
+   `global.css`.
 
 ---
 
-## 5. Licht en donker binnen één pagina
+## 6. Licht en donker binnen één pagina
 
-De site is donker, met lichte secties als ritme. Zet op een sectie:
+De site is donker met lichte secties als ritme. Zet op een sectie `.op-licht`
+(`--mist-50`) of `.op-wit`. Beide zetten de tekstkleuren om.
 
-- `.op-licht` — `--mist-50`, de rustige lichte sectie
-- `.op-wit` — puur wit, voor kaarten en formulieren
+Componenten die in beide contexten kunnen staan hebben
+`:global(.op-licht)`-varianten. **Test een nieuw component in beide
+contexten** — de sectorkiezer stond aanvankelijk met donkere kleuren op een
+lichte sectie en haalde 1,05:1.
 
-Beide zetten de tekstkleuren om. Componenten die in beide contexten kunnen
-staan, hebben `:global(.op-licht)`-varianten. **Test een nieuw component in
-beide contexten** — de sectorkiezer stond aanvankelijk met donkere kleuren
-op een lichte sectie en haalde 1,05:1.
+Twee elementen binden de vlakken aan elkaar:
 
-Het ritme van de homepage: donker hero → donker met cijfers → licht met de
-kiezer → donker met de niveaus → licht met de argumenten → donkere afsluiting.
+- **`.schuin-onder`** — een schuine wig in de kleur van de sectie eronder.
+  Het herkenbaarste element van agressievisie.nl. Gebruik alleen waar de
+  volgende sectie ook echt licht is.
+- **De cijferstrip met `overlappend`** — valt met een negatieve marge over de
+  sectiegrens heen. De sectie eronder moet dan extra ruimte krijgen, en de
+  sectie erboven mag geen `overflow: hidden` hebben.
 
 ---
 
-## 6. Toegankelijkheid
+## 7. Toegankelijkheid
 
-- Focusring: 3px `--amber-400` op donker, `--violet-op-wit` op licht. Nooit
+- Focusring: 3px `--amber-400` op donker, `--blauw-op-wit` op licht. Nooit
   weghalen.
-- Elke `:has()`-constructie hangt aan een echte radioknop of checkbox die
-  met het toetsenbord bereikbaar is. De knop is onzichtbaar maar niet
+- Elke `:has()`-constructie hangt aan een echte radioknop of checkbox die met
+  het toetsenbord bereikbaar is. De knop is onzichtbaar maar niet
   `display: none`, anders verdwijnt hij uit de tabvolgorde.
 - Doelgrootte minimaal 44px: `min-height: 2.75rem` op alles wat klikbaar is.
 - Springlink naar de hoofdinhoud staat in `Kop.astro`.
-- Contrast: 4,5:1 voor normale tekst, 3:1 vanaf 24px of 18,66px vet.
-  Gemeten met doorrekening van doorzichtige kleuren én kleurverlopen.
+- Contrast: 4,5:1 voor normale tekst, 3:1 vanaf 24px of 18,66px vet. Gemeten
+  met doorrekening van doorzichtige kleuren én kleurverlopen.

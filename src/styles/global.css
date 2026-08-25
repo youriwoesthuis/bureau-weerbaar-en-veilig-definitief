@@ -82,8 +82,24 @@
   --niveau: var(--oranje-500);
   --niveau-op-wit: var(--oranje-op-wit);
 
-  /* Verlopen. De stops staan waar ze in het logobestand liggen. */
-  --verloop-merk: linear-gradient(160deg, #f18816 0%, #ea8627 27%, #ce784a 45%, #8b5e76 72%, #284191 100%);
+  /* Het merkverloop, punt voor punt gemeten uit het logobestand.
+     De verlooprichting in het logo is 55° schuin; in CSS is dat 125deg.
+     Let op de terracotta-tussenstops: het logo gaat níét rechtstreeks van
+     oranje naar blauw, maar via een warm bruin. Een eerdere versie sloeg
+     te vroeg om en eindigde op #284191, veel dieper dan het logo werkelijk
+     doet — het eindigt op een gedempt indigo. */
+  --verloop-merk: linear-gradient(
+    125deg,
+    #f28915 0%,
+    #ef8819 22%,
+    #ec8723 33%,
+    #e58330 44%,
+    #d37a45 56%,
+    #c77550 67%,
+    #a2666a 78%,
+    #75567f 89%,
+    #4f4a8a 100%
+  );
   /* Voor tekst met background-clip: het diepblauw van het logo haalt op een
      donkere achtergrond 1,95:1, waardoor het laatste woord van een grote kop
      wegvalt. Zelfde tinten, lichtere staart. */

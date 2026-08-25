@@ -1,5 +1,4 @@
 ---
-import Chevron from './Chevron.astro';
 import { SITE, pad } from '../lib/site';
 import { getCollection } from 'astro:content';
 
@@ -13,8 +12,14 @@ const jaar = new Date().getFullYear();
   <div class="omhulsel">
     <div class="voet-boven">
       <div class="voet-merk">
-        <Chevron aantal={2} bol={true} breedte="2.4rem" verloop={true} />
-        <p class="voet-naam">Bureau Weerbaar en Veilig</p>
+        <img
+          src={pad('/images/logo/logo-origineel-wit.png')}
+          alt="Bureau Weerbaar en Veilig"
+          width="1044"
+          height="205"
+          class="voet-logo"
+          loading="lazy"
+        />
         <p class="voet-slogan">{SITE.beschrijving}</p>
         <a href={pad('/contact/')} class="knop">
           Offerte aanvragen
@@ -102,13 +107,7 @@ const jaar = new Date().getFullYear();
   .voet-merk .knop { align-self: start; }
   @media (min-width: 900px) { .voet-merk { max-width: 22rem; } }
 
-  .voet-naam {
-    font-family: 'Manrope', system-ui, sans-serif;
-    font-size: 1.2rem;
-    font-weight: 700;
-    letter-spacing: -0.02em;
-    color: var(--tekst);
-  }
+  .voet-logo { height: 40px; width: auto; margin-bottom: 0.25rem; }
   .voet-slogan { color: var(--tekst-gedempt); font-size: 0.925rem; line-height: 1.55; }
 
   .voet-kolom h2 {
