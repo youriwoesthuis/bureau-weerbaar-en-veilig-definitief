@@ -75,8 +75,11 @@ Status per punt: **[ ]** nog te doen, **[x]** verwerkt.
 
 - [x] **Licht wordt de basis, donker het accent.** Alleen de balk bovenaan en
       de voet blijven donker. De donkere tussensecties vervallen.
-- [ ] **Kaarten zijn niet goed uitgelijnd.** Youri pakt het visuele verder stap
-      voor stap op; dit is het eerste concrete punt.
+- [x] **Kaarten zijn niet goed uitgelijnd.** Opgelost door de oorzaak weg te
+      nemen: de volledige beroepsgroepindex stond zowel op de homepage als op
+      /sectoren/, en stond op de homepage in CSS-kolommen die per kolom
+      ongelijk aflopen. Op de homepage staat nu een chiprij met flex-wrap;
+      die lijnt altijd uit. Youri pakt het visuele verder stap voor stap op.
 - [x] **Onder de hero komt de niveaustrip** in plaats van de vier
       catalogusgetallen: basis — gevorderd — expert, elk met één regel en de
       eigen kleur.

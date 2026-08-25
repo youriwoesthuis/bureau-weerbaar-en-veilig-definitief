@@ -7,7 +7,7 @@ samenvatting: >-
   een existentieel belang. Voor buurtbeheerders, opzichters,
   woonconsulenten en klantcontact, elk in drie niveaus.
 veelgestelde_vragen:
-  - vraag: "Waarom traint u binnen en buiten apart?"
+  - vraag: "Waarom trainen jullie binnen en buiten apart?"
     antwoord: "Omdat de situatie fundamenteel verschilt. Achter een balie of aan de telefoon kun je afronden; in de wijk sta je tussen de mensen over wie je ook rapporteert, en kom je ze morgen weer tegen."
   - vraag: "Onze huurders kunnen niet naar een andere aanbieder. Wat betekent dat?"
     antwoord: "Dat de afhankelijkheid groot is en de relatie jaren duurt. Die combinatie maakt de drempel voor agressie laag en maakt tegelijk dat een harde confrontatie nog lang doorwerkt."

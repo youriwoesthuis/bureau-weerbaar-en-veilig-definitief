@@ -9,7 +9,7 @@ samenvatting: >-
 veelgestelde_vragen:
   - vraag: "Bij ons hoort schelden er een beetje bij. Is dat een probleem?"
     antwoord: "Ja. Zodra grensoverschrijdend gedrag als normaal geldt, ontstaan vermijdingsgedrag en hoog verloop, en wordt er niet meer gemeld. Dat beeld bijstellen is onderdeel van de training."
-  - vraag: "Waarom traint u per functie en niet de hele winkel tegelijk?"
+  - vraag: "Waarom trainen jullie per functie en niet de hele winkel tegelijk?"
     antwoord: "Omdat de werkplek de opties bepaalt. Wie aan de kassa vastzit heeft andere mogelijkheden dan wie tussen de schappen loopt, en een filiaalmanager heeft weer een andere taak."
   - vraag: "Werken de trainingen met rollenspellen?"
     antwoord: "Er wordt geoefend met herkenbare winkelsituaties, praktijkgericht en op basis van wat er in jullie filialen werkelijk gebeurt. Naïeve rollenspellen leveren voor deze sector niets op."

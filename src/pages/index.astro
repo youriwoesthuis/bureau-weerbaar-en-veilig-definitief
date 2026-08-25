@@ -5,7 +5,6 @@ import Icoon from '../components/Icoon.astro';
 import HeroBeeld from '../components/HeroBeeld.astro';
 import Niveaustrip from '../components/Niveaustrip.astro';
 import Keuzehulp from '../components/Keuzehulp.astro';
-import BeroepsgroepIndex from '../components/BeroepsgroepIndex.astro';
 import NiveauLadder from '../components/NiveauLadder.astro';
 import Cta from '../components/Cta.astro';
 import { SITE, FEITEN, pad } from '../lib/site';
@@ -102,6 +101,15 @@ const cyclus = [
   { letter: 'C', naam: 'Check', kort: 'Wat werkt er op de werkvloer?', kleur: '#8d6078' },
   { letter: 'A', naam: 'Act', kort: 'Vastleggen en doorgroeien', kleur: '#4767cc' },
 ];
+
+// Sectoren met het aantal beroepsgroepen erin, voor de chiprij hieronder.
+const sectorenGesorteerd = sectoren
+  .map((s) => ({
+    naam: s.data.naam,
+    slug: s.data.slug,
+    aantal: beroepsgroepen.filter((b) => b.data.sector === s.data.slug).length,
+  }))
+  .sort((a, b) => b.aantal - a.aantal || a.naam.localeCompare(b.naam, 'nl'));
 
 const praktisch = [
   { icoon: 'klok' as const, kop: FEITEN.duur, tekst: 'per training, alle niveaus' },
@@ -239,13 +247,34 @@ const praktisch = [
     <div class="omhulsel">
       <div class="kop-blok">
         <p class="bovenkop">Direct naar je vak</p>
-        <h2>Welke beroepsgroep train je?</h2>
+        <h2>In welke sector werk je?</h2>
         <p class="inleiding">
-          Zoek het beroep op, geordend per sector. Elke beroepsgroep heeft een
-          eigen pagina met de drie niveaus die erbij horen.
+          Kies je sector en zoek daarbinnen het beroep op. Elke beroepsgroep
+          heeft een eigen pagina met de drie niveaus die erbij horen.
         </p>
       </div>
-      <BeroepsgroepIndex />
+
+      {/* Hier stond de volledige index van alle beroepsgroepen. Die staat ook
+          op /sectoren/, dus dat was twee keer dezelfde lijst — en in
+          CSS-kolommen liepen de kaarten hier bovendien ongelijk af.
+          Nu alleen de ingang: één rij chips die altijd netjes uitlijnt. */}
+      <ul class="sectorchips">
+        {sectorenGesorteerd.map((s) => (
+          <li>
+            <a href={pad(`/sectoren/${s.slug}/`)}>
+              {s.naam}
+              <span class="chip-aantal" aria-hidden="true">{s.aantal}</span>
+            </a>
+          </li>
+        ))}
+      </ul>
+
+      <p class="chips-voet">
+        <a href={pad('/sectoren/')} class="pijllink">
+          Alle beroepsgroepen per sector
+          <span class="pijl" aria-hidden="true">→</span>
+        </a>
+      </p>
     </div>
   </section>
 
@@ -256,7 +285,7 @@ const praktisch = [
         <p class="bovenkop">Drie niveaus</p>
         <h2>Van herkennen tot beleid</h2>
         <p class="inleiding">
-          De niveaus staan op elkaar. De kleur die u bij een training ziet,
+          De niveaus staan op elkaar. De kleur die je bij een training ziet,
           zegt om welk niveau het gaat — oranje, paars of diepblauw.
         </p>
       </div>
@@ -361,6 +390,57 @@ const praktisch = [
 </Basis>
 
 <style>
+  /* Chiprij in plaats van kaarten: flex-wrap lijnt altijd uit, ongeacht hoe
+     lang de sectornaam is. De kaartvariant stond in CSS-kolommen en liep
+     daardoor per kolom ongelijk af. */
+  .sectorchips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .sectorchips a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    min-height: 2.75rem;
+    padding: 0.5rem 0.75rem 0.5rem 1rem;
+    background: var(--wit);
+    border: 1px solid var(--rand-licht);
+    border-radius: var(--hoek-rond);
+    color: var(--tekst-donker);
+    text-decoration: none;
+    font-family: 'Manrope', system-ui, sans-serif;
+    font-size: 0.95rem;
+    font-weight: 600;
+    transition: border-color 160ms, box-shadow 160ms, transform 160ms;
+  }
+  .sectorchips a:hover {
+    border-color: transparent;
+    box-shadow: var(--schaduw-md);
+    transform: translateY(-1px);
+  }
+  .chip-aantal {
+    display: grid;
+    place-items: center;
+    min-width: 1.5rem;
+    height: 1.5rem;
+    padding-inline: 0.35rem;
+    border-radius: var(--hoek-rond);
+    background: color-mix(in oklab, var(--oranje-op-wit) 12%, var(--wit));
+    color: var(--oranje-op-wit);
+    font-size: 0.78rem;
+    font-weight: 700;
+  }
+  .chips-voet { margin-top: clamp(1.5rem, 1rem + 1.5vw, 2.25rem); }
+
+  @media (prefers-reduced-motion: reduce) {
+    .sectorchips a { transition: none; }
+    .sectorchips a:hover { transform: none; }
+  }
+
   .hero {
     background: var(--mist-50);
     padding-block: clamp(3rem, 2rem + 5vw, 6rem) 0;
