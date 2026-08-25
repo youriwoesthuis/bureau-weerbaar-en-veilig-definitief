@@ -1,0 +1,115 @@
+---
+import { getCollection } from 'astro:content';
+import { pad } from '../lib/site';
+
+/**
+ * Alle 44 beroepsgroepen in één oogopslag, gegroepeerd onder hun sector.
+ *
+ * Dit verving een sectorkiezer met een paneel eronder. Dat was een
+ * tweestapswidget voor een eenstapstaak: iemand kent zijn eigen beroep en
+ * wil niet eerst raden onder welke sector wij het hebben gearchiveerd. De
+ * kiezer kostte bovendien ruim 800px hoogte, waarvan de helft leeg stond
+ * zodra een sector maar één of twee beroepsgroepen had.
+ *
+ * Nu: alles zichtbaar, één klik naar de bestemming, geen interactie nodig.
+ * CSS-kolommen verdelen de blokken automatisch; break-inside houdt een
+ * sector bij elkaar.
+ */
+
+const [sectoren, beroepsgroepen] = await Promise.all([
+  getCollection('sectoren'),
+  getCollection('beroepsgroepen'),
+]);
+
+const groepen = sectoren
+  .map((s) => ({
+    naam: s.data.naam,
+    slug: s.data.slug,
+    leden: beroepsgroepen
+      .filter((b) => b.data.sector === s.data.slug)
+      .sort((a, b) => a.data.naam.localeCompare(b.data.naam, 'nl')),
+  }))
+  .filter((s) => s.leden.length > 0)
+  .sort((a, b) => a.naam.localeCompare(b.naam, 'nl'));
+---
+
+<div class="index">
+  {groepen.map((s) => (
+    <section class="sectorblok">
+      <h3 class="sectorkop">
+        <a href={pad(`/sectoren/${s.slug}/`)}>{s.naam}</a>
+      </h3>
+      <ul>
+        {s.leden.map((b) => (
+          <li>
+            <a href={pad(`/sectoren/${s.slug}/${b.data.slug}/`)}>
+              <span>{b.data.naam}</span>
+              <span class="pijl" aria-hidden="true">→</span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </section>
+  ))}
+</div>
+
+<style>
+  .index {
+    columns: 4;
+    column-gap: clamp(1.25rem, 1rem + 1.5vw, 2.25rem);
+  }
+  @media (max-width: 1080px) { .index { columns: 3; } }
+  @media (max-width: 780px) { .index { columns: 2; } }
+  @media (max-width: 520px) { .index { columns: 1; } }
+
+  /* Een sector mag nooit over twee kolommen worden gebroken. */
+  .sectorblok {
+    break-inside: avoid;
+    page-break-inside: avoid;
+    margin-bottom: clamp(1.1rem, 0.9rem + 0.7vw, 1.6rem);
+  }
+
+  .sectorkop {
+    font-size: 0.75rem;
+    font-weight: 800;
+    letter-spacing: 0.11em;
+    text-transform: uppercase;
+    margin-bottom: 0.4rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 2px solid var(--rand-licht);
+  }
+  .sectorkop a {
+    color: var(--oranje-op-wit);
+    text-decoration: none;
+  }
+  .sectorkop a:hover { text-decoration: underline; text-underline-offset: 3px; }
+
+  .index ul { list-style: none; padding: 0; margin: 0; }
+
+  .index li a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+    padding: 0.42rem 0.5rem 0.42rem 0;
+    color: var(--tekst-donker-zacht);
+    text-decoration: none;
+    font-size: 0.94rem;
+    line-height: 1.35;
+    border-radius: var(--hoek-klein);
+    transition: color 140ms, padding-left 160ms, background 140ms;
+  }
+  .index li a .pijl {
+    flex: none;
+    color: var(--oranje-op-wit);
+    opacity: 0;
+    transform: translateX(-4px);
+    transition: opacity 160ms, transform 160ms;
+  }
+  .index li a:hover {
+    color: var(--tekst-donker);
+    background: var(--mist-100);
+    padding-left: 0.5rem;
+  }
+  .index li a:hover .pijl { opacity: 1; transform: none; }
+</style>
