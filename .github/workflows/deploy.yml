@@ -42,6 +42,13 @@ jobs:
         run: npm run build
 
       - name: Controleren op gebroken links, metadata en schema
+        env:
+          # PUBLIC_BASE_PATH moet hier óók staan. Op GitHub Pages beginnen
+          # alle links met het submappad, terwijl de bestanden in dist/ dat
+          # pad niet hebben; zonder deze variabele kan het script het niet
+          # wegstrepen en meldt het elke link als gebroken. Dat gebeurde bij
+          # de eerste publicatie: 9867 "fouten" die er geen waren.
+          PUBLIC_BASE_PATH: /bureau-weerbaar-en-veilig-definitief/
         run: npm run controleer
 
       - uses: actions/upload-pages-artifact@v3
