@@ -2,7 +2,7 @@
 import { getCollection, render } from 'astro:content';
 import Basis from '../layouts/Basis.astro';
 import Kruimels from '../components/Kruimels.astro';
-import Statistieken from '../components/Statistieken.astro';
+import Cijferstrip from '../components/Cijferstrip.astro';
 import Cta from '../components/Cta.astro';
 import { SITE, pad } from '../lib/site';
 import { paginaTitel, description } from '../lib/seo';
@@ -63,7 +63,7 @@ const cijfers = [
   </section>
 
   <section class="sectie-krap">
-    <div class="omhulsel"><Statistieken cijfers={cijfers} /></div>
+    <div class="omhulsel"><Cijferstrip cijfers={cijfers} /></div>
   </section>
 
   <section class="sectie op-licht">

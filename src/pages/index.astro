@@ -3,6 +3,8 @@ import { getCollection } from 'astro:content';
 import Basis from '../layouts/Basis.astro';
 import Icoon from '../components/Icoon.astro';
 import HeroBeeld from '../components/HeroBeeld.astro';
+import Cijferstrip from '../components/Cijferstrip.astro';
+import Pdca from '../components/Pdca.astro';
 import SectorKiezer from '../components/SectorKiezer.astro';
 import NiveauLadder from '../components/NiveauLadder.astro';
 import Cta from '../components/Cta.astro';
@@ -12,6 +14,7 @@ import { paginaTitel, description } from '../lib/seo';
 const trainingen = await getCollection('trainingen');
 const beroepsgroepen = await getCollection('beroepsgroepen');
 const sectoren = await getCollection('sectoren');
+const team = await getCollection('team');
 
 // Alle cijfers geteld uit de content, nooit met de hand ingevuld.
 const cijfers = [
@@ -100,14 +103,7 @@ const praktisch = [
          agressievisie.nl. Dat bindt het donkere en het lichte vlak aan
          elkaar in plaats van ze hard op elkaar te laten stoten. -->
     <div class="omhulsel">
-      <div class="cijferstrip">
-        {cijfers.map((c) => (
-          <a class="cijferkaart" href={c.url}>
-            <b>{c.waarde}</b>
-            <span>{c.label}</span>
-          </a>
-        ))}
-      </div>
+      <Cijferstrip cijfers={cijfers} overlappend={true} />
     </div>
   </section>
 
@@ -115,6 +111,49 @@ const praktisch = [
   <section class="sectie-krap op-licht na-hero">
     <div class="omhulsel">
       <p class="openingsantwoord">{openingsantwoord}</p>
+    </div>
+  </section>
+
+
+  <!-- ---------------- Wie wij zijn ---------------- -->
+  <section class="sectie op-licht">
+    <div class="omhulsel">
+      <div class="kop-blok">
+        <p class="bovenkop">Wie wij zijn</p>
+        <h2>Eén onderwerp, tot op de bodem</h2>
+      </div>
+      <div class="rooster rooster-3 wie-rooster">
+        <article class="wie-blok">
+          <span class="kaart-icoon"><Icoon naam="team" /></span>
+          <h3>Wie</h3>
+          <p>
+            Bureau Weerbaar en Veilig is een Nederlands trainingsbureau met
+            {team.length} trainers en coaches, gevestigd in {SITE.adres.plaats}
+            en werkzaam door heel Nederland. Het is een handelsnaam binnen
+            dezelfde onderneming als Act in Move Training &amp; Coaching.
+          </p>
+        </article>
+        <article class="wie-blok">
+          <span class="kaart-icoon"><Icoon naam="oefenen" /></span>
+          <h3>Wat</h3>
+          <p>
+            Uitsluitend agressietraining. {trainingen.length} trainingen,
+            geschreven voor {beroepsgroepen.length} afzonderlijke beroepsgroepen,
+            elk in drie niveaus. Incompany, met casuïstiek uit de eigen praktijk
+            van de deelnemers en waar nodig een trainingsacteur.
+          </p>
+        </article>
+        <article class="wie-blok">
+          <span class="kaart-icoon"><Icoon naam="grens" /></span>
+          <h3>Waarom</h3>
+          <p>
+            Omdat een algemene weerbaarheidscursus niet werkt voor iemand die
+            alleen in de woonkamer van een cliënt staat. Agressie is per beroep
+            anders, dus de training hoort dat ook te zijn. Daarom is dit merk
+            apart opgericht: één onderwerp, geen bijvak.
+          </p>
+        </article>
+      </div>
     </div>
   </section>
 
@@ -151,6 +190,23 @@ const praktisch = [
           <span class="pijl" aria-hidden="true">→</span>
         </a>
       </p>
+    </div>
+  </section>
+
+
+  <!-- ---------------- Onze werkwijze als cyclus ---------------- -->
+  <section class="sectie">
+    <div class="omhulsel">
+      <div class="kop-blok">
+        <p class="bovenkop">Hoe wij werken</p>
+        <h2>Een training is geen dag, maar een stap</h2>
+        <p class="inleiding">
+          Bureau Weerbaar en Veilig werkt in de cyclus die u zelf ook gebruikt
+          bij verbeteren: plan, do, check, act. Klik een fase aan om te zien
+          wat er in die stap gebeurt.
+        </p>
+      </div>
+      <Pdca />
     </div>
   </section>
 
@@ -241,52 +297,13 @@ const praktisch = [
     .hero-beeld { max-width: 17rem; order: -1; }
   }
 
-  /* ---- Cijferstrip die over de sectiegrens heen valt ---- */
-  .cijferstrip {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: clamp(0.75rem, 0.5rem + 1vw, 1.25rem);
-    margin-top: clamp(2.5rem, 2rem + 2vw, 4rem);
-    margin-bottom: -3.5rem;
-    position: relative;
-    z-index: 5;
-  }
-  @media (max-width: 700px) {
-    .cijferstrip { grid-template-columns: repeat(2, 1fr); margin-bottom: -2.5rem; }
-  }
-
-  .cijferkaart {
-    display: grid;
-    gap: 0.15rem;
-    justify-items: center;
-    text-align: center;
-    padding: clamp(1rem, 0.85rem + 0.7vw, 1.4rem) 1rem;
-    background: var(--wit);
-    border: 1px solid var(--rand-licht);
-    border-radius: var(--hoek);
-    box-shadow: var(--schaduw-md);
-    text-decoration: none;
-    transition: transform 160ms ease, box-shadow 160ms ease;
-  }
-  .cijferkaart:hover { transform: translateY(-3px); box-shadow: var(--schaduw-lg); }
-  .cijferkaart b {
-    font-family: 'Manrope', system-ui, sans-serif;
-    font-size: clamp(1.9rem, 1.5rem + 1.4vw, 2.35rem);
-    font-weight: 800;
-    line-height: 1.05;
-    background: var(--verloop-warm);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-  }
-  .cijferkaart span {
-    font-size: 0.8rem;
-    font-weight: 700;
-    color: var(--tekst-donker-zacht);
-  }
-
   /* Ruimte laten voor de strip die eroverheen valt. */
   .na-hero { padding-top: clamp(5.5rem, 4.5rem + 3vw, 7rem); }
+
+  .wie-rooster { gap: clamp(1.25rem, 1rem + 1.5vw, 2.25rem); }
+  .wie-blok { display: grid; gap: 0.6rem; align-content: start; }
+  .wie-blok h3 { font-size: 1.2rem; }
+  .wie-blok p { color: var(--tekst-donker-zacht); line-height: 1.6; }
 
   .niveau-voet { margin-top: clamp(1.25rem, 1rem + 1vw, 2rem); }
 

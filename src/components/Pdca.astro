@@ -1,0 +1,263 @@
+---
+import Icoon from './Icoon.astro';
+
+/**
+ * De PDCA-cyclus, gevuld met de eigen werkwijze van Bureau Weerbaar en
+ * Veilig. Bewust in dat kader gezet: plan-do-check-act is de taal waarin
+ * preventiemedewerkers, HR en arbocoördinatoren over verbetering praten.
+ * Het laat zien dat een training geen losse dag is maar een stap in een
+ * cyclus — en dat is precies waarom er drie niveaus zijn.
+ *
+ * Interactief zonder JavaScript: vier radioknoppen plus :has(). De vier
+ * ringkleuren zijn de vier gemeten stops van het logoverloop.
+ */
+
+const FASEN = [
+  {
+    id: 'plan',
+    letter: 'P',
+    naam: 'Plan',
+    icoon: 'signaleren' as const,
+    kop: 'Wat speelt er precies?',
+    tekst:
+      'Voor er iets wordt ingepland: wat is er gebeurd, wat gebeurt er vaker, en wat heeft het team al geprobeerd? Daaruit volgen de beroepsgroep, het niveau en de situaties waarmee geoefend gaat worden. Die situaties komen uit de meldingen en incidenten van het team zelf, niet uit een map met standaardrollenspellen.',
+    uitkomst: 'Beroepsgroep, niveau en oefensituaties liggen vast.',
+  },
+  {
+    id: 'do',
+    letter: 'D',
+    naam: 'Do',
+    icoon: 'oefenen' as const,
+    kop: 'De trainingsdag',
+    tekst:
+      'Korte theorieblokken, veel oefenen. Deelnemers krijgen de kans om dezelfde situatie meerdere keren over te doen, met andere keuzes, tot het gedrag zit — niet tot de theorie is uitgelegd. Waar dat de oefening beter maakt, staat er een trainingsacteur die het gedrag stap voor stap kan bijstellen.',
+    uitkomst: 'Het team heeft geoefend met de eigen praktijk, niet met een voorbeeld.',
+  },
+  {
+    id: 'check',
+    letter: 'C',
+    naam: 'Check',
+    icoon: 'nazorg' as const,
+    kop: 'Wat werkt er op de werkvloer?',
+    tekst:
+      'De dag eindigt met wat er maandag anders gaat. Daarna telt wat er in de praktijk van terechtkomt: wordt er gemeld, wordt er nabesproken, en waar loopt het team alsnog vast? Dat gesprek hoort bij de organisatie zelf te liggen — Bureau Weerbaar en Veilig levert de vragen waarmee u het voert.',
+    uitkomst: 'Zichtbaar wat blijft hangen en waar het nog knelt.',
+  },
+  {
+    id: 'act',
+    letter: 'A',
+    naam: 'Act',
+    icoon: 'beleid' as const,
+    kop: 'Vastleggen en doorgroeien',
+    tekst:
+      'Wat werkt wordt de norm: afspraken over wat wel en niet geaccepteerd wordt, hoe er gemeld wordt en wie de nazorg doet. Bij niveau expert is dat de kern van de dag. En blijkt het team toe aan zwaardere situaties, dan begint de cyclus opnieuw — een niveau hoger.',
+    uitkomst: 'De teamnorm ligt vast; het volgende niveau is een bewuste keuze.',
+  },
+];
+
+// Eén CSS-regel per fase. Zonder :has() blijven alle panelen staan:
+// minder mooi, wel volledig leesbaar.
+const regels = FASEN.map(
+  (f) => `.pdca:has(#fase-${f.id}:checked) .fase-paneel[data-fase="${f.id}"]{display:grid}
+.pdca:has(#fase-${f.id}:checked) .ring-boog[data-fase="${f.id}"]{opacity:1;stroke-width:30}
+.pdca:has(#fase-${f.id}:checked) .ring-letter[data-fase="${f.id}"]{opacity:1;font-size:19px}`,
+).join('\n');
+
+// Ringmeetkunde: vier bogen van 90 graden met een opening ertussen.
+const straal = 78;
+const omtrek = 2 * Math.PI * straal;
+const boog = omtrek / 4 - 10;
+const KLEUREN = ['#f18816', '#d99a6a', '#c49bb0', '#8fa2e6'];
+---
+
+<div class="pdca">
+  <div class="pdca-boven">
+    <!-- De ring is toelichting bij de knoppen, geen bediening: de
+         radioknoppen hieronder doen het werk en zijn met het toetsenbord
+         te bereiken. Daarom aria-hidden. -->
+    <svg class="ring" viewBox="0 0 220 220" aria-hidden="true" focusable="false">
+      {FASEN.map((f, i) => (
+        <circle
+          class="ring-boog"
+          data-fase={f.id}
+          cx="110"
+          cy="110"
+          r={straal}
+          fill="none"
+          stroke={KLEUREN[i]}
+          stroke-width="22"
+          stroke-linecap="round"
+          stroke-dasharray={`${boog} ${omtrek - boog}`}
+          transform={`rotate(${-85 + i * 90} 110 110)`}
+        />
+      ))}
+      {FASEN.map((f, i) => {
+        const hoek = (-45 + i * 90) * (Math.PI / 180);
+        return (
+          <text
+            class="ring-letter"
+            data-fase={f.id}
+            x={110 + Math.cos(hoek) * straal}
+            y={110 + Math.sin(hoek) * straal}
+            text-anchor="middle"
+            dominant-baseline="central"
+            fill="#12121a"
+          >{f.letter}</text>
+        );
+      })}
+      <text class="ring-hart" x="110" y="102" text-anchor="middle">PDCA</text>
+      <text class="ring-hart-klein" x="110" y="124" text-anchor="middle">zo werken wij</text>
+    </svg>
+
+    <fieldset class="fasekeuze">
+      <legend class="alleen-voorlezer">Kies een fase van de cyclus</legend>
+      {FASEN.map((f, i) => (
+        <>
+          <input type="radio" name="pdca" id={`fase-${f.id}`} class="fase-radio" checked={i === 0} />
+          <label for={`fase-${f.id}`} class="fase-knop" style={`--fasekleur:${KLEUREN[i]}`}>
+            <span class="fase-letter">{f.letter}</span>
+            <span class="fase-naam">{f.naam}</span>
+          </label>
+        </>
+      ))}
+    </fieldset>
+  </div>
+
+  <div class="pdca-panelen">
+    {FASEN.map((f, i) => (
+      <div class="fase-paneel" data-fase={f.id} style={`--fasekleur:${KLEUREN[i]}`}>
+        <span class="fase-icoon"><Icoon naam={f.icoon} breedte={24} /></span>
+        <h3>{f.kop}</h3>
+        <p>{f.tekst}</p>
+        <p class="fase-uitkomst">
+          <strong>Resultaat van deze stap:</strong> {f.uitkomst}
+        </p>
+      </div>
+    ))}
+  </div>
+</div>
+
+<style is:inline set:html={regels}></style>
+
+<style>
+  .pdca {
+    display: grid;
+    gap: clamp(1.5rem, 1rem + 2vw, 2.5rem);
+    align-items: center;
+  }
+  @media (min-width: 900px) {
+    .pdca { grid-template-columns: minmax(0, 22rem) minmax(0, 1fr); }
+  }
+
+  .pdca-boven { display: grid; gap: 1.25rem; justify-items: center; }
+
+  .ring { width: min(100%, 15rem); height: auto; }
+  .ring-boog {
+    opacity: 0.32;
+    transition: opacity 220ms ease, stroke-width 220ms ease;
+  }
+  .ring-letter {
+    font-family: 'Manrope', system-ui, sans-serif;
+    font-size: 15px;
+    font-weight: 800;
+    opacity: 0.55;
+    transition: opacity 220ms ease, font-size 220ms ease;
+  }
+  .ring-hart {
+    font-family: 'Manrope', system-ui, sans-serif;
+    font-size: 21px;
+    font-weight: 800;
+    letter-spacing: 0.06em;
+    fill: var(--tekst);
+  }
+  .ring-hart-klein {
+    font-family: 'Manrope', system-ui, sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    fill: var(--tekst-gedempt);
+  }
+
+  /* ---- De vier knoppen ---- */
+  .fasekeuze {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    justify-content: center;
+  }
+  .fase-radio { position: absolute; width: 1px; height: 1px; opacity: 0; pointer-events: none; }
+
+  .fase-knop {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    min-height: 2.75rem;
+    padding: 0.45rem 0.9rem;
+    border: 1px solid var(--rand-fel);
+    border-radius: var(--hoek-rond);
+    color: var(--tekst-zacht);
+    font-family: 'Manrope', system-ui, sans-serif;
+    font-size: 0.92rem;
+    font-weight: 600;
+    cursor: pointer;
+    user-select: none;
+    transition: background 160ms, color 160ms, border-color 160ms;
+  }
+  .fase-letter {
+    display: grid;
+    place-items: center;
+    width: 1.35rem;
+    height: 1.35rem;
+    border-radius: 50%;
+    background: var(--fasekleur);
+    color: #12121a;
+    font-size: 0.75rem;
+    font-weight: 800;
+    flex: none;
+  }
+  .fase-knop:hover { color: var(--tekst); border-color: var(--tekst-zacht); }
+  .fase-radio:focus-visible + .fase-knop { outline: 3px solid var(--amber-400); outline-offset: 3px; }
+  .fase-radio:checked + .fase-knop {
+    background: color-mix(in oklab, var(--fasekleur) 20%, transparent);
+    border-color: var(--fasekleur);
+    color: var(--tekst);
+  }
+
+  /* ---- De panelen ---- */
+  .pdca-panelen {
+    background: var(--inkt-850);
+    border: 1px solid var(--rand);
+    border-radius: var(--hoek);
+    padding: clamp(1.25rem, 1rem + 1.2vw, 2rem);
+    min-height: 17rem;
+  }
+  .fase-paneel { display: grid; gap: 0.7rem; align-content: start; }
+  @supports selector(:has(*)) {
+    .fase-paneel { display: none; }
+  }
+
+  .fase-icoon {
+    display: grid;
+    place-items: center;
+    width: 46px;
+    height: 46px;
+    border-radius: var(--hoek);
+    background: color-mix(in oklab, var(--fasekleur) 20%, transparent);
+    color: var(--fasekleur);
+  }
+  .fase-paneel h3 { font-size: clamp(1.2rem, 1.1rem + 0.5vw, 1.45rem); }
+  .fase-paneel p { color: var(--tekst-zacht); line-height: 1.6; max-width: 44rem; }
+
+  .fase-uitkomst {
+    margin-top: 0.35rem;
+    padding-left: 0.9rem;
+    border-left: 3px solid var(--fasekleur);
+    font-size: 0.92rem;
+  }
+  .fase-uitkomst strong { color: var(--tekst); font-weight: 700; }
+</style>

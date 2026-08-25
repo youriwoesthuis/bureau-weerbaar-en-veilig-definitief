@@ -3,6 +3,7 @@ import { getCollection, render } from 'astro:content';
 import Basis from '../../layouts/Basis.astro';
 import Kruimels from '../../components/Kruimels.astro';
 import Chevron from '../../components/Chevron.astro';
+import Icoon from '../../components/Icoon.astro';
 import NiveauLadder from '../../components/NiveauLadder.astro';
 import TrainingKaart from '../../components/TrainingKaart.astro';
 import Vragen from '../../components/Vragen.astro';
@@ -95,10 +96,10 @@ const cursusSchema = {
 const schema = [cursusSchema, faqSchema(d.veelgestelde_vragen)].filter(Boolean);
 
 const feiten = [
-  { label: 'Duur', waarde: d.duur },
-  { label: 'Groepsgrootte', waarde: d.groepsgrootte },
-  { label: 'Locatie', waarde: d.locatie_detail ?? d.locatie },
-  ...(d.certificaat ? [{ label: 'Afsluiting', waarde: d.certificaat }] : []),
+  { icoon: 'klok' as const, label: 'Duur', waarde: d.duur },
+  { icoon: 'groep' as const, label: 'Groepsgrootte', waarde: d.groepsgrootte },
+  { icoon: 'locatie' as const, label: 'Locatie', waarde: d.locatie_detail ?? d.locatie },
+  ...(d.certificaat ? [{ icoon: 'certificaat' as const, label: 'Afsluiting', waarde: d.certificaat }] : []),
 ];
 ---
 
@@ -110,7 +111,7 @@ const feiten = [
   schema={schema}
 >
   <!-- ---------------- Kop ---------------- -->
-  <section class="training-kop gloed">
+  <section class="training-kop gloed schuin-onder">
     <div class="omhulsel training-kop-binnen">
       <Kruimels kruimels={kruimels} />
 
@@ -126,8 +127,11 @@ const feiten = [
       <dl class="feitenbalk">
         {feiten.map((f) => (
           <div class="feit">
-            <dt>{f.label}</dt>
-            <dd>{f.waarde}</dd>
+            <span class="feit-icoon"><Icoon naam={f.icoon} breedte={19} /></span>
+            <div>
+              <dt>{f.label}</dt>
+              <dd>{f.waarde}</dd>
+            </div>
           </div>
         ))}
       </dl>
@@ -292,7 +296,23 @@ const feiten = [
     width: 100%;
     margin: 0;
   }
-  .feit { background: var(--inkt-900); padding: 1rem 1.15rem; display: grid; gap: 0.2rem; }
+  .feit {
+    background: var(--inkt-900);
+    padding: 1rem 1.15rem;
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+  }
+  .feit-icoon {
+    display: grid;
+    place-items: center;
+    width: 34px;
+    height: 34px;
+    flex: none;
+    border-radius: var(--hoek-klein);
+    background: color-mix(in oklab, var(--niveau) 18%, transparent);
+    color: var(--niveau);
+  }
   .feit dt {
     font-size: 0.75rem;
     font-weight: 600;

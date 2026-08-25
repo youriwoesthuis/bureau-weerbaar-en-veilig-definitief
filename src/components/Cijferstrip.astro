@@ -1,0 +1,83 @@
+---
+/**
+ * De cijferstrip. Eén component voor de hele site — er stonden twee
+ * verschillende cijferstijlen naast elkaar (witte kaarten op de homepage,
+ * een omrande balk op de sector- en over-onspagina), en dat las als twee
+ * ontwerpen.
+ *
+ * Alle getallen worden geteld uit de content, nooit met de hand ingevuld.
+ */
+interface Props {
+  cijfers: { waarde: number | string; label: string; url?: string }[];
+  /** true = de strip valt over de onderrand van de donkere sectie erboven */
+  overlappend?: boolean;
+}
+const { cijfers, overlappend = false } = Astro.props;
+---
+
+<div class:list={['cijferstrip', { overlappend }]} style={`--kolommen:${cijfers.length}`}>
+  {cijfers.map((c) => {
+    const Tag = c.url ? 'a' : 'div';
+    return (
+      <Tag class="cijferkaart" href={c.url}>
+        <b>{c.waarde}</b>
+        <span>{c.label}</span>
+      </Tag>
+    );
+  })}
+</div>
+
+<style>
+  .cijferstrip {
+    display: grid;
+    grid-template-columns: repeat(var(--kolommen, 4), minmax(0, 1fr));
+    gap: clamp(0.75rem, 0.5rem + 1vw, 1.25rem);
+  }
+  @media (max-width: 700px) {
+    .cijferstrip { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  }
+
+  /* Over de sectiegrens heen, zoals op agressievisie.nl. Dat bindt het
+     donkere en het lichte vlak aan elkaar in plaats van ze hard op elkaar
+     te laten stoten. De sectie eronder moet dan wel extra ruimte krijgen. */
+  .overlappend {
+    margin-top: clamp(2.5rem, 2rem + 2vw, 4rem);
+    margin-bottom: -3.5rem;
+    position: relative;
+    z-index: 5;
+  }
+  @media (max-width: 700px) {
+    .overlappend { margin-bottom: -2.5rem; }
+  }
+
+  .cijferkaart {
+    display: grid;
+    gap: 0.15rem;
+    justify-items: center;
+    text-align: center;
+    padding: clamp(1rem, 0.85rem + 0.7vw, 1.4rem) 1rem;
+    background: var(--wit);
+    border: 1px solid var(--rand-licht);
+    border-radius: var(--hoek);
+    box-shadow: var(--schaduw-md);
+    text-decoration: none;
+    transition: transform 160ms ease, box-shadow 160ms ease;
+  }
+  a.cijferkaart:hover { transform: translateY(-3px); box-shadow: var(--schaduw-lg); }
+
+  .cijferkaart b {
+    font-family: 'Manrope', system-ui, sans-serif;
+    font-size: clamp(1.9rem, 1.5rem + 1.4vw, 2.35rem);
+    font-weight: 800;
+    line-height: 1.05;
+    background: var(--verloop-warm);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  .cijferkaart span {
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: var(--tekst-donker-zacht);
+  }
+</style>

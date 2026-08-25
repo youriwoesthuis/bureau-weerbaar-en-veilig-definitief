@@ -502,19 +502,42 @@ h4, .h4 { font-size: 1.05rem; line-height: 1.3; }
 }
 
 /* ---------- 11. Sfeerlicht ------------------------------------------------ */
-/* De site heeft geen fotografie. Deze verlopen geven diepte aan donkere
-   vlakken, zodat een pagina gevuld oogt zonder beeld. */
+/* Eén warme lichtbron rechtsboven, niets meer. Hier stonden drie gekleurde
+   vlekken (oranje, paars, blauw) uit de vorige opzet; met de neutrale
+   achtergrond lieten die een blauwpaarse veeg achter in elke paginakop.
+   Sfeer moet je niet zien, alleen merken. */
 .gloed { position: relative; isolation: isolate; overflow: hidden; }
 .gloed::after {
   content: "";
   position: absolute;
-  inset: -30% -10% auto -10%;
-  height: 120%;
+  inset: 0;
   z-index: -1;
-  background:
-    radial-gradient(52% 46% at 12% 8%,  color-mix(in oklab, var(--logo-oranje) 34%, transparent) 0%, transparent 62%),
-    radial-gradient(46% 44% at 88% 22%, color-mix(in oklab, var(--logo-paars) 42%, transparent) 0%, transparent 64%),
-    radial-gradient(60% 50% at 58% 92%, color-mix(in oklab, var(--logo-blauw) 48%, transparent) 0%, transparent 66%);
+  background: radial-gradient(
+    42% 62% at 82% 14%,
+    color-mix(in oklab, var(--logo-oranje) 16%, transparent) 0%,
+    transparent 70%
+  );
+  pointer-events: none;
+}
+
+/* ---------- 11b. Schuine sectieovergang ----------------------------------
+   Het herkenbaarste element van agressievisie.nl: een donker vlak dat niet
+   recht maar schuin afloopt in het lichte vlak eronder. Een wig in de kleur
+   van de volgende sectie, dus er is geen extra element voor nodig.
+
+   Zet `--onder` als de sectie eronder een andere kleur heeft dan --mist-50.
+   Gebruik dit alleen waar de volgende sectie ook echt licht is; anders zie
+   je een lichte driehoek op een donkere pagina. */
+.schuin-onder { position: relative; }
+.schuin-onder::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -1px;
+  height: clamp(38px, 5vw, 72px);
+  background: var(--onder, var(--mist-50));
+  clip-path: polygon(0 100%, 100% 0, 100% 100%);
   pointer-events: none;
 }
 
