@@ -11,6 +11,7 @@ import Vragen from '../../components/Vragen.astro';
 import Cta from '../../components/Cta.astro';
 import { SITE, NIVEAU_INFO, pad } from '../../lib/site';
 import { trainingTitel, description, faqSchema, ids } from '../../lib/seo';
+import { laatstGewijzigd } from '../../lib/datum';
 
 export async function getStaticPaths() {
   const trainingen = await getCollection('trainingen');
@@ -93,6 +94,11 @@ const cursusSchema = {
     },
   }),
 };
+
+// Uit de git-geschiedenis van het bronbestand, niet de builddatum.
+// Uit de git-geschiedenis van het bronbestand, niet de builddatum.
+const gewijzigd = laatstGewijzigd(`src/content/trainingen/${d.slug}.md`);
+if (gewijzigd) (cursusSchema as Record<string, unknown>).dateModified = gewijzigd;
 
 const schema = [cursusSchema, faqSchema(d.veelgestelde_vragen)].filter(Boolean);
 

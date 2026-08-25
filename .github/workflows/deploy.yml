@@ -22,6 +22,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          # De volledige geschiedenis is nodig voor dateModified in het
+          # schema: die datum komt uit de laatste commit op een contentbestand.
+          # Met de standaard fetch-depth van 1 is er geen geschiedenis en valt
+          # alles terug op de bestandsdatum — dat is de tijd van het uitchecken,
+          # en dan zou elke pagina claimen dat hij vandaag is bijgewerkt.
+          fetch-depth: 0
 
       - uses: actions/setup-node@v4
         with:

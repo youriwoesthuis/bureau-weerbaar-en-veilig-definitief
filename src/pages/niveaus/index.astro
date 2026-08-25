@@ -6,7 +6,7 @@ import NiveauLadder from '../../components/NiveauLadder.astro';
 import Vragen from '../../components/Vragen.astro';
 import Cta from '../../components/Cta.astro';
 import { NIVEAUS, NIVEAU_INFO, FEITEN, pad } from '../../lib/site';
-import { paginaTitel, description } from '../../lib/seo';
+import { paginaTitel, description, lijstSchema } from '../../lib/seo';
 
 const trainingen = await getCollection('trainingen');
 
@@ -39,6 +39,9 @@ const vergelijking = [
       'Ja, en dat is ook de bedoeling. De drie niveaus zijn zo geschreven dat ze op elkaar voortbouwen zonder te herhalen. Veel organisaties trainen eerst de uitvoerende medewerkers op basis en daarna de leidinggevenden op expert.',
   },
 ];
+const siteUrl = new URL(import.meta.env.BASE_URL, Astro.site).href;
+const lijst = lijstSchema(siteUrl, 'De drie niveaus agressietraining',
+  NIVEAUS.map((x) => ({ naam: NIVEAU_INFO[x].naam, url: pad(`/niveaus/${x}/`) })));
 ---
 
 <Basis
@@ -46,6 +49,7 @@ const vergelijking = [
   description={description(openingsantwoord)}
   niveau="basis"
   kruimels={kruimels}
+  schema={[lijst].filter(Boolean)}
 >
   <section class="kop-sectie gloed raster-achtergrond">
     <div class="omhulsel kop-binnen">

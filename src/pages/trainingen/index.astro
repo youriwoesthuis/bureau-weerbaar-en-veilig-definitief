@@ -4,7 +4,7 @@ import Basis from '../../layouts/Basis.astro';
 import Kruimels from '../../components/Kruimels.astro';
 import Cta from '../../components/Cta.astro';
 import { NIVEAUS, NIVEAU_INFO, FEITEN, pad } from '../../lib/site';
-import { paginaTitel, description } from '../../lib/seo';
+import { paginaTitel, description, lijstSchema } from '../../lib/seo';
 
 const [trainingen, beroepsgroepen, sectoren] = await Promise.all([
   getCollection('trainingen'),
@@ -35,6 +35,8 @@ const kruimels = [
   { naam: 'Trainingen', url: pad('/trainingen/') },
 ];
 
+const siteUrl = new URL(import.meta.env.BASE_URL, Astro.site).href;
+
 const openingsantwoord = `Bureau Weerbaar en Veilig biedt ${trainingen.length} agressietrainingen aan: voor ${beroepsgroepen.length} beroepsgroepen, elk in de niveaus basis, gevorderd en expert. Elke training duurt ${FEITEN.duur}, telt ${FEITEN.groepsgrootte} en wordt incompany gegeven.`;
 
 // Het filter werkt met :has() op de radioknoppen. Zonder ondersteuning
@@ -43,6 +45,35 @@ const filterRegels = NIVEAUS.map(
   (n) => `.lijst:has(#filter-${n}:checked) .rij:not([data-niveau="${n}"]){display:none}
 .lijst:has(#filter-${n}:checked) .sectorgroep:not(:has(.rij[data-niveau="${n}"])){display:none}`,
 ).join('\n');
+
+/**
+ * Letterfilter op de beginletter van de beroepsgroep. Bij 132 trainingen is
+ * het niveaufilter alleen niet genoeg: dat houdt er nog 44 over.
+ *
+ * De twee filters werken los van elkaar en stapelen. Een sectorkop verdwijnt
+ * zodra er in die sector geen zichtbare rij meer overblijft — vandaar de
+ * tweede regel per letter.
+ */
+const letters = [...new Set(
+  trainingen.map((t) => (naamVan.get(t.data.beroepsgroep) ?? '')[0]?.toUpperCase()).filter(Boolean),
+)].sort();
+
+const letterRegels = letters
+  .map(
+    (l) => `.lijst:has(#letter-${l}:checked) .rij:not([data-letter="${l}"]){display:none}
+.lijst:has(#letter-${l}:checked) .sectorgroep:not(:has(.rij[data-letter="${l}"])){display:none}`,
+  )
+  .join('\n');
+const lijst = lijstSchema(
+  siteUrl,
+  'Alle agressietrainingen van Bureau Weerbaar en Veilig',
+  perSector.flatMap((s) =>
+    s.rijen.map((r) => ({
+      naam: `${naamVan.get(r.data.beroepsgroep)} — ${NIVEAU_INFO[r.data.niveau].naam}`,
+      url: pad(`/trainingen/${r.data.slug}/`),
+    })),
+  ),
+);
 ---
 
 <Basis
@@ -50,6 +81,7 @@ const filterRegels = NIVEAUS.map(
   description={description(openingsantwoord)}
   niveau="basis"
   kruimels={kruimels}
+  schema={[lijst].filter(Boolean)}
 >
   <section class="kop-sectie gloed raster-achtergrond schuin-onder">
     <div class="omhulsel kop-binnen">
@@ -79,6 +111,20 @@ const filterRegels = NIVEAUS.map(
         </div>
       </fieldset>
 
+      <fieldset class="filter">
+        <legend class="bovenkop">Filter op beginletter</legend>
+        <div class="letterbalk">
+          <input type="radio" name="letterfilter" id="letter-alle" class="filter-radio" checked />
+          <label for="letter-alle" class="letterknop letterknop-alle">Alle</label>
+          {letters.map((l) => (
+            <>
+              <input type="radio" name="letterfilter" id={`letter-${l}`} class="filter-radio" />
+              <label for={`letter-${l}`} class="letterknop">{l}</label>
+            </>
+          ))}
+        </div>
+      </fieldset>
+
       {perSector.map((s) => (
         <section class="sectorgroep">
           <h2 class="h3 sectorgroep-kop">
@@ -86,7 +132,7 @@ const filterRegels = NIVEAUS.map(
           </h2>
           <ul class="rijen">
             {s.rijen.map((t) => (
-              <li class="rij" data-niveau={t.data.niveau}>
+              <li class="rij" data-niveau={t.data.niveau} data-letter={(naamVan.get(t.data.beroepsgroep) ?? '')[0]?.toUpperCase()}>
                 <a href={pad(`/trainingen/${t.data.slug}/`)}>
                   <span class="rij-groep">{naamVan.get(t.data.beroepsgroep)}</span>
                   <span class="badge">{NIVEAU_INFO[t.data.niveau].naam}</span>
@@ -119,6 +165,7 @@ const filterRegels = NIVEAUS.map(
   }
 
   .lijst { display: grid; gap: clamp(2rem, 1.4rem + 2vw, 3.5rem); }
+  .filter + .filter { margin-top: -1.4rem; }
 
   .filter { border: 0; padding: 0; margin: 0; }
   .filter legend { padding: 0; margin-bottom: 0.9rem; }
@@ -157,6 +204,33 @@ const filterRegels = NIVEAUS.map(
     font-weight: 600;
   }
   .filter-radio:checked + .filterknop .stip { background: var(--niveau); }
+
+  .letterbalk { display: flex; flex-wrap: wrap; gap: 0.35rem; }
+  .letterknop {
+    display: grid;
+    place-items: center;
+    min-width: 2.75rem;
+    min-height: 2.75rem;
+    padding: 0 0.55rem;
+    border: 1px solid var(--rand-licht);
+    border-radius: var(--hoek-rond);
+    background: var(--wit);
+    color: var(--tekst-donker-zacht);
+    font-family: 'Manrope', system-ui, sans-serif;
+    font-size: 0.9rem;
+    font-weight: 700;
+    cursor: pointer;
+    user-select: none;
+    transition: border-color 150ms, color 150ms, background 150ms;
+  }
+  .letterknop-alle { padding: 0 0.9rem; }
+  .letterknop:hover { color: var(--tekst-donker); border-color: var(--tekst-donker-zacht); }
+  .filter-radio:focus-visible + .letterknop { outline: 3px solid var(--blauw-op-wit); outline-offset: 3px; }
+  .filter-radio:checked + .letterknop {
+    background: var(--verloop-warm);
+    border-color: transparent;
+    color: #1f1000;
+  }
 
   .sectorgroep-kop { margin-bottom: 1rem; }
   .sectorgroep-kop a { color: inherit; text-decoration: none; }
@@ -217,4 +291,4 @@ const filterRegels = NIVEAUS.map(
 {/* is:inline omdat de inhoud van dit blok pas tijdens het bouwen ontstaat.
     De regels moeten bovendien ongescoped blijven: ze verwijzen naar de
     id's van de radioknoppen, niet naar de scoped klassen van deze pagina. */}
-<style is:inline set:html={filterRegels}></style>
+<style is:inline set:html={filterRegels + letterRegels}></style>

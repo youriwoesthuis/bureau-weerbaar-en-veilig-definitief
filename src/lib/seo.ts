@@ -145,6 +145,34 @@ export function breadcrumbSchema(siteUrl: string, kruimels: { naam: string; url:
   };
 }
 
+/**
+ * Een overzichtspagina is een lijst, en dat mag je zeggen. Zonder ItemList
+ * ziet een zoekmachine /trainingen/ als losse tekst met veel links; met
+ * ItemList als een geordende opsomming.
+ *
+ * Alleen de naam en de URL per item: een positie zonder inhoud is voor een
+ * zoekmachine waardeloos, en meer velden zouden hier verzonnen zijn.
+ */
+export function lijstSchema(
+  siteUrl: string,
+  naam: string,
+  items: { naam: string; url: string }[],
+) {
+  if (!items.length) return null;
+  return {
+    '@type': 'ItemList',
+    name: naam,
+    numberOfItems: items.length,
+    itemListOrder: 'https://schema.org/ItemListOrderAscending',
+    itemListElement: items.map((it, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      name: it.naam,
+      url: new URL(it.url, siteUrl).href,
+    })),
+  };
+}
+
 export function faqSchema(vragen: { vraag: string; antwoord: string }[]) {
   if (!vragen.length) return null;
   return {

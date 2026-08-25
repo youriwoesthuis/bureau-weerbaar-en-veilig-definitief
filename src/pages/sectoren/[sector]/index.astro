@@ -2,7 +2,7 @@
 import { getCollection, render } from 'astro:content';
 import Basis from '../../../layouts/Basis.astro';
 import Kruimels from '../../../components/Kruimels.astro';
-import Chevron from '../../../components/Chevron.astro';
+import Icoon from '../../../components/Icoon.astro';
 import Cijferstrip from '../../../components/Cijferstrip.astro';
 import Cta from '../../../components/Cta.astro';
 import { NIVEAUS, NIVEAU_INFO, pad } from '../../../lib/site';
@@ -119,7 +119,11 @@ const cijfers = [
       <div class="rooster rooster-3">
         {NIVEAUS.map((n) => (
           <a href={pad(`/niveaus/${n}/`)} class="kaart onthul" data-niveau={n}>
-            <Chevron aantal={1} breedte="1.3rem" />
+            {/* Icoon in een tegeltje, net als op alle andere kaarten van de
+                site. Hier stond nog de losse chevron uit de eerste opzet. */}
+            <span class="kaart-icoon">
+              <Icoon naam={{ basis: 'signaleren', gevorderd: 'grens', expert: 'beleid' }[n] as any} />
+            </span>
             <span class="badge">{NIVEAU_INFO[n].naam}</span>
             <h3>{NIVEAU_INFO[n].kort}</h3>
             <p>{NIVEAU_INFO[n].omschrijving}</p>

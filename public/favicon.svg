@@ -1,19 +1,28 @@
 <svg viewBox="0 0 208 208" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Bureau Weerbaar en Veilig">
   <!--
-    Alleen het beeldmerk uit logo.svg: de cirkel met de dubbele chevron.
-    De woordmerkregels zijn weggelaten, want op 16 bij 16 pixels zijn die
-    onleesbaar. Het verloop is hetzelfde als in het logo.
+    Alleen het beeldmerk uit het logo: de bol met de dubbele chevron. De
+    woordmerkregels zijn weggelaten, want op 16 bij 16 pixels zijn die
+    onleesbaar.
+
+    De onderste chevron is bewust asymmetrisch: in logo-origineel.png meet de
+    linkerarm 36,5px en de rechterarm 70,5px, gerekend vanaf de punt op x=71,5.
+    Die verhouding (ongeveer 1 op 2) staat hier ook. Niet "rechttrekken" —
+    het beeldmerk hoort zo.
+
+    Kleuren en verloopstops komen uit datzelfde bestand, uit de pixels
+    gemeten. De achtergrond volgt de donkere vlakken van de site.
   -->
   <defs>
     <linearGradient id="bwv" x1="10" y1="34" x2="198" y2="182" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#f18919" />
-      <stop offset="50%" stop-color="#e8801f" />
-      <stop offset="72%" stop-color="#b06a55" />
-      <stop offset="100%" stop-color="#35409b" />
+      <stop offset="0%" stop-color="#f28915" />
+      <stop offset="33%" stop-color="#ec8723" />
+      <stop offset="56%" stop-color="#d37a45" />
+      <stop offset="78%" stop-color="#a2666a" />
+      <stop offset="100%" stop-color="#4f4a8a" />
     </linearGradient>
   </defs>
-  <rect width="208" height="208" rx="44" fill="#17203d" />
-  <circle cx="104" cy="58" r="26" fill="#f18919" />
+  <rect width="208" height="208" rx="44" fill="#17171c" />
+  <circle cx="104" cy="58" r="26" fill="#f18816" />
   <path d="M43 58 L104 103 L165 58 L165 93 L104 138 L43 93 Z" fill="url(#bwv)" />
   <path d="M74 138 L104 161 L165 116 L165 151 L104 196 L74 173 Z" fill="url(#bwv)" />
 </svg>
