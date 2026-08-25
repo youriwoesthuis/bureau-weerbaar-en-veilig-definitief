@@ -1,6 +1,31 @@
 ---
 import { getCollection } from 'astro:content';
+import Icoon from './Icoon.astro';
 import { pad } from '../lib/site';
+
+/** Eén icoon per sector. Zonder icoon leest de kiezer als een tabel, en
+ *  dat wijkt af van de rest van de site waar elke kaart er een heeft. */
+const SECTORICOON: Record<string, string> = {
+  asielopvang: 'team',
+  beveiliging: 'beveiliging',
+  bibliotheken: 'bibliotheek',
+  dierenzorg: 'dier',
+  energie: 'energie',
+  farmacie: 'farmacie',
+  'financiele-dienstverlening': 'geld',
+  horeca: 'horeca',
+  'justitiele-keten': 'recht',
+  onderwijs: 'onderwijs',
+  'openbaar-vervoer': 'vervoer',
+  'overheid-handhaving': 'overheid',
+  retail: 'winkel',
+  sportaccommodaties: 'sport',
+  transport: 'transport',
+  uitvaart: 'uitvaart',
+  welzijn: 'gesprek',
+  woningcorporaties: 'woning',
+  zorg: 'zorg',
+};
 
 /**
  * Kies een sector, zie meteen de beroepsgroepen.
@@ -53,8 +78,15 @@ const regels = perSector
             checked={s.slug === grootste}
           />
           <label for={`sector-${s.slug}`} class="chip">
-            <span class="chip-naam">{s.naam}</span>
-            <span class="chip-aantal">{s.groepen.length}</span>
+            <span class="chip-icoon">
+              <Icoon naam={(SECTORICOON[s.slug] ?? 'vinkje') as any} breedte={20} />
+            </span>
+            <span class="chip-tekst">
+              <span class="chip-naam">{s.naam}</span>
+              <span class="chip-aantal">
+                {s.groepen.length} {s.groepen.length === 1 ? 'beroepsgroep' : 'beroepsgroepen'}
+              </span>
+            </span>
           </label>
         </>
       ))}
@@ -115,7 +147,7 @@ const regels = perSector
      lopen de kolommen en rijen door. */
   .sectorlijst {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(min(100%, 14rem), 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 15.5rem), 1fr));
     border: 1px solid var(--rand);
     border-radius: var(--hoek);
     overflow: hidden;
@@ -139,49 +171,62 @@ const regels = perSector
   .chip {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     gap: 0.75rem;
-    min-height: 2.75rem;
-    padding: 0.45rem 0.9rem;
+    min-height: 4.25rem;
+    padding: 0.75rem 0.9rem;
     background: var(--inkt-850);
     color: var(--tekst-zacht);
     font-family: 'Manrope', system-ui, sans-serif;
-    font-size: 0.95rem;
-    font-weight: 500;
     cursor: pointer;
     user-select: none;
     border-left: 3px solid transparent;
     /* De scheidingslijnen. Een schaduw neemt geen ruimte in, dus de
        buitenste lijnen vallen weg tegen de rand van het kader. */
     box-shadow: 1px 0 0 var(--rand), 0 1px 0 var(--rand);
-    transition: background 150ms, color 150ms, border-color 150ms, padding-left 160ms;
+    transition: background 150ms, color 150ms, border-color 150ms;
   }
-  .chip-naam { min-width: 0; }
-  .chip-aantal {
+  .chip-icoon {
+    display: grid;
+    place-items: center;
+    width: 40px;
+    height: 40px;
     flex: none;
-    font-size: 0.8rem;
-    font-variant-numeric: tabular-nums;
+    border-radius: var(--hoek-klein);
+    background: color-mix(in oklab, var(--oranje-500) 16%, transparent);
+    color: var(--oranje-400);
+    transition: background 150ms, color 150ms;
+  }
+  .chip-tekst { display: grid; gap: 0.1rem; min-width: 0; }
+  .chip-naam {
+    font-size: 0.98rem;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    color: var(--tekst);
+    line-height: 1.2;
+  }
+  .chip-aantal {
+    font-size: 0.78rem;
+    font-weight: 600;
     color: var(--tekst-gedempt);
   }
 
   .chip:hover {
     background: var(--inkt-800);
-    color: var(--tekst);
     border-left-color: var(--oranje-500);
-    padding-left: 1.2rem;
   }
   .chip-radio:focus-visible + .chip { outline: 3px solid var(--amber-400); outline-offset: -3px; }
 
   /* De gekozen sector. Donkere tekst op het oranje verloop van het logo. */
   .chip-radio:checked + .chip {
     background: var(--verloop-warm);
-    color: #1a0d00;
     border-left-color: transparent;
-    font-weight: 600;
-    padding-left: 0.9rem;
   }
-  .chip-radio:checked + .chip .chip-aantal { color: #3d2400; }
-  .chip-radio:checked + .chip:hover { color: #1a0d00; padding-left: 0.9rem; }
+  .chip-radio:checked + .chip .chip-naam { color: #1f1000; }
+  .chip-radio:checked + .chip .chip-aantal { color: #4a2c00; }
+  .chip-radio:checked + .chip .chip-icoon {
+    background: rgba(255, 255, 255, 0.5);
+    color: #1f1000;
+  }
 
   .kiezer-uitkomst {
     background: var(--inkt-850);
@@ -272,10 +317,25 @@ const regels = perSector
     color: var(--tekst-donker);
     border-left-color: var(--oranje-op-wit);
   }
+  :global(.op-licht) .chip-naam,
+  :global(.op-wit) .chip-naam { color: var(--tekst-donker); }
   :global(.op-licht) .chip-aantal,
   :global(.op-wit) .chip-aantal { color: var(--tekst-donker-zacht); }
+  :global(.op-licht) .chip-icoon,
+  :global(.op-wit) .chip-icoon {
+    background: color-mix(in oklab, var(--oranje-op-wit) 12%, var(--wit));
+    color: var(--oranje-op-wit);
+  }
+  /* Op het oranje verloop van de gekozen cel moet alles donker worden. */
+  :global(.op-licht) .chip-radio:checked + .chip .chip-naam,
+  :global(.op-wit) .chip-radio:checked + .chip .chip-naam { color: #1f1000; }
   :global(.op-licht) .chip-radio:checked + .chip .chip-aantal,
   :global(.op-wit) .chip-radio:checked + .chip .chip-aantal { color: #3d2400; }
+  :global(.op-licht) .chip-radio:checked + .chip .chip-icoon,
+  :global(.op-wit) .chip-radio:checked + .chip .chip-icoon {
+    background: rgba(255, 255, 255, 0.55);
+    color: #1f1000;
+  }
   :global(.op-licht) .chip-radio:focus-visible + .chip,
   :global(.op-wit) .chip-radio:focus-visible + .chip { outline-color: var(--blauw-op-wit); }
 
