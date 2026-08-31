@@ -17,8 +17,10 @@ veelgestelde_vragen:
     antwoord: "Ja. De aanleiding verschilt maar het patroon niet: de medewerker legt een besluit uit waar hij zelf niet over ging."
   - vraag: "Welk niveau past bij verzekeringsmedewerkers?"
     antwoord: "Basis voor iedereen met klantcontact, gevorderd voor schadebehandelaars met zware dossiers, expert voor leidinggevenden die het beleid inrichten."
+  - vraag: "Ons klantcontact loopt vrijwel volledig via telefoon en e-mail, en klanten dreigen met slechte reviews. Sluit de training daarop aan?"
+    antwoord: "Ja. Breng die gesprekken en mailwisselingen in bij de intake, dan speelt de trainingsacteur ze na en oefen je hoe je aan de telefoon rustig blijft, per e-mail begrenst en een reviewdreigement niet het besluit laat bepalen."
 ---
 
-Wie een schadeclaim afwijst, praat met iemand die twee dingen tegelijk kwijt is: het bezit én de verwachting dat de verzekering dat zou opvangen. Emotionele schade en financiële teleurstelling komen in dat gesprek samen.
+Wie een schadeclaim afwijst, praat met iemand die twee dingen tegelijk kwijt is: het bezit én de verwachting dat de verzekering dat zou opvangen. Emotionele schade en financiële teleurstelling komen in dat gesprek samen. Vrijwel al dat contact verloopt bovendien op afstand: aan de telefoon, waar de eerste woede binnenkomt, en per e-mail, waar de toon vaak nog een slag scherper is en het dreigement met een slechte review al snel valt.
 
 Bij schadebehandeling speelt bovendien de fraudevraag. Een afwijzing die de klant als beschuldiging ervaart, maakt een gesprek onmiddellijk scherp. Bureau Weerbaar en Veilig traint deze groep daar specifiek op.

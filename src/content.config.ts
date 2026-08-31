@@ -28,6 +28,10 @@ const trainingen = defineCollection({
     locatie: z.string(),
     locatie_detail: z.string().optional(),
     certificaat: z.string().optional(),
+    /* Instapvoorwaarde (gevorderd/expert). Stond al in 88 bestanden maar
+       niet in dit schema, waardoor Astro het veld wegliet en het nergens
+       gebruikt kon worden. */
+    voorwaarde: z.string().optional(),
     doelgroep: z.string(),
     samenvatting: z.string(),
     resultaat: z.array(z.string()),

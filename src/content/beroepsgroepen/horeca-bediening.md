@@ -17,8 +17,10 @@ veelgestelde_vragen:
     antwoord: "Ja. Het is een van de moeilijkste momenten in de bediening, omdat je nee zegt tegen iemand die daar op dat moment het minst voor openstaat."
   - vraag: "Welk niveau past bij horecapersoneel?"
     antwoord: "Basis voor de hele bediening, inclusief oproepkrachten. Gevorderd voor ervaren medewerkers en shiftleiders. Expert voor de bedrijfsleider die de norm vaststelt."
+  - vraag: "Na een weigering volgt soms een wraakreview of wordt er gefilmd. Kun je daarop trainen?"
+    antwoord: "Ja, door die situaties in te brengen bij de intake. De trainingsacteur speelt dan een gast die dreigt met een slechte review of zijn telefoon pakt, en je oefent hoe je bij je weigering blijft en begrenst zonder dat het dreigement de uitkomst bepaalt."
 ---
 
-In de horeca is de gast koning, en dat is precies wat grenzen stellen zo moeilijk maakt. Wie een alcoholweigering moet uitspreken of een gast op gedrag moet aanspreken, gaat in tegen de gastvrijheidsnorm waarop het werk is gebouwd.
+In de horeca is de gast koning, en dat is precies wat grenzen stellen zo moeilijk maakt. Wie een alcoholweigering moet uitspreken of een gast op gedrag moet aanspreken, gaat in tegen de gastvrijheidsnorm waarop het werk is gebouwd. En wie geweigerd of aangesproken is, laat het daar niet altijd bij: de wraakreview staat er soms nog dezelfde avond, en zodra een gesprek aan tafel of bij de deur verhardt, filmen omstanders geregeld mee.
 
 Daar komt bij dat seksuele intimidatie in deze sector veel voorkomt en vaak wordt weggelachen als "hoort erbij". Bureau Weerbaar en Veilig benoemt dat expliciet en behandelt de spanning tussen gastvrijheid en grenzen als kernonderwerp.

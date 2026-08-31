@@ -17,8 +17,12 @@ veelgestelde_vragen:
     antwoord: "Door de machtsdynamiek expliciet te maken in plaats van te doen alsof die er niet is. Dat is precies wat in de training geoefend wordt."
   - vraag: "Welk niveau past bij reclasseringsmedewerkers?"
     antwoord: "Basis voor nieuwe medewerkers, gevorderd voor wie zwaardere toezichten draait, expert voor teamleiders die beleid en nazorg inrichten."
+  - vraag: "Cliënten dreigen soms via berichten of aan de telefoon in plaats van in het gesprek. Komt dat aan bod?"
+    antwoord: "Ja, als je team dat bij de intake inbrengt. De trainingsacteur speelt zo'n telefoongesprek of het eerste gesprek na een dreigmail na, en je oefent hoe je reageert, begrenst en het intern meldt."
 ---
 
 Een reclasseringsmedewerker begeleidt iemand én houdt toezicht op diezelfde persoon. Wie voorwaarden moet handhaven of een terugmelding overweegt, weet dat de gevolgen voor de cliënt groot zijn, en dat de cliënt dat ook weet.
 
 Dat maakt de machtsdynamiek in elk gesprek voelbaar. Bureau Weerbaar en Veilig behandelt die dynamiek expliciet, samen met veilig werken bij huisbezoeken.
+
+De dreiging blijft bovendien niet binnen het gesprek of het huisbezoek. Rond een terugmelding komen er ook dreigende berichten en e-mails binnen, of een intimiderend telefoontje buiten kantooruren, en sommige cliënten zoeken de medewerker online op.

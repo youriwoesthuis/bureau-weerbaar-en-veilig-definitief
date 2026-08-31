@@ -17,8 +17,10 @@ veelgestelde_vragen:
     antwoord: "Ja. Wie het besluit niet neemt maar wel uitlegt, staat vaak het dichtst bij de reactie erop. Die rol hoort in dezelfde groep thuis."
   - vraag: "Welk niveau past bij klantmanagers Participatiewet?"
     antwoord: "Basis voor nieuwe klantmanagers, gevorderd voor wie regelmatig maatregelgesprekken voert. Expert voor teamleiders die de escalatie- en nazorgstructuur inrichten."
+  - vraag: "Na een korting of stopzetting komt de agressie vaak telefonisch of per e-mail binnen. Wordt daarmee geoefend?"
+    antwoord: "Ja, dat hoort bij de casuïstiek die je bij de intake kunt inbrengen. De trainingsacteur speelt zo'n telefoongesprek na, en je oefent hoe je de grens benoemt, het gesprek terugbrengt naar de inhoud en het beëindigt als dat niet lukt."
 ---
 
-Klantmanagers en consulenten in de uitvoering van de Participatiewet brengen boodschappen met directe gevolgen: een korting, een maatregel, een stopzetting. De cliënt is voor zijn inkomen afhankelijk van precies dat besluit.
+Klantmanagers en consulenten in de uitvoering van de Participatiewet brengen boodschappen met directe gevolgen: een korting, een maatregel, een stopzetting. De cliënt is voor zijn inkomen afhankelijk van precies dat besluit. De eerste reactie op zo'n besluit komt zelden aan de balie: die komt telefonisch of per e-mail binnen, geregeld nog op de dag van de beschikking, en juist op afstand is de toon vaak harder.
 
 Die existentiële afhankelijkheid maakt gesprekken over rechten, plichten en sancties potentieel explosief. Bureau Weerbaar en Veilig traint deze groep daarom expliciet op het escalatievrij brengen van slecht nieuws.

@@ -17,8 +17,10 @@ veelgestelde_vragen:
     antwoord: "Ja. De klant staat erbij, familie kijkt mee, en de medewerker is te gast in een ruimte die hij niet kent. Alle oefeningen gaan uit van die situatie."
   - vraag: "Welk niveau past bij monteurs en inspecteurs?"
     antwoord: "Basis voor iedereen die bij klanten thuiskomt, gevorderd voor wie afsluitingen en handhavingstaken doet, expert voor teamleiders die het beleid en de meldnorm bepalen."
+  - vraag: "Klanten filmen de monteur tijdens een afsluiting. Wordt daarmee geoefend?"
+    antwoord: "Ja, als je het inbrengt bij de intake. De trainingsacteur speelt het na — een telefoon die op je wordt gericht terwijl je de meter afsluit — en je oefent hoe je reageert, je grens aangeeft en beslist of je doorwerkt of afbreekt."
 ---
 
 Monteurs en inspecteurs werken alleen in de privéwoningen van klanten, vaak bij taken die de klant niet wil: een verplichte keuring, een afsluiting, een meterwissel na wanbetaling.
 
-De klant staat erbij, familie kijkt mee, en de medewerker moet zijn werk doen én veilig blijven. Bureau Weerbaar en Veilig traint op precies dat spanningsveld.
+De klant staat erbij, familie kijkt mee, en de medewerker moet zijn werk doen én veilig blijven. Bij afsluitingen en verplichte keuringen komt daar geregeld een smartphone bij: de klant of een familielid filmt de monteur in de woning, als drukmiddel om het werk stil te leggen. Bureau Weerbaar en Veilig traint op precies dat spanningsveld.

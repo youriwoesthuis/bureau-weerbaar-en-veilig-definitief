@@ -17,8 +17,10 @@ veelgestelde_vragen:
     antwoord: "Ja. Dat is de directe aanleiding voor de meeste incidenten: de klant heeft verwachtingen en de bezorger krijgt de reactie als iets niet klopt."
   - vraag: "Welk niveau past bij bezorgers?"
     antwoord: "Basis voor alle bezorgers, ook tijdelijke krachten. Gevorderd voor wie in gebieden of tijdvakken rijdt waar het structureel is. Expert voor de planner of teamleider die de meldnorm bepaalt."
+  - vraag: "Klanten reageren achteraf via de app en in reviews. Komt die kant ook aan bod?"
+    antwoord: "Ja, als je het inbrengt bij de intake. De trainingsacteur speelt bijvoorbeeld de klant na die aan de deur dreigt met een slechte beoordeling, en je oefent hoe je reageert zonder het conflict groter te maken."
 ---
 
 Een bezorger staat tientallen keren per dag aan een voordeur zonder te weten wat erachter zit. De klant heeft verwachtingen over tijd en staat van de bestelling, en de bezorger krijgt de reactie als iets niet klopt.
 
-Wat deze groep bijzonder kwetsbaar maakt, is de beoordeling: een klacht kan werk kosten. Daardoor worden incidenten vaak niet gemeld, en blijft onveiligheid onzichtbaar. Bureau Weerbaar en Veilig benoemt dat mechanisme expliciet in de trainingen.
+Wat deze groep bijzonder kwetsbaar maakt, is de beoordeling: een klacht kan werk kosten. Die klacht komt zelden aan de deur zelf: hij verschijnt als bericht in de app, als review of als lage beoordeling, terwijl aan veel deuren een deurbelcamera meedraait die het conflict vastlegt. Daardoor worden incidenten vaak niet gemeld, en blijft onveiligheid onzichtbaar. Bureau Weerbaar en Veilig benoemt dat mechanisme expliciet in de trainingen.

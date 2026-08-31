@@ -17,8 +17,12 @@ veelgestelde_vragen:
     antwoord: "Ja. De situaties komen uit de meldingen van het team zelf. Standaardrollenspellen leveren voor deze groep te weinig op, omdat de zwaarte juist in de details zit."
   - vraag: "Welk niveau past bij medewerkers van de sociale dienst?"
     antwoord: "Basis voor iedereen met cliëntcontact. Gevorderd voor wie de basis beheerst en met structurele of complexe situaties werkt. Expert voor leidinggevenden en coördinatoren."
+  - vraag: "Wat doe je als een cliënt het gesprek wil filmen, of na een beslissing via telefoon en e-mail blijft dreigen?"
+    antwoord: "Breng die situaties in bij de intake: het zijn precies de momenten waarmee geoefend kan worden. De trainingsacteur speelt ze na, van de telefoon op tafel tot het dreigende telefoongesprek, en je oefent hoe je rustig benoemt wat er gebeurt en de regie houdt."
 ---
 
 Bij de sociale dienst gaat het gesprek over geld dat mensen nodig hebben om te leven. Een beslissing over een uitkering raakt daarmee direct aan bestaanszekerheid, en dat maakt de emotie in de spreekkamer anders dan elders.
+
+Lang niet al dat contact verloopt in de spreekkamer: een afwijzing of terugvordering leidt net zo goed tot een woedend telefoongesprek of een reeks dreigende e-mails. En in de spreekkamer zelf legt een cliënt soms een telefoon op tafel om het gesprek als bewijs vast te leggen.
 
 Medewerkers voelen bovendien een morele spanning: zij moeten grenzen stellen aan mensen die het al moeilijk hebben. Bureau Weerbaar en Veilig maakt die spanning in de training expliciet bespreekbaar.

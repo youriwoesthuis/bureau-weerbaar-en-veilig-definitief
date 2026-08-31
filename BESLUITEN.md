@@ -233,6 +233,32 @@ Nog open — **keuze van Youri**:
   werkplekken met lading, trainers in het veld) vraagt een fotograaf en een
   trainingsdag om te fotograferen. Alleen Youri kan dat organiseren.
 
+## 7g. Vervolgronde concurrentie (31-08-2026, avond)
+
+Vierde Gemini-overleg. Doorgevoerd, alles zonder nieuwe beloften:
+
+- **Digitale agressie** verweven in 28 beroepsgroepen (gefilmd worden,
+  intimidatie via mail en reviews, telefoonagressie): één zin werkrealiteit
+  in de lopende tekst plus één FAQ-item, steeds met het eerlijke frame
+  "ja, als het team het inbrengt bij de intake". Negen beroepsgroepen
+  dekten het al, zeven zijn bewust overgeslagen (niet hun realiteit).
+  Gecontroleerd op verboden claims: geen "vast onderdeel", geen juridische
+  uitspraken, geen extra merknaamvermeldingen. 576 FAQ-vragen nu.
+- **Trajectblok** op alle 132 trainingspagina's: intake → voorbereiding →
+  trainingsdag → afspraken en vervolg. Beschrijft wat op /aanpak/ al stond;
+  concurrenten tonen nergens wat er vóór en na de dag gebeurt.
+- **Voorgevulde mailknop** op trainingspagina's: onderwerp is de
+  trainingsnaam, zodat de aanvrager niets hoeft uit te leggen.
+- **Course-schema verrijkt**: occupationalCategory en audienceType zijn nu
+  de beroepsgroepnaam, en gevorderd/expert dragen coursePrerequisites (het
+  voorwaarde-veld stond in 88 bestanden maar zat niet in het contentschema).
+- **Keuzehulp ook op /niveaus/** — bestond alleen op de homepage.
+
+Bewust niet gedaan uit Gemini's lijst: losse triggerblokken op
+beroepsgroeppagina's (staat al in de lopende tekst; een blok ernaast wordt
+dubbelop) en voorinvulbare formulieren (kan pas als het formulier een
+verzendsleutel heeft, hoofdstuk 8).
+
 ## 8. Nog open — heeft Youri nodig
 
 - Onderkop van de hero

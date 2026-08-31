@@ -1,0 +1,86 @@
+---
+/**
+ * Het traject rond de trainingsdag, in vier stappen. Staat op elke
+ * trainingspagina (Gemini-ronde 31-08-2026): een inkoper wil weten wat er
+ * vóór en ná de dag gebeurt, en geen van de onderzochte concurrenten
+ * maakt dat zichtbaar. Elke stap volgt uit de bestaande werkwijze op
+ * /aanpak/ — hier staat niets wat daar niet al stond.
+ */
+const STAPPEN = [
+  {
+    kop: 'Intake vooraf',
+    tekst:
+      'Een gesprek over wat er is gebeurd, hoe vaak het voorkomt en wat er al ligt aan protocol en afspraken. Hier halen we de situaties op waarmee geoefend gaat worden.',
+  },
+  {
+    kop: 'Voorbereiding',
+    tekst:
+      'De trainer en de trainingsacteur bouwen de dag op rond jullie casuïstiek, zodat elk oefengesprek over het eigen werk gaat — niet over een standaardscenario.',
+  },
+  {
+    kop: 'De trainingsdag',
+    tekst:
+      'Korte theorieblokken en vooral oefengesprekken met de acteur: stil te zetten, bij te sturen en opnieuw te doen. Bij jullie op locatie, in de ruimte waar het werk gebeurt.',
+  },
+  {
+    kop: 'Afspraken en vervolg',
+    tekst:
+      'De dag eindigt met afspraken die het team zelf maakt: wat melden we, hoe spreken we elkaar aan. Op verzoek volgt enkele weken later een terugkombijeenkomst.',
+  },
+];
+---
+
+<ol class="traject">
+  {STAPPEN.map((s, i) => (
+    <li class="stap">
+      <span class="stap-nummer" aria-hidden="true">{i + 1}</span>
+      <div>
+        <h3>{s.kop}</h3>
+        <p>{s.tekst}</p>
+      </div>
+    </li>
+  ))}
+</ol>
+
+<style>
+  .traject {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: 0.75rem;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 15rem), 1fr));
+  }
+  .stap {
+    display: grid;
+    grid-template-columns: 2rem 1fr;
+    gap: 0.8rem;
+    align-items: start;
+    padding: 1.1rem 1.2rem;
+    background: var(--wit);
+    border: 1px solid var(--rand-licht);
+    border-radius: var(--hoek);
+  }
+  .stap-nummer {
+    display: grid;
+    place-items: center;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background: color-mix(in oklab, var(--niveau-op-wit) 12%, var(--wit));
+    color: var(--niveau-op-wit);
+    font-family: 'Manrope', system-ui, sans-serif;
+    font-weight: 700;
+    font-size: 0.9rem;
+  }
+  .stap h3 {
+    margin: 0 0 0.35rem;
+    font-size: 1rem;
+  }
+  .stap p {
+    margin: 0;
+    font-size: 0.9rem;
+    line-height: 1.55;
+    color: var(--tekst-donker-zacht);
+  }
+</style>

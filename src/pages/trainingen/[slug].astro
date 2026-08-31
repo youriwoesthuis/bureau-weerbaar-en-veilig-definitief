@@ -6,6 +6,7 @@ import Chevron from '../../components/Chevron.astro';
 import Icoon from '../../components/Icoon.astro';
 import NiveauBeeld from '../../components/NiveauBeeld.astro';
 import NiveauLadder from '../../components/NiveauLadder.astro';
+import Traject from '../../components/Traject.astro';
 import TrainingKaart from '../../components/TrainingKaart.astro';
 import Vragen from '../../components/Vragen.astro';
 import Cta from '../../components/Cta.astro';
@@ -67,7 +68,13 @@ const cursusSchema = {
   inLanguage: 'nl-NL',
   provider: { '@id': ids(siteUrl).organisatie },
   educationalLevel: info.naam,
-  audience: { '@type': 'EducationalAudience', educationalRole: 'Professional', audienceType: d.doelgroep },
+  // De beroepsgroep als expliciete entiteit (Gemini-ronde 31-08-2026): zo
+  // koppelt een AI-antwoord deze training hard aan het beroep, niet alleen
+  // aan de doelgroepzin.
+  occupationalCategory: groepNaam,
+  // Alleen gevorderd en expert hebben een instapvoorwaarde; basis niet.
+  ...(d.voorwaarde && { coursePrerequisites: d.voorwaarde }),
+  audience: { '@type': 'EducationalAudience', educationalRole: 'Professional', audienceType: groepNaam, description: d.doelgroep },
   teaches: d.resultaat,
   timeRequired: 'P1D',
   courseMode: 'onsite',
@@ -218,6 +225,19 @@ const feiten = [
     </div>
   </section>
 
+  {/* Het traject rond de dag: wat er vooraf en daarna gebeurt. Geen van de
+      negen onderzochte concurrenten maakt dit zichtbaar; de dag lijkt daar
+      een losse boeking (CONCURRENTIE.md hoofdstuk 2). */}
+  <section class="sectie op-wit">
+    <div class="omhulsel">
+      <div class="kop-blok">
+        <p class="bovenkop">Het traject</p>
+        <h2>Zo verloopt het van aanvraag tot afspraken</h2>
+      </div>
+      <Traject />
+    </div>
+  </section>
+
   <!-- ---------------- De drie niveaus ---------------- -->
   <section class="sectie op-licht">
     <div class="omhulsel">
@@ -278,6 +298,7 @@ const feiten = [
   <Cta
     kop={`Deze training voor je team?`}
     tekst={`Bureau Weerbaar en Veilig geeft deze training altijd bij jullie op locatie. Vertel wat er speelt bij ${groepNaam.toLowerCase()} in jullie organisatie, dan kijken we samen of dit niveau het juiste is.`}
+    mailOnderwerp={`Offerte: ${d.titel}`}
   />
 </Basis>
 

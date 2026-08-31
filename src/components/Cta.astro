@@ -9,11 +9,22 @@ import { SITE, pad } from '../lib/site';
 interface Props {
   kop?: string;
   tekst?: string;
+  /** Onderwerp voor een voorgevulde e-mail; de knop verschijnt alleen als
+      dit gezet is. Op trainingspagina’s staat de trainingsnaam er al in,
+      zodat de aanvrager niet opnieuw hoeft uit te leggen wat hij zoekt. */
+  mailOnderwerp?: string;
 }
 const {
   kop = 'Overleggen over wat je team nodig heeft?',
   tekst = 'Vertel wat er speelt. Bureau Weerbaar en Veilig denkt mee over beroepsgroep, niveau en aanpak — en zegt het ook als een training niet het antwoord is.',
+  mailOnderwerp,
 } = Astro.props;
+
+const mailLink = mailOnderwerp
+  ? `mailto:${SITE.email}?subject=${encodeURIComponent(mailOnderwerp)}&body=${encodeURIComponent(
+      'Beste Bureau Weerbaar en Veilig,\n\nWij overwegen deze training voor ons team. Onze situatie:\n\n(Bijvoorbeeld: om hoeveel mensen het gaat, wat er speelt, en wanneer het zou moeten.)\n\nMet vriendelijke groet,\n',
+    )}`
+  : null;
 ---
 
 <section class="cta-sectie">
@@ -28,6 +39,9 @@ const {
           Offerte aanvragen
           <span class="pijl" aria-hidden="true">→</span>
         </a>
+        {mailLink && (
+          <a href={mailLink} class="knop cta-knop-tweede">Mail over deze training</a>
+        )}
         <a href={`tel:${SITE.telefoonUri}`} class="knop cta-knop-tweede">Bel {SITE.telefoon}</a>
       </div>
     </div>

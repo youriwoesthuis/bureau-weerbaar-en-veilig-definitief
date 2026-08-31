@@ -16,8 +16,12 @@ veelgestelde_vragen:
     antwoord: "Ja. Intoxicatie en groepen die samen druk uitoefenen maken de nacht een andere werkomgeving dan de dag."
   - vraag: "Welk niveau past bij taxichauffeurs?"
     antwoord: "Basis voor alle chauffeurs, gevorderd voor wie structureel nachtdiensten rijdt, expert voor ondernemers en planners die het beleid bepalen."
+  - vraag: "Passagiers filmen onze chauffeurs of dreigen met een slechte review of beoordeling. Komt dat aan bod?"
+    antwoord: "Ja, als jullie het inbrengen bij de intake. De training draait op situaties uit de eigen praktijk: de trainingsacteur speelt de passagier die zijn telefoon pakt of met een review dreigt, en je oefent hoe je daarop reageert zonder de regie over de rit te verliezen."
 ---
 
 Een taxichauffeur werkt in een besloten ruimte met iemand die hij niet kent, terwijl hij rijdt en zijn aandacht bij het verkeer moet houden. Discussies over route, prijs of rijstijl ontstaan makkelijk, en escaleren snel.
+
+Zo'n conflict blijft bovendien niet altijd binnen de auto. Passagiers filmen de discussie met hun telefoon, zetten een slechte beoordeling of review in als drukmiddel, en soms gaat het na de rit nog door met berichten naar de chauffeur.
 
 ’s Nachts in uitgaansgebieden komt daar intoxicatie bij, en soms groepen die samen druk uitoefenen. Bureau Weerbaar en Veilig richt deze trainingen daarom op het besluit om te stoppen of door te rijden.

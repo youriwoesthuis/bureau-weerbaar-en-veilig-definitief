@@ -16,8 +16,12 @@ veelgestelde_vragen:
     antwoord: "Ja, de trainers voor deze groep kennen de sector. Dat scheelt uitleg vooraf en maakt dat een scenario meteen klopt."
   - vraag: "Welk niveau past bij mbo-docenten?"
     antwoord: "Basis voor het hele docententeam. Gevorderd voor wie met structureel gedrag of groepen te maken heeft. Expert voor teamleiders en opleidingsmanagers."
+  - vraag: "Een docent wordt gefilmd in de les en het fragment staat online. Kan daarmee geoefend worden?"
+    antwoord: "Ja, als je het inbrengt bij de intake. De trainingsacteur speelt de situatie na, met de telefoon die omhoog gaat en de klas die meekijkt, en je oefent hoe je in het moment reageert en de regie houdt."
 ---
 
 Mbo-studenten zijn jongvolwassenen, vaak met een complexe achtergrond en een leven buiten school dat de klas binnenkomt. Een docent heeft daardoor te maken met gedrag dat verder gaat dan puberaal grenzen zoeken: bewuste intimidatie, studenten onder invloed, groepen die de docent collectief testen.
+
+Daar komt bij dat elke student een telefoon op tafel heeft. Een docent die ingrijpt wordt gefilmd, het fragment staat dezelfde dag online en de reacties komen binnen via de klassenapp. Wie dat overkomt, staat de volgende les gewoon weer voor dezelfde groep.
 
 Bureau Weerbaar en Veilig traint mbo-docenten met trainers die de sector kennen, op basis van situaties uit de eigen instelling.

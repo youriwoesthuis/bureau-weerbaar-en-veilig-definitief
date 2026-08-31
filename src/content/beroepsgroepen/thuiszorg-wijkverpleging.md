@@ -17,8 +17,12 @@ veelgestelde_vragen:
     antwoord: "Dat kan. Het levert vaak iets op, omdat teams van elkaar horen hoe ze met dezelfde soort cliënt omgaan. Wel is het goed om te weten dat afspraken over melden en nazorg per team kunnen verschillen."
   - vraag: "Welk niveau past bij een wijkteam?"
     antwoord: "Basis voor iedereen die de deur uitgaat. Gevorderd voor wie de basis beheerst en met structurele agressie of een vastgelopen zorgrelatie te maken heeft. Expert voor de teamleider of wijkverpleegkundige die de norm vastlegt."
+  - vraag: "Familie filmt zorgmomenten met een huiscamera of telefoon en zet medewerkers via app-berichten onder druk. Is daar aandacht voor?"
+    antwoord: "Ja, wanneer je het inbrengt bij de intake. De training gebruikt casuïstiek uit de eigen praktijk van het team: de trainingsacteur speelt de mantelzorger die filmt of blijft appen, en je oefent hoe je daar in het moment op reageert en je grens aangeeft."
 ---
 
 Thuiszorgmedewerkers werken op de meest bijzondere werkplek die er is: de woonkamer van iemand anders. Zij zijn te gast, alleen, zonder achterwacht en zonder de mogelijkheid om even weg te stappen naar een collega. Wat binnen die voordeur gebeurt, moeten zij zelf oplossen.
 
 Daar komt bij dat de zorgrelatie langdurig is. Grenzen stellen bij een cliënt die je volgende week weer bezoekt, of bij een mantelzorger die altijd aanwezig is: vraagt een andere aanpak dan een eenmalige confrontatie.
+
+Ook kijkt er in die woning steeds vaker iemand mee: een huiscamera in de kamer waar je zorg verleent, of een familielid dat het zorgmoment met de telefoon filmt. En tussen de bezoeken door gaan verwijten en eisen soms verder via app-berichten en telefoontjes naar de medewerker.
