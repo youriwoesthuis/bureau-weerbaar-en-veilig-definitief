@@ -295,6 +295,62 @@ teamleden hebben een bio die volledig uit een eigen uitspraak bestaat; die
 herschrijven zou veranderen wat iemand feitelijk heeft gezegd. Wil Youri die
 in de huisstijl, dan is dat een vraag aan de betrokkenen zelf.
 
+## 7i. Paginaronde met Gemini, stap 1: de homepage (31-08-2026)
+
+Youri: loop de site stap voor stap na met Gemini, overleg alles, stel steeds
+verdiepingsvragen en beslis niet zelfstandig. Daarna gaf hij toestemming om de
+adviezen door te voeren, met de opdracht om Gemini ook om TOEVOEGINGEN te
+vragen en alles te laten toetsen aan de negen onderzochte concurrenten.
+Rolverdeling afgesproken: Gemini is strateeg (markt, koper, concurrenten),
+ik ben bouwer (codebase, schema, waarheidstoets).
+
+**Oordeel Gemini.** 2585 woorden en twaalf secties is te lang. Een inkoper
+scant vijftien tot dertig seconden en zoekt twee dingen: verificatie en
+routering. Drie secties gingen over niveaus, drie over het proces en twee over
+positionering.
+
+**Na verdiepingsvragen bijgesteld.** Ik heb drie conflicten voorgelegd met
+eerdere besluiten van Youri, en Gemini heeft zijn advies op twee punten
+teruggenomen:
+
+1. Hij wilde een beroepsgroeprouter op plek 2. Youri had die er eerder juist
+   af laten halen. Gemini gaf hem gelijk: geen tweede index, wel herkenning
+   boven de vouw. Opgelost door de vergelijker naar plek 2 te halen; die toont
+   vier beroepen naast elkaar en verwijst door naar /sectoren/.
+2. Hij adviseerde een badge met de tekst Arbo-compliant en de belofte van een
+   voorstel binnen vier uur. Allebei ingetrokken toen ik ze voorlegde: de
+   werkgever moet aan de wet voldoen en niet de training, en een
+   reactietermijn is nooit toegezegd. Vervangen door twee eerlijke blokken:
+   waarmee je dit intern onderbouwt (RI&E, met link naar /wet-en-regels/) en
+   geen rekening achteraf (all-in, met link naar /kosten/).
+3. Hij wilde modellen schrappen. Youri had ze juist laten bouwen om als expert
+   over te komen. Opgelost door ze te verdelen: de spanningscurve en het
+   groeimodel blijven op de homepage als expertbewijs; de PDCA-ring, het
+   dagverloop en het incidentmodel gaan over uitvoering en staan nu op
+   /aanpak/.
+
+**Doorgevoerd.** Homepage van twaalf naar zes inhoudelijke secties en van 2585
+naar 1832 woorden: hero, openingsantwoord, vergelijker als proof of scope,
+specialist versus generalist, spanningscurve, groeimodel, keuzehulp,
+onderbouwingsblok, praktische strip. Vervallen: de vier situatie-ingangen
+(routeerden op situatie terwijl de koper in beroepen denkt), het blok over wie
+wij zijn (zei hetzelfde als specialist versus generalist, maar zwakker) en het
+blok over wie welk niveau doet (gaat op in de keuzehulp). De PDCA-ring stond
+al letterlijk op /aanpak/; die dubbeling is nu weg.
+
+**Nog te doen uit deze stap.** Gemini adviseert een koopbezwaar-FAQ op de
+homepage, maar met andere vragen dan die op /aanpak/ staan: op de homepage de
+commerciele vragen (waarom incompany, verhouding tussen de niveaus,
+aansluiting op de RI&E, zit de acteur in het tarief, groepsgrootte), op de
+aanpakpagina de didactische (blijft het hangen, is de acteur te heftig,
+stijgende meldingen, weerstand tegen oefenen, bestaand protocol). Zo krijgen
+beide pagina's een eigen FAQPage-schema zonder elkaar te beconcurreren.
+
+**Lengte versus vindbaarheid is een schijntegenstelling.** De autoriteit van
+de homepage komt uit de interne linkstructuur, niet uit het aantal woorden.
+Alles op de homepage storten levert juist kannibalisatie op met /aanpak/,
+/wet-en-regels/ en /kosten/.
+
 ## 8. Nog open — heeft Youri nodig
 
 - Onderkop van de hero

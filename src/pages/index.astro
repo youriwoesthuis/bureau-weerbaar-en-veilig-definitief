@@ -6,9 +6,6 @@ import HeroBeeld from '../components/HeroBeeld.astro';
 import Niveaustrip from '../components/Niveaustrip.astro';
 import Spanningscurve from '../components/Spanningscurve.astro';
 import Vergelijker from '../components/Vergelijker.astro';
-import NiveauRol from '../components/NiveauRol.astro';
-import Trainingsdag from '../components/Trainingsdag.astro';
-import MeldingNaarNorm from '../components/MeldingNaarNorm.astro';
 import Keuzehulp from '../components/Keuzehulp.astro';
 import NiveauLadder from '../components/NiveauLadder.astro';
 import Cta from '../components/Cta.astro';
@@ -160,102 +157,12 @@ const praktisch = [
     </div>
   </section>
 
-  <!-- ---------------- Openingsantwoord ---------------- -->
   <section class="sectie-krap op-licht na-hero">
     <div class="omhulsel">
       <p class="openingsantwoord">{openingsantwoord}</p>
     </div>
   </section>
 
-
-
-  <!-- ---------------- De spanningscurve ---------------- -->
-  <section class="sectie op-wit">
-    <div class="omhulsel">
-      <div class="kop-blok">
-        <p class="bovenkop">Het vak in één plaat</p>
-        <h2>Hoe eerder je het ziet, hoe meer je kunt</h2>
-        <p class="inleiding">
-          Spanning loopt op in stappen, en bij elke stap werkt iets anders.
-          Kies een fase om te zien wat je ziet, wat werkt en wat juist niet.
-        </p>
-      </div>
-      <Spanningscurve />
-    </div>
-  </section>
-
-  <!-- ---------------- Waar wil je beginnen ---------------- -->
-  <section class="sectie op-licht">
-    <div class="omhulsel">
-      <div class="kop-blok">
-        <p class="bovenkop">Waar wil je beginnen?</p>
-        <h2>Wat speelt er nu bij jullie?</h2>
-        <p class="inleiding">
-          Vier ingangen naar wat jullie op dit moment nodig hebben, zonder eerst
-          het hele aanbod door te hoeven.
-        </p>
-      </div>
-      <div class="rooster rooster-4">
-        {ingangen.map((i) => (
-          <a href={i.link} class="kaart onthul" data-niveau={i.niveau}>
-            <span class="kaart-icoon"><Icoon naam={i.icoon} /></span>
-            <h3>{i.kop}</h3>
-            <p>{i.tekst}</p>
-            <span class="pijllink kaart-voet">
-              {i.linktekst}
-              <span class="pijl" aria-hidden="true">→</span>
-            </span>
-          </a>
-        ))}
-      </div>
-    </div>
-  </section>
-
-  <!-- ---------------- Wie wij zijn ---------------- -->
-  <section class="sectie op-licht">
-    <div class="omhulsel">
-      <div class="kop-blok">
-        <p class="bovenkop">Wie wij zijn</p>
-        <h2>Eén onderwerp, tot op de bodem</h2>
-      </div>
-      <div class="rooster rooster-3 wie-rooster">
-        <article class="wie-blok">
-          <span class="kaart-icoon"><Icoon naam="team" /></span>
-          <h3>Wie</h3>
-          <p>
-            {/* Geen teamtelling en geen vermelding van het zustermerk: de
-                merkgroep wordt uitgelegd op /over-ons/ en nergens anders.
-                Zie BESLUITEN.md hoofdstuk 2 en 3. */}
-            Bureau Weerbaar en Veilig is een Nederlands trainingsbureau van
-            trainers en trainingsacteurs, gevestigd in {SITE.adres.plaats} en
-            werkzaam door heel Nederland. Je krijgt trainers die dit werk zelf
-            doen, niet een pool van losse inhuurkrachten.
-          </p>
-        </article>
-        <article class="wie-blok">
-          <span class="kaart-icoon"><Icoon naam="oefenen" /></span>
-          <h3>Wat</h3>
-          <p>
-            Uitsluitend agressietraining, geschreven per beroepsgroep en in drie
-            niveaus. Altijd bij jullie op locatie, met casuïstiek uit de eigen
-            praktijk van de deelnemers en een trainingsacteur die meespeelt.
-          </p>
-        </article>
-        <article class="wie-blok">
-          <span class="kaart-icoon"><Icoon naam="grens" /></span>
-          <h3>Waarom</h3>
-          <p>
-            Omdat een algemene weerbaarheidscursus niet werkt voor iemand die
-            alleen in de woonkamer van een cliënt staat. Agressie is per beroep
-            anders, dus de training hoort dat ook te zijn. Daarom is dit merk
-            apart opgericht: één onderwerp, geen bijvak.
-          </p>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <!-- ---------------- Vier beroepen naast elkaar ---------------- -->
   <section class="sectie op-wit">
     <div class="omhulsel">
       <div class="kop-blok">
@@ -271,9 +178,38 @@ const praktisch = [
     </div>
   </section>
 
-  
+  <section class="sectie op-licht">
+    <div class="omhulsel">
+      <div class="kop-blok">
+        <p class="bovenkop">Waarom Bureau Weerbaar en Veilig</p>
+        <h2>Specialist, geen generalist</h2>
+      </div>
+      <div class="rooster rooster-4">
+        {verschillen.map((v) => (
+          <article class="kaart onthul" data-niveau={v.niveau}>
+            <span class="kaart-icoon"><Icoon naam={v.icoon} /></span>
+            <h3>{v.kop}</h3>
+            <p>{v.tekst}</p>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
 
-  <!-- ---------------- De drie niveaus ---------------- -->
+  <section class="sectie op-wit">
+    <div class="omhulsel">
+      <div class="kop-blok">
+        <p class="bovenkop">Het vak in één plaat</p>
+        <h2>Hoe eerder je het ziet, hoe meer je kunt</h2>
+        <p class="inleiding">
+          Spanning loopt op in stappen, en bij elke stap werkt iets anders.
+          Kies een fase om te zien wat je ziet, wat werkt en wat juist niet.
+        </p>
+      </div>
+      <Spanningscurve />
+    </div>
+  </section>
+
   <section class="sectie op-wit">
     <div class="omhulsel">
       <div class="kop-blok">
@@ -294,25 +230,6 @@ const praktisch = [
     </div>
   </section>
 
-
-
-  <!-- ---------------- Welk niveau hoort bij welke rol ---------------- -->
-  <section class="sectie op-wit">
-    <div class="omhulsel">
-      <div class="kop-blok">
-        <p class="bovenkop">Wie doet welk niveau</p>
-        <h2>Niet iedereen hoort in dezelfde zaal</h2>
-        <p class="inleiding">
-          De niveaus verschillen niet alleen in zwaarte maar in bereik. Basis en
-          gevorderd gaan over het eigen handelen, expert over de organisatie
-          eromheen, en dus over andere mensen.
-        </p>
-      </div>
-      <NiveauRol />
-    </div>
-  </section>
-
-  <!-- ---------------- Niveau-keuzehulp ---------------- -->
   <section class="sectie op-licht" id="niveauhulp">
     <div class="omhulsel">
       <div class="kop-blok">
@@ -327,91 +244,51 @@ const praktisch = [
     </div>
   </section>
 
-  <!-- ---------------- Werkwijze, kort ---------------- -->
-  <section class="sectie op-wit">
-    <div class="omhulsel">
-      <div class="kop-blok">
-        <p class="bovenkop">Hoe wij werken</p>
-        <h2>Een training is geen dag, maar een stap</h2>
-        <p class="inleiding">
-          Bureau Weerbaar en Veilig werkt in de cyclus die je zelf ook gebruikt
-          bij verbeteren: plan, do, check, act. Daarom staan er drie niveaus.
-          Na afloop begint de cyclus opnieuw, een stap hoger.
-        </p>
-      </div>
-
-      <ol class="cyclusstrip">
-        {cyclus.map((f) => (
-          <li class="cyclusstap" style={`--fasekleur:${f.kleur}`}>
-            <span class="cyclusletter">{f.letter}</span>
-            <span class="cyclustekst">
-              <strong>{f.naam}</strong>
-              <small>{f.kort}</small>
-            </span>
-          </li>
-        ))}
-      </ol>
-
-      <p class="niveau-voet">
-        <a href={pad('/aanpak/')} class="pijllink">
-          Bekijk wat er in elke stap gebeurt
-          <span class="pijl" aria-hidden="true">→</span>
-        </a>
-      </p>
-    </div>
-  </section>
-
-  <!-- ---------------- De trainingsdag ---------------- -->
-  <section class="sectie op-wit">
-    <div class="omhulsel">
-      <div class="kop-blok">
-        <p class="bovenkop">Hoe een dag verloopt</p>
-        <h2>Een dag met een opbouw, geen losse oefeningen</h2>
-        <p class="inleiding">
-          Het ritme ligt vast; wat erin gebeurt komt uit de meldingen van je
-          eigen team.
-        </p>
-      </div>
-      <Trainingsdag />
-    </div>
-  </section>
-
-  <!-- ---------------- Van melding tot teamnorm ---------------- -->
+  {/* Twee dingen die een inkoper nodig heeft voor hij belt: waarmee hij dit
+      intern verantwoordt, en de zekerheid dat er geen rekening achteraan komt.
+      Bewust geen "Arbo-compliant" en geen reactietermijn: de werkgever moet
+      aan de wet voldoen, niet de training, en een termijn is nooit
+      toegezegd. Zie BESLUITEN.md hoofdstuk 7i. */}
   <section class="sectie op-licht">
     <div class="omhulsel">
       <div class="kop-blok">
-        <p class="bovenkop">Na de training</p>
-        <h2>Wat er met één incident gebeurt</h2>
-        <p class="inleiding">
-          Trainen is één ding; er iets mee doen is een tweede. Deze vier stappen
-          bepalen of een incident iets verandert of alleen iets kost, met per
-          stap de plek waar het in de praktijk vaak vastloopt.
-        </p>
+        <p class="bovenkop">Voor je het intern voorlegt</p>
+        <h2>Waarmee je dit onderbouwt</h2>
       </div>
-      <MeldingNaarNorm />
+      <div class="rooster rooster-2">
+        <article class="kaart onthul" data-niveau="expert">
+          <h3>Het staat in je plan van aanpak</h3>
+          <p>
+            De Arbowet verplicht een werkgever beleid te voeren tegen
+            psychosociale arbeidsbelasting, de risico’s vast te leggen in de
+            RI&E en voorlichting en onderricht te geven. Een training is een
+            van de maatregelen die je in dat plan kunt opnemen. Op elke
+            beroepsgroeppagina staat een voorbeeldpassage die je kunt
+            overnemen.
+          </p>
+          <a href={pad('/wet-en-regels/')} class="pijllink">
+            Wat de wet precies vraagt
+            <span class="pijl" aria-hidden="true">→</span>
+          </a>
+        </article>
+        <article class="kaart onthul" data-niveau="gevorderd">
+          <h3>Geen rekening achteraf</h3>
+          <p>
+            Eén bedrag, met de voorbereiding, de eigen casuïstiek en de
+            trainingsacteur erin. De acteur is geen aparte post en geen optie
+            tegen meerprijs. Wat de prijs wél bepaalt, staat er open bij: het
+            aantal groepen, het niveau, de reisafstand en de omvang van het
+            traject.
+          </p>
+          <a href={pad('/kosten/')} class="pijllink">
+            Wat een training kost
+            <span class="pijl" aria-hidden="true">→</span>
+          </a>
+        </article>
+      </div>
     </div>
   </section>
 
-  <!-- ---------------- Waarom dit bureau ---------------- -->
-  <section class="sectie op-licht">
-    <div class="omhulsel">
-      <div class="kop-blok">
-        <p class="bovenkop">Waarom Bureau Weerbaar en Veilig</p>
-        <h2>Specialist, geen generalist</h2>
-      </div>
-      <div class="rooster rooster-4">
-        {verschillen.map((v) => (
-          <article class="kaart onthul" data-niveau={v.niveau}>
-            <span class="kaart-icoon"><Icoon naam={v.icoon} /></span>
-            <h3>{v.kop}</h3>
-            <p>{v.tekst}</p>
-          </article>
-        ))}
-      </div>
-    </div>
-  </section>
-
-  <!-- ---------------- Praktisch ---------------- -->
   <section class="sectie-krap op-wit">
     <div class="omhulsel">
       <div class="praktischrij">

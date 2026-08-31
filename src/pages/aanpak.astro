@@ -6,6 +6,8 @@ import Icoon from '../components/Icoon.astro';
 import Pdca from '../components/Pdca.astro';
 import Groeimodel from '../components/Groeimodel.astro';
 import Rolverdeling from '../components/Rolverdeling.astro';
+import Trainingsdag from '../components/Trainingsdag.astro';
+import MeldingNaarNorm from '../components/MeldingNaarNorm.astro';
 import Vragen from '../components/Vragen.astro';
 import Cta from '../components/Cta.astro';
 import { FEITEN, pad } from '../lib/site';
@@ -166,6 +168,29 @@ const vragen = [
   </section>
 
   <!-- ---------------- Rolverdeling ---------------- -->
+  {/* Verhuisd van de homepage op 31-08-2026: de dag en de nasleep gaan over
+      uitvoering, niet over gezag, en horen dus op deze pagina. De homepage
+      hield de spanningscurve en het groeimodel over als expertbewijs. */}
+  <section class="sectie op-licht">
+    <div class="omhulsel">
+      <div class="kop-blok">
+        <p class="bovenkop">Hoe een dag verloopt</p>
+        <h2>Een dag met een opbouw, geen losse oefeningen</h2>
+      </div>
+      <Trainingsdag />
+    </div>
+  </section>
+
+  <section class="sectie op-wit">
+    <div class="omhulsel">
+      <div class="kop-blok">
+        <p class="bovenkop">Na de training</p>
+        <h2>Wat er met een incident gebeurt</h2>
+      </div>
+      <MeldingNaarNorm />
+    </div>
+  </section>
+
   <section class="sectie op-wit">
     <div class="omhulsel">
       <div class="kop-blok">
