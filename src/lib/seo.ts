@@ -74,7 +74,9 @@ export function paginaTitel(kern: string) {
  *  van dezelfde beroepsgroep uit elkaar in de zoekresultaten. */
 export function trainingTitel(beroepsgroepNaam: string, niveau: Niveau) {
   const kort = kortenaam(beroepsgroepNaam);
-  return paginaTitel(`Agressietraining ${kort.toLowerCase()} — ${NIVEAU_INFO[niveau].naam}`);
+  // Dubbele punt in plaats van gedachtestreepje (verzoek Youri 31-08-2026):
+  // streepjes als leesteken staan nergens meer op de site.
+  return paginaTitel(`Agressietraining ${kort.toLowerCase()}: ${NIVEAU_INFO[niveau].naam}`);
 }
 
 /** Description afkappen op een woordgrens, nooit midden in een woord. */

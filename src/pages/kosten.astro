@@ -22,7 +22,7 @@ const kruimels = [
   { naam: 'Kosten', url: pad('/kosten/') },
 ];
 
-const openingsantwoord = `Bureau Weerbaar en Veilig publiceert geen prijzen, omdat een agressietraining altijd incompany is en elke aanvraag anders loopt. Wat de prijs bepaalt, staat hieronder wel: het aantal groepen, het niveau, de reisafstand en de omvang van het traject. De trainingsacteur bepaalt de prijs niet — die speelt bij elke training mee, zonder meerprijs.`;
+const openingsantwoord = `Bureau Weerbaar en Veilig publiceert geen prijzen, omdat een agressietraining altijd incompany is en elke aanvraag anders loopt. Wat de prijs bepaalt, staat hieronder wel: het aantal groepen, het niveau, de reisafstand en de omvang van het traject. De trainingsacteur bepaalt de prijs niet: die speelt bij elke training mee, zonder meerprijs.`;
 
 const inbegrepen = [
   {
@@ -46,7 +46,7 @@ const inbegrepen = [
     icoon: 'certificaat' as const,
     kop: 'Een deelnamecertificaat',
     tekst:
-      'Deelnemers krijgen na afloop een deelnamecertificaat voor het eigen opleidingsdossier. Geen wettelijk erkend diploma — dat bestaat voor dit vak niet.',
+      'Deelnemers krijgen na afloop een deelnamecertificaat voor het eigen opleidingsdossier. Geen wettelijk erkend diploma. Dat bestaat voor dit vak niet.',
   },
 ];
 
@@ -116,7 +116,7 @@ const vragen = [
   {
     vraag: 'Is agressietraining verplicht?',
     antwoord:
-      'Nee, er bestaat geen wettelijke plicht tot agressietraining. Wat de Arbowet wel van een werkgever vraagt — beleid tegen psychosociale arbeidsbelasting, de risico’s in de RI&E, en voorlichting en onderricht aan wie het risico loopt — staat op de pagina Wet en regels.',
+      'Nee, er bestaat geen wettelijke plicht tot agressietraining. Wat de Arbowet wel van een werkgever vraagt (beleid tegen psychosociale arbeidsbelasting, de risico’s in de RI&E, en voorlichting en onderricht aan wie het risico loopt) staat op de pagina Wet en regels.',
   },
 ];
 
@@ -187,7 +187,7 @@ const schema = [faqSchema(vragen)].filter(Boolean);
         <h2>Waar je op kunt letten</h2>
         <p class="kop-tekst">
           Wie meerdere offertes opvraagt, merkt dat de bedragen slecht
-          vergelijkbaar zijn. Deze zes vragen maken ze vergelijkbaar — stel ze
+          vergelijkbaar zijn. Deze zes vragen maken ze vergelijkbaar. Stel ze
           gerust ook aan ons.
         </p>
       </div>

@@ -11,7 +11,7 @@ veelgestelde_vragen:
   - vraag: "Wordt de juridische positie van de boa behandeld?"
     antwoord: "Ja, expliciet. Handhavers treden op met beperkte bevoegdheden tegenover mensen die vaak precies weten waar die bevoegdheid ophoudt. Weten waar je staat, is onderdeel van veilig optreden."
   - vraag: "Onze mensen worden gefilmd en soms bewust uitgelokt. Komt dat aan bod?"
-    antwoord: "Ja. De camera is altijd aanwezig en beelden verschijnen online. Optreden terwijl er gefilmd wordt — en herkennen wanneer een confrontatie wordt uitgelokt — hoort bij de training."
+    antwoord: "Ja. De camera is altijd aanwezig en beelden verschijnen online. Optreden terwijl er gefilmd wordt hoort bij de training, net als herkennen wanneer een confrontatie wordt uitgelokt."
   - vraag: "Kunnen boa’s die alleen werken en die in koppel werken samen in één groep?"
     antwoord: "Ja. Het verschil tussen alleen en met z’n tweeën optreden is juist een bruikbaar gespreksonderwerp binnen dezelfde groep."
   - vraag: "Welk niveau past bij een handhavingsteam?"

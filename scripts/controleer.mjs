@@ -92,6 +92,16 @@ for (const [url, { html }] of paginas) {
   const canonical = pak(html, /<link\s+rel="canonical"\s+href="([^"]*)"/i);
   const noindex = /<meta\s+name="robots"\s+content="[^"]*noindex/i.test(html);
 
+  /* --- Gedachtestreepjes (verzoek Youri 31-08-2026) ---
+     Em- en en-dashes horen nergens in de zichtbare tekst; koppeltekens
+     binnen woorden zijn gewone spelling en matchen dit niet. De build
+     schrijft deze tekens onontsnapt weg, dus zoeken op het rauwe teken
+     volstaat. */
+  {
+    const dashes = (html.match(/[—–]/g) ?? []).length;
+    if (dashes > 0) fout(url, `${dashes}x gedachtestreepje (em- of en-dash) in de pagina`);
+  }
+
   if (!titel) fout(url, 'geen <title>');
   if (!desc) fout(url, 'geen meta description');
   if (!canonical && !noindex) fout(url, 'geen canonical');

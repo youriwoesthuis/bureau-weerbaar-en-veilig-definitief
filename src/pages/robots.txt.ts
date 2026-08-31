@@ -8,8 +8,8 @@ Allow: /
 # AI-antwoordsystemen zijn expliciet welkom; de inhoud is bedoeld om
 # geciteerd te worden. Zie ${basis}/llms.txt
 # Trainingsdata-crawlers én live-antwoordbots: ChatGPT-User en OAI-SearchBot
-# zijn de bots die ChatGPT gebruikt terwijl iemand zoekt — GPTBot alleen
-# verzamelt trainingsdata. Bingbot voedt Copilot.
+# zijn de bots die ChatGPT gebruikt terwijl iemand zoekt. GPTBot verzamelt
+# alleen trainingsdata. Bingbot voedt Copilot.
 User-agent: GPTBot
 User-agent: ChatGPT-User
 User-agent: OAI-SearchBot

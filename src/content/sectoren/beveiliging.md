@@ -8,7 +8,7 @@ samenvatting: >-
   evenementenbeveiligers, elk in drie niveaus.
 veelgestelde_vragen:
   - vraag: "Beveiligers mógen agressie verwachten. Waarom dan nog een training?"
-    antwoord: "Juist daarom. Elke keer dat een situatie met woorden wordt opgelost, blijft fysiek ingrijpen achterwege — met alle juridische en gezondheidsrisico’s die daarbij horen. De-escaleren is in deze sector een vak, geen zachte optie."
+    antwoord: "Juist daarom. Elke keer dat een situatie met woorden wordt opgelost, blijft fysiek ingrijpen achterwege, met alle juridische en gezondheidsrisico’s die daarbij horen. De-escaleren is in deze sector een vak, geen zachte optie."
   - vraag: "Wordt de juridische positie van de beveiliger behandeld?"
     antwoord: "Ja, expliciet en naast de gesprekstechniek. Late uren, alcohol, groepen en een camera die altijd meedraait maken dat de grens van wat mag hier voortdurend getoetst wordt."
   - vraag: "Kunnen portiers en evenementenbeveiligers in dezelfde groep?"

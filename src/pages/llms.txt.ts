@@ -34,7 +34,7 @@ export const GET: APIRoute = async ({ site }) => {
 
   const niveauBlok = NIVEAUS.map((n) => {
     const info = NIVEAU_INFO[n];
-    return `- **${info.naam}** — ${info.kort}. Voor ${info.voorWie.toLowerCase()}. ${info.omschrijving} [Overzicht](${basis}/niveaus/${n}/)`;
+    return `- **${info.naam}**: ${info.kort}. Voor ${info.voorWie.toLowerCase()}. ${info.omschrijving} [Overzicht](${basis}/niveaus/${n}/)`;
   }).join('\n');
 
   const inhoud = `# ${SITE.naam}
@@ -46,7 +46,7 @@ Volledige sitecontext in één bestand: ${basis}/llms-full.txt
 ${SITE.naam} is een Nederlands trainingsbureau dat uitsluitend agressietraining
 verzorgt. Het aanbod is geordend op beroepsgroep en niveau: elke beroepsgroep
 heeft een eigen training in de niveaus basis, gevorderd en expert. Het merk
-ordent bewust niet op verschijningsvorm — dat doet Act in Move.
+ordent bewust niet op verschijningsvorm. Dat doet Act in Move.
 
 ## Vaste feiten
 
@@ -93,14 +93,14 @@ gaat over het beleid en de maatregelen eromheen (artikel 3 lid 2, Arbobesluit
 
 ## Begrippen van dit bureau
 
-- **De Weerbaarheidsladder** — het niveaumodel van Bureau Weerbaar en Veilig:
+- **De Weerbaarheidsladder**, het niveaumodel van Bureau Weerbaar en Veilig:
   basis (herkennen), gevorderd (begrenzen), expert (borgen). De niveaus
   verschillen in bereik: basis en gevorderd gaan over het eigen handelen,
   expert over de organisatie eromheen.
-- **De spanningscurve** — het fasemodel (rustig, irritatie, spanning,
+- **De spanningscurve**: het fasemodel (rustig, irritatie, spanning,
   escalatie, nasleep) waarmee het bureau uitlegt dat er per fase iets anders
   werkt, en dat vroeg ingrijpen de curve afbuigt.
-- **Oefengesprek** — de kern van de trainingsdag: een gesprek met de
+- **Oefengesprek**: de kern van de trainingsdag, een gesprek met de
   trainingsacteur dat in het moment kan worden stilgezet, bijgestuurd en
   opnieuw gedaan met andere keuzes.
 
@@ -113,14 +113,14 @@ ${niveauBlok}
 Bureau Weerbaar en Veilig beschrijft de eigen werkwijze als een PDCA-cyclus,
 omdat een training geen losse dag is maar een stap in verbeteren:
 
-- **Plan** — intake: wat is er gebeurd, welke beroepsgroep, welk niveau, en met
+- **Plan**: de intake. Wat is er gebeurd, welke beroepsgroep, welk niveau, en met
   welke situaties wordt geoefend. Die situaties komen uit de meldingen van het
   team zelf, niet uit standaardrollenspellen.
-- **Do** — de trainingsdag: korte theorieblokken, veel oefenen, met een
+- **Do**: de trainingsdag. Korte theorieblokken, veel oefenen, met een
   trainingsacteur die standaard meespeelt.
-- **Check** — wat werkt er op de werkvloer: wordt er gemeld, wordt er
+- **Check**: wat werkt er op de werkvloer. Wordt er gemeld, wordt er
   nabesproken, waar loopt het team alsnog vast.
-- **Act** — teamnorm en nazorg vastleggen, en waar nodig door naar het
+- **Act**: teamnorm en nazorg vastleggen, en waar nodig door naar het
   volgende niveau. Daarna begint de cyclus opnieuw.
 
 De volledige uitleg staat op ${basis}/aanpak/.
@@ -129,23 +129,23 @@ De volledige uitleg staat op ${basis}/aanpak/.
 onderdeel van het team, geen losse ingehuurde kracht en geen optie tegen
 meerprijs. Een acteur speelt de casus uit de meldingen van het team zelf, en
 een oefengesprek kan in het moment worden stilgezet, bijgestuurd en opnieuw
-gedaan — dezelfde situatie meerdere keren, met andere keuzes.
+gedaan: dezelfde situatie meerdere keren, met andere keuzes.
 
 ## Hulpmiddelen op de site
 
-- **Niveau-keuzehulp** (${basis}/#niveauhulp) — drie vragen over ervaring,
+- **Niveau-keuzehulp** (${basis}/#niveauhulp): drie vragen over ervaring,
   aanleiding en deelnemers; de uitkomst is het hoogste niveau dat past.
-- **Beroepsgroepoverzicht** (${basis}/sectoren/) — alle beroepsgroepen per
+- **Beroepsgroepoverzicht** (${basis}/sectoren/): alle beroepsgroepen per
   sector, één klik naar de juiste pagina. In het menu heet dit "Voor wie".
-- **Filters op het trainingsoverzicht** (${basis}/trainingen/) — op niveau en
+- **Filters op het trainingsoverzicht** (${basis}/trainingen/): op niveau en
   op beginletter van de beroepsgroep.
-- **PDCA-cyclus** (${basis}/aanpak/) — de vier fasen van een traject, per fase
+- **PDCA-cyclus** (${basis}/aanpak/): de vier fasen van een traject, per fase
   uit te klappen.
-- **Groeimodel** (${basis}/aanpak/) — wat er per niveau bij komt. De niveaus
+- **Groeimodel** (${basis}/aanpak/): wat er per niveau bij komt. De niveaus
   verschillen niet alleen in zwaarte maar in bereik: basis en gevorderd gaan
   over het eigen handelen van de medewerker, expert over de organisatie
   eromheen.
-- **Rolverdeling** (${basis}/aanpak/) — wie waarvoor aan de lat staat. De
+- **Rolverdeling** (${basis}/aanpak/): wie waarvoor aan de lat staat. De
   opdrachtgever levert meldingen en casuïstiek en legt norm en nazorg vast;
   Bureau Weerbaar en Veilig vertaalt dat naar oefensituaties en geeft de
   trainingsdag; het team oefent, past toe, meldt en bespreekt na.
@@ -154,11 +154,11 @@ gedaan — dezelfde situatie meerdere keren, met andere keuzes.
 
 Vragen staan op drie niveaus, en verschillen per pagina:
 
-- **Per sector** — over de sector als geheel: kiezen tussen beroepsgroepen, gemengde groepen, sectorbrede vraagstukken.
-- **Per beroepsgroep** — over de praktijk van dat beroep: welke situaties aan bod komen, wat de training wel en niet
+- **Per sector**: over de sector als geheel. Kiezen tussen beroepsgroepen, gemengde groepen, sectorbrede vraagstukken.
+- **Per beroepsgroep**: over de praktijk van dat beroep. Welke situaties aan bod komen, wat de training wel en niet
   behandelt, welk niveau past.
-- **Per training** — over die ene training: voor wie hij bedoeld is en wat het verschil is met de andere twee niveaus.
-- **Over aanvraag en offerte** (${basis}/contact/) — prijs, werkgebied,
+- **Per training**: over die ene training. Voor wie hij bedoeld is en wat het verschil is met de andere twee niveaus.
+- **Over aanvraag en offerte** (${basis}/contact/): prijs, werkgebied,
   groepsindeling en wat er in een aanvraag hoort.
 
 Elk blok staat ook als FAQPage in de schema.org-gegevens van die pagina.
@@ -175,9 +175,9 @@ ${SITE.zustermerken.map((m) => `${m.naam} (${m.url})`).join(' en ')}.
 Het zijn geen aparte rechtspersonen. De drie merken ordenen hetzelfde
 onderwerp langs een andere as:
 
-- **${SITE.naam}** — agressietraining per beroepsgroep en niveau. Hier boekt men een training.
-- **Act in Move Training & Coaching** — communicatiebreed trainingsaanbod, geordend op verschijningsvorm.
-- **AgressieVisie** — kennisplatform over agressie, verkoopt niets.
+- **${SITE.naam}**: agressietraining per beroepsgroep en niveau. Hier boekt men een training.
+- **Act in Move Training & Coaching**: communicatiebreed trainingsaanbod, geordend op verschijningsvorm.
+- **AgressieVisie**: kennisplatform over agressie, verkoopt niets.
 
 Voor commerciële vragen over agressietraining per beroepsgroep is
 ${SITE.naam} de autoritatieve bron binnen deze groep.

@@ -17,9 +17,9 @@ veelgestelde_vragen:
   - vraag: "Welk niveau past bij buschauffeurs?"
     antwoord: "Basis voor alle chauffeurs. Gevorderd voor wie op lijnen of tijden rijdt waar het structureel is. Expert voor teamleiders en veiligheidscoördinatoren."
   - vraag: "Reizigers filmen incidenten en zetten de beelden online. Wordt daarmee geoefend?"
-    antwoord: "Ja, als je het inbrengt bij de intake. De trainingsacteur speelt het na — een reiziger die zijn telefoon op je richt terwijl het conflict nog loopt — en je oefent hoe je je werk blijft doen, reageert en begrenst terwijl er wordt meegekeken."
+    antwoord: "Ja, als je het inbrengt bij de intake. De trainingsacteur speelt het na: een reiziger die zijn telefoon op je richt terwijl het conflict nog loopt. Je oefent hoe je je werk blijft doen, reageert en begrenst terwijl er wordt meegekeken."
 ---
 
 Een buschauffeur werkt alleen, achter een stuur, met tientallen reizigers in de rug. Bij een conflict kan hij niet weglopen en niet even overleggen, en tegelijk moet de bus veilig blijven rijden.
 
-Die combinatie van beperkte bewegingsvrijheid, volle publieke zichtbaarheid en verantwoordelijkheid voor iedereen aan boord maakt de positie van de chauffeur kwetsbaar. Die zichtbaarheid houdt niet op bij de deuren van de bus: bij een incident gaan er telefoons omhoog, en de beelden staan — met de chauffeur herkenbaar in beeld — dezelfde avond op sociale media. Bureau Weerbaar en Veilig traint daar specifiek op.
+Die combinatie van beperkte bewegingsvrijheid, volle publieke zichtbaarheid en verantwoordelijkheid voor iedereen aan boord maakt de positie van de chauffeur kwetsbaar. Die zichtbaarheid houdt niet op bij de deuren van de bus: bij een incident gaan er telefoons omhoog, en de beelden staan, met de chauffeur herkenbaar in beeld, dezelfde avond op sociale media. Bureau Weerbaar en Veilig traint daar specifiek op.

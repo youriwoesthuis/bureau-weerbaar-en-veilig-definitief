@@ -10,7 +10,7 @@ volgorde: 1
 
 Jeroen komt uit de zorg en bouwde zijn expertise op waar spanning en stress
 bij het werk horen. Die ervaring neemt hij mee de zaal in: hij luistert
-goed, analyseert snel en confronteert waar dat nodig is — zonder dat iemand
+goed, analyseert snel en confronteert waar dat nodig is, zonder dat iemand
 wordt afgebrand.
 
 "Ik luister goed, analyseer snel en ben confronterend waar ik dat nodig

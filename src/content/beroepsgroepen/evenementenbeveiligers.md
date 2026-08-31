@@ -11,7 +11,7 @@ veelgestelde_vragen:
   - vraag: "Wordt er als team geoefend of individueel?"
     antwoord: "Vooral als team. Bij evenementen bepaalt gecoördineerd optreden of een conflict tussen twee personen beperkt blijft of binnen een minuut een groep meeneemt."
   - vraag: "Komt het opschalingsmoment aan bod?"
-    antwoord: "Ja. Een duidelijk moment om op te schalen — en de afspraak wie dat bepaalt — is een van de kernonderwerpen voor deze groep."
+    antwoord: "Ja. Een duidelijk moment om op te schalen (en de afspraak wie dat bepaalt) is een van de kernonderwerpen voor deze groep."
   - vraag: "Bezoekers zijn vaak onder invloed. Verandert dat wat werkt?"
     antwoord: "Ja. Bij intoxicatie werkt uitleggen en redeneren minder goed, en dat vraagt eerder en duidelijker handelen. Dat verschil wordt expliciet geoefend."
   - vraag: "Welk niveau past bij evenementenbeveiligers?"
@@ -20,6 +20,6 @@ veelgestelde_vragen:
     antwoord: "Dat kan. Breng het in bij de intake: de trainingsacteur speelt dan een bezoeker die van dichtbij filmt terwijl je ingrijpt, en je oefent hoe je rustig blijft handelen en begrenst zonder dat de camera je optreden gaat bepalen."
 ---
 
-Bij evenementen komt alles samen wat agressie voedt: grote aantallen mensen, wisselende locaties, beperkt zicht en bezoekers onder invloed. Een conflict tussen twee personen kan binnen een minuut een groep meenemen. En elk ingrijpen gebeurt tussen de smartphones: bezoekers filmen van dichtbij mee, en een fragment van een paar seconden staat dezelfde avond online — zonder de aanloop die eraan voorafging.
+Bij evenementen komt alles samen wat agressie voedt: grote aantallen mensen, wisselende locaties, beperkt zicht en bezoekers onder invloed. Een conflict tussen twee personen kan binnen een minuut een groep meenemen. En elk ingrijpen gebeurt tussen de smartphones: bezoekers filmen van dichtbij mee, en een fragment van een paar seconden staat dezelfde avond online, zonder de aanloop die eraan voorafging.
 
 Beveiligers moeten daar niet alleen individueel handelen maar vooral als team: gecoördineerd, proportioneel en met een duidelijk moment om op te schalen. Bureau Weerbaar en Veilig traint precies dat.

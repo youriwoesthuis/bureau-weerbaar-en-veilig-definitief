@@ -60,7 +60,7 @@ ${groepBlokken}`;
     })
     .join('\n\n');
 
-  const inhoud = `# ${SITE.naam} — volledige sitecontext
+  const inhoud = `# ${SITE.naam}: volledige sitecontext
 
 > ${SITE.beschrijving}
 
@@ -74,12 +74,12 @@ Beknopte versie: ${basis}/llms.txt
 - Trainingsacteur: standaard onderdeel van elke training, geen meerprijs
 - Afsluiting: ${FEITEN.certificaat} (geen wettelijk erkend diploma)
 - Prijsmodel: offerte op maat; bepalend zijn aantal groepen, niveau, reisafstand en omvang van het traject
-- Vestiging: ${SITE.adres.straat}, ${SITE.adres.postcode} ${SITE.adres.plaats} — er wordt niet in ${SITE.adres.plaats} getraind
+- Vestiging: ${SITE.adres.straat}, ${SITE.adres.postcode} ${SITE.adres.plaats} (er wordt niet in ${SITE.adres.plaats} getraind)
 - Contact: ${SITE.telefoon} · ${SITE.email} · ${SITE.openingstijden}
 
 ## ${MODEL.naamHoofdletter} (${MODEL.kort})
 
-${NIVEAUS.map((n) => `- **${NIVEAU_INFO[n].naam}** — ${NIVEAU_INFO[n].kort}. Voor ${NIVEAU_INFO[n].voorWie.toLowerCase()}. ${NIVEAU_INFO[n].omschrijving}`).join('\n')}
+${NIVEAUS.map((n) => `- **${NIVEAU_INFO[n].naam}**: ${NIVEAU_INFO[n].kort}. Voor ${NIVEAU_INFO[n].voorWie.toLowerCase()}. ${NIVEAU_INFO[n].omschrijving}`).join('\n')}
 
 De niveaus verschillen in bereik: basis en gevorderd gaan over het eigen
 handelen van de medewerker, expert over de organisatie eromheen (teamnorm,
@@ -88,8 +88,8 @@ meldcultuur, nazorg, borging). Expert is een werksessie, geen oefendag.
 ## Werkwijze in het kort
 
 Intake vooraf (wat is er gebeurd, wat ligt er al) → trainingsdag met korte
-theorieblokken en vooral oefengesprekken met de trainingsacteur — stil te
-zetten, bij te sturen en opnieuw te doen — → afsluiten met afspraken →
+theorieblokken en vooral oefengesprekken met de trainingsacteur (stil te
+zetten, bij te sturen en opnieuw te doen) → afsluiten met afspraken →
 daarna is het aan de organisatie: melden, nabespreken, de norm vastleggen.
 Volledige uitleg: ${basis}/aanpak/
 

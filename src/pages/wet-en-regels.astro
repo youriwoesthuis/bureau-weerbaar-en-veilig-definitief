@@ -33,7 +33,7 @@ const kruimels = [
   { naam: 'Wet en regels', url: pad('/wet-en-regels/') },
 ];
 
-const openingsantwoord = `Er bestaat in Nederland geen wet die agressietraining verplicht stelt. Wat de Arbowet wél van een werkgever vraagt: beleid om psychosociale arbeidsbelasting te voorkomen, de risico's beoordelen in de RI&E, maatregelen vastleggen in het plan van aanpak, en voorlichting en onderricht geven aan de mensen die het risico lopen. Of training daarbij nodig is, volgt uit de RI&E — en de Nederlandse Arbeidsinspectie beoordeelt dat ook zo.`;
+const openingsantwoord = `Er bestaat in Nederland geen wet die agressietraining verplicht stelt. Wat de Arbowet wél van een werkgever vraagt: beleid om psychosociale arbeidsbelasting te voorkomen, de risico's beoordelen in de RI&E, maatregelen vastleggen in het plan van aanpak, en voorlichting en onderricht geven aan de mensen die het risico lopen. Of training daarbij nodig is, volgt uit de RI&E, en de Nederlandse Arbeidsinspectie beoordeelt dat ook zo.`;
 
 const artikelen = [
   {
@@ -87,7 +87,7 @@ const artikelen = [
     citaat:
       'In afwijking van het eerste tot en met het derde lid, kunnen bij werkgevers met niet meer dan 25 werknemers de taken in het kader van de bijstand ook worden verricht door de werkgever zelf, indien deze natuurlijk persoon is, of door de directeur indien de werkgever rechtspersoon is, indien deze personen beschikken over voldoende deskundigheid, ervaring en uitrusting om deze taken naar behoren te vervullen.',
     uitleg:
-      'De wet noemt deze rol "deskundige werknemer"; in de praktijk heet het de preventiemedewerker. Bij niet meer dan 25 werknemers mag de werkgever of directeur het zelf doen — mits die er echt voor is toegerust.',
+      'De wet noemt deze rol "deskundige werknemer"; in de praktijk heet het de preventiemedewerker. Bij niet meer dan 25 werknemers mag de werkgever of directeur het zelf doen, mits die er echt voor is toegerust.',
     url: 'https://wetten.overheid.nl/BWBR0010346#Hoofdstuk3_Artikel13',
   },
 ];
@@ -111,7 +111,7 @@ const nietVerplicht = [
   {
     kop: 'Een erkend diploma voor deelnemers',
     tekst:
-      'Er bestaat geen wettelijk erkend diploma voor dit vak. Deelnemers krijgen bij ons een deelnamecertificaat voor het eigen opleidingsdossier — een bewijs van deelname, en het is eerlijk om het ook zo te noemen.',
+      'Er bestaat geen wettelijk erkend diploma voor dit vak. Deelnemers krijgen bij ons een deelnamecertificaat voor het eigen opleidingsdossier: een bewijs van deelname, en het is eerlijk om het ook zo te noemen.',
   },
 ];
 
@@ -119,7 +119,7 @@ const vragen = [
   {
     vraag: 'Is agressietraining verplicht?',
     antwoord:
-      'Nee, er is geen wettelijke plicht om een agressietraining te volgen. Wel geldt: als uit de RI&E blijkt dat medewerkers met agressie te maken kunnen krijgen, moet de werkgever daar maatregelen tegen nemen en de betrokken medewerkers voorlichting en onderricht geven. De Arbeidsinspectie handhaaft op die twee bepalingen — artikel 2.15 lid 1 en lid 2 van het Arbobesluit — en beoordeelt per functie of training daarvoor nodig is.',
+      'Nee, er is geen wettelijke plicht om een agressietraining te volgen. Wel geldt: als uit de RI&E blijkt dat medewerkers met agressie te maken kunnen krijgen, moet de werkgever daar maatregelen tegen nemen en de betrokken medewerkers voorlichting en onderricht geven. De Arbeidsinspectie handhaaft op die twee bepalingen (artikel 2.15 lid 1 en lid 2 van het Arbobesluit) en beoordeelt per functie of training daarvoor nodig is.',
   },
   {
     vraag: 'Waar staat agressie precies in de Arbowet?',
@@ -149,7 +149,7 @@ const vragen = [
   {
     vraag: 'Wie is binnen onze organisatie verantwoordelijk?',
     antwoord:
-      'De werkgever. Die laat zich bijstaan door een of meer deskundige werknemers — in de praktijk de preventiemedewerker. Bij niet meer dan 25 werknemers mag de werkgever of directeur die taak zelf vervullen, mits daarvoor voldoende deskundigheid, ervaring en uitrusting aanwezig is.',
+      'De werkgever. Die laat zich bijstaan door een of meer deskundige werknemers, in de praktijk de preventiemedewerker. Bij niet meer dan 25 werknemers mag de werkgever of directeur die taak zelf vervullen, mits daarvoor voldoende deskundigheid, ervaring en uitrusting aanwezig is.',
   },
 ];
 
@@ -209,7 +209,7 @@ const schema = [faqSchema(vragen)].filter(Boolean);
       </div>
       <div class="uitleg-blok">
         <p class="leadzin">
-          Nee — en dat is een eerlijker antwoord dan de markt meestal geeft.
+          Nee. En dat is een eerlijker antwoord dan de markt meestal geeft.
         </p>
         <p>
           Er is geen wetsartikel dat een agressietraining voorschrijft. Maar
@@ -228,7 +228,7 @@ const schema = [faqSchema(vragen)].filter(Boolean);
           Anders gezegd: niet de wet bepaalt of jullie team getraind moet
           worden, maar de eigen risico-inventarisatie. Wie daarin opschrijft dat
           baliemedewerkers wekelijks met agressie te maken hebben en er
-          vervolgens niets tegenover zet, heeft een probleem — niet omdat
+          vervolgens niets tegenover zet, heeft een probleem: niet omdat
           training verplicht is, maar omdat er dan geen toereikende maatregel is.
         </p>
         <p class="bronregel">
@@ -266,7 +266,7 @@ const schema = [faqSchema(vragen)].filter(Boolean);
       <div class="koppeling">
         <article class="koppel-rij" data-niveau="basis">
           <p class="koppel-niveau">Basis</p>
-          <p class="koppel-wet">Voorlichting en onderricht — Arbowet artikel 8, Arbobesluit 2.15 lid 2</p>
+          <p class="koppel-wet">Voorlichting en onderricht (Arbowet artikel 8, Arbobesluit 2.15 lid 2)</p>
           <p>
             Iedereen die met agressie te maken kan krijgen, weet wat de risico’s
             zijn en wat er van hem of haar verwacht wordt in het moment.
@@ -274,7 +274,7 @@ const schema = [faqSchema(vragen)].filter(Boolean);
         </article>
         <article class="koppel-rij" data-niveau="gevorderd">
           <p class="koppel-niveau">Gevorderd</p>
-          <p class="koppel-wet">Onderricht aangepast aan de taak — Arbowet artikel 8 lid 2</p>
+          <p class="koppel-wet">Onderricht aangepast aan de taak (Arbowet artikel 8 lid 2)</p>
           <p>
             Voor wie structureel met zwaardere situaties werkt. Hier gaat het
             over begrenzen als de-escaleren niet meer werkt, en over wat er na
@@ -283,7 +283,7 @@ const schema = [faqSchema(vragen)].filter(Boolean);
         </article>
         <article class="koppel-rij" data-niveau="expert">
           <p class="koppel-niveau">Expert</p>
-          <p class="koppel-wet">Beleid en maatregelen — Arbowet artikel 3 lid 2, Arbobesluit 2.15 lid 1</p>
+          <p class="koppel-wet">Beleid en maatregelen (Arbowet artikel 3 lid 2, Arbobesluit 2.15 lid 1)</p>
           <p>
             Voor leidinggevenden, coördinatoren en preventiemedewerkers: van
             incident naar beleid, de teamnorm vastleggen, nazorg inrichten en

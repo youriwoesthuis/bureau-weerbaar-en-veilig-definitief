@@ -10,7 +10,7 @@ volgorde: 4
 
 Constant speelt realistische simulaties op het gebied van agressie en
 heftige emoties. Hij bewaakt daarbij de emotionele veiligheid van de
-deelnemers en stemt zijn spel af op wat de groep aankan — en daagt precies
+deelnemers en stemt zijn spel af op wat de groep aankan, en daagt precies
 genoeg uit voor een succeservaring.
 
 "De inzet van een acteur bij trainingen is mij op het lijf geschreven. Met

@@ -50,6 +50,11 @@ spatie gelijk blijven aan het Google Bedrijfsprofiel.
 - **Geen JavaScript op de site.** Alle interactie via `:has()`, `:checked`,
   `<details>` en `animation-timeline`. AI-crawlers voeren vaak geen scripts
   uit en de volledige inhoud moet in de HTML staan.
+- **Geen gedachtestreepjes in zichtbare tekst** (verzoek opdrachtgever,
+  31-08-2026). Geen em- of en-dash als leesteken: herschrijf met een
+  dubbele punt, komma, haakjes of twee zinnen. Koppeltekens binnen woorden
+  (e-mail, de-escaleren) zijn spelling en blijven. controleer.mjs bewaakt
+  dit als fout.
 - **Geen redirects of cross-domain canonicals** naar de zustermerken.
   `MERKGROEP.md` is leidend voor alles wat de drie merken samen raakt.
 
@@ -60,10 +65,9 @@ npm run build && npm run controleer
 ```
 
 Fouten moeten weg; waarschuwingen mogen blijven maar moet je wel bekijken.
-Er staat nu één bewuste waarschuwing (titel van 61 tekens op
-`sociale-dienst-participatiewet-gevorderd`) — inkorten laat die titel botsen
-met `sociale-dienst-uitkeringsinstanties`, en uniciteit weegt zwaarder dan
-zestig tekens.
+Sinds 31-08-2026 staat de teller op nul fouten en nul waarschuwingen; houd
+dat zo. (De eerdere 61-tekenwaarschuwing is opgelost met een kortere
+afkorting in `AFKORTINGEN`.)
 
 **Verander je iets aan kleur, dan óók de contrastcontrole** uit
 `scripts/contrast-audit.js` in de browser draaien. Dat script vond tijdens de

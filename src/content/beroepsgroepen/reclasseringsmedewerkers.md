@@ -10,7 +10,7 @@ samenvatting: >-
   (expert).
 veelgestelde_vragen:
   - vraag: "Wij begeleiden en houden toezicht tegelijk. Komt die spanning aan bod?"
-    antwoord: "Ja, dat is het hoofdonderwerp. De cliënt weet dat een terugmelding grote gevolgen heeft, en die wetenschap zit in elk gesprek — bij beide partijen."
+    antwoord: "Ja, dat is het hoofdonderwerp. De cliënt weet dat een terugmelding grote gevolgen heeft, en die wetenschap zit in elk gesprek, bij beide partijen."
   - vraag: "Worden huisbezoeken behandeld?"
     antwoord: "Ja, inclusief veilig werken op locatie: wat je vooraf inschat, waar je gaat zitten en wanneer je een bezoek beëindigt."
   - vraag: "Hoe voer je een gesprek over voorwaarden zonder dat het klapt?"

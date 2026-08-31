@@ -22,6 +22,6 @@ veelgestelde_vragen:
 
 Bewoners van een asielzoekerscentrum leven in extreme onzekerheid over hun toekomst. De medewerker op de locatie is het dagelijkse gezicht van een systeem waarover hij of zij niets te zeggen heeft, en vangt alle frustratie daarover op.
 
-Een azc ligt bovendien maatschappelijk onder een vergrootglas. Bij incidenten of onrust rond de locatie worden medewerkers bij de poort en op het terrein gefilmd, en die beelden staan dezelfde dag op sociale media — soms gevolgd door bedreigingen aan het adres van wie herkenbaar in beeld staat.
+Een azc ligt bovendien maatschappelijk onder een vergrootglas. Bij incidenten of onrust rond de locatie worden medewerkers bij de poort en op het terrein gefilmd, en die beelden staan dezelfde dag op sociale media, soms gevolgd door bedreigingen aan het adres van wie herkenbaar in beeld staat.
 
 Daarbij spelen trauma, taalbarrières en spanningen tussen bewonersgroepen, vaak met beperkte bezetting tijdens nachten en weekenden. Bureau Weerbaar en Veilig traint deze beroepsgroep op het herkennen van de bron van agressie én op veilig handelen wanneer je met weinig collega’s bent.

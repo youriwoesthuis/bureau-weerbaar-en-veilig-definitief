@@ -10,7 +10,7 @@ samenvatting: >-
   professionele autonomie beschermt (expert).
 veelgestelde_vragen:
   - vraag: "Wij adviseren, maar voeren de zorg niet uit. Is deze training dan passend?"
-    antwoord: "Juist daarom. De training gaat over standhouden bij een professioneel advies terwijl je geen directe zeggenschap hebt over de uitvoering — precies de positie waarin een gedragsdeskundige zit."
+    antwoord: "Juist daarom. De training gaat over standhouden bij een professioneel advies terwijl je geen directe zeggenschap hebt over de uitvoering: precies de positie waarin een gedragsdeskundige zit."
   - vraag: "Komt druk via advocaten, media en sociale kanalen aan bod?"
     antwoord: "Ja. Die vorm van druk komt bij deze beroepsgroep steeds vaker voor en verloopt anders dan een confrontatie in de spreekkamer. Ze wordt apart behandeld."
   - vraag: "Kunnen gedragsdeskundigen en begeleiders in één groep?"

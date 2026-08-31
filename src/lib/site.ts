@@ -24,7 +24,7 @@ export const SITE = {
     land: 'NL',
   },
 
-  openingstijden: 'maandag t/m vrijdag 08:30–17:00',
+  openingstijden: 'maandag t/m vrijdag van 08:30 tot 17:00',
   openingstijdenSchema: [
     { dagen: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'], van: '08:30', tot: '17:00' },
   ],
@@ -70,10 +70,10 @@ export const OP_VERZOEK = [
 
 /** Wat de prijs bepaalt. Bedragen staan bewust nergens op de site. */
 export const PRIJSFACTOREN = [
-  'Het aantal groepen — de groep telt maximaal tien deelnemers, dus een groter team wordt verdeeld',
-  'Het niveau — bij expert is de groep kleiner en de voorbereiding zwaarder',
+  'Het aantal groepen: de groep telt maximaal tien deelnemers, dus een groter team wordt verdeeld',
+  'Het niveau: bij expert is de groep kleiner en de voorbereiding zwaarder',
   'De reisafstand naar jullie locatie',
-  'De omvang van het traject — één dag of een reeks over meerdere teams',
+  'De omvang van het traject: één dag of een reeks over meerdere teams',
 ] as const;
 
 /**
@@ -95,7 +95,7 @@ export const SECTORKADERS: Record<
   zorg: {
     kop: 'Wat er in de zorg bovenop de Arbowet geldt',
     tekst:
-      'Elke zorgaanbieder moet een schriftelijke interne procedure hebben voor het omgaan met signalen van incidenten — artikel 9 van de Wet kwaliteit, klachten en geschillen zorg, in de praktijk het VIM. Let op het onderscheid: die procedure gaat over de veiligheid van de zorg zelf. Agressie tégen medewerkers valt onder psychosociale arbeidsbelasting in de Arbowet, en vraagt dus een eigen registratie en eigen maatregelen. Voor ziekenhuizen en UMC’s bestaat daarnaast Veiligezorg®, een methodische aanpak in zeven fasen; die is vrijwillig, geen keurmerk en geen wettelijke plicht.',
+      'Elke zorgaanbieder moet een schriftelijke interne procedure hebben voor het omgaan met signalen van incidenten: artikel 9 van de Wet kwaliteit, klachten en geschillen zorg, in de praktijk het VIM. Let op het onderscheid: die procedure gaat over de veiligheid van de zorg zelf. Agressie tégen medewerkers valt onder psychosociale arbeidsbelasting in de Arbowet, en vraagt dus een eigen registratie en eigen maatregelen. Voor ziekenhuizen en UMC’s bestaat daarnaast Veiligezorg®, een methodische aanpak in zeven fasen; die is vrijwillig, geen keurmerk en geen wettelijke plicht.',
     bronnen: [
       { naam: 'Wkkgz artikel 9', url: 'https://wetten.overheid.nl/BWBR0037173#Paragraaf3_Artikel9' },
       { naam: 'Veiligezorg® (StAZ)', url: 'https://www.staz.nl/onderwerpen/veiligezorg/' },
@@ -122,7 +122,7 @@ export const SECTORKADERS: Record<
   onderwijs: {
     kop: 'Wat er in het onderwijs bovenop de Arbowet geldt',
     tekst:
-      'Scholen hebben een wettelijke zorgplicht voor de veiligheid op school: beleid voeren, de veiligheidsbeleving monitoren met een representatief instrument, en de coördinatie van het anti-pestbeleid bij iemand beleggen. Belangrijk detail dat vaak wordt overgeslagen: die zorgplicht gaat uitsluitend over de sociale, psychische en fysieke veiligheid van leerlingen. Voor de veiligheid van het personeel — ouderagressie aan de balie, bedreiging via de mail, incidenten in de klas — geldt gewoon de Arbowet.',
+      'Scholen hebben een wettelijke zorgplicht voor de veiligheid op school: beleid voeren, de veiligheidsbeleving monitoren met een representatief instrument, en de coördinatie van het anti-pestbeleid bij iemand beleggen. Belangrijk detail dat vaak wordt overgeslagen: die zorgplicht gaat uitsluitend over de sociale, psychische en fysieke veiligheid van leerlingen. Voor de veiligheid van het personeel (ouderagressie aan de balie, bedreiging via de mail, incidenten in de klas) geldt gewoon de Arbowet.',
     bronnen: [
       { naam: 'WPO artikel 4c', url: 'https://wetten.overheid.nl/BWBR0003420#Titeldeel1_AfdelingI_Paragraaf2_Artikel4c' },
       { naam: 'WVO 2020 artikel 3.40', url: 'https://wetten.overheid.nl/BWBR0044212' },

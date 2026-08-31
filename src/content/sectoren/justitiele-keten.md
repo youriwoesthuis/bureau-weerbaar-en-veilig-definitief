@@ -8,7 +8,7 @@ samenvatting: >-
   justitiële jeugdinrichtingen, elk in drie niveaus.
 veelgestelde_vragen:
   - vraag: "Wat maakt agressie in de justitiële keten anders?"
-    antwoord: "Ze is vaker strategisch dan impulsief. De inzet is groot — een terugmelding, een verlofbeslissing of een plaatsing raakt iemands vrijheid — en dat maakt gedrag berekend in plaats van ongecontroleerd."
+    antwoord: "Ze is vaker strategisch dan impulsief. De inzet is groot: een terugmelding, een verlofbeslissing of een plaatsing raakt iemands vrijheid. Dat maakt gedrag berekend in plaats van ongecontroleerd."
   - vraag: "Iedereen bij ons heeft een dubbelrol. Kan een training daarmee om?"
     antwoord: "Die dubbelrol is hier het uitgangspunt. Toezichthouder én begeleider zijn botst juist op het moment dat het spannend wordt, en cliënten voelen precies waar die spanning zit."
   - vraag: "Wordt dreigingsherkenning behandeld?"

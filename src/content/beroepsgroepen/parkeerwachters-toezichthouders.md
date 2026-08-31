@@ -11,7 +11,7 @@ veelgestelde_vragen:
   - vraag: "Hoe leren medewerkers inschatten of een gebied veilig is?"
     antwoord: "Door het expliciet te maken. Er zijn wijken waar de vijandigheid structureel is en waar hetzelfde gezicht elke week terugkomt. Dat gebied inschatten voordat je uitstapt, is een vaardigheid die je kunt oefenen."
   - vraag: "Mag een medewerker een situatie afbreken zonder de bon te schrijven?"
-    antwoord: "Dat is een organisatiebesluit, geen trainingsbesluit — maar het besluit om af te breken is wel een vast onderdeel van de training. Wanneer je stopt, hoe je dat doet en wat je erna vastlegt."
+    antwoord: "Dat is een organisatiebesluit, geen trainingsbesluit. Het besluit om af te breken is wel een vast onderdeel van de training. Wanneer je stopt, hoe je dat doet en wat je erna vastlegt."
   - vraag: "Onze mensen zijn heel zichtbaar en dragen uniform. Verandert dat de aanpak?"
     antwoord: "Ja. In uniform, alleen, op straat, met een bon die niemand wil: dat is een andere uitgangspositie dan achter een balie. De oefeningen gaan uit van die zichtbaarheid."
   - vraag: "Welk niveau past bij parkeerwachters en toezichthouders?"
@@ -22,6 +22,6 @@ veelgestelde_vragen:
 
 Een parkeerwachter is de zichtbaarste overheidsmedewerker die er is: in uniform, alleen, op straat, met een bon die niemand wil. En met beperkte bevoegdheden om iets te doen als het misgaat.
 
-Die zichtbaarheid houdt niet op bij de stoeprand: wie een bon schrijft, heeft geregeld een smartphone op zich gericht, en zo'n filmpje staat dezelfde dag online — meestal geknipt tot alleen de reactie van de handhaver.
+Die zichtbaarheid houdt niet op bij de stoeprand: wie een bon schrijft, heeft geregeld een smartphone op zich gericht, en zo'n filmpje staat dezelfde dag online, meestal geknipt tot alleen de reactie van de handhaver.
 
 Daarbij zijn er wijken waar de vijandigheid structureel is en waar hetzelfde gezicht elke week terugkomt. Bureau Weerbaar en Veilig richt deze trainingen daarom sterk op het inschatten van gebieden en op het besluit om een situatie af te breken.

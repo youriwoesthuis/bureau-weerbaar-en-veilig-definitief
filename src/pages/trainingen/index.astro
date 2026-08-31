@@ -69,7 +69,7 @@ const lijst = lijstSchema(
   'Alle agressietrainingen van Bureau Weerbaar en Veilig',
   perSector.flatMap((s) =>
     s.rijen.map((r) => ({
-      naam: `${naamVan.get(r.data.beroepsgroep)} — ${NIVEAU_INFO[r.data.niveau].naam}`,
+      naam: `${naamVan.get(r.data.beroepsgroep)}: ${NIVEAU_INFO[r.data.niveau].naam}`,
       url: pad(`/trainingen/${r.data.slug}/`),
     })),
   ),
