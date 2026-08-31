@@ -1,5 +1,5 @@
 ---
-import { getCollection, render } from 'astro:content';
+import { getCollection } from 'astro:content';
 import Basis from '../layouts/Basis.astro';
 import Kruimels from '../components/Kruimels.astro';
 import Cijferstrip from '../components/Cijferstrip.astro';
@@ -14,11 +14,9 @@ const [team, trainingen, beroepsgroepen, sectoren] = await Promise.all([
   getCollection('sectoren'),
 ]);
 
-const leden = await Promise.all(
-  team
-    .sort((a, b) => a.data.volgorde - b.data.volgorde)
-    .map(async (lid) => ({ data: lid.data, Inhoud: (await render(lid)).Content })),
-);
+const leden = team
+  .sort((a, b) => a.data.volgorde - b.data.volgorde)
+  .map((lid) => ({ id: lid.id, data: lid.data }));
 
 // Er is nog geen fotografie. In plaats van een lege plek die op een foto
 // wacht, krijgt elk teamlid een initiaaltegel in een van de merkkleuren.
@@ -118,40 +116,28 @@ const cijfers = [
         </p>
       </div>
 
-      {/* Alleen foto en naam; het verhaal klapt uit. Keuze van Youri
-          (31-08-2026): rustig overzicht eerst, doorklikken om te lezen.
-          <details> werkt zonder JavaScript. De achtergrond van de foto's is
-          in de merkkleuren gezet met scripts/team-foto.mjs. */}
+      {/* Alleen foto en naam; het verhaal staat op een eigen pagina onder
+          /team/ — uitklappen in het raster oogde rommelig (Youri,
+          31-08-2026). De achtergrond van de foto's is in de merkkleuren
+          gezet met scripts/team-foto.mjs. */}
       <div class="teamlijst">
         {leden.map((lid, i) => (
-          <details class="teamlid onthul" data-niveau={niveaus[i % 3]}>
-            <summary>
-              {lid.data.foto ? (
-                <img
-                  class="portret"
-                  src={pad(lid.data.foto.src)}
-                  alt={lid.data.foto.alt}
-                  width="750"
-                  height="1000"
-                  loading="lazy"
-                />
-              ) : (
-                <span class="tegel" aria-hidden="true">{initialen(lid.data.naam)}</span>
-              )}
-              <span class="teamlid-naam">{lid.data.naam}</span>
-              <span class="teamlid-hint" aria-hidden="true"></span>
-            </summary>
-            <div class="teamlid-meer">
-              <p class="rol">{lid.data.rol}</p>
-              <div class="leestekst teamlid-body"><lid.Inhoud /></div>
-              {lid.data.linkedin && (
-                <a href={lid.data.linkedin} class="pijllink" rel="noopener">
-                  LinkedIn
-                  <span class="pijl" aria-hidden="true">→</span>
-                </a>
-              )}
-            </div>
-          </details>
+          <a class="teamlid onthul" href={pad(`/team/${lid.id}/`)} data-niveau={niveaus[i % 3]}>
+            {lid.data.foto ? (
+              <img
+                class="portret"
+                src={pad(lid.data.foto.src)}
+                alt={lid.data.foto.alt}
+                width="750"
+                height="1000"
+                loading="lazy"
+              />
+            ) : (
+              <span class="tegel" aria-hidden="true">{initialen(lid.data.naam)}</span>
+            )}
+            <span class="teamlid-naam">{lid.data.naam}</span>
+            <span class="teamlid-hint" aria-hidden="true"></span>
+          </a>
         ))}
       </div>
     </div>
@@ -213,36 +199,23 @@ const cijfers = [
   }
 
   .teamlid {
+    display: grid;
+    gap: 0.55rem;
+    padding-bottom: 0.9rem;
     background: var(--wit);
     border: 1px solid var(--rand-licht);
     border-radius: var(--hoek);
     overflow: hidden;
+    text-decoration: none;
+    color: inherit;
     transition: border-color 180ms, box-shadow 180ms, transform 180ms;
   }
-  .teamlid:not([open]):hover {
+  .teamlid:hover {
     border-color: transparent;
     box-shadow: var(--schaduw-md);
     transform: translateY(-2px);
   }
-  /* Een open kaart mag breder ogen: hij spant de hele rij. */
-  .teamlid[open] { grid-column: 1 / -1; }
-
-  .teamlid summary {
-    list-style: none;
-    cursor: pointer;
-    display: grid;
-    gap: 0.55rem;
-    padding-bottom: 0.9rem;
-  }
-  .teamlid summary::-webkit-details-marker { display: none; }
-  .teamlid summary:focus-visible { outline: 3px solid var(--focus); outline-offset: -3px; }
-
-  .teamlid[open] summary {
-    grid-template-columns: auto minmax(0, 1fr) auto;
-    align-items: center;
-    padding: 0.9rem 1.1rem;
-    border-bottom: 1px solid var(--rand-licht);
-  }
+  .teamlid:focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; }
 
   .portret {
     width: 100%;
@@ -250,10 +223,6 @@ const cijfers = [
     aspect-ratio: 3 / 4;
     object-fit: cover;
     display: block;
-  }
-  .teamlid[open] .portret {
-    width: 3.25rem;
-    border-radius: var(--hoek-klein);
   }
 
   .tegel {
@@ -267,7 +236,6 @@ const cijfers = [
     font-size: 1.6rem;
     font-weight: 700;
   }
-  .teamlid[open] .tegel { width: 3.25rem; aspect-ratio: 1; border-radius: var(--hoek-klein); font-size: 1rem; }
 
   .teamlid-naam {
     font-family: 'Manrope', system-ui, sans-serif;
@@ -278,39 +246,31 @@ const cijfers = [
     text-align: center;
     padding-inline: 0.5rem;
   }
-  .teamlid[open] .teamlid-naam { text-align: left; padding-inline: 0; font-size: 1.1rem; }
 
-  /* plus- dan wel sluitteken, puur als hint */
   .teamlid-hint {
     justify-self: center;
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 1.6rem;
+    height: 1.6rem;
     border-radius: 50%;
     border: 1px solid var(--rand-licht);
     color: var(--tekst-donker-zacht);
     display: grid;
     place-items: center;
-    font-size: 0.95rem;
+    font-size: 0.9rem;
     line-height: 1;
+    transition: background 180ms, color 180ms, border-color 180ms;
   }
-  .teamlid-hint::before { content: '+'; }
-  .teamlid[open] .teamlid-hint { justify-self: end; }
-  .teamlid[open] .teamlid-hint::before { content: '\2212'; }
+  .teamlid-hint::before { content: '\2192'; }
+  .teamlid:hover .teamlid-hint {
+    background: var(--oranje-op-wit);
+    border-color: var(--oranje-op-wit);
+    color: var(--wit);
+  }
 
-  .teamlid-meer {
-    display: grid;
-    gap: 0.5rem;
-    padding: 1rem 1.1rem 1.25rem;
-    justify-items: start;
+  @media (prefers-reduced-motion: reduce) {
+    .teamlid, .teamlid-hint { transition: none; }
+    .teamlid:hover { transform: none; }
   }
-  .rol {
-    font-family: 'Manrope', system-ui, sans-serif;
-    font-size: 0.85rem;
-    font-weight: 600;
-    color: var(--niveau-op-wit);
-  }
-  .teamlid-body { font-size: 0.95rem; color: var(--tekst-donker-zacht); }
-  .teamlid-body :global(p + p) { margin-top: 0.8em; }
 
   .adresblok {
     font-style: normal;

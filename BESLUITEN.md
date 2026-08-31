@@ -136,7 +136,7 @@ model.
 
 ## 7c. Teamfoto's (26-08-2026)
 
-Alle twaalf portretten staan erop. De achtergronden zijn met scripts/team-foto.mjs vervangen door een verloop in de merkkleuren (uitsnijden met RMBG-1.4, lokaal via WASM). Claudia bleek wel een echte foto te hebben: het "plaatshouder"-bestand was een greenscreen-portret. LinkedIn-links staan erin voor iedereen behalve Marieke van Leeuwen — die ontbreekt nog.
+Alle twaalf portretten staan erop, en elk teamlid heeft een eigen pagina onder /team/ — het overzicht op /over-ons/ toont alleen foto en naam (keuze Youri, 31-08-2026: uitklappen in het raster oogde rommelig). De achtergronden zijn met scripts/team-foto.mjs vervangen door een verloop in de merkkleuren (uitsnijden met RMBG-1.4, lokaal via WASM). Claudia bleek wel een echte foto te hebben: het "plaatshouder"-bestand was een greenscreen-portret. LinkedIn-links staan erin voor iedereen behalve Marieke van Leeuwen — die ontbreekt nog.
 
 ## 8. Nog open — heeft Youri nodig
 

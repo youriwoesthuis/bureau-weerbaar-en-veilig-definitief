@@ -80,6 +80,45 @@ for (let start = 0; start < m.length; start++) {
 // geeft de haarrand terug.
 for (let i = 0; i < m.length; i++) m[i] = m[i] >= 128 && label[i] === beste ? 255 : 0;
 
+// Gaten dichten: maskerruis bínnen de persoon werd door de binarisatie een
+// gat waar de achtergrond doorheen prikte. Alles wat niet vanaf de beeldrand
+// bereikbaar is, hoort bij de voorgrond.
+{
+  const buiten = new Uint8Array(m.length);
+  let top = 0;
+  const rij = new Int32Array(m.length);
+  const duw = (i) => { if (!m[i] && !buiten[i]) { buiten[i] = 1; rij[top++] = i; } };
+  for (let x = 0; x < W; x++) { duw(x); duw((H0 - 1) * W + x); }
+  for (let y = 0; y < H0; y++) { duw(y * W); duw(y * W + W - 1); }
+  while (top > 0) {
+    const p = rij[--top];
+    const x = p % W, y = (p / W) | 0;
+    if (x > 0) duw(p - 1);
+    if (x < W - 1) duw(p + 1);
+    if (y > 0) duw(p - W);
+    if (y < H0 - 1) duw(p + W);
+  }
+  for (let i = 0; i < m.length; i++) if (!m[i] && !buiten[i]) m[i] = 255;
+}
+
+// Erosie: de buitenste twee pixels van de rand eraf. Gekleurde zweem van
+// de oude achtergrond (groen doek, muurkleur) zit precies in die rand.
+const erosieBron = Buffer.from(m);
+for (let y = 0; y < H0; y++) {
+  for (let x = 0; x < W; x++) {
+    const i = y * W + x;
+    if (!erosieBron[i]) continue;
+    let rand = false;
+    for (let dy = -2; dy <= 2 && !rand; dy++) {
+      for (let dx = -2; dx <= 2 && !rand; dx++) {
+        const nx = x + dx, ny = y + dy;
+        if (nx < 0 || ny < 0 || nx >= W || ny >= H0 || !erosieBron[ny * W + nx]) rand = true;
+      }
+    }
+    if (rand) m[i] = 0;
+  }
+}
+
 const maskerPng = await sharp(m, { raw: { width: W, height: H0, channels: 1 } })
   .blur(0.8)
   .png().toBuffer();
@@ -90,15 +129,21 @@ let uitsnede = await sharp(bron)
   .joinChannel(maskerPng)
   .png().toBuffer();
 
-/* 3. groen opruimen (alleen bij greenscreen-bronnen) */
-if (groen) {
+/* 3. groen opruimen. In de zachte randzone (alfa < 250) altijd — daar kan
+      geen kleding zitten, alleen overgang naar de oude achtergrond. Met
+      --groen ook binnen de vorm, voor bronnen die op een groen doek zijn
+      geschoten. */
+{
   const { data, info } = await sharp(uitsnede).raw().toBuffer({ resolveWithObject: true });
   for (let i = 0; i < data.length; i += 4) {
+    const a = data[i + 3];
+    if (a === 0) continue;
     const r = data[i], g = data[i + 1], b = data[i + 2];
-    if (data[i + 3] > 0 && g > r * 1.1 && g > b * 1.1 && g > 70) {
-      data[i + 3] = 0; // restpixel van het groene doek
-    } else if (g > Math.max(r, b)) {
-      data[i + 1] = Math.max(r, b); // groenzweem in de haarrand dempen
+    const inRand = a < 250;
+    if ((inRand || groen) && g > r * 1.1 && g > b * 1.1 && g > 70) {
+      data[i + 3] = 0;
+    } else if ((inRand || groen) && g > Math.max(r, b)) {
+      data[i + 1] = Math.max(r, b);
     }
   }
   uitsnede = await sharp(data, { raw: info }).png().toBuffer();

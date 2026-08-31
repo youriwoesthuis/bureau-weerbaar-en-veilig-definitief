@@ -17,6 +17,8 @@ function bronVoor(pad) {
   if (training) return `src/content/trainingen/${training[1]}.md`;
   const groep = p.match(/^sectoren\/[^/]+\/(.+)$/);
   if (groep) return `src/content/beroepsgroepen/${groep[1]}.md`;
+  const lid = p.match(/^team\/(.+)$/);
+  if (lid) return `src/content/team/${lid[1]}.md`;
   const sector = p.match(/^sectoren\/([^/]+)$/);
   if (sector) return `src/content/sectoren/${sector[1]}.md`;
   if (p === 'trainingen') return 'src/pages/trainingen/index.astro';

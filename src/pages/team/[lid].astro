@@ -1,0 +1,124 @@
+---
+import { getCollection, render } from 'astro:content';
+import Basis from '../../layouts/Basis.astro';
+import Kruimels from '../../components/Kruimels.astro';
+import Cta from '../../components/Cta.astro';
+import { pad } from '../../lib/site';
+import { paginaTitel, description, ids } from '../../lib/seo';
+
+/**
+ * Eén pagina per teamlid. Het overzicht op /over-ons/ toont alleen foto en
+ * naam; het verhaal staat hier — uitklappen in het raster oogde rommelig
+ * (Youri, 31-08-2026). Levert meteen een eigen, deelbare URL per collega op.
+ */
+export async function getStaticPaths() {
+  const team = await getCollection('team');
+  return team.map((lid) => ({ params: { lid: lid.id }, props: { lid } }));
+}
+
+const { lid } = Astro.props;
+const d = lid.data;
+const { Content } = await render(lid);
+
+const kruimels = [
+  { naam: 'Home', url: pad('/') },
+  { naam: 'Over ons', url: pad('/over-ons/') },
+  { naam: d.naam, url: pad(`/team/${lid.id}/`) },
+];
+
+const openingsantwoord = `${d.naam} is ${d.rol.toLowerCase()} bij Bureau Weerbaar en Veilig, het trainingsbureau dat uitsluitend agressietraining verzorgt.`;
+
+// Persoon gekoppeld aan de organisatie, zodat de blokken één grafiek vormen.
+const siteUrl = new URL(import.meta.env.BASE_URL, Astro.site).href;
+const schema = [
+  {
+    '@type': 'Person',
+    '@id': `${new URL(Astro.url.pathname, Astro.site).href}#persoon`,
+    name: d.naam,
+    jobTitle: d.rol,
+    worksFor: { '@id': ids(siteUrl).organisatie },
+    ...(d.foto && { image: new URL(pad(d.foto.src), Astro.site).href }),
+    ...(d.linkedin && { sameAs: [d.linkedin] }),
+  },
+];
+---
+
+<Basis
+  titel={paginaTitel(d.naam)}
+  description={description(openingsantwoord)}
+  niveau="basis"
+  kruimels={kruimels}
+  schema={schema}
+>
+  <section class="lid-kop op-licht gloed schuin-onder">
+    <div class="omhulsel lid-raster">
+      <div class="lid-binnen">
+        <Kruimels kruimels={kruimels} />
+        <p class="bovenkop">{d.rol}</p>
+        <h1>{d.naam}</h1>
+        <p class="openingsantwoord">{openingsantwoord}</p>
+      </div>
+      {d.foto && (
+        <div class="lid-beeld">
+          <img src={pad(d.foto.src)} alt={d.foto.alt} width="750" height="1000" fetchpriority="high" />
+        </div>
+      )}
+    </div>
+  </section>
+
+  <section class="sectie sectie-aansluitend op-licht">
+    <div class="omhulsel">
+      <div class="leestekst"><Content /></div>
+      <div class="lid-links">
+        {d.linkedin && (
+          <a href={d.linkedin} class="pijllink" rel="noopener">
+            {d.naam.split(' ')[0]} op LinkedIn
+            <span class="pijl" aria-hidden="true">→</span>
+          </a>
+        )}
+        <a href={pad('/over-ons/')} class="pijllink">
+          Het hele team
+          <span class="pijl" aria-hidden="true">→</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <Cta
+    kop="Overleggen over wat je team nodig heeft?"
+    tekst="Vertel wat er speelt, dan denken we mee over de beroepsgroep en het niveau dat past."
+  />
+</Basis>
+
+<style>
+  .lid-kop {
+    background: var(--mist-50);
+    padding-block: clamp(1.5rem, 1rem + 2vw, 2.5rem) clamp(3rem, 2rem + 4vw, 5rem);
+  }
+  .lid-raster {
+    display: grid;
+    gap: clamp(1.5rem, 1rem + 3vw, 3rem);
+    align-items: center;
+  }
+  @media (min-width: 850px) {
+    .lid-raster { grid-template-columns: minmax(0, 1fr) minmax(0, 17rem); }
+  }
+  .lid-binnen { display: grid; gap: 1.25rem; justify-items: start; }
+
+  .lid-beeld { max-width: 15rem; width: 100%; margin-inline: auto; }
+  .lid-beeld img {
+    width: 100%;
+    height: auto;
+    border-radius: var(--hoek-groot);
+    border: 1px solid var(--rand-licht);
+    box-shadow: var(--schaduw-md);
+  }
+
+  .lid-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem 2rem;
+    margin-top: clamp(1.5rem, 1rem + 1.5vw, 2.25rem);
+  }
+  .lid-links .pijllink { padding-block: 0.3rem; }
+</style>
