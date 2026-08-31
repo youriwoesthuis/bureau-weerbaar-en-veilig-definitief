@@ -1,23 +1,26 @@
 ---
-import Icoon from './Icoon.astro';
-import { NIVEAU_INFO, pad } from '../lib/site';
+import { NIVEAU_INFO, NIVEAUS, pad } from '../lib/site';
 
 /**
  * Niveau-keuzehulp. Drie vragen; elk antwoord hoort bij een niveau, en de
  * uitkomst is het hóógste niveau dat is aangevinkt. Dat is bewust: wie op
  * één punt bij expert uitkomt, heeft aan basis niet genoeg.
  *
- * Werkt zonder JavaScript. Er zijn maar drie CSS-regels voor nodig in plaats
- * van een regel per combinatie (dat zouden er 27 zijn):
- *   - staat er ergens een expert-antwoord aan  -> expert
- *   - anders, staat er ergens gevorderd aan    -> gevorderd
- *   - anders                                    -> basis
+ * Herbouwd op 31-08-2026 na een opmerking van Youri: de vorige versie liet
+ * twee van de drie niveaus verdwijnen zodra je antwoordde, en dan valt er
+ * niets meer te vergelijken. Nu blijven alle drie staan en markeren de
+ * antwoorden er één. Je ziet dus altijd het hele veld, met een richting erin.
+ *
+ * Werkt zonder JavaScript. Drie CSS-regels in plaats van een regel per
+ * combinatie (dat zouden er 27 zijn): staat er ergens een expert-antwoord
+ * aan dan expert, anders gevorderd als dat aanstaat, anders basis. Ze zetten
+ * `--aan` op 1 bij de gekozen kaart en tonen de bijbehorende zin in de
+ * statusregel.
  */
 
 const VRAGEN = [
   {
     id: 'ervaring',
-    icoon: 'ladder' as const,
     vraag: 'Heeft het team eerder een agressietraining gehad?',
     antwoorden: [
       { niveau: 'basis', tekst: 'Nee, of zo lang geleden dat het weggezakt is' },
@@ -27,7 +30,6 @@ const VRAGEN = [
   },
   {
     id: 'aanleiding',
-    icoon: 'signaleren' as const,
     vraag: 'Wat is de aanleiding om nu te trainen?',
     antwoorden: [
       { niveau: 'basis', tekst: 'Medewerkers weten niet goed wat te doen als de spanning oploopt' },
@@ -37,7 +39,6 @@ const VRAGEN = [
   },
   {
     id: 'deelnemers',
-    icoon: 'team' as const,
     vraag: 'Wie gaat de training volgen?',
     antwoorden: [
       { niveau: 'basis', tekst: 'Uitvoerende medewerkers met klant- of cliëntcontact' },
@@ -47,10 +48,15 @@ const VRAGEN = [
   },
 ];
 
+/* Bewust ongescopeerd: :has() moet vanaf de wrapper naar de kaarten kunnen
+   kijken, en Astro zou de selector anders per element herschrijven. */
 const regels = `
-.keuzehulp:has(input[value="expert"]:checked) .uitkomst[data-niveau="expert"]{display:grid}
-.keuzehulp:has(input[value="gevorderd"]:checked):not(:has(input[value="expert"]:checked)) .uitkomst[data-niveau="gevorderd"]{display:grid}
-.keuzehulp:not(:has(input[value="gevorderd"]:checked)):not(:has(input[value="expert"]:checked)) .uitkomst[data-niveau="basis"]{display:grid}
+.keuzehulp:has(input[value="expert"]:checked) .niveaukaart[data-niveau="expert"],
+.keuzehulp:has(input[value="gevorderd"]:checked):not(:has(input[value="expert"]:checked)) .niveaukaart[data-niveau="gevorderd"],
+.keuzehulp:not(:has(input[value="gevorderd"]:checked)):not(:has(input[value="expert"]:checked)) .niveaukaart[data-niveau="basis"]{--aan:1}
+.keuzehulp:has(input[value="expert"]:checked) .uitkomstzin[data-niveau="expert"],
+.keuzehulp:has(input[value="gevorderd"]:checked):not(:has(input[value="expert"]:checked)) .uitkomstzin[data-niveau="gevorderd"],
+.keuzehulp:not(:has(input[value="gevorderd"]:checked)):not(:has(input[value="expert"]:checked)) .uitkomstzin[data-niveau="basis"]{display:block}
 `;
 ---
 
@@ -81,53 +87,69 @@ const regels = `
     ))}
   </div>
 
-  <div class="uitkomsten" role="status">
-    {(['basis', 'gevorderd', 'expert'] as const).map((n) => {
+  {/* Eén zin die meebeweegt met de antwoorden. Alleen hier staat de uitkomst
+      in woorden, zodat een schermlezer niet drie keer een aanbeveling hoort. */}
+  <p class="uitkomstregel" role="status">
+    {NIVEAUS.map((n) => (
+      <span class="uitkomstzin" data-niveau={n}>
+        Je antwoorden wijzen naar <strong>niveau {NIVEAU_INFO[n].naam.toLowerCase()}</strong>.
+        De andere twee blijven hiernaast staan, zodat je zelf kunt vergelijken.
+      </span>
+    ))}
+  </p>
+
+  <div class="niveaukaarten">
+    {NIVEAUS.map((n) => {
       const info = NIVEAU_INFO[n];
       return (
-        <div class="uitkomst" data-niveau={n}>
-          <p class="uitkomst-label">Op basis van je antwoorden</p>
-          <span class="uitkomst-icoon"><Icoon naam="vinkje" breedte={24} /></span>
+        <article class="niveaukaart" data-niveau={n}>
+          <p class="kaart-vlag" aria-hidden="true">Past bij je antwoorden</p>
           <h3>Niveau {info.naam.toLowerCase()}</h3>
-          <p class="uitkomst-kort">{info.kort}</p>
-          <p class="uitkomst-tekst">{info.omschrijving}</p>
-          <a href={pad(`/niveaus/${n}/`)} class="knop uitkomst-knop">
+          <p class="kaart-kort">{info.kort}</p>
+          <dl class="kaart-feiten">
+            <dt>Voor wie</dt>
+            <dd>{info.voorWie}</dd>
+            <dt>Wat je doet</dt>
+            <dd>{info.omschrijving}</dd>
+          </dl>
+          <a href={pad(`/niveaus/${n}/`)} class="pijllink kaart-link">
             Bekijk niveau {info.naam.toLowerCase()}
             <span class="pijl" aria-hidden="true">→</span>
           </a>
-          <p class="uitkomst-noot">
-            Dit is een richting, geen diagnose. Bureau Weerbaar en Veilig kijkt
-            er bij de intake samen met je naar, ook als dat een ander niveau
-            oplevert dan hier staat.
-          </p>
-        </div>
+        </article>
       );
     })}
   </div>
+
+  <p class="keuze-noot">
+    Dit is een richting, geen diagnose. Bureau Weerbaar en Veilig kijkt er bij
+    de intake samen met je naar, ook als dat een ander niveau oplevert dan
+    hier staat.
+  </p>
 </div>
 
 <style is:inline set:html={regels}></style>
 
 <style>
-  .keuzehulp {
+  .keuzehulp { display: grid; gap: clamp(1.5rem, 1rem + 2vw, 2.25rem); }
+
+  /* ---- De drie vragen ---- */
+  .vragen {
     display: grid;
-    gap: clamp(1.5rem, 1rem + 2vw, 2.5rem);
-    align-items: start;
+    gap: clamp(1.25rem, 1rem + 1vw, 1.75rem);
   }
-  @media (min-width: 950px) {
-    .keuzehulp { grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr); }
+  @media (min-width: 900px) {
+    .vragen { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   }
 
-  .vragen { display: grid; gap: clamp(1.25rem, 1rem + 1vw, 1.75rem); }
-
-  .vraag { border: 0; padding: 0; margin: 0; min-width: 0; display: grid; gap: 0.7rem; }
+  .vraag { border: 0; padding: 0; margin: 0; min-width: 0; display: grid; gap: 0.7rem; align-content: start; }
   .vraag legend {
     display: flex;
-    align-items: center;
+    align-items: baseline;
     gap: 0.65rem;
     padding: 0;
     font-family: 'Manrope', system-ui, sans-serif;
-    font-size: 1.02rem;
+    font-size: 1rem;
     font-weight: 700;
     letter-spacing: -0.01em;
     color: var(--tekst-donker);
@@ -135,17 +157,17 @@ const regels = `
   .vraag-nummer {
     display: grid;
     place-items: center;
-    width: 1.6rem;
-    height: 1.6rem;
+    width: 1.5rem;
+    height: 1.5rem;
     flex: none;
     border-radius: 50%;
-    background: var(--verloop-warm);
-    color: #1f1000;
-    font-size: 0.8rem;
+    background: var(--oranje-op-wit);
+    color: var(--wit);
+    font-size: 0.78rem;
     font-weight: 800;
   }
 
-  .antwoorden { display: grid; gap: 0.4rem; }
+  .antwoorden { display: grid; gap: 0.4rem; align-content: start; }
   .antwoord-radio { position: absolute; width: 1px; height: 1px; opacity: 0; pointer-events: none; }
 
   .antwoord {
@@ -158,7 +180,7 @@ const regels = `
     border: 1px solid var(--rand-licht);
     border-radius: var(--hoek);
     color: var(--tekst-donker-zacht);
-    font-size: 0.95rem;
+    font-size: 0.92rem;
     line-height: 1.4;
     cursor: pointer;
     transition: border-color 150ms, background 150ms, color 150ms;
@@ -174,7 +196,7 @@ const regels = `
     transition: border-color 150ms, box-shadow 150ms;
   }
   .antwoord:hover { border-color: var(--tekst-donker-zacht); color: var(--tekst-donker); }
-  .antwoord-radio:focus-visible + .antwoord { outline: 3px solid var(--blauw-op-wit); outline-offset: 2px; }
+  .antwoord-radio:focus-visible + .antwoord { outline: 3px solid var(--focus); outline-offset: 2px; }
   .antwoord-radio:checked + .antwoord {
     border-color: var(--oranje-op-wit);
     background: color-mix(in oklab, var(--oranje-op-wit) 7%, var(--wit));
@@ -186,56 +208,110 @@ const regels = `
     box-shadow: inset 0 0 0 3px var(--wit), inset 0 0 0 1rem var(--oranje-op-wit);
   }
 
-  /* ---- De uitkomst ---- */
-  .uitkomsten { position: relative; }
-  .uitkomst {
-    gap: 0.55rem;
-    align-content: start;
-    padding: clamp(1.25rem, 1rem + 1.2vw, 1.9rem);
+  /* ---- De uitkomst in één zin ---- */
+  .uitkomstregel {
+    margin: 0;
+    padding: 0.85rem 1.1rem;
     background: var(--wit);
     border: 1px solid var(--rand-licht);
-    border-top: 4px solid var(--niveau-op-wit);
+    border-left: 3px solid var(--oranje-op-wit);
     border-radius: var(--hoek);
-    box-shadow: var(--schaduw-md);
+    color: var(--tekst-donker-zacht);
+    font-size: 0.95rem;
+    line-height: 1.5;
   }
-  /* Zonder :has() staan alle drie de uitkomsten onder elkaar: minder mooi,
-     wel volledig leesbaar. */
-  .uitkomst { display: grid; }
+  .uitkomstregel strong { color: var(--tekst-donker); }
+  /* Zonder :has() staan alle drie de zinnen er: minder mooi, wel leesbaar. */
+  .uitkomstzin { display: block; }
   @supports selector(:has(*)) {
-    .uitkomst { display: none; }
+    .uitkomstzin { display: none; }
   }
 
-  .uitkomst-label {
-    font-size: 0.75rem;
+  /* ---- De drie niveaus naast elkaar ---- */
+  .niveaukaarten {
+    display: grid;
+    gap: clamp(0.75rem, 0.6rem + 0.6vw, 1.1rem);
+  }
+  @media (min-width: 900px) {
+    .niveaukaarten { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  }
+
+  .niveaukaart {
+    --aan: 0;
+    display: grid;
+    align-content: start;
+    gap: 0.5rem;
+    padding: clamp(1.1rem, 0.9rem + 0.7vw, 1.5rem);
+    background: color-mix(in oklab, var(--niveau-op-wit) calc(var(--aan) * 6%), var(--wit));
+    border: 1px solid var(--rand-licht);
+    border-top: calc(2px + var(--aan) * 3px) solid var(--niveau-op-wit);
+    border-radius: var(--hoek);
+    transition: background 180ms, border-top-width 180ms;
+  }
+
+  /* De vlag reserveert altijd ruimte, zodat de drie kaarten uitgelijnd
+     blijven; alleen de gekozen kaart laat hem zien. aria-hidden, want de
+     statusregel hierboven zegt het al in woorden. */
+  .kaart-vlag {
+    justify-self: start;
+    margin: 0;
+    padding: 0.28rem 0.6rem;
+    /* Als chip in plaats van losse tekst: het label stond in de niveaukleur
+       op een licht getinte kaart en haalde daarmee 4,04:1, te weinig voor
+       kleine tekst. Wit op de volle niveaukleur haalt ruim 5:1. */
+    background: var(--niveau-op-wit);
+    border-radius: var(--hoek);
+    font-family: 'Manrope', system-ui, sans-serif;
+    font-size: 0.72rem;
     font-weight: 700;
-    letter-spacing: 0.12em;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--wit);
+    opacity: var(--aan);
+    transition: opacity 180ms;
+  }
+
+  .niveaukaart h3 {
+    margin: 0;
+    font-size: clamp(1.15rem, 1.05rem + 0.4vw, 1.35rem);
+    color: var(--tekst-donker);
+  }
+  .kaart-kort {
+    margin: 0;
+    font-family: 'Manrope', system-ui, sans-serif;
+    font-weight: 700;
+    font-size: 0.95rem;
+    color: var(--niveau-op-wit);
+  }
+
+  .kaart-feiten { margin: 0.35rem 0 0; display: grid; gap: 0.15rem; }
+  .kaart-feiten dt {
+    font-family: 'Manrope', system-ui, sans-serif;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.09em;
     text-transform: uppercase;
     color: var(--tekst-donker-zacht);
   }
-  .uitkomst-icoon {
-    display: grid;
-    place-items: center;
-    width: 46px;
-    height: 46px;
-    border-radius: var(--hoek);
-    background: color-mix(in oklab, var(--niveau-op-wit) 12%, var(--wit));
-    color: var(--niveau-op-wit);
-    margin-top: 0.2rem;
-  }
-  .uitkomst h3 { font-size: clamp(1.25rem, 1.1rem + 0.6vw, 1.5rem); color: var(--tekst-donker); }
-  .uitkomst-kort {
-    font-family: 'Manrope', system-ui, sans-serif;
-    font-weight: 700;
-    color: var(--niveau-op-wit);
-  }
-  .uitkomst-tekst { color: var(--tekst-donker-zacht); font-size: 0.95rem; line-height: 1.6; }
-  .uitkomst-knop { justify-self: start; margin-top: 0.4rem; }
-  .uitkomst-noot {
-    font-size: 0.85rem;
+  .kaart-feiten dd {
+    margin: 0 0 0.6rem;
+    font-size: 0.92rem;
+    line-height: 1.55;
     color: var(--tekst-donker-zacht);
-    padding-top: 0.7rem;
-    margin-top: 0.3rem;
-    border-top: 1px solid var(--rand-licht);
+  }
+  .kaart-feiten dd:last-of-type { margin-bottom: 0; }
+
+  .kaart-link { justify-self: start; margin-top: 0.5rem; }
+
+  .keuze-noot {
+    margin: 0;
+    max-width: 68ch;
+    font-size: 0.85rem;
     line-height: 1.5;
+    color: var(--tekst-donker-zacht);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .antwoord, .niveaukaart, .kaart-vlag { transition: none; }
   }
 </style>
