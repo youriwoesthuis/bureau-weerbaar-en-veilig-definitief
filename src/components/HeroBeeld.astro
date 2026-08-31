@@ -1,74 +1,131 @@
 ---
 /**
- * De illustratie in de hero. Op agressievisie.nl staat daar een oplopende
- * staafgrafiek; hier zijn het drie oplopende treden in de drie
- * niveaukleuren, elk met de chevron uit het logo erop.
+ * De illustratie in de hero: de-escalatie in de eigen vormtaal.
  *
- * Dat doet twee dingen tegelijk: het vult de rechterhelft van de hero, en
- * het legt de kleurcode uit voordat iemand er een woord over leest.
- * Puur SVG, geen bestand, dus altijd scherp en geen extra verzoek.
+ * Hier stonden drie oplopende blokken in de niveaukleuren. Youri vond ze
+ * niet mooi, en hij had gelijk: op agressievisie.nl vertellen de oplopende
+ * staven een verhaal (escalatie die opbouwt, van grijs naar gloeiend), hier
+ * waren het drie productkleuren geworden — een staafdiagram zonder verhaal.
+ *
+ * Dit beeld tekent het omgekeerde, en dat is precies het werk: de chevron
+ * uit het logo, zes keer, van groot en heet naar klein en koel, tot hij op
+ * een rustlijn landt. De kleuren zijn de gemeten stops van het logoverloop
+ * (zie global.css, --verloop-merk) — de cascade loopt dus letterlijk door
+ * het logo heen. Elke trede heeft een lichtere echo erboven (diepte, en een
+ * verwijzing naar de dubbele chevron in het merkteken), en een gestippelde
+ * gidslijn verbindt de toppen: dezelfde afbuigende beweging als in de
+ * spanningscurve verderop.
+ *
+ * Beweging: de treden zweven traag en om en om, alsof er adem in zit.
+ * Uit bij prefers-reduced-motion.
  */
+
+/** De cascade: kleurstops uit het gemeten logoverloop, heet naar koel. */
+const TREDEN = [
+  { x: 96,  y: 74,  span: 118, dikte: 30, kleur: '#f28915' },
+  { x: 186, y: 138, span: 94,  dikte: 24, kleur: '#e58330' },
+  { x: 262, y: 194, span: 74,  dikte: 19, kleur: '#c77550' },
+  { x: 324, y: 242, span: 58,  dikte: 15, kleur: '#a2666a' },
+  { x: 372, y: 281, span: 44,  dikte: 12, kleur: '#75567f' },
+  { x: 408, y: 312, span: 32,  dikte: 9,  kleur: '#4f4a8a' },
+];
+
+/** Een chevron met de punt omlaag, gecentreerd op (x, y-top). */
+const chevron = (t: (typeof TREDEN)[number], schaal = 1) => {
+  const halve = (t.span / 2) * schaal;
+  const diepte = t.span * 0.42 * schaal;
+  return `M${t.x - halve} ${t.y} L${t.x} ${t.y + diepte} L${t.x + halve} ${t.y}`;
+};
+
+/** De gidslijn door de toppen, doorgetrokken naar de landing. */
+const gids = (() => {
+  const punten = TREDEN.map((t) => `${t.x} ${t.y + t.span * 0.42}`);
+  return `M${punten[0]} C ${punten.slice(1).join(', ')} , 452 344`;
+})();
 ---
 
-<svg class="herobeeld" viewBox="0 0 420 360" fill="none" aria-hidden="true" focusable="false">
+<svg class="herobeeld" viewBox="0 0 480 400" fill="none" aria-hidden="true" focusable="false">
   <defs>
-    <linearGradient id="hb-oranje" x1="0" y1="0" x2="0.3" y2="1">
-      <stop offset="0%" stop-color="#f6a03a" />
-      <stop offset="100%" stop-color="#e87e12" />
-    </linearGradient>
-    <linearGradient id="hb-paars" x1="0" y1="0" x2="0.3" y2="1">
-      <stop offset="0%" stop-color="#c49bb0" />
-      <stop offset="100%" stop-color="#8b5e76" />
-    </linearGradient>
-    <linearGradient id="hb-blauw" x1="0" y1="0" x2="0.3" y2="1">
-      <stop offset="0%" stop-color="#8fa2e6" />
-      <stop offset="100%" stop-color="#284191" />
-    </linearGradient>
-    <radialGradient id="hb-gloed" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0%" stop-color="#f18816" stop-opacity="0.30" />
+    <radialGradient id="hb-warmte" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#f18816" stop-opacity="0.28" />
       <stop offset="100%" stop-color="#f18816" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="hb-rust" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#4767cc" stop-opacity="0.16" />
+      <stop offset="100%" stop-color="#4767cc" stop-opacity="0" />
     </radialGradient>
   </defs>
 
-  <circle cx="300" cy="86" r="118" fill="url(#hb-gloed)" />
+  <!-- de hitte waar het begint, de rust waar het landt -->
+  <circle cx="96" cy="96" r="120" fill="url(#hb-warmte)" />
+  <circle cx="404" cy="330" r="86" fill="url(#hb-rust)" />
 
-  <!-- Trede 1: basis -->
-  <g class="trede trede-1">
-    <rect x="26" y="212" width="104" height="130" rx="16" fill="url(#hb-oranje)" />
-    <path d="M52 246 L78 268 L104 246 L104 262 L78 284 L52 262 Z" fill="#1a0d00" opacity="0.34" />
-  </g>
+  <!-- de afbuigende beweging, als stille onderlaag -->
+  <path d={gids} stroke="#8d6078" stroke-width="2" stroke-dasharray="1 9" stroke-linecap="round" opacity="0.45" />
 
-  <!-- Trede 2: gevorderd -->
-  <g class="trede trede-2">
-    <rect x="150" y="148" width="104" height="194" rx="16" fill="url(#hb-paars)" />
-    <path d="M176 186 L202 208 L228 186 L228 202 L202 224 L176 202 Z" fill="#241520" opacity="0.38" />
-  </g>
+  {TREDEN.map((t, i) => (
+    <g class={`trede trede-${i + 1}`}>
+      {/* de echo: de tweede chevron uit het merkteken, lichter en hoger */}
+      <path
+        d={chevron({ ...t, y: t.y - t.dikte * 1.05 }, 0.86)}
+        stroke={t.kleur}
+        stroke-width={t.dikte * 0.45}
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        opacity="0.30"
+      />
+      <path
+        d={chevron(t)}
+        stroke={t.kleur}
+        stroke-width={t.dikte}
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+    </g>
+  ))}
 
-  <!-- Trede 3: expert -->
-  <g class="trede trede-3">
-    <rect x="274" y="70" width="104" height="272" rx="16" fill="url(#hb-blauw)" />
-    <path d="M300 112 L326 134 L352 112 L352 128 L326 150 L300 128 Z" fill="#0d1330" opacity="0.42" />
-    <circle cx="326" cy="44" r="26" fill="#f18816" opacity="0.22" />
-    <circle cx="326" cy="44" r="12" fill="#f18816" />
+  <!-- de landing: een rustlijn en een kalme stip -->
+  <g class="landing">
+    <line x1="352" y1="360" x2="456" y2="360" stroke="#4767cc" stroke-width="7" stroke-linecap="round" opacity="0.75" />
+    <circle cx="456" cy="344" r="13" fill="#fff" stroke="#4767cc" stroke-width="3" opacity="0.9" />
+    <circle cx="456" cy="344" r="5.5" fill="#4767cc" />
   </g>
 </svg>
 
 <style>
   .herobeeld { width: 100%; height: auto; }
 
-  /* De treden komen één voor één omhoog bij het laden. Geen JavaScript,
-     en uit bij prefers-reduced-motion via de centrale regel in global.css. */
   @media (prefers-reduced-motion: no-preference) {
-    .trede {
-      animation: trede-op 700ms cubic-bezier(0.2, 0.8, 0.3, 1) both;
-      transform-origin: 50% 100%;
+    /* Binnenkomen: de treden vallen één voor één op hun plek. */
+    .trede, .landing {
+      animation: trede-in 640ms cubic-bezier(0.2, 0.8, 0.3, 1) both;
     }
-    .trede-1 { animation-delay: 60ms; }
-    .trede-2 { animation-delay: 180ms; }
-    .trede-3 { animation-delay: 300ms; }
+    .trede-1 { animation-delay: 40ms; }
+    .trede-2 { animation-delay: 130ms; }
+    .trede-3 { animation-delay: 220ms; }
+    .trede-4 { animation-delay: 310ms; }
+    .trede-5 { animation-delay: 400ms; }
+    .trede-6 { animation-delay: 490ms; }
+    .landing { animation-delay: 600ms; }
+
+    /* Daarna: traag ademen, om en om, steeds kleiner naarmate het rustiger
+       wordt — de hete kant beweegt, de kalme kant ligt bijna stil. */
+    .trede > path {
+      animation: trede-adem 6.5s ease-in-out infinite alternate;
+    }
+    .trede-1 > path { --adem: -7px; animation-delay: 0s; }
+    .trede-2 > path { --adem: 6px; animation-delay: 0.7s; }
+    .trede-3 > path { --adem: -5px; animation-delay: 1.4s; }
+    .trede-4 > path { --adem: 4px; animation-delay: 2.1s; }
+    .trede-5 > path { --adem: -3px; animation-delay: 2.8s; }
+    .trede-6 > path { --adem: 2px; animation-delay: 3.5s; }
   }
-  @keyframes trede-op {
-    from { opacity: 0; transform: translateY(18px) scaleY(0.82); }
+  @keyframes trede-in {
+    from { opacity: 0; transform: translateY(-14px); }
     to { opacity: 1; transform: none; }
+  }
+  @keyframes trede-adem {
+    from { transform: translateY(0); }
+    to { transform: translateY(var(--adem, -4px)); }
   }
 </style>
