@@ -441,14 +441,9 @@ const praktisch = [
        juist met een negatieve marge overheen moet vallen. Het sfeerlicht
        hieronder blijft daarom zelf binnen de grenzen van de sectie. */
   }
-  /* Zacht licht achter de illustratie, zodat het donkere vlak niet vlak oogt. */
-  .hero::before {
-    content: '';
-    position: absolute;
-    inset: 0 0 0 25%;
-    background: radial-gradient(46% 52% at 62% 38%, rgba(241, 136, 22, 0.15) 0%, transparent 72%);
-    pointer-events: none;
-  }
+  /* Hier stond een zacht oranje licht achter de illustratie. Uitgezet bij de
+     designreview van 31-08-2026 — dezelfde reden als de gloed-klasse: geen
+     pastelwaas op een site over agressie. */
 
   .hero-raster {
     display: grid;
@@ -466,12 +461,6 @@ const praktisch = [
 
   .hero-tekst { display: grid; gap: 1.35rem; justify-items: start; }
   .hero-kop { max-width: 16ch; }
-  .verloopwoord {
-    background: var(--verloop-merk);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-  }
   .hero-inleiding { max-width: 34rem; }
   .hero-knoppen { display: flex; flex-wrap: wrap; gap: 0.85rem; margin-top: 0.4rem; }
 

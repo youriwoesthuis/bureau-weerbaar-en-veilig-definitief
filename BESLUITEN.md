@@ -213,6 +213,26 @@ Geen van de negen heeft een matrix van beroepsgroep × niveau, geen van de negen
 heeft een echte drietrapsleerlijn, en bij twee bureaus is de trainingsacteur een
 betaalde optie. Dat zijn de drie dingen om overal te blijven zeggen.
 
+## 7f. Designreview (31-08-2026)
+
+Youri: "de uitstraling moet echt anders." Gemini-review met schermafdrukken
+(gesprek bda39bef45999022): de zachte SaaS-taal klopte niet bij het onderwerp
+en de koper. Youri koos: **eerst de snelle ingreep, daarna opnieuw kijken**.
+
+Doorgevoerd (de snelle ingreep): hoeken naar 2px, schaduwen uit, alle
+tekstverlopen effen oranje, pastelgloed en ruitjesraster uit, sfeerlicht en
+kleurwolken uit de hero, zweef-hovers vervangen door randkleuring. Details in
+DESIGN.md hoofdstuk 4.
+
+Nog open — **keuze van Youri**:
+
+- **Richting A, B of C** (tactische autoriteit / menselijke realiteit /
+  signaal & de-escalatie — zie DESIGN.md hoofdstuk 4). Pas na die keuze:
+  typografie, kleurbalans, herobeeld-herontwerp.
+- **Fotografie**: de aanbevolen beeldstrategie (training fotograferen, lege
+  werkplekken met lading, trainers in het veld) vraagt een fotograaf en een
+  trainingsdag om te fotograferen. Alleen Youri kan dat organiseren.
+
 ## 8. Nog open — heeft Youri nodig
 
 - Onderkop van de hero

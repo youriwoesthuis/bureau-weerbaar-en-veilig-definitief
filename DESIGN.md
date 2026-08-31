@@ -140,18 +140,43 @@ controlescript waarschuwt als dat niet klopt.
 
 ## 4. Vorm
 
+**Gekanteld op 31 augustus 2026** na een designreview met Gemini
+(gesprek bda39bef45999022, aangevraagd door Youri: "de uitstraling moet echt
+anders"). De diagnose: de zachte taal — afgeronde kaarten, zwevende schaduwen,
+pastelgloed, verlooptekst — las als een B2B-softwareproduct en steriliseerde
+een rauw onderwerp. Een site over agressie op de werkvloer oogde als een site
+over projectsoftware.
+
+De vormtaal is nu hard:
+
 | Token | Waarde | Waarvoor |
 |---|---|---|
-| `--hoek` | 12px | kaarten, panelen, invoervelden |
-| `--hoek-klein` | 8px | icoontegels |
-| `--hoek-groot` | 20px | het CTA-blok |
-| `--hoek-rond` | 999px | alle knoppen |
+| `--hoek` / `-klein` / `-groot` / `-rond` | 2px | alles — visueel een rechthoek |
+| `--schaduw-md/lg/donker` | none | de tokens bestaan nog, zodat niets stilletjes breekt |
 
-Schaduwen zijn zacht (`--schaduw-sm/md/lg`) in plaats van gekleurde
-gloedranden. Kaarten liften 3px bij hover.
+- Kaarten liggen plat en onderscheiden zich met hun 1px-rand; hover kleurt de
+  rand, niets lift of zweeft meer.
+- Tekstverlopen bestaan niet meer: `.verloopwoord` en de grote cijfers zijn
+  effen `--oranje-op-wit` (centraal in global.css, niet meer per pagina).
+- De pastelwazen zijn uit: `.gloed::after` en `.raster-achtergrond::before`
+  staan op `content: none`, het sfeerlicht in de homepage-hero en de twee
+  kleurwolken in het herobeeld zijn weg.
+- De knop-hover is een donkere stap (`filter: brightness`), geen lift met
+  oranje wolk.
 
-Hoeken van 4px lazen als een formulier; 12px leest als een kaart. Dat klinkt
-klein maar was een van de grootste zichtbare verschillen.
+De oude waarden (12/8/20/999px, zachte schaduwen) staan in de git-geschiedenis
+van vóór deze datum. De eerdere notitie "12px leest als een kaart" was waar
+binnen de oude, zachte taal; die taal zelf is nu verlaten.
+
+**Nog open: de richtingskeuze.** Gemini gaf drie richtingen — A tactische
+autoriteit (donkere basis, oranje als signaal), B menselijke realiteit
+(warme tinten, serif-koppen, documentaire fotografie), C signaal &
+de-escalatie (zwart-wit, oranje als markeerkleur). Youri koos eerst deze
+snelle ingreep; de richting komt daarna. Beeldstrategie voor straks:
+de training zelf fotograferen, lege werkplekken met lading, trainers als
+autoriteit — geen boze-mensen-stockfoto's. De spanningscurve blijft
+(strakker uitvoeren); het chevron-concept blijft, de zwevende uitvoering
+moet plat en geïntegreerd.
 
 ---
 

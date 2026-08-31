@@ -56,9 +56,10 @@ const gids = (() => {
     </radialGradient>
   </defs>
 
-  <!-- de hitte waar het begint, de rust waar het landt -->
-  <circle cx="96" cy="96" r="120" fill="url(#hb-warmte)" />
-  <circle cx="404" cy="330" r="86" fill="url(#hb-rust)" />
+  {/* Hier lagen twee zachte kleurwolken (warmte bij de start, rust bij de
+      landing). Uitgezet bij de designreview van 31-08-2026: de pastelwaas
+      maakte het beeld tot tech-illustratie. De gradients in defs blijven
+      staan tot er een definitieve richting is gekozen. */}
 
   <!-- de afbuigende beweging, als stille onderlaag -->
   <path d={gids} stroke="#8d6078" stroke-width="2" stroke-dasharray="1 9" stroke-linecap="round" opacity="0.45" />

@@ -176,12 +176,6 @@ const cijfers = [
     padding-block: clamp(1.5rem, 1rem + 2vw, 2.5rem) clamp(3rem, 2rem + 4vw, 5.5rem);
   }
   .kop-binnen { display: grid; gap: 1.25rem; justify-items: start; }
-  .verloopwoord {
-    background: var(--verloop-merk);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-  }
 
   .twee-kolom {
     display: grid;
@@ -211,9 +205,7 @@ const cijfers = [
     transition: border-color 180ms, box-shadow 180ms, transform 180ms;
   }
   .teamlid:hover {
-    border-color: transparent;
-    box-shadow: var(--schaduw-md);
-    transform: translateY(-2px);
+    border-color: var(--oranje-op-wit);
   }
   .teamlid:focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; }
 
