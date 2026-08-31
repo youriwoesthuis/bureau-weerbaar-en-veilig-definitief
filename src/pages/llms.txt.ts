@@ -90,8 +90,8 @@ doen met andere keuzes.
 
 - **Niveau-keuzehulp** (${basis}/#niveauhulp) — drie vragen over ervaring,
   aanleiding en deelnemers; de uitkomst is het hoogste niveau dat past.
-- **Beroepsgroepoverzicht** (${basis}/) — alle beroepsgroepen per sector, één
-  klik naar de juiste pagina.
+- **Beroepsgroepoverzicht** (${basis}/sectoren/) — alle beroepsgroepen per
+  sector, één klik naar de juiste pagina. In het menu heet dit "Voor wie".
 - **Filters op het trainingsoverzicht** (${basis}/trainingen/) — op niveau en
   op beginletter van de beroepsgroep.
 - **PDCA-cyclus** (${basis}/aanpak/) — de vier fasen van een traject, per fase

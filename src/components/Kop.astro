@@ -4,13 +4,13 @@ import { pad } from '../lib/site';
 const huidig = Astro.url.pathname.replace(import.meta.env.BASE_URL, '/').replace(/\/{2,}/g, '/');
 
 const menu = [
-  // "Beroepsgroepen" en niet "Sectoren": dat is de as waarop dit merk ordent
-  // en waar bezoekers op zoeken. De sectorindeling blijft de structuur ván
-  // die pagina, maar is niet het label. "Trainingen" staat er bewust niet
-  // meer bij — die lijst van 132 blijft bestaan en vindbaar, maar bezoekers
-  // gaan via beroepsgroep of niveau. Zie BESLUITEN.md hoofdstuk 6.
+  // "Voor wie" — keuze van Youri, 26-08-2026. Menselijker dan
+  // "Beroepsgroepen", en het menu is niet waar de vindbaarheid vandaan komt;
+  // de pagina erachter blijft op beroepsgroep en sector geordend.
+  // "Trainingen" staat er bewust niet bij — die lijst blijft bestaan en
+  // vindbaar, maar bezoekers gaan via beroepsgroep of niveau.
   { naam: 'Home', url: pad('/') },
-  { naam: 'Beroepsgroepen', url: pad('/sectoren/') },
+  { naam: 'Voor wie', url: pad('/sectoren/') },
   { naam: 'Niveaus', url: pad('/niveaus/') },
   { naam: 'Aanpak', url: pad('/aanpak/') },
   { naam: 'Over ons', url: pad('/over-ons/') },
