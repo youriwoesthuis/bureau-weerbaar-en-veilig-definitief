@@ -3,6 +3,7 @@ import { getCollection } from 'astro:content';
 import Basis from '../../layouts/Basis.astro';
 import Kruimels from '../../components/Kruimels.astro';
 import Chevron from '../../components/Chevron.astro';
+import Trainingsdag from '../../components/Trainingsdag.astro';
 import Cta from '../../components/Cta.astro';
 import { NIVEAUS, NIVEAU_INFO, FEITEN, pad, type Niveau } from '../../lib/site';
 import { paginaTitel, description } from '../../lib/seo';
@@ -73,6 +74,28 @@ const anders = NIVEAUS.filter((n) => n !== niveau);
         <div class="feit"><dt>Groepsgrootte</dt><dd>{groepsgrootte}</dd></div>
         <div class="feit"><dt>Trainingen</dt><dd>per beroepsgroep</dd></div>
       </dl>
+    </div>
+  </section>
+
+  {/* De dagindeling, met indicatieve dagdelen. Expert krijgt een eigen
+      opbouw: dat is een werksessie over beleid en teamnorm, geen oefendag.
+      Vastgesteld met Youri op 26-08-2026. */}
+  <section class="sectie sectie-aansluitend op-wit">
+    <div class="omhulsel">
+      <div class="kop-blok">
+        <p class="bovenkop">Zo verloopt de dag</p>
+        {niveau === 'expert' ? (
+          <h2>Een werksessie, geen oefendag</h2>
+        ) : (
+          <h2>Een dag met een vast ritme</h2>
+        )}
+        <p class="inleiding">
+          {niveau === 'expert'
+            ? 'Op dit niveau wordt er niet geoefend maar besloten: jullie eigen beleid en meldingen liggen op tafel, en de dag eindigt met afspraken die vastliggen.'
+            : 'Het ritme is overal hetzelfde; wat er in de blokken gebeurt komt uit de meldingen van je eigen team.'}
+        </p>
+      </div>
+      <Trainingsdag variant={niveau === 'expert' ? 'expert' : 'oefen'} />
     </div>
   </section>
 

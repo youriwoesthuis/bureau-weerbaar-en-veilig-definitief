@@ -82,9 +82,9 @@ De volledige uitleg staat op ${basis}/aanpak/.
 
 **Trainingsacteurs.** Bij elke training speelt een trainingsacteur mee. Die is
 onderdeel van het team, geen losse ingehuurde kracht en geen optie tegen
-meerprijs. Een acteur speelt de casus uit de meldingen van het team zelf, kan de druk stap voor stap opvoeren
-of terugnemen, en maakt het mogelijk dezelfde situatie meerdere keren over te
-doen met andere keuzes.
+meerprijs. Een acteur speelt de casus uit de meldingen van het team zelf, en
+een oefengesprek kan in het moment worden stilgezet, bijgestuurd en opnieuw
+gedaan — dezelfde situatie meerdere keren, met andere keuzes.
 
 ## Hulpmiddelen op de site
 

@@ -1,13 +1,15 @@
 ---
 naam: Youri Woesthuis
-rol: Businesspartner Klant & Kwaliteit
+rol: Commercie en strategie
 foto:
   src: /images/team/youri-woesthuis.jpg
-  alt: Portretfoto van Youri Woesthuis, businesspartner Klant en Kwaliteit
+  alt: Portretfoto van Youri Woesthuis, commercie en strategie
 volgorde: 3
 ---
 
-"Ik hou me dagelijks bezig met het verbeteren van de klantbeleving en de kwaliteit
-van onze dienstverlening. Concreet betekent dat: goed luisteren naar wat klanten
-ervaren, analyseren wat daar structureel beter kan en zorgen dat die inzichten
-landen binnen het team en de organisatie."
+Youri is degene die je spreekt als je een aanvraag doet. Hij luistert naar
+wat er speelt, bewaakt de kwaliteit van wat we leveren en zorgt dat wat
+deelnemers en opdrachtgevers teruggeven ook echt landt in de trainingen.
+
+"Goed luisteren naar wat er speelt, analyseren wat daar structureel beter
+kan, en zorgen dat die inzichten landen in het team en de organisatie."

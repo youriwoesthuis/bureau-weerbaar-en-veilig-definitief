@@ -120,6 +120,27 @@ eruit.** Niet opnieuw voorstellen. De uitwerking staat voor de zekerheid in
 een git-stash ("vluchtplan-uitwerking"); De Weerbaarheidsladder blijft het
 model.
 
+## 7b. Dagindeling en acteur (vastgesteld 26-08-2026)
+
+- **Indicatieve dagdelen, geen kloktijden.** Ochtend/middag als etiket; een
+  tijd op de site is een toezegging.
+- **De acteur "voert de druk niet op."** De kern is het oefengesprek dat in
+  het moment wordt stilgezet en bijgestuurd, en opnieuw gedaan met andere
+  keuzes. Deze formulering is overal doorgevoerd; de oude
+  ("druk opvoeren of terugnemen") mag niet terugkomen.
+- **Wanneer de acteur op de dag aanschuift wisselt per opdracht** — daar
+  zegt de site dus niets over. Wél blijft staan dat de acteur standaard
+  onderdeel is van elke training.
+- **Expert is een werksessie, geen oefendag**: eigen dagopbouw (analyse,
+  protocol toetsen, teamnorm, borging) op /niveaus/expert/.
+
+## 7c. Teamfoto's (26-08-2026)
+
+Elf portretten overgenomen van actinmove.nl/over-ons en de bio's herschreven
+voor dit merk (Act in Move-aanbod als MatriX en yoga eruit). **Claudia van
+Mechelen heeft op de bron alleen een plaatshouder-avatar** en houdt daarom de
+initiaaltegel — echte foto nog aanleveren.
+
 ## 8. Nog open — heeft Youri nodig
 
 - Onderkop van de hero

@@ -121,7 +121,19 @@ const cijfers = [
       <div class="teamlijst">
         {leden.map((lid, i) => (
           <article class="teamlid onthul" data-niveau={niveaus[i % 3]}>
-            <div class="tegel" aria-hidden="true">{initialen(lid.data.naam)}</div>
+            {lid.data.foto ? (
+              <div class="portret">
+                <img
+                  src={pad(lid.data.foto.src)}
+                  alt={lid.data.foto.alt}
+                  width="683"
+                  height="1024"
+                  loading="lazy"
+                />
+              </div>
+            ) : (
+              <div class="tegel" aria-hidden="true">{initialen(lid.data.naam)}</div>
+            )}
             <div class="teamlid-tekst">
               <h3>{lid.data.naam}</h3>
               <p class="rol">{lid.data.rol}</p>
@@ -204,7 +216,34 @@ const cijfers = [
     align-items: start;
   }
 
-  /* Initiaaltegel: vult de plek van een portret zonder er een te suggereren. */
+  .portret {
+    position: relative;
+    width: clamp(6rem, 5rem + 3vw, 7.5rem);
+    aspect-ratio: 3 / 4;
+    flex: none;
+    border-radius: var(--hoek);
+    overflow: hidden;
+    border: 1px solid var(--rand-licht);
+    background: linear-gradient(160deg, var(--mist-100), var(--wit));
+  }
+  .portret img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: saturate(0.94) contrast(1.03);
+  }
+  /* Warme was over elke foto: trekt de onderling verschillende
+     achtergronden en belichting naar één toon. */
+  .portret::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(160deg, rgba(241, 136, 22, 0.10), rgba(79, 74, 138, 0.08));
+    mix-blend-mode: multiply;
+    pointer-events: none;
+  }
+
+  /* Initiaaltegel: voor wie (nog) geen foto heeft. */
   .tegel {
     display: grid;
     place-items: center;

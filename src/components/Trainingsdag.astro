@@ -3,68 +3,114 @@ import Icoon from './Icoon.astro';
 import { FEITEN, pad } from '../lib/site';
 
 /**
- * De trainingsdag als tijdlijn. Laat zien dat een dag een opbouw heeft en
- * geen verzameling losse oefeningen is.
+ * De trainingsdag als tijdlijn, met indicatieve dagdelen.
  *
- * De blokken zijn het vaste ritme van een dag zoals dat op /aanpak/ staat:
- * korte theorieblokken, veel oefenen, een acteur die meespeelt, en afsluiten
- * met wat er maandag anders gaat. De inhoud van die blokken verschilt per
- * beroepsgroep — dat staat in het programma-veld van elke training, en de
- * link onderaan wijst daarheen. Er staan bewust geen kloktijden bij: die
- * zijn niet vastgesteld en zouden een toezegging zijn.
+ * Vastgesteld met Youri (26-08-2026):
+ * - Dagdelen als etiket (ochtend/middag), géén kloktijden — een tijd op de
+ *   site is een toezegging die elke opdracht moet waarmaken.
+ * - De acteur "voert de druk niet op". De kern van het oefenen is het
+ *   oefengesprek dat je in het moment kunt stilzetten en bijsturen, en
+ *   opnieuw kunt doen met andere keuzes. Het aparte drukopbouw-blok is
+ *   daarom samengevoegd met het oefenblok.
+ * - Wanneer de acteur op de dag aanschuift wisselt per opdracht, dus daar
+ *   zegt dit blok niets over.
+ * - Expert verloopt echt anders: een werksessie over beleid en teamnorm,
+ *   geen oefendag. Vandaar de tweede variant.
  */
+interface Props {
+  variant?: 'oefen' | 'expert';
+}
+const { variant = 'oefen' } = Astro.props;
 
-const BLOKKEN = [
+type Blok = {
+  dagdeel: string;
+  icoon: Parameters<typeof Icoon>[0]['naam'];
+  kop: string;
+  tekst: string;
+  apart?: boolean;
+};
+
+const OEFEN: Blok[] = [
   {
-    id: 'intake',
-    naam: 'Vooraf',
-    icoon: 'gesprek' as const,
+    dagdeel: 'Vooraf',
+    icoon: 'gesprek',
     kop: 'De intake',
     tekst:
       'Wat er is gebeurd, hoe vaak het voorkomt en wat het team al heeft geprobeerd. Hieruit volgen het niveau en de situaties waarmee geoefend wordt.',
     apart: true,
   },
   {
-    id: 'openen',
-    naam: 'Start',
-    icoon: 'team' as const,
+    dagdeel: 'Ochtend',
+    icoon: 'team',
     kop: 'Wat brengt iedereen mee',
     tekst:
       'De dag begint bij de deelnemers zelf: wat maakten zij mee, waar liepen zij vast. Dat bepaalt waar het zwaartepunt van de dag komt te liggen.',
   },
   {
-    id: 'theorie',
-    naam: 'Kort',
-    icoon: 'signaleren' as const,
+    dagdeel: 'Ochtend',
+    icoon: 'signaleren',
     kop: 'Theorie in korte blokken',
     tekst:
       'Geen college. Alleen wat je nodig hebt om de oefening erna te kunnen doen: signalen herkennen, en het verschil tussen gedrag dat je begrijpt en gedrag dat je begrenst.',
   },
   {
-    id: 'oefenen',
-    naam: 'Kern',
-    icoon: 'oefenen' as const,
-    kop: 'Oefenen met de eigen praktijk',
+    dagdeel: 'Ochtend en middag',
+    icoon: 'oefenen',
+    kop: 'Oefengesprekken met de acteur',
     tekst:
-      'Het grootste deel van de dag. Dezelfde situatie mag meerdere keren over, met andere keuzes, tot het gedrag zit — niet tot de theorie is uitgelegd.',
+      'Het grootste deel van de dag. Een gesprek kan in het moment worden stilgezet en bijgestuurd, en dezelfde situatie mag opnieuw — met andere keuzes, tot het gedrag zit.',
   },
   {
-    id: 'acteur',
-    naam: 'Kern',
-    icoon: 'grens' as const,
-    kop: 'De acteur voert de druk op',
-    tekst:
-      'Een trainingsacteur speelt de casus uit de meldingen van het team zelf, en kan de druk stap voor stap opvoeren of terugnemen. Die speelt standaard mee.',
-  },
-  {
-    id: 'afsluiten',
-    naam: 'Slot',
-    icoon: 'beleid' as const,
+    dagdeel: 'Slot van de dag',
+    icoon: 'beleid',
     kop: 'Wat gaat maandag anders',
     tekst:
       'De dag eindigt met afspraken die concreet genoeg zijn om na te komen. Wat daarna in de praktijk gebeurt, is waar het echte verschil valt.',
   },
 ];
+
+/** Expert is een werksessie, geen oefendag. Inhoud komt uit de programma's
+ *  van de expert-trainingen zelf; er is niets bij verzonnen. */
+const EXPERT: Blok[] = [
+  {
+    dagdeel: 'Vooraf',
+    icoon: 'gesprek',
+    kop: 'Intake en werkmateriaal',
+    tekst:
+      'Wat er is gebeurd, en wat er al ligt: het bestaande beleid, de meldingen en wat het team eerder probeerde. Dat is op deze dag het werkmateriaal.',
+    apart: true,
+  },
+  {
+    dagdeel: 'Ochtend',
+    icoon: 'signaleren',
+    kop: 'Waar staat het team nu',
+    tekst:
+      'Analyse van meldingsdata, beleid en cultuur: wat wordt er gemeld, wat blijft liggen, en waar wringt het tussen papier en praktijk.',
+  },
+  {
+    dagdeel: 'Ochtend',
+    icoon: 'grens',
+    kop: 'Het protocol langs de praktijk',
+    tekst:
+      'Werkt het gedragsprotocol ook op een drukke dinsdagmiddag? Toetsen, aanscherpen, en schrappen wat in de praktijk niet gebruikt wordt.',
+  },
+  {
+    dagdeel: 'Middag',
+    icoon: 'team',
+    kop: 'Teamnorm en escalatiestructuur',
+    tekst:
+      'Vastleggen wat wel en niet geaccepteerd wordt, wie wat doet als het misgaat, en hoe collega’s na een ernstig incident worden begeleid.',
+  },
+  {
+    dagdeel: 'Slot van de dag',
+    icoon: 'beleid',
+    kop: 'Borging en nazorg',
+    tekst:
+      'Afspraken zo vastleggen dat ze blijven staan als de trainer weg is: de meldroute, de nazorg en het moment waarop het team opnieuw kijkt.',
+  },
+];
+
+const BLOKKEN = variant === 'expert' ? EXPERT : OEFEN;
 ---
 
 <div class="dag">
@@ -72,19 +118,27 @@ const BLOKKEN = [
     {BLOKKEN.map((b) => (
       <li class:list={['dag-blok', { 'dag-vooraf': b.apart }]}>
         <span class="dag-icoon"><Icoon naam={b.icoon} breedte={20} /></span>
-        <span class="dag-fase">{b.naam}</span>
+        <span class="dag-fase">{b.dagdeel}</span>
         <h3 class="h4">{b.kop}</h3>
         <p>{b.tekst}</p>
       </li>
     ))}
   </ol>
 
-  <p class="dag-voet">
-    Elke training duurt {FEITEN.duur} en telt {FEITEN.groepsgrootte}. Het ritme
-    is overal hetzelfde; wat er in de blokken gebeurt verschilt per beroepsgroep.
-    <a href={pad('/sectoren/')}>Zoek je beroep op</a> om te zien wat er dan op het
-    programma staat.
-  </p>
+  {variant === 'expert' ? (
+    <p class="dag-voet">
+      Niveau expert duurt {FEITEN.duur} en telt {FEITEN.groepsgrootteExpert}: het
+      is een werksessie met de mensen die over beleid gaan, geen oefendag. De
+      dagdelen zijn indicatief.
+    </p>
+  ) : (
+    <p class="dag-voet">
+      Elke training duurt {FEITEN.duur} en telt {FEITEN.groepsgrootte}. De
+      dagdelen zijn indicatief: het ritme ligt vast, de casuïstiek komt uit
+      jullie eigen meldingen. <a href={pad('/sectoren/')}>Zoek je beroep op</a> om
+      te zien wat er dan op het programma staat.
+    </p>
+  )}
 </div>
 
 <style>
@@ -98,7 +152,7 @@ const BLOKKEN = [
     gap: clamp(0.75rem, 0.5rem + 1vw, 1.1rem);
   }
   @media (min-width: 700px) { .dag-lijn { grid-template-columns: repeat(2, 1fr); } }
-  @media (min-width: 1080px) { .dag-lijn { grid-template-columns: repeat(6, 1fr); } }
+  @media (min-width: 1080px) { .dag-lijn { grid-template-columns: repeat(5, 1fr); } }
 
   .dag-blok {
     position: relative;
