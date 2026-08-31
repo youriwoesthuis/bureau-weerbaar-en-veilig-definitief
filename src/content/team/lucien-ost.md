@@ -4,6 +4,7 @@ rol: Trainingsacteur en co-trainer
 foto:
   src: /images/team/lucien-ost.jpg
   alt: Portretfoto van Lucien Ost, trainingsacteur en co-trainer
+linkedin: https://www.linkedin.com/in/lucien-ost-4689b021/
 volgorde: 5
 ---
 

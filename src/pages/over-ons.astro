@@ -118,24 +118,30 @@ const cijfers = [
         </p>
       </div>
 
+      {/* Alleen foto en naam; het verhaal klapt uit. Keuze van Youri
+          (31-08-2026): rustig overzicht eerst, doorklikken om te lezen.
+          <details> werkt zonder JavaScript. De achtergrond van de foto's is
+          in de merkkleuren gezet met scripts/team-foto.mjs. */}
       <div class="teamlijst">
         {leden.map((lid, i) => (
-          <article class="teamlid onthul" data-niveau={niveaus[i % 3]}>
-            {lid.data.foto ? (
-              <div class="portret">
+          <details class="teamlid onthul" data-niveau={niveaus[i % 3]}>
+            <summary>
+              {lid.data.foto ? (
                 <img
+                  class="portret"
                   src={pad(lid.data.foto.src)}
                   alt={lid.data.foto.alt}
-                  width="683"
-                  height="1024"
+                  width="750"
+                  height="1000"
                   loading="lazy"
                 />
-              </div>
-            ) : (
-              <div class="tegel" aria-hidden="true">{initialen(lid.data.naam)}</div>
-            )}
-            <div class="teamlid-tekst">
-              <h3>{lid.data.naam}</h3>
+              ) : (
+                <span class="tegel" aria-hidden="true">{initialen(lid.data.naam)}</span>
+              )}
+              <span class="teamlid-naam">{lid.data.naam}</span>
+              <span class="teamlid-hint" aria-hidden="true"></span>
+            </summary>
+            <div class="teamlid-meer">
               <p class="rol">{lid.data.rol}</p>
               <div class="leestekst teamlid-body"><lid.Inhoud /></div>
               {lid.data.linkedin && (
@@ -145,7 +151,7 @@ const cijfers = [
                 </a>
               )}
             </div>
-          </article>
+          </details>
         ))}
       </div>
     </div>
@@ -201,74 +207,109 @@ const cijfers = [
 
   .teamlijst {
     display: grid;
-    gap: clamp(1rem, 0.8rem + 1vw, 1.6rem);
-    grid-template-columns: repeat(auto-fit, minmax(min(100%, 20rem), 1fr));
-  }
-
-  .teamlid {
-    display: grid;
-    grid-template-columns: auto minmax(0, 1fr);
-    gap: 1.1rem;
-    padding: clamp(1.1rem, 1rem + 0.6vw, 1.6rem);
-    background: var(--wit);
-    border: 1px solid var(--rand-licht);
-    border-radius: var(--hoek);
+    gap: clamp(0.85rem, 0.6rem + 1vw, 1.25rem);
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 10.5rem), 1fr));
     align-items: start;
   }
 
-  .portret {
-    position: relative;
-    width: clamp(6rem, 5rem + 3vw, 7.5rem);
-    aspect-ratio: 3 / 4;
-    flex: none;
+  .teamlid {
+    background: var(--wit);
+    border: 1px solid var(--rand-licht);
     border-radius: var(--hoek);
     overflow: hidden;
-    border: 1px solid var(--rand-licht);
-    background: linear-gradient(160deg, var(--mist-100), var(--wit));
+    transition: border-color 180ms, box-shadow 180ms, transform 180ms;
   }
-  .portret img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    filter: saturate(0.94) contrast(1.03);
+  .teamlid:not([open]):hover {
+    border-color: transparent;
+    box-shadow: var(--schaduw-md);
+    transform: translateY(-2px);
   }
-  /* Warme was over elke foto: trekt de onderling verschillende
-     achtergronden en belichting naar één toon. */
-  .portret::after {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(160deg, rgba(241, 136, 22, 0.10), rgba(79, 74, 138, 0.08));
-    mix-blend-mode: multiply;
-    pointer-events: none;
+  /* Een open kaart mag breder ogen: hij spant de hele rij. */
+  .teamlid[open] { grid-column: 1 / -1; }
+
+  .teamlid summary {
+    list-style: none;
+    cursor: pointer;
+    display: grid;
+    gap: 0.55rem;
+    padding-bottom: 0.9rem;
+  }
+  .teamlid summary::-webkit-details-marker { display: none; }
+  .teamlid summary:focus-visible { outline: 3px solid var(--focus); outline-offset: -3px; }
+
+  .teamlid[open] summary {
+    grid-template-columns: auto minmax(0, 1fr) auto;
+    align-items: center;
+    padding: 0.9rem 1.1rem;
+    border-bottom: 1px solid var(--rand-licht);
   }
 
-  /* Initiaaltegel: voor wie (nog) geen foto heeft. */
+  .portret {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 3 / 4;
+    object-fit: cover;
+    display: block;
+  }
+  .teamlid[open] .portret {
+    width: 3.25rem;
+    border-radius: var(--hoek-klein);
+  }
+
   .tegel {
     display: grid;
     place-items: center;
-    width: 3.5rem;
-    height: 3.5rem;
-    flex: none;
-    border-radius: var(--hoek);
-    background: color-mix(in oklab, var(--niveau-op-wit) 22%, var(--mist-100));
-    border: 1px solid color-mix(in oklab, var(--niveau-op-wit) 45%, transparent);
+    width: 100%;
+    aspect-ratio: 3 / 4;
+    background: color-mix(in oklab, var(--niveau-op-wit) 14%, var(--mist-100));
     color: var(--niveau-op-wit);
     font-family: 'Manrope', system-ui, sans-serif;
-    font-size: 1.15rem;
+    font-size: 1.6rem;
     font-weight: 700;
-    letter-spacing: 0.02em;
   }
+  .teamlid[open] .tegel { width: 3.25rem; aspect-ratio: 1; border-radius: var(--hoek-klein); font-size: 1rem; }
 
-  .teamlid-tekst { display: grid; gap: 0.3rem; }
-  .teamlid h3 { font-size: 1.1rem; }
+  .teamlid-naam {
+    font-family: 'Manrope', system-ui, sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    letter-spacing: -0.01em;
+    color: var(--tekst-donker);
+    text-align: center;
+    padding-inline: 0.5rem;
+  }
+  .teamlid[open] .teamlid-naam { text-align: left; padding-inline: 0; font-size: 1.1rem; }
+
+  /* plus- dan wel sluitteken, puur als hint */
+  .teamlid-hint {
+    justify-self: center;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    border: 1px solid var(--rand-licht);
+    color: var(--tekst-donker-zacht);
+    display: grid;
+    place-items: center;
+    font-size: 0.95rem;
+    line-height: 1;
+  }
+  .teamlid-hint::before { content: '+'; }
+  .teamlid[open] .teamlid-hint { justify-self: end; }
+  .teamlid[open] .teamlid-hint::before { content: '\2212'; }
+
+  .teamlid-meer {
+    display: grid;
+    gap: 0.5rem;
+    padding: 1rem 1.1rem 1.25rem;
+    justify-items: start;
+  }
   .rol {
     font-family: 'Manrope', system-ui, sans-serif;
     font-size: 0.85rem;
     font-weight: 600;
     color: var(--niveau-op-wit);
   }
-  .teamlid-body { font-size: 0.92rem; color: var(--tekst-donker-zacht); margin-top: 0.4rem; }
+  .teamlid-body { font-size: 0.95rem; color: var(--tekst-donker-zacht); }
   .teamlid-body :global(p + p) { margin-top: 0.8em; }
 
   .adresblok {

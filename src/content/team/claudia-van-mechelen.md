@@ -1,8 +1,10 @@
 ---
-# Geen foto: de bron (actinmove.nl) heeft voor Claudia alleen een
-# plaatshouder-avatar, en een neppe foto is erger dan geen foto.
 naam: Claudia van Mechelen
 rol: Trainer en trainingsacteur
+foto:
+  src: /images/team/claudia-van-mechelen.jpg
+  alt: Portretfoto van Claudia van Mechelen, trainer en trainingsacteur
+linkedin: https://www.linkedin.com/in/claudia-van-mechelen-91200122/
 volgorde: 9
 ---
 

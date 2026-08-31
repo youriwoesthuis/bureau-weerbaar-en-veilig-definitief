@@ -4,6 +4,7 @@ rol: Office en communicatie
 foto:
   src: /images/team/eline-mol.jpg
   alt: Portretfoto van Eline Mol, office en communicatie
+linkedin: https://www.linkedin.com/in/eline-mol-70aa9b225/
 volgorde: 11
 ---
 

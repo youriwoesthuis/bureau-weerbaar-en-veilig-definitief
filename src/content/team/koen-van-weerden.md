@@ -4,6 +4,7 @@ rol: Trainingsacteur
 foto:
   src: /images/team/koen-van-weerden.jpg
   alt: Portretfoto van Koen van Weerden, trainingsacteur
+linkedin: https://www.linkedin.com/in/koen-van-weerden-178bba102/
 volgorde: 6
 ---
 

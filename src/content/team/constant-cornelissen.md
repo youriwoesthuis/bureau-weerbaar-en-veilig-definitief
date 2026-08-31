@@ -4,6 +4,7 @@ rol: Trainingsacteur
 foto:
   src: /images/team/constant-cornelissen.jpg
   alt: Portretfoto van Constant Cornelissen, trainingsacteur
+linkedin: https://www.linkedin.com/in/constant-cornelissen-2a69849/
 volgorde: 4
 ---
 

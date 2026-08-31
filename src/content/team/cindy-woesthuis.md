@@ -4,6 +4,7 @@ rol: Algemeen directeur en coach
 foto:
   src: /images/team/cindy-woesthuis.jpg
   alt: Portretfoto van Cindy Woesthuis, algemeen directeur en coach
+linkedin: https://www.linkedin.com/in/cindy-woesthuis-620998332/
 volgorde: 2
 ---
 

@@ -4,6 +4,7 @@ rol: Operationeel directeur en trainer
 foto:
   src: /images/team/jeroen-woesthuis.jpg
   alt: Portretfoto van Jeroen Woesthuis, operationeel directeur en trainer
+linkedin: https://www.linkedin.com/in/jeroen-woesthuis-0794099/
 volgorde: 1
 ---
 

@@ -4,6 +4,7 @@ rol: Commercie en strategie
 foto:
   src: /images/team/youri-woesthuis.jpg
   alt: Portretfoto van Youri Woesthuis, commercie en strategie
+linkedin: https://www.linkedin.com/in/youriwoesthuis-actinmove/
 volgorde: 3
 ---
 

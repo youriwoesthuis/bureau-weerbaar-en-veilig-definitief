@@ -4,6 +4,7 @@ rol: Trainingsacteur
 foto:
   src: /images/team/sandra-den-dulk.jpg
   alt: Portretfoto van Sandra den Dulk, trainingsacteur
+linkedin: https://www.linkedin.com/in/sandra-den-dulk-113b2a110/
 volgorde: 8
 ---
 

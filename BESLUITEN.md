@@ -136,17 +136,14 @@ model.
 
 ## 7c. Teamfoto's (26-08-2026)
 
-Elf portretten overgenomen van actinmove.nl/over-ons en de bio's herschreven
-voor dit merk (Act in Move-aanbod als MatriX en yoga eruit). **Claudia van
-Mechelen heeft op de bron alleen een plaatshouder-avatar** en houdt daarom de
-initiaaltegel — echte foto nog aanleveren.
+Alle twaalf portretten staan erop. De achtergronden zijn met scripts/team-foto.mjs vervangen door een verloop in de merkkleuren (uitsnijden met RMBG-1.4, lokaal via WASM). Claudia bleek wel een echte foto te hebben: het "plaatshouder"-bestand was een greenscreen-portret. LinkedIn-links staan erin voor iedereen behalve Marieke van Leeuwen — die ontbreekt nog.
 
 ## 8. Nog open — heeft Youri nodig
 
 - Onderkop van de hero
 - Verzenddienst voor het contactformulier (sleutel)
 - KvK-naam en -nummer voor `legalName`
-- LinkedIn-URL's van de teamleden
+- LinkedIn-URL van Marieke van Leeuwen (de andere elf staan erin)
 - Keuzemenu op het gedeelde telefoonnummer (Youri bouwt dit)
 - Wanneer het domein live gaat (nu nog een WordPress-wachtpagina)
 

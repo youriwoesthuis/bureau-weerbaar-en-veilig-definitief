@@ -4,6 +4,7 @@ rol: Trainer, spreker en dagvoorzitter
 foto:
   src: /images/team/tineke-van-sleen.jpg
   alt: Portretfoto van Tineke van Sleen, trainer
+linkedin: https://www.linkedin.com/in/tevansleen/
 volgorde: 10
 ---
 
