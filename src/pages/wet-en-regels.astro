@@ -233,6 +233,47 @@ const schema = [faqSchema(vragen)].filter(Boolean);
     </div>
   </section>
 
+  <section class="sectie op-wit">
+    <div class="omhulsel">
+      <div class="kop-blok">
+        <p class="bovenkop">Voor de interne aanvraag</p>
+        <h2>Zo leg je het uit aan de directie of de OR</h2>
+        <p class="rie-inleiding">
+          Wie intern budget of een besluit moet vragen, heeft zelden behoefte
+          aan een verkoopverhaal. Deze passage is te knippen en aan te passen
+          aan de eigen situatie.
+        </p>
+      </div>
+      <div class="rie-blok">
+        <p class="rie-tekst">
+          Uit de risico-inventarisatie en -evaluatie blijkt dat medewerkers in
+          [functie] te maken kunnen krijgen met agressie of geweld. Dat valt
+          onder psychosociale arbeidsbelasting, waarvoor de werkgever op grond
+          van de Arbeidsomstandighedenwet beleid moet voeren en maatregelen moet
+          vaststellen en uitvoeren. De Nederlandse Arbeidsinspectie handhaaft op
+          twee punten: zijn er toereikende maatregelen, en hebben de
+          medewerkers die het risico lopen voorlichting en onderricht gehad. Wij
+          stellen voor om naast [de organisatorische maatregelen die al lopen]
+          een incompany praktijktraining in te zetten voor [aantal] medewerkers,
+          in groepen van maximaal tien, van elk een dag, geoefend met een
+          trainingsacteur en opgebouwd rond situaties uit onze eigen meldingen.
+          De training komt als maatregel met termijn in het plan van aanpak.
+        </p>
+      </div>
+      <p class="rie-voetnoot">
+        Bewust zonder rendementscijfers of percentages: die zijn voor dit
+        onderwerp niet vastgesteld, en een getal dat niet klopt maakt een
+        aanvraag zwakker in plaats van sterker. De bepalingen waarnaar deze
+        passage verwijst staan hierboven:
+        <a href={pad('/wet-en-regels/#arbowet-artikel-3-tweede-lid')}>artikel 3 lid 2</a>,
+        <a href={pad('/wet-en-regels/#arbowet-artikel-5-eerste-en-derde-lid')}>artikel 5</a>,
+        <a href={pad('/wet-en-regels/#arbowet-artikel-8')}>artikel 8</a> en
+        <a href={pad('/wet-en-regels/#arbobesluit-artikel-2-15-eerste-en-tweede-lid')}>Arbobesluit 2.15</a>.
+        Een voorbeeldformulering, geen juridisch advies.
+      </p>
+    </div>
+  </section>
+
   <section class="sectie op-licht">
     <div class="omhulsel">
       <div class="kop-blok">
@@ -354,6 +395,26 @@ const schema = [faqSchema(vragen)].filter(Boolean);
 </Basis>
 
 <style>
+  .rie-inleiding { max-width: 56ch; color: var(--tekst-donker-zacht); }
+  .rie-blok {
+    max-width: 68ch;
+    padding: clamp(1.1rem, 0.9rem + 0.8vw, 1.75rem);
+    background: var(--mist-50);
+    border: 1px solid var(--rand-licht);
+    border-radius: var(--hoek);
+  }
+  .rie-tekst {
+    margin: 0;
+    font-size: 0.95rem;
+    line-height: 1.7;
+    color: var(--tekst-donker);
+  }
+  .rie-voetnoot {
+    margin-top: 0.85rem;
+    max-width: 68ch;
+    font-size: 0.85rem;
+    color: var(--tekst-donker-zacht);
+  }
   .artikel {
     scroll-margin-top: clamp(4.5rem, 4rem + 3vw, 7rem);
   }
