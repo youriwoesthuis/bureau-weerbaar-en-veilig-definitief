@@ -513,6 +513,60 @@ gevorderd niveau"), dat is gelijkgetrokken.
 
 **Stand:** 217 pagina's, nul fouten.
 
+## 7m. Paginaronde stap 5: aanpak, kosten en wet en regels (31-08-2026)
+
+**Het dagritme stond vier keer op de site.** Gemini's eerste oordeel was dat
+/aanpak/ ruim twee keer zo lang is als nodig en dat zowel het dagritme als het
+groeimodel weg moest. Gemeten: van de 1943 woorden stonden er 207 letterlijk
+elders, en die 207 waren integraal het dagritmeblok, woord voor woord gelijk
+aan wat op de drie niveaupagina's staat. Het groeimodel bleek honderd procent
+uniek. Advies over het groeimodel ingetrokken; dat is bovendien het model waar
+de hele positionering op rust.
+
+Eigenaarschap van het dagritme gaat naar de drie niveaupagina's, niet naar
+/aanpak/. Reden: daar landt iemand die op niveau zoekt, het is daar het meest
+concrete blok van de pagina, en zonder dat blok houden die pagina's te weinig
+eigen inhoud over. Op /aanpak/ staan nu drie regels die het ritme samenvatten
+en doorverwijzen. Uitkomst: /aanpak/ van 11 procent naar 2 procent dubbele
+tekst, en 1864 woorden die vrijwel allemaal alleen daar staan.
+
+**De zes vergelijkingsvragen op de kostenpagina hebben nu een eigen antwoord.**
+Die vragen leerden een inkoper waar hij op moest letten en lieten hem daarna
+zelf uitzoeken hoe wij ervoor staan. Onder elke vraag staat nu wat er bij ons
+gebeurt: de acteur bij elke training zonder meerprijs, maximaal tien
+deelnemers, de dag opgebouwd rond de casuistiek uit de intake, en een offerte
+met een totaalbedrag waarin reiskosten en voorbereiding verwerkt zitten.
+
+Bij "hoeveel uur wordt er echt geoefend" wilde Gemini schrijven dat de
+theorieblokken maximaal vijftien tot twintig minuten duren. Dat ligt nergens
+vast en is dus verzonnen. Er staat wat wel waar is: het oefenen beslaat het
+grootste deel van de dag en de theorie staat in korte blokken, alleen waar die
+een oefening voorbereidt.
+
+**Wet en regels semantisch gemarkeerd.** De citaten stonden al in een
+blockquote, maar zonder `cite`-attribuut, zonder `<cite>` bij de bron en met
+datums die alleen voor mensen leesbaar waren. Toegevoegd: het bronattribuut per
+citaat, `<cite>` om de vindplaats, en `<time datetime>` om de datum van de
+werkinstructie en de datum waarop de wetsteksten zijn overgenomen.
+
+Elk artikel heeft nu ook een eigen anker, afgeleid van de bron, dus
+`/wet-en-regels/#arbowet-artikel-3-eerste-lid-onder-b`. Het RI&E-blok op de
+132 trainingspagina's en de kopieerbare passage op de 44 beroepsgroeppagina's
+verwijzen daar rechtstreeks naar. Een preventiemedewerker landt zo op de
+bepaling zelf in plaats van bovenaan een lange pagina.
+
+Het aantal bepalingen stond als woord in de lopende tekst ("Zes bepalingen") en
+liep meteen achter toen het zevende artikel erbij kwam. Dat telt nu de lijst.
+
+**Gemini stelde voor de tweede keer iets voor dat er al stond**, namelijk de
+psychologische veiligheid tijdens het oefenen met de acteur. Op de vraag wat ik
+anders kan aanleveren kwam een bruikbaar antwoord: koppen alleen zijn te
+abstract, want "Waarom er iemand meespeelt" verraadt niet dat veiligheid,
+stopregel en de rol van de acteur daar al in staan. Vanaf nu krijgt hij per kop
+tussen haakjes mee welke deelvragen daar al beantwoord zijn. Dat is goedkoper
+dan hele pagina's doorsturen en voorkomt dat er adviezen komen voor gaten die
+er niet zijn.
+
 ## 8. Nog open — heeft Youri nodig
 
 - Onderkop van de hero

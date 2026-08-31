@@ -60,31 +60,37 @@ const vergelijken = [
     kop: 'Zit de trainingsacteur erbij?',
     tekst:
       'En zo ja, voor hoeveel dagdelen? Bij sommige aanbieders is de acteur een aparte post op de factuur. Dat maakt twee offertes met hetzelfde bedrag onvergelijkbaar.',
+    bijons: 'Bij elke training, op elk niveau, zonder meerprijs.',
   },
   {
     kop: 'Hoe groot is de groep?',
     tekst:
       'Een dagprijs zegt weinig zonder het aantal deelnemers. Bij tien mensen oefent iedereen; bij vijftien kijkt een deel toe.',
+    bijons: 'Maximaal tien deelnemers. Een groter team wordt over meerdere groepen verdeeld.',
   },
   {
     kop: 'Hoeveel uur wordt er echt geoefend?',
     tekst:
       'Vraag naar de verhouding tussen theorie en oefenen, en naar het aantal oefengesprekken per deelnemer. Daar zit het verschil, niet in het aantal dagdelen.',
+    bijons: 'Het oefenen beslaat het grootste deel van de dag. De theorie staat in korte blokken en alleen waar die een oefening voorbereidt.',
   },
   {
     kop: 'Wordt jullie eigen casuïstiek gebruikt?',
     tekst:
       'Situaties uit de eigen meldingen en de eigen praktijk, of standaardscenario’s die voor elke opdrachtgever hetzelfde zijn? Vraag om een voorbeeld.',
+    bijons: 'De dag wordt opgebouwd rond de situaties die in de intake worden opgehaald.',
   },
   {
     kop: 'Wat gebeurt er vóór en na de dag?',
     tekst:
       'Is er een intake, en wat is er afgesproken over wat het team daarna met de afspraken doet? Een losse dag zonder vervolg verandert zelden iets.',
+    bijons: 'Een intake vooraf, en de dag eindigt met afspraken die het team zelf maakt. Op verzoek volgt een terugkombijeenkomst.',
   },
   {
     kop: 'Wat komt er nog bij?',
     tekst:
       'Reiskosten, voorbereidingsuren, materiaal, maatwerktoeslag. Vraag om een totaalbedrag, niet om een dagtarief.',
+    bijons: 'De offerte noemt één totaalbedrag. Reiskosten en voorbereiding zitten daarin verwerkt.',
   },
 ];
 
@@ -192,6 +198,7 @@ const schema = [faqSchema(vragen)].filter(Boolean);
             <span class="kaart-icoon"><Icoon naam="vinkje" /></span>
             <h3>{v.kop}</h3>
             <p>{v.tekst}</p>
+            <p class="bij-ons"><strong>Bij ons</strong> {v.bijons}</p>
           </article>
         ))}
       </div>
@@ -211,6 +218,20 @@ const schema = [faqSchema(vragen)].filter(Boolean);
 </Basis>
 
 <style>
+  .bij-ons {
+    margin-top: 0.85rem;
+    padding-top: 0.75rem;
+    border-top: 1px solid var(--rand-zacht, rgba(0, 0, 0, 0.12));
+    font-size: 0.9rem;
+    line-height: 1.55;
+  }
+  .bij-ons strong {
+    display: block;
+    font-size: 0.74rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-bottom: 0.2rem;
+  }
   .kop-tekst {
     max-width: 46ch;
     color: var(--tekst-donker-zacht);

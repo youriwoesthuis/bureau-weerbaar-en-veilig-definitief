@@ -100,6 +100,20 @@ const artikelen = [
     url: 'https://wetten.overheid.nl/BWBR0010346#Hoofdstuk3_Artikel13',
   },
 ];
+// Het aantal bepalingen stond eerst als woord in de tekst en liep achter zodra
+// er een artikel bij kwam. Nu volgt het de lijst.
+// Een stabiel anker per artikel, zodat andere pagina's naar de bepaling zelf
+// kunnen linken (/wet-en-regels/#arbowet-artikel-3-eerste-lid-onder-b) en niet
+// alleen naar de pagina. Afgeleid van de bron, dus het loopt nooit uit de pas.
+const anker = (bron: string) =>
+  bron
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-|-$/g, '');
+
+const TELWOORDEN = ['Geen', 'Een', 'Twee', 'Drie', 'Vier', 'Vijf', 'Zes', 'Zeven', 'Acht', 'Negen', 'Tien'];
+const aantalArtikelen = TELWOORDEN[artikelen.length] ?? String(artikelen.length);
+
 
 const nietVerplicht = [
   {
@@ -194,16 +208,20 @@ const schema = [faqSchema(vragen)].filter(Boolean);
         <p class="bovenkop">De artikelen</p>
         <h2>Waar het in de wet staat</h2>
         <p class="kop-tekst">
-          Zes bepalingen, letterlijk overgenomen van wetten.overheid.nl. Handig
+          {aantalArtikelen} bepalingen, letterlijk overgenomen van wetten.overheid.nl. Handig
           om te citeren in een plan van aanpak of een aanvraag voor budget.
         </p>
       </div>
       <div class="artikelen">
         {artikelen.map((a, i) => (
-          <article class="artikel onthul" data-niveau={['basis', 'gevorderd', 'expert'][i % 3]}>
-            <p class="artikel-bron">{a.bron}</p>
+          <article
+            class="artikel onthul"
+            id={anker(a.bron)}
+            data-niveau={['basis', 'gevorderd', 'expert'][i % 3]}
+          >
+            <p class="artikel-bron"><cite>{a.bron}</cite></p>
             <h3>{a.kop}</h3>
-            <blockquote>{a.citaat}</blockquote>
+            <blockquote cite={a.url}>{a.citaat}</blockquote>
             <p>{a.uitleg}</p>
             <a href={a.url} class="pijllink" rel="noopener">
               Lees het artikel
@@ -247,7 +265,7 @@ const schema = [faqSchema(vragen)].filter(Boolean);
         </p>
         <p class="bronregel">
           Bron: <a href="https://www.nlarbeidsinspectie.nl/publicaties/richtlijnen/2025/02/19/werkinstructie-agressie-en-geweld" rel="noopener">Werkinstructie Agressie en geweld</a>,
-          Nederlandse Arbeidsinspectie, 19 februari 2025. Zie ook
+          Nederlandse Arbeidsinspectie, <time datetime="2025-02-19">19 februari 2025</time>. Zie ook
           <a href="https://www.arboportaal.nl/onderwerpen/agressie-en-geweld/wat-zegt-de-wet-over-agressie-op-de-werkvloer" rel="noopener">Arboportaal</a>.
         </p>
       </div>
@@ -322,7 +340,7 @@ const schema = [faqSchema(vragen)].filter(Boolean);
     <div class="omhulsel">
       <Vragen vragen={vragen} kop="Vragen over wet en regels" groep="wetvragen" />
       <p class="voetnoot">
-        De wetsteksten op deze pagina zijn op 31 augustus 2026 overgenomen van
+        De wetsteksten op deze pagina zijn op <time datetime="2026-08-31">31 augustus 2026</time> overgenomen van
         wetten.overheid.nl. Wetten veranderen; raadpleeg bij twijfel de bron.
         Dit is algemene informatie, geen juridisch advies.
       </p>
@@ -336,6 +354,9 @@ const schema = [faqSchema(vragen)].filter(Boolean);
 </Basis>
 
 <style>
+  .artikel {
+    scroll-margin-top: clamp(4.5rem, 4rem + 3vw, 7rem);
+  }
   .kop-tekst {
     max-width: 52ch;
     color: var(--tekst-donker-zacht);
