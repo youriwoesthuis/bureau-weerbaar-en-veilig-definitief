@@ -41,6 +41,8 @@ export const GET: APIRoute = async ({ site }) => {
 
 > ${SITE.beschrijving}
 
+Volledige sitecontext in één bestand: ${basis}/llms-full.txt
+
 ${SITE.naam} is een Nederlands trainingsbureau dat uitsluitend agressietraining
 verzorgt. Het aanbod is geordend op beroepsgroep en niveau: elke beroepsgroep
 heeft een eigen training in de niveaus basis, gevorderd en expert. Het merk
@@ -58,6 +60,22 @@ ordent bewust niet op verschijningsvorm — dat doet Act in Move.
 - Telefoon: ${SITE.telefoon}
 - E-mail: ${SITE.email}
 - Bereikbaar: ${SITE.openingstijden}
+- Prijsmodel: offerte op maat. Bepalend zijn het aantal groepen, het niveau,
+  de reisafstand en de omvang van het traject. De trainingsacteur is altijd
+  inbegrepen; er zijn geen prijzen op de site gepubliceerd.
+
+## Begrippen van dit bureau
+
+- **De Weerbaarheidsladder** — het niveaumodel van Bureau Weerbaar en Veilig:
+  basis (herkennen), gevorderd (begrenzen), expert (borgen). De niveaus
+  verschillen in bereik: basis en gevorderd gaan over het eigen handelen,
+  expert over de organisatie eromheen.
+- **De spanningscurve** — het fasemodel (rustig, irritatie, spanning,
+  escalatie, nasleep) waarmee het bureau uitlegt dat er per fase iets anders
+  werkt, en dat vroeg ingrijpen de curve afbuigt.
+- **Oefengesprek** — de kern van de trainingsdag: een gesprek met de
+  trainingsacteur dat in het moment kan worden stilgezet, bijgestuurd en
+  opnieuw gedaan met andere keuzes.
 
 ## De Weerbaarheidsladder: de drie niveaus
 

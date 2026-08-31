@@ -8,7 +8,7 @@ import TrainingKaart from '../../../../components/TrainingKaart.astro';
 import Vragen from '../../../../components/Vragen.astro';
 import Cta from '../../../../components/Cta.astro';
 import { FEITEN, pad } from '../../../../lib/site';
-import { paginaTitel, description, kortenaam, faqSchema } from '../../../../lib/seo';
+import { paginaTitel, description, kortenaam, faqSchema, ids } from '../../../../lib/seo';
 
 export async function getStaticPaths() {
   const beroepsgroepen = await getCollection('beroepsgroepen');
@@ -47,7 +47,33 @@ const kruimels = [
 
 // De vragen staan per beroepsgroep in de content en verschillen dus per
 // pagina. Een gekopieerde FAQ zou de 44 pagina's juist inwisselbaar maken.
-const schema = [faqSchema(d.veelgestelde_vragen)].filter(Boolean);
+//
+// Service + OfferCatalog (SEO/GEO-review 31-08-2026): de hubpagina is een
+// dienstencategorie en hangt zo als catalogus aan de organisatie. Bewust
+// zonder prijzen — die zijn er niet.
+const siteUrl = new URL(import.meta.env.BASE_URL, Astro.site).href;
+const paginaUrl = new URL(Astro.url.pathname, Astro.site).href;
+const dienstSchema = {
+  '@type': 'Service',
+  '@id': `${paginaUrl}#dienst`,
+  name: `Agressietraining voor ${d.naam.toLowerCase()}`,
+  serviceType: 'agressietraining',
+  provider: { '@id': ids(siteUrl).organisatie },
+  areaServed: { '@type': 'Country', name: 'Nederland' },
+  hasOfferCatalog: {
+    '@type': 'OfferCatalog',
+    name: `Niveaus voor ${d.naam.toLowerCase()}`,
+    itemListElement: eigen.map((t2) => ({
+      '@type': 'Offer',
+      itemOffered: {
+        '@type': 'Course',
+        name: t2.data.titel,
+        url: new URL(pad(`/trainingen/${t2.data.slug}/`), Astro.site).href,
+      },
+    })),
+  },
+};
+const schema = [dienstSchema, faqSchema(d.veelgestelde_vragen)].filter(Boolean);
 ---
 
 <Basis

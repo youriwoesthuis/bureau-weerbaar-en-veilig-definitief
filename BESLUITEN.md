@@ -138,6 +138,23 @@ model.
 
 Alle twaalf portretten staan erop, en elk teamlid heeft een eigen pagina onder /team/ — het overzicht op /over-ons/ toont alleen foto en naam (keuze Youri, 31-08-2026: uitklappen in het raster oogde rommelig). De achtergronden zijn met scripts/team-foto.mjs vervangen door een verloop in de merkkleuren (uitsnijden met RMBG-1.4, lokaal via WASM). Claudia bleek wel een echte foto te hebben: het "plaatshouder"-bestand was een greenscreen-portret. LinkedIn-links staan erin voor iedereen behalve Marieke van Leeuwen — die ontbreekt nog.
 
+## 7d. SEO/GEO-ronde (31-08-2026, tweede Gemini-review)
+
+Doorgevoerd: merknaam altijd in de titel (controleer meet voortaan de kern
+voor het achtervoegsel), robots.txt uitgebreid met de live-antwoordbots
+(ChatGPT-User, OAI-SearchBot, Claude-User, Perplexity-User, Bingbot,
+Applebot, CCBot, Meta-ExternalAgent, Amazonbot), Service+OfferCatalog op de
+beroepsgroeppagina's, vergelijkingstabel op /niveaus/ (een plek, geen 44
+kopieen), vraagvorm-koppen op de trainingspagina's, llms.txt met eerlijk
+prijskader en eigen begrippen, en een gegenereerde llms-full.txt (152 kB
+volledige sitecontext).
+
+**Bewust afgewezen uit het advies:** Offer met price "0" (suggereert
+gratis), het ABCD-model (gebruiken wij niet), "officieel erkend
+certificaat" en kloktijden/lesuren (verzonnen), sitemap hernoemen (de
+index-URL is juist). Een echt Offer-blok kan pas als er een echte
+vanaf-prijs is.
+
 ## 8. Nog open — heeft Youri nodig
 
 - Onderkop van de hero

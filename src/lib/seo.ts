@@ -63,8 +63,11 @@ const TITEL_MAX = 60;
  * Uniciteit komt van de kern, niet van het achtervoegsel.
  */
 export function paginaTitel(kern: string) {
-  const compleet = `${kern}${TITEL_ACHTERVOEGSEL}`;
-  return compleet.length <= TITEL_MAX ? compleet : kern;
+  // Merknaam altijd erbij (SEO/GEO-review 31-08-2026): AI-systemen en Google
+  // koppelen de dienst dan hard aan de entiteit. Wordt het geheel langer dan
+  // 60 tekens, dan kapt Google het achtervoegsel af — de kern blijft heel.
+  // controleer.mjs meet daarom de kern, niet het geheel.
+  return `${kern}${TITEL_ACHTERVOEGSEL}`;
 }
 
 /** Titel van een trainingspagina: niveau vooraan houdt de drie niveaus

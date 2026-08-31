@@ -97,8 +97,11 @@ for (const [url, { html }] of paginas) {
   if (!canonical && !noindex) fout(url, 'geen canonical');
 
   if (titelTekst) {
-    if (titelTekst.length > 60) {
-      waarschuw(url, `titel ${titelTekst.length} tekens (streef ≤60): "${titelTekst}"`);
+    // De merknaam staat sinds 31-08-2026 altijd achteraan; Google kapt die
+    // netjes af. We meten dus de kern vóór " | ".
+    const kern = titelTekst.split(' | ')[0];
+    if (kern.length > 60) {
+      waarschuw(url, `titelkern ${kern.length} tekens (streef ≤60): "${kern}"`);
     }
     if (!noindex) {
       if (titels.has(titelTekst)) fout(url, `titel is niet uniek, ook op ${titels.get(titelTekst)}`);

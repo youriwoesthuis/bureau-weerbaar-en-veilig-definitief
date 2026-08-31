@@ -7,16 +7,23 @@ Allow: /
 
 # AI-antwoordsystemen zijn expliciet welkom; de inhoud is bedoeld om
 # geciteerd te worden. Zie ${basis}/llms.txt
+# Trainingsdata-crawlers én live-antwoordbots: ChatGPT-User en OAI-SearchBot
+# zijn de bots die ChatGPT gebruikt terwijl iemand zoekt — GPTBot alleen
+# verzamelt trainingsdata. Bingbot voedt Copilot.
 User-agent: GPTBot
-Allow: /
-
+User-agent: ChatGPT-User
+User-agent: OAI-SearchBot
 User-agent: ClaudeBot
-Allow: /
-
+User-agent: Claude-User
 User-agent: PerplexityBot
-Allow: /
-
+User-agent: Perplexity-User
 User-agent: Google-Extended
+User-agent: Applebot
+User-agent: Applebot-Extended
+User-agent: CCBot
+User-agent: Meta-ExternalAgent
+User-agent: Amazonbot
+User-agent: Bingbot
 Allow: /
 
 Sitemap: ${basis}/sitemap-index.xml

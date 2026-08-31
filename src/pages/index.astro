@@ -25,7 +25,7 @@ const team = await getCollection('team');
 
 // Eerste zin noemt de merknaam één keer, zodat een AI-antwoord de bron kan
 // aanwijzen. Daarna "je". Zie BESLUITEN.md hoofdstuk 5.
-const openingsantwoord = `Bureau Weerbaar en Veilig verzorgt uitsluitend agressietraining, opgebouwd per beroepsgroep en in drie niveaus. Je team traint met situaties uit het eigen werk, niet met algemene voorbeelden. Elke training duurt ${FEITEN.duur}, telt ${FEITEN.groepsgrootte} en wordt bij jullie op locatie gegeven, met een trainingsacteur erbij.`;
+const openingsantwoord = `Bureau Weerbaar en Veilig is een Nederlands trainingsbureau dat uitsluitend incompany agressietraining verzorgt, opgebouwd per beroepsgroep en in drie niveaus (de Weerbaarheidsladder). Je team traint met situaties uit het eigen werk, niet met algemene voorbeelden. Elke training duurt ${FEITEN.duur}, telt ${FEITEN.groepsgrootte} en wordt bij jullie op locatie gegeven, met een trainingsacteur erbij.`;
 
 const verschillen = [
   {
@@ -119,9 +119,9 @@ const praktisch = [
 ---
 
 <Basis
-  titel={paginaTitel('Agressietraining per beroepsgroep en niveau')}
+  titel={paginaTitel('Incompany agressietraining per beroepsgroep')}
   description={description(
-    `Bureau Weerbaar en Veilig verzorgt uitsluitend agressietraining, per beroepsgroep en in drie niveaus. Altijd bij jullie op locatie, ${FEITEN.duur}, ${FEITEN.groepsgrootte}.`,
+    `Bureau Weerbaar en Veilig verzorgt uitsluitend incompany agressietraining, per beroepsgroep en in drie niveaus. ${FEITEN.duur}, ${FEITEN.groepsgrootte}, trainingsacteur inbegrepen. Vraag een offerte aan.`,
   )}
   niveau="basis"
   kruimels={[{ naam: 'Home', url: pad('/') }]}
