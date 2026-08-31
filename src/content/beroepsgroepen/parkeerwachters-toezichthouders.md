@@ -7,6 +7,7 @@ samenvatting: >-
   toezichthouders in de openbare ruimte in drie niveaus. Van spanning zien
   oplopen en veilig afbreken (basis) tot omsingeling en georganiseerde
   intimidatie (gevorderd) en veiligheidsbeleid voor solo-werk (expert).
+kern: "In uniform alleen op straat, met een bon die niemand wil en een telefoon gericht"
 veelgestelde_vragen:
   - vraag: "Hoe leren medewerkers inschatten of een gebied veilig is?"
     antwoord: "Door het expliciet te maken. Er zijn wijken waar de vijandigheid structureel is en waar hetzelfde gezicht elke week terugkomt. Dat gebied inschatten voordat je uitstapt, is een vaardigheid die je kunt oefenen."

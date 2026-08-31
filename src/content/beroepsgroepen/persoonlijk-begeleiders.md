@@ -8,6 +8,7 @@ samenvatting: >-
   één-op-één begeleiding (basis) tot grensvervaging en ontspoorde
   begeleidingsrelaties (gevorderd) en beleid rond intensieve
   begeleidingsrelaties (expert).
+kern: "De relatie is intensief en één-op-één: de cliënt weet precies wat bij jou werkt"
 veelgestelde_vragen:
   - vraag: "Gaat de training over grensvervaging in een langdurige relatie?"
     antwoord: "Ja, dat is hier het hoofdonderwerp. De intensiteit van de band is de kracht van het werk en tegelijk het risico: een cliënt weet precies wat bij jou werkt en welke grens hij kan opzoeken."

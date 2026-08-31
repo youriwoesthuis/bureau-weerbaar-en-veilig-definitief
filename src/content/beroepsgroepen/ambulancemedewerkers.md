@@ -7,6 +7,7 @@ samenvatting: >-
   ambulancemedewerkers in drie niveaus. Van agressie ter plaatse
   de-escaleren (basis) tot instrumenteel gedrag en duo-afspraken
   (gevorderd) en organisatiebeleid en nazorg (expert).
+kern: "Aankomen op een onvoorbereide plek, met paniekerige familie en omstanders die filmen"
 veelgestelde_vragen:
   - vraag: "Wordt er geoefend met omstanders die filmen?"
     antwoord: "Ja. Meekijkend en filmend publiek verandert hoe een inzet verloopt en hoort daarom bij de casuïstiek, niet als bijzaak maar als onderdeel van de situatie zelf."

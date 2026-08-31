@@ -7,6 +7,7 @@ samenvatting: >-
   drie niveaus. Van het herkennen en de-escaleren van agressie op de winkelvloer
   (basis) tot omgaan met terugkerende overlastgevers (gevorderd) en het
   agressiebeleid van de vestiging (expert, voor leidinggevenden).
+kern: "Alleen werken in een open ruimte tussen de klanten, met direct klantcontact"
 veelgestelde_vragen:
   - vraag: "Onze mensen werken vaak alleen in hun deel van de winkel. Wordt daarop getraind?"
     antwoord: "Ja. Alleen werken in een open ruimte tussen de klanten is de uitgangspositie van deze beroepsgroep, en dat bepaalt wat wel en niet verstandig is om te doen."

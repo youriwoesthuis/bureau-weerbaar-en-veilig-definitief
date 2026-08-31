@@ -8,6 +8,7 @@ samenvatting: >-
   agressierisico’s van een adviserende rol (basis) tot georganiseerde
   familiedruk en juridische dreiging (gevorderd) en beleid dat
   professionele autonomie beschermt (expert).
+kern: "Adviseren over gedrag zonder zeggenschap over de uitvoering, en de reactie opvangen"
 veelgestelde_vragen:
   - vraag: "Wij adviseren, maar voeren de zorg niet uit. Is deze training dan passend?"
     antwoord: "Juist daarom. De training gaat over standhouden bij een professioneel advies terwijl je geen directe zeggenschap hebt over de uitvoering: precies de positie waarin een gedragsdeskundige zit."

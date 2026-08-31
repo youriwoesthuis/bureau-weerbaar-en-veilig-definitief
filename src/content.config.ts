@@ -49,6 +49,11 @@ const beroepsgroepen = defineCollection({
     slug: z.string(),
     sector: z.string(),
     samenvatting: z.string(),
+    /* Eenregelige typering van wat agressie bij dit beroep bijzonder maakt.
+       Staat op de sectorpagina achter de naam, zodat een bezoeker zijn eigen
+       beroepsgroep herkent zonder door te klikken. Gedestilleerd uit de body,
+       niet nieuw bedacht. */
+    kern: z.string().optional(),
     veelgestelde_vragen: vragen,
   }),
 });

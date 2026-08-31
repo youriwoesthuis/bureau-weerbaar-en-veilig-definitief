@@ -8,6 +8,7 @@ samenvatting: >-
   zonder escalatie en seksuele intimidatie benoemen (basis) tot
   groepsdynamiek en zware intoxicatie (gevorderd) en normen en meldcultuur
   op locatie (expert).
+kern: "De gast is koning, en juist dat maakt weigeren en begrenzen zo moeilijk"
 veelgestelde_vragen:
   - vraag: "Bij ons is de gast koning. Hoe stel je dan een grens?"
     antwoord: "Dat spanningsveld is het kernonderwerp. Wie een alcoholweigering uitspreekt of iemand aanspreekt op gedrag, gaat in tegen de gastvrijheidsnorm waarop het werk is gebouwd. Dat kan, maar het vraagt oefening en steun van de leiding."

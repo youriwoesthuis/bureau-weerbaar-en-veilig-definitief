@@ -119,7 +119,7 @@ const schema = [faqSchema(contactVragen)].filter(Boolean);
     <div class="omhulsel kop-binnen">
       <Kruimels kruimels={kruimels} />
       <p class="bovenkop">Contact</p>
-      <h1 class="display">Vertel wat<br /><span class="verloopwoord">er speelt</span></h1>
+      <h1 class="display">Vertel wat <br /><span class="verloopwoord">er speelt</span></h1>
       <p class="openingsantwoord">{openingsantwoord}</p>
     </div>
   </section>
@@ -266,8 +266,8 @@ const schema = [faqSchema(contactVragen)].filter(Boolean);
         <div class="gegevensblok" data-niveau="gevorderd">
           <h2 class="h4">Bezoekadres</h2>
           <address>
-            {SITE.adres.straat}<br />
-            {SITE.adres.postcode} {SITE.adres.plaats}<br />
+            {SITE.adres.straat} <br />
+            {SITE.adres.postcode} {SITE.adres.plaats} <br />
             {SITE.adres.provincie}
           </address>
           <p class="klein">Trainingen vinden altijd plaats op jullie eigen locatie.</p>

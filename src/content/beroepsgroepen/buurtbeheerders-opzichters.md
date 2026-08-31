@@ -8,6 +8,7 @@ samenvatting: >-
   aanspreken op overlast (basis) tot structurele intimidatie in de wijk
   (gevorderd) en veiligheidsbeleid voor solo-werk in de buitenruimte
   (expert).
+kern: "Werken zonder balie of kantoor in de straat, en dezelfde huurder blijf je tegenkomen"
 veelgestelde_vragen:
   - vraag: "Onze beheerders komen dezelfde huurder daarna nog tientallen keren tegen. Wat betekent dat?"
     antwoord: "Dat begrenzen hier langer doorwerkt dan bij een eenmalige confrontatie. Wie iemand aanspreekt op overlast, moet dat kunnen doen op een manier die de weken erna nog houdbaar is."

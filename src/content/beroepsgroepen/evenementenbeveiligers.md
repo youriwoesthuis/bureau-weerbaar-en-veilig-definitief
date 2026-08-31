@@ -7,6 +7,7 @@ samenvatting: >-
   evenementenbeveiligers in drie niveaus. Van de-escaleren bij bezoekers
   onder invloed (basis) tot groepsdynamiek en crowd control (gevorderd) en
   risicoanalyse en teambriefing (expert).
+kern: "Bezoekers onder invloed en een conflict dat binnen een minuut een groep meeneemt"
 veelgestelde_vragen:
   - vraag: "Wordt er als team geoefend of individueel?"
     antwoord: "Vooral als team. Bij evenementen bepaalt gecoördineerd optreden of een conflict tussen twee personen beperkt blijft of binnen een minuut een groep meeneemt."

@@ -8,6 +8,7 @@ samenvatting: >-
   de-escaleren (basis) tot strategische weigeraars en onveilige
   huisbezoeken (gevorderd) en veiligheidsbeleid voor huisbezoeken
   (expert).
+kern: "Binnenkomen op het slechtste moment van iemands jaar, en toch tot een regeling komen"
 veelgestelde_vragen:
   - vraag: "Onze behandelaars moeten toch tot een regeling komen. Verandert dat de aanpak?"
     antwoord: "Ja. Een gesprek dat moet eindigen in een afspraak is iets anders dan een gesprek dat je mag beëindigen. De training gaat over begrenzen zonder de regeling onmogelijk te maken."

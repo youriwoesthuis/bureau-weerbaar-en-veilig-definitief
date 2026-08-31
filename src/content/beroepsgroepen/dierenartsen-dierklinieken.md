@@ -7,6 +7,7 @@ samenvatting: >-
   medewerkers van dierklinieken in drie niveaus. Van rouw en woede bij
   eigenaren hanteren (basis) tot langdurige conflicten en online campagnes
   (gevorderd) en beleid rond de zorgrelatie en reputatie (expert).
+kern: "Het welzijn van een huisdier raakt diep, en het conflict loopt door in reviews"
 veelgestelde_vragen:
   - vraag: "Conflicten lopen bij ons door via reviews en sociale media. Hoort dat bij de training?"
     antwoord: "Ja. De nasleep is voor deze sector kenmerkend: een conflict in de spreekkamer kan maanden doorlopen online en juridisch. Dat is een apart onderwerp."

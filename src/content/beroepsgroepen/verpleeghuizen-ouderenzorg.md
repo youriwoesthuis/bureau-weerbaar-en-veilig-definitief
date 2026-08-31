@@ -8,6 +8,7 @@ samenvatting: >-
   dementie begrijpen en begrenzen (basis) tot ernstig fysiek verzet op
   PG-afdelingen (gevorderd) en veiligheidsbeleid op afdelingsniveau
   (expert).
+kern: "Agressie die uit de ziekte komt onderscheiden van familie die bewust intimideert"
 veelgestelde_vragen:
   - vraag: "Hoe gaat de training om met het verschil tussen ziektegebonden en begrensbaar gedrag?"
     antwoord: "Dat onderscheid is de kern. Een bewoner met dementie die slaat reageert op angst, pijn of onbegrip; een familielid dat intimideert doet dat vaak bewust. Het eerste vraagt begrip van de belevingswereld, het tweede een grens."

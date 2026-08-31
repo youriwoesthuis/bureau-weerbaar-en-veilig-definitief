@@ -7,6 +7,7 @@ samenvatting: >-
   baliemedewerkers in drie niveaus. Van het de-escaleren van conflicten aan
   kassa en balie (basis) tot omgaan met bekende probleemklanten (gevorderd) en
   het versterken van protocol en meldcultuur (expert, voor leidinggevenden).
+kern: "Niet weg kunnen van je werkplek, met een wachtrij als publiek"
 veelgestelde_vragen:
   - vraag: "Onze medewerkers kunnen niet weglopen van de kassa. Houdt de training daar rekening mee?"
     antwoord: "Ja. Alle scenario’s gaan daarvan uit. Wie vastzit aan zijn werkplek heeft andere opties dan wie kan weglopen, en dat bepaalt welke technieken bruikbaar zijn."

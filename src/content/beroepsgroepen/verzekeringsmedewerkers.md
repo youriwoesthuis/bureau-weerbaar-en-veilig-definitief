@@ -8,6 +8,7 @@ samenvatting: >-
   agressie na een afgewezen claim de-escaleren (basis) tot manipulatie
   rond schadeclaims en fraudeweigering (gevorderd) en beleid rond
   grensoverschrijdend klantgedrag (expert).
+kern: "Een claim afwijzen bij iemand die zijn bezit en de verwachte dekking tegelijk kwijt is"
 veelgestelde_vragen:
   - vraag: "Wordt de fraudevraag behandeld?"
     antwoord: "Ja. Een afwijzing die de klant als beschuldiging ervaart, maakt een gesprek onmiddellijk scherp. Hoe je twijfel benoemt zonder iemand weg te zetten, is een aparte vaardigheid."

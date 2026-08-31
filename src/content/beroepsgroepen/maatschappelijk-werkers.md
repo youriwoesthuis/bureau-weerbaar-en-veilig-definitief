@@ -8,6 +8,7 @@ samenvatting: >-
   hulpverleningsrelatie (basis) tot manipulatie en grensvervaging in
   langdurige trajecten (gevorderd) en een agressieprotocol dat past bij de
   hulpverleningsnorm (expert).
+kern: "De eigen beroepshouding, doorgaan en begrijpen, maakt stoppen het moeilijkst"
 veelgestelde_vragen:
   - vraag: "Waarom richt de training zich ook op de professional zelf?"
     antwoord: "Omdat het risico niet alleen bij de cliënt ligt. Het zit ook in de eigen beroepshouding: doorgaan, begrijpen, niet opgeven. Precies die houding maakt het moeilijk om op tijd te stoppen."

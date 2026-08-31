@@ -7,6 +7,7 @@ samenvatting: >-
   justitiële jeugdinrichtingen in drie niveaus. Van gezag uitstralen
   zonder escalatie (basis) tot strategische escalatie en informele leiders
   (gevorderd) en eenduidig teambeleid bij risicojongeren (expert).
+kern: "Begrenzen en begeleiden tegelijk, in een gesloten groep waar confrontatie status geeft"
 veelgestelde_vragen:
   - vraag: "Bij ons levert een confrontatie met een medewerker status op. Kan de training daarmee om?"
     antwoord: "Ja. Statusgedrag is hier een uitgangspunt, geen uitzondering. Wie dat niet meerekent, kiest reacties die het gedrag juist belonen."

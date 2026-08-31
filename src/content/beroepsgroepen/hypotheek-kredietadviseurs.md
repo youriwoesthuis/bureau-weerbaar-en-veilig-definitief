@@ -7,6 +7,7 @@ samenvatting: >-
   kredietadviseurs in drie niveaus. Van slecht nieuws professioneel
   brengen (basis) tot schuld-projectie en combinatiecrisis (gevorderd) en
   beleid rond grensoverschrijdend klantgedrag (expert).
+kern: "Slecht nieuws brengen dat een levensplan raakt, en er persoonlijk op aangesproken worden"
 veelgestelde_vragen:
   - vraag: "Hoe breng je een afwijzing die iemands levensplan raakt?"
     antwoord: "Slecht nieuws brengen is hier de kernvaardigheid. Het huis gaat niet door of het krediet komt er niet, en de adviseur wordt persoonlijk aangesproken op een beslissing van de geldverstrekker."

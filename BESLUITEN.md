@@ -351,6 +351,55 @@ de homepage komt uit de interne linkstructuur, niet uit het aantal woorden.
 Alles op de homepage storten levert juist kannibalisatie op met /aanpak/,
 /wet-en-regels/ en /kosten/.
 
+## 7j. Paginaronde stap 2: de routeringsketen (31-08-2026)
+
+Sectorenoverzicht, sectorpagina en beroepsgroeppagina, met Gemini doorgelopen.
+
+**Vijf klikken is geen probleem.** Meer dan tachtig procent van het relevante
+verkeer landt volgens Gemini rechtstreeks op een beroepsgroep- of sectorpagina,
+niet op de homepage. Voor die bezoekers is de keten een of twee klikken. Alleen
+voor wie op de homepage begint was het te ver; dat is opgelost doordat de
+vergelijker nu op plek twee staat en doorverwijst.
+
+**Vier adviezen sneuvelden op de werkelijkheid, en Gemini nam ze terug:**
+
+1. Micro-casuistiek en risicolocaties per beroepsgroep: die staan er al, in de
+   openingsalinea en in het blok met herkenbare praktijksituaties. Gemini na
+   confrontatie: laat de tekst staan zoals hij is en bouw niets dubbels.
+2. Een top tien van populairste beroepsgroepen: onmogelijk zonder bezoekcijfers
+   en zonder klanten. Elke ranglijst zou verzonnen zijn. Vervallen.
+3. Een offerteknop per beroepsgroep: kan pas als het formulier een
+   verzendsleutel heeft. De voorgevulde mailknop op de trainingspagina is de
+   tussenoplossing; Gemini schat het verlies op vijftien tot twintig procent van
+   de micro-conversies, maar noemt het werkbaar tot het formulier er is.
+4. Zijn vier clusters dekten de negentien sectoren niet. Na de vraag waar
+   dierenzorg, uitvaart, bibliotheken en sportaccommodaties dan heen moeten,
+   kwam een indeling in vijf domeinen waarin alles past zonder restcategorie.
+
+**Doorgevoerd.**
+
+- **Vijf domeinen op de overzichtspagina** in plaats van negentien losse tegels
+  onder elkaar: zorg en welzijn, overheid en justitie, onderwijs en publieke
+  voorzieningen, wonen en vervoer, dienstverlening en handel. Een sector die in
+  geen domein staat valt niet weg maar komt onder "Overige sectoren", zodat een
+  nieuwe sector opvalt in plaats van stilletjes te verdwijnen.
+- **Een kernregel per beroepsgroep**, nieuw veld `kern` in het contentschema.
+  Een regel van maximaal negentig tekens die zegt wat agressie bij dat beroep
+  bijzonder maakt, gedestilleerd uit de bestaande tekst en niet nieuw bedacht.
+  Voorbeeld thuiszorg: "Alleen op bezoek in de woonkamer van een ander, zonder
+  achterwacht in de buurt". Die regel staat nu op de overzichtspagina achter
+  elke beroepsgroep en vervangt op de sectorpagina de ingekorte samenvatting.
+  Dat laatste was winst: die samenvatting begon op elke kaart met de merknaam
+  en het woord agressietraining, dus acht kaarten openden identiek.
+- **Twintig regelafbrekingen zonder spatie ervoor hersteld.** "In welke
+  sector<br />werkt je team" werd bij een kale HTML-uitlezing "sectorwerkt".
+  Browsers en schermlezers zagen het goed, AI-crawlers die ruwe HTML lezen niet.
+
+**Volgens Gemini is de beroepsgroeppagina commercieel het belangrijkst**: daar
+komt de specifieke zoekintentie binnen, daar zit de herkenning en daar staat de
+RI&E-bouwsteen. Overzichts- en sectorpagina dienen vooral de routering en de
+interne linkstructuur.
+
 ## 8. Nog open — heeft Youri nodig
 
 - Onderkop van de hero

@@ -7,6 +7,7 @@ samenvatting: >-
   in drie niveaus. Van grensoverschrijdend gedrag begrenzen (basis) tot
   strategisch gedrag en groepsdynamiek (gevorderd) en gedragsbeleid op
   instellingsniveau (expert).
+kern: "Jongvolwassenen die bewust testen, met telefoons op tafel en een klassenapp erna"
 veelgestelde_vragen:
   - vraag: "Gaat dit over puberaal gedrag of over iets anders?"
     antwoord: "Over iets anders. Mbo-studenten zijn jongvolwassenen; het gaat om bewuste intimidatie, studenten onder invloed en groepen die een docent collectief testen. Dat vraagt een andere reactie dan grenzen zoeken."

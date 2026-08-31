@@ -7,6 +7,7 @@ samenvatting: >-
   drie niveaus. Van spanning herkennen en veilig blijven rijden (basis)
   tot fysieke dreiging en groepsdruk in het voertuig (gevorderd) en
   veiligheidsprotocol en risicoanalyse (expert).
+kern: "Besloten ruimte met een onbekende passagier, terwijl de aandacht bij het verkeer moet"
 veelgestelde_vragen:
   - vraag: "Onze chauffeurs rijden terwijl het conflict speelt. Wordt daar rekening mee gehouden?"
     antwoord: "Ja. De aandacht moet bij het verkeer blijven terwijl de discussie in de auto oploopt. Wat je dan kunt doen is beperkt, en juist daarom oefen je het."

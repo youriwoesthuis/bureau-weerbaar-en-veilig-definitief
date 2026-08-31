@@ -8,6 +8,7 @@ samenvatting: >-
   niveaus. Van veilig alleen werken in de woning van een cliënt (basis)
   tot structurele en complexe agressie (gevorderd) en veiligheidsbeleid
   voor thuisbezoeken (expert).
+kern: "Alleen op bezoek in de woonkamer van een ander, zonder achterwacht in de buurt"
 veelgestelde_vragen:
   - vraag: "Gaat de training ook over agressie van mantelzorgers en familie?"
     antwoord: "Ja. De mantelzorger die er altijd bij is, hoort bij de werkelijkheid achter die voordeur en vraagt een andere aanpak dan de cliënt zelf."

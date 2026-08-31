@@ -8,6 +8,7 @@ samenvatting: >-
   niveaus. Van grensoverschrijdend gedrag begrenzen in een open ruimte
   (basis) tot terugkerende probleembezoekers en psychiatrische ontregeling
   (gevorderd) en beleid voor een veilige openbare ruimte (expert).
+kern: "Een open huis waar iedereen binnen mag, en toch grenzen stellen"
 veelgestelde_vragen:
   - vraag: "Wij willen een open huis blijven. Kan dat samen met grenzen stellen?"
     antwoord: "Ja. Dat is precies de vraag waar de trainingen op gericht zijn. Openheid is de kracht van de instelling; grenzen stellen hoeft die openheid niet ongedaan te maken, maar vraagt wel dat iedereen dezelfde lijn hanteert."

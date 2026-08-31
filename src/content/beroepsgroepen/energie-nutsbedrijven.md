@@ -8,6 +8,7 @@ samenvatting: >-
   risicovolle thuissituaties herkennen (basis) tot afsluitingen onder
   fysieke dreiging (gevorderd) en veiligheidsprotocollen met
   afbreekcriteria (expert).
+kern: "Alleen in de woning van een klant, voor werk dat die klant niet wil"
 veelgestelde_vragen:
   - vraag: "Onze monteurs komen binnen voor werk dat de klant niet wil. Wat betekent dat?"
     antwoord: "Dat de weerstand er al is voordat het gesprek begint. Een verplichte keuring, een afsluiting of een meterwissel na wanbetaling is geen dienstverlening in de ogen van de klant."

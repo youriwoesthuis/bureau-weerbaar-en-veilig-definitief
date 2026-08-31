@@ -8,6 +8,7 @@ samenvatting: >-
   uitkeringsbeslissingen de-escaleren (basis) tot instrumentele
   intimidatie en veilige huisbezoeken (gevorderd) en beleid rond
   veiligheid en zorgplicht (expert).
+kern: "Gesprekken over bestaanszekerheid, met grenzen stellen aan wie het al moeilijk heeft"
 veelgestelde_vragen:
   - vraag: "Onze medewerkers vinden het moreel zwaar om te begrenzen. Kan een training daarbij helpen?"
     antwoord: "Meestal wel. We bespreken die spanning expliciet in plaats van hem te omzeilen. Grenzen stellen aan iemand die het al moeilijk heeft, vraagt iets anders dan grenzen stellen aan iemand die over de schreef gaat."

@@ -7,6 +7,7 @@ samenvatting: >-
   conducteurs en metro- en trambestuurders in drie niveaus. Van agressie
   in het voertuig de-escaleren (basis) tot probleemreizigers en
   crisisbesluiten (gevorderd) en agressiebeleid per lijn (expert).
+kern: "Aanspreken in een afgesloten ruimte met publiek, terwijl versterking minuten weg is"
 veelgestelde_vragen:
   - vraag: "Versterking is bij ons minuten weg. Houdt de training daar rekening mee?"
     antwoord: "Ja. Een conducteur handelt in een afgesloten ruimte met publiek en zonder de mogelijkheid om weg te komen. Alles wat geoefend wordt, moet in die minuten zelfstandig uitvoerbaar zijn."

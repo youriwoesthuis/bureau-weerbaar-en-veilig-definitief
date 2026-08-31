@@ -8,6 +8,7 @@ samenvatting: >-
   medewerkers (basis) tot structurele overlast aanpakken (gevorderd) en
   organisatiebreed agressiebeleid (expert, voor regiomanagers en
   beleidsverantwoordelijken).
+kern: "Zelf ingrijpen bij een escalatie en daarna het team opvangen"
 veelgestelde_vragen:
   - vraag: "Wij moeten zelf ingrijpen én het team opvangen. Zit dat allebei in de training?"
     antwoord: "Ja. Dat dubbele is hier het uitgangspunt. Zelf professioneel ingrijpen is één ding; zorgen dat het team zich veilig voelt en goed wordt opgevangen na een incident is een tweede."

@@ -8,6 +8,7 @@ samenvatting: >-
   juridische kaders (basis) tot probleembezoekers en gecoördineerd
   optreden (gevorderd) en veiligheidsbeleid en incidentregistratie
   (expert).
+kern: "Weigeren aan de deur, laat op de avond, tegenover een groep die gedronken heeft"
 veelgestelde_vragen:
   - vraag: "Onze juridische ruimte is smal. Houdt de training daar rekening mee?"
     antwoord: "Ja. Dat is het kader waarbinnen je alles oefent. Eén verkeerde fysieke ingreep kan gevolgen hebben voor de portier én voor de vergunning van de zaak."

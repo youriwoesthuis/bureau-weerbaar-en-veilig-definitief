@@ -8,6 +8,7 @@ samenvatting: >-
   als agressiebron begrijpen (basis) tot verslavingsproblematiek en
   bekende probleempatiënten (gevorderd) en beleid rond de zorgrelatie
   (expert).
+kern: "Elk conflict aan de balie gaat over medicatie die iemand nodig heeft"
 veelgestelde_vragen:
   - vraag: "Hoe bewaar je de balans tussen zorg verlenen en grenzen stellen?"
     antwoord: "Dat is voor deze beroepsgroep de kernvraag. De trainingen zijn er expliciet op gericht: aan de balie gaat elk conflict uiteindelijk over medicatie die iemand nodig heeft."

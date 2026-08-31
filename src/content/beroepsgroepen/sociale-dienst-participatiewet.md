@@ -8,6 +8,7 @@ samenvatting: >-
   boodschappen brengen zonder escalatie (basis) tot strategische agressie
   en fraudeconstatering (gevorderd) en beleid rond grensoverschrijdend
   cliëntgedrag (expert).
+kern: "Een korting of stopzetting brengen bij iemand die van precies dat besluit moet leven"
 veelgestelde_vragen:
   - vraag: "Hoe breng je een maatregel of stopzetting zonder dat het escaleert?"
     antwoord: "Daar is deze training op gericht. De cliënt is voor zijn inkomen afhankelijk van precies dat besluit; dat maakt de volgorde en de toon van het gesprek bepalend voor wat erna gebeurt."

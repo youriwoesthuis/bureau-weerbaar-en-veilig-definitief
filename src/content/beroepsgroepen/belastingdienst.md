@@ -7,6 +7,7 @@ samenvatting: >-
   Belastingdienst in drie niveaus. Van telefonische en fysieke agressie
   de-escaleren (basis) tot intimidatie tijdens controles en juridische
   druk (gevorderd) en agressiebeleid op afdelingsniveau (expert).
+kern: "Grote financiële belangen en een gezagspositie, vaak via telefoon en e-mail"
 veelgestelde_vragen:
   - vraag: "Veel agressie komt bij ons via telefoon en e-mail. Hoort dat bij de training?"
     antwoord: "Ja, expliciet. Agressie op afstand verloopt anders dan aan een balie: je ziet de ander niet en het gesprek is makkelijker te herhalen. Dat krijgt een eigen plek in de training."

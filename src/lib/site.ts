@@ -147,6 +147,40 @@ export const SECTORKADERS: Record<
 };
 
 /**
+ * De negentien sectoren gegroepeerd in vijf domeinen, voor de
+ * overzichtspagina. Negentien losse tegels onder elkaar lezen als een
+ * telefoonboek; vijf domeinen maken de lijst scanbaar. Bewust geen groep
+ * "overig": elke sector staat in een verdedigbare context, ook uitvaart en
+ * dierenzorg (dienstverlening aan particulieren) en bibliotheken en
+ * sportaccommodaties (publieke voorzieningen). Zie BESLUITEN.md 7j.
+ *
+ * Elke sector hoort in precies een domein. Komt er een sector bij, dan hoort
+ * hij hier ook bij, anders valt hij van de overzichtspagina.
+ */
+export const SECTORDOMEINEN = [
+  {
+    naam: 'Zorg, welzijn en maatschappelijke dienstverlening',
+    sectoren: ['zorg', 'welzijn', 'asielopvang', 'farmacie'],
+  },
+  {
+    naam: 'Overheid, veiligheid en justitie',
+    sectoren: ['overheid-handhaving', 'justitiele-keten', 'beveiliging'],
+  },
+  {
+    naam: 'Onderwijs, cultuur en publieke voorzieningen',
+    sectoren: ['onderwijs', 'bibliotheken', 'sportaccommodaties'],
+  },
+  {
+    naam: 'Wonen, vervoer en nutsbedrijven',
+    sectoren: ['woningcorporaties', 'openbaar-vervoer', 'transport', 'energie'],
+  },
+  {
+    naam: 'Dienstverlening, handel en particuliere zorg',
+    sectoren: ['retail', 'financiele-dienstverlening', 'horeca', 'uitvaart', 'dierenzorg'],
+  },
+] as const;
+
+/**
  * Het niveaumodel heeft een naam, zodat het aanwijsbaar is in een offerte,
  * een opleidingsplan en een AI-antwoord. Zie BESLUITEN.md hoofdstuk 1.
  */

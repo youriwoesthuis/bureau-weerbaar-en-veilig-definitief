@@ -7,6 +7,7 @@ samenvatting: >-
   baliepersoneel in drie niveaus. Van agressie bij een geweigerde lening
   of geblokkeerde rekening (basis) tot instrumentele intimidatie
   (gevorderd) en beleid rond toegangsweigering en aangifte (expert).
+kern: "Financiële stress komt binnen aan de balie en aan de telefoon, het besluit staat vast"
 veelgestelde_vragen:
   - vraag: "Veel van onze agressie is telefonisch. Wordt daar apart op getraind?"
     antwoord: "Ja, daar ligt expliciet nadruk op. Aan de telefoon kun je de ander niet zien en niet weglopen; wat je dan doet met je stem, je tempo en het einde van het gesprek is een eigen vaardigheid."

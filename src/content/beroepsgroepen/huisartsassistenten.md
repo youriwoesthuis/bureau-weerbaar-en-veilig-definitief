@@ -7,6 +7,7 @@ samenvatting: >-
   huisartsassistenten in drie niveaus. Van agressie aan balie en telefoon
   de-escaleren (basis) tot instrumenteel gedrag en manipulatie (gevorderd)
   en het agressiebeleid van de praktijk (expert).
+kern: "Elke afwijzing kan ontploffen bij een patiënt die morgen weer aan de balie staat"
 veelgestelde_vragen:
   - vraag: "Wordt telefonische agressie geoefend, of alleen aan de balie?"
     antwoord: "Allebei. Een groot deel van de uitbarstingen komt via de telefoon, waar je de ander niet kunt zien en de triage toch moet afmaken. Dat is een eigen vaardigheid en wordt apart geoefend."

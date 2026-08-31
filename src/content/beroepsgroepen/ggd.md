@@ -8,6 +8,7 @@ samenvatting: >-
   burgercontact de-escaleren (basis) tot ideologisch gemotiveerde en
   georganiseerde weerstand (gevorderd) en veiligheidsbeleid bij online
   bedreigingen (expert).
+kern: "Agressie die niet persoonlijk is maar ideologisch, soms tot in de privésfeer"
 veelgestelde_vragen:
   - vraag: "Onze medewerkers krijgen agressie die niet persoonlijk is maar ideologisch. Kan de training daarmee om?"
     antwoord: "Ja. Dat onderscheid is hier het uitgangspunt. Iemand die je legitimiteit als overheidsdienaar betwist, is niet te kalmeren met technieken die op een boze klant werken. Dat vraagt een andere aanpak, en die behandelen we apart."

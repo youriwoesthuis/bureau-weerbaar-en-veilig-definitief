@@ -7,6 +7,7 @@ samenvatting: >-
   voortgezet onderwijs in drie niveaus. Van grensoverschrijdend gedrag
   begrenzen zonder gezagsverlies (basis) tot manipulatief gedrag en
   klasdynamiek (gevorderd) en gedragsbeleid op schoolniveau (expert).
+kern: "Nooit één leerling tegenover je: de hele klas kijkt mee en weegt de reactie"
 veelgestelde_vragen:
   - vraag: "De hele klas kijkt mee. Wordt daarmee geoefend?"
     antwoord: "Ja, dat is hier het uitgangspunt. Een leraar staat nooit tegenover één leerling: de groep weegt de reactie mee, en dat bepaalt wat werkt en wat averechts uitpakt."

@@ -7,6 +7,7 @@ samenvatting: >-
   boa’s in drie niveaus. Van de-escaleren binnen de juridische boa-kaders
   (basis) tot groepsagressie en gefilmd optreden (gevorderd) en
   risicoanalyse en teambriefing (expert).
+kern: "Alleen of in tweetallen op straat, met beperkte bevoegdheden en een camera erbij"
 veelgestelde_vragen:
   - vraag: "Wordt de juridische positie van de boa behandeld?"
     antwoord: "Ja, expliciet. Handhavers treden op met beperkte bevoegdheden tegenover mensen die vaak precies weten waar die bevoegdheid ophoudt. Weten waar je staat, is onderdeel van veilig optreden."

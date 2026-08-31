@@ -8,6 +8,7 @@ samenvatting: >-
   toezicht en begeleiding hanteren (basis) tot complexe dreigingspatronen
   en systematische intimidatie (gevorderd) en dreigingsmanagementbeleid
   (expert).
+kern: "Begeleiden en tegelijk toezicht houden, waarbij een terugmelding grote gevolgen heeft"
 veelgestelde_vragen:
   - vraag: "Wij begeleiden en houden toezicht tegelijk. Komt die spanning aan bod?"
     antwoord: "Ja, dat is het hoofdonderwerp. De cliënt weet dat een terugmelding grote gevolgen heeft, en die wetenschap zit in elk gesprek, bij beide partijen."

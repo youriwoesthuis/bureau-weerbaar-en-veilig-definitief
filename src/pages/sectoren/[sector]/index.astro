@@ -100,7 +100,7 @@ const schema = [faqSchema(d.veelgestelde_vragen)].filter(Boolean);
                   {b.data.naam}
                 </a>
               </h3>
-              <p>{description(b.data.samenvatting, 130)}</p>
+              <p>{b.data.kern ?? description(b.data.samenvatting, 130)}</p>
               <ul class="niveaurij">
                 {NIVEAUS.filter((n) => eigen.some((t) => t.data.niveau === n)).map((n) => (
                   <li data-niveau={n}><span class="stip" aria-hidden="true"></span>{NIVEAU_INFO[n].naam}</li>

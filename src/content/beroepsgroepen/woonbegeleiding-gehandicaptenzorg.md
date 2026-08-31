@@ -8,6 +8,7 @@ samenvatting: >-
   niveaus. Van agressie uit onvermogen begrijpen en begrenzen (basis) tot
   ernstige gedragsproblematiek en groepsspanning (gevorderd) en
   veiligheidsbeleid per woongroep (expert).
+kern: "Gedrag uit onvermogen begrijpen en tegelijk de eigen veiligheid op de woongroep bewaken"
 veelgestelde_vragen:
   - vraag: "Gaat de training ervan uit dat agressie bij deze doelgroep opzet is?"
     antwoord: "Nee. Het uitgangspunt is dat een cliënt die geen woorden heeft voor wat hem overkomt, reageert met zijn lichaam. Begrijpen wat het gedrag betekent gaat vooraf aan begrenzen."

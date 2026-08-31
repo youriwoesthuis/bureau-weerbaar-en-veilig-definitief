@@ -8,6 +8,7 @@ samenvatting: >-
   het loket de-escaleren (basis) tot instrumentele agressie en
   probleembezoekers (gevorderd) en agressiebeleid op afdelingsniveau
   (expert).
+kern: "De regel vertegenwoordigen zonder er iets aan te kunnen veranderen, met de rij erbij"
 veelgestelde_vragen:
   - vraag: "Onze medewerkers kunnen de regel niet veranderen. Wat schiet een training dan op?"
     antwoord: "Precies daarover gaat het. Je kunt het besluit niet terugdraaien, maar wel bepalen hoe je het brengt en waar je de grens legt. Dat is een vaardigheid, geen kwestie van bevoegdheid."

@@ -8,6 +8,7 @@ samenvatting: >-
   herkennen vóór het aanbellen (basis) tot veiligheidstaxatie en fysieke
   dreiging (gevorderd) en veiligheidsprotocol en platformdynamiek
   (expert).
+kern: "Aan een onbekende voordeur, waar een klacht of lage beoordeling werk kan kosten"
 veelgestelde_vragen:
   - vraag: "Onze bezorgers melden incidenten bijna nooit. Kan een training daar iets aan doen?"
     antwoord: "Deels. De training benoemt het mechanisme expliciet: kan een klacht werk kosten, dan houd je een incident liever stil. Zolang dat niet besproken is, blijft onveiligheid onzichtbaar en verandert er weinig."

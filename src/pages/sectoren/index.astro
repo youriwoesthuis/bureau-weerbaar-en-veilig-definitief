@@ -3,7 +3,7 @@ import { getCollection } from 'astro:content';
 import Basis from '../../layouts/Basis.astro';
 import Kruimels from '../../components/Kruimels.astro';
 import Cta from '../../components/Cta.astro';
-import { pad } from '../../lib/site';
+import { SECTORDOMEINEN, pad } from '../../lib/site';
 import { paginaTitel, description, lijstSchema } from '../../lib/seo';
 
 const [sectoren, beroepsgroepen, trainingen] = await Promise.all([
@@ -20,6 +20,21 @@ const lijstSectoren = sectoren
       .sort((a, b) => a.data.naam.localeCompare(b.data.naam, 'nl')),
   }))
   .sort((a, b) => b.groepen.length - a.groepen.length || a.naam.localeCompare(b.naam, 'nl'));
+
+/* De sectoren gegroepeerd in vijf domeinen. Een sector die in geen enkel
+   domein staat zou van de pagina vallen; die vangen we hieronder op, zodat
+   een nieuwe sector opvalt in plaats van stilletjes te verdwijnen. */
+const perDomein = SECTORDOMEINEN.map((d) => ({
+  naam: d.naam,
+  sectoren: d.sectoren
+    .map((slug) => lijstSectoren.find((s) => s.slug === slug))
+    .filter(Boolean) as typeof lijstSectoren,
+}));
+const ingedeeld = new Set(SECTORDOMEINEN.flatMap((d) => d.sectoren as readonly string[]));
+const nietIngedeeld = lijstSectoren.filter((s) => !ingedeeld.has(s.slug));
+const domeinen = nietIngedeeld.length
+  ? [...perDomein, { naam: 'Overige sectoren', sectoren: nietIngedeeld }]
+  : perDomein;
 
 const kruimels = [
   { naam: 'Home', url: pad('/') },
@@ -43,14 +58,18 @@ const lijst = lijstSchema(siteUrl, 'Sectoren waarin Bureau Weerbaar en Veilig tr
     <div class="omhulsel kop-binnen">
       <Kruimels kruimels={kruimels} />
       <p class="bovenkop">Alle sectoren</p>
-      <h1 class="display">In welke sector<br /><span class="verloopwoord">werkt je team?</span></h1>
+      <h1 class="display">In welke sector <br /><span class="verloopwoord">werkt je team?</span></h1>
       <p class="openingsantwoord">{openingsantwoord}</p>
     </div>
   </section>
 
   <section class="sectie op-licht">
-    <div class="omhulsel sectorlijst">
-      {lijstSectoren.map((s) => (
+    <div class="omhulsel">
+      {domeinen.map((d) => (
+        <div class="domein">
+          <h2 class="domeinkop">{d.naam}</h2>
+          <div class="sectorlijst">
+            {d.sectoren.map((s) => (
         <article class="sectorblok onthul" data-niveau="basis">
           <div class="sectorblok-kop">
             {/* Het aantal beroepsgroepen verschilt per sector en is dan
@@ -61,9 +80,9 @@ const lijst = lijstSchema(siteUrl, 'Sectoren waarin Bureau Weerbaar en Veilig tr
               <b>{s.groepen.length}</b>
               <small>{s.groepen.length === 1 ? 'beroepsgroep' : 'beroepsgroepen'}</small>
             </p>
-            <h2 class="h3">
+            <h3>
               <a href={pad(`/sectoren/${s.slug}/`)} class="sectorlink">{s.naam}</a>
-            </h2>
+            </h3>
             <p class="sectorblok-tekst">{description(s.samenvatting, 165)}</p>
           </div>
 
@@ -71,13 +90,19 @@ const lijst = lijstSchema(siteUrl, 'Sectoren waarin Bureau Weerbaar en Veilig tr
             {s.groepen.map((b) => (
               <li>
                 <a href={pad(`/sectoren/${s.slug}/${b.data.slug}/`)}>
-                  {b.data.naam}
-                  <span class="pijl" aria-hidden="true">→</span>
+                  <span class="groepnaam">
+                    {b.data.naam}
+                    <span class="pijl" aria-hidden="true">→</span>
+                  </span>
+                  {b.data.kern && <span class="groepkern">{b.data.kern}</span>}
                 </a>
               </li>
             ))}
           </ul>
-        </article>
+            </article>
+            ))}
+          </div>
+        </div>
       ))}
     </div>
   </section>
@@ -153,4 +178,22 @@ const lijst = lijstSchema(siteUrl, 'Sectoren waarin Bureau Weerbaar en Veilig tr
     transform: translateX(2px);
   }
   .groeplijst a:hover .pijl { opacity: 1; transform: none; }
+
+  .domein { margin-bottom: clamp(2rem, 1.5rem + 2vw, 3.25rem); }
+  .domein:last-child { margin-bottom: 0; }
+  .domeinkop {
+    margin: 0 0 clamp(1rem, 0.8rem + 0.8vw, 1.5rem);
+    padding-bottom: 0.6rem;
+    border-bottom: 1px solid var(--rand-licht);
+    font-size: clamp(1.1rem, 1rem + 0.5vw, 1.35rem);
+    color: var(--tekst-donker);
+  }
+  .groepnaam { display: block; }
+  .groepkern {
+    display: block;
+    margin-top: 0.15rem;
+    font-size: 0.85rem;
+    line-height: 1.45;
+    color: var(--tekst-donker-zacht);
+  }
 </style>

@@ -8,6 +8,7 @@ samenvatting: >-
   besluiten escalatievrij communiceren (basis) tot georganiseerde druk en
   juridische dreiging (gevorderd) en protocollen voor risicodossiers
   (expert).
+kern: "Maanden standhouden onder juridisch onderbouwde druk in dossiers die doorslepen"
 veelgestelde_vragen:
   - vraag: "Onze dossiers lopen maanden door. Kan een training van één dag daar iets aan doen?"
     antwoord: "Ten dele. De training gaat juist over die duur: standhouden terwijl de druk cumulatief is. Dat is een ander vraagstuk dan één confrontatie overleven, en het vraagt afspraken die verder reiken dan de trainingsdag."

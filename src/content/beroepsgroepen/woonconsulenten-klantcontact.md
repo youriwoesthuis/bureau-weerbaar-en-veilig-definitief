@@ -8,6 +8,7 @@ samenvatting: >-
   Van agressie bij huurverhoging en overlastklachten (basis) tot
   instrumentele druk bij uitzettingsdossiers (gevorderd) en
   veiligheidsbeleid voor huisbezoeken (expert).
+kern: "Boodschappen die over iemands huis gaan, in een relatie die jaren duurt"
 veelgestelde_vragen:
   - vraag: "Onze relatie met de huurder duurt jaren. Verandert dat de aanpak?"
     antwoord: "Ja. De huurder kan niet weglopen en de corporatie ook niet. Grenzen stellen zonder die relatie onnodig te beschadigen is daarom het uitgangspunt van deze trainingen."

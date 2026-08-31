@@ -8,6 +8,7 @@ samenvatting: >-
   rouw-agressie herkennen en familieconflicten hanteren (basis) tot
   langdurige klachten en online beschuldigingen (gevorderd) en beleid voor
   probleemfamilies (expert).
+kern: "Rouw en familieconflicten die zich richten op wie het dichtstbij staat"
 veelgestelde_vragen:
   - vraag: "Hoe begrens je nabestaanden zonder de relatie te beschadigen?"
     antwoord: "Dat is het uitgangspunt van deze trainingen. Rouw, schuldgevoel en machteloosheid zoeken een uitweg, en de uitvaartverzorger is soms het dichtstbijzijnde doelwit. Begrenzen mag de zorg voor de familie niet doorkruisen."

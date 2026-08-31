@@ -8,6 +8,7 @@ samenvatting: >-
   handhaving en hulpverlening (basis) tot complexe gezinssituaties en
   juridische dreiging (gevorderd) en veiligheidsbeleid voor
   solo-huisbezoeken (expert).
+kern: "Handhaver en hulpverlener tegelijk, vaak alleen op huisbezoek bij een gezin"
 veelgestelde_vragen:
   - vraag: "Wij zijn handhaver én hulpverlener tegelijk. Kan een training met die dubbelrol om?"
     antwoord: "Die dubbelrol is hier het onderwerp. Een gezin ziet de bevoegdheid en niet de bedoeling, en ervaart het bezoek als bemoeienis van de overheid. Daar begint de spanning."

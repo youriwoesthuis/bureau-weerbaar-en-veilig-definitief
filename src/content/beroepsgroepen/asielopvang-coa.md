@@ -7,6 +7,7 @@ samenvatting: >-
   asielzoekerscentra en COA-locaties in drie niveaus. Van agressie uit
   onzekerheid en trauma begrijpen (basis) tot collectieve onrust en crisis
   (gevorderd) en crisisprotocollen en ketensamenwerking (expert).
+kern: "Het dagelijkse gezicht van een systeem waarover je zelf niets te zeggen hebt"
 veelgestelde_vragen:
   - vraag: "Onze bezetting is ’s nachts en in het weekend beperkt. Komt dat aan bod?"
     antwoord: "Ja, expliciet. Veilig handelen met weinig collega’s in de buurt is een ander vraagstuk dan handelen met een volle bezetting, en het hoort bij deze werkplek."

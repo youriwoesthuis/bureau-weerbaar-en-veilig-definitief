@@ -7,6 +7,7 @@ samenvatting: >-
   drie niveaus. Van agressie bij het inchecken de-escaleren (basis) tot
   probleemreizigers en crisisbesluiten (gevorderd) en agressiebeleid per
   lijn (expert).
+kern: "Alleen achter het stuur, niet kunnen weglopen, met tientallen reizigers in de rug"
 veelgestelde_vragen:
   - vraag: "De chauffeur kan niet weglopen en niet overleggen. Wat kan hij dan wel?"
     antwoord: "Meer dan het lijkt, maar het moet passen bij de situatie: rijdend, alleen, met tientallen reizigers in de rug. De training gaat over wat werkelijk uitvoerbaar is achter dat stuur."

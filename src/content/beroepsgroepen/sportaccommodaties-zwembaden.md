@@ -8,6 +8,7 @@ samenvatting: >-
   gezaghebbend communiceren (basis) tot groepsintimidatie en
   supportersescalaties (gevorderd) en toegangsbeleid en meldcultuur
   (expert).
+kern: "Regels handhaven die bezoekers hinderlijk vinden, vaak met een telefoon erop gericht"
 veelgestelde_vragen:
   - vraag: "Onze medewerkers handhaven regels die bezoekers hinderlijk vinden. Hoe pak je dat aan?"
     antwoord: "Door gezaghebbend op te treden zonder de escalatie op te zoeken. Wie aanspreekt op niet duiken, niet rennen of sluitingstijd, wordt makkelijk gezien als de vervelende partij. Met houding en formulering valt daar meestal iets aan te doen."
