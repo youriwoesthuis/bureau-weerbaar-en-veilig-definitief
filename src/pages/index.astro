@@ -8,9 +8,10 @@ import Spanningscurve from '../components/Spanningscurve.astro';
 import Vergelijker from '../components/Vergelijker.astro';
 import Keuzehulp from '../components/Keuzehulp.astro';
 import NiveauLadder from '../components/NiveauLadder.astro';
+import Vragen from '../components/Vragen.astro';
 import Cta from '../components/Cta.astro';
 import { SITE, FEITEN, pad } from '../lib/site';
-import { paginaTitel, description } from '../lib/seo';
+import { paginaTitel, description, faqSchema } from '../lib/seo';
 
 const trainingen = await getCollection('trainingen');
 const beroepsgroepen = await getCollection('beroepsgroepen');
@@ -23,6 +24,34 @@ const team = await getCollection('team');
 // Eerste zin noemt de merknaam één keer, zodat een AI-antwoord de bron kan
 // aanwijzen. Daarna "je". Zie BESLUITEN.md hoofdstuk 5.
 const openingsantwoord = `Bureau Weerbaar en Veilig is een Nederlands trainingsbureau dat uitsluitend incompany agressietraining verzorgt, opgebouwd per beroepsgroep en in drie niveaus (de Weerbaarheidsladder). Je team traint met situaties uit het eigen werk, niet met algemene voorbeelden. Elke training duurt ${FEITEN.duur}, telt ${FEITEN.groepsgrootte} en wordt bij jullie op locatie gegeven, met een trainingsacteur erbij.`;
+
+const homeVragen = [
+  {
+    vraag: 'Waarom geven jullie alleen incompany en geen open inschrijving?',
+    antwoord:
+      'Omdat een training wordt opgebouwd met de eigen situaties van het team. Bij een open inschrijving zit iedereen met een ander vak in de zaal en wordt het oefenmateriaal vanzelf algemeen. Op locatie oefen je in de ruimte waar het werk gebeurt, met de gesprekken die daar echt voorkomen.',
+  },
+  {
+    vraag: 'Kunnen we een training laten aansluiten op iets dat net is gebeurd?',
+    antwoord:
+      'Ja. Wat er is gebeurd komt in de intake ter sprake en bepaalt mee waarmee er die dag geoefend wordt. De trainingsacteur speelt situaties na die het team zelf inbrengt, geen standaardscenario.',
+  },
+  {
+    vraag: 'Onze mensen verschillen sterk in ervaring. Kan dat in één groep?',
+    antwoord:
+      'Meestal wel, en soms is het juist nuttig: wie het werk langer doet, brengt situaties in waar een nieuwe collega nog van schrikt. Loopt het te ver uiteen, dan is het beter de groep te splitsen of een ander niveau te kiezen. Dat weeg je in de intake.',
+  },
+  {
+    vraag: 'Trainen jullie leidinggevenden apart van hun team?',
+    antwoord:
+      'Dat kan, en daar is het niveau expert voor. Dat gaat niet over het eigen gesprek maar over de organisatie eromheen: de teamnorm vaststellen, nazorg inrichten en borgen dat afspraken blijven staan. Basis en gevorderd zijn voor wie het werk zelf doet.',
+  },
+  {
+    vraag: 'Wat gebeurt er nadat we contact hebben opgenomen?',
+    antwoord:
+      'Eerst een intake over wat er speelt, hoe vaak het voorkomt en wat er al ligt aan protocol en afspraken. Daarna bouwen de trainer en de trainingsacteur de dag op rond die situaties. De dag zelf eindigt met afspraken die het team zelf maakt.',
+  },
+];
 
 const verschillen = [
   {
@@ -122,6 +151,7 @@ const praktisch = [
   )}
   niveau="basis"
   kruimels={[{ naam: 'Home', url: pad('/') }]}
+  schema={[faqSchema(homeVragen)].filter(Boolean)}
 >
   <!-- ---------------- Hero ---------------- -->
   <section class="hero op-licht">
@@ -286,6 +316,12 @@ const praktisch = [
           </a>
         </article>
       </div>
+    </div>
+  </section>
+
+  <section class="sectie op-wit">
+    <div class="omhulsel">
+      <Vragen vragen={homeVragen} kop="Vragen die vooraf spelen" groep="homevragen" />
     </div>
   </section>
 

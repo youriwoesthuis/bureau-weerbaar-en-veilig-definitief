@@ -7,7 +7,7 @@ import NiveauLadder from '../../components/NiveauLadder.astro';
 import Vragen from '../../components/Vragen.astro';
 import Cta from '../../components/Cta.astro';
 import { NIVEAUS, NIVEAU_INFO, FEITEN, MODEL, pad } from '../../lib/site';
-import { paginaTitel, description, lijstSchema } from '../../lib/seo';
+import { paginaTitel, description, lijstSchema, faqSchema } from '../../lib/seo';
 
 const trainingen = await getCollection('trainingen');
 
@@ -50,7 +50,7 @@ const lijst = lijstSchema(siteUrl, 'De drie niveaus agressietraining',
   description={description(openingsantwoord)}
   niveau="basis"
   kruimels={kruimels}
-  schema={[lijst].filter(Boolean)}
+  schema={[lijst, faqSchema(vergelijking)].filter(Boolean)}
 >
   <section class="kop-sectie op-licht gloed raster-achtergrond">
     <div class="omhulsel kop-binnen">

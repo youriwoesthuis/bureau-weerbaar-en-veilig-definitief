@@ -400,6 +400,53 @@ komt de specifieke zoekintentie binnen, daar zit de herkenning en daar staat de
 RI&E-bouwsteen. Overzichts- en sectorpagina dienen vooral de routering en de
 interne linkstructuur.
 
+## 7k. Paginaronde stap 3: de veelgestelde vragen opnieuw verdeeld (31-08-2026)
+
+Bij het uitvoeren van Gemini's FAQ-splitsing kwam een groter probleem boven dat
+er al stond. De vaste pagina's beantwoordden elkaars vragen:
+
+- "Wat kost een agressietraining" stond op kosten, op contact en in bijna
+  dezelfde vorm op aanpak;
+- "Is agressietraining verplicht" stond op kosten en op wet en regels;
+- "Hoe vaak moet je herhalen" stond op aanpak en op wet en regels.
+
+Elke pagina heeft een eigen FAQPage-schema, dus die vragen concurreerden met
+zichzelf om dezelfde zoekopdracht.
+
+**Toewijzing, elke vraag een eigenaar.** Gemini's advies bij een botsing: niet
+laten staan zonder schema (dat lost het schemaconflict op maar levert nog
+steeds dubbele tekst en een rommelige pagina op), maar schrappen en vervangen
+door een verwijzing in lopende tekst.
+
+- **Aanpak** houdt de didactiek: duur, groepsgrootte, trainingsacteurs, blijft
+  het hangen, is de acteur te heftig, wij hebben al een protocol, en wat als de
+  meldingen stijgen. Kwijt: kosten, locatie, certificaat en herhaalfrequentie.
+  Daarvoor in de plaats een regel die naar kosten en naar wet en regels wijst.
+- **Kosten** houdt alles over tarief en opbouw. Kwijt: de wettelijke vraag.
+- **Wet en regels** houdt alles wettelijks en neemt het deelnamecertificaat
+  over: dat is een juridische vraag, geen didactische.
+- **Contact** houdt de praktische organisatie. Kwijt: de prijsvraag.
+- **Niveaus** blijft ongewijzigd.
+- **Homepage** krijgt vijf nieuwe vragen die nergens anders staan, over de fase
+  daarvoor: waarom alleen incompany, aansluiten op iets dat net gebeurd is,
+  verschillende ervaringsniveaus in een groep, leidinggevenden apart trainen,
+  en wat er gebeurt na het eerste contact.
+
+**Twee voorstellen van Gemini niet overgenomen.** Hij wilde een vraag over de
+doorlooptijd tussen aanvraag en eerste trainingsdag; die termijn is nooit
+vastgesteld. En hij noemde als "vraag die nergens beantwoord wordt" de
+psychologische veiligheid tijdens het oefenen met een acteur, maar die staat al
+op de aanpakpagina sinds de koopbezwaarronde. Zijn voorbeeldantwoord bevatte
+bovendien "gecertificeerde trainingsacteurs", en die claim kunnen we niet maken.
+
+**Bijvangst: twee pagina's misten hun FAQ-schema.** De aanpakpagina en de
+niveaupagina toonden hun vragen wel op het scherm, maar zonder FAQPage-markup.
+Zeven en vier vragen die voor Google en AI-systemen niet bestonden. Toegevoegd.
+
+**Stand:** 34 unieke vragen over zes vaste pagina's, nul dubbelingen, allemaal
+met schema. De 548 vragen in de content (per training, beroepsgroep en sector)
+blijven ongemoeid: die zijn per definitie specifiek.
+
 ## 8. Nog open — heeft Youri nodig
 
 - Onderkop van de hero

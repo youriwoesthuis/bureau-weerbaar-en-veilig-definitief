@@ -11,7 +11,7 @@ import MeldingNaarNorm from '../components/MeldingNaarNorm.astro';
 import Vragen from '../components/Vragen.astro';
 import Cta from '../components/Cta.astro';
 import { FEITEN, pad } from '../lib/site';
-import { paginaTitel, description } from '../lib/seo';
+import { paginaTitel, description, faqSchema } from '../lib/seo';
 
 const [beroepsgroepen, trainingen, team] = await Promise.all([
   getCollection('beroepsgroepen'),
@@ -70,20 +70,6 @@ const vragen = [
     antwoord:
       'Ja, standaard. Een trainingsacteur speelt bij elke training mee. Die zet een situatie precies zo neer als een deelnemer hem kent, en we kunnen een oefengesprek in het moment stilzetten en bijsturen: dezelfde situatie opnieuw, met andere keuzes.',
   },
-  {
-    vraag: 'Kan de training bij ons op locatie?',
-    antwoord:
-      'Ja, en anders niet. We geven de trainingen altijd incompany, bij jullie op locatie, in heel Nederland. Dat is geen praktische keuze maar een inhoudelijke: je oefent in de ruimte waar het werk gebeurt.',
-  },
-  {
-    vraag: 'Krijgen deelnemers een certificaat?',
-    antwoord: `Ja. Deelnemers ontvangen na afloop een ${FEITEN.certificaat}. Dat is geen wettelijk erkend diploma, maar een bewijs van deelname dat organisaties kunnen opnemen in het eigen opleidingsdossier.`,
-  },
-  {
-    vraag: 'Wat kost een training?',
-    antwoord:
-      'Dat hangt af van de aanvraag. Er staat daarom geen prijs op de site. Wat de prijs bepaalt: het aantal groepen, het niveau, de reisafstand en de omvang van het traject. De trainingsacteur niet: die zit er standaard bij.',
-  },
   // De vragen hieronder zijn de bezwaren die kopers volgens het
   // concurrentieonderzoek wél hebben en die op geen van de negen onderzochte
   // sites worden beantwoord. Zie CONCURRENTIE.md hoofdstuk 5.
@@ -103,11 +89,6 @@ const vragen = [
       'Dan is er iets om op te oefenen. In de training gebruiken we het eigen protocol: wat staat erin, wat betekent dat in een gesprek, en waar loopt het in de praktijk vast. Een protocol dat niemand kent verandert niets; een protocol dat geoefend is wel.',
   },
   {
-    vraag: 'Hoe vaak moet je een agressietraining herhalen?',
-    antwoord:
-      'Er is geen wettelijk voorgeschreven frequentie. Wat nodig is hangt af van hoe vaak een team met agressie te maken heeft, hoeveel verloop er is en of het geleerde in het werk terugkomt. Teams met dagelijks publiekscontact hebben er meer aan om vaker kort terug te komen dan om eens in de vijf jaar een hele dag over te doen.',
-  },
-  {
     vraag: 'Wat als het aantal meldingen na de training juist stijgt?',
     antwoord:
       'Dat is een bekend effect en meestal een goed teken: mensen melden wat ze eerder lieten lopen. Kijk het eerste jaar daarom niet alleen naar het aantal meldingen, maar vooral naar wat er met die meldingen gebeurt.',
@@ -120,6 +101,7 @@ const vragen = [
   description={description(openingsantwoord)}
   niveau="gevorderd"
   kruimels={kruimels}
+  schema={[faqSchema(vragen)].filter(Boolean)}
 >
   <section class="kop-sectie op-licht gloed raster-achtergrond">
     <div class="omhulsel kop-binnen">
@@ -287,6 +269,12 @@ const vragen = [
   <section class="sectie op-licht">
     <div class="omhulsel">
       <Vragen vragen={vragen} kop="Praktische vragen" groep="aanpakvragen" />
+      <p class="verwijzing">
+        Wat een training kost en waar de prijs vandaan komt, staat op
+        <a href={pad('/kosten/')}>kosten</a>. Of een training verplicht is, hoe
+        vaak herhalen nodig is en wat een deelnamecertificaat wel en niet is,
+        staat op <a href={pad('/wet-en-regels/')}>wet en regels</a>.
+      </p>
       <p class="meer">
         <a href={pad('/trainingen/')} class="pijllink">
           Bekijk alle trainingen
@@ -310,6 +298,13 @@ const vragen = [
   }
   .kop-binnen { display: grid; gap: 1.25rem; justify-items: start; }
 
+  .verwijzing {
+    margin-top: clamp(1.25rem, 1rem + 1vw, 2rem);
+    max-width: 62ch;
+    font-size: 0.92rem;
+    line-height: 1.6;
+    color: var(--tekst-donker-zacht);
+  }
   .meer {
     margin-top: clamp(1.5rem, 1.2rem + 1vw, 2.5rem);
     display: flex;
