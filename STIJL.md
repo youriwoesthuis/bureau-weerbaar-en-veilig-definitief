@@ -103,7 +103,46 @@ werkt, blijft van het volgende af:
    e-learning. Formuleringen mogen soepeler, de feiten zelf op geen enkele
    pagina anders.
 
-## 4. Controlelijst per herschreven pagina
+## 4. Gedeelde strings: waar de huisstijl ophoudt
+
+Toegevoegd 31-08-2026 na een tweede Gemini-overleg. `src/lib/site.ts` bevat
+teksten die op honderden pagina's tegelijk verschijnen, én in de keuzehulp,
+de vergelijkingstabel, `llms.txt` en als `description` in het Course- en
+Service-schema. Eén zin daar raakt de lezer, Google en AI-antwoordsystemen
+tegelijk. Drie regels uit hoofdstuk 1 doen daar juist schade:
+
+- **Ruimte voor twijfel** (regel 10). In lopende tekst maakt "meestal" de
+  tekst geloofwaardiger; in een definitie maakt het hem vaag. Een
+  AI-antwoordsysteem citeert de bron die het hardst zegt wat iets is.
+- **Definitie door ontkenning** (regel 5). Wie snel scant of automatisch
+  uitleest, pikt soms juist het ontkende deel op als kenmerk.
+- **Beeldspraak** (regel 9). Losgekoppeld in een tabel of in JSON-LD is een
+  beeld niet te plaatsen.
+
+Daar komt een vierde bij die alleen voor gedeelde strings geldt: **geen
+opener die terugpakt op een vorige zin** ("Daarmee…", "Dat betekent…").
+Elke gedeelde string moet losstaand leesbaar zijn.
+
+Per categorie:
+
+| Categorie | Regime |
+|---|---|
+| Sectorkaders met wetsverwijzingen | Met rust laten. Juridische feiten; bijschaven levert onnauwkeurigheid op. |
+| Niveau-omschrijvingen (`NIVEAU_INFO`) | Alleen functioneel polijsten: actief en strak, vorm blijft wat je doet, waarvoor, met welk resultaat. |
+| Prijsfactoren (`PRIJSFACTOREN`) | Stilistisch bijschaven mag, mits de transparantie blijft. |
+| Op-verzoek-teksten (`OP_VERZOEK`) | Stilistisch bijschaven mag, mits blijft staan dat het geen standaardonderdeel is. |
+
+**De keuzehulp is geen lopende tekst maar bedieningstekst.** Daar gelden
+eigen regels: kort en taakgericht, en de drie antwoorden per vraag moeten
+elkaar zichtbaar uitsluiten, zodat een lezer binnen twee seconden ziet
+waarom optie A iets anders is dan optie B. Geen sfeer, geen nuance.
+
+**Drie dingen die op deze site nooit mogen, ook al horen ze bij de stem:**
+een sfeerschets vóór de propositie boven de vouw, twijfel over de eigen
+methode (een inkoper koopt risicoreductie), en een retorische vraag in een
+schema-description.
+
+## 5. Controlelijst per herschreven pagina
 
 1. Title en H1 ongewijzigd; "agressietraining + beroepsgroep" staat er nog.
 2. Openingsantwoord begint met de merknaam en een feit; eerste zin binnen

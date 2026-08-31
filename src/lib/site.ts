@@ -64,7 +64,7 @@ export const OP_VERZOEK = [
   {
     naam: 'Fysieke technieken',
     tekst:
-      'Losmaken en veilig afstand nemen. Geen standaardonderdeel; in de intake bespreken we of het bij jullie werk past.',
+      'Losmaken en veilig afstand nemen. Geen standaardonderdeel: in de intake bespreken we of het bij jullie werk past.',
   },
 ] as const;
 
@@ -72,7 +72,7 @@ export const OP_VERZOEK = [
 export const PRIJSFACTOREN = [
   'Het aantal groepen: de groep telt maximaal tien deelnemers, dus een groter team wordt verdeeld',
   'Het niveau: bij expert is de groep kleiner en de voorbereiding zwaarder',
-  'De reisafstand naar jullie locatie',
+  'De reisafstand: elke training is incompany, dus we komen naar jullie toe',
   'De omvang van het traject: één dag of een reeks over meerdere teams',
 ] as const;
 
@@ -159,6 +159,15 @@ export const MODEL = {
 export const NIVEAUS = ['basis', 'gevorderd', 'expert'] as const;
 export type Niveau = (typeof NIVEAUS)[number];
 
+/**
+ * De drie niveaus in woorden. Deze strings staan op honderden pagina's, in de
+ * keuzehulp, in de vergelijkingstabel, in llms.txt en als description in het
+ * Course-schema. Ze vallen daarom BUITEN de huisstijl van STIJL.md: geen
+ * hedging (meestal, doorgaans), geen definitie-door-ontkenning, geen
+ * beeldspraak en geen opener die terugpakt op een vorige zin. Elke zin moet
+ * losstaand te citeren zijn en de vorm houden: wat je doet, waarvoor, met
+ * welk resultaat. Zie STIJL.md hoofdstuk 4 (Gemini-overleg 31-08-2026).
+ */
 export const NIVEAU_INFO: Record<Niveau, {
   naam: string;
   kort: string;
