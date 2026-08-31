@@ -46,8 +46,8 @@ veelgestelde_vragen:
 gerelateerd:
   - "agressietraining-sociale-dienst-participatiewet-basis"
   - "agressietraining-sociale-dienst-participatiewet-expert"
-  - "agressietraining-sociale-dienst-uitkeringsinstanties-gevorderd"
   - "agressietraining-incasso-schuldhulpverlening-gevorderd"
+  - "agressietraining-gemeenteloket-publieksbalie-gevorderd"
 ---
 
 ## Waarom deze training
@@ -62,3 +62,7 @@ Deze verdiepingstraining van Bureau Weerbaar en Veilig bouwt voort op de basisva
 - Agressie rond fraudeconstatering
 - Psychiatrische of verslavingsproblematiek met onvoorspelbare escalatie
 - Bedreigingen via privékanalen na ingrijpende besluiten
+- Manipulatie via klachten of dreiging met de media
+- Onveilige huisbezoeken
+
+De trainingsacteur speelt deze situaties na, met de details die het team er bij de intake zelf bij levert.

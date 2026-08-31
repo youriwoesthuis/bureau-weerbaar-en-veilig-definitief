@@ -65,3 +65,5 @@ De basistraining van Bureau Weerbaar en Veilig helpt handelingsverlegenheid en h
 - Dreigementen met media, politieke druk of juridische stappen
 - Verbale intimidatie via telefoon of e-mail
 - Herhaald escalerend contact van dezelfde aanvrager
+
+De trainingsacteur speelt deze situaties na, met de details die het team er bij de intake zelf bij levert.

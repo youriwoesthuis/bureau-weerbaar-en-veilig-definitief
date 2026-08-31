@@ -61,3 +61,5 @@ Deze verdiepingstraining van Bureau Weerbaar en Veilig bereidt medewerkers voor 
 - Een klant blokkeert de toegang en dreigt fysiek bij een afsluiting
 - Meervoudige problematiek: schulden, verslaving en psychiatrie
 - Klanten die medewerkers opwachten of volgen na een bezoek
+
+De trainingsacteur speelt deze situaties na, met de details die het team er bij de intake zelf bij levert.

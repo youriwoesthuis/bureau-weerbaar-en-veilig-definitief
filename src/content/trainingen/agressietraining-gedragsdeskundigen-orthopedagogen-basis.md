@@ -66,3 +66,5 @@ Die meervoudige druk veroorzaakt vaak handelingsverlegenheid. De basistraining v
 - Druk om een advies aan te passen
 - Intimidatie via e-mail of sociale media
 - Werksituaties waarin je alleen bent en je onveilig voelt
+
+De trainingsacteur speelt deze situaties na, met de details die het team er bij de intake zelf bij levert.

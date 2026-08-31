@@ -47,7 +47,7 @@ veelgestelde_vragen:
 gerelateerd:
   - "agressietraining-maatschappelijk-werkers-gevorderd"
   - "agressietraining-maatschappelijk-werkers-expert"
-  - "agressietraining-sociale-dienst-uitkeringsinstanties-basis"
+  - "agressietraining-sociale-dienst-participatiewet-basis"
   - "agressietraining-reclasseringsmedewerkers-basis"
 ---
 
@@ -65,3 +65,5 @@ Zonder training ontstaat vaak handelingsverlegenheid, en op termijn burn-out. De
 - Verbale intimidatie bij moeilijke mededelingen
 - Ongewenst contact buiten werktijd
 - Agressie vanuit de omgeving van de cliënt
+
+De trainingsacteur speelt deze situaties na, met de details die het team er bij de intake zelf bij levert.

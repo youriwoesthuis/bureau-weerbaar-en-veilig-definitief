@@ -68,3 +68,5 @@ Deze verdiepingstraining van Bureau Weerbaar en Veilig bereidt medewerkers voor 
 - Seksueel grensoverschrijdend gedrag in een langdurige zorgrelatie
 - Signalen van huiselijk geweld of verwaarlozing
 - Onverwachte gedragsverandering in de laatste levensfase
+
+De trainingsacteur speelt deze situaties na, met de details die het team er bij de intake zelf bij levert.

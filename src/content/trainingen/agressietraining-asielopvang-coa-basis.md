@@ -63,3 +63,5 @@ De basistraining van Bureau Weerbaar en Veilig geeft medewerkers concrete handva
 - Verbale agressie ondanks taalbarrières
 - Bedreigingen na een systeembeslissing
 - Diensten met beperkte bezetting
+
+De trainingsacteur speelt deze situaties na, met de details die het team er bij de intake zelf bij levert.

@@ -67,3 +67,5 @@ Deze verdiepingstraining van Bureau Weerbaar en Veilig gaat in op ideologisch ge
 - Ideologisch gemotiveerde agressie bij vaccinatie- of testlocaties
 - Inspecties op risicovolle locaties
 - Online bedreigingen na een beslissing
+
+De trainingsacteur speelt deze situaties na, met de details die het team er bij de intake zelf bij levert.

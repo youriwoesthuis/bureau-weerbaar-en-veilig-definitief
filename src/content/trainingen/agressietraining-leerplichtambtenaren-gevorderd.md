@@ -65,3 +65,5 @@ Deze verdiepingstraining van Bureau Weerbaar en Veilig richt zich op die structu
 - Benadering buiten werktijd via sociale media
 - Gezinnen waarbij meerdere instanties betrokken zijn
 - Agressie die escaleert na gesprekken via derden
+
+De trainingsacteur speelt deze situaties na, met de details die het team er bij de intake zelf bij levert.

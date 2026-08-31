@@ -64,3 +64,5 @@ Zonder voorbereiding leidt dat vaak tot onveiligheid en verzuim. De basistrainin
 - Patiënten met verslavingsproblematiek die druk uitoefenen
 - Beschuldigingen van fouten, met dreigementen
 - Verbale agressie en intimidatie aan de balie
+
+De trainingsacteur speelt deze situaties na, met de details die het team er bij de intake zelf bij levert.

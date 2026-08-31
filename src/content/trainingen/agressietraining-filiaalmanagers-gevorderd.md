@@ -67,7 +67,7 @@ situatie te keren: met patroonanalyse, concrete maatregelen en aandacht voor
 de positie van de manager zelf. Die draagt de dubbeldruk van teamveiligheid
 en organisatieresultaten.
 
-## Herkenbare situaties op gevorderd niveau
+## Herkenbare praktijksituaties
 
 - Structurele overlast van dezelfde groepen of individuen
 - Teams die het vertrouwen in veiligheid hebben verloren
@@ -75,3 +75,5 @@ en organisatieresultaten.
 - Medewerkers met langdurige uitval na ernstige incidenten
 - Druk vanuit de organisatie om incidenten te bagatelliseren
 - Noodzaak tot samenwerking met politie en externe partners
+
+De trainingsacteur speelt deze situaties na, met de details die het team er bij de intake zelf bij levert.

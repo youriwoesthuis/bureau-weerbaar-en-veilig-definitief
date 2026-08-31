@@ -61,3 +61,5 @@ De basistraining van Bureau Weerbaar en Veilig geeft bibliotheekmedewerkers conc
 - Jongeren die de publieksruimte domineren
 - Personen met psychiatrische problematiek
 - Verbale intimidatie aan de balie
+
+De trainingsacteur speelt deze situaties na, met de details die het team er bij de intake zelf bij levert.

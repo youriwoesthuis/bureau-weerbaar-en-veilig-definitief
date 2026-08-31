@@ -64,3 +64,5 @@ Zonder training leidt dat vaak tot stress en handelingsverlegenheid bij grensove
 - Conflicten tussen reizigers in een rijdend voertuig
 - Verbale agressie op het perron
 - Optreden dat wordt gefilmd voor klachten of sociale media
+
+De trainingsacteur speelt deze situaties na, met de details die het team er bij de intake zelf bij levert.

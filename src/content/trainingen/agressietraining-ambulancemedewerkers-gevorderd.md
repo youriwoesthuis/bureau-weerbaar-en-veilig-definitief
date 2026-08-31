@@ -68,3 +68,5 @@ Deze verdiepingstraining van Bureau Weerbaar en Veilig sluit aan op de specifiek
 - Niet-eenduidig optreden van het duo
 - Escalaties ondanks de-escalatiepogingen
 - Agressie in combinatie met verwardheid of intoxicatie
+
+De trainingsacteur speelt deze situaties na, met de details die het team er bij de intake zelf bij levert.

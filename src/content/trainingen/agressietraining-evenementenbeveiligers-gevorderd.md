@@ -64,3 +64,5 @@ Deze verdiepingstraining van Bureau Weerbaar en Veilig leert beveiligers complex
 - Provocateurs die opnames gebruiken
 - Omstanders die de agressor steunen
 - Agressie in combinatie met intoxicatie of psychiatrische ontregeling
+
+De trainingsacteur speelt deze situaties na, met de details die het team er bij de intake zelf bij levert.

@@ -238,6 +238,33 @@ const feiten = [
     </div>
   </section>
 
+  {/* Zie BESLUITEN.md 7l. Bewust geen tweede kopieerbare RI&E-passage: die
+      staat op de beroepsgroeppagina en zou hier drie keer per beroepsgroep
+      worden herhaald. */}
+  <section class="sectie-krap op-wit">
+    <div class="omhulsel">
+      <div class="rie-strip">
+        <p class="bovenkop">Voor je plan van aanpak</p>
+        <h2 class="h4">Waar deze training in de RI&E past</h2>
+        <p>
+          Staat agressie als risico in de risico-inventarisatie, dan hoort in
+          het plan van aanpak te staan wat eraan gedaan wordt en wanneer
+          (Arbowet artikel 5). Een training werkt op het gedrag van de
+          individuele medewerker en komt in de arbeidshygiënische strategie
+          ná de maatregelen aan de bron en de maatregelen die het hele team
+          beschermen (Arbowet artikel 3, eerste lid onder b). Ze vult die aan
+          en vervangt ze niet.
+        </p>
+        <p class="rie-strip-voet">
+          Een voorbeeldpassage om over te nemen in het plan van aanpak staat op
+          <a href={pad(`/sectoren/${d.sector}/${d.beroepsgroep}/`)}>de pagina
+          over {groepNaam.toLowerCase()}</a>. De wetsartikelen staan voluit op
+          <a href={pad('/wet-en-regels/')}>wet en regels</a>.
+        </p>
+      </div>
+    </div>
+  </section>
+
   <!-- ---------------- De drie niveaus ---------------- -->
   <section class="sectie op-licht">
     <div class="omhulsel">
@@ -303,6 +330,22 @@ const feiten = [
 </Basis>
 
 <style>
+  .rie-strip {
+    max-width: 68ch;
+    border-left: 3px solid var(--rand-accent, var(--niveau-kleur, currentColor));
+    padding-left: clamp(1rem, 0.75rem + 1vw, 1.75rem);
+  }
+  .rie-strip h2 {
+    margin: 0.35rem 0 0.75rem;
+  }
+  .rie-strip p {
+    margin: 0 0 0.75rem;
+    line-height: 1.65;
+  }
+  .rie-strip-voet {
+    font-size: 0.9rem;
+    color: var(--tekst-donker-zacht);
+  }
   .training-kop {
     background: var(--mist-50);
     padding-block: clamp(1.5rem, 1rem + 2vw, 2.5rem) clamp(3rem, 2rem + 4vw, 5rem);

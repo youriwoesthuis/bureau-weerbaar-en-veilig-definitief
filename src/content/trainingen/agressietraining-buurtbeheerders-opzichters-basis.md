@@ -61,3 +61,5 @@ Zonder training leidt dat vaak tot onveilige situaties en handelingsverlegenheid
 - Een buurtconflict escaleert tijdens de bemiddeling
 - Groepsdruk van meerdere bewoners tegelijk
 - Derden zoals partner of familie zijn aanwezig bij een inspectie
+
+De trainingsacteur speelt deze situaties na, met de details die het team er bij de intake zelf bij levert.

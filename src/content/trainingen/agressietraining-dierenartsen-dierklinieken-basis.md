@@ -64,3 +64,5 @@ De basistraining van Bureau Weerbaar en Veilig leert teams die emotie te herkenn
 - Online of telefonische agressie richting de kliniek
 - Weigering van medisch niet-verantwoorde behandelingen
 - Eigenaren die in emotionele toestand binnenkomen
+
+De trainingsacteur speelt deze situaties na, met de details die het team er bij de intake zelf bij levert.

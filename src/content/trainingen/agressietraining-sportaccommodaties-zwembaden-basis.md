@@ -63,3 +63,5 @@ Zonder oefening lukt gezaghebbend handhaven meestal niet vanzelf. De basistraini
 - Sporters die hun agressie op medewerkers richten na een verlies
 - Bezoekers die dreigend reageren op toegangsweigering
 - Agressie bij sluitingstijd, wanneer bezoekers weigeren te vertrekken
+
+De trainingsacteur speelt deze situaties na, met de details die het team er bij de intake zelf bij levert.

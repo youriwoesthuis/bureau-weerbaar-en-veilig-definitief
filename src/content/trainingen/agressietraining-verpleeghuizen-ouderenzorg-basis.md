@@ -66,3 +66,5 @@ Zonder training ontstaan vaak handelingsverlegenheid, fysieke belasting en verzu
 - Verbale intimidatie en schreeuwen
 - Psychiatrische problematiek met dreigend gedrag
 - Spanningen tussen bewoners onderling
+
+De trainingsacteur speelt deze situaties na, met de details die het team er bij de intake zelf bij levert.

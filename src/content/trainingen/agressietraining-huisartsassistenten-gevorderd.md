@@ -66,7 +66,7 @@ Deze verdiepingstraining van Bureau Weerbaar en Veilig gaat verder dan de
 basis: ze richt zich op de patronen achter het gedrag en op de vraag hoe de
 praktijk daar als team eenduidig op reageert.
 
-## Herkenbare situaties op gevorderd niveau
+## Herkenbare praktijksituaties
 
 - Patiënten die bewust grenzen overschrijden
 - Instrumentele agressie om een spoedafspraak of recept af te dwingen
@@ -74,3 +74,5 @@ praktijk daar als team eenduidig op reageert.
 - Inconsistente teamreacties die agressie in stand houden
 - Escalaties ondanks de-escalatiepogingen
 - Agressie bij patiënten met verslaving, psychiatrische problematiek of dementie
+
+De trainingsacteur speelt deze situaties na, met de details die het team er bij de intake zelf bij levert.

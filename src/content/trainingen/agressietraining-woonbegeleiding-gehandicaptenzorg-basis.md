@@ -67,3 +67,5 @@ Dat begrijpen is de helft van het werk; de andere helft is veilig blijven. De ba
 - Fysieke agressie tijdens de verzorging
 - Doelgerichte agressie richting een specifieke medewerker
 - Agressie van familieleden
+
+De trainingsacteur speelt deze situaties na, met de details die het team er bij de intake zelf bij levert.

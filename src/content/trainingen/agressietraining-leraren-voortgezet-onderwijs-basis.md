@@ -66,3 +66,5 @@ De basistraining van Bureau Weerbaar en Veilig geeft leraren praktische handvatt
 - Een leerling die weigert het klaslokaal te verlaten
 - Agressieve ouders op school
 - Fysieke dreiging of escalatie
+
+De trainingsacteur speelt deze situaties na, met de details die het team er bij de intake zelf bij levert.

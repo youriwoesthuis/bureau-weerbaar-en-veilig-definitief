@@ -67,3 +67,5 @@ Deze verdiepingstraining van Bureau Weerbaar en Veilig vergroot de kennis van co
 - Afdelingsdynamieken met meerdere bewoners met gedragsproblematiek
 - Bewoners met psychiatrische comorbiditeit
 - Momenten waarop je alleen tegenover fysieke agressie staat
+
+De trainingsacteur speelt deze situaties na, met de details die het team er bij de intake zelf bij levert.

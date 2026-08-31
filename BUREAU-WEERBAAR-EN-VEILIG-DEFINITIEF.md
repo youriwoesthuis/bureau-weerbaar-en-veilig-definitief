@@ -187,10 +187,12 @@ kopstructuur), schema.org (verplichte velden, verwijzingen zonder doel) en
 het openingsantwoord voor AI-antwoordsystemen.
 
 Fouten laten het script falen; waarschuwingen niet. Dat onderscheid is
-bewust: er staat één titel van 61 tekens op de site
-(`sociale-dienst-participatiewet-gevorderd`), en inkorten zou hem laten
-botsen met `sociale-dienst-uitkeringsinstanties`. Uniciteit weegt zwaarder
-dan passen binnen zestig tekens.
+bewust: uniciteit van een titel weegt zwaarder dan passen binnen zestig
+tekens. De titel die dat onderscheid ooit nodig maakte bestaat overigens niet
+meer. Die hoorde bij `sociale-dienst-participatiewet-gevorderd` en kon niet
+worden ingekort zolang `sociale-dienst-uitkeringsinstanties` ernaast stond.
+Die twee beroepsgroepen zijn in de paginaronde samengevoegd (BESLUITEN.md
+7l), waarmee de titel vanzelf binnen bereik kwam.
 
 De contrastcontrole draait in de browser, niet in Node — je hebt echte
 computed styles nodig om doorzichtige kleuren en kleurverlopen door te

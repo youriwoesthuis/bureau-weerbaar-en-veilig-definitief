@@ -62,3 +62,5 @@ De basistraining van Bureau Weerbaar en Veilig geeft medewerkers de vaardigheden
 - Huisbezoeken met onvoorspelbare escalatie
 - Een omgeving die dreigend aanwezig is tijdens het gesprek
 - Intimidatie na een terugmelding
+
+De trainingsacteur speelt deze situaties na, met de details die het team er bij de intake zelf bij levert.

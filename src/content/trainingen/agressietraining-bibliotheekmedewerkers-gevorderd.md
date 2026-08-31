@@ -63,3 +63,5 @@ Deze verdiepingstraining van Bureau Weerbaar en Veilig helpt die norm doorbreken
 - Groepen jongeren die de bibliotheek als territorium beschouwen
 - Weigering om te vertrekken na een verwijdering
 - Conflicten tussen bezoekers met fysieke dreiging
+
+De trainingsacteur speelt deze situaties na, met de details die het team er bij de intake zelf bij levert.

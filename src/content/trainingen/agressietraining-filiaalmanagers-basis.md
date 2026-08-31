@@ -70,3 +70,5 @@ investeren preventief.
 - Een medewerker staat in shock na een incident
 - De politie moet worden ingeschakeld
 - Structureel onveilige situaties moeten worden aangepakt
+
+De trainingsacteur speelt deze situaties na, met de details die het team er bij de intake zelf bij levert.

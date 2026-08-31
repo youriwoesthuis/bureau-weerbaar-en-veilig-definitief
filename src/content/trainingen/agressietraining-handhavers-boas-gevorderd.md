@@ -66,3 +66,5 @@ Deze verdiepingstraining van Bureau Weerbaar en Veilig bereidt handhavers voor o
 - Instrumentele agressie om een boete te ontlopen
 - Meerpersoonssituaties met maximale juridische druk
 - Agressie in combinatie met psychiatrische problematiek
+
+De trainingsacteur speelt deze situaties na, met de details die het team er bij de intake zelf bij levert.

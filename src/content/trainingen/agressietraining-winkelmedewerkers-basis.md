@@ -69,5 +69,7 @@ situatie terug te brengen naar een normaal gesprek.
 - Verstoringen door groepen jongeren
 - Fysieke dreiging in minder zichtbare delen van de winkel
 
+De trainingsacteur speelt deze situaties na, met de details die het team er bij de intake zelf bij levert.
+
 De training werkt met precies dit soort situaties: herkenbaar, realistisch en
 direct toepasbaar op de eigen werkvloer.

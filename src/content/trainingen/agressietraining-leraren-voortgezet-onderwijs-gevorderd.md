@@ -66,3 +66,5 @@ Deze verdiepingstraining van Bureau Weerbaar en Veilig richt zich op die patrone
 - Een klasdynamiek die collectief omslaat
 - Manipulatie via valse beschuldigingen
 - Inconsistente teamreacties op dezelfde leerling
+
+De trainingsacteur speelt deze situaties na, met de details die het team er bij de intake zelf bij levert.

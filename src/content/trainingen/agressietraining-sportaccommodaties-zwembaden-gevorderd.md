@@ -65,3 +65,5 @@ Deze verdiepingstraining van Bureau Weerbaar en Veilig richt zich op die situati
 - Grensoverschrijdend gedrag van ouders bij jeugdevenementen
 - Agressie bij toegangsweigering, waarna iemand terugkomt met meer personen
 - Incidenten onder invloed van alcohol of drugs
+
+De trainingsacteur speelt deze situaties na, met de details die het team er bij de intake zelf bij levert.

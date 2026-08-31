@@ -66,3 +66,5 @@ Deze verdiepingstraining van Bureau Weerbaar en Veilig helpt medewerkers die lan
 - Dreiging met juridische stappen
 - Agressie tijdens de plechtigheid
 - Nabestaanden die de medewerker thuis opzoeken
+
+De trainingsacteur speelt deze situaties na, met de details die het team er bij de intake zelf bij levert.

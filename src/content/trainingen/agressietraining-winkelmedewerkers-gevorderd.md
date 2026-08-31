@@ -65,13 +65,15 @@ die de basis beheersen en structureel met zwaardere situaties werken. De focus
 verschuift van het incident naar het patroon: herkennen wat er werkelijk
 gebeurt, en er als team consistent op reageren.
 
-## Herkenbare situaties op gevorderd niveau
+## Herkenbare praktijksituaties
 
 - Klanten die doelbewust en herhaald grenzen overschrijden
 - Strategische intimidatie bij diefstalsituaties
 - Valse beschuldigingen van discriminatie
 - Groepsgedrag als afleidingstactiek
 - Escalaties op minder zichtbare winkellocaties
+
+De trainingsacteur speelt deze situaties na, met de details die het team er bij de intake zelf bij levert.
 
 De training gebruikt casuïstiek van de eigen vestiging, met nadruk op
 teamconsistentie en gezamenlijke afspraken voor de werkvloer.

@@ -65,3 +65,5 @@ Deze verdiepingstraining van Bureau Weerbaar en Veilig helpt daar bewust mee om 
 - Overlastdossiers met meerdere betrokken partijen
 - Woninginspecties in risicovolle situaties
 - Georganiseerde weerstand van huurdersgroepen
+
+De trainingsacteur speelt deze situaties na, met de details die het team er bij de intake zelf bij levert.

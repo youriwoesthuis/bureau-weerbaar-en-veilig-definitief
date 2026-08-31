@@ -67,3 +67,5 @@ Deze verdiepingstraining van Bureau Weerbaar en Veilig gaat in op die situaties 
 - Intimidatie om een professioneel advies terug te draaien
 - Juridische dreigingen als reactie op een gedragsmatige beslissing
 - Agressie via sociale media buiten werktijd
+
+De trainingsacteur speelt deze situaties na, met de details die het team er bij de intake zelf bij levert.

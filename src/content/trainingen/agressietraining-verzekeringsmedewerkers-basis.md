@@ -62,3 +62,5 @@ De basistraining van Bureau Weerbaar en Veilig geeft medewerkers concrete vaardi
 - Dreiging met een klacht, de media of juridische stappen
 - Klanten in acute crisis na ingrijpende schade
 - Escalerende communicatie via telefoon en e-mail
+
+De trainingsacteur speelt deze situaties na, met de details die het team er bij de intake zelf bij levert.

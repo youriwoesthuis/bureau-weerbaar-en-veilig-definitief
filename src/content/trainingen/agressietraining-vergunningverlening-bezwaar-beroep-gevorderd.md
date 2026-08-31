@@ -65,3 +65,5 @@ Deze verdiepingstraining van Bureau Weerbaar en Veilig richt zich op die cumulat
 - Juridische bedreigingen en tuchtrechtklachten
 - Politieke druk binnen de eigen organisatie
 - Online intimidatiecampagnes
+
+De trainingsacteur speelt deze situaties na, met de details die het team er bij de intake zelf bij levert.

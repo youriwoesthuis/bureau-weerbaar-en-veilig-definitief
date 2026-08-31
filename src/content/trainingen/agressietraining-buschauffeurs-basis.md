@@ -61,3 +61,5 @@ De basistraining van Bureau Weerbaar en Veilig geeft chauffeurs handvatten die w
 - Jongeren die verstorend gedrag vertonen
 - Passagiers onder invloed
 - Conflicten tussen reizigers onderling
+
+De trainingsacteur speelt deze situaties na, met de details die het team er bij de intake zelf bij levert.

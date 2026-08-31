@@ -67,3 +67,5 @@ De basistraining van Bureau Weerbaar en Veilig geeft medewerkers concrete vaardi
 - Onveilige huisbezoeken
 - Verbale agressie via telefoon of e-mail
 - Solo-werkzaamheden op risicovolle locaties
+
+De trainingsacteur speelt deze situaties na, met de details die het team er bij de intake zelf bij levert.

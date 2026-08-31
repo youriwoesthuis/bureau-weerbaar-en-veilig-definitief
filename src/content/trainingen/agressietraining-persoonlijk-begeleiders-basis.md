@@ -67,3 +67,5 @@ Zonder concrete training weten persoonlijk begeleiders niet altijd hoe ze agress
 - Agressie tijdens een activiteit buitenshuis
 - Contact buiten werktijd via sociale media
 - Agressie van familieleden
+
+De trainingsacteur speelt deze situaties na, met de details die het team er bij de intake zelf bij levert.

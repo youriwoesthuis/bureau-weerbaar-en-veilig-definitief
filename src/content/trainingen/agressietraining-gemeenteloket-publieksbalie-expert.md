@@ -47,7 +47,7 @@ veelgestelde_vragen:
 gerelateerd:
   - "agressietraining-gemeenteloket-publieksbalie-basis"
   - "agressietraining-gemeenteloket-publieksbalie-gevorderd"
-  - "agressietraining-sociale-dienst-uitkeringsinstanties-expert"
+  - "agressietraining-sociale-dienst-participatiewet-expert"
   - "agressietraining-belastingdienst-expert"
 ---
 

@@ -47,7 +47,7 @@ veelgestelde_vragen:
 gerelateerd:
   - "agressietraining-gemeenteloket-publieksbalie-basis"
   - "agressietraining-gemeenteloket-publieksbalie-expert"
-  - "agressietraining-sociale-dienst-uitkeringsinstanties-gevorderd"
+  - "agressietraining-sociale-dienst-participatiewet-gevorderd"
   - "agressietraining-belastingdienst-gevorderd"
 ---
 
@@ -65,3 +65,5 @@ Daarbij is de machtsverhouding complex, omdat burgers langdurig afhankelijk kunn
 - Kwetsbare burgers met psychiatrische problematiek
 - Wisselende teamreacties op dezelfde burger
 - Escalaties ondanks eerdere de-escalatiepogingen
+
+De trainingsacteur speelt deze situaties na, met de details die het team er bij de intake zelf bij levert.

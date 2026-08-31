@@ -64,3 +64,5 @@ De basistraining van Bureau Weerbaar en Veilig leert medewerkers die dynamiek te
 - Afwijzing van afspraken, met dreigende escalatie
 - Spanningen tijdens de plechtigheid zelf
 - Online beschuldigingen na afloop
+
+De trainingsacteur speelt deze situaties na, met de details die het team er bij de intake zelf bij levert.

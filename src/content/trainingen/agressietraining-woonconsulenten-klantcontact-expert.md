@@ -48,7 +48,7 @@ gerelateerd:
   - "agressietraining-woonconsulenten-klantcontact-basis"
   - "agressietraining-woonconsulenten-klantcontact-gevorderd"
   - "agressietraining-buurtbeheerders-opzichters-expert"
-  - "agressietraining-sociale-dienst-uitkeringsinstanties-expert"
+  - "agressietraining-sociale-dienst-participatiewet-expert"
 ---
 
 ## Waarom deze training

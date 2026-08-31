@@ -65,3 +65,5 @@ De basistraining van Bureau Weerbaar en Veilig geeft concrete handvatten om veil
 - Jongeren die de confrontatie opzoeken
 - Ouders die bemoeienis van de overheid afwijzen
 - Bedreigingen via telefoon of sociale media
+
+De trainingsacteur speelt deze situaties na, met de details die het team er bij de intake zelf bij levert.

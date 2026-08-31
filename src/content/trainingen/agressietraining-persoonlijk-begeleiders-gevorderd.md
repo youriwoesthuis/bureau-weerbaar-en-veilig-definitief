@@ -67,3 +67,5 @@ Deze verdiepingstraining van Bureau Weerbaar en Veilig richt zich op die patrone
 - Ernstige agressie-incidenten uit een ontspoorde relatie
 - Cliënten die begeleiders van het team isoleren
 - Agressiepatronen die pas zichtbaar worden als je ze naast elkaar legt
+
+De trainingsacteur speelt deze situaties na, met de details die het team er bij de intake zelf bij levert.

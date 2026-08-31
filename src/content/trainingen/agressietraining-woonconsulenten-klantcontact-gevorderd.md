@@ -63,3 +63,5 @@ Deze verdiepingstraining van Bureau Weerbaar en Veilig richt zich op die dossier
 - Onveilige huisbezoeken met een dreigende sfeer
 - Contact buiten werktijd via privékanalen
 - Inconsistente reacties van medewerkers bij probleemhuurders
+
+De trainingsacteur speelt deze situaties na, met de details die het team er bij de intake zelf bij levert.

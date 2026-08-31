@@ -48,7 +48,7 @@ veelgestelde_vragen:
 gerelateerd:
   - "agressietraining-incasso-schuldhulpverlening-gevorderd"
   - "agressietraining-incasso-schuldhulpverlening-expert"
-  - "agressietraining-sociale-dienst-uitkeringsinstanties-basis"
+  - "agressietraining-sociale-dienst-participatiewet-basis"
   - "agressietraining-bankmedewerkers-basis"
 ---
 
@@ -65,3 +65,5 @@ De basistraining van Bureau Weerbaar en Veilig helpt escalatie en langdurig verz
 - Persoonlijke aanvallen op de medewerker
 - Intimidatie tijdens huisbezoeken
 - Escalerende communicatie via telefoon of e-mail
+
+De trainingsacteur speelt deze situaties na, met de details die het team er bij de intake zelf bij levert.

@@ -63,3 +63,5 @@ Zonder training leidt dat vaak tot gevaarlijke situaties en hoog verzuim. De bas
 - Fysieke agressie of dreiging
 - Persoonlijke aanvallen via bedreigingen
 - Intimidatie door familieleden
+
+De trainingsacteur speelt deze situaties na, met de details die het team er bij de intake zelf bij levert.

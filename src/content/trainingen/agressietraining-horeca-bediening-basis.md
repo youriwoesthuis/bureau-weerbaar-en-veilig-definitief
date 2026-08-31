@@ -66,3 +66,5 @@ De basistraining van Bureau Weerbaar en Veilig wil de veiligheid verhogen zonder
 - Een gast die dreigt bij de rekening of bij een klacht over het eten
 - Onderlinge ruzie tussen gasten
 - Een gast die bij sluitingstijd weigert te vertrekken en agressief reageert
+
+De trainingsacteur speelt deze situaties na, met de details die het team er bij de intake zelf bij levert.

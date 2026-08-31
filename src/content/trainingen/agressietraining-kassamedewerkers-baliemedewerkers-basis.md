@@ -66,5 +66,7 @@ terugbrengen voordat het escaleert.
 - Dreiging bij een diefstalverdenking
 - Conflicten die ontstaan in de wachtrij
 
+De trainingsacteur speelt deze situaties na, met de details die het team er bij de intake zelf bij levert.
+
 De training werkt met realistische scenario's uit precies deze situaties:
 praktijkgericht en direct toepasbaar achter kassa en balie.

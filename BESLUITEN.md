@@ -447,6 +447,72 @@ Zeven en vier vragen die voor Google en AI-systemen niet bestonden. Toegevoegd.
 met schema. De 548 vragen in de content (per training, beroepsgroep en sector)
 blijven ongemoeid: die zijn per definitie specifiek.
 
+## 7l. Paginaronde stap 4: trainingspagina en niveaupagina (31-08-2026)
+
+**Gemeten voordat er iets gesloopt werd.** Gemini's eerste oordeel was dat het
+trajectblok en de niveaustrip op 132 trainingspagina's schadelijke duplicate
+content opleveren en weg moesten. Voor ik dat uitvoerde heb ik alle 132
+pagina's per zin geteld: gemiddeld 583 woorden per pagina staan in zinnen die
+uniek of zeldzaam zijn, 154 woorden in zinnen die op meer dan de helft van de
+pagina's terugkomen. Dat is 21 procent gedeeld, 79 procent uniek. Gemini na
+confrontatie: "Je hebt op alle punten gelijk", de diagnose ging uit van een
+veel hoger percentage, en het trajectblok staat juist op de pagina waar de
+koopintentie het hoogst is. Besluit: laten staan. Zonder die meting was hier
+het sterkste conversieblok van de site gesneuveld op een aanname.
+
+**Twee beroepsgroepen samengevoegd.** `sociale-dienst-uitkeringsinstanties`
+en `sociale-dienst-participatiewet` bedienden dezelfde klantmanagers. De
+doelgroepomschrijvingen waren praktisch inwisselbaar, beide noemden
+telefonische en digitale agressie na een beslissing, en er stond zelfs al een
+vraag op de site die probeerde uit te leggen waarin ze verschilden. Dat waren
+acht pagina's die om dezelfde zoekopdracht concurreerden.
+
+- Behouden: `sociale-dienst-participatiewet`, verbreed in samenvatting,
+  doelgroep en vragen zodat uitkeringsinstanties, schuldhulp, bijzondere
+  bijstand en re-integratie er expliciet onder vallen.
+- Overgenomen uit de opgeheven groep: de morele spanning van begrenzen bij
+  wie het al moeilijk heeft, de telefoon die op tafel gaat, het onveilige
+  huisbezoek en de dreiging met klachten of media.
+- **Geen redirects.** De site is niet gelanceerd: nul geïndexeerde urls, nul
+  backlinks, nul posities. Gemini's uitvoeringsplan met 301-omleidingen en het
+  bundelen van autoriteit gold voor een bestaande site. Na de vraag of dat
+  verandert bij een ongelanceerde site: "Je lezing is 100 procent correct."
+- Bijvangst: de titel van `sociale-dienst-participatiewet-gevorderd` was 61
+  tekens en kon niet korter zolang de andere groep bestond. Nu wel.
+
+**De arbeidshygiënische strategie toegevoegd aan wet en regels.** Gemini
+stelde voor op de trainingspagina te schrijven dat de training "geldt als een
+brongerichte beheersmaatregel". Dat is onjuist: in artikel 3, eerste lid onder
+b, staat een volgorde waarin maatregelen aan de bron voorgaan op collectieve
+maatregelen, en die weer op individuele. Een training werkt op het individuele
+gedrag en staat dus onderaan. Gemini erkende de fout. Het artikel staat nu als
+zevende letterlijk citaat op de wetpagina, met de uitleg dat wie een training
+verkoopt als de oplossing, twee stappen overslaat. Dat is meteen het eerlijkste
+onderscheid met de concurrentie, die training vrijwel zonder uitzondering als
+het antwoord presenteert.
+
+De letterlijke tekst is op wetten.overheid.nl gecontroleerd, en dat was nodig:
+het slot van het artikel wijkt af van wat er op veel sites over de
+arbeidshygiënische strategie wordt geschreven.
+
+**Een RI&E-blok op de trainingspagina.** De kopieerbare voorbeeldpassage blijft
+op de beroepsgroeppagina staan, want die hoort bij de functie en niet bij het
+niveau. Nieuw op de trainingspagina is een kort blok dat zegt waar een training
+in de risico-inventarisatie past en dat ze de organisatorische maatregelen
+aanvult in plaats van vervangt, met links naar de voorbeeldpassage en naar de
+wetsartikelen.
+
+**Een acteursregel onder de praktijksituaties.** Gemini wilde per beroepsgroep
+een nieuwe zin over wat de acteur naspeelt. Dat zou 132 keer verzonnen worden
+voor situaties waarvoor geen bron bestaat. In plaats daarvan verwijst één vaste
+regel naar de vijf situaties die er al staan: "De trainingsacteur speelt deze
+situaties na, met de details die het team er bij de intake zelf bij levert."
+Staat nu op 88 pagina's, alle basis- en gevorderdtrainingen. Drie
+gevorderdbestanden hadden een afwijkend kopje ("Herkenbare situaties op
+gevorderd niveau"), dat is gelijkgetrokken.
+
+**Stand:** 217 pagina's, nul fouten.
+
 ## 8. Nog open — heeft Youri nodig
 
 - Onderkop van de hero

@@ -67,3 +67,5 @@ Zonder concrete training leidt dat vaak tot handelingsverlegenheid en hoog verzu
 - Onvoorspelbare reacties van cliënten met dementie
 - Je wilt de woning verlaten maar wordt tegengehouden
 - Agressie zonder collega’s in de buurt
+
+De trainingsacteur speelt deze situaties na, met de details die het team er bij de intake zelf bij levert.

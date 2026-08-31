@@ -65,3 +65,5 @@ Deze verdiepingstraining van Bureau Weerbaar en Veilig bereidt chauffeurs daarop
 - Fysieke dreiging in een rijdend voertuig
 - Online dreiging via opnames
 - Achtervolging na een rit
+
+De trainingsacteur speelt deze situaties na, met de details die het team er bij de intake zelf bij levert.

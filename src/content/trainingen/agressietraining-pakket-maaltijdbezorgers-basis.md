@@ -66,3 +66,5 @@ Werkgevers die hun zorgplicht serieus nemen, investeren in training vóórdat in
 - Adressen waar je je onveilig voelt
 - Agressie van omstanders
 - Online beschuldigingen via het platform
+
+De trainingsacteur speelt deze situaties na, met de details die het team er bij de intake zelf bij levert.

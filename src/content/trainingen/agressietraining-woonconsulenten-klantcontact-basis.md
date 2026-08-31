@@ -46,7 +46,7 @@ gerelateerd:
   - "agressietraining-woonconsulenten-klantcontact-gevorderd"
   - "agressietraining-woonconsulenten-klantcontact-expert"
   - "agressietraining-buurtbeheerders-opzichters-basis"
-  - "agressietraining-sociale-dienst-uitkeringsinstanties-basis"
+  - "agressietraining-sociale-dienst-participatiewet-basis"
 ---
 
 ## Waarom deze training
@@ -62,3 +62,5 @@ Het gevolg is vaak dat medewerkers dossiers gaan vermijden en dat het verzuim st
 - Dreigend gedrag tijdens huisbezoeken
 - Verbale agressie rond huurschulden
 - Benadering in de privésfeer of thuis buiten werktijd
+
+De trainingsacteur speelt deze situaties na, met de details die het team er bij de intake zelf bij levert.

@@ -62,3 +62,5 @@ De basistraining van Bureau Weerbaar en Veilig helpt escalatie en verzuim voorko
 - Een wanhopige reactie op een geblokkeerde rekening
 - Telefonische dreiging en intimidatie
 - Escalerende gesprekken over schulden
+
+De trainingsacteur speelt deze situaties na, met de details die het team er bij de intake zelf bij levert.

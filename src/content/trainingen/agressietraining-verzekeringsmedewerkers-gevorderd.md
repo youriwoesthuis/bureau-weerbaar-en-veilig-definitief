@@ -64,3 +64,5 @@ Deze verdiepingstraining van Bureau Weerbaar en Veilig richt zich op dat gedrag 
 - Manipulatie via tussenpersonen of juridische druk
 - Herhaalde contactmomenten die telkens escaleren
 - Onveilige schade-inspecties ter plaatse
+
+De trainingsacteur speelt deze situaties na, met de details die het team er bij de intake zelf bij levert.

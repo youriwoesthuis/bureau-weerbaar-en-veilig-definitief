@@ -39,8 +39,8 @@ werkvormen:
   - casuïstiek van de eigen organisatie
   - oefenen met het brengen van moeilijke boodschappen
 veelgestelde_vragen:
-  - vraag: "Wat maakt deze training anders dan die voor uitkeringsinstanties?"
-    antwoord: "Deze training legt de nadruk op de uitvoering van de Participatiewet: het brengen van kortingen, maatregelen en sancties, en de existentiële afhankelijkheid die daarbij speelt."
+  - vraag: "Geldt deze training ook voor uitkeringsinstanties en schuldhulp?"
+    antwoord: "Ja. Wie een besluit brengt of uitlegt dat over het inkomen van iemand gaat, komt dezelfde reacties tegen. Schuldhulp, bijzondere bijstand, re-integratie en de balie horen in dezelfde groep thuis."
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Klantmanagers, consulenten en baliemedewerkers van sociale diensten en organisaties die de Participatiewet uitvoeren. Er is geen voorkennis nodig; dit is het instapniveau."
   - vraag: "Wat is het verschil met de andere niveaus?"
@@ -48,8 +48,8 @@ veelgestelde_vragen:
 gerelateerd:
   - "agressietraining-sociale-dienst-participatiewet-gevorderd"
   - "agressietraining-sociale-dienst-participatiewet-expert"
-  - "agressietraining-sociale-dienst-uitkeringsinstanties-basis"
   - "agressietraining-gemeenteloket-publieksbalie-basis"
+  - "agressietraining-incasso-schuldhulpverlening-basis"
 ---
 
 ## Waarom deze training
@@ -64,4 +64,7 @@ De basistraining van Bureau Weerbaar en Veilig richt zich daarom op het moment z
 - Cliënten in acute financiële nood die de medewerker verantwoordelijk stellen
 - Bedreigingen via telefoon of e-mail na een beslissing
 - Verbale intimidatie aan de balie
+- Dreigende taal tijdens een spreekuur of huisbezoek
 - Weigering van een re-integratieverplichting, met dreiging
+
+De trainingsacteur speelt deze situaties na, met de details die het team er bij de intake zelf bij levert.

@@ -64,3 +64,5 @@ Deze verdiepingstraining van Bureau Weerbaar en Veilig richt zich op vaardighede
 - Psychiatrische problematiek met onvoorspelbare uitbarstingen
 - Collectieve weigeringen of opstanden
 - Intimidatie via sociale media of door familieleden
+
+De trainingsacteur speelt deze situaties na, met de details die het team er bij de intake zelf bij levert.

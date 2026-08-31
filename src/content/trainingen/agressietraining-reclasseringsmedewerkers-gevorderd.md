@@ -65,3 +65,5 @@ Deze verdiepingstraining van Bureau Weerbaar en Veilig bereidt medewerkers voor 
 - Netwerkdruk via medeverdachten of familie
 - Huisbezoeken in omgevingen met georganiseerde criminaliteit
 - Dreiging die pas achteraf via sociale media duidelijk wordt
+
+De trainingsacteur speelt deze situaties na, met de details die het team er bij de intake zelf bij levert.

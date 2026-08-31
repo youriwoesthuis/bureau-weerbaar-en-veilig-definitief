@@ -65,3 +65,5 @@ Zonder concrete training escaleren situaties vaak onnodig, met verzuim en juridi
 - Omstanders die de situatie aanwakkeren
 - Agressie die voor sociale media wordt gefilmd
 - Personen onder invloed die onvoorspelbaar reageren
+
+De trainingsacteur speelt deze situaties na, met de details die het team er bij de intake zelf bij levert.

@@ -64,3 +64,5 @@ Deze verdiepingstraining van Bureau Weerbaar en Veilig richt zich op dat gedrag 
 - Groepen die de docent collectief uitdagen
 - Agressie in combinatie met verslavingsproblematiek of psychiatrische achtergrond
 - Inconsistente teamreacties die ongewenst gedrag in stand houden
+
+De trainingsacteur speelt deze situaties na, met de details die het team er bij de intake zelf bij levert.

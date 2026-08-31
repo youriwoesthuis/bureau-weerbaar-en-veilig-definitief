@@ -65,3 +65,5 @@ Deze verdiepingstraining van Bureau Weerbaar en Veilig richt zich op die lange a
 - Rouwgedreven agressie, maanden na de behandeling
 - Second-opinion-zoekers die nalatigheid of fraude claimen
 - Groepsdruk van meerdere familieleden of vrienden
+
+De trainingsacteur speelt deze situaties na, met de details die het team er bij de intake zelf bij levert.

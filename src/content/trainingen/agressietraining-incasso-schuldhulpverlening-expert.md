@@ -46,7 +46,7 @@ veelgestelde_vragen:
 gerelateerd:
   - "agressietraining-incasso-schuldhulpverlening-basis"
   - "agressietraining-incasso-schuldhulpverlening-gevorderd"
-  - "agressietraining-sociale-dienst-uitkeringsinstanties-expert"
+  - "agressietraining-sociale-dienst-participatiewet-expert"
   - "agressietraining-bankmedewerkers-expert"
 ---
 

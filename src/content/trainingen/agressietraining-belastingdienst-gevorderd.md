@@ -64,3 +64,5 @@ Deze verdiepingstraining van Bureau Weerbaar en Veilig richt zich op die vorm va
 - Herhaalde agressieve contacten via meerdere kanalen
 - Manipulatie via valse beschuldigingen
 - Agressie op locatie zonder directe collegiale ondersteuning
+
+De trainingsacteur speelt deze situaties na, met de details die het team er bij de intake zelf bij levert.

@@ -63,3 +63,5 @@ Deze verdiepingstraining van Bureau Weerbaar en Veilig helpt adviseurs die patro
 - Combinatiecrisis: echtscheiding, ontslag en hypotheekproblemen tegelijk
 - Druk via derden zoals partners of advocaten
 - Persoonlijke bedreigingen buiten werktijd
+
+De trainingsacteur speelt deze situaties na, met de details die het team er bij de intake zelf bij levert.

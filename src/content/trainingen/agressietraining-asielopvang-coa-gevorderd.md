@@ -65,3 +65,5 @@ Deze verdiepingstraining van Bureau Weerbaar en Veilig bereidt medewerkers voor 
 - Minimale bezetting tijdens nacht- en weekenddiensten
 - Bedreigingen buiten de locatie of via sociale media
 - Escalaties rond ingrijpende beslissingen
+
+De trainingsacteur speelt deze situaties na, met de details die het team er bij de intake zelf bij levert.

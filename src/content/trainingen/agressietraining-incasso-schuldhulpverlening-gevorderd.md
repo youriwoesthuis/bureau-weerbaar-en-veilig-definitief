@@ -47,7 +47,7 @@ veelgestelde_vragen:
 gerelateerd:
   - "agressietraining-incasso-schuldhulpverlening-basis"
   - "agressietraining-incasso-schuldhulpverlening-expert"
-  - "agressietraining-sociale-dienst-uitkeringsinstanties-gevorderd"
+  - "agressietraining-sociale-dienst-participatiewet-gevorderd"
   - "agressietraining-bankmedewerkers-gevorderd"
 ---
 
@@ -64,3 +64,5 @@ Deze verdiepingstraining van Bureau Weerbaar en Veilig richt zich op die uiterst
 - Onveilige huisbezoeken voor invordering
 - Benadering buiten werktijd via privékanalen
 - Manipulatie via rechtsmiddelen als druktactiek
+
+De trainingsacteur speelt deze situaties na, met de details die het team er bij de intake zelf bij levert.

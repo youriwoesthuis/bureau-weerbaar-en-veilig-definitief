@@ -68,3 +68,5 @@ Deze verdiepingstraining van Bureau Weerbaar en Veilig bereidt begeleiders voor 
 - Verstandelijke beperking in combinatie met psychiatrische of verslavingsproblematiek
 - Inconsistent teamgedrag dat de problematiek versterkt
 - Geweld tijdens een nachtdienst in alleenstand
+
+De trainingsacteur speelt deze situaties na, met de details die het team er bij de intake zelf bij levert.

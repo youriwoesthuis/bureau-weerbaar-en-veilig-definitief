@@ -65,3 +65,5 @@ Onvoldoende training leidt tot onnodige fysieke ingrepen, met juridische gevolge
 - Druggebruik in de zaak
 - Groepsintimidatie aan de deur
 - Escalatie buiten, met toeschouwers erbij
+
+De trainingsacteur speelt deze situaties na, met de details die het team er bij de intake zelf bij levert.

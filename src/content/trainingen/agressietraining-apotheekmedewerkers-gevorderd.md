@@ -63,3 +63,5 @@ Deze verdiepingstraining van Bureau Weerbaar en Veilig helpt medewerkers de bala
 - Dreiging met media-aandacht of juridische stappen
 - Spanning in de wachtrij met meerdere patiënten
 - Agressie via telefoon of online
+
+De trainingsacteur speelt deze situaties na, met de details die het team er bij de intake zelf bij levert.

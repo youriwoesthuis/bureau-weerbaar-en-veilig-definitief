@@ -65,3 +65,5 @@ Deze verdiepingstraining van Bureau Weerbaar en Veilig sluit aan op die realitei
 - Optreden dat wordt gefilmd
 - Vechtpartijen met meerdere personen
 - Samenwerking met de politie bij ernstige incidenten
+
+De trainingsacteur speelt deze situaties na, met de details die het team er bij de intake zelf bij levert.

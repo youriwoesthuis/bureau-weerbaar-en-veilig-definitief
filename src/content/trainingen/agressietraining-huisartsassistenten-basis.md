@@ -69,3 +69,5 @@ blijven werken.
 - Een patiënt intimideert de wachtkamer
 - Dezelfde patiënt reageert aan de telefoon keer op keer agressief
 - Een patiënt dreigt bij een recept- of verwijsbeslissing
+
+De trainingsacteur speelt deze situaties na, met de details die het team er bij de intake zelf bij levert.

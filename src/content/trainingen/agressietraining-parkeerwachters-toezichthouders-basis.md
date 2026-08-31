@@ -65,3 +65,5 @@ De basistraining van Bureau Weerbaar en Veilig geeft toezichthouders concrete ha
 - Omstanders omsingelen de toezichthouder
 - Online bedreigingen na handhavingsoptreden
 - Structurele vijandigheid in bepaalde wijken
+
+De trainingsacteur speelt deze situaties na, met de details die het team er bij de intake zelf bij levert.

@@ -61,3 +61,5 @@ Zonder training escaleren situaties vaak onnodig, met letsel en aansprakelijkhei
 - Onvoorspelbare reacties van bezoekers onder invloed
 - Omstanders die interventies tegenwerken
 - Dreigende massapaniek
+
+De trainingsacteur speelt deze situaties na, met de details die het team er bij de intake zelf bij levert.

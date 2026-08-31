@@ -63,3 +63,5 @@ De basistraining van Bureau Weerbaar en Veilig helpt verzuim, verloop en escalat
 - Verbale agressie bij betalingsachterstanden
 - Een wanhopige klant onder grote persoonlijke druk
 - Escalerende communicatie buiten kantooruren
+
+De trainingsacteur speelt deze situaties na, met de details die het team er bij de intake zelf bij levert.

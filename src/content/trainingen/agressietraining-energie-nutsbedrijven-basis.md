@@ -60,3 +60,5 @@ Zonder concrete training weten medewerkers niet altijd hoe ze agressief gedrag k
 - Weigering van toegang bij een verplichte inspectie
 - Dreigende familieleden die aanwezig zijn
 - Intimidatie bij ongewenste beslissingen
+
+De trainingsacteur speelt deze situaties na, met de details die het team er bij de intake zelf bij levert.

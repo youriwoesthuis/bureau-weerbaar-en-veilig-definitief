@@ -65,3 +65,5 @@ Deze verdiepingstraining van Bureau Weerbaar en Veilig richt zich op die specifi
 - Online bedreigingen na een incident
 - Agressie vanuit groepen op straat
 - Situaties tijdens avond- en nachtdiensten
+
+De trainingsacteur speelt deze situaties na, met de details die het team er bij de intake zelf bij levert.

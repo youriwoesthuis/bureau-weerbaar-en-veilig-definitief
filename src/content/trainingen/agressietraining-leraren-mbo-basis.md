@@ -66,3 +66,5 @@ De basistraining van Bureau Weerbaar en Veilig geeft docenten concrete handvatte
 - Weigering om aanwijzingen op te volgen
 - Fysieke intimidatie
 - Studenten onder invloed van alcohol of drugs
+
+De trainingsacteur speelt deze situaties na, met de details die het team er bij de intake zelf bij levert.

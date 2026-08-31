@@ -48,7 +48,7 @@ veelgestelde_vragen:
 gerelateerd:
   - "agressietraining-gemeenteloket-publieksbalie-gevorderd"
   - "agressietraining-gemeenteloket-publieksbalie-expert"
-  - "agressietraining-sociale-dienst-uitkeringsinstanties-basis"
+  - "agressietraining-sociale-dienst-participatiewet-basis"
   - "agressietraining-belastingdienst-basis"
 ---
 
@@ -66,3 +66,5 @@ De basistraining van Bureau Weerbaar en Veilig helpt escalatie en handelingsverl
 - Verbale intimidatie op het moment van de besluitmededeling
 - Onvoorspelbare reacties van kwetsbare burgers
 - Telefonische of digitale agressie
+
+De trainingsacteur speelt deze situaties na, met de details die het team er bij de intake zelf bij levert.

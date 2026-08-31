@@ -64,3 +64,5 @@ Deze verdiepingstraining van Bureau Weerbaar en Veilig richt zich op die situati
 - Groepen die samenwerken om druk uit te oefenen
 - Crisissituaties in een rijdend voertuig
 - Optreden dat bewust wordt gefilmd
+
+De trainingsacteur speelt deze situaties na, met de details die het team er bij de intake zelf bij levert.

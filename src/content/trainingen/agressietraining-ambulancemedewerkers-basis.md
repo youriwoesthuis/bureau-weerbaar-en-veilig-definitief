@@ -69,3 +69,5 @@ en vermindert doorgaans het verzuim na incidenten.
 - Psychiatrische patiënten in crisis
 - Agressie direct bij aankomst op de meldlocatie
 - Verbale en non-verbale dreiging tijdens medische handelingen
+
+De trainingsacteur speelt deze situaties na, met de details die het team er bij de intake zelf bij levert.

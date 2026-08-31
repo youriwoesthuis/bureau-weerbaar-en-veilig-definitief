@@ -64,3 +64,5 @@ Deze verdiepingstraining van Bureau Weerbaar en Veilig richt zich op groepsdynam
 - Structurele seksuele intimidatie
 - Situaties met meerdere spanningsbronnen tegelijk
 - Gasten die weigeren te vertrekken
+
+De trainingsacteur speelt deze situaties na, met de details die het team er bij de intake zelf bij levert.

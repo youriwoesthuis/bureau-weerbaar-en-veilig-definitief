@@ -47,8 +47,8 @@ veelgestelde_vragen:
 gerelateerd:
   - "agressietraining-sociale-dienst-participatiewet-basis"
   - "agressietraining-sociale-dienst-participatiewet-gevorderd"
-  - "agressietraining-sociale-dienst-uitkeringsinstanties-expert"
   - "agressietraining-maatschappelijk-werkers-expert"
+  - "agressietraining-gemeenteloket-publieksbalie-expert"
 ---
 
 ## Waarom deze training

@@ -64,3 +64,5 @@ Deze verdiepingstraining van Bureau Weerbaar en Veilig richt zich op die situati
 - Bewust filmen om iemand online te beschadigen
 - Fysieke aanvallen
 - Bedreigingen buiten werktijd
+
+De trainingsacteur speelt deze situaties na, met de details die het team er bij de intake zelf bij levert.

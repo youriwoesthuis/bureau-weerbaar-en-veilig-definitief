@@ -72,5 +72,7 @@ zonder de klantrelatie onnodig te beschadigen.
 - Groepsdruk op medewerkers
 - Escalaties ondanks de-escalatiepogingen
 
+De trainingsacteur speelt deze situaties na, met de details die het team er bij de intake zelf bij levert.
+
 De training werkt met casuïstiek van de eigen vestiging: de nadruk ligt op
 teamgedrag en consistentie.

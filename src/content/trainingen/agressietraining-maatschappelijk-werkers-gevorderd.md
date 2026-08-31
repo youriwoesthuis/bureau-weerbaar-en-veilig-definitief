@@ -64,3 +64,5 @@ Deze verdiepingstraining van Bureau Weerbaar en Veilig gaat verder dan basisvaar
 - Ongewenste benadering buiten werktijd of in de privésfeer
 - Agressie vanuit het netwerk van de cliënt: partner, familie of derden
 - Langdurige relaties met vervaagde professionele grenzen
+
+De trainingsacteur speelt deze situaties na, met de details die het team er bij de intake zelf bij levert.
