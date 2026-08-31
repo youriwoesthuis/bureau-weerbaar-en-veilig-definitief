@@ -204,15 +204,11 @@ h4, .h4 { font-size: 1.05rem; line-height: 1.3; }
   align-items: center;
   gap: 0.7rem;
 }
-.bovenkop::before {
-  content: "";
-  width: 1.9rem;
-  height: 2px;
-  background: var(--niveau);
-  flex: none;
-}
+/* Hier stond een streepje van 1,9rem in de niveaukleur vóór het label.
+   Verwijderd op verzoek van Youri (31-08-2026): geen streepjes op de site,
+   ook niet als versiering. De niveaukleur blijft zichtbaar via kaarten,
+   randen en cijfers; het label is nu gewoon tekst. */
 .op-licht .bovenkop, .op-wit .bovenkop { color: var(--tekst-donker-zacht); }
-.op-licht .bovenkop::before, .op-wit .bovenkop::before { background: var(--niveau-op-wit); }
 
 .inleiding {
   font-size: clamp(1.05rem, 1rem + 0.28vw, 1.19rem);

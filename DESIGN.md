@@ -128,8 +128,15 @@ reden dat de site schreeuwerig en krap oogde.
 | `h2` | tot 2,25rem (36px) |
 | `h3` | tot 1,3rem (21px) |
 
-Verder: `.bovenkop` (het kleine label met streepje), `.inleiding`,
+Verder: `.bovenkop` (het kleine label boven een kop), `.inleiding`,
 `.leestekst` (max 42rem) en `.openingsantwoord`.
+
+Het streepje dat vóór `.bovenkop` stond is op 31-08-2026 verwijderd op
+verzoek van Youri: geen streepjes op de site, ook niet als versiering. In
+dezelfde ronde zijn de gestreepte randen (`dashed`) effen gemaakt. Wat wel
+bleef, omdat het functie heeft en geen versiering is: de plus- en
+minknop van de uitklapvragen, en de lijnmonsters in de legenda van de
+spanningscurve, die de twee lijnen in de grafiek moeten matchen.
 
 `.openingsantwoord` staat op **elke** pagina en is geen opmaakkeuze: het is
 het blok dat Google en AI-antwoordsystemen citeren. Twee tot drie zinnen,
