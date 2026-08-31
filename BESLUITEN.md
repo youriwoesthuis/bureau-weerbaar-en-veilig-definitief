@@ -111,6 +111,15 @@ Wordt opnieuw ingericht, samen met Youri.
   opnieuw voorleggen.
 - **Eerste scherm moet zeggen: wat we doen en voor wie.**
 
+## 7a. Afgewezen: het vluchtplan
+
+Op 25-08-2026 is een concept uitgewerkt om de luchtvaart als kernmetafoor te
+gebruiken (boarding, de vlucht, de landing; VLUCHTPLAN.md en een map
+handboek/). **Youri heeft dit dezelfde dag afgewezen: het hele vluchtplan is
+eruit.** Niet opnieuw voorstellen. De uitwerking staat voor de zekerheid in
+een git-stash ("vluchtplan-uitwerking"); De Weerbaarheidsladder blijft het
+model.
+
 ## 8. Nog open — heeft Youri nodig
 
 - Onderkop van de hero

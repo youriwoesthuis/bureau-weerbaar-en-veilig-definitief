@@ -83,7 +83,7 @@ Staan in `FEITEN` in `src/lib/site.ts`, niet los in pagina's:
 - Elke training duurt **1 dag** — alle niveaus, alle beroepsgroepen
 - Maximaal 10 deelnemers, bij expert maximaal 8
 - Deelnamecertificaat na afloop
-- Incompany, op eigen locatie of in Neede
+- Altijd incompany, bij de opdrachtgever op locatie — er wordt níét in Neede getraind (bevestigd 25-08-2026, zie BESLUITEN.md)
 
 Controleer dit soort gegevens bij de opdrachtgever in plaats van ze over te
 nemen uit oude content.
