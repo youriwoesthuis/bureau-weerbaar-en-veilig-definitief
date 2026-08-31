@@ -52,9 +52,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Diereigenaren staan in de kliniek op emotioneel belastende momenten. Het welzijn van een huisdier raakt mensen diep, en die lading maakt de drempel voor agressief gedrag vaak laag.
+Een eigenaar hoort in jouw spreekkamer dat zijn dier niet meer te helpen is, of dat de behandeling meer kost dan hij kan betalen. Verdriet, schuldgevoel en geldzorgen komen er tegelijk uit, en jij staat het dichtstbij.
 
-De basistraining van Bureau Weerbaar en Veilig leert teams die emotie te herkennen en te hanteren: verdriet en bewuste intimidatie vragen elk een andere reactie.
+Verdriet dat omslaat in woede is frustratieagressie: het gaat niet over jou. Erkennen wat iemand kwijtraakt en helder blijven over de behandeling brengt zo'n gesprek terug. Wie dreigt met een review om alsnog zijn zin te krijgen, zet druk in als middel. Dat is instrumentele agressie, en daar werkt juist een korte grens op het gedrag. Je oefent het verschil, want de verkeerde reactie maakt het erger.
 
 ## Herkenbare praktijksituaties
 

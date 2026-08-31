@@ -54,9 +54,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Bezorgers werken alleen en staan dagelijks aan de voordeur van klanten met verwachtingen die niet altijd uitkomen. Er is geen collega die meekijkt en geen achterwacht om de hoek.
+Je staat alleen aan de voordeur, met een pakket waar de klant al dagen op wacht of dat beschadigd is aangekomen. Wie dan tegen je uitvalt, reageert meestal op het bedrijf achter jou. Dat is frustratieagressie: de boosheid gaat over de vertraging en niet over jou, en zakt als je laat merken dat je hoort wat er misging.
 
-Werkgevers die hun zorgplicht serieus nemen, investeren in training vóórdat incidenten escaleren. De basistraining van Bureau Weerbaar en Veilig is daarop gericht.
+Wie dreigt om alsnog binnen te komen of een handtekening af te dwingen, gebruikt agressie als middel. Daar helpt erkennen niet en werkt alleen een duidelijke grens op het gedrag. Je oefent beide reacties, plus het besluit om weg te lopen en te melden voordat het verder oploopt.
 
 ## Herkenbare praktijksituaties
 

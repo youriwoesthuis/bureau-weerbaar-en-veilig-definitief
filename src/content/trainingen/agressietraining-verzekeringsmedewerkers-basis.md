@@ -51,9 +51,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Verzekeringsmedewerkers werken met klanten in stressvolle situaties. De combinatie van emotionele schade en financiële teleurstelling maakt agressie tot een reëel risico in dit werk.
+Je belt iemand die zijn huis onder water zag lopen en vertelt dat de schade niet gedekt is. Wat je terugkrijgt is zelden een discussie over polisvoorwaarden. Het is de schrik en de teleurstelling die eruit moeten, en jij bent degene die opneemt.
 
-De basistraining van Bureau Weerbaar en Veilig geeft medewerkers concrete vaardigheden om die gesprekken te hanteren zonder zelf op te branden. Praktijkgericht oefenen, geen generieke rollenspellen.
+Meestal is dat frustratieagressie, spanning die zich richt op de boodschapper. Daar werkt erkennen wat er gebeurd is, vertragen en dan pas uitleggen. Soms voert iemand de druk berekend op om de vergoeding omhoog te krijgen. Dat is instrumentele agressie, en daar houd je vast aan het besluit en begrens je het gedrag. Je oefent beide gesprekken met de dossiers die bij jullie op de stapel liggen, ook per telefoon en e-mail, en je leert hoe je zo'n dag afsluit zonder hem mee naar huis te nemen.
 
 ## Herkenbare praktijksituaties
 

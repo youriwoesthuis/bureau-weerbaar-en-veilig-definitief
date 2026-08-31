@@ -25,4 +25,4 @@ Mbo-studenten zijn jongvolwassenen, vaak met een complexe achtergrond en een lev
 
 Daar komt bij dat elke student een telefoon op tafel heeft. Grijpt een docent in, dan gaat er soms een telefoon omhoog. Het fragment staat dezelfde dag online en de reacties komen binnen via de klassenapp. Wie dat overkomt, staat de volgende les gewoon weer voor dezelfde groep.
 
-Bureau Weerbaar en Veilig traint mbo-docenten met trainers die de sector kennen, op basis van situaties uit de eigen instelling.
+Je oefent met situaties uit je eigen instelling, want een groep die zijn docent test doet dat op de manier die op die opleiding werkt. De trainers kennen die praktijk van binnenuit.

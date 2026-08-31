@@ -50,9 +50,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Buurtbeheerders werken zonder de bescherming van een balie of kantoor, direct in de openbare ruimte. Zij zijn zichtbaar en herkenbaar, en spreken mensen aan in hun eigen omgeving.
+Je spreekt mensen aan in hun eigen straat en op hun eigen drempel. Je staat er zonder balie ertussen en zonder collega achter je, en morgen sta je er weer.
 
-Zonder training leidt dat vaak tot onveilige situaties en handelingsverlegenheid. De basistraining van Bureau Weerbaar en Veilig is toegespitst op precies die context: het huurderscontact, de woninginspectie en het buurtconflict.
+Wie kwaad wordt omdat je hem aanspreekt op overlast, verdedigt vooral zijn eigen plek: frustratieagressie. Kort en concreet blijven over het gedrag, en niet over de persoon, houdt zo'n gesprek open. Weigert iemand je bij een inspectie binnen te laten en gaat hij dreigen om je weg te krijgen, dan is dat instrumentele agressie en trek je de grens meteen. Je oefent beide, ook wanneer er familie of buren bij staan.
 
 ## Herkenbare praktijksituaties
 

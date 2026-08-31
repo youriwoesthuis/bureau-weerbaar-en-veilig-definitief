@@ -50,9 +50,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-De bibliotheek is een openbare ruimte waar medewerkers grensoverschrijdend gedrag tegenkomen waar zij niet voor zijn opgeleid. Dat heeft gevolgen: handelingsverlegenheid, een onveilig gevoel op de werkvloer en in veel gevallen verzuim.
+De bibliotheek staat open voor iedereen, en dus ook voor gedrag waar je in je opleiding niets over hebt gehoord: iemand die de leeszaal als dagverblijf gebruikt, jongeren die de ruimte overnemen, een bezoeker die kwaad wordt over een boete.
 
-De basistraining van Bureau Weerbaar en Veilig geeft bibliotheekmedewerkers concrete handvatten, met respect voor het open karakter van de instelling.
+Het meeste daarvan is frustratieagressie: irritatie die eruit moet en bij jou landt. Kort erkennen en meteen benoemen wat er wel kan, is dan vaak genoeg. Gaat het gedrag door nadat je het hebt benoemd, dan begrens je op het gedrag zelf en niet op de persoon. Je oefent dat aanspreken, want je eerste zin bepaalt meestal hoe de rest verloopt.
 
 ## Herkenbare praktijksituaties
 

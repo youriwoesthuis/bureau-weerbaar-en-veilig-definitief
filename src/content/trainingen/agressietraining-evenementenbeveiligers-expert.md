@@ -52,9 +52,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Agressie-incidenten bij evenementen zijn zelden volledig te voorkomen. Wat wél te sturen is: hoe het beveiligingsteam erop reageert.
+Bij een evenement voorkom je incidenten nooit helemaal. Wat je wel stuurt, is hoe je team reageert: of twee beveiligers bij dezelfde situatie hetzelfde doen, en of iemand een week later nog precies weet wat er gebeurde.
 
-Deze experttraining van Bureau Weerbaar en Veilig versterkt het strategische veiligheidsbeleid en de coaching van het team, met de juridische kaders rond geweldgebruik als vast onderdeel.
+Je werkt aan de teamnorm, de gedeelde afspraak over wat jullie wel en niet laten passeren, en aan de nabespreking na afloop, waarin je een incident uit elkaar haalt in plaats van het af te vinken. De juridische kaders rond geweldgebruik lopen daar als vast onderdeel doorheen, want die bepalen waar de grens van jullie optreden ligt.
 
 ## Wat speelt er op dit niveau
 

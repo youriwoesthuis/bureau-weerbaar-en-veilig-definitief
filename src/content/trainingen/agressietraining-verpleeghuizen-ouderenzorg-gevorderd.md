@@ -56,9 +56,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Sommige agressie in de ouderenzorg vraagt meer dan basisvaardigheden. Op PG-afdelingen en gecombineerde afdelingen is agressie geen incident maar een dagelijkse werkomstandigheid. De fysieke en emotionele belasting is hoog.
+Op een pg-afdeling is agressie een dagelijkse werkomstandigheid. Je wordt geknepen, geslagen en uitgescholden op een dag die verder gewoon doorgaat, en de fysieke en emotionele belasting stapelt zich op. De vaardigheden die op een lichtere afdeling volstaan, houden hier geen stand.
 
-Deze verdiepingstraining van Bureau Weerbaar en Veilig vergroot de kennis van complexe gedragspatronen en richt zich op eenduidig teamhandelen: verschil in aanpak tussen collega’s versterkt de problematiek.
+Je verdiept je daarom in gedragspatronen die terugkeren: wat gaat er telkens aan vooraf, welk moment in de zorg is de trigger, en wat werkt bij deze bewoner wel. Het zwaartepunt ligt op eenduidig teamhandelen. Wisselt de aanpak per dienst, dan houdt het team het gedrag zelf in stand, hoe goed elke collega het afzonderlijk ook bedoelt.
 
 ## Herkenbare praktijksituaties
 

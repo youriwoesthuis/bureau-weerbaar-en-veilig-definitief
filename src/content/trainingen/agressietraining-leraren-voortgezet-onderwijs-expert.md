@@ -50,9 +50,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Grensoverschrijdend gedrag op school is zelden volledig te voorkomen. Wat een school wél kan sturen: hoe het team reageert en of het gedragsbeleid werkt in de dagelijkse klassenpraktijk.
+Reageren twee leraren verschillend op dezelfde leerling, dan leert die leerling vooral bij wie het loont. Grensoverschrijdend gedrag voorkom je nooit helemaal, maar op dat verschil kun je als school wel sturen.
 
-Deze experttraining van Bureau Weerbaar en Veilig richt zich op die schoolbrede kant: beleid, escalatiestructuur, nazorg en meldcultuur.
+Je werkt daarom aan de teamnorm, de afspraak over wat je begrenst en hoe, en aan meldingsbereidheid: hoe laag de drempel is om een incident vast te leggen. Daarnaast leg je de escalatielijn vast en regel je nazorg na ernstige incidenten.
 
 ## Wat speelt er op dit niveau
 

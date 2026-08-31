@@ -56,7 +56,7 @@ gerelateerd:
 
 Veel grensoverschrijdend gedrag in het mbo is niet impulsief maar strategisch: een student die precies weet hoe ver hij kan gaan, of een groep die samen de grens opzoekt.
 
-Deze verdiepingstraining van Bureau Weerbaar en Veilig richt zich op dat gedrag en op de teamconsistentie die bepaalt of het aanhoudt of stopt.
+Je leert instrumenteel gedrag herkennen, gedrag dat status oplevert of de les stillegt, en je onderscheidt het van een student die vastloopt. Daarna spreek je met je collega's af hoe jullie reageren, want inconsistentie houdt dit gedrag in de lucht.
 
 ## Herkenbare praktijksituaties
 

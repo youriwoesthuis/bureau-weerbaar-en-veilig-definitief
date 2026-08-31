@@ -56,9 +56,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Sommige druk op gedragsdeskundigen is niet impulsief maar georganiseerd: een familie die een advocaat inschakelt, een campagne op sociale media, een dreiging die precies op het juiste moment komt.
+Sommige druk op gedragsdeskundigen is georganiseerd: een familie die een advocaat inschakelt, een campagne op sociale media, een dreiging die precies op het juiste moment komt.
 
-Deze verdiepingstraining van Bureau Weerbaar en Veilig gaat in op die situaties en op de spanning die er voor deze beroepsgroep altijd is: inhoudelijke verantwoordelijkheid dragen zonder directe controle over de uitvoering.
+Je oefent die situaties. Je leert het familielid dat in paniek uithaalt, frustratieagressie, onderscheiden van de familie die de druk doseert om een advies terug te draaien, instrumentele agressie. Bij de eerste werkt ruimte geven, bij de tweede een grens op het gedrag en een organisatie die naast je gaat staan. Daaronder blijft de spanning van dit vak liggen: je draagt de inhoudelijke verantwoordelijkheid terwijl anderen de uitvoering doen.
 
 ## Herkenbare praktijksituaties
 

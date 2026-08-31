@@ -51,9 +51,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Medewerkers in sportaccommodaties werken in een omgeving waar bezoekers ontspanning verwachten. De acceptatie van regels is daardoor laag. En juist die regels gaan over veiligheid.
+Bezoekers komen ontspannen en jij komt met een regel. Wie je aanspreekt op rennen langs het bad of op gedrag in de kleedkamer, hoort een correctie op een moment dat hij zich vrij waande. Boosheid daarover is frustratie en zakt meestal als je kort uitlegt waarom die regel er staat.
 
-Zonder oefening lukt gezaghebbend handhaven meestal niet vanzelf. De basistraining van Bureau Weerbaar en Veilig richt zich precies daarop: spanning vroeg zien, de regel duidelijk brengen, en doorpakken wanneer dat nodig is.
+Wie de correctie beantwoordt met intimidatie, in een groep of voor publiek, vraagt iets anders: daar werkt alleen een duidelijke grens op het gedrag. Je oefent spanning vroeg zien, de regel gezaghebbend brengen en doorpakken bij toegangsweigering of bij sluitingstijd, ook wanneer iemand blijft staan.
 
 ## Herkenbare praktijksituaties
 

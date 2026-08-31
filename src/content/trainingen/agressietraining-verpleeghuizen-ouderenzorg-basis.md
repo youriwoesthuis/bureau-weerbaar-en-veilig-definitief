@@ -54,9 +54,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Zorgmedewerkers in verpleeghuizen werken dagelijks met agressie die voortkomt uit kwetsbaarheid, ziekte en verlies van controle. Dat is geen kwade wil. Het raakt medewerkers wel: fysiek en emotioneel.
+Een bewoner die je slaat tijdens de ochtendzorg, wil je meestal geen pijn doen. Hij begrijpt niet wat er met zijn lichaam gebeurt, schrikt van je handen en verzet zich. Gedrag dat voortkomt uit ziekte, angst of pijn vraagt een andere reactie dan gedrag waar iemand nog wel greep op heeft: bij het eerste pas je je benadering aan, bij het tweede begrens je.
 
-Zonder training ontstaan vaak handelingsverlegenheid, fysieke belasting en verzuim. De basistraining van Bureau Weerbaar en Veilig geeft medewerkers houvast. Dat houvast zit in één onderscheid: gedrag dat bij de ziekte hoort en gedrag dat je kunt begrenzen.
+Dat onderscheid is het houvast dat je hier opbouwt. Je leert de signalen vroeg zien, je eigen schrikreactie reguleren en de verzorging zo aanpakken dat de spanning niet oploopt. En je leert wat je meldt, ook als het gedrag bij het ziektebeeld hoort. Zonder meldingen ziet niemand hoe zwaar het werk op jullie afdeling werkelijk is.
 
 ## Herkenbare praktijksituaties
 

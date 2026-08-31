@@ -54,9 +54,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-In de horeca bepaalt de leidinggevende of grensoverschrijdend gedrag "erbij hoort" of niet. Een team dat ziet dat de bedrijfsleider wegkijkt, gaat zelf ook wegkijken.
+In de horeca bepaal je als leidinggevende of grensoverschrijdend gedrag erbij hoort. Kijkt de bedrijfsleider weg bij een gast die te ver gaat, dan kijkt het team de volgende keer ook weg, en zo verschuift de teamnorm: de gedeelde opvatting over wat jullie laten passeren.
 
-Deze experttraining van Bureau Weerbaar en Veilig herdefinieert gastvrijheid daarom als iets dat ook de medewerker beschermt, en confronteert leidinggevenden constructief met hun eigen rol.
+Je werkt daarom aan die norm en aan je eigen rol daarin. Je maakt gastvrijheid iets dat ook je medewerkers beschermt, je legt vast wanneer je weigert en verwijdert, en je haalt weg wat de meldingsbereidheid nu laag houdt: de angst voor gedoe en voor minder fooi.
 
 ## Wat speelt er op dit niveau
 

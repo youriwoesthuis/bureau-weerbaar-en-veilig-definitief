@@ -55,7 +55,7 @@ gerelateerd:
 
 Sommige agressie in het incassowerk gaat verder dan een impulsieve reactie: debiteuren die strategisch weigeren en intimideren, of situaties waarin zoveel problemen samenkomen dat elk gesprek ontspoort.
 
-Deze verdiepingstraining van Bureau Weerbaar en Veilig richt zich op die uitersten, met expliciete aandacht voor compassiemoeheid bij de behandelaar.
+Je leert het onderscheid maken tussen frustratieagressie, de uitbarsting van iemand die vastloopt, en instrumentele agressie, gedrag dat je van de regeling moet laten afwijken. Ook oefen je met compassiemoeheid: het punt waarop je zoveel ellende hebt aangehoord dat je afstompt en je gesprekken merkbaar korter worden.
 
 ## Herkenbare praktijksituaties
 

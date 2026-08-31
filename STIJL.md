@@ -69,6 +69,25 @@ operationeel, AgressieVisie educatief.
     gedachtestreepjes (zie CLAUDE.md), "klik hier", zelflof zonder bron,
     prijzen of aantallen die niet in FEITEN staan.
 
+16. **Eerst de werkvloer, dan de vakterm, dan pas de training.** Een alinea
+    begint met wat er feitelijk gebeurt op de plek waar iemand werkt, benoemt
+    daarna de vakterm met de uitleg ernaast, en zegt pas als laatste wat dat
+    voor de training betekent. Dat is het verschil tussen tekst die verkoopt en
+    tekst die gezag heeft. Vastgesteld 31-08-2026, zie BESLUITEN.md 7o.
+17. **De merknaam hoogstens een keer per pagina in de lopende tekst**, en in de
+    `samenvatting` van de frontmatter, want dat is het openingsantwoord dat
+    AI-systemen overnemen. Stond op 1265 keer over 217 pagina's; dat leest als
+    iemand die bang is niet gevonden te worden.
+18. **Geen definitie door ontkenning van het aanbod.** Niet "geen algemene
+    cursus", niet "geen e-learning", niet "geen bijvak". Daarmee maak je de
+    concurrent tot onderwerp van je eigen pagina. Een ontkenning die een
+    werksituatie beschrijft mag wel: "geen collega om de hoek" is juist precies
+    concreet genoeg.
+19. **Geen naamwoordstijl en geen lijdende vorm.** Niet "de effectiviteit van
+    een interventie wordt bepaald door de werkruimte", maar "achter een balie
+    kun je niet weg, en dat verandert wat je kunt doen". Gezag zit in precisie,
+    niet in abstracte zelfstandige naamwoorden.
+
 ## 2. Waar deze site afwijkt van actinmove.nl
 
 Bewuste verschillen; dit zijn geen vergissingen.

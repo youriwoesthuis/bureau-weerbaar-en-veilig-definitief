@@ -55,14 +55,14 @@ gerelateerd:
 
 ## Waarom deze training
 
-Achter veel kassa- en balieteams schuilt hetzelfde patroon: het team meldt
-incidenten onvoldoende, past protocollen wisselend toe en reageert per
-persoon en per dienst verschillend. Precies die inconsistentie versterkt
-ongewenst gedrag.
+Achter veel kassa- en balieteams zit hetzelfde patroon: incidenten worden zelden
+gemeld, het protocol wordt wisselend toegepast en elke dienst reageert anders.
+Juist die verschillen leren een klant dat doordrukken bij de een wel werkt.
 
-Deze experttraining van Bureau Weerbaar en Veilig richt zich op de
-leidinggevende, en op de stap van losse incidenten naar structuur: beleid, escalatie,
-nazorg en een meldcultuur waarin het team van incidenten leert.
+Als leidinggevende werk je daarom aan de teamnorm, de afspraak waar iedereen
+zich aan houdt, en aan meldingsbereidheid: hoe laag de drempel is om een
+incident door te geven. Daarnaast leg je de escalatielijn vast en regel je
+nazorg, zodat het team van incidenten leert.
 
 ## Wat speelt er op dit niveau
 

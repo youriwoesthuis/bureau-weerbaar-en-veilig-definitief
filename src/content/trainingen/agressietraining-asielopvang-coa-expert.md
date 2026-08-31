@@ -52,9 +52,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Op een opvanglocatie is veiligheid geen kwestie van individuele vaardigheden maar van organisatie: het crisisprotocol, de ketensamenwerking en de opvang van medewerkers na incidenten.
+Op een opvanglocatie hangt de veiligheid van je mensen minder af van wat één medewerker kan dan van wat er geregeld is: het crisisprotocol, de bezetting, de afspraken met ketenpartners en wat er gebeurt in de uren na een incident.
 
-Deze experttraining van Bureau Weerbaar en Veilig versterkt beide kanten tegelijk: de bescherming van medewerkers én een humane opvang.
+Twee dingen bepalen of dat werkt. De meldingsbereidheid, dus of een medewerker de moeite nog neemt als er de vorige keer niets mee gebeurde, en de opvang en nazorg: wie er dezelfde dienst nog even bij gaat zitten. Zonder die twee zie je alleen de incidenten die groot genoeg waren om niet te missen. Je werkt daaraan, samen met beleid voor bewoners met een structureel patroon.
 
 ## Wat speelt er op dit niveau
 

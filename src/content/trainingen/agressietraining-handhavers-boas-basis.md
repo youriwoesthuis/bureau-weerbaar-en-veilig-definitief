@@ -53,9 +53,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Handhavers en boa’s werken dagelijks alleen of in tweetallen in de openbare ruimte, ver van directe ondersteuning. Wat zij doen wordt bekeken, beoordeeld en steeds vaker gefilmd.
+Als handhaver of boa sta je alleen of met zijn tweeën in de openbare ruimte, ver van directe ondersteuning. Wat je doet wordt bekeken, beoordeeld en steeds vaker gefilmd.
 
-Zonder concrete training escaleren situaties vaak onnodig, met verzuim en juridische klachten als gevolg. De basistraining van Bureau Weerbaar en Veilig combineert de-escalatie met de juridische kaders van het werk.
+Je oefent de-escaleren en begrenzen naast elkaar: de spanning omlaag praten bij iemand die kwaad is over een boete, frustratieagressie, en kort en duidelijk grenzen bij iemand die de confrontatie zoekt om onder die boete uit te komen, instrumentele agressie. De juridische kaders van je bevoegdheid lopen daar doorheen, want die bepalen wat je in beide gevallen mag doen.
 
 ## Herkenbare praktijksituaties
 

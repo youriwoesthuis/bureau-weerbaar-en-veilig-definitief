@@ -53,9 +53,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-De combinatie van hoge financiële belangen, juridische complexiteit en een gezagspositie maakt intimidatie bij de Belastingdienst vaak bewust en berekend in plaats van impulsief.
+Bij een controle staat er veel geld op het spel en weet de ondernemer vaak precies hoe ver hij kan gaan. Dreigen met een advocaat, met contacten of met de pers is dan geen uitbarsting maar een zet: instrumentele agressie, gedrag als drukmiddel.
 
-Deze verdiepingstraining van Bureau Weerbaar en Veilig richt zich op die vorm van druk en op standvastig blijven wanneer er veel op het spel staat.
+Ruimte geven, wat bij iemand in paniek helpt, leest de ander hier als winst. Je oefent hoe je begrenst op het gedrag en tegelijk bij de inhoud van het besluit blijft, wat je doet als dezelfde druk via meerdere kanalen terugkomt, en hoe je handelt op locatie zonder collega naast je.
 
 ## Herkenbare praktijksituaties
 

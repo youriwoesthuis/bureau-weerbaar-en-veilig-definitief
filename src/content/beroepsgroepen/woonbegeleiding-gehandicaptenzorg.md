@@ -22,4 +22,4 @@ veelgestelde_vragen:
 
 Op een woongroep in de gehandicaptenzorg is agressie meestal geen kwade wil maar een communicatieprobleem: een cliënt die geen woorden heeft voor wat hem overkomt, reageert met zijn lichaam. Begeleiders moeten dat gedrag begrijpen en tegelijk hun eigen veiligheid bewaken. Dat is geen keuze tussen twee dingen.
 
-Wat het extra complex maakt, is de groep. Eén cliënt die ontregelt kan een hele woongroep meenemen, en spanningen bouwen zich over dagen op. Zit het bij één cliënt, dan gaat het om zijn gedrag. Zit het in de woning, dan gaat het om de afspraken van het team. Bureau Weerbaar en Veilig traint begeleiders daarom niet alleen op individueel gedrag, maar ook op groeps- en teamdynamiek.
+Wat het extra complex maakt, is de groep. Eén cliënt die ontregelt kan een hele woongroep meenemen, en spanningen bouwen zich over dagen op. Zit het bij één cliënt, dan gaat het om zijn gedrag. Zit het in de woning, dan gaat het om de afspraken van het team. Je oefent daarom allebei: het gedrag van één cliënt, en de teamnorm waar de hele woning op draait. Reageren collega’s verschillend op hetzelfde gedrag, dan loopt de spanning in de groep vanzelf op.

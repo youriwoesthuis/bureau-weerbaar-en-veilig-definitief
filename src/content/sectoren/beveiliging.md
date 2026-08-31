@@ -17,4 +17,4 @@ veelgestelde_vragen:
 
 Beveiligers zijn de enige beroepsgroep die agressie mag verwachten: het hoort bij de functie. Precies daarom is de-escaleren hier een vak. Elke keer dat een portier of evenementenbeveiliger een situatie met woorden oplost, blijft fysiek ingrijpen achterwege: met alle juridische en gezondheidsrisico’s die daarbij horen.
 
-Wat dit werk kenmerkt: late uren, alcohol en drugs, groepen, en een camera die altijd meedraait. Bureau Weerbaar en Veilig behandelt daarom de juridische positie van de beveiliger expliciet naast de gesprekstechniek.
+Wat dit werk kenmerkt: late uren, alcohol en drugs, groepen, en een camera die altijd meedraait. Naast de gesprekstechniek ligt daarom je juridische positie op tafel: wat je mag, waar dat ophoudt en hoe je dat uitlegt aan iemand die denkt het beter te weten.

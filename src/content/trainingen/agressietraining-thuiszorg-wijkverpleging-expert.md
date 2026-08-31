@@ -55,9 +55,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Thuiszorgmedewerkers werken alleen, zonder achterwacht, in de woning van een cliënt. Dat maakt je als leidinggevende verantwoordelijk voor werk dat je niet ziet gebeuren.
+Je bent verantwoordelijk voor werk dat je niet ziet gebeuren: medewerkers alleen bij mensen thuis, zonder achterwacht. Wat daar gebeurt, weet je alleen als iemand het meldt, en melden doen medewerkers pas als het afbreken van een bezoek achteraf niet ter discussie staat.
 
-Deze experttraining van Bureau Weerbaar en Veilig richt zich daarom op wat wél te sturen is: helder veiligheidsbeleid, duidelijke afspraken per cliënt, structurele nazorg en samenwerking met huisartsen en GGZ.
+Je werkt daarom aan wat je wel kunt sturen: helder beleid over wanneer een bezoek stopt, duidelijke afspraken per cliënt, structurele nazorg en opvang na incidenten, en samenwerking met huisarts en GGZ als gedrag voortkomt uit ziekte of medicatie. Zo wordt de meldingsbereidheid iets dat je organiseert in plaats van iets waar je op hoopt.
 
 ## Wat speelt er op dit niveau
 

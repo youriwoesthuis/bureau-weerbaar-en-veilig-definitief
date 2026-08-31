@@ -52,9 +52,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Agressie-incidenten in het openbaar vervoer zijn moeilijk volledig te voorkomen. Bepalend is hoe de organisatie erop reageert en ervan leert.
+Incidenten in het openbaar vervoer houd je niet volledig buiten de deur. Wat je wel stuurt: wat er na afloop gebeurt en wat chauffeurs daarvan merken.
 
-Deze experttraining van Bureau Weerbaar en Veilig richt zich daarom op beleid, meldcultuur en de coaching van chauffeurs.
+Meldt een chauffeur een incident en hoort hij er daarna niets meer over, dan meldt hij het de volgende keer niet. Die meldingsbereidheid bepaalt of je de patronen achter de losse incidenten ziet. Je werkt daaraan, aan een teamnorm zodat chauffeurs op vergelijkbare situaties vergelijkbaar reageren, aan duidelijkheid over het staken van een rit en het inschakelen van de politie, en aan de opvang na een zware dienst.
 
 ## Wat speelt er op dit niveau
 

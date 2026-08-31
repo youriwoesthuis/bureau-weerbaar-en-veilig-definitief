@@ -26,4 +26,4 @@ Aan het gemeenteloket komt de frustratie van de burger recht op de medewerker af
 
 Die frustratie komt bovendien langs meer kanalen binnen dan de balie alleen. Burgers filmen het baliegesprek met hun telefoon om het conflict met de gemeente online te zetten. KCC-medewerkers krijgen dezelfde woede door de telefoon, en na een afwijzing volgen soms e-mails die met elk bericht persoonlijker van toon worden. Het conflict blijft dan niet aan de balie.
 
-Wat de positie extra ongemakkelijk maakt: de medewerker kan niets aan de regel veranderen, maar staat wél oog in oog met de gevolgen. Bureau Weerbaar en Veilig traint loketmedewerkers daar specifiek op.
+Wat de positie extra ongemakkelijk maakt: je kunt niets aan de regel veranderen, maar je staat wél oog in oog met de gevolgen. Je oefent daarom het de-escaleren aan de balie, de emotie erkennen zonder ruimte te suggereren die er niet is, en het begrenzen zodra iemand de druk bewust opvoert.

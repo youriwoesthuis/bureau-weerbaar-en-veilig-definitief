@@ -53,9 +53,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Bij de Belastingdienst leidt agressie tot zichtbare gevolgen: medewerkers die opzien tegen telefoongesprekken en hoog verzuim op bepaalde afdelingen.
+Je belt over een aanslag, een terugvordering of een controle, en aan de andere kant ziet iemand zijn financiële ruimte verdwijnen. Op sommige afdelingen zien collega's op tegen de eerste gesprekken van de dag.
 
-De basistraining van Bureau Weerbaar en Veilig geeft medewerkers concrete vaardigheden om die gesprekken te hanteren, met aandacht voor agressie via telefoon en e-mail.
+Wie schreeuwt over een aanslag zit meestal in paniek over geld: frustratieagressie. Erkennen wat het betekent en helder zijn over wat er wel kan, brengt zo'n gesprek terug. Dreigt iemand berekend om een besluit te laten wijken, dan begrens je het gedrag en blijf je bij de inhoud. Je oefent beide, ook per telefoon en mail, waar je toon het enige is wat overkomt.
 
 ## Herkenbare praktijksituaties
 

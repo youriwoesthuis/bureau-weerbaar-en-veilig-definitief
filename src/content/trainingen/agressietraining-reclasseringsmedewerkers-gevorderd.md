@@ -53,9 +53,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Sommige agressie in de reclassering is niet impulsief maar bewust manipulerend of intimiderend. Het patroon wordt vaak pas zichtbaar als je de losse signalen naast elkaar legt.
+Een cliënt die je een keer volgt naar je auto, een opmerking over je woonplaats, een foto die later opduikt. Los van elkaar lijkt het weinig. Naast elkaar is het een dreigingspatroon: instrumentele agressie, bewust ingezet om jou voorzichtiger te maken in je oordeel.
 
-Deze verdiepingstraining van Bureau Weerbaar en Veilig bereidt medewerkers voor op die complexe dreigingspatronen, met gestructureerde risicotaxatie als basis.
+Je oefent gestructureerde risicotaxatie, zodat je die signalen vastlegt en weegt voordat ze een patroon vormen, en je oefent begrenzen bij druk die via medeverdachten of familie binnenkomt. Ook huisbezoeken in zwaardere omgevingen komen aan bod, met de vraag wat je vooraf nagaat en wanneer je van een bezoek afziet.
 
 ## Herkenbare praktijksituaties
 

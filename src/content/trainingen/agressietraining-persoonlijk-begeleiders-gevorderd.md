@@ -56,9 +56,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Sommige agressie in de persoonlijke begeleiding is niet impulsief maar structureel. Ze ontstaat langzaam, in een relatie die goed begon, en is juist daardoor moeilijk te zien voor de begeleider zelf.
+Sommige agressie in de persoonlijke begeleiding ontstaat langzaam, in een relatie die goed begon. Een cliënt rekt telkens iets op, jij geeft mee omdat het contact waardevol is, en een half jaar later ligt de grens ergens anders. Juist die grensvervaging zie je bij jezelf het slechtst.
 
-Deze verdiepingstraining van Bureau Weerbaar en Veilig richt zich op die patronen: grensvervaging, isolatie en manipulatie in langdurige relaties, en op het herstellen van professionele distantie.
+Je legt losse voorvallen naast elkaar tot het patroon zichtbaar wordt en oefent hoe je professionele distantie herstelt zonder de cliënt te laten vallen. Je werkt aan het herkennen van isolatie, aan het terugbrengen van de casus in het team zodat de teamnorm weer meebepaalt wat wel en niet kan, en aan begrenzen bij bewuste manipulatie.
 
 ## Herkenbare praktijksituaties
 

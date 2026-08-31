@@ -26,4 +26,4 @@ Woonconsulenten en klantcontactmedewerkers brengen boodschappen die over iemands
 
 Veel van die eerste woede komt telefonisch binnen bij het KCC, dag in dag uit. Bij zware dossiers verschuift de druk naar de consulent zelf: e-mails die persoonlijk worden en berichten op sociale media waarin de corporatie en soms de medewerker bij naam worden genoemd.
 
-De huurder kan niet weglopen, en de corporatie evenmin: de relatie duurt jaren. Dat maakt begrenzen iets anders dan een gesprek winnen. Bureau Weerbaar en Veilig richt de trainingen op grenzen stellen zonder die relatie onnodig te beschadigen.
+De huurder kan niet weglopen, en de corporatie evenmin: de relatie duurt jaren. Dat maakt begrenzen iets anders dan een gesprek winnen. Je oefent daarom het begrenzen op gedrag in plaats van op de persoon: het gesprek stopt, het dossier loopt door. Zo krijg je dezelfde huurder volgende maand weer aan tafel.

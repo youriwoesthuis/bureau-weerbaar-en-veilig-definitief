@@ -55,9 +55,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Agressie in de woonbegeleiding is doorgaans geen kwaadwilligheid maar een communicatieprobleem. Een cliënt die de verandering in zijn dag niet kan plaatsen of overprikkeld raakt, heeft geen woorden. Dan spreekt het lichaam.
+Agressie op een woongroep is meestal communicatie. Een cliënt die niet kan plaatsen waarom zijn vaste begeleider vandaag niet komt, of die overprikkeld raakt door geluid en drukte, heeft daar geen woorden voor. Dan spreekt het lichaam: duwen, slaan, gooien.
 
-Dat begrijpen is de helft van het werk; de andere helft is veilig blijven. De basistraining van Bureau Weerbaar en Veilig geeft begeleiders beide: inzicht in het gedrag en concrete vaardigheden om situaties te de-escaleren.
+Dat begrijpen is de helft van het werk, veilig blijven de andere helft. Je leert zien hoe de spanning oploopt voordat het zover is, je eigen tempo en toon aanpassen zodat je niet zelf de prikkel wordt, en de-escaleren met wat bij deze cliënt werkt. En je leert begrenzen waar dat nodig is, ook bij iemand die er weinig aan kan doen: begrip voor het gedrag en een grens aan het gedrag gaan prima samen.
 
 ## Herkenbare praktijksituaties
 

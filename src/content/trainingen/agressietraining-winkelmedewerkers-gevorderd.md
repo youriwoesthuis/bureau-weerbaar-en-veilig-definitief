@@ -55,15 +55,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Sommige agressie is niet impulsief. Een klant die de winkel regelmatig bezoekt
-en telkens grenzen verlegt, personen die bewust het systeem kennen en
-medewerkers onder druk zetten, of situaties die keer op keer escaleren: daar
-helpt een standaardreactie niet meer.
+Sommige agressie is niet impulsief. De klant die elke week terugkomt en telkens een stukje verder gaat, of iemand die precies weet wat jullie wel en niet mogen doen en daar zijn voordeel mee doet: dat is instrumentele agressie, gedrag dat een doel dient. Een standaardreactie werkt daar niet, want die is ingecalculeerd.
 
-Deze verdiepingstraining van Bureau Weerbaar en Veilig is er voor medewerkers
-die de basis beheersen en structureel met zwaardere situaties werken. De focus
-verschuift van het incident naar het patroon: herkennen wat er werkelijk
-gebeurt, en er als team consistent op reageren.
+Deze verdieping is er voor medewerkers die de basis beheersen en structureel met zulke situaties te maken hebben. Je verschuift je blik van het incident naar het patroon: wat gebeurt hier werkelijk, wie krijgt welke reactie, en welke opening geven jullie zonder het te merken. Vervolgens spreek je met het team af hoe iedereen erop reageert, want één collega die meebeweegt maakt de afspraak van alle anderen ongedaan.
 
 ## Herkenbare praktijksituaties
 
@@ -75,5 +69,4 @@ gebeurt, en er als team consistent op reageren.
 
 De trainingsacteur speelt deze situaties na, met de details die het team er bij de intake zelf bij levert.
 
-De training gebruikt casuïstiek van de eigen vestiging, met nadruk op
-teamconsistentie en gezamenlijke afspraken voor de werkvloer.
+Je werkt met casuïstiek van je eigen vestiging, met nadruk op teamconsistentie en gezamenlijke afspraken voor de werkvloer.

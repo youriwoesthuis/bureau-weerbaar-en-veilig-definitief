@@ -52,9 +52,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Er zijn situaties in de horeca waarin standaard de-escalatie niet meer werkt: een groep die de zaak overneemt, een gast die te ver heen is, of intimidatie die elke week terugkomt.
+Er zijn situaties waarin rustig doorpraten niet meer werkt: een groep neemt de zaak over, een gast is te ver heen, of dezelfde intimidatie komt elke week terug bij dezelfde medewerker.
 
-Deze verdiepingstraining van Bureau Weerbaar en Veilig richt zich op groepsdynamiek en teamconsistentie, en op de werkvloercultuur waarin grensoverschrijding genormaliseerd raakt.
+Je oefent op groepen en op herhaling. Je leert wie in een groep de toon zet en hoe je die aanspreekt zonder er een publieke afrekening van te maken, en je stemt met collega’s af zodat een vaste gast bij iedereen hetzelfde antwoord krijgt. Daarnaast kijk je naar de cultuur op de vloer, waarin grensoverschrijding ongemerkt normaal wordt.
 
 ## Herkenbare praktijksituaties
 

@@ -52,9 +52,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Rond schadeclaims zetten klanten agressie vaak berekend in: druk opvoeren tot de vergoeding hoger wordt, of een afwijzing niet accepteren en escaleren via elke beschikbare route. Dat is zelden impulsief.
+Rond schadeclaims is agressie vaak berekend. Iemand voert de druk stap voor stap op tot de vergoeding meebeweegt, of accepteert een afwijzing niet en escaleert via elke route die er is: de klachtenlijn, de tussenpersoon, een advocaat, de directie. Dat is instrumentele agressie, gedrag met een doel, en meebewegen leert de klant alleen dat het werkt.
 
-Deze verdiepingstraining van Bureau Weerbaar en Veilig richt zich op dat gedrag en op standhouden bij een fraudeweigering.
+Je oefent hoe je dan standhoudt: één lijn, dezelfde boodschap in elk kanaal, en vastleggen wat er gebeurt. Extra aandacht gaat naar de fraudeweigering, waar de klant het hardst duwt en jij de minste ruimte hebt, en naar de inspectie ter plaatse, waar je alleen bij iemand thuis staat.
 
 ## Herkenbare praktijksituaties
 

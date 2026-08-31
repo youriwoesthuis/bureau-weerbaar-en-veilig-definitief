@@ -24,6 +24,6 @@ veelgestelde_vragen:
 
 Een reclasseringsmedewerker begeleidt iemand én houdt toezicht op diezelfde persoon. Wie voorwaarden moet handhaven of een terugmelding overweegt, weet dat de gevolgen voor de cliënt groot zijn, en dat de cliënt dat ook weet.
 
-Dat maakt de machtsdynamiek in elk gesprek voelbaar. Bureau Weerbaar en Veilig behandelt die dynamiek expliciet, samen met veilig werken bij huisbezoeken.
+Dat maakt de machtsdynamiek in elk gesprek voelbaar. Die dynamiek ligt in de training op tafel, samen met veilig werken bij huisbezoeken: wat je vooraf nagaat, waar je gaat zitten en wanneer je een gesprek beëindigt.
 
 De dreiging blijft bovendien niet binnen het gesprek of het huisbezoek. Rond een terugmelding komt er ook ander contact binnen: dreigende berichten en e-mails, een intimiderend telefoontje buiten kantooruren, en soms een cliënt die de medewerker online opzoekt.

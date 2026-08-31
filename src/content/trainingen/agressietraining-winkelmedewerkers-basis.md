@@ -50,15 +50,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Winkelmedewerkers werken in open, publiek toegankelijke ruimten zonder fysieke
-barrières. Ze helpen klanten, onderhouden de winkel en grijpen in bij
-winkeldiefstal, vaak terwijl ze alleen zijn in een deel van de winkel. Zonder
-training ontstaan meestal vermijdingsgedrag, hoog verloop en genormaliseerde
-grensoverschrijdingen: "dat hoort er nu eenmaal bij" wordt de norm.
+Je staat op een open vloer, zonder balie of glas ertussen. Je helpt klanten, vult vakken bij en spreekt iemand aan die iets in zijn jas laat glijden, vaak terwijl je alleen in dat deel van de winkel bent. Blijft dat onbesproken, dan gaan collega's situaties ontwijken, vertrekken ze eerder en wordt "dat hoort er nu eenmaal bij" de teamnorm: de stilzwijgende afspraak over wat jullie normaal zijn gaan vinden.
 
-De basistraining van Bureau Weerbaar en Veilig doorbreekt dat patroon. Medewerkers
-leren signalen vroeg te herkennen, hun eigen reactie te reguleren en een gespannen
-situatie terug te brengen naar een normaal gesprek.
+Je leert dat patroon doorbreken. Wie tegen je uitvalt omdat de aanbieding op is, is gefrustreerd en kalmeert als je de spanning erkent. Wie je bij een diefstal onder druk zet, rekent erop dat je terugdeinst, en daar werkt juist een korte grens op het gedrag. Je oefent allebei: signalen vroeg lezen, je eigen reactie reguleren en een gespannen situatie terugbrengen tot een gewoon gesprek.
 
 ## Herkenbare praktijksituaties
 
@@ -71,5 +65,4 @@ situatie terug te brengen naar een normaal gesprek.
 
 De trainingsacteur speelt deze situaties na, met de details die het team er bij de intake zelf bij levert.
 
-De training werkt met precies dit soort situaties: herkenbaar, realistisch en
-direct toepasbaar op de eigen werkvloer.
+Je werkt met precies dit soort situaties: herkenbaar, realistisch en direct toepasbaar op jullie eigen werkvloer.

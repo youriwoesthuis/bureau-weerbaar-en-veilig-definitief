@@ -51,9 +51,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Huurders ervaren woonproblemen doorgaans als een existentieel belang. De combinatie van afhankelijkheid en emotionele intensiteit maakt de drempel voor agressie laag.
+Voor een huurder gaat het over zijn huis. Een huurverhoging, een geweigerde woning, een overlastklacht die al een jaar loopt: dat raakt aan de bodem van zijn bestaan, en voor de oplossing is hij van jou afhankelijk. Die combinatie maakt de drempel voor agressie laag.
 
-Het gevolg is vaak dat medewerkers dossiers gaan vermijden en dat het verzuim stijgt. De basistraining van Bureau Weerbaar en Veilig richt zich daarop, met respect voor de langdurige relatie met de huurder.
+Loopt dat een paar keer uit de hand, dan ga je dossiers vooruitschuiven en gesprekken vermijden, en op termijn zie je dat terug in het verzuim. Je leert daarom vroeg zien wanneer de spanning oploopt, je eigen reactie reguleren en het gedrag begrenzen zonder de huurder af te schrijven. Je komt hem volgende maand weer tegen, dus de relatie moet die grens overleven.
 
 ## Herkenbare praktijksituaties
 

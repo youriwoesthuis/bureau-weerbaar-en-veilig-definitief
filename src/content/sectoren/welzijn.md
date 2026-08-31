@@ -16,4 +16,4 @@ veelgestelde_vragen:
 
 In het maatschappelijk werk is agressie zelden zomaar agressie. Voor veel cliënten is het de enige manier die zij kennen om duidelijk te maken dat iets niet gaat. De hulpverlener moet dat begrijpen én begrenzen. Dat is geen tegenstelling.
 
-Het is wel precies de spanning die dit vak kenmerkt: de professionele norm is nabijheid, betrokkenheid en niet opgeven. Grenzen stellen voelt daardoor vaak als falen. Bureau Weerbaar en Veilig maakt die norm expliciet onderwerp van de training.
+Het is wel precies de spanning die dit vak kenmerkt: de professionele norm is nabijheid, betrokkenheid en niet opgeven. Grenzen stellen voelt daardoor vaak als falen. Die norm is daarom zelf onderwerp van de training: waar jouw grens ligt, hoe je hem uitspreekt zonder de cliënt kwijt te raken, en wat je met je team afspreekt zodra je merkt dat hij al een paar keer is opgeschoven.

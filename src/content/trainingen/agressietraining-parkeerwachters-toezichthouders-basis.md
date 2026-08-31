@@ -54,9 +54,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Toezichthouders werken zichtbaar, alleen en met beperkte bevoegdheden. Die combinatie maakt het agressierisico hoog en leidt vaak tot onveiligheid, handelingsverlegenheid en verzuim.
+Je werkt zichtbaar op straat, alleen, met bevoegdheden die smaller zijn dan de meeste mensen denken. Wie boos wordt over de bon zelf, reageert uit frustratie en kalmeert vaak als je kort uitlegt wat er gebeurt en waarom. Wie je omsingelt of gaat filmen, zoekt iets anders: die zet druk om jou te laten inbinden.
 
-De basistraining van Bureau Weerbaar en Veilig geeft toezichthouders concrete handvatten, inclusief het lastige besluit: wanneer je een situatie beter afbreekt.
+Op dat verschil oefen je: de-escaleren waar het om frustratie gaat, begrenzen waar het om druk gaat. Je oefent ook het besluit dat het lastigst blijft, namelijk wanneer je een controle afbreekt en weggaat. Op tijd vertrekken scheelt je het incident dat je daarna moet melden.
 
 ## Herkenbare praktijksituaties
 

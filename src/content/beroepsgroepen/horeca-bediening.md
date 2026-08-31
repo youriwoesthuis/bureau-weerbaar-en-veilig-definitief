@@ -24,4 +24,4 @@ veelgestelde_vragen:
 
 In de horeca is de gast koning, en dat is precies wat grenzen stellen zo moeilijk maakt. Wie een alcoholweigering moet uitspreken of een gast op gedrag moet aanspreken, gaat in tegen de gastvrijheidsnorm waarop het werk is gebouwd. En wie geweigerd of aangesproken is, laat het daar niet altijd bij. De wraakreview staat er soms nog dezelfde avond. Verhardt een gesprek aan tafel of bij de deur, dan filmen omstanders geregeld mee.
 
-Daar komt bij dat seksuele intimidatie in deze sector veel voorkomt en vaak wordt weggelachen als "hoort erbij". Bureau Weerbaar en Veilig benoemt dat expliciet en behandelt de spanning tussen gastvrijheid en grenzen als kernonderwerp.
+Daar komt bij dat seksuele intimidatie in deze sector veel voorkomt en vaak wordt weggelachen als "hoort erbij". Wie het weglacht, meldt het ook niet, en wat niemand meldt komt nergens terug. Je oefent daarom het benoemen op het moment zelf, en je bespreekt de meldingsbereidheid in het team: wie het hoort, wie het optekent en wat de leidinggevende ermee doet. De spanning tussen gastvrijheid en grenzen is daarbij het kernonderwerp.

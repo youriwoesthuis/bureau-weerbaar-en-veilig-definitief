@@ -17,4 +17,4 @@ veelgestelde_vragen:
 
 Agressie in het openbaar vervoer heeft één bepalend kenmerk: het gebeurt in een rijdend voertuig. Er is beperkte bewegingsvrijheid, geen deur om achter te verdwijnen en vaak een volle wagen met publiek dat meekijkt of meefilmt. Weglopen kan niet.
 
-Daarbij is de medewerker verantwoordelijk voor tientallen reizigers tegelijk. Loopt het tijdens de rit uit de hand, dan moet hij de-escaleren én veilig blijven rijden. Bureau Weerbaar en Veilig traint deze beroepsgroepen daarom expliciet op besluiten onder druk: doorrijden, stoppen, melden of opschalen. Welke van die vier past, is vooraf zelden te bepalen.
+Daarbij is de medewerker verantwoordelijk voor tientallen reizigers tegelijk. Loopt het tijdens de rit uit de hand, dan moet hij de-escaleren én veilig blijven rijden. Je oefent daarom besluiten onder druk: doorrijden, stoppen, melden of opschalen. Welke van die vier past, is vooraf zelden te bepalen.

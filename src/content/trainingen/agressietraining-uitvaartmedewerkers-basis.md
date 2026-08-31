@@ -52,9 +52,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Nabestaanden zitten bij de uitvaartverzorger aan tafel op een moment van acute rouw. Verdriet, schuldgevoel en machteloosheid slaan dan soms om in woede. Dat vergroot het risico op agressie.
+Nabestaanden zitten bij je aan tafel op de slechtste dag van hun leven. Verdriet, schuldgevoel en machteloosheid moeten ergens heen, en soms komen ze eruit als woede richting jou: over de kosten, over een tijdstip, over een detail dat er nauwelijks toe doet. Meestal is dat frustratieagressie, spanning die een uitweg zoekt en niet op jou is gericht.
 
-De basistraining van Bureau Weerbaar en Veilig leert medewerkers die dynamiek te herkennen en te hanteren, met behoud van de zorgrelatie die dit vak vraagt.
+Dat onderscheid stuurt wat je doet. Bij frustratie werkt ruimte geven, benoemen wat je ziet en het gesprek vertragen. Wordt de druk gericht opgevoerd om een afspraak of een korting af te dwingen, dan begrens je het gedrag en houd je de afspraak overeind. Je oefent allebei, met behoud van de relatie die dit vak vraagt: je staat de familie de dagen erna gewoon weer bij.
 
 ## Herkenbare praktijksituaties
 

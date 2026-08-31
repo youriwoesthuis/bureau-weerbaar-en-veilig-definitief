@@ -52,9 +52,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Medewerkers vergunningverlening nemen beslissingen met grote gevolgen. De verantwoordelijkheid voor hun veiligheid begint bij de organisatie: een helder protocol, goede voorbereiding en steun als de druk oploopt.
+De veiligheid van je medewerkers begint bij wat jullie als organisatie regelen: een protocol dat klopt met de praktijk, voorbereiding op dossiers waarvan je weet dat ze knallen, en rugdekking als de druk oploopt. Wat een behandelaar aan de balie doet, is de laatste schakel, niet de eerste.
 
-Deze experttraining van Bureau Weerbaar en Veilig richt zich op die organisatieverantwoordelijkheid, inclusief het afschermen van politieke druk. Dat is beleidswerk, geen gespreksoefening.
+Je werkt aan de meldingsbereidheid, ook voor agressie via telefoon en e-mail, want die verdwijnt het snelst uit beeld. Je regelt nazorg en opvang na een ernstig voorval en een aanpak voor de aanvrager die maanden achtereen over de grens gaat. En je maakt afspraken over politieke druk: die hoort bij het bestuur te blijven en niet bij de medewerker terecht te komen die het besluit voorbereidde.
 
 ## Wat speelt er op dit niveau
 

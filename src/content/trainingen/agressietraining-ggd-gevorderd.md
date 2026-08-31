@@ -56,9 +56,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Sommige agressie richting de publieke gezondheidszorg is niet impulsief maar bewust georganiseerd. Wie te maken krijgt met een groep die zijn legitimiteit betwist, of met een intimidatiecampagne op sociale media, heeft andere vaardigheden nodig dan de-escalatietechnieken.
+Een deel van de agressie richting de publieke gezondheidszorg is georganiseerd. Een groep betwist je bevoegdheid ter plekke, of een campagne op sociale media zoekt je naam op. Kalmeren helpt daar weinig, want de boosheid is het middel en niet de kern.
 
-Deze verdiepingstraining van Bureau Weerbaar en Veilig gaat in op ideologisch gemotiveerde agressie en op het standhouden onder politieke en publieke druk.
+Je oefent op ideologisch gemotiveerde agressie: hoe je je boodschap vasthoudt tegenover mensen die niet komen om overtuigd te worden, hoe je een gesprek afsluit zonder beeldmateriaal cadeau te doen, en hoe je overeind blijft als de druk politiek en publiek wordt. Ook bespreek je de opvang daarna, want dit soort druk stopt niet bij de voordeur.
 
 ## Herkenbare praktijksituaties
 

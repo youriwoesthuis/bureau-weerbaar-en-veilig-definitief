@@ -54,9 +54,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Medewerkers van de sociale dienst vertegenwoordigen de overheid op momenten dat burgers kwetsbaar zijn. De existentiële afhankelijkheid van een uitkering maakt gesprekken over rechten, plichten en sancties potentieel explosief.
+Je vertelt iemand dat zijn uitkering wordt gekort, op het moment dat hij dat geld nodig heeft voor de huur. Wie dan tegen je uitvalt, reageert op het besluit en op de afhankelijkheid, niet op jou. Bij die frustratieagressie werkt ruimte geven: laten merken dat je hoort wat het betekent, voordat je het besluit herhaalt.
 
-De basistraining van Bureau Weerbaar en Veilig richt zich daarom op het moment zelf: hoe je een moeilijke boodschap brengt zonder de situatie te laten ontsporen.
+Je oefent hoe je een moeilijke boodschap brengt zonder eromheen te draaien, en hoe je een gesprek terughaalt als het oploopt. Zet iemand dreiging in om het besluit te laten kantelen, dan begrens je het gedrag en blijft het besluit staan. Ook dreiging die later per telefoon of mail binnenkomt en agressie aan de balie komen aan bod.
 
 ## Herkenbare praktijksituaties
 

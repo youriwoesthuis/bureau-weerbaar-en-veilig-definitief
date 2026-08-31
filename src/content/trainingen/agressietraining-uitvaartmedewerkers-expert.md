@@ -51,9 +51,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-De uitvaartbranche onderschat vaak de agressie van nabestaanden: het past niet bij het beeld van het vak, dus blijft het onbesproken.
+Agressie van nabestaanden past niet bij het beeld van dit vak, dus blijft het onbesproken. Een collega vertelt na afloop wel wat er gebeurde, maar legt het nergens vast. Zo zakt de meldingsbereidheid, en zonder meldingen heb je niets in handen om iets te veranderen.
 
-Deze experttraining van Bureau Weerbaar en Veilig helpt ondernemers hun medewerkers te beschermen zonder de dienstverlening aan rouwenden op te geven.
+Je werkt aan de teamnorm: waar ligt de grens, wie zegt er iets van, en wat gebeurt er daarna. Je richt nazorg en opvang in, zodat iemand na een zwaar gesprek niet meteen doorloopt naar de volgende familie. En je zoekt de lijn tussen de zorg voor rouwenden en de bescherming van je mensen, want die twee botsen soms echt.
 
 ## Wat speelt er op dit niveau
 

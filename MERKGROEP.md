@@ -200,3 +200,49 @@ het onderwerp, niet in de zoekopdrachten.
 
 **Besluit: geen redirects, geen cross-domain canonicals, geen content weghalen.**
 De scheiding wordt bewaakt met de drie regels uit hoofdstuk 2.
+
+## 9. Controle op 31 augustus 2026: de scheiding wordt gehaald
+
+Volledige uitlezing van alle 217 gebouwde bestanden, plus robots.txt, beide
+sitemaps, llms.txt en llms-full.txt.
+
+**De harde eis is gehaald.** Nul cross-domain canonicals, nul redirects, nul
+zichtbare links naar een zustermerk buiten de pagina over ons. De enige plek
+waar actinmove.nl en agressievisie.nl voorkomen is `sameAs` in het
+Organization-schema, en dat is precies de toegestane vorm. Geen
+`parentOrganization`, geen `memberOf`, conform hoofdstuk 4.
+
+**Verder schoon bevonden:**
+
+- robots.txt: geen enkele `Disallow`, vijftien AI-bots expliciet toegelaten,
+  sitemap vermeld. De enige `noindex` op de hele site staat op de foutpagina.
+- Sitemap: 216 urls, exact gelijk aan de 216 gebouwde pagina's, allemaal met
+  trailing slash op het eigen domein. Geen ontbrekende en geen spookurl.
+- Canonicals: elke pagina precies een, naar zichzelf, op het eigen domein.
+- llms.txt en llms-full.txt: 43 beroepsgroepen, 129 trainingen, 19 sectoren, en
+  van de 193 genoemde urls bestaan er 193. Nul dode links, en geen aantallen die
+  kunnen verouderen.
+- Schema: nul parseerfouten, nul verwijzingen naar een `@id` dat nergens
+  gedefinieerd is, en de Organization is op alle 217 pagina's identiek.
+- Meta: 217 unieke titels, 217 unieke omschrijvingen, geen enkele korter dan 70
+  of langer dan 165 tekens.
+
+**Hersteld naar aanleiding van deze controle:**
+
+1. **De merkgroep stond niet in llms-full.txt**, alleen in llms.txt. Een
+   AI-systeem dat alleen het volledige bestand ophaalt, zag de andere twee
+   merken dus niet. Toegevoegd, met dezelfde formulering.
+2. **129 onvolledige Course-blokken.** De beroepsgroeppagina noemde elke
+   training als `Course` met alleen een naam en een url, zonder `description`
+   en `provider`, wat Google als onvolledig markeert. Die stub heeft nu het
+   `@id` van de volledige Course op de trainingspagina, dus het is een
+   verwijzing naar dezelfde cursus in plaats van een tweede, halve beschrijving.
+3. **Twitter-tags ontbraken** op alle 217 pagina's op `twitter:card` na.
+   Aangevuld, en `og:image:alt` erbij.
+4. **Hoofdletterbug in zeven titels.** De titelgenerator zette de
+   beroepsgroepnaam in kleine letters, waardoor "Persoonlijk begeleiders (VG)"
+   in de zoekresultaten "persoonlijk begeleiders (vg)" werd. Afkortingen van
+   twee hoofdletters of meer blijven nu staan.
+
+**Nog open:** `legalName` met de KvK-naam ontbreekt nog steeds op alle drie de
+sites. Dat blijft punt 7 van hoofdstuk 7 en heeft Youri nodig.

@@ -52,9 +52,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Incidenten in het openbaar vervoer zijn zelden volledig te voorkomen. Wat een vervoerder wél kan sturen: hoe medewerkers reageren, of incidenten gemeld worden en hoe snel de organisatie leert van wat er gebeurt.
+Incidenten in het openbaar vervoer krijg je niet weg. Wat jullie wel sturen: hoe medewerkers reageren, of ze een voorval daarna vastleggen, en hoe snel jullie zien dat op één lijn steeds hetzelfde misgaat. Blijft melden uit, dan lijkt het rustiger dan het is en ontbreekt de grond onder elke maatregel.
 
-Deze experttraining van Bureau Weerbaar en Veilig richt zich op die organisatiekant, met meldingsdata per lijn als startpunt.
+Je werkt daarom aan de meldingsbereidheid: wat houdt een conducteur tegen om iets door te geven, en wat verandert dat. Daarnaast aan de teamnorm, de afspraak over waar de grens ligt en wat er gebeurt als iemand eroverheen gaat, zodat twee collega's op dezelfde situatie hetzelfde reageren. En aan nazorg en opvang na een ernstig voorval, want psychosociale arbeidsbelasting, de mentale belasting van dit werk, bepaalt of iemand over een half jaar nog rijdt. De meldingen per lijn zijn het startpunt.
 
 ## Wat speelt er op dit niveau
 

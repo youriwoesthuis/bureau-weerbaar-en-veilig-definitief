@@ -52,9 +52,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Een veilige bibliotheek is een betere bibliotheek: voor alle bezoekers. Openheid en veiligheid staan niet tegenover elkaar, maar zonder beleid wint de bezoeker die de grens opzoekt.
+Openheid en veiligheid gaan samen zolang er afspraken liggen. Zonder die afspraken bepaalt de bezoeker die het hardst doorzet waar de grens ligt, en die grens schuift elke maand een stukje op.
 
-Deze experttraining van Bureau Weerbaar en Veilig helpt leidinggevenden dat beleid te maken, vanuit kennis van de publieke sector.
+Dat schuiven heet normalisering: gedrag dat vorig jaar opviel, hoort er nu bij. Je haalt die grens terug met een teamnorm, dus een gedeelde lijn waar iedere medewerker hetzelfde op reageert, en met meldingsbereidheid: medewerkers leggen incidenten alleen vast als ze zien dat er iets mee gebeurt. Je werkt aan allebei, plus aan aanspreken, waarschuwen en de nazorg na een incident.
 
 ## Wat speelt er op dit niveau
 

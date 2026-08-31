@@ -16,4 +16,4 @@ veelgestelde_vragen:
 
 Voor veel mensen is een huisdier familie. Een ernstige diagnose, een dure behandeling of het overlijden van een dier raakt eigenaren diep, en die emotionele lading zoekt soms een uitweg richting het team van de kliniek.
 
-Bijzonder aan deze sector is de nasleep: conflicten die maanden doorlopen via reviews, sociale media en juridische dreiging. Bureau Weerbaar en Veilig traint dierenartsen, assistenten en praktijkhouders daarom op zowel het moment zelf als de lange adem daarna.
+Bijzonder aan deze sector is de nasleep: conflicten die maanden doorlopen via reviews, sociale media en juridische dreiging. Dierenartsen, assistenten en praktijkhouders oefenen daarom het moment zelf én wat daarna komt: wie op een review reageert, wat de praktijk onderling afspreekt en hoe je een collega opvangt die met naam wordt genoemd.

@@ -21,4 +21,4 @@ veelgestelde_vragen:
 
 Bij de Belastingdienst komen drie dingen samen die agressie voeden: grote financiële belangen, juridische complexiteit en een duidelijke gezagspositie. Een aanslag of controle raakt mensen direct in hun portemonnee, en de medewerker is het gezicht van dat besluit.
 
-Veel van de agressie verloopt hier via de telefoon en e-mail. Medewerkers die opzien tegen hun eigen gesprekslijst zijn geen uitzondering. Bureau Weerbaar en Veilig besteedt daarom expliciet aandacht aan agressie op afstand.
+Veel van de agressie verloopt hier via de telefoon en e-mail. Medewerkers die opzien tegen hun eigen gesprekslijst zijn geen uitzondering. Die spanning vooraf hoort bij de psychosociale arbeidsbelasting van dit werk: de druk die doorloopt nadat je hebt opgehangen. Je oefent daarom op de kanalen waar het gebeurt, aan de telefoon en per e-mail, en je spreekt af wat je na zo’n gesprek met je team doet.

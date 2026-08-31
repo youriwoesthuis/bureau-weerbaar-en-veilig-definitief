@@ -52,9 +52,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Groepsincidenten bij evenementen vragen meer dan basisvaardigheden. Wie een groep verkeerd leest of niet gecoördineerd optreedt, maakt een situatie groter dan hij was.
+Groepsincidenten bij evenementen vragen meer dan de basis. Lees je een groep verkeerd of treedt je team niet gecoördineerd op, dan maak je een situatie groter dan hij was.
 
-Deze verdiepingstraining van Bureau Weerbaar en Veilig leert beveiligers complexe groepsdynamieken lezen en gecoördineerd handelen in hoogrisicoscenario’s.
+Je oefent het lezen van groepsdynamiek: wie duwt, wie kijkt en wie een publiek zoekt. Daarbij scheid je de bezoeker die zich opwindt over een weigering, frustratieagressie, van de provocateur die je optreden uitlokt voor de camera, instrumentele agressie. Het eerste zakt met ruimte en erkenning, het tweede vraagt een harde grens en collega’s die precies hetzelfde doen.
 
 ## Herkenbare praktijksituaties
 

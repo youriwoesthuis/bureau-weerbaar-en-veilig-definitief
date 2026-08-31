@@ -52,9 +52,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Sommige huisbezoeken vragen meer dan basisvaardigheden: een afsluiting bij iemand die niets meer te verliezen heeft, of een adres waar de vorige collega al problemen had.
+Sommige huisbezoeken vragen meer dan de basis: een afsluiting bij iemand die niets meer te verliezen heeft, of een adres waar je collega vorige keer al problemen kreeg. In de deuropening beslis je dan of je naar binnen gaat.
 
-Deze verdiepingstraining van Bureau Weerbaar en Veilig bereidt medewerkers voor op die risicovolle situaties, inclusief het besluit om níet naar binnen te gaan.
+Je oefent die taxatie vooraf en het besluit om weg te blijven. Ook oefen je het verschil tussen een klant die uit wanhoop schreeuwt, frustratieagressie, en een klant die je bewust klemzet om de afsluiting tegen te houden, instrumentele agressie. Bij de eerste werkt ruimte geven, bij de tweede juist een harde grens op het gedrag.
 
 ## Herkenbare praktijksituaties
 

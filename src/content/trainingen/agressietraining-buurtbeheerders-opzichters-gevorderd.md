@@ -53,9 +53,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-De kwetsbaarheid van buurtbeheerders stopt niet aan het einde van de werkdag: je bent herkenbaar in je werkgebied, ook in je vrije tijd. Intimidatie kan daardoor structureel worden.
+Je bent herkenbaar in je werkgebied, ook als je er op zondag met je kind loopt. Wie je onder druk wil zetten, hoeft daar niet tot de werkdag mee te wachten.
 
-Deze verdiepingstraining van Bureau Weerbaar en Veilig helpt daar bewust mee om te gaan, met de eigen wijk als casuïstiek.
+Intimidatie die zich herhaalt is meestal doelgericht: iemand wil dat je een dossier laat liggen of die straat mijdt. Dat is instrumentele agressie, en wegblijven beloont het. Je oefent hoe je die straat toch in gaat en tegelijk je grens vasthoudt, hoe je omgaat met een groep die de openbare ruimte claimt, en hoe je vastlegt wat er gebeurt zodat er een dossier ligt en niet alleen jouw verhaal.
 
 ## Herkenbare praktijksituaties
 

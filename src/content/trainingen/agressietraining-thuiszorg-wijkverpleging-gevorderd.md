@@ -56,9 +56,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Sommige agressie in de thuiszorg is niet incidenteel maar structureel: een cliënt die bij elke verzorging fysiek verzet pleegt, een mantelzorger die de medewerker systematisch onder druk zet. Of een situatie waarin je vermoedt dat er meer aan de hand is.
+Een cliënt met gevorderde dementie die zich bij elke wasbeurt verzet, doet dat niet om jou te raken: het gedrag komt voort uit angst en onbegrip op dat moment. Een mantelzorger die je bij elk bezoek onder druk zet, doet dat wel gericht. Reageer je op beide hetzelfde, dan maak je het in één van de twee gevallen erger.
 
-Deze verdiepingstraining van Bureau Weerbaar en Veilig bereidt medewerkers voor op langdurige zorgrelaties met voorspelbare én onvoorspelbare risico’s. De emotionele belasting die dat meebrengt komt daarbij expliciet aan bod.
+Je leert dat verschil lezen in langdurige zorgrelaties en je handelen erop aanpassen: aansluiten en de zorg opdelen bij verzet, begrenzen en vastleggen bij gerichte druk. Je werkt aan signalen van huiselijk geweld of verwaarlozing en aan grensoverschrijdend gedrag in een relatie die je niet zomaar kunt beëindigen. Ook de belasting die dit werk bij jou achterlaat komt aan bod, want die bepaalt hoelang je het volhoudt.
 
 ## Herkenbare praktijksituaties
 

@@ -53,7 +53,7 @@ gerelateerd:
 
 Agressie is in het maatschappelijk werk structureel. De grootste belemmering is vaak niet de agressie zelf maar de beroepscultuur: melden voelt als falen, en grensvervaging heet betrokkenheid.
 
-Deze experttraining van Bureau Weerbaar en Veilig helpt leidinggevenden beleid te maken dat zowel de veiligheid van medewerkers als de hulpverleningsmissie borgt.
+Als leidinggevende werk je daarom aan meldingsbereidheid, de drempel om een incident door te geven, en aan een teamnorm waarin begrenzen bij goede hulpverlening hoort. Je legt vast hoe je huisbezoeken voorbereidt, wie debrieft na een ernstig incident en hoe het protocol aansluit op de manier waarop jullie werken.
 
 ## Wat speelt er op dit niveau
 

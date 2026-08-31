@@ -51,15 +51,17 @@ gerelateerd:
 
 ## Waarom deze training
 
-Huisartsassistenten staan dagelijks in de frontlinie: aan de balie, aan de
-telefoon en bij de triage. Zij krijgen de frustratie van patiënten als eerste
-over zich heen: over een geweigerde spoedafspraak, een triage-uitkomst of een
-recept dat niet wordt verstrekt.
+Aan de balie, aan de telefoon en bij de triage vang je de frustratie van de
+patiënt als eerste op: over een spoedafspraak die er niet is, over een
+triage-uitkomst of over een recept dat je niet verstrekt. Jij brengt het
+besluit, dus jij krijgt de reactie.
 
-Zonder concrete training blijft het bij improviseren. Dat leidt vaak tot
-spanning, handelingsverlegenheid en uiteindelijk verzuim. De basistraining van
-Bureau Weerbaar en Veilig leert huisartsassistenten veilig en professioneel te
-blijven werken.
+Zonder oefening blijf je improviseren, en dat kost spanning. Je leert het
+verschil tussen de patiënt die uit angst of boosheid schreeuwt,
+frustratieagressie, en de patiënt die de druk opvoert tot je toch een
+afspraak inplant, instrumentele agressie. Bij de eerste werkt erkennen en
+daarna herhalen, bij de tweede een rustige grens en dezelfde uitkomst. Je
+oefent ook het telefoongesprek, waarin je alleen je stem hebt.
 
 ## Herkenbare praktijksituaties
 

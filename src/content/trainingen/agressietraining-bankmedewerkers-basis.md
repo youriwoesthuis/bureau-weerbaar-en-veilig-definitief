@@ -52,9 +52,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Klanten in financiële stress reageren regelmatig agressief op bankmedewerkers. De medewerker aan de balie of telefoon vangt dat als eerste op, zonder het besluit te kunnen veranderen.
+Een geweigerde lening, een geblokkeerde rekening, een aflossing die niet meer lukt: de klant hoort het van jou, en jij bent degene die dat besluit niet kan terugdraaien.
 
-De basistraining van Bureau Weerbaar en Veilig helpt escalatie en verzuim voorkomen door medewerkers concrete handvatten te geven, met expliciete aandacht voor agressie via de telefoon.
+Wie daarover schreeuwt is meestal bang. Dat is frustratieagressie: spanning die eruit moet. Erkennen wat het betekent en benoemen wat je wel kunt doen, brengt zo'n gesprek terug. Zet iemand bewust druk om een uitzondering te krijgen, dan is dat instrumentele agressie en werkt juist een korte grens op het gedrag. Je oefent beide, ook aan de telefoon, waar je alleen een stem hebt om op af te gaan.
 
 ## Herkenbare praktijksituaties
 

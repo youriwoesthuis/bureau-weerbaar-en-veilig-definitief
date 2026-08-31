@@ -51,16 +51,17 @@ gerelateerd:
 
 ## Waarom deze training
 
-Leidinggevenden in de retail krijgen regelmatig met escalaties te maken.
-Roept een medewerker hulp in bij een agressieve klant, of loopt een
-diefstalconfrontatie uit de hand, dan moet de manager professioneel
-ingrijpen. En daarna het team ondersteunen.
+Als filiaalmanager sta je erbij op het moment dat het misgaat. Een
+medewerker roept je erbij bij een klant die tekeergaat, of een
+diefstalconfrontatie loopt uit de hand. Je grijpt in waar iedereen bij staat,
+en daarna vang je je medewerker op.
 
-Managers hebben daarmee een dubbele verantwoordelijkheid: zelf ingrijpen én
-de veiligheid van het team bewaken. Zonder training gaat dat vaak mis:
-managers grijpen verkeerd in, klantsituaties raken beschadigd en medewerkers
-voelen zich niet gesteund. Organisaties die hun zorgplicht serieus nemen,
-investeren preventief.
+Dat is een dubbele taak: de situatie zelf omlaag brengen en tegelijk je team
+beschermen. Je oefent allebei. Je leert de klant die schreeuwt uit boosheid
+over een besluit, frustratieagressie, anders benaderen dan de klant die druk
+opvoert om een uitzondering af te dwingen, instrumentele agressie. En je
+leert wat je in de eerste uren na een incident met je medewerker doet, want
+dat bepaalt of zij het volgende incident nog meldt.
 
 ## Herkenbare praktijksituaties
 

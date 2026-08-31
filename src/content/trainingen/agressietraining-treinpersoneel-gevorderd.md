@@ -53,9 +53,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Sommige agressie in het ov is niet impulsief maar structureel: dezelfde reizigers, dezelfde lijnen, hetzelfde patroon. En het speelt in een rijdend voertuig waar directe hulp ontbreekt.
+Een deel van de agressie in het ov is niet impulsief. Dezelfde reiziger, dezelfde lijn, hetzelfde patroon: iemand die weet hoe ver hij kan gaan en precies daar gaat zitten. Dat is instrumentele agressie, gedrag dat een doel dient, en daar helpt begrip tonen niet. Daar helpt een grens die je elke keer op dezelfde manier trekt.
 
-Deze verdiepingstraining van Bureau Weerbaar en Veilig richt zich op die situaties en op de besluiten die je in enkele seconden moet nemen.
+In een rijdend voertuig komt de tijd er nog bij. Je beslist in seconden of je doorrijdt, de centrale inschakelt of stilstaat, met een camera op je gericht. Je oefent die besluiten met de situaties die op jullie lijnen echt voorkomen, zodat je in het moment niet hoeft te bedenken wat de afspraak ook alweer was.
 
 ## Herkenbare praktijksituaties
 

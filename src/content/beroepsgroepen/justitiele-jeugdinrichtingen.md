@@ -21,4 +21,4 @@ veelgestelde_vragen:
 
 Groepsleiders en pedagogisch medewerkers in een justitiële jeugdinrichting werken met jongeren die niet weg kunnen. Die jongeren leven vaak in permanente spanning. Statusgedrag hoort bij de groep: de confrontatie met een medewerker levert aanzien op.
 
-De dubbelrol is hier extra scherp: begrenzen én begeleiden, in een gesloten ruimte, met een groep die alles meemaakt. Bureau Weerbaar en Veilig traint daarom sterk op groepsdynamiek en op eenduidig teamoptreden.
+De dubbelrol is hier extra scherp: begrenzen én begeleiden, in een gesloten ruimte, met een groep die alles meemaakt. Je oefent daarom met de groep erbij en met de teamnorm: dezelfde grens bij dezelfde jongere, of je nu de vroege dienst draait of de late. Verschilt die norm per collega, dan zoekt de groep dat verschil op.

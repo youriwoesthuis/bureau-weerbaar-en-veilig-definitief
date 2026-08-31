@@ -21,4 +21,4 @@ veelgestelde_vragen:
 
 Het welzijn van een huisdier raakt mensen diep. Een diagnose die niet wordt geaccepteerd, een behandeling die te duur is of het verlies van een dier: de emotionele lading maakt de drempel voor agressie in de dierkliniek laag.
 
-Bijzonder aan deze sector is de nasleep: conflicten die maanden doorlopen via reviews, sociale media en juridische dreiging. Bureau Weerbaar en Veilig traint klinieken daarom ook op de lange adem.
+Bijzonder aan deze sector is de nasleep: conflicten die maanden doorlopen via reviews, sociale media en juridische dreiging. Je oefent daarom niet alleen het gesprek in de spreekkamer, maar ook wat de kliniek daarna doet: wie op een review reageert, wat het team onderling afspreekt en hoe je een collega opvangt die persoonlijk bij naam is genoemd.

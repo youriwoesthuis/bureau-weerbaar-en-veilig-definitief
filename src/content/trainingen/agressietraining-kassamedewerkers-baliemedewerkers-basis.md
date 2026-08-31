@@ -54,9 +54,10 @@ Kassamedewerkers en baliemedewerkers staan dagelijks in de frontlinie van de
 winkel. Zij krijgen als eersten te maken met gefrustreerde klanten.
 Ondersteuning is er op dat moment vaak niet.
 
-De basistraining van Bureau Weerbaar en Veilig geeft deze medewerkers concrete
-handvatten: agressie vroeg herkennen, rustig blijven onder druk en het gesprek
-terugbrengen voordat het escaleert.
+Je oefent daarom de eerste halve minuut: de klant die zijn stem verheft, jouw
+houding, en de zin waarmee je het gesprek terugbrengt. Je leert erkennen wat er
+misgaat zonder de regel los te laten, en je leert wanneer je een collega of
+leidinggevende erbij haalt.
 
 ## Herkenbare praktijksituaties
 
@@ -68,5 +69,5 @@ terugbrengen voordat het escaleert.
 
 De trainingsacteur speelt deze situaties na, met de details die het team er bij de intake zelf bij levert.
 
-De training werkt met realistische scenario's uit precies deze situaties:
-praktijkgericht en direct toepasbaar achter kassa en balie.
+Je oefent deze scenario's tot je reactie klopt, zodat je hem achter kassa en
+balie ook onder druk kunt oproepen.

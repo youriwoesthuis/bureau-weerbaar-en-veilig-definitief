@@ -53,9 +53,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Bepaalde agressie in de openbare ruimte is niet impulsief maar georganiseerd: dezelfde groep, dezelfde wijk, hetzelfde patroon, en een camera die klaarstaat.
+Sommige agressie in de openbare ruimte is niet impulsief maar georganiseerd: dezelfde groep, dezelfde wijk, hetzelfde patroon, en iemand die alvast staat te filmen. Dat is instrumentele agressie, gericht op een doel, en de camera hoort bij het drukmiddel. Uitleggen en meepraten maakt het dan groter.
 
-Deze verdiepingstraining van Bureau Weerbaar en Veilig richt zich op die situaties, met nadruk op besluitvorming onder groepsdruk.
+Je oefent hoe je in een groep één aanspreekpunt kiest, het gedrag begrenst zonder publiek gelijk te halen, en beslist of je blijft of vertrekt. Beslissen terwijl een groep om je heen staat, staat centraal, net als wat je doet met dreiging die na je dienst doorloopt.
 
 ## Herkenbare praktijksituaties
 

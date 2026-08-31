@@ -53,9 +53,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-In langdurige hulpverleningsrelaties is agressie meestal niet impulsief maar gegroeid: patronen slijten in, grenzen schuiven op en de hulpverlener ziet het zelf als laatste.
+In een traject dat maanden of jaren loopt, komt agressie zelden uit het niets. Een cliënt rekt een afspraak op, jij laat het lopen omdat de relatie verder goed is, en het volgende gesprek begint alweer een stap verder. Die grensverlegging zie je pas als je de losse momenten naast elkaar legt.
 
-Deze verdiepingstraining van Bureau Weerbaar en Veilig gaat verder dan basisvaardigheden en richt zich op situaties waarin de professionele relatie zelf risico loopt.
+Je oefent het verschil tussen frustratieagressie, waarbij iemand zich uit machteloosheid laat gaan, en instrumentele agressie, waarbij iemand druk zet om iets af te dwingen. Bij het eerste geef je ruimte, bij het tweede begrens je het gedrag. Daarnaast werk je aan veiligheidstaxatie bij meervoudige problematiek, aan wat je doet als iemand je in de privésfeer benadert, en aan de teamnorm waardoor collega’s dezelfde grens trekken.
 
 ## Herkenbare praktijksituaties
 

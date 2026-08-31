@@ -53,7 +53,7 @@ gerelateerd:
 
 Medewerkers van justitiële jeugdinrichtingen werken in een veeleisende omgeving: met jongeren die in spanning en frustratie leven en die niet weg kunnen.
 
-Zonder training leidt dat vaak tot gevaarlijke situaties en hoog verzuim. De basistraining van Bureau Weerbaar en Veilig richt zich op gezag uitstralen zonder te escaleren.
+Je oefent daarom hoe je gezag houdt zonder de spanning op te voeren: rustig blijven in stem en houding, begrenzen op het gedrag en de jongere ruimte laten om zonder gezichtsverlies bij te draaien. Je leert ook de vroege signalen lezen, want in een groep gaat het van onrust naar escalatie in enkele minuten.
 
 ## Herkenbare praktijksituaties
 

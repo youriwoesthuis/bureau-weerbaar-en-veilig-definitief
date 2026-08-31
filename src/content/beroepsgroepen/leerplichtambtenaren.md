@@ -24,6 +24,6 @@ veelgestelde_vragen:
 
 Een leerplichtambtenaar komt binnen met twee rollen tegelijk: handhaver en hulpverlener. Dat is vaak precies de spanning die agressie oproept: een gezin ziet de bevoegdheid, niet de bedoeling, en ervaart het bezoek als bemoeienis van de overheid.
 
-Daarbij gaat de leerplichtambtenaar naar de mensen toe, vaak alleen, in gezinnen waar meerdere problemen samenkomen. Bureau Weerbaar en Veilig traint deze beroepsgroep daarom expliciet op huisbezoeken en veiligheidstaxatie.
+Daarbij gaat de leerplichtambtenaar naar de mensen toe, vaak alleen, in gezinnen waar meerdere problemen samenkomen. Je oefent daarom het huisbezoek zelf: wat je vóór de deur al inschat, waar je gaat staan of zitten, en op welk moment je het gesprek afbreekt en weggaat.
 
 De druk beperkt zich daarbij niet tot het gesprek aan de deur. Ouders filmen soms het huisbezoek met hun telefoon, en na een waarschuwing of proces-verbaal komen verwijten en dreigementen per e-mail binnen. Het vraagt oefening om dan hetzelfde te blijven doen als aan de deur: rustig reageren en de grens aangeven.

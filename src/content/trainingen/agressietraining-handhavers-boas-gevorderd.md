@@ -54,9 +54,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Sommige agressie in de handhaving is niet impulsief maar strategisch: overlastplegers die de regels beter kennen dan de handhaver, of groepen die het optreden bewust uitlokken en filmen.
+Een deel van de agressie in de handhaving is strategisch. De overlastpleger kent de regels beter dan jij, of een groep lokt je optreden uit en zet de camera aan voordat het begint.
 
-Deze verdiepingstraining van Bureau Weerbaar en Veilig bereidt handhavers voor op georganiseerde overlast en op situaties waarin de juridische én fysieke druk maximaal is.
+Je oefent op dat gedrag: instrumentele agressie, waarbij iemand de confrontatie inzet om iets af te dwingen of jou fout te laten staan. Je leert je grens smal en juridisch houdbaar houden, je collega’s daarop aansluiten en het moment kiezen waarop je stopt. In die scenario’s loopt de juridische en de fysieke druk tegelijk op.
 
 ## Herkenbare praktijksituaties
 

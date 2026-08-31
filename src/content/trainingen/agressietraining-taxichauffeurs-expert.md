@@ -52,9 +52,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Taxichauffeurs werken alleen. Wat er dan gebeurt, hangt af van wat het bedrijf heeft geregeld: het protocol, de meldweg, de nazorg en de kennis over hun juridische positie. Ligt dat alleen in een la, dan verandert het niets.
+Wat een chauffeur alleen in de auto doet, hangt af van wat jij vooraf hebt geregeld. Staat er een protocol dat niemand kent, dan valt hij terug op zijn eigen inschatting. En een chauffeur die vreest dat een melding hem ritten kost, meldt niet, waardoor je risicobeeld leeg blijft terwijl er van alles gebeurt.
 
-Deze experttraining van Bureau Weerbaar en Veilig helpt leidinggevenden dat te organiseren, met kennis van de transportsector.
+Je maakt die dingen werkbaar: een meldweg die de chauffeur niets kost, zodat de meldingsbereidheid stijgt, een afspraak over wanneer een rit stopt, vaste debriefing en nazorg en opvang na incidenten, en zicht op ritten, tijdstippen en gebieden waar het misgaat. Ook de juridische positie van de chauffeur komt aan bod.
 
 ## Wat speelt er op dit niveau
 

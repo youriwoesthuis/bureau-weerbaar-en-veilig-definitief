@@ -52,9 +52,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Sommige agressie aan de bankbalie is niet impulsief maar bewust ingezet: precies genoeg druk om een uitzondering te krijgen.
+Sommige druk aan de bankbalie is niet impulsief maar gedoseerd: precies genoeg boosheid om jou een uitzondering te laten maken, en weer weg zodra dat lukt. Dat heet instrumentele agressie, gedrag als middel.
 
-Deze verdiepingstraining van Bureau Weerbaar en Veilig richt zich op die tactieken en op de morele spanning die het oplevert bij klanten die werkelijk in nood zitten.
+Het lastige is dat het er van buiten hetzelfde uitziet als iemand die werkelijk in nood zit. Je leert waar je het verschil aan ziet, hoe je begrenst op het gedrag terwijl je de klant blijft helpen, en wat je doet als de druk verschuift naar een klacht of sociale media. Ook spreek je af hoe jullie op dezelfde klant dezelfde lijn houden.
 
 ## Herkenbare praktijksituaties
 

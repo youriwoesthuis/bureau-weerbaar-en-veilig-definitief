@@ -53,9 +53,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Collectieve onrust, getraumatiseerde bewoners in crisis en georganiseerde intimidatie vragen meer dan basisvaardigheden, zeker wanneer je er tijdens een nachtdienst met een minimale bezetting voor staat.
+Onrust die door de locatie trekt, een bewoner in acute crisis of een groep die de druk verdeelt en volhoudt: dat vraagt iets anders dan een gesprek aan de balie. Zeker tijdens een nachtdienst met minimale bezetting.
 
-Deze verdiepingstraining van Bureau Weerbaar en Veilig bereidt medewerkers voor op professioneel handelen onder hoge druk.
+Bij een groep telt vooral waar je gaat staan, wie je aanspreekt en wanneer je je terugtrekt om op ondersteuning te wachten. Bij een bewoner in crisis werkt begrenzen op gedrag pas als je eerst het contact terug hebt. Je oefent die volgorde, en je spreekt af wanneer je opschaalt in plaats van het zelf op te lossen.
 
 ## Herkenbare praktijksituaties
 

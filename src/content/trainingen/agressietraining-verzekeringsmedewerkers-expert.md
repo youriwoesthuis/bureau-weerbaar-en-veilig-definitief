@@ -51,9 +51,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Agressie in de verzekeringsbranche is zelden incidenteel: het hoort bij een sector waarin medewerkers dagelijks financiële teleurstellingen overbrengen.
+Bij jullie brengt iemand elke dag financiële teleurstellingen over. Agressie is dan een vast onderdeel van het werk, en dat vraagt beleid in plaats van een schouderklop achteraf.
 
-Deze experttraining van Bureau Weerbaar en Veilig richt zich daarom op de organisatie: leidinggevenden ondersteunen hun medewerkers én bouwen beleid dat blijft staan.
+Je werkt daarom aan de meldingsbereidheid, want een zwaar telefoongesprek wordt zelden vastgelegd en telt daardoor nergens mee. Je legt vast wat jullie doen bij grensoverschrijdend gedrag, zodat elke behandelaar op dezelfde rugdekking kan rekenen. Je richt opvang in na emotioneel zware gesprekken, en je maakt afspraken voor escalaties rond fraudeweigeringen, waar de druk het hoogst oploopt.
 
 ## Wat speelt er op dit niveau
 

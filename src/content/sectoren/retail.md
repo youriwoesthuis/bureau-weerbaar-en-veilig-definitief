@@ -22,7 +22,7 @@ een geweigerde korting, een aangesproken dief, een lange rij. Blijft training
 uit, dan ontstaan vermijdingsgedrag, hoog verloop en de gedachte dat
 grensoverschrijdend gedrag "er nu eenmaal bij hoort".
 
-Bureau Weerbaar en Veilig traint retailteams per functie: de winkelvloer, de
-kassa en balie, en de leidinggevenden die moeten ingrijpen én hun team opvangen.
-Elke training werkt met herkenbare winkelsituaties: praktijkgericht, zonder
-naïeve rollenspellen. Wat er op de vloer speelt, verschilt meestal per filiaal.
+Retailteams oefenen per functie: de winkelvloer, de kassa en balie, en de
+leidinggevenden die ingrijpen én daarna hun team opvangen. Je werkt met
+situaties uit het eigen filiaal, want wat er op de vloer speelt verschilt per
+vestiging, en je spreekt af hoe een melding bij de leidinggevende terechtkomt.

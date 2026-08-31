@@ -54,9 +54,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Horecamedewerkers werken in een omgeving waarin alcohol grensoverschrijdend gedrag versterkt, terwijl de norm van gastvrijheid het moeilijk maakt om grenzen te stellen.
+In de horeca versterkt alcohol grensoverschrijdend gedrag, terwijl gastvrijheid je leert om een gast vooral gelijk te geven. Daardoor stel je een grens vaak laat, en dan is de toon al gezet.
 
-De basistraining van Bureau Weerbaar en Veilig wil de veiligheid verhogen zonder de gastvrijheid op te offeren, en maakt seksuele intimidatie expliciet benoembaar.
+Je oefent begrenzen zonder onaardig te worden: hoe je een weigering brengt, wat je zegt als een gast te ver gaat richting jou of een collega, en hoe je de-escaleert bij iemand die kwaad wordt over de rekening. Seksuele intimidatie krijgt daarbij expliciet woorden, zodat collega’s weten wat ze van elkaar mogen verwachten.
 
 ## Herkenbare praktijksituaties
 

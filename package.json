@@ -9,7 +9,8 @@
     "build": "astro build",
     "preview": "astro preview",
     "controleer": "node scripts/controleer.mjs",
-    "maak-og": "node scripts/maak-og.mjs"
+    "maak-og": "node scripts/maak-og.mjs",
+    "controleer-stijl": "node scripts/controleer-stijl.mjs"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.4.1",

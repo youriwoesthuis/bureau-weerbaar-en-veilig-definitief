@@ -54,9 +54,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Taxichauffeurs werken alleen, zonder collega’s in de buurt. Dat maakt hen kwetsbaar en leidt tot een structureel hoge agressiebelasting en tot verzuim na incidenten.
+Je werkt alleen, met je passagier achter je en de deuren dicht. Wie boos wordt over de route of de prijs, reageert meestal op iets dat hem die avond is overkomen, en kalmeert als je kort erkent wat er speelt. Wie weigert te betalen en daarbij dreigt, zet die dreiging juist in als middel.
 
-De basistraining van Bureau Weerbaar en Veilig geeft chauffeurs handvatten die ook achter het stuur werken: spanning vroeg herkennen, verbaal begrenzen, en beslissen wanneer je stopt of hulpdiensten inschakelt.
+Op dat verschil oefen je: de-escaleren waar het om frustratie gaat, verbaal begrenzen waar iemand druk zet. Daarnaast oefen je de besluiten die achter het stuur tellen: waar je stopt, wanneer je de rit beëindigt en op welk moment je hulpdiensten belt in plaats van zelf door te praten.
 
 ## Herkenbare praktijksituaties
 

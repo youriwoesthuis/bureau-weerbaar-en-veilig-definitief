@@ -21,4 +21,4 @@ veelgestelde_vragen:
 
 Aan de bankbalie en aan de telefoon komt financiële stress rechtstreeks binnen: een geweigerde lening, een geblokkeerde rekening, een oplopende schuld. De medewerker kan het besluit niet terugdraaien maar is wel de eerste die het te horen krijgt.
 
-Veel van die agressie verloopt telefonisch, waar je de ander niet kunt zien en niet kunt weglopen. Bureau Weerbaar en Veilig legt daar expliciet nadruk op.
+Veel van die agressie verloopt telefonisch, waar je de ander niet kunt zien en niet kunt weglopen. Aan de telefoon valt lichaamstaal weg, dus stuur je het gesprek met je stem, je tempo en met wat je wel en niet herhaalt. Dat oefen je aan de telefoon zelf, niet aan een tafel.

@@ -8,7 +8,7 @@ samenvatting: >-
   medewerkers (basis) tot structurele overlast aanpakken (gevorderd) en
   organisatiebreed agressiebeleid (expert, voor regiomanagers en
   beleidsverantwoordelijken).
-kern: "Zelf ingrijpen bij een escalatie en daarna het team opvangen"
+kern: "Zelf ingrijpen in het filiaal en daarna het team opvangen dat het zag gebeuren"
 veelgestelde_vragen:
   - vraag: "Wij moeten zelf ingrijpen én het team opvangen. Zit dat allebei in de training?"
     antwoord: "Ja. Dat dubbele is hier het uitgangspunt. Zelf professioneel ingrijpen is één ding; zorgen dat het team zich veilig voelt en goed wordt opgevangen na een incident is een tweede."
@@ -25,9 +25,9 @@ veelgestelde_vragen:
 Filiaalmanagers en teamleiders dragen een dubbele verantwoordelijkheid: zelf
 professioneel ingrijpen wanneer een situatie escaleert, én zorgen dat het team
 zich veilig voelt en goed wordt opgevangen na een incident. Van "de klant eist
-de manager" tot structurele overlast en georganiseerde winkeldiefstal: de
-trainingen van Bureau Weerbaar en Veilig behandelen de escalatie, de nazorg en
-het beleid dat daarbij hoort.
+de manager" tot structurele overlast en georganiseerde winkeldiefstal: je
+oefent het ingrijpen zelf, de nazorg en opvang direct erna, en het beleid dat
+bepaalt wat je team de volgende keer doet.
 
 Een incident blijft bovendien zelden binnen de winkel. Omstanders filmen een
 escalatie bij de kassa en delen het fragment online. Een boze klant laat zijn

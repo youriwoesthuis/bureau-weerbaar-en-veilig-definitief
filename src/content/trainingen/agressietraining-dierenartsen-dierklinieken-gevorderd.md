@@ -53,9 +53,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Langdurige klantconflicten vragen andere vaardigheden dan een incident aan de balie. Maandenlang te maken hebben met agressieve of klagende eigenaren put uit: professioneel en persoonlijk.
+Een uitbarsting aan de balie is na een uur voorbij. Een eigenaar die maanden later nog belt, mailt en reviews plaatst, blijft in je hoofd zitten, ook als je thuis bent.
 
-Deze verdiepingstraining van Bureau Weerbaar en Veilig richt zich op die lange adem, inclusief de online kant van het conflict.
+Wie na een verlies blijft doorgaan, zoekt vaak erkenning. Wie nalatigheid of fraude claimt om geld terug te krijgen, zet druk in als middel: instrumentele agressie. Die twee vragen een andere reactie. Je oefent hoe je ze uit elkaar houdt over een langere periode, hoe je met je team één lijn vasthoudt, en hoe je online druk beantwoordt zonder je erin te laten trekken.
 
 ## Herkenbare praktijksituaties
 

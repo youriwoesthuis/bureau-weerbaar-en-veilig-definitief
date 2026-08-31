@@ -57,7 +57,7 @@ gerelateerd:
 
 Sommig grensoverschrijdend gedrag is niet impulsief. Een leerling die precies weet welke knoppen werken, of een groep die een leraar collectief uitdaagt, vraagt meer dan rustig blijven en duidelijk begrenzen.
 
-Deze verdiepingstraining van Bureau Weerbaar en Veilig richt zich op die patronen én op de teamconsistentie die uiteindelijk bepaalt of gedrag doorgaat of stopt.
+Je leert instrumenteel gedrag herkennen, gedrag dat aandacht oplevert of de les verstoort, en je onderscheidt het van een leerling die de situatie niet meer aankan. Daarna spreek je met je collega's af hoe jullie reageren, want een leerling die bij de een wel ruimte krijgt, blijft het bij de ander proberen.
 
 ## Herkenbare praktijksituaties
 

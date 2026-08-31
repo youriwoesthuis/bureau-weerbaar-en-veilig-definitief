@@ -53,9 +53,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Sommige agressie is niet impulsief en vraagt meer dan basisvaardigheden. Het gaat om patronen die structureel escaleren, op momenten dat de chauffeur er alleen voor staat.
+Sommige reizigers komen elke week terug en weten precies hoe ver ze kunnen gaan. Een groep die samen optrekt, of iemand die je bewust filmt, rekent op jouw reactie: instrumentele agressie, gedrag dat een doel dient.
 
-Deze verdiepingstraining van Bureau Weerbaar en Veilig richt zich op die situaties, met nadruk op besluitvorming: stoppen, melden of doorrijden.
+Ruimte geven werkt daar averechts, dat levert vooral publiek op. Je oefent het korte begrenzen op gedrag en vooral het besluit erachter: doorrijden, stoppen, de meldkamer erbij halen of de rit staken. Je neemt dat besluit in seconden, met reizigers achter je, en je legt achteraf vast wat er gebeurd is.
 
 ## Herkenbare praktijksituaties
 

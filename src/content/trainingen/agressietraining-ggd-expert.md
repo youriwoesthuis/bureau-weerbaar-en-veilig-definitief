@@ -55,9 +55,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Medewerkers in de publieke gezondheidszorg krijgen te maken met burgers die hun legitimiteit betwisten, met georganiseerde weerstand en in het uiterste geval met persoonlijke bedreigingen. Dat is een ander veiligheidslandschap dan tien jaar geleden.
+Burgers betwisten de legitimiteit van je medewerkers, weerstand raakt georganiseerd en in het uiterste geval krijgt iemand het persoonlijk aan de deur of online. Dat is een ander veiligheidslandschap dan tien jaar geleden.
 
-Deze experttraining van Bureau Weerbaar en Veilig bereidt leidinggevenden daarop voor: met protocollen voor solo-werk, beleid tegen online bedreiging en structurele nazorg voor hun mensen.
+Je legt vast wat er geldt bij solo-werk op een risicolocatie, wat de organisatie doet zodra een medewerker online wordt bedreigd, en hoe de opvang na een ernstig incident eruitziet. Daarmee stuur je meteen de meldingsbereidheid: mensen melden pas als ze zien dat er daarna iets gebeurt.
 
 ## Wat speelt er op dit niveau
 

@@ -56,9 +56,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Standaard basisvaardigheden volstaan niet bij agressie die doelgericht is. Een patiënt die precies weet hoe hij sneller vervoer afdwingt, of familie die dreigt met een advocaat, vraagt een andere reactie dan iemand die overstuur is.
+Een patiënt die precies weet hoe hij sneller vervoer afdwingt, of een familielid dat met een advocaat dreigt, is niet overstuur maar rekent. Dat heet instrumentele agressie: het gedrag is een middel om iets te krijgen. Ruimte geven, wat bij frustratie helpt, beloont het hier juist.
 
-Deze verdiepingstraining van Bureau Weerbaar en Veilig sluit aan op de specifieke omstandigheden van de pre-hospitale hulpverlening en versterkt de afspraken binnen het duo.
+Je oefent hoe je die twee uit elkaar houdt terwijl je aan het werk bent, en hoe je begrenst op het gedrag zonder de zorg te staken. Daarnaast leg je vast wat jullie als duo afspreken: wie praat, wie behandelt, wanneer je stopt. Verschil tussen jullie tweeën is precies wat iemand die druk zet, zoekt.
 
 ## Herkenbare praktijksituaties
 

@@ -54,9 +54,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Zonder concrete training weten leraren niet altijd hoe zij grensoverschrijdend gedrag effectief begrenzen. Het gevolg is vaak gezagsverlies en een klas die structureel moeilijker te sturen is.
+Een leerling die je voor de klas uitdaagt, vraagt om een reactie waar de hele groep naar kijkt. Reageer je te laat of te fel, dan verlies je gezag en stuur je die klas de rest van het jaar moeilijker.
 
-De basistraining van Bureau Weerbaar en Veilig geeft leraren praktische handvatten: rustig blijven, duidelijk begrenzen en de-escaleren voordat het fysiek wordt, ook als de hele klas meekijkt.
+Je oefent daarom kort en rustig begrenzen op het gedrag, met de groep als publiek erbij. Je leert je eigen spanning zakken voordat je iets zegt, en je leert de-escaleren, zodat de spanning terugloopt voordat een situatie fysiek wordt. Ook oefen je het gesprek met een boze ouder.
 
 ## Herkenbare praktijksituaties
 

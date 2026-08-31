@@ -24,6 +24,6 @@ veelgestelde_vragen:
 
 Wie schulden invordert, komt binnen op het slechtste moment van iemands jaar. Debiteuren reageren op een aanmaning met woede of wanhoop, en soms met beide tegelijk. Toch moet de behandelaar tot een regeling komen.
 
-Voor deze beroepsgroep speelt daarnaast een morele vraag: hoe stel je grenzen aan iemand die het echt niet meer weet? Bureau Weerbaar en Veilig maakt die spanning in de training expliciet.
+Voor deze beroepsgroep speelt daarnaast een morele vraag: hoe stel je grenzen aan iemand die het echt niet meer weet? Die vraag ligt in de training op tafel, want wie hem voor zich houdt, laat de grens elk gesprek een stukje verder opschuiven.
 
 Het meeste contact verloopt bovendien telefonisch of per e-mail. Schelden en dreigen door de hoorn horen bij de zwaardere aanmaningsgesprekken, en na een afgewezen regeling volgen soms dagenlang dreigende mails of berichten. Ook op die kanalen moet een behandelaar het gesprek kunnen sturen en een grens kunnen trekken.

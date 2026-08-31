@@ -56,7 +56,7 @@ gerelateerd:
 
 Gedragsdeskundigen krijgen van meerdere kanten reacties op beleid waarover zij geen directe zeggenschap hebben: familie vindt het advies te streng, begeleiders vinden het onuitvoerbaar, en de cliënt merkt vooral dat er iets verandert.
 
-Die meervoudige druk veroorzaakt vaak handelingsverlegenheid. De basistraining van Bureau Weerbaar en Veilig biedt concrete kennis en vaardigheden om situaties beheersbaar te houden en professioneel te blijven werken.
+Onder die druk twijfel je op het moment zelf: doorpakken of laten gaan, uitleggen of het gesprek afbreken. Je oefent hoe je op de inhoud blijft staan terwijl je de emotie ruimte geeft, hoe je een gesprek begrenst zonder de samenwerking op te blazen, en wat je doet wanneer een familielid je buiten werktijd opzoekt.
 
 ## Herkenbare praktijksituaties
 

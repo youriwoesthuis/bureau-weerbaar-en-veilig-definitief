@@ -52,9 +52,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Medewerkers in het rail- en stadsvervoer werken in rijdende voertuigen met beperkte vluchtmogelijkheden en een hoge passagiersdichtheid. Weglopen kan er meestal niet. Een conflict is direct zichtbaar voor iedereen.
+Je werkt in een rijdend voertuig: weglopen kan niet, de deuren gaan pas open bij het volgende station en elk conflict speelt zich af voor een volle coupé. Wie tegen je uitvalt omdat hij zijn kaartje kwijt is, is boos over iets wat hij niet meer kan veranderen. Dat is frustratieagressie, en daar werkt ruimte geven en erkennen wat er misging. Wie je onder druk zet om een boete te ontlopen, rekent op jouw aarzeling. Dat heet instrumentele agressie, en daar werkt juist een korte, harde grens op het gedrag.
 
-Zonder training leidt dat vaak tot stress en handelingsverlegenheid bij grensoverschrijdend gedrag. De basistraining van Bureau Weerbaar en Veilig geeft vaardigheden voor precies die omstandigheden: signalen vroeg zien, verbaal begrenzen, en melden wat er is gebeurd.
+Ken je dat verschil niet, dan kies je onder tijdsdruk vaak de reactie die het erger maakt. Je oefent daarom beide routes: signalen vroeg lezen, verbaal begrenzen zonder het conflict groter te maken, en achteraf melden wat er gebeurde. Melden houdt zichtbaar op welke lijnen en welke tijdstippen het misgaat, en dat is wat je werkgever nodig heeft om er iets aan te doen.
 
 ## Herkenbare praktijksituaties
 

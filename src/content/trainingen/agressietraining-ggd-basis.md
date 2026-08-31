@@ -55,9 +55,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-GGD-medewerkers werken in een spanningsveld: zij hebben overheidsbevoegdheden én de medewerking van burgers nodig. Structureel wantrouwen en polarisatie leiden daar geregeld tot agressie-incidenten en verzuim.
+Je werkt met bevoegdheden van de overheid en hebt tegelijk de medewerking van de burger nodig. Waar het wantrouwen groot is, komt de boosheid over die overheid via jou binnen: bij een oproep, een inspectie of aan de deur.
 
-De basistraining van Bureau Weerbaar en Veilig geeft medewerkers concrete vaardigheden om die situaties te hanteren, ook wanneer de agressie niet over hén gaat, maar over de overheid die zij vertegenwoordigen.
+Je leert die twee uit elkaar houden. Wie tekeergaat over een maatregel, frustratieagressie, heeft eerst erkenning nodig voordat je opnieuw uitlegt wat er moet gebeuren. Wie je bewust klemzet om onder een verplichting uit te komen, instrumentele agressie, krijgt een grens op het gedrag. Je oefent ook wat je doet als je alleen op een locatie staat en het gesprek de verkeerde kant op gaat.
 
 ## Herkenbare praktijksituaties
 

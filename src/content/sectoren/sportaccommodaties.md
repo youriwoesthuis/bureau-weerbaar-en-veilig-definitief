@@ -16,4 +16,4 @@ veelgestelde_vragen:
 
 In een zwembad of sporthal komen mensen om te ontspannen. Precies daarom accepteren zij regels minder makkelijk: een aanwijzing over veiligheid voelt als een spelbreker, en de medewerker die hem geeft krijgt de reactie.
 
-Daarbij komen groepen jongeren die de ruimte claimen, ouders die zich met de scheidsrechter of het toezicht bemoeien en supporters na een verloren wedstrijd. Bezoekers testen doorgaans waar de lijn het zwakst is. Bureau Weerbaar en Veilig traint medewerkers daarom om regels gezaghebbend te communiceren: niet verontschuldigend, niet streng, en zonder de gastvrije uitstraling van de accommodatie te verliezen.
+Daarbij komen groepen jongeren die de ruimte claimen, ouders die zich met de scheidsrechter of het toezicht bemoeien en supporters na een verloren wedstrijd. Bezoekers testen doorgaans waar de lijn het zwakst is. Je oefent daarom het uitspreken van een regel op een manier die staat: kort, concreet, op het gedrag en bij elke collega hetzelfde. Die eenduidigheid haalt de discussie eruit en houdt de sfeer in de accommodatie gastvrij.

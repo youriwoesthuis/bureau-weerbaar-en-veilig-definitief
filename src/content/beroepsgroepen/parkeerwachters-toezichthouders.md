@@ -25,4 +25,4 @@ Een parkeerwachter werkt in het volle zicht: in uniform, alleen, op straat, met 
 
 Die zichtbaarheid houdt niet op bij de stoeprand. Wie een bon schrijft, heeft geregeld een smartphone op zich gericht. Zo'n filmpje staat dezelfde dag online, meestal geknipt tot alleen de reactie van de handhaver.
 
-Daarbij zijn er wijken waar de vijandigheid structureel is en waar hetzelfde gezicht elke week terugkomt. Bureau Weerbaar en Veilig richt deze trainingen daarom sterk op het inschatten van gebieden en op het besluit om een situatie af te breken.
+Daarbij zijn er wijken waar de vijandigheid structureel is en waar hetzelfde gezicht elke week terugkomt. Je oefent daarom het inschatten van een gebied voordat je uitstapt, en het besluit om een situatie af te breken. Weglopen zonder bon is soms de professionele keuze, en die keuze oefen je net zo hard als het gesprek.

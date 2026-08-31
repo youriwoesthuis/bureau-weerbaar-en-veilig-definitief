@@ -52,9 +52,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-In de handhaving hangt veiligheid vaak af van wat er vóór en na het incident gebeurt: de briefing, de risicoanalyse van het werkgebied en de debriefing achteraf.
+In de handhaving beslis je veel al vóór het incident: in de briefing, in wat jullie weten over het werkgebied en in de vraag of iemand achteraf nog vertelt wat er precies gebeurde.
 
-Deze experttraining van Bureau Weerbaar en Veilig leert leidinggevenden niet alleen wat goed agressiebeleid is, maar hoe zij het direct in hun eigen team en werkgebied implementeren.
+Je werkt aan die randen van het optreden. Je richt de nabespreking in, je maakt de teamnorm zichtbaar zodat twee koppels bij dezelfde overtreding hetzelfde doen, en je regelt de opvang na een ernstig incident. Wat je bedenkt, pas je meteen toe op je eigen team en werkgebied.
 
 ## Wat speelt er op dit niveau
 

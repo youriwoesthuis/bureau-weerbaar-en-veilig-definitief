@@ -51,9 +51,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Reclasseringsmedewerkers vervullen een dubbelrol: toezichthouder én begeleider. Dat schept spanning: dezelfde professional die helpt, kan ook de vrijheid van de cliënt beperken.
+Je begeleidt iemand en houdt tegelijk toezicht op hem. Dezelfde professional die meedenkt over werk en wonen, kan een terugmelding doen die vrijheid kost. Die machtsongelijkheid zit in elk gesprek, en wie boos wordt over een voorwaarde, reageert vaak op die afhankelijkheid en niet op jou.
 
-De basistraining van Bureau Weerbaar en Veilig geeft medewerkers de vaardigheden om die situaties veilig beheersbaar te houden, met de machtsdynamiek expliciet op tafel.
+Je oefent hoe je die dynamiek benoemt in plaats van hem te omzeilen, en hoe je de-escaleert bij frustratie over een besluit. Dreigt iemand om een terugmelding af te wenden, dan begrens je het gedrag en houd je het besluit staan. Ook huisbezoeken komen aan bod: wat je vooraf nagaat, waar je gaat zitten en op welk moment je vertrekt.
 
 ## Herkenbare praktijksituaties
 

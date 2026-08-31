@@ -24,4 +24,4 @@ veelgestelde_vragen:
 
 Een buurtbeheerder werkt zonder balie, zonder kantoor en zonder beveiliging: gewoon in de straat, tussen de mensen over wie hij ook rapporteert. Wie een huurder aanspreekt op overlast, komt die persoon daarna nog tientallen keren tegen.
 
-Die herkenbaarheid is precies het risico. Intimidatie kan doorgaan buiten werktijd en op de plek waar je zelf ook rondloopt. Dat loopt steeds vaker via de telefoon: berichten in de buurtapp, een bedreiging via sociale media, of een huurder die je filmt terwijl je hem aanspreekt. Bureau Weerbaar en Veilig richt de trainingen daarom op wijkdynamiek en werken in de openbare ruimte.
+Die herkenbaarheid is precies het risico. Intimidatie kan doorgaan buiten werktijd en op de plek waar je zelf ook rondloopt. Dat loopt steeds vaker via de telefoon: berichten in de buurtapp, een bedreiging via sociale media, of een huurder die je filmt terwijl je hem aanspreekt. Je oefent daarom met situaties uit de straat zelf: hoe je iemand aanspreekt op gedrag zonder dat het een persoonlijke rekening wordt, en waar voor jou de grens ligt tussen een vervelend bericht en een bedreiging die je meldt.

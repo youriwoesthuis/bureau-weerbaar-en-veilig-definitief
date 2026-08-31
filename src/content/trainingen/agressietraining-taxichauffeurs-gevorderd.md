@@ -53,9 +53,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Taxichauffeurs die ’s nachts in uitgaansgebieden werken, komen soms in situaties die de basisvaardigheden overstijgen: fysieke dreiging, zware intoxicatie en groepsdruk. En dat terwijl je rijdt.
+In uitgaansgebieden stapt ’s nachts een groep in die zwaar heeft gedronken, en gaat het gesprek over een rit die niemand wil betalen. Zwaar geïntoxiceerde passagiers reageren nauwelijks op uitleg, en in een groep versterkt gedrag zichzelf. Dat vraagt iets anders dan een gesprek met één passagier.
 
-Deze verdiepingstraining van Bureau Weerbaar en Veilig bereidt chauffeurs daarop voor, met de nadruk op besluitvorming onder druk.
+Je oefent beslissen onder druk: wanneer je een rit weigert, waar je stopt zodat je zelf weg kunt, hoe je begrenst zonder publiek gelijk te halen, en wat je doet bij fysieke dreiging terwijl je rijdt. Ook opnames die achteraf online opduiken en achtervolging na een rit komen aan bod.
 
 ## Herkenbare praktijksituaties
 

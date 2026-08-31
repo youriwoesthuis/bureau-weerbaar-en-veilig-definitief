@@ -23,4 +23,4 @@ veelgestelde_vragen:
 
 Bij evenementen komt alles samen wat agressie voedt: grote aantallen mensen, wisselende locaties, beperkt zicht en bezoekers onder invloed. Een conflict tussen twee personen kan binnen een minuut een groep meenemen. En elk ingrijpen gebeurt tussen de smartphones: bezoekers filmen van dichtbij mee, en een fragment van een paar seconden staat dezelfde avond online, zonder de aanloop die eraan voorafging.
 
-Beveiligers moeten daar niet alleen individueel handelen maar vooral als team: gecoördineerd, proportioneel en met een duidelijk moment om op te schalen. Bureau Weerbaar en Veilig traint precies dat.
+Beveiligers handelen daar niet alleen individueel maar vooral als team: gecoördineerd, proportioneel en met een duidelijk moment om op te schalen. Je oefent daarom de teamnorm: wie het woord voert, wie meekijkt en wanneer een collega overneemt. Zonder die afspraak staan er drie beveiligers tegelijk tegen dezelfde bezoeker te praten.

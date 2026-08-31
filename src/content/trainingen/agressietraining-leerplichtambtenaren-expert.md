@@ -55,7 +55,7 @@ gerelateerd:
 
 Leerplichtambtenaren werken solo in complexe gezinssituaties, met juridische bevoegdheden die weerstand oproepen. Dat maakt hen kwetsbaar op momenten dat niemand meekijkt.
 
-Leidinggevenden zijn daarom bepalend: zij stellen het veiligheidsbeleid op en bouwen de cultuur waarin het team agressie serieus neemt. Deze experttraining van Bureau Weerbaar en Veilig richt zich op precies die taak.
+Als leidinggevende bepaal je wat daarna gebeurt. Je werkt aan meldingsbereidheid, de drempel om een dreigement door te geven, en je legt vast wanneer een huisbezoek met twee mensen gaat. Ook regel je een vaste debriefing na incidenten en maak je afspraken met ketenpartners over gezinnen waar het telkens misgaat.
 
 ## Wat speelt er op dit niveau
 

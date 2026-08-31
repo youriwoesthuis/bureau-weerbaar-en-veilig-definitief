@@ -52,9 +52,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Een leidinggevende ziet meestal niet wat er in de wijk gebeurt. Wat wél te regelen is: het protocol voor solo-werk, het overzicht van risicolocaties, de debriefing en de samenwerking met politie en wijkteams.
+Als leidinggevende sta je er zelf niet bij. Wat je wel regelt: het protocol voor solo-werk, welke adressen bekendstaan, wat er na een incident gebeurt en hoe de lijn met politie en wijkteam loopt.
 
-Deze experttraining van Bureau Weerbaar en Veilig richt zich op die organisatorische randvoorwaarden, met een intakegesprek als startpunt.
+Buurtbeheerders melden vaak pas als het echt misgaat, want een scheldpartij hoort er in hun beleving bij. Die meldingsbereidheid bepaalt of je risicolocaties op tijd in beeld krijgt. Je werkt daaraan, aan een teamnorm zodat collega's in dezelfde wijk dezelfde grens trekken, en aan de opvang en nazorg vlak na een incident. Het intakegesprek is daarbij het startpunt.
 
 ## Wat speelt er op dit niveau
 

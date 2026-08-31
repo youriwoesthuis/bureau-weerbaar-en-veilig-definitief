@@ -52,9 +52,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-In vrijwel elke apotheek zijn er patiënten bij wie een standaardaanpak niet werkt: bekende gezichten met complexe problematiek, bij wie elk contact spanning oproept.
+In vrijwel elke apotheek zijn er patiënten bij wie de standaardaanpak vastloopt: bekende gezichten met complexe problematiek, bij wie de spanning al in de lucht hangt voordat er iets gezegd is.
 
-Deze verdiepingstraining van Bureau Weerbaar en Veilig helpt medewerkers de balans tussen zorg verlenen en grenzen stellen bewust en professioneel te houden.
+Bij herhaald contact schuift de grens ongemerkt op. Je geeft elke keer een beetje mee om het gesprek kort te houden, en maanden later is dat de nieuwe normaal. Je oefent hoe je begrenst op het gedrag zonder de zorg op te zeggen, hoe je zorgt dat collega's dezelfde lijn houden bij dezelfde patiënt, en hoe je zelf op de been blijft bij mensen die je elke week terugziet.
 
 ## Herkenbare praktijksituaties
 

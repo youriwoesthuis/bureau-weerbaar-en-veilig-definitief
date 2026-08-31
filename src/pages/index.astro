@@ -57,16 +57,16 @@ const verschillen = [
   {
     icoon: 'signaleren' as const,
     niveau: 'basis',
-    kop: 'Eén onderwerp, geen bijvak',
+    kop: 'Twee soorten agressie, twee reacties',
     tekst:
-      'Bureau Weerbaar en Veilig doet agressietraining en verder niets. Geen brede communicatietraining waar agressie een module in is.',
+      'Wie schreeuwt uit boosheid over een besluit vraagt iets anders dan wie dreigt om een uitzondering af te dwingen. Bij frustratie werkt ruimte geven, bij druk zetten werkt een grens. De verkeerde keuze maakt het erger.',
   },
   {
     icoon: 'team' as const,
     niveau: 'gevorderd',
     kop: 'Geschreven voor jouw beroep',
     tekst:
-      'Een wijkverpleegkundige alleen in een woonkamer heeft een ander probleem dan een conducteur op een perron. Daarom één training per beroepsgroep.',
+      'Een wijkverpleegkundige alleen in een woonkamer heeft een ander probleem dan een conducteur op een perron: de een kan niemand roepen, de ander kan niet weg. Je oefent met de situaties van je eigen beroep.',
   },
   {
     icoon: 'oefenen' as const,
@@ -163,9 +163,10 @@ const praktisch = [
           <span class="verloopwoord">Ermee omgaan wel.</span>
         </h1>
         <p class="inleiding hero-inleiding">
-          Agressietraining per beroepsgroep, in drie niveaus, altijd bij jullie
-          op locatie. Geen algemene weerbaarheidscursus en geen e-learning, maar
-          de situaties die in jouw werk daadwerkelijk voorkomen.
+          Hoeveel ruimte je hebt als het misgaat, hangt af van waar je staat.
+          Achter een balie kun je niet weg. In de woonkamer van een ander is er
+          geen collega om de hoek. Daarom traint elk beroep hier met zijn eigen
+          situaties, in drie niveaus, bij jullie op locatie.
         </p>
         <div class="hero-knoppen">
           <a href={pad('/sectoren/')} class="knop">
@@ -196,12 +197,14 @@ const praktisch = [
   <section class="sectie op-wit">
     <div class="omhulsel">
       <div class="kop-blok">
-        <p class="bovenkop">Waarom per beroepsgroep</p>
+        <p class="bovenkop">Waar je staat bepaalt wat werkt</p>
         <h2>Dezelfde vaardigheid, vier keer iets anders</h2>
         <p class="inleiding">
-          Wie kan weglopen heeft andere mogelijkheden dan wie vastzit aan een
-          kassa. Wie de ander volgende week terugziet, begrenst anders dan wie
-          hem nooit meer ziet. Vandaar geen algemene cursus.
+          Drie dingen bepalen wat je kunt doen: of je weg kunt, of er iemand in
+          de buurt is, en of je die ander volgende week weer ziet. Wie een
+          cliënt maanden begeleidt, begrenst voorzichtiger dan wie een passant
+          eenmalig spreekt, want de relatie moet erna nog werken. Vergelijk vier
+          beroepen op die drie punten.
         </p>
       </div>
       <Vergelijker />
@@ -211,8 +214,8 @@ const praktisch = [
   <section class="sectie op-licht">
     <div class="omhulsel">
       <div class="kop-blok">
-        <p class="bovenkop">Waarom Bureau Weerbaar en Veilig</p>
-        <h2>Specialist, geen generalist</h2>
+        <p class="bovenkop">Hoe deze trainingen in elkaar zitten</p>
+        <h2>Waarom de ene reactie werkt en de andere niet</h2>
       </div>
       <div class="rooster rooster-4">
         {verschillen.map((v) => (

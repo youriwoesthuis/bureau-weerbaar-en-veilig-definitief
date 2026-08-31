@@ -16,4 +16,4 @@ veelgestelde_vragen:
 
 Uitvaartmedewerkers begeleiden mensen op de zwaarste dagen van hun leven. Rouw, schuldgevoel en machteloosheid zoeken in die dagen een uitweg, en soms richt die zich op de dichtstbijzijnde professional: de uitvaartverzorger.
 
-De branche onderschat deze agressie structureel: het past niet bij het beeld van het vak. Bureau Weerbaar en Veilig benoemt het wél. De trainingen gaan voor medewerkers en ondernemers over begrenzen met behoud van de zorgrelatie, van het eerste gesprek tot de nasleep op sociale media. Hoeveel ruimte daarvoor is, verschilt per familie.
+De branche onderschat deze agressie structureel: het past niet bij het beeld van het vak, en daardoor meldt bijna niemand het. Medewerkers en ondernemers oefenen daarom het begrenzen terwijl de relatie met de familie in stand blijft, van het eerste gesprek tot de nasleep op sociale media. Hoeveel ruimte daarvoor is, verschilt per familie.

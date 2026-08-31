@@ -52,9 +52,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-In de reclassering staan twee missies naast elkaar: de zorg voor de cliënt en de veiligheid van de medewerker. Ontbreekt beleid, dan komt die spanning stilzwijgend bij de individuele medewerker te liggen.
+Zorg voor de cliënt en veiligheid van de medewerker botsen regelmatig in dezelfde casus. Regel je daar niets over, dan schuift die afweging stilzwijgend door naar de medewerker die aan de deur staat. Die kiest dan zelf, zonder rugdekking, en houdt het incident daarna vaak binnen.
 
-Deze experttraining van Bureau Weerbaar en Veilig richt zich op de vraag hoe je beide borgt, zonder medewerkers op te offeren voor de relatie met de cliënt.
+Je maakt de afweging expliciet: welk risicoprofiel leidt tot welke afspraak, wie beslist over extra maatregelen bij een cliënt met hoog risico, wat gebeurt er na een terugmeldbeslissing. Omdat een risicoprofiel alleen klopt als dreiging ook gemeld wordt, werk je aan meldingsbereidheid, aan vaste debriefing en aan nazorg en opvang. Intimidatiepatronen over langere tijd komen pas boven als losse meldingen bij elkaar komen.
 
 ## Wat speelt er op dit niveau
 

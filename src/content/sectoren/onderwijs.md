@@ -17,4 +17,4 @@ veelgestelde_vragen:
 
 Grensoverschrijdend gedrag in het onderwijs heeft één kenmerk dat het anders maakt dan agressie in andere sectoren: er kijkt altijd een groep mee. Daagt één leerling de leraar uit, dan reageert die voor de ogen van dertig anderen. Die reactie bepaalt vaak het gezag voor de rest van het schooljaar.
 
-Bureau Weerbaar en Veilig traint daarom niet alleen op het individuele gesprek maar ook op groepsdynamiek, en op de vraag hoe een team eenduidig reageert op dezelfde leerling. Daarnaast is er een aparte lijn voor leerplichtambtenaren, die het gezin thuis opzoeken met een handhavende bevoegdheid.
+Je oefent daarom het gesprek met één leerling én wat de groep ondertussen doet, en je legt met je team één norm vast voor dezelfde leerling. Reageert de ene docent anders dan de andere, dan zoekt de klas dat verschil op. Daarnaast is er een aparte lijn voor leerplichtambtenaren, die het gezin thuis opzoeken met een handhavende bevoegdheid.

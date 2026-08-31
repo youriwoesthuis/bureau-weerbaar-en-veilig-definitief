@@ -56,16 +56,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Op veel winkelvloeren blijven meldingen en nabesprekingen uit, past het team het
-agressieprotocol niet consistent toe en ontbreekt structurele nazorg na ernstige
-incidenten. Inconsistente teamreacties versterken ongewenst
-gedrag, escalatiebeleid is onduidelijk en de juridische verantwoordelijkheid
-rondom agressie blijft vaag.
+Op veel winkelvloeren wordt een incident wel besproken bij de koffie en nergens vastgelegd. Het protocol ligt er, maar de ene leidinggevende grijpt in en de andere kijkt weg, en na een ernstig voorval loopt iedereen de volgende dag weer gewoon rond. Zo blijft onzichtbaar waar het misgaat, en leren klanten dat de reactie afhangt van wie er staat.
 
-Deze experttraining van Bureau Weerbaar en Veilig pakt dat op organisatieniveau
-aan. Niet het losse incident staat centraal, maar de structuur eromheen:
-beleid, meldingsdata en cultuur worden geanalyseerd en vertaald naar concrete
-verbetering.
+Je pakt dat op organisatieniveau aan. Je onderzoekt wat de meldingsbereidheid remt en wat die verhoogt, je scherpt de teamnorm aan zodat vergelijkbare situaties dezelfde reactie krijgen, en je legt nazorg en opvang vast in plaats van per geval te improviseren. De meldingen die jullie al hebben, vormen daarbij het uitgangspunt: daar staat in welke vestiging, welk moment op de dag en welk type situatie de meeste aandacht vraagt.
 
 ## Wat speelt er op dit niveau
 

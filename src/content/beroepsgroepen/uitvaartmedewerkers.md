@@ -24,4 +24,4 @@ Uitvaartmedewerkers werken met mensen op de zwaarste dagen van hun leven. Rouw, 
 
 Familieconflicten spelen daarbij een eigen rol: oude spanningen komen bij een overlijden aan de oppervlakte, en de medewerker wordt tussen de partijen in getrokken. Niet gekozen worden is dan een vaardigheid.
 
-Gaat het om verdriet dat zich richt op de eerste de beste, dan helpt begrip. Wil een familie je laten kiezen, dan helpt een grens. Bureau Weerbaar en Veilig traint deze beroepsgroep op begrenzen zonder de zorgrelatie met de nabestaanden te beschadigen.
+Gaat het om verdriet dat zich richt op de eerste de beste, dan helpt begrip. Wil een familie je laten kiezen, dan helpt een grens. Je oefent allebei, want de verkeerde reactie kost je de relatie met een familie die je de rest van de week nog moet begeleiden.

@@ -8,7 +8,7 @@ samenvatting: >-
   niveaus. Van grensoverschrijdend gedrag begrenzen in een open ruimte
   (basis) tot terugkerende probleembezoekers en psychiatrische ontregeling
   (gevorderd) en beleid voor een veilige openbare ruimte (expert).
-kern: "Een open huis waar iedereen binnen mag, en toch grenzen stellen"
+kern: "Een huis waar iedereen zonder reden binnen mag, en toch iemand moeten begrenzen"
 veelgestelde_vragen:
   - vraag: "Wij willen een open huis blijven. Kan dat samen met grenzen stellen?"
     antwoord: "Ja. Dat is precies de vraag waar de trainingen op gericht zijn. Openheid is de kracht van de instelling; grenzen stellen hoeft die openheid niet ongedaan te maken, maar vraagt wel dat iedereen dezelfde lijn hanteert."
@@ -22,4 +22,4 @@ veelgestelde_vragen:
 
 De bibliotheek is bewust een open huis: iedereen mag binnen, zonder kaartje, zonder reden. Dat is de kracht van de instelling en tegelijk de bron van het probleem. Medewerkers krijgen te maken met bezoekers die de ruimte als dagverblijf gebruiken, met jongeren die de vloer claimen en met mensen in psychische nood.
 
-Voor bibliotheekmedewerkers is dat vaak niet waar zij voor kozen. Bureau Weerbaar en Veilig richt de trainingen daarom op de vraag hoe je openheid behoudt en toch grenzen stelt.
+Voor bibliotheekmedewerkers is dat vaak niet waar zij voor kozen. Je oefent daarom het begrenzen: een korte aanwijzing op het gedrag en niet op de persoon, zodat de bezoeker kan blijven en het gedrag stopt. En je legt met je collega’s één teamnorm vast, want wie bij de ene medewerker meer ruimte krijgt dan bij de andere, zoekt die ruimte de volgende dag opnieuw op.

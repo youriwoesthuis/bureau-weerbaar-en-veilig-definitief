@@ -27,4 +27,4 @@ Bij de sociale dienst gaat het gesprek over geld dat mensen nodig hebben om te l
 
 Lang niet al dat contact verloopt in de spreekkamer. De eerste reactie op een beschikking komt vaak telefonisch of per e-mail binnen, geregeld nog op dezelfde dag, en op afstand is de toon harder. In de spreekkamer zelf legt een cliënt soms een telefoon op tafel om het gesprek als bewijs vast te leggen.
 
-Medewerkers voelen daarbij een morele spanning: zij moeten grenzen stellen aan mensen die het al moeilijk hebben. Bureau Weerbaar en Veilig traint deze groep op het escalatievrij brengen van slecht nieuws en maakt die spanning expliciet bespreekbaar.
+Medewerkers voelen daarbij een morele spanning: zij moeten grenzen stellen aan mensen die het al moeilijk hebben. Je oefent het slechtnieuwsgesprek: het besluit vooraan, dan de reactie opvangen, en pas daarna kijken wat er nog wel kan. Die morele spanning ligt daarbij op tafel, want wie hem wegdrukt, gaat schipperen met de grens.

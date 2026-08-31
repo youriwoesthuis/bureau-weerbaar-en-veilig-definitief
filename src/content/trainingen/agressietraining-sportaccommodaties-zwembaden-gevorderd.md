@@ -53,9 +53,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Op drukke en risicovolle momenten verandert de dynamiek in een accommodatie: het gaat niet meer om één bezoeker maar om groepen, supporters en terugkerende overlastplegers. Wat bij één bezoeker werkt, werkt daar meestal niet.
+Op drukke en risicovolle momenten heb je niet meer met één bezoeker te maken maar met een groep. Wie in een groep publiekelijk gelijk krijgt, wint status, dus wat bij één bezoeker werkt, werkt daar vaak averechts. Supporters, vaste overlastplegers en ouders bij jeugdevenementen brengen elk hun eigen dynamiek mee.
 
-Deze verdiepingstraining van Bureau Weerbaar en Veilig richt zich op die situaties, met de eigen locatie en bezoekerspopulatie als uitgangspunt.
+Je oefent hoe je één aanspreekpunt kiest, het gedrag begrenst zonder de groep een podium te geven, en opschaalt voordat het fysiek wordt. Je werkt met de eigen locatie en bezoekerspopulatie als uitgangspunt, inclusief toegangsweigering en wat je doet als iemand terugkomt met meer mensen.
 
 ## Herkenbare praktijksituaties
 

@@ -55,9 +55,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Agressie in de ouderenzorg is complex: het gedrag is vaak ziektegebonden, de emotionele belasting voor medewerkers is groot en incidenten raken genormaliseerd. "Het hoort bij dementie" wordt een reden om niet meer te melden.
+Op een afdeling waar het gedrag bij de ziekte hoort, verdwijnt het incident makkelijk uit beeld. "Het hoort bij dementie" is precies het zinnetje waarna niemand nog meldt. Daarmee zakt de meldingsbereidheid, en verdwijnt tegelijk wat je nodig hebt om extra handen of een aangepast gedragsplan onderbouwd te vragen.
 
-Deze experttraining van Bureau Weerbaar en Veilig helpt leidinggevenden het veiligheidsbeleid te verankeren en de teamcultuur structureel te verbeteren. De zorgkwaliteit voor de bewoner blijft daarbij in beeld.
+Je werkt aan de teamnorm: welk gedrag begrenzen jullie, welk gedrag vangen jullie op in de benadering, en reageren twee collega's op dinsdagochtend hetzelfde. Je richt nazorg en opvang in na een klap of een bedreiging, en je maakt beleid voor familieleden die over de grens gaan. De zorg voor de bewoner blijft daarbij overeind: begrenzen en goede zorg gaan samen.
 
 ## Wat speelt er op dit niveau
 

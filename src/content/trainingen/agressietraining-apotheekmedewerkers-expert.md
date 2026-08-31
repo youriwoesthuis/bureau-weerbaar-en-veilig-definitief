@@ -51,9 +51,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Weinig zorgverleners zijn zo toegankelijk als de apotheek. Juist die toegankelijkheid vraagt duidelijke grenzen, zonder de bereikbaarheid op te geven.
+De apotheek is laagdrempelig, en dat is precies de bedoeling. Diezelfde open deur betekent ook dat iemand die druk zet morgen gewoon weer voor je staat.
 
-Deze experttraining van Bureau Weerbaar en Veilig helpt apothekers dat beleid te formuleren en te verankeren in het team.
+Zonder afspraken bepaalt elke medewerker zelf waar de grens ligt, en dan schuift die grens mee met wie er die dag achter de balie staat. Je legt daarom een teamnorm vast: waar jullie samen de grens leggen, wie ingrijpt en wat er gebeurt bij een patiënt met een bekend patroon. Daar hoort nazorg bij: hoe je een incident nabespreekt, zodat medewerkers het niet in hun eentje wegslikken.
 
 ## Wat speelt er op dit niveau
 

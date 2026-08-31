@@ -54,9 +54,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Veiligheid voor bezorgers begint bij goede voorbereiding, heldere protocollen en een organisatiecultuur die incidenten serieus neemt.
+Een bezorger die een levering afbreekt of een incident meldt, kan daar in het beoordelingssysteem iets voor terugkrijgen: een lagere score, minder ritten. Zolang dat zo staat, is zwijgen voor hem de goedkoopste keuze en blijft de meldingsbereidheid laag. Je stuurt dan op cijfers die het echte risico missen.
 
-Deze experttraining van Bureau Weerbaar en Veilig legt daarom de vinger op het mechanisme dat veiligheid ondermijnt: een beoordelingssysteem waarin melden of afbreken de bezorger geld kan kosten.
+Je werkt aan de knoppen die je als leidinggevende wel hebt: een meldweg die de bezorger niets kost, een afspraak over wanneer hij een levering afbreekt, nazorg en opvang na een ernstig incident, en zicht op de adressen en tijdstippen waar het misgaat. Ook de psychosociale arbeidsbelasting van je bezorgers, de druk die agressie en intimidatie op hen legt, komt aan bod, net als hun juridische positie.
 
 ## Wat speelt er op dit niveau
 

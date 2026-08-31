@@ -55,9 +55,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Persoonlijk begeleiders werken in intensieve relaties, en dat is tegelijk hun kracht en hun risico. De cliënt kent hen goed, inclusief wat werkt om iets af te dwingen.
+Je kent je cliënt goed, en je cliënt kent jou. Dat is de kracht van de begeleidingsrelatie en tegelijk het risico: iemand weet precies waar jij toegeeft. Boosheid over een afspraak die je nakomt, is frustratieagressie en zakt als je die ruimte geeft. Gedrag dat wordt ingezet om jou iets te laten toestaan, is instrumenteel en vraagt een grens.
 
-Zonder concrete training weten persoonlijk begeleiders niet altijd hoe ze agressief gedrag kunnen begrenzen zonder de relatie te beschadigen. De basistraining van Bureau Weerbaar en Veilig geeft hun daarvoor de handvatten: onderscheid maken, grenzen stellen en veilig alleen op pad gaan.
+Je oefent dat onderscheid en het begrenzen zelf, zo dat de relatie heel blijft: je benoemt het gedrag en niet de persoon, en je houdt de afspraak overeind. Daarnaast werk je aan veilig alleen op pad gaan bij activiteiten buitenshuis, aan contact dat buiten werktijd via sociale media binnenkomt, en aan agressie van familieleden.
 
 ## Herkenbare praktijksituaties
 

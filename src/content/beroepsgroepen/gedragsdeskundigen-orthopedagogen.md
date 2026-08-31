@@ -22,4 +22,4 @@ veelgestelde_vragen:
 
 Gedragsdeskundigen en orthopedagogen zitten in een bijzondere positie: zij adviseren over gedrag, maar voeren de zorg niet zelf uit. Als een gedragsplan ingrijpt in het leven van een cliënt, krijgen zij de reactie van familie, van begeleiders en van de cliënt zelf. Directe zeggenschap over de uitvoering hebben ze niet.
 
-De druk komt daarbij van meerdere kanten tegelijk, en steeds vaker via advocaten, media en sociale kanalen. Bureau Weerbaar en Veilig richt deze trainingen daarom op standhouden bij een professioneel advies, ook wanneer dat advies onder druk staat.
+De druk komt daarbij van meerdere kanten tegelijk, en steeds vaker via advocaten, media en sociale kanalen. Je oefent daarom het standhouden bij een advies dat je vakinhoudelijk kunt onderbouwen: benoemen of iemand boos is over de uitkomst of de druk bewust opvoert om je te laten bijstellen, en in allebei de gevallen bij hetzelfde advies blijven.

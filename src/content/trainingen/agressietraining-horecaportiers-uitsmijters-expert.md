@@ -51,9 +51,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Agressie-incidenten in de nachthoreca zijn zelden volledig te voorkomen. Wat wél te sturen is: hoe het team reageert en of de organisatie ervan leert.
+Agressie-incidenten in de nachthoreca voorkom je nooit helemaal. Wat je wel stuurt: hoe je portiers reageren en of de zaak er de week erna iets van geleerd heeft.
 
-Dat bepaalt bovendien de juridische houdbaarheid en de vergunningsrisico’s van de locatie. Deze experttraining van Bureau Weerbaar en Veilig richt zich op precies die verantwoordelijkheid.
+Dat bepaalt bovendien je juridische positie en de risico’s rond de vergunning. Je zorgt daarom dat portiers elk incident vastleggen, zodat je patronen ziet in plaats van losse avonden, je werkt aan een teamnorm waardoor twee portiers bij dezelfde situatie hetzelfde doen, en je richt de nabespreking na een zware avond in.
 
 ## Wat speelt er op dit niveau
 

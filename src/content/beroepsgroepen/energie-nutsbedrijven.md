@@ -24,4 +24,4 @@ veelgestelde_vragen:
 
 Monteurs en inspecteurs werken alleen in de privéwoningen van klanten, vaak bij taken die de klant niet wil: een verplichte keuring, een afsluiting, een meterwissel na wanbetaling.
 
-De klant staat erbij, familie kijkt mee, en de medewerker moet zijn werk doen én veilig blijven. Bij afsluitingen en verplichte keuringen komt daar geregeld een smartphone bij: de klant of een familielid filmt de monteur in de woning, als drukmiddel om het werk stil te leggen. Bureau Weerbaar en Veilig traint op precies dat spanningsveld.
+De klant staat erbij, familie kijkt mee, en de medewerker moet zijn werk doen én veilig blijven. Bij afsluitingen en verplichte keuringen komt daar geregeld een smartphone bij: de klant of een familielid filmt de monteur in de woning, als drukmiddel om het werk stil te leggen. Dat filmen is zelden emotie, het is instrumenteel gedrag: druk die wordt ingezet om jou te laten stoppen. Daar helpt geen begrip maar een rustige grens, en het besluit om te vertrekken als die grens niet houdt. Je oefent allebei.

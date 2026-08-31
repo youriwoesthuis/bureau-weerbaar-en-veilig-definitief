@@ -62,9 +62,11 @@ spoedafspraak afdwingt, iemand die dreigt met de inspectie of sociale media,
 een terugkerende beller die telkens een stap verder gaat: daar helpt
 de-escaleren alleen niet meer.
 
-Deze verdiepingstraining van Bureau Weerbaar en Veilig gaat verder dan de
-basis: ze richt zich op de patronen achter het gedrag en op de vraag hoe de
-praktijk daar als team eenduidig op reageert.
+Deze verdiepingstraining gaat over het onderscheid dat je reactie bepaalt. Wie
+schreeuwt uit frustratie over een lange wachttijd, frustratieagressie, kalmeert
+als je ruimte en uitleg geeft. Wie bewust druk opvoert om een spoedafspraak los
+te krijgen, instrumentele agressie, stopt pas bij een harde grens op het gedrag.
+Je oefent allebei, en je spreekt af hoe de hele praktijk erop reageert.
 
 ## Herkenbare praktijksituaties
 

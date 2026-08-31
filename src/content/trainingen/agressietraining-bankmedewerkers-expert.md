@@ -53,9 +53,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-In de financiële dienstverlening is agressie structureel aanwezig. Leidinggevenden bepalen niet alleen hun eigen reactie, maar ook de structuren en de cultuur waarbinnen hun team werkt.
+Agressie hoort in de financiële dienstverlening bij het werk, en dat is precies het risico: wat elke week gebeurt, wordt op een gegeven moment niet meer gemeld.
 
-Deze experttraining van Bureau Weerbaar en Veilig richt zich op die structuren, met aandacht voor de balans tussen veiligheid en compliance.
+Als leidinggevende stuur je op twee dingen die je wel in de hand hebt. De teamnorm, waar je medewerkers samen de grens leggen zodat een klant bij de een niet meer voor elkaar krijgt dan bij de ander, en de meldingsbereidheid, die staat of valt met wat er na een melding zichtbaar gebeurt. Je werkt daaraan, en aan de opvang en nazorg na een ernstig incident.
 
 ## Wat speelt er op dit niveau
 

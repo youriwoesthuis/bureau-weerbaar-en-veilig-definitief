@@ -50,9 +50,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Medewerkers van energie- en nutsbedrijven werken alleen in privéwoningen, vaak bij ingrijpende taken: een afsluiting, een verplichte inspectie, een besluit dat de klant niet wil horen.
+Je staat in de woonkamer van iemand die je liever niet had binnengelaten: je komt afsluiten, inspecteren of een besluit uitvoeren dat de klant niet wil horen. De voordeur zit achter je en er kijkt niemand mee.
 
-Zonder concrete training weten medewerkers niet altijd hoe ze agressief gedrag kunnen begrenzen. De basistraining van Bureau Weerbaar en Veilig geeft die handvatten.
+Wie dan kwaad wordt, is meestal in paniek over wat dit thuis betekent: frustratieagressie. Benoemen wat je komt doen, wat er nu gebeurt en wat de klant zelf nog kan regelen, haalt de druk eraf. Blokkeert iemand bewust je weg of dreigt hij om je te laten stoppen, dan begrens je het gedrag en vertrek je. Je oefent beide, en je spreekt af wanneer je een klus afbreekt.
 
 ## Herkenbare praktijksituaties
 

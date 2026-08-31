@@ -52,9 +52,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Bepaalde agressie in de bibliotheek is niet eenmalig: dezelfde bezoekers, dezelfde patronen, en een team dat verschillend reageert. Dat maakt grensoverschrijding vanzelfsprekend.
+Het gaat vaak om dezelfde bezoekers, hetzelfde patroon en een team dat er verschillend op reageert. Wie bij de ene collega wordt teruggefloten en bij de andere niet, leert vooral wanneer hij moet komen.
 
-Deze verdiepingstraining van Bureau Weerbaar en Veilig helpt die norm doorbreken, met nadruk op eenduidig teamoptreden.
+Zo wordt grensoverschrijding gewoon: de teamnorm, de lijn die jullie samen trekken, zakt naar het niveau van wie het minst aanspreekt. Je oefent hoe je eenduidig optreedt en dezelfde boodschap geeft als je collega, hoe je begrenst bij iemand bij wie een de-escalerend gesprek niet aankomt, en wat je doet bij een groep die de ruimte als eigen terrein ziet.
 
 ## Herkenbare praktijksituaties
 

@@ -55,13 +55,15 @@ gerelateerd:
 
 ## Waarom deze training
 
-Agressie-incidenten zijn zelden volledig te voorkomen. Wat een praktijk wél kan
-sturen: hoe het team reageert, hoe snel de organisatie leert en of het beleid in
-de praktijk daadwerkelijk werkt.
+Losse incidenten zeggen weinig, het patroon eronder wel. Wie de meldingen naast
+elkaar legt, ziet welke momenten in de praktijk telkens misgaan: de balie op
+maandagochtend, het gesprek over een geweigerd recept, de derde keer dat dezelfde
+patiënt belt.
 
-Deze experttraining van Bureau Weerbaar en Veilig richt zich op die
-organisatorische kant. Niet het losse incident staat centraal, maar het patroon
-eromheen, en de structuur die zorgt voor duurzame veiligheid.
+Op dit niveau werk je aan meldingsbereidheid, hoe laag de drempel is om een
+incident door te geven, en aan de teamnorm: de afspraak waar elke assistent zich
+aan houdt, ook als het druk is. Verschillen daarin houden agressie in stand,
+want ze leren de patiënt dat aandringen bij de een wel loont.
 
 ## Wat speelt er op dit niveau
 

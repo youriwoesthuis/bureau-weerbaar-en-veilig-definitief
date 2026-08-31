@@ -67,6 +67,11 @@ const dienstSchema = {
       '@type': 'Offer',
       itemOffered: {
         '@type': 'Course',
+        // Hetzelfde @id als de volledige Course op de trainingspagina, zodat dit
+        // een verwijzing is naar een bestaande cursus en geen tweede, halve
+        // beschrijving ervan. Zonder dat @id miste deze stub description en
+        // provider, wat Google als onvolledig markeert.
+        '@id': `${new URL(pad(`/trainingen/${t2.data.slug}/`), Astro.site).href}#cursus`,
         name: t2.data.titel,
         url: new URL(pad(`/trainingen/${t2.data.slug}/`), Astro.site).href,
       },
@@ -188,7 +193,7 @@ const schema = [dienstSchema, faqSchema(d.veelgestelde_vragen)].filter(Boolean);
           {buren.map((b) => (
             <a href={pad(`/sectoren/${b.data.sector}/${b.data.slug}/`)} class="kaart" data-niveau="basis">
               <h3>{b.data.naam}</h3>
-              <p>{description(b.data.samenvatting, 110)}</p>
+              <p>{b.data.kern ?? description(b.data.samenvatting, 110)}</p>
               <span class="pijllink kaart-voet">
                 Bekijk
                 <span class="pijl" aria-hidden="true">→</span>

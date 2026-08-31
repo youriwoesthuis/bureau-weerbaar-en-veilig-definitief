@@ -53,9 +53,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-De sociale dienst werkt met een doelgroep die kwetsbaar is en tegelijk agressiegevoelig. Medewerkers moeten handhaven én helpen, vaak in hetzelfde gesprek.
+Je medewerkers moeten in hetzelfde gesprek handhaven en helpen. Wie een maatregel oplegt aan iemand die hem nauwelijks kan dragen, krijgt daar iets voor terug, en zonder beleid draagt de medewerker die spanning alleen. Dat kost je meldingen, want wie zich niet gesteund voelt, houdt een incident liever binnen.
 
-Deze experttraining van Bureau Weerbaar en Veilig versterkt de veiligheid zonder de dienstverlening aan kwetsbare burgers aan te tasten: door die spanning in beleid te verankeren in plaats van bij de individuele medewerker te laten.
+Je legt vast wat de organisatie doet in plaats van de individuele medewerker: één lijn bij cliënten die eerder agressief waren, rugdekking bij besluiten over korting, maatregel of stopzetting, een vaste debriefing en nazorg en opvang na ernstige incidenten. Zo houd je zicht op de psychosociale arbeidsbelasting, de druk die agressie op je team legt, en blijft de dienstverlening aan kwetsbare burgers overeind.
 
 ## Wat speelt er op dit niveau
 

@@ -52,9 +52,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Veiligheid voor medewerkers begint bij helder beleid en een eenduidige teamaanpak. In een gesloten setting met hoge agressiebelasting is inconsistentie een groot risico.
+Reageren twee medewerkers verschillend op hetzelfde gedrag, dan leert een jongere vooral bij wie aandringen loont. In een gesloten setting met hoge agressiebelasting is die inconsistentie je grootste risico.
 
-Deze experttraining van Bureau Weerbaar en Veilig richt zich daarom op teambeleid, leefgroepsdynamiek en het verankeren van pedagogiek én beveiliging.
+Je werkt daarom aan de teamnorm: de afspraak over wat je begrenst en hoe, waar elke dienst zich aan houdt. Daarnaast analyseer je escalatiepatronen in de leefgroep, regel je nazorg na ernstige incidenten en leg je de spanning tussen de pedagogische opdracht en de beveiligingstaak expliciet op tafel.
 
 ## Wat speelt er op dit niveau
 

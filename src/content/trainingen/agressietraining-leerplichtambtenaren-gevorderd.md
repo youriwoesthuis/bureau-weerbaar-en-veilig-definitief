@@ -55,7 +55,7 @@ gerelateerd:
 
 Sommige agressie in het leerplichtwerk is niet impulsief maar patroonmatig: een gezin dat systematisch elk contact blokkeert, of ouders die bij elke stap juridisch dreigen.
 
-Deze verdiepingstraining van Bureau Weerbaar en Veilig richt zich op die structurele situaties, met veiligheidstaxatie bij huisbezoeken en samenwerking met ketenpartners.
+Je leert die patronen benoemen en er als dienst hetzelfde op reageren. Je oefent de veiligheidstaxatie voor een huisbezoek, dus vooraf inschatten wie er thuis is, waar je gaat zitten en hoe je weer buiten komt. En je stemt af met ketenpartners, zodat een gezin jullie niet tegen elkaar uitspeelt.
 
 ## Herkenbare praktijksituaties
 

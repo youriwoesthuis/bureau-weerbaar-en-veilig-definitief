@@ -61,10 +61,11 @@ Wie verantwoordelijk is voor meerdere vestigingen ziet het grotere patroon:
 verschillen in meldgedrag per vestiging, protocollen die per locatie anders
 worden toegepast, nazorg die afhangt van de individuele manager.
 
-Deze experttraining van Bureau Weerbaar en Veilig werkt op organisatieniveau.
-We analyseren bestaand beleid, incidentdata over meerdere vestigingen en de
-organisatiecultuur; deelnemers bouwen aan de structuren en processen waarin
-hun medewerkers dagelijks opereren.
+Op dit niveau kijk je naar de organisatie in plaats van naar het losse
+incident. Je legt beleid, incidentcijfers uit meerdere vestigingen en de
+cultuur op de vloer naast elkaar, en je bouwt aan de structuur waarin je
+managers dagelijks beslissen: wanneer melden, wie beslist over weigeren, en
+wie een medewerker de dag erna nog belt.
 
 ## Wat speelt er op dit niveau
 

@@ -17,4 +17,4 @@ veelgestelde_vragen:
 
 Taxichauffeurs en bezorgers hebben iets gemeen dat hun risico bepaalt: zij werken alleen, op wisselende locaties, zonder achterwacht. Een taxichauffeur zit met een onbekende in een besloten ruimte terwijl hij rijdt; een bezorger staat aan een voordeur waar hij niet weet wat erachter zit. Er kijkt geen collega mee.
 
-Bij bezorgers speelt daarnaast de platformdynamiek: een klacht of slechte beoordeling kan werk kosten, waardoor medewerkers incidenten vaak niet melden. Bureau Weerbaar en Veilig behandelt dat mechanisme expliciet, want onveiligheid die niet gemeld wordt, blijft bestaan.
+Bij bezorgers speelt daarnaast de platformdynamiek: een klacht of slechte beoordeling kan werk kosten, waardoor medewerkers incidenten vaak niet melden. Die meldingsbereidheid ligt in de training op tafel, want onveiligheid die niemand optekent, komt in geen enkel werkoverleg terug.

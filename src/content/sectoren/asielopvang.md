@@ -16,4 +16,4 @@ veelgestelde_vragen:
 
 Op een opvanglocatie leven mensen die in onzekerheid verkeren over hun toekomst, vaak met trauma en in een omgeving met veel verschillende groepen dicht op elkaar. De medewerker op de vloer vangt de spanning daarvan dagelijks op.
 
-Tegelijk staat de sector onder politieke en maatschappelijke druk die doorwerkt tot op de werkvloer. Bureau Weerbaar en Veilig traint medewerkers én leidinggevenden: van het herkennen van collectieve onrust tot crisisprotocollen en de opvang van het eigen team.
+Tegelijk staat de sector onder politieke en maatschappelijke druk die doorwerkt tot op de werkvloer. Medewerkers en leidinggevenden oefenen daarom allebei: het herkennen van onrust die zich over een groep verspreidt, wat er in een crisis is afgesproken, en de nazorg en opvang van het eigen team na een incident.

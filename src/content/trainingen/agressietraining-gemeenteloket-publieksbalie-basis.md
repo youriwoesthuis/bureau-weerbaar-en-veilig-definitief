@@ -54,9 +54,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Medewerkers aan het gemeenteloket staan dagelijks in de frontlinie, op de plek waar de frustratie van de burger zich richt op de persoon achter de balie.
+Aan het loket komt de frustratie over een besluit bij jou terecht, niet bij degene die het nam. Je legt een afwijzing uit volgens regels waar je zelf niets aan kunt veranderen, en de burger ziet daarbij alleen jou.
 
-De basistraining van Bureau Weerbaar en Veilig helpt escalatie en handelingsverlegenheid voorkomen, met aandacht voor de bijzondere positie van een overheidsmedewerker die gebonden is aan regels die niet ter discussie staan.
+Je leert dat verschil scherp maken. Wie schreeuwt uit boosheid over de uitkomst, frustratieagressie, heeft eerst ruimte en erkenning nodig voordat de inhoud weer binnenkomt. Wie de druk opvoert om een uitzondering los te krijgen, instrumentele agressie, krijgt van jou een grens op het gedrag en dezelfde uitkomst. Je oefent ook het moment van de besluitmededeling zelf, want daar begint het meestal.
 
 ## Herkenbare praktijksituaties
 

@@ -26,4 +26,4 @@ Maatschappelijk werkers zoeken mensen op in hun eigen omgeving, vaak op het mome
 
 Het contact stopt bovendien niet bij het einde van het gesprek. In langdurige trajecten loopt de druk door via appjes, e-mails en telefoontjes: een cliënt die blijft bellen na een afwijzing, of een bericht 's avonds laat dat net over de grens gaat.
 
-Wat dit werk risicovol maakt is doorgaans niet alleen de cliënt: het is ook de eigen beroepshouding, doorgaan, begrijpen, niet opgeven. Die houding maakt stoppen moeilijk. Bureau Weerbaar en Veilig richt de training daarom net zo veel op de professional als op de cliënt.
+Wat dit werk risicovol maakt is doorgaans niet alleen de cliënt: het is ook de eigen beroepshouding, doorgaan, begrijpen, niet opgeven. Die houding maakt stoppen moeilijk. De training gaat daarom net zo veel over jou als over de cliënt: waar jouw grens ligt, wanneer je die uitspreekt en wat je met een collega afspreekt zodra je merkt dat je hem al een paar keer hebt laten verschuiven.

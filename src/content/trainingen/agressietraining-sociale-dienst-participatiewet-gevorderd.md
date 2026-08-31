@@ -52,9 +52,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Sommige agressie in de uitvoering van de Participatiewet is strategisch: bewust ingezet om een besluit te doen kantelen.
+Sommige cliënten worden niet boos, ze zetten boosheid in. Een aangekondigde klacht, een verwijzing naar de media, een opmerking over je gezin: instrumentele agressie, bedoeld om een besluit te laten kantelen. Meebewegen bevestigt dan dat het werkt, en het volgende gesprek begint op dat punt.
 
-Deze verdiepingstraining van Bureau Weerbaar en Veilig bouwt voort op de basisvaardigheden en richt zich op professionele standvastigheid in complexere situaties, inclusief fraudeconstatering.
+Je oefent professionele standvastigheid: rustig blijven, het gedrag begrenzen, het besluit uitleggen en het niet aanpassen. Je werkt aan gesprekken rond fraudeconstatering, aan escalatie bij psychiatrie of verslaving waar de-escaleren iets anders van je vraagt, en aan wat je doet als dreiging via je privékanalen binnenkomt of een huisbezoek onveilig aanvoelt.
 
 ## Herkenbare praktijksituaties
 

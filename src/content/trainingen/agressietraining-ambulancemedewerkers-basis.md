@@ -53,13 +53,16 @@ gerelateerd:
 
 ## Waarom deze training
 
-Ambulancemedewerkers werken in onvoorspelbare omgevingen, vaak zonder directe
-bescherming en met twee mensen. De situatie is bij aankomst zelden overzichtelijk:
-een patiënt onder invloed, familie in paniek, omstanders die zich ermee bemoeien.
+Je komt binnen op een plek die je niet vooraf kunt verkennen: een patiënt onder
+invloed, familie in paniek, omstanders die meekijken en meepraten. Je werkt er
+met z'n tweeën, zonder deur die dichtkan en zonder collega die je even overneemt.
 
-De basistraining van Bureau Weerbaar en Veilig geeft ambulancemedewerkers
-concrete vaardigheden om die situaties te beheersen. Dat verhoogt de veiligheid
-en vermindert doorgaans het verzuim na incidenten.
+Wie schreeuwt uit angst om een naaste, vraagt iets anders dan wie dreigt om
+sneller vervoer af te dwingen. Bij het eerste, frustratieagressie, werkt ruimte
+geven en hardop benoemen wat je doet. Bij het tweede, instrumentele agressie,
+werkt juist een korte grens op het gedrag. Je oefent beide, want de verkeerde
+reactie maakt het erger. Ook spreek je af hoe je dat als duo samen doet, en hoe
+je een incident daarna meldt en nabespreekt.
 
 ## Herkenbare praktijksituaties
 

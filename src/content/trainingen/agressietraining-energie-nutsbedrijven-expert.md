@@ -51,9 +51,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Medewerkers met huisbezoeken werken alleen, bij klanten thuis, buiten het zicht van collega's. Hun veiligheid hangt af van wat de organisatie vooraf heeft geregeld: het protocol, het zicht op risicoadressen en de cultuur rond melden.
+Je mensen gaan alleen naar binnen, bij klanten thuis, buiten het zicht van collega’s. Wat zij daar kunnen doen ligt grotendeels al vast voordat ze aanbellen: in het protocol, in wat jullie weten over een adres en in de vraag of een medewerker een incident meldt of afdoet als iets dat erbij hoort.
 
-Deze experttraining van Bureau Weerbaar en Veilig richt zich op die verantwoordelijkheid van de leidinggevende.
+Op deze dag werk je aan die drie knoppen. Je legt vast wanneer een bezoek stopt, je zorgt dat wat een collega bij een adres meemaakt de volgende collega bereikt, en je richt nazorg en opvang in: het gesprek kort na een incident en de aandacht in de dagen erna. Daarmee stuur je ook de meldingsbereidheid, de kans dat iemand een volgend incident nog vastlegt.
 
 ## Wat speelt er op dit niveau
 

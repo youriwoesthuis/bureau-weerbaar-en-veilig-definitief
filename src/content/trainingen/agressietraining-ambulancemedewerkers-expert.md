@@ -53,9 +53,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Agressie in de pre-hospitale hulpverlening is zelden volledig te voorkomen. Wat een organisatie wél kan sturen: hoe teams reageren, hoe snel ze van incidenten leren en of het beleid in de praktijk werkt.
+Agressie in de pre-hospitale hulpverlening houd je niet volledig buiten de deur. Wat je als organisatie wel stuurt: hoe je teams reageren, hoe snel je van incidenten leert en of het beleid ook tijdens een nachtdienst overeind blijft.
 
-Deze experttraining van Bureau Weerbaar en Veilig bereidt leidinggevenden voor op die organisatorische verantwoordelijkheid en op duurzame veiligheid voor hun mensen.
+Daar zitten twee knoppen op. De meldingsbereidheid, dus of een medewerker een incident nog vastlegt als er de vorige keer niets zichtbaars mee gebeurde, en de teamnorm: waar collega's samen de grens leggen. Zakt de een, dan zakt de ander mee. Je werkt aan allebei, en aan de opvang en nazorg die je na een ernstig incident zelf regelt.
 
 ## Wat speelt er op dit niveau
 

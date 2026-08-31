@@ -52,9 +52,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Sommige agressie bij woningcorporaties gaat verder dan een boze reactie op slecht nieuws. Bij uitzettingsdossiers en huurachterstanden staat zoveel op het spel dat huurders druk bewust en maximaal inzetten.
+Bij een uitzettingsdossier of een grote huurachterstand staat voor de huurder alles op het spel. Dan zetten mensen druk bewust en maximaal in: bellen tot iemand toegeeft, je opzoeken buiten werktijd, dreigen met wat maar effect heeft. Dat is instrumentele agressie, gedrag dat een doel dient, en één keer meebewegen bevestigt dat het werkt.
 
-Deze verdiepingstraining van Bureau Weerbaar en Veilig richt zich op die dossiers, met expliciete aandacht voor de morele kant van grenzen stellen tegenover afhankelijke huurders.
+Je oefent hoe je dan één lijn vasthoudt, ook tijdens een huisbezoek waar de sfeer omslaat en je zelf de deur uit moet. Daarbij hoort de morele kant, die in dit werk zwaar weegt: hoe stel je een grens tegenover iemand die van jou afhankelijk is, en hoe houd je dat vol zonder hard te worden.
 
 ## Herkenbare praktijksituaties
 

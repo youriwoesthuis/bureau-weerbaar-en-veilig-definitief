@@ -17,4 +17,4 @@ veelgestelde_vragen:
 
 De apotheek is de zorgverlener zonder drempel: iedereen loopt er zonder afspraak binnen. Aan diezelfde balie komen ook alle spanningen samen: het recept dat niet klaarligt, het middel dat niet vergoed wordt, de herhaling die geweigerd moet worden.
 
-Wie afhankelijk is van medicatie, heeft weinig ruimte voor een "nee". Bureau Weerbaar en Veilig traint apotheekteams daarom op het herkennen van de emotie achter de agressie én op het consequent bewaken van grenzen, tot en met het beleid van de apotheker.
+Wie afhankelijk is van medicatie, heeft weinig ruimte voor een "nee". Apotheekteams oefenen daarom het onderscheid: boosheid die uit afhankelijkheid komt vraagt erkenning en uitleg, druk die iemand bewust opvoert vraagt een grens. Die grens houdt alleen als iedereen achter de balie hem hetzelfde trekt, tot en met wat de apotheker daarover vastlegt.

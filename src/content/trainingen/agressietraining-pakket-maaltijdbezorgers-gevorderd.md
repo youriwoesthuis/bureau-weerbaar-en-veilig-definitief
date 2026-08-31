@@ -53,9 +53,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Bezorgers zijn kwetsbaar voor klanten die hun afhankelijkheid van het platform uitbuiten: wie weet dat een klacht gevolgen heeft, heeft een drukmiddel in handen.
+Een klant die weet dat één klacht gevolgen heeft voor jouw ritten, heeft een drukmiddel in handen. Zet hij dat in om iets af te dwingen, dan is dat instrumentele agressie: koel, berekend en gericht op resultaat. Meegeven werkt dan averechts, want het bevestigt dat de druk loont.
 
-Deze verdiepingstraining van Bureau Weerbaar en Veilig richt zich op die specifieke kwetsbaarheid en op veiligheidstaxatie vóór elk contact.
+Je oefent hoe je zo’n grens vasthoudt en toch de levering afmaakt of juist afbreekt. Daarvoor doe je vooraf een korte veiligheidstaxatie: wat weet je van dit adres, dit tijdstip en deze buurt, waar zet je je voertuig neer en hoe kom je terug. Ook dreiging die na afloop online doorgaat, komt aan bod.
 
 ## Herkenbare praktijksituaties
 

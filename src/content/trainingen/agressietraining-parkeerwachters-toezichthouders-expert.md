@@ -52,9 +52,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Toezichthouders werken alleen en zijn zichtbaar kwetsbaar. Hun veiligheid begint niet op straat maar bij het beleid: welke gebieden gelden als risicovol, wat is de afspraak bij solo-werk, wat gebeurt er na een incident.
+Of een toezichthouder veilig blijft, is grotendeels al beslist voordat hij de straat op gaat. Welke gebieden gelden als risicovol, wat is de afspraak bij solo-werk, wie belt er na een incident terug. Ontbreken die afspraken, dan lost iedere medewerker het naar eigen inzicht op en verschilt de veiligheid per persoon.
 
-Deze experttraining van Bureau Weerbaar en Veilig richt zich op die vragen en op een organisatiecultuur die incidenten serieus neemt.
+Je legt die keuzes vast en oefent ze: een meldweg waar mensen ook kleine intimidatie in kwijt kunnen, want de meldingsbereidheid bepaalt wat je cijfers waard zijn, een vaste debriefing na ernstige incidenten en nazorg en opvang bij bedreiging die online doorgaat. Zo wordt de psychosociale arbeidsbelasting van je team, de druk die dreiging en intimidatie opleveren, iets waar je op kunt sturen.
 
 ## Wat speelt er op dit niveau
 

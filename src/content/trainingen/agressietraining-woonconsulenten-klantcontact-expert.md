@@ -53,9 +53,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Een woningcorporatie heeft een publieke zorgplicht én een zorgplicht voor haar eigen medewerkers. Agressie is in dat spanningsveld een structureel risico.
+Een corporatie heeft een zorgplicht naar huurders en een zorgplicht naar de eigen medewerkers, en die twee komen elkaar tegen bij precies dezelfde huurder. Iemand met schulden en psychiatrie laat je niet vallen, en tegelijk stuur je er wel je woonconsulent op af.
 
-Deze experttraining van Bureau Weerbaar en Veilig bereidt leidinggevenden voor op de stap van zelf handelen naar het versterken van organisatiebreed beleid.
+Je maakt de stap van zelf handelen naar organisatiebreed beleid. Je werkt aan de meldingsbereidheid, je scherpt de teamnorm aan zodat een terugkerende situatie niet per medewerker anders afloopt, je legt het protocol naast de praktijk van het huisbezoek en je verankert de debriefing na een incident. Ook de samenwerking met wijkteam en ggz hoort daarbij: zonder afspraken over wie wat oppakt, staat je medewerker alleen in de deuropening.
 
 ## Wat speelt er op dit niveau
 

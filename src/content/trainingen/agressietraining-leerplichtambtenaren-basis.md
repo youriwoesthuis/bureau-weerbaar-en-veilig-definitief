@@ -56,7 +56,7 @@ gerelateerd:
 
 Leerplichtambtenaren opereren tussen handhaving en hulpverlening. Die dubbelrol verhoogt het risico op escalatie: het gezin ziet vaak vooral de bevoegdheid en het dwangmiddel.
 
-De basistraining van Bureau Weerbaar en Veilig geeft concrete handvatten om veilig en professioneel te werken in complexe gezinssituaties, inclusief het huisbezoek.
+Je oefent daarom hoe je die rol expliciet maakt aan de keukentafel: wat je moet, wat je kunt betekenen en waar de grens ligt. Je leert de-escaleren als een ouder zich aangevallen voelt, en je leert vooraf inschatten of een huisbezoek veilig is en met wie je afspreekt dat je daarna terugbelt.
 
 ## Herkenbare praktijksituaties
 

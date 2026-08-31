@@ -55,9 +55,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Thuiszorgmedewerkers werken alleen in de woning van een cliënt. Er is geen balie tussen hen en de ander, geen collega die meekijkt en geen achterwacht om de hoek. Die kwetsbaarheid maakt agressie in de thuiszorg wezenlijk anders dan agressie in een instelling.
+Je werkt alleen, in de woning van een ander. Er zit geen balie tussen jullie, je kunt niet even een collega halen en de uitgang ligt achter de gang. Wie in die situatie boos wordt over het tijdstip of over wat er niet meer kan, reageert vaak op verlies van regie. Die frustratieagressie zakt als je ruimte geeft en de zorg even stillegt.
 
-Zonder concrete training leidt dat vaak tot handelingsverlegenheid en hoog verzuim. De basistraining van Bureau Weerbaar en Veilig geeft medewerkers de vaardigheden om situaties beheersbaar te houden, inclusief het besluit om weg te gaan.
+Gedrag dat iemand inzet om jou iets te laten doen wat je niet wilt, vraagt het omgekeerde: een korte, duidelijke grens en zo nodig vertrekken. Je oefent beide, plus de dingen die je vooraf regelt: waar je gaat staan, hoe je de deur vrijhoudt, en hoe je een bezoek afbreekt en meldt zonder het gevoel dat je de cliënt laat vallen.
 
 ## Herkenbare praktijksituaties
 

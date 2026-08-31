@@ -53,9 +53,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Op drukke en hoogrisicolocaties is agressie zelden een losstaand incident. Dezelfde bezoekers komen terug, groepen testen systematisch de deur en de juridische en fysieke druk loopt tegelijk op.
+Op een drukke hoogrisicolocatie staat een incident zelden op zichzelf. Dezelfde bezoekers komen terug, groepen testen de deur met wisselende gezichten en de juridische en fysieke druk lopen tegelijk op.
 
-Deze verdiepingstraining van Bureau Weerbaar en Veilig sluit aan op die realiteit van de nachthoreca, met nadruk op gecoördineerd optreden.
+Je oefent gecoördineerd optreden: wie praat, wie houdt zicht, wie belt. Je leert de bezoeker die kwaad wordt over een weigering anders behandelen dan de groep die de deur systematisch uitprobeert, want die tweede zoekt juist een reactie en filmt hem het liefst. Ook bespreek je het moment waarop je de politie erbij haalt.
 
 ## Herkenbare praktijksituaties
 

@@ -24,6 +24,6 @@ veelgestelde_vragen:
 
 Een portier beslist aan de deur wie naar binnen mag. Die beslissing valt vaak laat op de avond, tegenover mensen die hebben gedronken en een groep achter zich hebben staan.
 
-De juridische positie is daarbij smal: één verkeerde fysieke ingreep kan gevolgen hebben voor de portier én voor de vergunning van de zaak. Bureau Weerbaar en Veilig traint daarom op de-escaleren binnen die kaders.
+De juridische positie is daarbij smal: één verkeerde fysieke ingreep kan gevolgen hebben voor de portier én voor de vergunning van de zaak. Je oefent daarom het de-escaleren binnen die kaders: met woorden, tempo en positie een weigering laten landen, zodat je handen erbuiten blijven.
 
 Een incident aan de deur speelt zich bovendien zelden onbekeken af: omstanders filmen geregeld mee met hun telefoon en delen de beelden nog dezelfde nacht online, vaak zonder de aanloop die eraan voorafging. Niet alleen de mensen ter plekke beoordelen dan wat de portier deed, ook wie later alleen dat fragment ziet.

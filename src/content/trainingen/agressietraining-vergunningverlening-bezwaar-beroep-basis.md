@@ -54,9 +54,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Medewerkers vergunningverlening nemen beslissingen met grote gevolgen voor burgers en ondernemers. Een afwijzing kan een investering of een bouwplan onderuit halen. Dan loopt de spanning in het gesprek meestal op.
+Jij brengt het besluit waar iemand maanden op heeft gewacht. Een weigering legt een verbouwing stil of haalt een investering onderuit, en de aanvrager hoort dat van jou: aan de balie, aan de telefoon of in een mail die hij tien keer teruglees. De boosheid gaat over het besluit en landt op degene die het overbrengt.
 
-De basistraining van Bureau Weerbaar en Veilig helpt handelingsverlegenheid en hoog verloop te voorkomen. De nadruk ligt op hoe je een negatief besluit brengt: aan de balie, aan de telefoon en per e-mail.
+Meestal is dat frustratieagressie: spanning die eruit moet. Daar werkt erkennen dat het besluit hard aankomt, uitleggen hoe het tot stand kwam en op de inhoud niet meebewegen. Soms voert iemand de druk gericht op, met een dreigement over de media of juridische stappen, om alsnog een uitzondering te krijgen. Dat is instrumentele agressie, en daar begrens je het gedrag en laat je het besluit staan. Je oefent hoe je een negatief besluit brengt in alle drie de kanalen, want per mail werkt het anders dan aan de balie.
 
 ## Herkenbare praktijksituaties
 

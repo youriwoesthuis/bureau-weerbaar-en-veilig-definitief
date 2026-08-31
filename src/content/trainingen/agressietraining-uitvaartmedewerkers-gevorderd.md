@@ -54,9 +54,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Sommige conflicten in de uitvaartbranche eindigen niet bij de condoleance: klachten lopen maanden door, verhuizen naar sociale media en worden persoonlijk.
+Sommige conflicten stoppen niet bij de condoleance. Een klacht loopt maanden door, verhuist naar sociale media en wordt persoonlijk: jouw naam, jouw gezicht, jouw telefoonnummer. Dat vraagt iets anders dan een gesprek dat één keer uit de hand loopt, want er is geen moment waarop het vanzelf overgaat.
 
-Deze verdiepingstraining van Bureau Weerbaar en Veilig helpt medewerkers die lange conflicten te hanteren zonder er zelf aan onderdoor te gaan. Wie werkt op momenten van kwetsbaarheid, verdient zelf ook bescherming.
+Je leert zulke slepende conflicten hanteren: één lijn vasthouden, vastleggen wat er gebeurt en de druk verdelen zodat één medewerker hem niet in zijn eentje draagt. Daarbij hoort ook wat je met jezelf doet. Wie werkt op momenten van kwetsbaarheid, loopt zelf ook schade op als daar niets tegenover staat.
 
 ## Herkenbare praktijksituaties
 

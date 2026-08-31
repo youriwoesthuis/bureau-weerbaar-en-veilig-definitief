@@ -56,9 +56,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Sommige agressie op een woongroep gaat verder dan een impulsieve reactie. Bij ernstige meervoudige beperkingen of LVB-plus problematiek is het gedrag heftiger, gerichter en vaker terugkerend, en soms sta je er ’s nachts alleen voor.
+Bij ernstige meervoudige beperkingen of LVB-plus problematiek is het geweld heftiger, gerichter en vaker terugkerend. Het komt op vaste momenten, richt zich soms op één vaste begeleider, en tijdens een nachtdienst sta je er alleen voor tot de achterwacht er is.
 
-Deze verdiepingstraining van Bureau Weerbaar en Veilig bereidt begeleiders voor op die situaties, met nadruk op eenduidig teamhandelen: verschil in aanpak tussen collega’s houdt problematiek in stand.
+Je bereidt je voor op die situaties: herkennen wat aan een uitbarsting voorafgaat, veilig handelen bij fysiek verzet, en weten wanneer je je terugtrekt in plaats van doorzet. Het zwaartepunt ligt op eenduidig teamhandelen. Krijgt een cliënt bij de ene begeleider wel voor elkaar wat bij de andere mislukt, dan houdt het team het gedrag zelf in stand.
 
 ## Herkenbare praktijksituaties
 

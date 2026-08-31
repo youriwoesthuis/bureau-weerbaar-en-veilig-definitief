@@ -54,7 +54,7 @@ gerelateerd:
 
 Agressie-incidenten zijn in het hypotheek- en kredietadvies structureel: adviseurs brengen dagelijks nieuws dat mensen niet willen horen.
 
-Deze experttraining van Bureau Weerbaar en Veilig helpt leidinggevenden beleid op te stellen en hun adviseurs beter op te vangen na moeilijke gesprekken.
+Als leidinggevende stuur je op wat daarna gebeurt. Je werkt aan meldingsbereidheid, de drempel om een zwaar gesprek door te geven, en aan opvang die vastligt in plaats van afhangt van wie er die dag meeloopt. Ook bepaal je een gezamenlijk standpunt over klachten en juridische dreigementen, zodat een adviseur die grens niet alleen hoeft te trekken.
 
 ## Wat speelt er op dit niveau
 

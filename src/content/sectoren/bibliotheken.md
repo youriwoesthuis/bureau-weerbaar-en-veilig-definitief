@@ -17,4 +17,4 @@ veelgestelde_vragen:
 
 De bibliotheek is een van de laatste plekken waar je zonder kaartje, zonder aankoop en zonder uitleg naar binnen kunt lopen. Die openheid is de kern van de instelling, en tegelijk de reden dat medewerkers te maken krijgen met gedrag waarvoor zij niet zijn opgeleid.
 
-Wie de vloer draait, ziet dagelijks bezoekers die de ruimte als dagverblijf gebruiken, groepen jongeren die hun territorium claimen en mensen in psychische nood. Bureau Weerbaar en Veilig traint bibliotheekmedewerkers en hun leidinggevenden zo dat de openheid blijft, maar de grens duidelijk wordt.
+Wie de vloer draait, ziet dagelijks bezoekers die de ruimte als dagverblijf gebruiken, groepen jongeren die hun territorium claimen en mensen in psychische nood. Medewerkers en leidinggevenden oefenen daarom dezelfde grens: een aanwijzing op gedrag, door iedereen op de vloer op dezelfde manier uitgesproken. Die teamnorm houdt het huis open en maakt tegelijk duidelijk waar het ophoudt.

@@ -75,7 +75,17 @@ export function trainingTitel(beroepsgroepNaam: string, niveau: Niveau) {
   const kort = kortenaam(beroepsgroepNaam);
   // Dubbele punt in plaats van gedachtestreepje (verzoek Youri 31-08-2026):
   // streepjes als leesteken staan nergens meer op de site.
-  return paginaTitel(`Agressietraining ${kort.toLowerCase()}: ${NIVEAU_INFO[niveau].naam}`);
+  return paginaTitel(`Agressietraining ${ontHoofdletter(kort)}: ${NIVEAU_INFO[niveau].naam}`);
+}
+
+/** Kleine letters, maar afkortingen blijven staan. Een kale toLowerCase maakte
+ *  van "Persoonlijk begeleiders (VG)" de titel "persoonlijk begeleiders (vg)",
+ *  op zeven pagina's. Woorden van twee letters of meer die volledig uit
+ *  hoofdletters bestaan, blijven zoals ze zijn. */
+function ontHoofdletter(tekst: string) {
+  return tekst.replace(/[^\s()]+/g, (woord) =>
+    /^[A-Z]{2,}$/.test(woord) ? woord : woord.toLowerCase(),
+  );
 }
 
 /** Description afkappen op een woordgrens, nooit midden in een woord. */

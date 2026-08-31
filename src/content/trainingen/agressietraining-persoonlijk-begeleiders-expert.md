@@ -55,9 +55,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Als leidinggevende zie je de intensieve begeleidingsrelaties van je team van een afstand. Juist daardoor kun je signaleren wat de begeleider zelf niet meer ziet: dat een relatie is verschoven, dat iemand geïsoleerd raakt, dat afspraken zijn opgerekt.
+Grensvervaging in een begeleidingsrelatie ziet de begeleider zelf als laatste. Van een afstand zie je het wel: afspraken die per keer een stukje opschuiven, iemand die zijn casus steeds minder in het teamoverleg brengt, een cliënt die alleen nog met die ene begeleider wil werken. Die isolatie is het duidelijkste signaal.
 
-Deze experttraining van Bureau Weerbaar en Veilig richt zich op die signalerende en beleidsmatige rol, met concrete afspraken voor één-op-één werk en structurele coaching na incidenten.
+Je oefent hoe je dat bespreekbaar maakt zonder de begeleider onderuit te halen, en je legt afspraken vast voor één-op-één werk, activiteiten buitenshuis en contact via sociale media. Ook de meldingsbereidheid komt aan bod: wat er in een één-op-één situatie gebeurt, komt alleen boven water als melden veilig voelt en er nazorg en opvang op volgt.
 
 ## Wat speelt er op dit niveau
 

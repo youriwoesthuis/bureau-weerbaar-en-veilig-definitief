@@ -54,9 +54,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Families zetten gedragsdeskundigen onder druk om adviezen aan te passen, en soms doet de eigen organisatie dat ook. Zonder beleid dat hun professionele autonomie beschermt, wordt inhoud een kwestie van wie het hardst duwt.
+Families zetten gedragsdeskundigen onder druk om adviezen aan te passen, en soms doet de eigen organisatie dat ook. Zolang alleen de professional die druk opvangt, wordt de inhoud een kwestie van wie het hardst duwt.
 
-Deze experttraining van Bureau Weerbaar en Veilig versterkt zowel de veiligheid als de professionele autonomie in de bijzondere driehoek tussen cliënt, familie en organisatie.
+Op dit niveau leg je vast wat er gebeurt zodra die druk komt: wie het gesprek met een familie overneemt, wanneer de organisatie een juridische dreiging afhandelt in plaats van de gedragsdeskundige zelf, en wat er geregeld is voor iemand die alleen op locatie werkt. Ook richt je de opvang na een intimidatiecampagne in.
 
 ## Wat speelt er op dit niveau
 

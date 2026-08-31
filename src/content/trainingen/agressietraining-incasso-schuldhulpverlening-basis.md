@@ -56,7 +56,7 @@ gerelateerd:
 
 Debiteuren in schuldenproblematiek reageren vaak agressief op aanmaningen. Voor incasso- en schuldbehandelaars is agressie daarmee geen incident maar een structureel risico van het vak.
 
-De basistraining van Bureau Weerbaar en Veilig helpt escalatie en langdurig verzuim te voorkomen, met trainers die het incassowerk van binnenuit kennen.
+Je oefent daarom met het moment vóór de uitbarsting: de stemverheffing, het onderbreken, de dreiging met wat er thuis gebeurt. Je leert de-escaleren door de situatie te erkennen zonder de vordering los te laten, en je leert wanneer je een gesprek beter beëindigt. Melden hoort daarbij, want alleen gemelde incidenten worden een patroon dat je kunt aanpakken.
 
 ## Herkenbare praktijksituaties
 

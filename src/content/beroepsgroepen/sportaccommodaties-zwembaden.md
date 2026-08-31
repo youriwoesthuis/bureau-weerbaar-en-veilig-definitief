@@ -24,4 +24,4 @@ veelgestelde_vragen:
 
 Toezichthouders, baliemedewerkers en beheerders in sportaccommodaties handhaven regels die bezoekers als hinderlijk ervaren: niet duiken, niet rennen, sluitingstijd. Wie dat aanspreekt, wordt gemakkelijk gezien als de vervelende partij. En vaak gebeurt dat aanspreken met een smartphone erop gericht. Wie aan de badrand een jongere of een ouder corrigeert, wordt gefilmd. Een fragment van het incident staat dezelfde avond op sociale media, meestal zonder de aanloop erbij.
 
-Bijzonder aan deze omgeving is de mix van doelgroepen: jeugdgroepen, sportclubs, ouders en recreanten door elkaar, elk met eigen verwachtingen. Bureau Weerbaar en Veilig richt de trainingen daarom op gezaghebbend optreden zonder onnodige escalatie.
+Bijzonder aan deze omgeving is de mix van doelgroepen: jeugdgroepen, sportclubs, ouders en recreanten door elkaar, elk met eigen verwachtingen. Je oefent daarom het aanspreken zelf: een korte, concrete aanwijzing op gedrag, dezelfde bij de jeugdgroep als bij de ouder aan de badrand. Verschilt die aanwijzing per collega, dan zoeken bezoekers de zwakste plek in het toezicht op.

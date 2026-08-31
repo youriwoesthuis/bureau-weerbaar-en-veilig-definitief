@@ -52,9 +52,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Agressie is in het incasso- en schuldwerk geen uitzondering maar dagelijkse realiteit. Dat maakt het tot een organisatievraagstuk in plaats van een kwestie van individuele weerbaarheid.
+Agressie hoort in het incasso- en schuldwerk bij de dagelijkse praktijk. Daarmee is het een vraagstuk voor de organisatie en niet iets wat je bij de individuele behandelaar kunt neerleggen.
 
-Deze experttraining van Bureau Weerbaar en Veilig helpt leidinggevenden structurele verbetering te realiseren en duurzaam te borgen, met aandacht voor hun eigen belasting.
+Je stuurt op meldingsbereidheid, de drempel om een zwaar contact door te geven, en op psychosociale arbeidsbelasting: de druk die dit werk op je team legt. Je legt vast wie wat doet bij grensoverschrijdend gedrag en hoe de opvang eruitziet, en je kijkt daarbij ook naar je eigen belasting als leidinggevende.
 
 ## Wat speelt er op dit niveau
 

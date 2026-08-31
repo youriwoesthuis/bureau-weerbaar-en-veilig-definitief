@@ -55,7 +55,7 @@ gerelateerd:
 
 Maatschappelijk werkers werken met kwetsbare mensen bij wie agressie soms de enige beschikbare communicatievorm is. Dat vraagt begrip én de vaardigheid om te begrenzen.
 
-Zonder training ontstaat vaak handelingsverlegenheid, en op termijn burn-out. De basistraining van Bureau Weerbaar en Veilig geeft hulpverleners daarom concrete handvatten, met erkenning van de beroepsnorm van nabijheid.
+Wie nabijheid als beroepsnorm heeft, aarzelt om te begrenzen en rekt de grens telkens iets op. Je oefent daarom begrenzen op het gedrag terwijl je de relatie met de cliënt overeind houdt, en je leert het verschil zien tussen agressie uit onmacht en agressie die iets moet afdwingen.
 
 ## Herkenbare praktijksituaties
 

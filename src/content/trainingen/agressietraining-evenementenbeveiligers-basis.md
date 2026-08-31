@@ -50,9 +50,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Grote aantallen mensen, wisselende locaties, beperkt zicht en bezoekers onder invloed maken de risico’s bij evenementen onvoorspelbaar.
+Grote aantallen mensen, wisselende locaties, beperkt zicht en bezoekers onder invloed maken de risico’s bij evenementen onvoorspelbaar. Je hebt zelden het hele beeld en meestal weinig tijd.
 
-Zonder training escaleren situaties vaak onnodig, met letsel en aansprakelijkheid als gevolg. De basistraining van Bureau Weerbaar en Veilig richt zich op de-escaleren vóórdat fysiek ingrijpen nodig is.
+Je leert gedrag lezen voordat het fysiek wordt: waar een groep zich verdicht, wie de toon zet en welk moment nog ruimte laat om te de-escaleren, dus de spanning omlaag praten en de ander een uitweg geven. Daarnaast oefen je begrenzen: kort en duidelijk zeggen wat er nu stopt, zodat je je handen erbuiten houdt.
 
 ## Herkenbare praktijksituaties
 

@@ -53,7 +53,7 @@ gerelateerd:
 
 Klanten stellen hypotheek- en kredietadviseurs persoonlijk verantwoordelijk voor beslissingen die de organisatie neemt. De klant ziet niet de acceptatienormen, maar de adviseur die "nee" zegt.
 
-De basistraining van Bureau Weerbaar en Veilig helpt verzuim, verloop en escalatie te voorkomen, met expliciete aandacht voor het brengen van slecht nieuws.
+Je oefent daarom eerst het moment waarop het misloopt: de zin waarmee je de afwijzing brengt. Daarna leer je de-escaleren, dus eerst het contact herstellen en pas daarna weer over de inhoud praten. En je leert begrenzen wanneer een klant blijft doordrukken.
 
 ## Herkenbare praktijksituaties
 

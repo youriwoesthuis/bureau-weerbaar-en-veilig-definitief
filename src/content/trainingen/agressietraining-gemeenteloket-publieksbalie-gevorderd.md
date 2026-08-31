@@ -53,9 +53,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Sommige agressie aan het loket is niet impulsief maar berekend: intimidatie die precies zo wordt gedoseerd dat er een uitzondering wordt gemaakt.
+Sommige agressie aan het loket is berekend. Iemand doseert de intimidatie precies zo dat een medewerker een uitzondering maakt om ervan af te zijn, en dat werkt vaker dan je zou willen.
 
-Daarbij is de machtsverhouding complex, omdat burgers langdurig afhankelijk kunnen zijn van de organisatie. Deze verdiepingstraining van Bureau Weerbaar en Veilig gaat op beide in.
+Daar komt bij dat een burger langdurig van jullie afhankelijk kan zijn, dus je ziet elkaar volgende maand weer. Je leert die instrumentele agressie herkennen, gedrag dat is ingezet om iets af te dwingen, en er een grens op te zetten die je bij het volgende bezoek nog kunt volhouden. Ook stem je af met collega’s, want wie bij de een wel krijgt wat bij de ander niet lukt, blijft het proberen.
 
 ## Herkenbare praktijksituaties
 

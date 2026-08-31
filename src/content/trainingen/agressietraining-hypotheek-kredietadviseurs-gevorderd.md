@@ -54,7 +54,7 @@ gerelateerd:
 
 Adviseurs krijgen te maken met patronen die verder gaan dan een eenmalige woede-uitbarsting: manipulatie, schuld-projectie en klanten wier hele leven tegelijk instort.
 
-Deze verdiepingstraining van Bureau Weerbaar en Veilig helpt adviseurs die patronen te herkennen en de professionele grens scherp én gezond te houden onder hoge druk.
+Je leert die patronen benoemen terwijl je nog in het gesprek zit, en je houdt het verschil vast tussen meeleven met de situatie en meegaan met de druk. Ook oefen je begrenzen: het gedrag stoppen zonder de klant af te wijzen, zodat je over de aanvraag verder kunt praten.
 
 ## Herkenbare praktijksituaties
 

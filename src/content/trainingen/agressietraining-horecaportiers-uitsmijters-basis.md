@@ -53,9 +53,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Late uren en alcoholgebruik verhogen het escalatierisico in de nachthoreca. Een portier neemt beslissingen die direct weerstand oproepen, vaak tegenover een groep.
+Laat op de avond en met alcohol erbij loopt de spanning snel op. Als portier neem je beslissingen die meteen weerstand oproepen, vaak tegenover een groep die elkaar staat op te jutten.
 
-Onvoldoende training leidt tot onnodige fysieke ingrepen, met juridische gevolgen voor de portier en voor de zaak. De basistraining van Bureau Weerbaar en Veilig is erop gericht dat te voorkomen.
+Je oefent het gesprek dat aan je handen voorafgaat: een weigering brengen zonder gezichtsverlies, iemand naar buiten praten in plaats van dragen, en het verschil zien tussen de bezoeker die kwaad is over de weigering, frustratieagressie, en de bezoeker die je uitdaagt om alsnog binnen te komen, instrumentele agressie. Dat scheelt fysiek ingrijpen, en daarmee juridisch gedoe voor jou en voor de zaak.
 
 ## Herkenbare praktijksituaties
 

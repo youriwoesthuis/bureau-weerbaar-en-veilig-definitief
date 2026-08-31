@@ -52,9 +52,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Kliniekmedewerkers werken met mensen op kwetsbare momenten. Ontbreekt beleid, dan wordt elke grens een individuele afweging. Dan wint niet de redelijkheid, maar het volume.
+Je medewerkers staan met mensen op hun slechtste dag. Ligt er geen afspraak onder, dan maakt iedereen die grens zelf, en dan wint niet de redelijkheid maar het volume.
 
-Deze experttraining van Bureau Weerbaar en Veilig geeft praktijkhouders het beleid en de protocollen om veiligheid en zorgkwaliteit samen te bewaren.
+Je legt daarom vast waar de grens ligt en wat erna gebeurt: wanneer je de zorg voor een eigenaar afbouwt, wie dat besluit neemt en wie het gesprek voert. Dat is de teamnorm, en zonder die norm reageert elke medewerker anders op dezelfde eigenaar. Daarnaast regel je opvang en nazorg, ook bij online beschuldigingen, want die raken je mensen persoonlijk.
 
 ## Wat speelt er op dit niveau
 

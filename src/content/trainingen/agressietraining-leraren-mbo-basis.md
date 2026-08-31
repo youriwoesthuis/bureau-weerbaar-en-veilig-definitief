@@ -54,9 +54,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Mbo-studenten hebben vaak complexe achtergronden. Grensoverschrijdend gedrag leidt daar snel tot gezagsverlies en uitval van personeel.
+Daagt een student je voor de hele groep uit, dan gaat het niet langer over de les maar over wie de norm stelt. Laat je het lopen, dan test de groep de volgende les verder.
 
-De basistraining van Bureau Weerbaar en Veilig geeft docenten concrete handvatten om die situaties beheersbaar te houden: rustig blijven onder druk, professioneel begrenzen en oefenen met wat zij op de eigen instelling meemaken.
+Je oefent daarom begrenzen op het gedrag en niet op de persoon: kort, rustig en zonder er voor publiek een discussie van te maken. Je leert je eigen spanning zakken voordat je reageert, en je werkt met situaties die je op de eigen instelling tegenkomt.
 
 ## Herkenbare praktijksituaties
 

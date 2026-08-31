@@ -22,4 +22,4 @@ veelgestelde_vragen:
 
 De kracht van een persoonlijk begeleider is de relatie: jij kent deze cliënt van dichtbij. Precies die intensiteit is ook het risico. Een cliënt weet wat werkt bij jou, welke grens hij kan opzoeken, en hoe hij jou los kan weken van de rest van het team.
 
-Daarbij werken persoonlijk begeleiders vaak alleen: tijdens een activiteit buitenshuis, bij een bezoek, in een één-op-één moment. Er kijkt dan geen collega mee. Bureau Weerbaar en Veilig richt zich in deze trainingen dan ook expliciet op grensvervaging in langdurige relaties.
+Daarbij werken persoonlijk begeleiders vaak alleen: tijdens een activiteit buitenshuis, bij een bezoek, in een één-op-één moment. Er kijkt dan geen collega mee. Je oefent daarom het herkennen van grensvervaging: de kleine uitzonderingen die je maakt omdat je deze cliënt zo goed kent, en die bij elkaar opgeteld de grens verschuiven die het team dacht te hebben afgesproken.

@@ -62,10 +62,11 @@ problematiek: terugkerende overlastgevers, georganiseerde winkeldiefstal, een
 team dat het vertrouwen in de eigen veiligheid kwijtraakt. Dat vraagt een
 andere aanpak.
 
-Deze verdiepingstraining van Bureau Weerbaar en Veilig helpt managers die
-situatie te keren: met patroonanalyse, concrete maatregelen en aandacht voor
-de positie van de manager zelf. Die draagt de dubbeldruk van teamveiligheid
-en organisatieresultaten.
+Je haalt het patroon boven water: welke mensen, welke tijdstippen, welke plek
+in de winkel. Daar zet je maatregelen tegenover, en je oefent het begrenzen
+van iemand die precies weet hoever hij kan gaan. Ook je eigen positie komt
+aan bod, want je draagt de veiligheid van je team en het resultaat van de
+vestiging tegelijk.
 
 ## Herkenbare praktijksituaties
 

@@ -21,4 +21,4 @@ veelgestelde_vragen:
 
 Handhavers en boa’s werken alleen of in tweetallen in de openbare ruimte, ver van directe ondersteuning. Zij treden op met beperkte bevoegdheden tegenover mensen die precies weten waar die bevoegdheid stopt.
 
-Daarbij is de camera altijd aanwezig. Omstanders filmen het optreden, lokken soms bewust een reactie uit en zetten de beelden online. Bureau Weerbaar en Veilig behandelt de juridische positie van de boa daarom expliciet in de training.
+Daarbij is de camera altijd aanwezig. Omstanders filmen het optreden, lokken soms bewust een reactie uit en zetten de beelden online. Je juridische positie ligt daarom expliciet op tafel: wat je bevoegdheid je toestaat, waar die stopt, en hoe je dat uitlegt terwijl er een camera meedraait.

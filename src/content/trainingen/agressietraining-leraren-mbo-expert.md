@@ -52,9 +52,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Grensoverschrijdend gedrag in het mbo is moeilijk volledig te voorkomen. Wat een instelling wél kan verbeteren: hoe het team samen optreedt en hoe effectief het gedragsbeleid is georganiseerd.
+Reageren twee docenten verschillend op dezelfde student, dan leert die student vooral bij wie het loont. Op dat verschil kun je als instelling wel sturen.
 
-Deze experttraining van Bureau Weerbaar en Veilig richt zich op die organisatiekant, van protocol tot meldcultuur.
+Je werkt daarom aan de teamnorm, de afspraak over wat je begrenst en hoe, en aan meldingsbereidheid: hoe laag de drempel is om een incident vast te leggen. Uit die meldingen haal je de patronen waarmee je het gedragsbeleid bijstelt.
 
 ## Wat speelt er op dit niveau
 

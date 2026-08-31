@@ -54,9 +54,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Woongroepen in de gehandicaptenzorg zijn een zware werkomgeving. Agressie is er tegelijk een zorgvraagstuk en een veiligheidsvraagstuk, en die twee kunnen op gespannen voet staan.
+Een woongroep is een zware werkomgeving. Agressie is er tegelijk een zorgvraag en een veiligheidsvraag, en die twee trekken aan dezelfde beslissing: wat je vanuit de begeleiding wilt bieden, botst soms met wat je medewerker die avond aankan.
 
-Deze experttraining van Bureau Weerbaar en Veilig helpt leidinggevenden de stap te maken van zelf handelen naar het structureel versterken van veiligheid: in gedragsplannen, teambeleid, nazorg en meldcultuur.
+Je maakt de stap van zelf ingrijpen naar het versterken van de structuur eromheen. Je verbindt gedragsplannen met wat het team op de vloer werkelijk doet, je scherpt de teamnorm aan zodat de aanpak niet per dienst verschilt, je regelt nazorg en opvang na een incident en je werkt aan de meldingsbereidheid. Wordt een klap weggeschreven als iets wat bij de doelgroep hoort, dan mist de gedragsdeskundige precies de informatie waar hij zijn advies op zou baseren.
 
 ## Wat speelt er op dit niveau
 

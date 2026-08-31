@@ -51,9 +51,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Buschauffeurs werken alleen in een rijdend voertuig en zijn tegelijk verantwoordelijk voor tientallen reizigers. Drie dingen maken hun positie kwetsbaar: beperkte bewegingsvrijheid, publieke zichtbaarheid en volledige afhankelijkheid van de situatie.
+Je zit in een rijdend voertuig, je kunt niet weglopen, iedereen ziet je zitten, en achter je kijken tientallen reizigers mee hoe je reageert.
 
-De basistraining van Bureau Weerbaar en Veilig geeft chauffeurs handvatten die werken binnen precies die beperkingen.
+Wie kwaad wordt over het inchecken is meestal geïrriteerd en niet uit op een confrontatie: frustratieagressie. Kort erkennen, duidelijk zijn over wat er nu gebeurt en verder rijden haalt de spanning eruit. Zoekt iemand bewust de confrontatie waar de hele bus bij zit, dan begrens je het gedrag en houd je het kort. Je oefent beide vanaf je stoel, want je hebt je stem, je houding en de keuze om te stoppen of door te rijden.
 
 ## Herkenbare praktijksituaties
 

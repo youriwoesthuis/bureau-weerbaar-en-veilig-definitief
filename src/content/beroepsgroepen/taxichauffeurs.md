@@ -25,4 +25,4 @@ Een taxichauffeur werkt in een besloten ruimte met iemand die hij niet kent, ter
 
 Zo'n conflict blijft bovendien niet altijd binnen de auto. Passagiers filmen de discussie met hun telefoon. Een slechte beoordeling of review komt erbij als drukmiddel, en soms gaat het na de rit nog door met berichten naar de chauffeur.
 
-’s Nachts in uitgaansgebieden komt daar intoxicatie bij, en soms groepen die samen druk uitoefenen. Bureau Weerbaar en Veilig richt deze trainingen daarom op het besluit om te stoppen of door te rijden.
+’s Nachts in uitgaansgebieden komt daar intoxicatie bij, en soms groepen die samen druk uitoefenen. Je oefent daarom het besluit om te stoppen of door te rijden, en vooral het moment waarop je dat neemt: liever een straat te vroeg dan een straat te laat.

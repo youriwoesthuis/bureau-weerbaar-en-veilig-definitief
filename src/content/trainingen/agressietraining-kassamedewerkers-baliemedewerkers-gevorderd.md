@@ -59,9 +59,10 @@ Niet alle agressie is impulsief. Klanten die herhaald grenzen testen, bekende
 probleemklanten en strategisch gedrag om iets af te dwingen vragen om meer dan
 basisvaardigheden.
 
-Deze verdiepingstraining van Bureau Weerbaar en Veilig leert kassa- en
-baliemedewerkers patronen herkennen en er als team consistent op reageren,
-zonder de klantrelatie onnodig te beschadigen.
+Je leert instrumentele agressie herkennen, gedrag dat is ingezet om iets af te
+dwingen, en je onderscheidt het van frustratieagressie. Daarna spreek je als
+team af hoe jullie reageren, want een klant die bij de ene collega wel zijn zin
+krijgt, blijft het bij de andere proberen.
 
 ## Herkenbare praktijksituaties
 

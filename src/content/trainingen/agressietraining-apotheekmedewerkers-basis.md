@@ -52,9 +52,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Apotheekmedewerkers werken met patiënten die afhankelijk zijn van hun medicatie. Die afhankelijkheid maakt de drempel voor agressief gedrag laag, zeker bij pijn, angst, psychiatrische problematiek of verslaving.
+Aan de balie staan mensen die hun medicatie nodig hebben en die van jou horen dat het recept er niet is, dat de herhaling niet mag of dat ze moeten wachten. Pijn, angst, verslaving of verwardheid maken de weg naar schreeuwen korter.
 
-Zonder voorbereiding leidt dat vaak tot onveiligheid en verzuim. De basistraining van Bureau Weerbaar en Veilig geeft het apotheekteam concrete handvatten.
+Meestal gaat het om frustratieagressie: spanning die eruit moet. Erkennen wat iemand nodig heeft en benoemen wat je wel kunt doen, haalt de druk eraf. Soms zet iemand die druk bewust in om jou een uitzondering te laten maken, en dat is instrumentele agressie. Dan werkt juist een korte grens op het gedrag. Je oefent beide aan de balie, want de verkeerde reactie maakt het erger.
 
 ## Herkenbare praktijksituaties
 

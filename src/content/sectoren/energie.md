@@ -17,4 +17,4 @@ veelgestelde_vragen:
 
 Een monteur van een energie- of nutsbedrijf komt binnen op momenten die klanten liever niet meemaken: een verplichte inspectie, een storing, of in het zwaarste geval een afsluiting wegens betalingsachterstand. De medewerker voert een besluit uit dat elders is genomen, in de woning van degene die het raakt.
 
-Dat werk gebeurt alleen, zonder collega en zonder achterwacht. Bureau Weerbaar en Veilig traint deze beroepsgroep daarom op risicotaxatie vóór binnenkomst en op het besluit om een bezoek af te breken.
+Dat werk gebeurt alleen, zonder collega en zonder achterwacht. Je oefent daarom de inschatting die je vóór de voordeur al maakt, en het besluit om een bezoek af te breken. Vertrekken zonder het werk af te ronden is soms de juiste keuze, en die keuze oefen je net zo hard als het gesprek.

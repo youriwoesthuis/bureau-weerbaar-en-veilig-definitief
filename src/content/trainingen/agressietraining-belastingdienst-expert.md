@@ -52,9 +52,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Agressie is bij de Belastingdienst geen incident maar een structureel onderdeel van het werk. Wat telt, is hoe medewerkers reageren en of het agressiebeleid in de praktijk werkt.
+Agressie hoort bij de Belastingdienst bij het werk. Wat je als organisatie wel stuurt: hoe medewerkers reageren, waar zij de grens leggen en of het agressiebeleid ook op een drukke dag overeind blijft.
 
-Deze experttraining van Bureau Weerbaar en Veilig richt zich op die organisatiekant, met specifieke aandacht voor de juridische context van de Belastingdienst.
+Daar zitten twee knoppen op. De meldingsbereidheid, dus of een medewerker een incident nog vastlegt als er de vorige keer niets zichtbaars mee gebeurde, en de teamnorm: waar collega's samen de grens trekken, zodat dezelfde burger bij de een niet meer ruimte krijgt dan bij de ander. Je werkt aan allebei, en aan de opvang en nazorg na zware gesprekken.
 
 ## Wat speelt er op dit niveau
 

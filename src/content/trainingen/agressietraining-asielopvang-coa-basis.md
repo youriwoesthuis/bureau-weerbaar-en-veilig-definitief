@@ -52,9 +52,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Bewoners van asielzoekerscentra leven in aanhoudende onzekerheid over hun toekomst. Dat verlaagt de drempel voor agressief gedrag, en de medewerker op de vloer is het dagelijkse aanspreekpunt voor alle frustratie over het systeem.
+Bewoners wachten lang op een beslissing waar zij zelf niets aan kunnen veranderen. Jij staat op de locatie en bent degene die ze erop kunnen aanspreken, terwijl jij die beslissing ook niet neemt.
 
-De basistraining van Bureau Weerbaar en Veilig geeft medewerkers concrete handvatten, met begrip voor de context én duidelijke grenzen.
+Het meeste wat je dan over je heen krijgt is frustratieagressie: spanning die eruit moet en toevallig bij jou terechtkomt. Erkennen wat iemand meemaakt en helder zijn over wat je wel kunt doen, haalt de druk eraf. Dreigt iemand doelgericht om een uitzondering af te dwingen, dan begrens je het gedrag en blijf je bij het besluit. Je oefent allebei, ook wanneer je elkaars taal maar half spreekt.
 
 ## Herkenbare praktijksituaties
 

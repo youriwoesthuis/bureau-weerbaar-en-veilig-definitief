@@ -31,5 +31,6 @@ een oplopend conflict online, geknipt tot het fragment waarin de medewerker
 reageert. Na een geëscaleerde discussie verschijnt soms een wraakreview op
 naam van het filiaal.
 
-Daarom traint Bureau Weerbaar en Veilig deze groep apart, met scenario's die
-precies op deze werkplek zijn toegesneden.
+Daarom oefen je apart, met scenario's die op deze werkplek zijn gebouwd: een
+rij achter de klant, geen ruimte om weg te lopen en een collega die je alleen
+met een blik om hulp kunt vragen.

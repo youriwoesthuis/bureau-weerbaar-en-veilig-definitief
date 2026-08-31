@@ -64,6 +64,18 @@ spatie gelijk blijven aan het Google Bedrijfsprofiel.
 npm run build && npm run controleer
 ```
 
+En na een tekstronde ook de stijlcontrole op de bron:
+
+```bash
+node scripts/controleer-stijl.mjs
+```
+
+Die bewaakt wat een herschrijving het makkelijkst breekt: gedachtestreepjes,
+uitroeptekens, "u" als aanspreekvorm, de merknaam vaker dan een keer in de
+lopende tekst, definitie door ontkenning, naamwoordstijl, en getallen of
+jaartallen die nergens vastliggen. De teamprofielen zijn uitgezonderd van de
+getalcontrole; zie STIJL.md hoofdstuk 3, punt 7.
+
 Fouten moeten weg; waarschuwingen mogen blijven maar moet je wel bekijken.
 Sinds 31-08-2026 staat de teller op nul fouten en nul waarschuwingen; houd
 dat zo. (De eerdere 61-tekenwaarschuwing is opgelost met een kortere

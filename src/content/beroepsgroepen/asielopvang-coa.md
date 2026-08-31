@@ -25,4 +25,4 @@ Bewoners van een asielzoekerscentrum leven in extreme onzekerheid over hun toeko
 
 Een azc ligt bovendien maatschappelijk onder een vergrootglas. Bij incidenten of onrust rond de locatie worden medewerkers bij de poort en op het terrein gefilmd. Die beelden staan dezelfde dag op sociale media, soms gevolgd door bedreigingen aan het adres van wie herkenbaar in beeld staat.
 
-Daarbij spelen trauma, taalbarrières en spanningen tussen bewonersgroepen, vaak met beperkte bezetting tijdens nachten en weekenden. Bureau Weerbaar en Veilig traint deze beroepsgroep op het herkennen van de bron van agressie én op veilig handelen wanneer je met weinig collega’s bent.
+Daarbij spelen trauma, taalbarrières en spanningen tussen bewonersgroepen, vaak met beperkte bezetting tijdens nachten en weekenden. Je oefent het onderscheid tussen frustratie over een besluit waar niemand op de locatie iets aan kan veranderen en gedrag dat bewust wordt ingezet om een uitzondering af te dwingen. Het eerste vraagt ruimte en uitleg, het tweede een grens die je collega’s in de volgende dienst net zo aanhouden. En je oefent hoe je handelt als er weinig mensen in huis zijn.

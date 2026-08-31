@@ -53,9 +53,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Agressie-incidenten zijn zelden volledig te voorkomen. Wat een organisatie wél kan sturen: hoe het team reageert, hoe snel er geleerd wordt en of het beleid in de praktijk werkt.
+Agressie-incidenten voorkom je nooit helemaal. Wat een organisatie wél stuurt: hoe het team reageert, hoe snel jullie ervan leren en of het beleid aan de balie hetzelfde betekent als op papier.
 
-Deze experttraining van Bureau Weerbaar en Veilig richt zich op die organisatiekant, inclusief het lastige onderwerp toegangsweigering.
+Je werkt aan de meldingsbereidheid, dus de kans dat een medewerker een incident echt vastlegt in plaats van het weg te lachen, aan een teamnorm die bij dezelfde burger tot hetzelfde antwoord leidt, en aan nazorg en opvang na een ernstig incident. Toegangsweigering krijgt daarbij een plek, inclusief de vraag wie dat besluit neemt en hoe je het uitlegt.
 
 ## Wat speelt er op dit niveau
 

@@ -53,9 +53,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Georganiseerde druk en langdurige intimidatie vragen meer dan basisvaardigheden. Het gaat hier niet om één uitbarsting: het gaat om maanden druk, via advocaten, politiek en media tegelijk.
+Georganiseerde druk werkt anders dan één uitbarsting. Er is geen moment waarop het over is: maandenlang komen er brieven van een advocaat, vragen uit de politiek en berichten in de media, allemaal over hetzelfde dossier en steeds vaker over jou persoonlijk. Dit is instrumentele agressie in haar meest geduldige vorm, druk die is bedoeld om jou te laten wijken.
 
-Deze verdiepingstraining van Bureau Weerbaar en Veilig richt zich op die cumulatieve belasting van juridisch en emotioneel zware dossiers. Speelt dat in jullie team, dan is dit doorgaans de volgende stap.
+Je oefent hoe je dan bij je besluit blijft en tegelijk zakelijk blijft communiceren, wat je vastlegt en wanneer je opschaalt. Daarnaast kijk je naar wat het met je doet. De optelsom van juridisch en emotioneel zware dossiers, psychosociale arbeidsbelasting, sloopt mensen langzamer en zekerder dan één incident. Speelt dat in jullie team, dan is dit doorgaans de volgende stap.
 
 ## Herkenbare praktijksituaties
 

@@ -629,12 +629,75 @@ enkele gebroken, en 217 unieke titels.
   geen verzonnen verkoopclaims maar wat de mensen zelf over zichzelf zeggen.
   Wel voor Youri om te bevestigen; opgenomen in hoofdstuk 8.
 
+## 7o. Van verkooptaal naar vaktaal (31-08-2026)
+
+Youri: "vind dit gewoon niet klinken als een expert." Dat klopte. Voor er iets
+werd herschreven is eerst gemeten waar het aan lag.
+
+**De meting.** De merknaam stond 1265 keer op 217 pagina's, gemiddeld 5,8 keer
+per pagina, met een piek van 22 op het sectorenoverzicht. Definitie door
+ontkenning ("geen algemene cursus", "geen bijvak", "geen generalist") kwam maar
+elf keer voor, en koppen die over onszelf gaan twee keer. De diagnose die ik
+vooraf had, dat de site voortdurend over zichzelf praat, was dus maar half waar:
+het probleem zat niet in de koppen maar in de merknaamdichtheid.
+
+**De oorzaak was structureel, niet tekstueel.** Elke kaart van een verwante
+training toonde de `samenvatting` van de beroepsgroep, en die begint bij alle
+43 groepen met "Bureau Weerbaar en Veilig biedt agressietraining voor ...". Drie
+kaarten per trainingspagina betekende drie identieke openingen onder elkaar, op
+129 pagina's. De kaarten tonen nu de `kern`, de regel van negentig tekens die
+per beroepsgroep verschilt. Twee regels code: 1265 naar 946.
+
+**Gemini's eerste voorstel is niet uitgevoerd.** Hij verving verkooptaal door
+ambtenarentaal: "de effectiviteit van een de-escalatieve interventie wordt
+bepaald door de fysieke werkruimte", "de casuistiek wordt opgebouwd rondom de
+werkelijke incidenten". Passief, naamwoordelijk, zonder handelende persoon, en
+in geen van zijn drie voorbeelden kwam "je" nog voor. Dat is precies de
+huisstijl die Youri zelf heeft gekozen. Na confrontatie: "Ik erken dit volledig.
+Echte autoriteit zit niet in het opstapelen van beleidswoorden."
+
+**De regel die overbleef**, en die nu in STIJL.md staat: eerst wat er op de
+werkvloer gebeurt, dan de vakterm met de uitleg ernaast, dan pas wat dat voor de
+training betekent. Actief, aangesproken met je, geen naamwoordstijl, geen
+ontkenning van wat een ander doet.
+
+Zo staat het er nu, bij ambulancemedewerkers basis:
+
+> Wie schreeuwt uit angst om een naaste, vraagt iets anders dan wie dreigt om
+> sneller vervoer af te dwingen. Bij het eerste, frustratieagressie, werkt ruimte
+> geven en hardop benoemen wat je doet. Bij het tweede, instrumentele agressie,
+> werkt juist een korte grens op het gedrag.
+
+Op die plek stond: "De basistraining van Bureau Weerbaar en Veilig geeft
+medewerkers concrete handvatten."
+
+**Uitgevoerd door zes agents parallel** over 129 trainingen, 43 beroepsgroepen
+en 19 sectoren. De merknaam staat nu nul keer in de lopende tekst van alle 191
+contentbestanden, en blijft in de `samenvatting` staan waar hij hoort: dat is
+het openingsantwoord dat AI-systemen overnemen.
+
+**Gecontroleerd op sjabloonwerk.** Zes agents die dezelfde regel toepassen,
+kunnen 191 keer dezelfde alinea opleveren. Over alle 129 trainingen: nul zinnen
+die in meer dan twee bestanden identiek staan.
+
+**Nieuw: `scripts/controleer-stijl.mjs`.** Een herschrijving van deze omvang
+vangt geen steekproef af. Het script leest alle contentbestanden en faalt op
+gedachtestreepjes, uitroeptekens, "u" als aanspreekvorm, de merknaam vaker dan
+een keer in de lopende tekst, claims dat de training aan de wet voldoet, en
+jaartallen of percentages die nergens vastliggen. Waarschuwt op definitie door
+ontkenning, naamwoordstijl en losse getallen. Staat als vaste stap in CLAUDE.md
+en als `npm run controleer-stijl`.
+
+De teamprofielen zijn uitgezonderd van de getalcontrole. Daar staat "sinds 2003"
+en "meer dan 35 jaar in het dementieveld", en dat zijn geen verzonnen
+verkoopclaims maar wat die mensen zelf over zichzelf zeggen. Zie STIJL.md
+hoofdstuk 3, punt 7.
+
 ## 8. Nog open — heeft Youri nodig
 
 - Onderkop van de hero
 - Verzenddienst voor het contactformulier (sleutel)
 - KvK-naam en -nummer voor `legalName`
-- LinkedIn-URL van Marieke van Leeuwen (de andere elf staan erin)
 - Keuzemenu op het gedeelde telefoonnummer (Youri bouwt dit)
 - Wanneer het domein live gaat (nu nog een WordPress-wachtpagina)
 - **Reviews** — het grootste gat ten opzichte van de concurrentie. Eén
@@ -656,3 +719,6 @@ enkele gebroken, en 217 unieke titels.
   het `LocalBusiness`-schema moet in de gaten worden gehouden.
 - De Arbowet/PSA-claim waar eerder twijfel over was, blijkt niet op de site te
   staan.
+- Marieke van Leeuwen heeft geen LinkedIn (bevestigd door Youri, 31-08-2026).
+  Haar contentbestand heeft daarom geen `linkedin`-veld; het sjabloon toont de
+  link alleen als het veld bestaat, en `sameAs` blijft bij haar leeg. Geen actie.

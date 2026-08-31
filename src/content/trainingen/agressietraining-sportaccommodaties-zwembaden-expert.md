@@ -52,9 +52,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Een accommodatie is pas gastvrij als hij veilig is. Moeten medewerkers handhaven zonder duidelijke steun van de leiding, dan doen zij dat doorgaans inconsistent. Bezoekers merken dat.
+Weten medewerkers niet of de leiding achter hen staat, dan handhaven ze verschillend. De één spreekt de sportclub aan, de ander laat het lopen, en bezoekers leren binnen een week wie wat toestaat. Die inconsistentie is zelf een risico, want daarna valt over elke regel te onderhandelen.
 
-Deze experttraining van Bureau Weerbaar en Veilig richt zich daarom op normen, protocol, toegangsbeleid en meldcultuur op locatieniveau.
+Je legt op locatieniveau vast wat de norm is en wie hem draagt: hetzelfde toegangsbeleid voor clubs en losse bezoekers, een meldweg die ook kleine incidenten opvangt zodat de meldingsbereidheid stijgt, nazorg en opvang voor betrokken medewerkers, en afspraken met externe partners bij terugkerende overlast.
 
 ## Wat speelt er op dit niveau
 
