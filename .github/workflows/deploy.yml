@@ -1,4 +1,4 @@
-name: Bouwen en publiceren
+name: Bouwen en controleren
 
 on:
   push:
@@ -62,7 +62,16 @@ jobs:
         with:
           path: dist
 
+  # Publiceren gebeurt ALLEEN handmatig, via "Run workflow" op het tabblad
+  # Actions. GitHub Pages staat namelijk uit voor dit repo (besluit van Youri),
+  # en zolang dat zo is geeft actions/deploy-pages een 404 — waarna GitHub bij
+  # elke push een storingsmail stuurt. Dat is 23 keer gebeurd voordat het
+  # opviel; de bouwstap zelf slaagde al die keren gewoon.
+  #
+  # Zodra Pages wél aan mag (Settings > Pages > Source: GitHub Actions), kan
+  # deze regel eruit en publiceert elke push weer vanzelf.
   publiceren:
+    if: github.event_name == 'workflow_dispatch'
     needs: bouwen
     runs-on: ubuntu-latest
     environment:

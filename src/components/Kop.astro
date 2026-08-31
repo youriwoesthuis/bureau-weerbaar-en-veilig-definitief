@@ -13,6 +13,12 @@ const menu = [
   { naam: 'Voor wie', url: pad('/sectoren/') },
   { naam: 'Niveaus', url: pad('/niveaus/') },
   { naam: 'Aanpak', url: pad('/aanpak/') },
+  // Kosten en Wet en regels erbij op 31-08-2026: het zijn de twee vragen die
+  // een inkoper als eerste stelt en de twee onderwerpen die geen van de negen
+  // onderzochte concurrenten behandelt (CONCURRENTIE.md). Alleen in de voet
+  // vond Youri ze niet terug, en dan vindt een bezoeker ze ook niet.
+  { naam: 'Kosten', url: pad('/kosten/') },
+  { naam: 'Wet en regels', url: pad('/wet-en-regels/') },
   { naam: 'Over ons', url: pad('/over-ons/') },
 ];
 
@@ -168,11 +174,13 @@ const actief = (url: string) =>
 
   .kop-knop { min-height: 2.6rem; padding: 0.5rem 1.05rem; font-size: 0.9rem; }
 
-  /* Mobiel menu zonder JavaScript: een checkbox stuurt de navigatie aan. */
+  /* Mobiel menu zonder JavaScript: een checkbox stuurt de navigatie aan.
+     Breekpunt van 900 naar 1080px op 31-08-2026: met zeven menu-items ging
+     de balk daaronder over twee regels lopen. */
   .menu-schakelaar { position: absolute; opacity: 0; pointer-events: none; }
   .menu-knop { display: none; }
 
-  @media (max-width: 900px) {
+  @media (max-width: 1080px) {
     .menu-knop {
       /* Erfde sinds de omslag naar licht de donkere bodytekst, terwijl deze
          knop op de donkere balk staat. */
