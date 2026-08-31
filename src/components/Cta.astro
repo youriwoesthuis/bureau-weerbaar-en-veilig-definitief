@@ -1,5 +1,5 @@
 ---
-import { SITE, pad } from '../lib/site';
+import { aanvraagMail, SITE, pad } from '../lib/site';
 
 /**
  * De afsluiting van elke pagina. Naar het voorbeeld van agressievisie.nl
@@ -13,18 +13,18 @@ interface Props {
       dit gezet is. Op trainingspagina’s staat de trainingsnaam er al in,
       zodat de aanvrager niet opnieuw hoeft uit te leggen wat hij zoekt. */
   mailOnderwerp?: string;
+  /** De training bij naam, zodat die ook in de tekst van de mail staat en niet
+   *  alleen in het onderwerp. */
+  mailTraining?: string;
 }
 const {
   kop = 'Wil je overleggen over wat je team nodig heeft?',
   tekst = 'Vertel wat er speelt. Bureau Weerbaar en Veilig denkt mee over beroepsgroep, niveau en aanpak, en zegt het ook als een training niet het antwoord is.',
   mailOnderwerp,
+  mailTraining,
 } = Astro.props;
 
-const mailLink = mailOnderwerp
-  ? `mailto:${SITE.email}?subject=${encodeURIComponent(mailOnderwerp)}&body=${encodeURIComponent(
-      'Beste Bureau Weerbaar en Veilig,\n\nWij overwegen deze training voor ons team. Onze situatie:\n\n(Bijvoorbeeld: om hoeveel mensen het gaat, wat er speelt, en wanneer het zou moeten.)\n\nMet vriendelijke groet,\n',
-    )}`
-  : null;
+const mailLink = mailOnderwerp ? aanvraagMail(mailOnderwerp, mailTraining) : null;
 ---
 
 <section class="cta-sectie">

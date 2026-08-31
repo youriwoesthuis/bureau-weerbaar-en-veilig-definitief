@@ -10,7 +10,7 @@ import Traject from '../../components/Traject.astro';
 import TrainingKaart from '../../components/TrainingKaart.astro';
 import Vragen from '../../components/Vragen.astro';
 import Cta from '../../components/Cta.astro';
-import { SITE, NIVEAU_INFO, pad } from '../../lib/site';
+import { aanvraagMail, SITE, NIVEAU_INFO, pad } from '../../lib/site';
 import { trainingTitel, description, faqSchema, ids } from '../../lib/seo';
 import { laatstGewijzigd } from '../../lib/datum.mjs';
 
@@ -155,6 +155,9 @@ const feiten = [
         <a href={pad('/contact/')} class="knop">
           Offerte aanvragen
           <span class="pijl" aria-hidden="true">→</span>
+        </a>
+        <a href={aanvraagMail(`Offerte: ${d.titel}`, d.titel)} class="knop knop-tweede">
+          Mail over deze training
         </a>
         <a href={`tel:${SITE.telefoonUri}`} class="knop knop-tweede">Bel {SITE.telefoon}</a>
         </div>
@@ -326,6 +329,7 @@ const feiten = [
     kop={`Deze training voor je team?`}
     tekst={`Bureau Weerbaar en Veilig geeft deze training altijd bij jullie op locatie. Vertel wat er speelt bij ${groepNaam.toLowerCase()} in jullie organisatie, dan kijken we samen of dit niveau het juiste is.`}
     mailOnderwerp={`Offerte: ${d.titel}`}
+    mailTraining={d.titel}
   />
 </Basis>
 

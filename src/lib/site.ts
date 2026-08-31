@@ -231,6 +231,29 @@ export const NIVEAU_INFO: Record<Niveau, {
   },
 };
 
+/**
+ * Een voorgevulde e-mail voor een aanvraag over een specifieke training.
+ *
+ * Zonder JavaScript kan de contactpagina niet weten waar iemand vandaan komt.
+ * De context moet dus in de link zelf, en niet alleen in het onderwerp: wie het
+ * onderwerp aanpast of wegknipt, mag de training niet kwijtraken.
+ */
+export const aanvraagMail = (onderwerp: string, training?: string) => {
+  const regels = [
+    'Beste Bureau Weerbaar en Veilig,',
+    '',
+    training ? `Wij overwegen deze training voor ons team: ${training}.` : 'Wij overwegen een training voor ons team.',
+    '',
+    'Onze situatie:',
+    '',
+    '(Bijvoorbeeld: om hoeveel mensen het gaat, wat er speelt, en wanneer het zou moeten.)',
+    '',
+    'Met vriendelijke groet,',
+    '',
+  ];
+  return `mailto:${SITE.email}?subject=${encodeURIComponent(onderwerp)}&body=${encodeURIComponent(regels.join('\n'))}`;
+};
+
 /** Padhulp die rekening houdt met de base-URL van GitHub Pages. */
 const BASE = import.meta.env.BASE_URL.replace(/\/$/, '');
 export const pad = (p: string) => `${BASE}/${p.replace(/^\//, '')}`.replace(/\/{2,}/g, '/');
