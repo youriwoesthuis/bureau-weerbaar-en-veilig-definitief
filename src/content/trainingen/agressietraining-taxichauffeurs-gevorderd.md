@@ -43,7 +43,7 @@ veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Taxichauffeurs met een afgeronde basistraining die regelmatig ernstige agressie-incidenten meemaken. Voorwaarde voor deelname: afgeronde basistraining of aantoonbare werkervaring met ernstige agressie-incidenten."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basistraining behandelt het herkennen en de-escaleren van agressie in het moment. Dit gevorderde niveau richt zich op patronen die niet impulsief zijn: bewuste grensoverschrijding, manipulatie en consistent teamoptreden."
+    antwoord: "Het soort agressie. De basistraining behandelt het herkennen en de-escaleren van agressie in het moment. Dit gevorderde niveau richt zich op patronen die niet impulsief zijn: bewuste grensoverschrijding, manipulatie en consistent teamoptreden."
 gerelateerd:
   - "agressietraining-taxichauffeurs-basis"
   - "agressietraining-taxichauffeurs-expert"
@@ -53,7 +53,7 @@ gerelateerd:
 
 ## Waarom deze training
 
-Taxichauffeurs die ’s nachts in uitgaansgebieden werken, komen in situaties die standaardvaardigheden overstijgen: fysieke dreiging, zware intoxicatie en groepsdruk, terwijl zij rijden.
+Taxichauffeurs die ’s nachts in uitgaansgebieden werken, komen soms in situaties die de basisvaardigheden overstijgen: fysieke dreiging, zware intoxicatie en groepsdruk. En dat terwijl je rijdt.
 
 Deze verdiepingstraining van Bureau Weerbaar en Veilig bereidt chauffeurs daarop voor, met de nadruk op besluitvorming onder druk.
 

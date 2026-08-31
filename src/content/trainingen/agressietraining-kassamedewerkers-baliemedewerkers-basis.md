@@ -51,8 +51,8 @@ gerelateerd:
 ## Waarom deze training
 
 Kassamedewerkers en baliemedewerkers staan dagelijks in de frontlinie van de
-winkel. Zij krijgen als eersten te maken met gefrustreerde klanten, en vaak
-zonder ondersteuning op het moeilijke moment zelf.
+winkel. Zij krijgen als eersten te maken met gefrustreerde klanten.
+Ondersteuning is er op dat moment vaak niet.
 
 De basistraining van Bureau Weerbaar en Veilig geeft deze medewerkers concrete
 handvatten: agressie vroeg herkennen, rustig blijven onder druk en het gesprek

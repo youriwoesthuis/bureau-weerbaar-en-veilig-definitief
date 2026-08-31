@@ -42,7 +42,7 @@ werkvormen:
   - aandacht voor de emotionele kant van intensieve relaties
 veelgestelde_vragen:
   - vraag: "Wat wordt bedoeld met grensvervaging?"
-    antwoord: "Dat de grens tussen professioneel en persoonlijk langzaam verschuift in een intensieve, langdurige begeleidingsrelatie. Begeleiders zien dat bij zichzelf vaak als laatste; deze training leert die signalen herkennen en bespreken."
+    antwoord: "Dat de grens tussen professioneel en persoonlijk langzaam verschuift in een langdurige begeleidingsrelatie. Begeleiders zien dat bij zichzelf vaak als laatste; deze training leert die signalen herkennen en bespreken."
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Persoonlijk begeleiders die de basistraining hebben gevolgd en werken met cliënten met een hoog risicoprofiel of complexe gedragsproblematiek. Voorwaarde voor deelname: afgeronde basistraining of aantoonbare werkervaring met complexe begeleidingsrelaties in de gehandicaptenzorg."
   - vraag: "Wat is het verschil met de andere niveaus?"

@@ -9,7 +9,7 @@ samenvatting: >-
   (gevorderd) en eenduidig teambeleid bij risicojongeren (expert).
 veelgestelde_vragen:
   - vraag: "Bij ons levert een confrontatie met een medewerker status op. Kan de training daarmee om?"
-    antwoord: "Ja, statusgedrag is hier een uitgangspunt en geen uitzondering. Wie dat niet meerekent, kiest reacties die het gedrag juist belonen."
+    antwoord: "Ja. Statusgedrag is hier een uitgangspunt, geen uitzondering. Wie dat niet meerekent, kiest reacties die het gedrag juist belonen."
   - vraag: "Wordt er op groepsdynamiek getraind?"
     antwoord: "Ja, sterk. In een gesloten setting ziet de hele groep alles, en een reactie op één jongere is altijd ook een boodschap aan de rest."
   - vraag: "Hoe verhoudt begrenzen zich tot begeleiden in deze setting?"
@@ -18,6 +18,6 @@ veelgestelde_vragen:
     antwoord: "Basis voor nieuwe medewerkers en invalkrachten, gevorderd voor vaste groepsleiders, expert voor teamleiders die eenduidig teamoptreden moeten borgen."
 ---
 
-Groepsleiders en pedagogisch medewerkers in een justitiële jeugdinrichting werken met jongeren die niet weg kunnen en die vaak in permanente spanning leven. Statusgedrag hoort bij de groep: de confrontatie met een medewerker levert aanzien op.
+Groepsleiders en pedagogisch medewerkers in een justitiële jeugdinrichting werken met jongeren die niet weg kunnen. Die jongeren leven vaak in permanente spanning. Statusgedrag hoort bij de groep: de confrontatie met een medewerker levert aanzien op.
 
 De dubbelrol is hier extra scherp: begrenzen én begeleiden, in een gesloten ruimte, met een groep die alles meemaakt. Bureau Weerbaar en Veilig traint daarom sterk op groepsdynamiek en op eenduidig teamoptreden.

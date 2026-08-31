@@ -20,7 +20,7 @@ resultaat:
   - Agressiesignalen herkennen in de praktijk van triage, balie en telefoon
   - Rustig blijven wanneer een beller uitvalt na een triage-beslissing
   - Verbaal agressief gedrag begrenzen voordat een situatie in de wachtkamer fysiek wordt
-  - Handelen volgens het praktijkprotocol
+  - Volgens het praktijkprotocol handelen
   - Incidenten correct melden en nabespreken met de praktijk
 programma:
   - titel: Agressie aan balie en telefoon herkennen
@@ -40,7 +40,7 @@ werkvormen:
 veelgestelde_vragen:
   - vraag: Voor wie is deze training bedoeld?
     antwoord: Voor alle huisartsassistenten met direct patiëntcontact via balie en telefoon. Er is geen voorkennis nodig; dit is het instapniveau.
-  - vraag: Wordt telefonische agressie ook behandeld?
+  - vraag: Komt telefonische agressie ook aan bod?
     antwoord: Ja. Een groot deel van de agressie bij huisartsassistenten komt via de telefoon, bijvoorbeeld na een triage-beslissing. De training behandelt zowel balie- als telefoonsituaties.
 gerelateerd:
   - agressietraining-huisartsassistenten-gevorderd
@@ -56,10 +56,10 @@ telefoon en bij de triage. Zij krijgen de frustratie van patiënten als eerste
 over zich heen: over een geweigerde spoedafspraak, een triage-uitkomst of een
 recept dat niet wordt verstrekt.
 
-Zonder concrete training blijft het bij improviseren. Dat leidt tot spanning,
-handelingsverlegenheid en uiteindelijk verzuim. De basistraining van Bureau
-Weerbaar en Veilig geeft huisartsassistenten de kennis en vaardigheden om
-veilig en professioneel te blijven werken.
+Zonder concrete training blijft het bij improviseren. Dat leidt vaak tot
+spanning, handelingsverlegenheid en uiteindelijk verzuim. De basistraining van
+Bureau Weerbaar en Veilig leert huisartsassistenten veilig en professioneel te
+blijven werken.
 
 ## Herkenbare praktijksituaties
 
@@ -67,5 +67,5 @@ veilig en professioneel te blijven werken.
 - Een beller scheldt de assistent uit na een triage-beslissing
 - Familieleden dreigen met een klacht
 - Een patiënt intimideert de wachtkamer
-- Herhaalde telefonische agressie van dezelfde patiënt
-- Dreiging bij een recept- of verwijsbeslissing
+- Dezelfde patiënt reageert aan de telefoon keer op keer agressief
+- Een patiënt dreigt bij een recept- of verwijsbeslissing

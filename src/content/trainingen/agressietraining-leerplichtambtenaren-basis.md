@@ -44,7 +44,7 @@ veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Leerplichtambtenaren en RMC-medewerkers met direct contact met ouders en jongeren. Er is geen voorkennis nodig; dit is het instapniveau."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basistraining leert leerplichtambtenaren agressie herkennen, de eigen reactie reguleren en situaties de-escaleren. Wie structureel met zwaardere situaties werkt, gaat daarna verder met het gevorderde niveau."
+    antwoord: "De zwaarte van de situaties. De basistraining leert leerplichtambtenaren agressie herkennen, de eigen reactie reguleren en situaties de-escaleren. Wie structureel met zwaardere situaties werkt, gaat daarna verder met het gevorderde niveau."
 gerelateerd:
   - "agressietraining-leerplichtambtenaren-gevorderd"
   - "agressietraining-leerplichtambtenaren-expert"
@@ -54,7 +54,7 @@ gerelateerd:
 
 ## Waarom deze training
 
-Leerplichtambtenaren opereren tussen handhaving en hulpverlening. Die dubbelrol verhoogt het risico op escalatie: het gezin ziet vooral de bevoegdheid en het dwangmiddel.
+Leerplichtambtenaren opereren tussen handhaving en hulpverlening. Die dubbelrol verhoogt het risico op escalatie: het gezin ziet vaak vooral de bevoegdheid en het dwangmiddel.
 
 De basistraining van Bureau Weerbaar en Veilig geeft concrete handvatten om veilig en professioneel te werken in complexe gezinssituaties, inclusief het huisbezoek.
 

@@ -10,7 +10,7 @@ samenvatting: >-
   bedreigingen (expert).
 veelgestelde_vragen:
   - vraag: "Onze medewerkers krijgen agressie die niet persoonlijk is maar ideologisch. Kan de training daarmee om?"
-    antwoord: "Ja, en dat onderscheid is hier het uitgangspunt. Iemand die je legitimiteit als overheidsdienaar betwist, is niet te kalmeren met technieken die op een boze klant werken. Dat vraagt een andere aanpak en die wordt apart behandeld."
+    antwoord: "Ja. Dat onderscheid is hier het uitgangspunt. Iemand die je legitimiteit als overheidsdienaar betwist, is niet te kalmeren met technieken die op een boze klant werken. Dat vraagt een andere aanpak, en die behandelen we apart."
   - vraag: "Medewerkers worden ook buiten werktijd benaderd. Hoort dat bij de training?"
     antwoord: "Ja. Wanneer agressie doorloopt tot in de privésfeer of zich online organiseert, is het geen incident meer maar een patroon. Wat de medewerker en de organisatie dan doen, hoort in de training thuis."
   - vraag: "Kunnen inspecteurs en baliemedewerkers in dezelfde groep?"
@@ -21,4 +21,4 @@ veelgestelde_vragen:
 
 GGD-medewerkers werken op een bijzonder snijvlak: zij hebben overheidsbevoegdheden nodig én de medewerking van burgers. Wie een oproep voor contactonderzoek krijgt, een inspectie op bezoek heeft of bij een vaccinatielocatie werkt, merkt hoe snel dat spanning oplevert.
 
-Wat deze beroepsgroep bovendien apart maakt: de agressie is vaak niet persoonlijk maar ideologisch. Medewerkers krijgen niet te maken met een boze klant, maar met iemand die hun legitimiteit als overheidsdienaar betwist, soms georganiseerd, soms via sociale media en tot in de privésfeer.
+Wat deze beroepsgroep bovendien apart maakt: de agressie is vaak niet persoonlijk maar ideologisch. Medewerkers krijgen niet te maken met een boze klant, maar met iemand die hun legitimiteit als overheidsdienaar betwist. Soms georganiseerd, soms via sociale media, soms tot in de privésfeer.

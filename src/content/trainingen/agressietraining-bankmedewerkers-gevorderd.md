@@ -36,7 +36,7 @@ programma:
     inhoud: Professioneel blijven bij schuldenproblematiek en emotionele druk.
 werkvormen:
   - casuïstiek van de eigen vestiging
-  - live feedback op teamgedrag
+  - directe feedback op teamgedrag
   - aandacht voor de morele spanning tussen grenzen stellen en klanten in nood
 veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"

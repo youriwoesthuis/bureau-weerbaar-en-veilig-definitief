@@ -39,7 +39,7 @@ werkvormen:
   - organisatiegericht advies na intakegesprek
 veelgestelde_vragen:
   - vraag: "Hoe wordt de training op onze dienst afgestemd?"
-    antwoord: "Een intakegesprek vooraf brengt de situatie in kaart. Bureau Weerbaar en Veilig analyseert incidentgegevens en het bestaande beleid, zodat de training aansluit op de eigen organisatie."
+    antwoord: "Met een intakegesprek vooraf. Bureau Weerbaar en Veilig brengt daarin de situatie in kaart en analyseert incidentgegevens en het bestaande beleid, zodat de training aansluit op de eigen organisatie."
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Rayonmanagers, teamleiders, veiligheidscoördinatoren en senior medewerkers in leidinggevende rollen bij ambulancediensten. Voorwaarde voor deelname: leidinggevende of coördinerende functie met aantoonbare werkervaring met agressie."
   - vraag: "Wat is het verschil met de andere niveaus?"
@@ -53,14 +53,14 @@ gerelateerd:
 
 ## Waarom deze training
 
-Agressie in de pre-hospitale hulpverlening is zelden volledig te voorkomen. Wat een organisatie wél kan sturen: hoe teams reageren, hoe snel er van incidenten geleerd wordt en of het beleid in de praktijk werkt.
+Agressie in de pre-hospitale hulpverlening is zelden volledig te voorkomen. Wat een organisatie wél kan sturen: hoe teams reageren, hoe snel ze van incidenten leren en of het beleid in de praktijk werkt.
 
 Deze experttraining van Bureau Weerbaar en Veilig bereidt leidinggevenden voor op die organisatorische verantwoordelijkheid en op duurzame veiligheid voor hun mensen.
 
 ## Wat speelt er op dit niveau
 
-- Incidenten worden onvoldoende gemeld
-- Het protocol wordt inconsistent toegepast
+- Medewerkers melden incidenten onvoldoende
+- Medewerkers passen het protocol inconsistent toe
 - Medewerkers reageren verschillend op dezelfde agressie
 - Structurele nazorg ontbreekt
 - Het escalatiebeleid is onduidelijk

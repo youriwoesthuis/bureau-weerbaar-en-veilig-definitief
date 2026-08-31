@@ -42,7 +42,7 @@ veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Teamleiders, coördinatoren en managers bij woningcorporaties die buurtbeheerders en opzichters aansturen. Voorwaarde voor deelname: leidinggevende verantwoordelijkheid voor buurtbeheerders of opzichters."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basis- en gevorderde training gaan over het eigen handelen. Dit expertniveau gaat over de organisatie: beleid, escalatiestructuur, nazorg, meldcultuur en het coachen van medewerkers."
+    antwoord: "Het perspectief. De basis- en gevorderde training gaan over het eigen handelen. Dit expertniveau gaat over de organisatie: beleid, escalatiestructuur, nazorg, meldcultuur en het coachen van medewerkers."
 gerelateerd:
   - "agressietraining-buurtbeheerders-opzichters-basis"
   - "agressietraining-buurtbeheerders-opzichters-gevorderd"
@@ -52,7 +52,7 @@ gerelateerd:
 
 ## Waarom deze training
 
-Een leidinggevende ziet niet wat er in de wijk gebeurt. Wat hij of zij wél kan regelen: het protocol voor solo-werk, het overzicht van risicolocaties, de debriefing en de samenwerking met politie en wijkteams.
+Een leidinggevende ziet meestal niet wat er in de wijk gebeurt. Wat wél te regelen is: het protocol voor solo-werk, het overzicht van risicolocaties, de debriefing en de samenwerking met politie en wijkteams.
 
 Deze experttraining van Bureau Weerbaar en Veilig richt zich op die organisatorische randvoorwaarden, met een intakegesprek als startpunt.
 
@@ -62,4 +62,4 @@ Deze experttraining van Bureau Weerbaar en Veilig richt zich op die organisatori
 - Er is geen helder veiligheidsprotocol voor risicowijken
 - Debriefing na incidenten is onvoldoende
 - Beleid voor bekende risicolocaties ontbreekt
-- De samenwerking met politie verloopt niet optimaal
+- De samenwerking met politie kan beter

@@ -15,8 +15,8 @@ samenvatting: >-
   De expert agressietraining voor leidinggevenden op organisatieniveau van
   Bureau Weerbaar en Veilig leert regiomanagers en beleidsverantwoordelijken
   agressiedata organisatiebreed analyseren en omzetten in uniform beleid,
-  nazorgstructuur en een sterke meldcultuur. De training duurt 1 dag, met maximaal 8 deelnemers en een
-  intakegesprek vooraf.
+  nazorgstructuur en meldcultuur. De training duurt 1 dag, met maximaal 8
+  deelnemers en een intakegesprek vooraf.
 resultaat:
   - Agressiedata organisatiebreed analyseren en omzetten in beleid
   - Een uniform agressieprotocol voor verschillende vestigingstypen ontwikkelen
@@ -62,9 +62,9 @@ verschillen in meldgedrag per vestiging, protocollen die per locatie anders
 worden toegepast, nazorg die afhangt van de individuele manager.
 
 Deze experttraining van Bureau Weerbaar en Veilig werkt op organisatieniveau.
-Bestaand beleid, incidentdata over meerdere vestigingen en de
-organisatiecultuur worden geanalyseerd; deelnemers bouwen aan de structuren
-en processen waarin hun medewerkers dagelijks opereren.
+We analyseren bestaand beleid, incidentdata over meerdere vestigingen en de
+organisatiecultuur; deelnemers bouwen aan de structuren en processen waarin
+hun medewerkers dagelijks opereren.
 
 ## Wat speelt er op dit niveau
 

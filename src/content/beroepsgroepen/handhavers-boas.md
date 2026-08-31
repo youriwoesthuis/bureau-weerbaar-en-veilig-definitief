@@ -15,9 +15,9 @@ veelgestelde_vragen:
   - vraag: "Kunnen boa’s die alleen werken en die in koppel werken samen in één groep?"
     antwoord: "Ja. Het verschil tussen alleen en met z’n tweeën optreden is juist een bruikbaar gespreksonderwerp binnen dezelfde groep."
   - vraag: "Welk niveau past bij een handhavingsteam?"
-    antwoord: "Basis voor nieuwe boa’s, gevorderd voor ervaren handhavers die met structurele agressie werken. Expert is bedoeld voor teamleiders, coördinatoren en senior handhavers met een coachende rol."
+    antwoord: "Basis voor nieuwe boa’s, gevorderd voor ervaren handhavers die met structurele agressie werken. Expert voor teamleiders, coördinatoren en senior handhavers met een coachende rol."
 ---
 
 Handhavers en boa’s werken alleen of in tweetallen in de openbare ruimte, ver van directe ondersteuning. Zij treden op met beperkte bevoegdheden tegenover mensen die precies weten waar die bevoegdheid stopt.
 
-Daarbij is de camera altijd aanwezig. Optreden wordt gefilmd, soms bewust uitgelokt, en verschijnt online. Bureau Weerbaar en Veilig behandelt de juridische positie van de boa daarom expliciet in de training.
+Daarbij is de camera altijd aanwezig. Omstanders filmen het optreden, lokken soms bewust een reactie uit en zetten de beelden online. Bureau Weerbaar en Veilig behandelt de juridische positie van de boa daarom expliciet in de training.

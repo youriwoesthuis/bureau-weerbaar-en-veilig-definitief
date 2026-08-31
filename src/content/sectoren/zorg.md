@@ -12,9 +12,9 @@ veelgestelde_vragen:
   - vraag: "Wat is het verschil tussen ziektegebonden en begrensbaar gedrag?"
     antwoord: "Een bewoner met dementie die slaat tijdens de verzorging handelt niet uit kwaadwilligheid; een familielid dat de balie belaagt vaak wel bewust. Het eerste vraagt begrip van de belevingswereld, het tweede een grens. Dat onderscheid bepaalt hoe je handelt."
   - vraag: "Kennen de trainers de zorgpraktijk?"
-    antwoord: "Ja. Voor deze sector wordt getraind met trainers die de zorg kennen, en met situaties die deelnemers direct herkennen in plaats van algemene voorbeelden."
+    antwoord: "Ja. Voor deze sector zetten we trainers in die de zorg kennen, en we werken met situaties die deelnemers direct herkennen in plaats van algemene voorbeelden."
 ---
 
-Agressie in de zorg heeft een eigen karakter. Een bewoner met dementie die slaat tijdens de verzorging handelt niet uit kwaadwilligheid; een familielid dat de balie belaagt vaak wel bewust. Dat onderscheid, tussen ziektegebonden gedrag en gedrag dat begrensd kan worden, bepaalt hoe een zorgmedewerker moet handelen. Precies daar gaan de trainingen van Bureau Weerbaar en Veilig op in.
+Agressie in de zorg heeft een eigen karakter. Een bewoner met dementie die slaat tijdens de verzorging handelt niet uit kwaadwilligheid; een familielid dat de balie belaagt vaak wel bewust. Komt het gedrag uit de ziekte voort, dan vraagt het begrip van de belevingswereld. Is het een keuze, dan vraagt het een grens. Dat onderscheid bepaalt hoe een zorgmedewerker handelt, en precies daar gaan de trainingen van Bureau Weerbaar en Veilig op in.
 
 Daarbij werkt een groot deel van de zorg alleen: de wijkverpleegkundige in de woning van een cliënt, de ambulancemedewerker op straat, de persoonlijk begeleider tijdens een activiteit buitenshuis. Geen collega binnen bereik, geen achterwacht om de hoek. Bureau Weerbaar en Veilig traint per beroepsgroep, met trainers die de zorgpraktijk kennen en met situaties die deelnemers direct herkennen.

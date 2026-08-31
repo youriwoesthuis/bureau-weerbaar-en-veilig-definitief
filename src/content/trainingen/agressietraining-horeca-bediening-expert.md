@@ -40,7 +40,7 @@ werkvormen:
   - intervisie na afloop (op verzoek)
 veelgestelde_vragen:
   - vraag: "Waarom staat de rol van de leidinggevende zo centraal?"
-    antwoord: Omdat teams hun norm afleiden van wat de leidinggevende doet. Inconsistent ingrijpen is de belangrijkste reden dat grensoverschrijdend gedrag blijft bestaan.
+    antwoord: Omdat teams hun norm afleiden van wat de leidinggevende doet. Inconsistent ingrijpen is vaak de reden dat grensoverschrijdend gedrag blijft bestaan.
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Horecamanagers, bedrijfsleiders en shiftleiders met leidinggevende verantwoordelijkheid. Voorwaarde voor deelname: leidinggevende verantwoordelijkheid in een horecagelegenheid."
   - vraag: "Wat is het verschil met de andere niveaus?"

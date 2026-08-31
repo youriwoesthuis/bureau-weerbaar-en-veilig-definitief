@@ -8,13 +8,12 @@ linkedin: https://www.linkedin.com/in/tevansleen/
 volgorde: 10
 ---
 
-Tineke is al meer dan 35 jaar actief binnen het dementieveld. Haar werk kenmerkt
-zich door een mensgerichte en toegankelijke benadering, met veel aandacht voor
-communicatie, verbinding en wat er écht toe doet in het contact met mensen met
-dementie.
+Tineke is al meer dan 35 jaar actief binnen het dementieveld. Ze werkt
+mensgericht en toegankelijk, met aandacht voor communicatie en verbinding in
+het contact met mensen met dementie.
 
-Die kennis is direct van belang bij agressietraining in de ouderenzorg: onbegrepen
-gedrag bij dementie vraagt een andere reactie dan agressie die uit frustratie of
+Die kennis telt bij agressietraining in de ouderenzorg: onbegrepen gedrag bij
+dementie vraagt een andere reactie dan agressie die uit frustratie of
 berekening voortkomt. Tineke is auteur van het boek *Last van vergetelijkheid:
 communicatie vanuit je hart*.
 

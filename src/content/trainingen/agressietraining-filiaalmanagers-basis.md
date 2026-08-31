@@ -41,7 +41,7 @@ veelgestelde_vragen:
   - vraag: Voor wie is de agressietraining voor filiaalmanagers en teamleiders bedoeld?
     antwoord: Voor filiaalmanagers, assistent-managers en teamleiders in de retail. Er is geen voorkennis nodig; dit is het instapniveau voor leidinggevenden.
   - vraag: Wat maakt deze training anders dan de training voor winkelmedewerkers?
-    antwoord: "Leidinggevenden hebben een dubbele verantwoordelijkheid: zelf ingrijpen én teamveiligheid garanderen. De training behandelt daarom ook het opvangen van medewerkers na een incident en het aanpakken van structureel onveilige situaties."
+    antwoord: "De rol van de leidinggevende. Die heeft een dubbele verantwoordelijkheid: zelf ingrijpen én de veiligheid van het team bewaken. De training behandelt daarom ook het opvangen van medewerkers na een incident en het aanpakken van structureel onveilige situaties."
 gerelateerd:
   - agressietraining-filiaalmanagers-gevorderd
   - agressietraining-filiaalmanagers-expert
@@ -51,15 +51,16 @@ gerelateerd:
 
 ## Waarom deze training
 
-Leidinggevenden in de retail worden regelmatig geconfronteerd met escalaties.
-Wanneer medewerkers hulp inroepen bij een agressieve klant of een
-diefstalconfrontatie uit de hand loopt, moet de manager professioneel
-ingrijpen, en daarna het team ondersteunen.
+Leidinggevenden in de retail krijgen regelmatig met escalaties te maken.
+Roept een medewerker hulp in bij een agressieve klant, of loopt een
+diefstalconfrontatie uit de hand, dan moet de manager professioneel
+ingrijpen. En daarna het team ondersteunen.
 
 Managers hebben daarmee een dubbele verantwoordelijkheid: zelf ingrijpen én
-teamveiligheid garanderen. Zonder training wordt er verkeerd ingegrepen,
-raken klantsituaties beschadigd en voelen medewerkers zich niet gesteund.
-Organisaties die hun zorgplicht serieus nemen, investeren preventief.
+de veiligheid van het team bewaken. Zonder training gaat dat vaak mis:
+managers grijpen verkeerd in, klantsituaties raken beschadigd en medewerkers
+voelen zich niet gesteund. Organisaties die hun zorgplicht serieus nemen,
+investeren preventief.
 
 ## Herkenbare praktijksituaties
 

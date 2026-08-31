@@ -55,11 +55,11 @@ gerelateerd:
 
 In de financiële dienstverlening is agressie structureel aanwezig. Leidinggevenden bepalen niet alleen hun eigen reactie, maar ook de structuren en de cultuur waarbinnen hun team werkt.
 
-Deze experttraining van Bureau Weerbaar en Veilig richt zich op die structuren, met bijzondere aandacht voor de balans tussen veiligheid en compliance.
+Deze experttraining van Bureau Weerbaar en Veilig richt zich op die structuren, met aandacht voor de balans tussen veiligheid en compliance.
 
 ## Wat speelt er op dit niveau
 
 - Onvoldoende meldingen en nabespreking van incidenten
 - Inconsistente reacties op vergelijkbare situaties
-- Structurele nazorg na ernstige incidenten ontbreekt
+- Ontbrekende structurele nazorg na ernstige incidenten
 - Spanning tussen compliance en klantbenadering

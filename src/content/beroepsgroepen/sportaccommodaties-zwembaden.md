@@ -10,7 +10,7 @@ samenvatting: >-
   (expert).
 veelgestelde_vragen:
   - vraag: "Onze medewerkers handhaven regels die bezoekers hinderlijk vinden. Hoe pak je dat aan?"
-    antwoord: "Door gezaghebbend op te treden zonder de escalatie op te zoeken. Wie aanspreekt op niet duiken, niet rennen of sluitingstijd, wordt makkelijk gezien als de vervelende partij; dat is te ondervangen met houding en formulering."
+    antwoord: "Door gezaghebbend op te treden zonder de escalatie op te zoeken. Wie aanspreekt op niet duiken, niet rennen of sluitingstijd, wordt makkelijk gezien als de vervelende partij. Met houding en formulering valt daar meestal iets aan te doen."
   - vraag: "Wij hebben allerlei doelgroepen door elkaar. Verandert dat de aanpak?"
     antwoord: "Ja. Jeugdgroepen, sportclubs, ouders en recreanten hebben elk andere verwachtingen van dezelfde ruimte. Dat maakt één standaardreactie onbruikbaar."
   - vraag: "Kunnen toezichthouders, balie en beheer samen in één groep?"
@@ -21,6 +21,6 @@ veelgestelde_vragen:
     antwoord: "Ja. De training werkt met casuïstiek uit jullie eigen praktijk, dus breng dit in bij de intake. De trainingsacteur speelt de situatie na, aanspreken terwijl er een telefoon op je gericht staat, en je oefent hoe je rustig blijft, je boodschap afmaakt en je grens aangeeft."
 ---
 
-Toezichthouders, baliemedewerkers en beheerders in sportaccommodaties handhaven regels die bezoekers als hinderlijk ervaren: niet duiken, niet rennen, sluitingstijd. Wie dat aanspreekt, wordt gemakkelijk gezien als de vervelende partij. En steeds vaker gebeurt dat aanspreken met een smartphone erop gericht: wie aan de badrand een jongere of een ouder corrigeert, wordt gefilmd, en een fragment van het incident staat dezelfde avond op sociale media, meestal zonder de aanloop erbij.
+Toezichthouders, baliemedewerkers en beheerders in sportaccommodaties handhaven regels die bezoekers als hinderlijk ervaren: niet duiken, niet rennen, sluitingstijd. Wie dat aanspreekt, wordt gemakkelijk gezien als de vervelende partij. En vaak gebeurt dat aanspreken met een smartphone erop gericht. Wie aan de badrand een jongere of een ouder corrigeert, wordt gefilmd. Een fragment van het incident staat dezelfde avond op sociale media, meestal zonder de aanloop erbij.
 
 Bijzonder aan deze omgeving is de mix van doelgroepen: jeugdgroepen, sportclubs, ouders en recreanten door elkaar, elk met eigen verwachtingen. Bureau Weerbaar en Veilig richt de trainingen daarom op gezaghebbend optreden zonder onnodige escalatie.

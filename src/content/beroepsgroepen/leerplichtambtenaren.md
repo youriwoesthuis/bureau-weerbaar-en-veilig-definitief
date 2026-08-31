@@ -21,7 +21,7 @@ veelgestelde_vragen:
     antwoord: "Ja, als je het bij de intake inbrengt. De trainingsacteur speelt dan een ouder die tijdens het bezoek gaat filmen, en met de berichten uit jullie eigen praktijk oefen je hoe je reageert en waar je de grens trekt."
 ---
 
-Een leerplichtambtenaar komt binnen met twee rollen tegelijk: handhaver en hulpverlener. Dat is precies de spanning die agressie oproept: een gezin ziet de bevoegdheid, niet de bedoeling, en ervaart het bezoek als bemoeienis van de overheid.
+Een leerplichtambtenaar komt binnen met twee rollen tegelijk: handhaver en hulpverlener. Dat is vaak precies de spanning die agressie oproept: een gezin ziet de bevoegdheid, niet de bedoeling, en ervaart het bezoek als bemoeienis van de overheid.
 
 Daarbij gaat de leerplichtambtenaar naar de mensen toe, vaak alleen, in gezinnen waar meerdere problemen samenkomen. Bureau Weerbaar en Veilig traint deze beroepsgroep daarom expliciet op huisbezoeken en veiligheidstaxatie.
 

@@ -8,8 +8,8 @@ linkedin: https://www.linkedin.com/in/claudia-van-mechelen-91200122/
 volgorde: 9
 ---
 
-Claudia is trainer én trainingsacteur, en verbindt vanuit die combinatie de
-inhoud van een training direct aan de praktijk. Als acteur zet zij situaties
+Claudia is trainer én trainingsacteur. Die combinatie verbindt de inhoud van
+een training direct aan de praktijk. Als acteur zet zij situaties
 geloofwaardig neer; als trainer helpt zij deelnemers die ervaring te
 vertalen naar wat er maandag anders kan.
 

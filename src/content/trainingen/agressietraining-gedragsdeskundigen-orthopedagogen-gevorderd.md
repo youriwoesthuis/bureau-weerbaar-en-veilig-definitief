@@ -42,7 +42,7 @@ werkvormen:
   - aandacht voor de emotionele belasting van professionals
 veelgestelde_vragen:
   - vraag: "Hoe weeg je een juridische dreiging?"
-    antwoord: "Het evalueren van juridische dreigingen: wat is reëel, wat is druk uitoefenen, en het tijdig escaleren daarvan is een expliciete module in deze training."
+    antwoord: "Door te onderscheiden wat reëel is en wat druk uitoefenen. Dat evalueren, en het tijdig escaleren daarvan, is een expliciete module in deze training."
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Gedragsdeskundigen en orthopedagogen met een basistraining die werken met cliënten in complexe familiesituaties, forensische contexten of met ernstige meervoudige problematiek. Voorwaarde voor deelname: afgeronde basistraining of aantoonbare werkervaring met ernstige druk of agressie."
   - vraag: "Wat is het verschil met de andere niveaus?"

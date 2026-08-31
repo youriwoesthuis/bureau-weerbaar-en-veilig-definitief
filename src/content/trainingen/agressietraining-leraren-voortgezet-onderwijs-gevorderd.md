@@ -45,7 +45,7 @@ veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Leraren met basiskennis die regelmatig complexe of herhaalde gedragsincidenten meemaken. Voorwaarde voor deelname: afgeronde basistraining of aantoonbare werkervaring met gedragsincidenten."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basistraining behandelt het herkennen en de-escaleren van agressie in het moment. Dit gevorderde niveau richt zich op patronen die niet impulsief zijn: bewuste grensoverschrijding, manipulatie en consistent teamoptreden."
+    antwoord: "Het soort agressie. De basistraining behandelt het herkennen en de-escaleren van agressie in het moment. Dit gevorderde niveau richt zich op patronen die niet impulsief zijn: bewuste grensoverschrijding, manipulatie en consistent teamoptreden."
 gerelateerd:
   - "agressietraining-leraren-voortgezet-onderwijs-basis"
   - "agressietraining-leraren-voortgezet-onderwijs-expert"

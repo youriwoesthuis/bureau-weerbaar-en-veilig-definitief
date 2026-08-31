@@ -55,7 +55,7 @@ gerelateerd:
 
 ## Waarom deze training
 
-Een leidinggevende ziet de intensieve begeleidingsrelaties van zijn team van een afstand. Juist daardoor kan hij of zij signaleren wat de begeleider zelf niet meer ziet: dat een relatie is verschoven, dat iemand geïsoleerd raakt, dat afspraken zijn opgerekt.
+Als leidinggevende zie je de intensieve begeleidingsrelaties van je team van een afstand. Juist daardoor kun je signaleren wat de begeleider zelf niet meer ziet: dat een relatie is verschoven, dat iemand geïsoleerd raakt, dat afspraken zijn opgerekt.
 
 Deze experttraining van Bureau Weerbaar en Veilig richt zich op die signalerende en beleidsmatige rol, met concrete afspraken voor één-op-één werk en structurele coaching na incidenten.
 

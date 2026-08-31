@@ -40,11 +40,11 @@ werkvormen:
   - aandacht voor alleen werken zonder achterwacht
 veelgestelde_vragen:
   - vraag: "Mag een bezorger een levering afbreken?"
-    antwoord: "Bepalen wanneer een levering veilig kan worden beëindigd is een expliciet leerdoel in deze training. Hoe de eigen organisatie daarmee omgaat, is onderwerp van de experttraining voor leidinggevenden."
+    antwoord: "Dat hangt af van de afspraken in de eigen organisatie. Bepalen wanneer een levering veilig kan worden beëindigd is wel een expliciet leerdoel in deze training. Hoe de eigen organisatie daarmee omgaat, is onderwerp van de experttraining voor leidinggevenden."
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Alle bezorgers in pakket- en maaltijdbezorging met direct klantcontact aan de deur. Er is geen voorkennis nodig; dit is het instapniveau."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basistraining leert pakket- & maaltijdbezorgers agressie herkennen, de eigen reactie reguleren en situaties de-escaleren. Wie structureel met zwaardere situaties werkt, gaat daarna verder met het gevorderde niveau."
+    antwoord: "De basistraining leert pakket- en maaltijdbezorgers agressie herkennen, de eigen reactie reguleren en situaties de-escaleren. Wie structureel met zwaardere situaties werkt, gaat daarna verder met het gevorderde niveau."
 gerelateerd:
   - "agressietraining-pakket-maaltijdbezorgers-gevorderd"
   - "agressietraining-pakket-maaltijdbezorgers-expert"

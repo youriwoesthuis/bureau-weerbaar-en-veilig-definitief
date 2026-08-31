@@ -10,11 +10,11 @@ samenvatting: >-
   (expert).
 veelgestelde_vragen:
   - vraag: "Hoe bewaar je de balans tussen zorg verlenen en grenzen stellen?"
-    antwoord: "Dat is voor deze beroepsgroep de kernvraag, en de trainingen zijn er expliciet op gericht. Aan de balie gaat elk conflict uiteindelijk over medicatie die iemand nodig heeft."
+    antwoord: "Dat is voor deze beroepsgroep de kernvraag. De trainingen zijn er expliciet op gericht: aan de balie gaat elk conflict uiteindelijk over medicatie die iemand nodig heeft."
   - vraag: "Komt de groep patiënten met verslavingsproblematiek aan bod?"
     antwoord: "Ja. Die groep kan dagelijks aan de balie staan, en dat vraagt een aanpak die herhaalbaar is in plaats van eenmalig."
   - vraag: "Wordt er geoefend met een weigering, bijvoorbeeld van een herhaalrecept?"
-    antwoord: "Ja. De weigering is het moment waarop het misgaat: de patiënt is afhankelijk van het middel en de medewerker gaat niet over het besluit."
+    antwoord: "Ja. De weigering is vaak het moment waarop het misgaat: de patiënt is afhankelijk van het middel en de medewerker gaat niet over het besluit."
   - vraag: "Welk niveau past bij een apotheekteam?"
     antwoord: "Basis voor het hele team, inclusief bezorgers en baliemedewerkers. Gevorderd voor wie met terugkerende patiënten werkt. Expert voor de apotheker of teamleider."
 ---

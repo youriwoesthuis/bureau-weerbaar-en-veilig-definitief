@@ -41,7 +41,7 @@ veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Uitvaartondernemers, praktijkmanagers en leidinggevenden die verantwoordelijk zijn voor de veiligheid van hun medewerkers. Voorwaarde voor deelname: leidinggevende of eigenaarverantwoordelijkheid voor een uitvaartonderneming of team."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basis- en gevorderde training gaan over het eigen handelen. Dit expertniveau gaat over de organisatie: beleid, escalatiestructuur, nazorg, meldcultuur en het coachen van medewerkers."
+    antwoord: "De invalshoek. De basis- en gevorderde training gaan over het eigen handelen. Dit expertniveau gaat over de organisatie: beleid, escalatiestructuur, nazorg, meldcultuur en het coachen van medewerkers."
 gerelateerd:
   - "agressietraining-uitvaartmedewerkers-basis"
   - "agressietraining-uitvaartmedewerkers-gevorderd"
@@ -51,7 +51,7 @@ gerelateerd:
 
 ## Waarom deze training
 
-De uitvaartbranche onderschat structureel de agressie van nabestaanden: het past niet bij het beeld van het vak, dus wordt het niet benoemd.
+De uitvaartbranche onderschat vaak de agressie van nabestaanden: het past niet bij het beeld van het vak, dus blijft het onbesproken.
 
 Deze experttraining van Bureau Weerbaar en Veilig helpt ondernemers hun medewerkers te beschermen zonder de dienstverlening aan rouwenden op te geven.
 
@@ -60,4 +60,4 @@ Deze experttraining van Bureau Weerbaar en Veilig helpt ondernemers hun medewerk
 - Grensoverschrijdend gedrag van nabestaanden wordt genormaliseerd
 - Medewerkers worden onvoldoende ondersteund na incidenten
 - Er is geen eenduidig teambeleid bij bekende risicogroepen
-- Balanceren tussen klanttevredenheid, reputatie en veiligheid
+- Ondernemers balanceren tussen klanttevredenheid, reputatie en veiligheid

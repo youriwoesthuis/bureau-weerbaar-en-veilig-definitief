@@ -42,7 +42,7 @@ veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Lijnmanagers, depotmanagers en veiligheidscoördinatoren in het openbaar vervoer. Voorwaarde voor deelname: leidinggevende functie met aantoonbare werkervaring met agressiesituaties."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basis- en gevorderde training gaan over het eigen handelen. Dit expertniveau gaat over de organisatie: beleid, escalatiestructuur, nazorg, meldcultuur en het coachen van medewerkers."
+    antwoord: "De invalshoek. De basis- en gevorderde training gaan over het eigen handelen. Dit expertniveau gaat over de organisatie: beleid, escalatiestructuur, nazorg, meldcultuur en het coachen van medewerkers."
 gerelateerd:
   - "agressietraining-treinpersoneel-basis"
   - "agressietraining-treinpersoneel-gevorderd"
@@ -52,7 +52,7 @@ gerelateerd:
 
 ## Waarom deze training
 
-Incidenten in het openbaar vervoer zijn zelden volledig te voorkomen. Wat een vervoerder wél kan sturen: hoe medewerkers reageren en hoe snel de organisatie leert van wat er gebeurt.
+Incidenten in het openbaar vervoer zijn zelden volledig te voorkomen. Wat een vervoerder wél kan sturen: hoe medewerkers reageren, of incidenten gemeld worden en hoe snel de organisatie leert van wat er gebeurt.
 
 Deze experttraining van Bureau Weerbaar en Veilig richt zich op die organisatiekant, met meldingsdata per lijn als startpunt.
 

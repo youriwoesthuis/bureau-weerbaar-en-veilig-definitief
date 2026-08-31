@@ -19,7 +19,7 @@ samenvatting: >-
   vraagt een afgeronde basistraining of ervaring met complexe situaties.
 resultaat:
   - Georganiseerde druk en langdurige intimidatie herkennen en professioneel hanteren
-  - Professioneel omgaan met juridische dreigingen
+  - Juridische dreigingen professioneel hanteren
   - Politieke druk vanuit de eigen organisatie aanpakken
   - Grenzen stellen aan aanhoudend contact
   - Online intimidatiecampagnes herkennen en de juiste stappen zetten
@@ -43,7 +43,7 @@ veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Medewerkers die complexe, hoogprofiel vergunningaanvragen en bezwaarprocedures behandelen waarbij aanvragers grote belangen hebben. Voorwaarde voor deelname: afgeronde basistraining of aantoonbare werkervaring met complexe agressiesituaties."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basistraining behandelt het herkennen en de-escaleren van agressie in het moment. Dit gevorderde niveau richt zich op patronen die niet impulsief zijn: bewuste grensoverschrijding, manipulatie en consistent teamoptreden."
+    antwoord: "De focus. De basistraining behandelt het herkennen en de-escaleren van agressie in het moment. Dit gevorderde niveau richt zich op patronen die niet impulsief zijn: bewuste grensoverschrijding, manipulatie en consistent teamoptreden."
 gerelateerd:
   - "agressietraining-vergunningverlening-bezwaar-beroep-basis"
   - "agressietraining-vergunningverlening-bezwaar-beroep-expert"
@@ -53,9 +53,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Georganiseerde druk en langdurige intimidatie vragen meer dan basisvaardigheden. Het gaat hier niet om één uitbarsting maar om maanden druk, via meerdere kanalen tegelijk.
+Georganiseerde druk en langdurige intimidatie vragen meer dan basisvaardigheden. Het gaat hier niet om één uitbarsting: het gaat om maanden druk, via advocaten, politiek en media tegelijk.
 
-Deze verdiepingstraining van Bureau Weerbaar en Veilig richt zich op die cumulatieve belasting van juridisch en emotioneel zware dossiers.
+Deze verdiepingstraining van Bureau Weerbaar en Veilig richt zich op die cumulatieve belasting van juridisch en emotioneel zware dossiers. Speelt dat in jullie team, dan is dit doorgaans de volgende stap.
 
 ## Herkenbare praktijksituaties
 

@@ -19,8 +19,8 @@ samenvatting: >-
   en vraagt een afgeronde basistraining.
 resultaat:
   - "Complexe agressiepatronen bij verslavings- of psychiatrische problematiek herkennen"
-  - Professioneel standhouden bij medicatieweigeringen
-  - Eenduidig teamhandelen bij bekende probleempatiënten
+  - Een medicatieweigering handhaven onder oplopende druk
+  - Als team eenduidig handelen bij bekende probleempatiënten
   - Dreigementen professioneel hanteren
   - De eigen veiligheid bewaken
 programma:
@@ -52,7 +52,7 @@ gerelateerd:
 
 ## Waarom deze training
 
-In elke apotheek zijn er patiënten bij wie een standaardaanpak niet werkt: bekende gezichten met complexe problematiek, bij wie elk contact spanning oproept.
+In vrijwel elke apotheek zijn er patiënten bij wie een standaardaanpak niet werkt: bekende gezichten met complexe problematiek, bij wie elk contact spanning oproept.
 
 Deze verdiepingstraining van Bureau Weerbaar en Veilig helpt medewerkers de balans tussen zorg verlenen en grenzen stellen bewust en professioneel te houden.
 

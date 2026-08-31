@@ -42,7 +42,7 @@ veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Dierenartsen, dierenartsassistenten en baliemedewerkers met direct klantcontact. Er is geen voorkennis nodig; dit is het instapniveau."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basistraining leert dierenartsen & medewerkers dierklinieken agressie herkennen, de eigen reactie reguleren en situaties de-escaleren. Wie structureel met zwaardere situaties werkt, gaat daarna verder met het gevorderde niveau."
+    antwoord: "De zwaarte van de situaties. De basistraining leert dierenartsen en medewerkers van dierklinieken agressie herkennen, de eigen reactie reguleren en situaties de-escaleren. Wie structureel met zwaardere situaties werkt, gaat daarna verder met het gevorderde niveau."
 gerelateerd:
   - "agressietraining-dierenartsen-dierklinieken-gevorderd"
   - "agressietraining-dierenartsen-dierklinieken-expert"
@@ -52,9 +52,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Diereigenaren staan in de kliniek op emotioneel belastende momenten. Het welzijn van een huisdier raakt mensen diep, en die lading maakt de drempel voor agressief gedrag laag.
+Diereigenaren staan in de kliniek op emotioneel belastende momenten. Het welzijn van een huisdier raakt mensen diep, en die lading maakt de drempel voor agressief gedrag vaak laag.
 
-De basistraining van Bureau Weerbaar en Veilig leert teams die emotie te herkennen en te hanteren, want verdriet en bewuste intimidatie vragen een verschillende reactie.
+De basistraining van Bureau Weerbaar en Veilig leert teams die emotie te herkennen en te hanteren: verdriet en bewuste intimidatie vragen elk een andere reactie.
 
 ## Herkenbare praktijksituaties
 

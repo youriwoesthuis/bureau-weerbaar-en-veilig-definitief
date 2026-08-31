@@ -12,7 +12,7 @@ veelgestelde_vragen:
   - vraag: "Onze monteurs komen binnen voor werk dat de klant niet wil. Wat betekent dat?"
     antwoord: "Dat de weerstand er al is voordat het gesprek begint. Een verplichte keuring, een afsluiting of een meterwissel na wanbetaling is geen dienstverlening in de ogen van de klant."
   - vraag: "De monteur moet zijn werk afmaken. Kan hij ook stoppen?"
-    antwoord: "Het besluit om een klus af te breken hoort bij de training. Wanneer je stopt, hoe je vertrekt en wat je erna vastlegt is voor deze functie net zo belangrijk als de-escaleren."
+    antwoord: "Ja. Het besluit om een klus af te breken hoort bij de training. Wanneer je stopt, hoe je vertrekt en wat je erna vastlegt is voor deze functie net zo belangrijk als de-escaleren."
   - vraag: "Wordt er getraind op werken in de woning van de klant?"
     antwoord: "Ja. De klant staat erbij, familie kijkt mee, en de medewerker is te gast in een ruimte die hij niet kent. Alle oefeningen gaan uit van die situatie."
   - vraag: "Welk niveau past bij monteurs en inspecteurs?"

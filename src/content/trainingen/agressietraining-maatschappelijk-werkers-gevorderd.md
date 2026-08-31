@@ -53,7 +53,7 @@ gerelateerd:
 
 ## Waarom deze training
 
-In langdurige hulpverleningsrelaties is agressie niet impulsief maar geworden: patronen slijten in, grenzen schuiven op en de hulpverlener ziet het zelf als laatste.
+In langdurige hulpverleningsrelaties is agressie meestal niet impulsief maar gegroeid: patronen slijten in, grenzen schuiven op en de hulpverlener ziet het zelf als laatste.
 
 Deze verdiepingstraining van Bureau Weerbaar en Veilig gaat verder dan basisvaardigheden en richt zich op situaties waarin de professionele relatie zelf risico loopt.
 

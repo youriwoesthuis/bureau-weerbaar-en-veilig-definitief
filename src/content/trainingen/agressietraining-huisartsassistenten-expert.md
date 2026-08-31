@@ -65,9 +65,9 @@ eromheen, en de structuur die zorgt voor duurzame veiligheid.
 
 ## Wat speelt er op dit niveau
 
-- Incidenten worden onvoldoende gemeld
-- Het protocol wordt inconsistent toegepast
-- Collega's reageren verschillend op dezelfde agressieve patiënt
-- Nazorg voor medewerkers ontbreekt
-- Het escalatiebeleid is onduidelijk
-- Verantwoordelijkheden zijn verdeeld en onhelder
+- Onvoldoende melding van incidenten
+- Inconsistente toepassing van het protocol
+- Verschillende reacties op dezelfde agressieve patiënt
+- Ontbrekende nazorg voor medewerkers
+- Onduidelijk escalatiebeleid
+- Verdeelde en onheldere verantwoordelijkheden

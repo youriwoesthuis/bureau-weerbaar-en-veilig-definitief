@@ -52,13 +52,13 @@ gerelateerd:
 
 ## Waarom deze training
 
-Veiligheid voor medewerkers begint bij helder beleid en een eenduidige teamaanpak. In een gesloten setting met hoge agressiebelasting is inconsistentie het grootste risico.
+Veiligheid voor medewerkers begint bij helder beleid en een eenduidige teamaanpak. In een gesloten setting met hoge agressiebelasting is inconsistentie een groot risico.
 
 Deze experttraining van Bureau Weerbaar en Veilig richt zich daarom op teambeleid, leefgroepsdynamiek en het verankeren van pedagogiek én beveiliging.
 
 ## Wat speelt er op dit niveau
 
-- Medewerkers reageren inconsistent op dezelfde jongeren
-- Analyse van escalatiepatronen ontbreekt
+- Inconsistente reacties van medewerkers op dezelfde jongeren
+- Ontbrekende analyse van escalatiepatronen
 - Onvoldoende nazorg na ernstige incidenten
 - Spanning tussen de pedagogische missie en de beveiligingstaken

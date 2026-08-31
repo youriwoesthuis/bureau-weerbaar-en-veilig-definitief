@@ -43,7 +43,7 @@ veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Coördinatoren leerplicht, teamleiders en beleidsmedewerkers bij gemeenten die verantwoordelijk zijn voor de veiligheid van het leerplichtwerk. Voorwaarde voor deelname: coördinerende of leidinggevende verantwoordelijkheid voor een leerplichtteam."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basis- en gevorderde training gaan over het eigen handelen. Dit expertniveau gaat over de organisatie: beleid, escalatiestructuur, nazorg, meldcultuur en het coachen van medewerkers."
+    antwoord: "De invalshoek. De basis- en gevorderde training gaan over het eigen handelen. Dit expertniveau gaat over de organisatie: beleid, escalatiestructuur, nazorg, meldcultuur en het coachen van medewerkers."
 gerelateerd:
   - "agressietraining-leerplichtambtenaren-basis"
   - "agressietraining-leerplichtambtenaren-gevorderd"
@@ -55,7 +55,7 @@ gerelateerd:
 
 Leerplichtambtenaren werken solo in complexe gezinssituaties, met juridische bevoegdheden die weerstand oproepen. Dat maakt hen kwetsbaar op momenten dat niemand meekijkt.
 
-Leidinggevenden zijn daarom bepalend: zij stellen het veiligheidsbeleid op en bouwen de cultuur waarin agressie serieus wordt genomen. Deze experttraining van Bureau Weerbaar en Veilig richt zich op precies die taak.
+Leidinggevenden zijn daarom bepalend: zij stellen het veiligheidsbeleid op en bouwen de cultuur waarin het team agressie serieus neemt. Deze experttraining van Bureau Weerbaar en Veilig richt zich op precies die taak.
 
 ## Wat speelt er op dit niveau
 

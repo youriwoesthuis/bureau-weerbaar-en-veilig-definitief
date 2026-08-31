@@ -53,9 +53,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Incidenten bij de sociale dienst zijn onvermijdelijk. Wat telt is hoe teams reageren en of het beleid ook wordt toegepast wanneer een cliënt in crisis is.
+Incidenten bij de sociale dienst zijn nooit helemaal te voorkomen. Wat telt is hoe teams reageren, en of ze het beleid ook toepassen wanneer een cliënt in crisis is.
 
-Deze experttraining van Bureau Weerbaar en Veilig richt zich op die vraag, met bijzondere aandacht voor de spanning tussen medewerkerveiligheid en zorgplicht.
+Deze experttraining van Bureau Weerbaar en Veilig richt zich op die vraag, met aandacht voor de spanning tussen medewerkerveiligheid en zorgplicht.
 
 ## Wat speelt er op dit niveau
 

@@ -10,7 +10,7 @@ samenvatting: >-
   veiligheid en zorgplicht (expert).
 veelgestelde_vragen:
   - vraag: "Onze medewerkers vinden het moreel zwaar om te begrenzen. Kan een training daarbij helpen?"
-    antwoord: "Die spanning wordt in de training expliciet besproken in plaats van omzeild. Grenzen stellen aan iemand die het al moeilijk heeft, vraagt iets anders dan grenzen stellen aan iemand die over de schreef gaat."
+    antwoord: "Meestal wel. We bespreken die spanning expliciet in plaats van hem te omzeilen. Grenzen stellen aan iemand die het al moeilijk heeft, vraagt iets anders dan grenzen stellen aan iemand die over de schreef gaat."
   - vraag: "Waarom is de emotie hier anders dan aan een gewone balie?"
     antwoord: "Omdat het gesprek over geld gaat dat mensen nodig hebben om te leven. Een beslissing over een uitkering raakt direct aan bestaanszekerheid, en dat verandert de lading van elk gesprek in de spreekkamer."
   - vraag: "Wordt er met eigen casuïstiek gewerkt?"
@@ -23,6 +23,6 @@ veelgestelde_vragen:
 
 Bij de sociale dienst gaat het gesprek over geld dat mensen nodig hebben om te leven. Een beslissing over een uitkering raakt daarmee direct aan bestaanszekerheid, en dat maakt de emotie in de spreekkamer anders dan elders.
 
-Lang niet al dat contact verloopt in de spreekkamer: een afwijzing of terugvordering leidt net zo goed tot een woedend telefoongesprek of een reeks dreigende e-mails. En in de spreekkamer zelf legt een cliënt soms een telefoon op tafel om het gesprek als bewijs vast te leggen.
+Lang niet al dat contact verloopt in de spreekkamer. Een afwijzing of terugvordering leidt net zo goed tot een telefoongesprek dat ontspoort of een reeks dreigende e-mails. En in de spreekkamer zelf legt een cliënt soms een telefoon op tafel om het gesprek als bewijs vast te leggen.
 
 Medewerkers voelen bovendien een morele spanning: zij moeten grenzen stellen aan mensen die het al moeilijk hebben. Bureau Weerbaar en Veilig maakt die spanning in de training expliciet bespreekbaar.

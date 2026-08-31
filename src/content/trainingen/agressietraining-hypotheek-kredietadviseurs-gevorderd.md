@@ -31,7 +31,7 @@ programma:
   - titel: Combinatiecrisis
     inhoud: "Standhouden bij klanten waar echtscheiding, ontslag en hypotheekproblemen samenkomen."
   - titel: Regie in het gesprek
-    inhoud: "Gesprekken structureren zodat je de regie houdt, ook onder maximale druk."
+    inhoud: "Gesprekken structureren zodat je de regie houdt, ook onder hoge druk."
   - titel: Druk via derden en buiten werktijd
     inhoud: Omgaan met druk via partners of advocaten en met bedreigingen buiten werktijd.
 werkvormen:
@@ -54,7 +54,7 @@ gerelateerd:
 
 Adviseurs krijgen te maken met patronen die verder gaan dan een eenmalige woede-uitbarsting: manipulatie, schuld-projectie en klanten wier hele leven tegelijk instort.
 
-Deze verdiepingstraining van Bureau Weerbaar en Veilig helpt adviseurs die patronen te herkennen en de professionele grens scherp én gezond te houden onder maximale druk.
+Deze verdiepingstraining van Bureau Weerbaar en Veilig helpt adviseurs die patronen te herkennen en de professionele grens scherp én gezond te houden onder hoge druk.
 
 ## Herkenbare praktijksituaties
 

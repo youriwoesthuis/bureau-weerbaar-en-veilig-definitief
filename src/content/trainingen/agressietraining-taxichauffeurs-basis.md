@@ -44,7 +44,7 @@ veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: Alle taxichauffeurs en personenvervoerders met direct passagierscontact. Er is geen voorkennis nodig; dit is het instapniveau.
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basistraining leert taxichauffeurs agressie herkennen, de eigen reactie reguleren en situaties de-escaleren. Wie structureel met zwaardere situaties werkt, gaat daarna verder met het gevorderde niveau."
+    antwoord: "De diepte. De basistraining leert taxichauffeurs agressie herkennen, de eigen reactie reguleren en situaties de-escaleren. Wie structureel met zwaardere situaties werkt, gaat daarna verder met het gevorderde niveau."
 gerelateerd:
   - "agressietraining-taxichauffeurs-gevorderd"
   - "agressietraining-taxichauffeurs-expert"
@@ -54,9 +54,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Taxichauffeurs werken in geïsoleerde, kwetsbare omstandigheden zonder collega’s in de buurt. Dat leidt tot een structureel hoge agressiebelasting en tot verzuim na incidenten.
+Taxichauffeurs werken alleen, zonder collega’s in de buurt. Dat maakt hen kwetsbaar en leidt tot een structureel hoge agressiebelasting en tot verzuim na incidenten.
 
-De basistraining van Bureau Weerbaar en Veilig geeft chauffeurs handvatten die werken tijdens het rijden, inclusief het besluit om te stoppen.
+De basistraining van Bureau Weerbaar en Veilig geeft chauffeurs handvatten die ook achter het stuur werken: spanning vroeg herkennen, verbaal begrenzen, en beslissen wanneer je stopt of hulpdiensten inschakelt.
 
 ## Herkenbare praktijksituaties
 

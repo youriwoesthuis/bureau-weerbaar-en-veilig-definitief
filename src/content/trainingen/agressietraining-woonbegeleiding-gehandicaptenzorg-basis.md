@@ -55,7 +55,7 @@ gerelateerd:
 
 ## Waarom deze training
 
-Agressie in de woonbegeleiding is doorgaans geen kwaadwilligheid maar een communicatieprobleem. Een cliënt die de verandering in zijn dag niet kan plaatsen of overprikkeld raakt, heeft geen woorden, en gebruikt zijn lichaam.
+Agressie in de woonbegeleiding is doorgaans geen kwaadwilligheid maar een communicatieprobleem. Een cliënt die de verandering in zijn dag niet kan plaatsen of overprikkeld raakt, heeft geen woorden. Dan spreekt het lichaam.
 
 Dat begrijpen is de helft van het werk; de andere helft is veilig blijven. De basistraining van Bureau Weerbaar en Veilig geeft begeleiders beide: inzicht in het gedrag en concrete vaardigheden om situaties te de-escaleren.
 

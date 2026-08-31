@@ -25,4 +25,4 @@ Woonconsulenten en klantcontactmedewerkers brengen boodschappen die over iemands
 
 Veel van die eerste woede komt telefonisch binnen bij het KCC, dag in dag uit. Bij zware dossiers verschuift de druk naar de consulent zelf: e-mails die persoonlijk worden en berichten op sociale media waarin de corporatie en soms de medewerker bij naam worden genoemd.
 
-De huurder is afhankelijk van de corporatie en kan niet weglopen, en dat geldt beide kanten op, want de relatie duurt jaren. Bureau Weerbaar en Veilig richt de trainingen op grenzen stellen zonder die relatie onnodig te beschadigen.
+De huurder kan niet weglopen, en de corporatie evenmin: de relatie duurt jaren. Dat maakt begrenzen iets anders dan een gesprek winnen. Bureau Weerbaar en Veilig richt de trainingen op grenzen stellen zonder die relatie onnodig te beschadigen.

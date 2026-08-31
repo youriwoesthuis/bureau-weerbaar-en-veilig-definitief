@@ -17,10 +17,10 @@ samenvatting: >-
   voor telefonische agressie. De training duurt 1 dag en telt maximaal 10
   deelnemers.
 resultaat:
-  - Herkennen wat er speelt bij klanten die vastlopen op geld
-  - Rustig en professioneel blijven aan de telefoon bij dreiging en intimidatie
-  - Professioneel begrenzen bij een geweigerde lening of een geblokkeerde rekening
-  - Handelen bij escalerende gesprekken over betalingsachterstanden
+  - Financiële stress herkennen bij klanten die vastlopen op geld
+  - De eigen reactie reguleren aan de telefoon bij dreiging en intimidatie
+  - Gedrag professioneel begrenzen bij een geweigerde lening of een geblokkeerde rekening
+  - Escalerende gesprekken over betalingsachterstanden hanteren
   - De protocollen van de organisatie toepassen na een incident aan de balie
   - Incidenten correct melden
 programma:
@@ -42,7 +42,7 @@ veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: Medewerkers in de financiële dienstverlening met direct klantcontact aan de balie of aan de telefoon. Er is geen voorkennis nodig; dit is het instapniveau.
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basistraining leert bankmedewerkers & baliepersoneel agressie herkennen, de eigen reactie reguleren en situaties de-escaleren. Wie structureel met zwaardere situaties werkt, gaat daarna verder met het gevorderde niveau."
+    antwoord: "De basistraining leert bankmedewerkers en baliepersoneel agressie herkennen, de eigen reactie reguleren en situaties de-escaleren. Wie structureel met zwaardere situaties werkt, gaat daarna verder met het gevorderde niveau."
 gerelateerd:
   - "agressietraining-bankmedewerkers-gevorderd"
   - "agressietraining-bankmedewerkers-expert"
@@ -54,11 +54,11 @@ gerelateerd:
 
 Klanten in financiële stress reageren regelmatig agressief op bankmedewerkers. De medewerker aan de balie of telefoon vangt dat als eerste op, zonder het besluit te kunnen veranderen.
 
-De basistraining van Bureau Weerbaar en Veilig voorkomt escalatie en verzuim door medewerkers concrete handvatten te geven, met bijzondere nadruk op agressie via de telefoon.
+De basistraining van Bureau Weerbaar en Veilig helpt escalatie en verzuim voorkomen door medewerkers concrete handvatten te geven, met expliciete aandacht voor agressie via de telefoon.
 
 ## Herkenbare praktijksituaties
 
-- Een klant schreeuwt over een geweigerde lening
+- Een klant die schreeuwt over een geweigerde lening
 - Een wanhopige reactie op een geblokkeerde rekening
 - Telefonische dreiging en intimidatie
 - Escalerende gesprekken over schulden

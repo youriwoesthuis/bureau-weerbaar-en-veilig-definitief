@@ -42,7 +42,7 @@ veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Medewerkers van asielzoekerscentra en COA-locaties met direct bewonerscontact. Er is geen voorkennis nodig; dit is het instapniveau."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basistraining leert medewerkers asielzoekerscentra & COA-locaties agressie herkennen, de eigen reactie reguleren en situaties de-escaleren. Wie structureel met zwaardere situaties werkt, gaat daarna verder met het gevorderde niveau."
+    antwoord: "De basistraining leert medewerkers van asielzoekerscentra en COA-locaties agressie herkennen, de eigen reactie reguleren en situaties de-escaleren. Wie structureel met zwaardere situaties werkt, gaat daarna verder met het gevorderde niveau."
 gerelateerd:
   - "agressietraining-asielopvang-coa-gevorderd"
   - "agressietraining-asielopvang-coa-expert"
@@ -52,7 +52,7 @@ gerelateerd:
 
 ## Waarom deze training
 
-Bewoners van asielzoekerscentra leven in extreme onzekerheid over hun toekomst. Dat verlaagt de drempel voor agressief gedrag, en de medewerker op de vloer is het dagelijkse aanspreekpunt voor alle frustratie over het systeem.
+Bewoners van asielzoekerscentra leven in aanhoudende onzekerheid over hun toekomst. Dat verlaagt de drempel voor agressief gedrag, en de medewerker op de vloer is het dagelijkse aanspreekpunt voor alle frustratie over het systeem.
 
 De basistraining van Bureau Weerbaar en Veilig geeft medewerkers concrete handvatten, met begrip voor de context én duidelijke grenzen.
 

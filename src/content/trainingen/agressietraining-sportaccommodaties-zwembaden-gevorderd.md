@@ -43,7 +43,7 @@ veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Ervaren medewerkers die de basistraining hebben afgerond en regelmatig werken op drukke of risicovolle momenten. Voorwaarde voor deelname: afgeronde basistraining of aantoonbare werkervaring met agressie-incidenten."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basistraining behandelt het herkennen en de-escaleren van agressie in het moment. Dit gevorderde niveau richt zich op patronen die niet impulsief zijn: bewuste grensoverschrijding, manipulatie en consistent teamoptreden."
+    antwoord: "Het soort agressie. De basistraining behandelt het herkennen en de-escaleren van agressie in het moment. Dit gevorderde niveau richt zich op patronen die niet impulsief zijn: bewuste grensoverschrijding, manipulatie en consistent teamoptreden."
 gerelateerd:
   - "agressietraining-sportaccommodaties-zwembaden-basis"
   - "agressietraining-sportaccommodaties-zwembaden-expert"
@@ -53,7 +53,7 @@ gerelateerd:
 
 ## Waarom deze training
 
-Op drukke en risicovolle momenten verandert de dynamiek in een accommodatie: het gaat niet meer om één bezoeker maar om groepen, supporters en terugkerende overlastplegers.
+Op drukke en risicovolle momenten verandert de dynamiek in een accommodatie: het gaat niet meer om één bezoeker maar om groepen, supporters en terugkerende overlastplegers. Wat bij één bezoeker werkt, werkt daar meestal niet.
 
 Deze verdiepingstraining van Bureau Weerbaar en Veilig richt zich op die situaties, met de eigen locatie en bezoekerspopulatie als uitgangspunt.
 

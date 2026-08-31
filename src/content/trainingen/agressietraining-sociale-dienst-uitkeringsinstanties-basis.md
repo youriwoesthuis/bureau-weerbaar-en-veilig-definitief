@@ -40,11 +40,11 @@ werkvormen:
   - aandacht voor de morele spanning van het werk
 veelgestelde_vragen:
   - vraag: "Is er aandacht voor de morele kant van dit werk?"
-    antwoord: Ja. Grenzen stellen aan mensen die het al moeilijk hebben roept een morele spanning op. Die wordt in de training expliciet bespreekbaar gemaakt.
+    antwoord: Ja. Grenzen stellen aan mensen die het al moeilijk hebben roept een morele spanning op. De training maakt die spanning expliciet bespreekbaar.
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: Alle medewerkers bij sociale diensten en uitkeringsinstanties met direct cliëntcontact. Er is geen voorkennis nodig; dit is het instapniveau.
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basistraining leert sociale dienst & uitkeringsinstanties agressie herkennen, de eigen reactie reguleren en situaties de-escaleren. Wie structureel met zwaardere situaties werkt, gaat daarna verder met het gevorderde niveau."
+    antwoord: "De basistraining leert medewerkers agressie herkennen, de eigen reactie reguleren en situaties de-escaleren. Wie structureel met zwaardere situaties werkt, gaat daarna verder met het gevorderde niveau."
 gerelateerd:
   - "agressietraining-sociale-dienst-uitkeringsinstanties-gevorderd"
   - "agressietraining-sociale-dienst-uitkeringsinstanties-expert"
@@ -54,7 +54,7 @@ gerelateerd:
 
 ## Waarom deze training
 
-Medewerkers bij de sociale dienst werken met mensen op het moment dat die het meest kwetsbaar zijn. De emotionele druk en de agressie die daarbij komt, leiden bij deze beroepsgroep tot uitval en burn-out.
+Medewerkers bij de sociale dienst werken met mensen op momenten dat die kwetsbaar zijn. De emotionele druk en de agressie die daarbij komt, kunnen bij deze beroepsgroep tot uitval en burn-out leiden.
 
 De basistraining van Bureau Weerbaar en Veilig geeft medewerkers de kennis en vaardigheden om situaties beheersbaar te houden en professioneel te blijven werken onder die druk.
 

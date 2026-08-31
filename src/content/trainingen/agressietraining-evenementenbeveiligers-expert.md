@@ -42,7 +42,7 @@ veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Hoofden beveiliging, veiligheidsmanagers en senior beveiligers in een leidinggevende rol bij evenementen. Voorwaarde voor deelname: leidinggevende rol in de evenementenbeveiliging met aantoonbare werkervaring."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basis- en gevorderde training gaan over het eigen handelen. Dit expertniveau gaat over de organisatie: beleid, escalatiestructuur, nazorg, meldcultuur en het coachen van medewerkers."
+    antwoord: "Het perspectief. De basis- en gevorderde training gaan over het eigen handelen. Dit expertniveau gaat over de organisatie: beleid, escalatiestructuur, nazorg, meldcultuur en het coachen van medewerkers."
 gerelateerd:
   - "agressietraining-evenementenbeveiligers-basis"
   - "agressietraining-evenementenbeveiligers-gevorderd"

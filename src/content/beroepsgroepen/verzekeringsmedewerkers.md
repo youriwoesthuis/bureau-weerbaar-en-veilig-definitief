@@ -21,6 +21,6 @@ veelgestelde_vragen:
     antwoord: "Ja. Breng die gesprekken en mailwisselingen in bij de intake, dan speelt de trainingsacteur ze na en oefen je hoe je aan de telefoon rustig blijft, per e-mail begrenst en een reviewdreigement niet het besluit laat bepalen."
 ---
 
-Wie een schadeclaim afwijst, praat met iemand die twee dingen tegelijk kwijt is: het bezit én de verwachting dat de verzekering dat zou opvangen. Emotionele schade en financiële teleurstelling komen in dat gesprek samen. Vrijwel al dat contact verloopt bovendien op afstand: aan de telefoon, waar de eerste woede binnenkomt, en per e-mail, waar de toon vaak nog een slag scherper is en het dreigement met een slechte review al snel valt.
+Wie een schadeclaim afwijst, praat met iemand die twee dingen tegelijk kwijt is: het bezit én de verwachting dat de verzekering dat zou opvangen. Emotionele schade en financiële teleurstelling komen in dat gesprek samen. Vrijwel al dat contact verloopt bovendien op afstand. Aan de telefoon komt de eerste woede binnen. Per e-mail is de toon vaak nog een slag scherper en valt het dreigement met een slechte review al snel.
 
-Bij schadebehandeling speelt bovendien de fraudevraag. Een afwijzing die de klant als beschuldiging ervaart, maakt een gesprek onmiddellijk scherp. Bureau Weerbaar en Veilig traint deze groep daar specifiek op.
+Bij schadebehandeling speelt daarnaast de fraudevraag. Een afwijzing die de klant als beschuldiging ervaart, maakt een gesprek onmiddellijk scherp. Gaat het om verdriet over de schade, dan helpt erkenning. Gaat het om twijfel aan de claim, dan telt hoe je die twijfel benoemt zonder iemand weg te zetten. Bureau Weerbaar en Veilig traint deze groep daar specifiek op.

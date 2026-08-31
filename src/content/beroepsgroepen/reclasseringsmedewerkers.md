@@ -14,7 +14,7 @@ veelgestelde_vragen:
   - vraag: "Worden huisbezoeken behandeld?"
     antwoord: "Ja, inclusief veilig werken op locatie: wat je vooraf inschat, waar je gaat zitten en wanneer je een bezoek beëindigt."
   - vraag: "Hoe voer je een gesprek over voorwaarden zonder dat het klapt?"
-    antwoord: "Door de machtsdynamiek expliciet te maken in plaats van te doen alsof die er niet is. Dat is precies wat in de training geoefend wordt."
+    antwoord: "Door de machtsdynamiek expliciet te maken in plaats van te doen alsof die er niet is. Dat is precies wat je in de training oefent."
   - vraag: "Welk niveau past bij reclasseringsmedewerkers?"
     antwoord: "Basis voor nieuwe medewerkers, gevorderd voor wie zwaardere toezichten draait, expert voor teamleiders die beleid en nazorg inrichten."
   - vraag: "Cliënten dreigen soms via berichten of aan de telefoon in plaats van in het gesprek. Komt dat aan bod?"
@@ -25,4 +25,4 @@ Een reclasseringsmedewerker begeleidt iemand én houdt toezicht op diezelfde per
 
 Dat maakt de machtsdynamiek in elk gesprek voelbaar. Bureau Weerbaar en Veilig behandelt die dynamiek expliciet, samen met veilig werken bij huisbezoeken.
 
-De dreiging blijft bovendien niet binnen het gesprek of het huisbezoek. Rond een terugmelding komen er ook dreigende berichten en e-mails binnen, of een intimiderend telefoontje buiten kantooruren, en sommige cliënten zoeken de medewerker online op.
+De dreiging blijft bovendien niet binnen het gesprek of het huisbezoek. Rond een terugmelding komt er ook ander contact binnen: dreigende berichten en e-mails, een intimiderend telefoontje buiten kantooruren, en soms een cliënt die de medewerker online opzoekt.

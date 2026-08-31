@@ -15,6 +15,6 @@ veelgestelde_vragen:
     antwoord: "Ja. Klachtenprocedures en juridische dreiging komen in deze sector steeds vaker voor, en dat is een andere vorm van druk dan een verheven stem."
 ---
 
-In de financiële dienstverlening gaat elk moeilijk gesprek over geld dat iemand niet heeft, niet krijgt of kwijtraakt. Een afgewezen hypotheek, een geblokkeerde rekening, een afgewezen schadeclaim, een aanmaning: de klant staat vaak met de rug tegen de muur, en de medewerker is het gezicht van het besluit.
+In de financiële dienstverlening gaat vrijwel elk moeilijk gesprek over geld dat iemand niet heeft, niet krijgt of kwijtraakt. Een afgewezen hypotheek, een geblokkeerde rekening, een geweigerde schadeclaim, een aanmaning: de klant staat vaak met de rug tegen de muur, en de medewerker is het gezicht van het besluit.
 
-Kenmerkend voor deze sector is dat medewerkers persoonlijk verantwoordelijk worden gehouden voor beslissingen van hun organisatie. Daarbij loopt veel agressie via de telefoon en per e-mail, en steeds vaker via klachtenprocedures en juridische dreiging. Bureau Weerbaar en Veilig traint deze beroepsgroepen daarom op het brengen van slecht nieuws en op het standhouden onder juridische druk.
+Kenmerkend voor deze sector: de klant houdt de medewerker persoonlijk verantwoordelijk voor besluiten van de organisatie. Daarbij loopt veel agressie via de telefoon en per e-mail, en steeds vaker via klachtenprocedures en juridische dreiging. Bureau Weerbaar en Veilig traint deze beroepsgroepen daarom op het brengen van slecht nieuws en op het standhouden onder juridische druk.

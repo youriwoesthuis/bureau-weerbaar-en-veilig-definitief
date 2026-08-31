@@ -42,7 +42,7 @@ veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Planners, operationeel leidinggevenden en managers bij taxibedrijven met ervaring met agressie-incidenten. Voorwaarde voor deelname: leidinggevende of operationele verantwoordelijkheid voor taxichauffeurs."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basis- en gevorderde training gaan over het eigen handelen. Dit expertniveau gaat over de organisatie: beleid, escalatiestructuur, nazorg, meldcultuur en het coachen van medewerkers."
+    antwoord: "De invalshoek. De basis- en gevorderde training gaan over het eigen handelen. Dit expertniveau gaat over de organisatie: beleid, escalatiestructuur, nazorg, meldcultuur en het coachen van medewerkers."
 gerelateerd:
   - "agressietraining-taxichauffeurs-basis"
   - "agressietraining-taxichauffeurs-gevorderd"
@@ -52,7 +52,7 @@ gerelateerd:
 
 ## Waarom deze training
 
-Taxichauffeurs werken alleen en zijn afhankelijk van wat hun bedrijf heeft geregeld: het protocol, de meldweg, de nazorg en de kennis over hun juridische positie.
+Taxichauffeurs werken alleen. Wat er dan gebeurt, hangt af van wat het bedrijf heeft geregeld: het protocol, de meldweg, de nazorg en de kennis over hun juridische positie. Ligt dat alleen in een la, dan verandert het niets.
 
 Deze experttraining van Bureau Weerbaar en Veilig helpt leidinggevenden dat te organiseren, met kennis van de transportsector.
 

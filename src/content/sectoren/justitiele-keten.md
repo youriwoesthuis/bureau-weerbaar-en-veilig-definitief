@@ -17,4 +17,4 @@ veelgestelde_vragen:
 
 In de justitiële keten heeft vrijwel elke professional een dubbelrol: toezichthouder én begeleider, beveiliger én pedagoog. Die twee taken botsen op het moment dat het spannend wordt, en cliënten of jongeren voelen precies waar die spanning zit.
 
-Daarbij is de inzet groot: een terugmelding, een verlofbeslissing of een plaatsing raakt de vrijheid van iemand. Agressie is hier daarom vaker strategisch dan impulsief. Bureau Weerbaar en Veilig traint deze beroepsgroepen op dreigingsherkenning en op standhouden zonder de relatie op te geven.
+Daarbij is de inzet groot: een terugmelding, een verlofbeslissing of een plaatsing raakt iemands vrijheid. Agressie is hier daarom vaker strategisch dan impulsief. Bureau Weerbaar en Veilig traint deze beroepsgroepen op dreigingsherkenning en op standhouden zonder de relatie op te geven.

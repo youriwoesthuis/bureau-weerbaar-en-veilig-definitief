@@ -42,7 +42,7 @@ veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Accommodatiemanagers en locatieleiders in sportaccommodaties en zwembaden. Voorwaarde voor deelname: aantoonbare leidinggevende ervaring en kennis van de dynamiek op de locatie."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basis- en gevorderde training gaan over het eigen handelen. Dit expertniveau gaat over de organisatie: beleid, escalatiestructuur, nazorg, meldcultuur en het coachen van medewerkers."
+    antwoord: "De invalshoek. De basis- en gevorderde training gaan over het eigen handelen. Dit expertniveau gaat over de organisatie: beleid, escalatiestructuur, nazorg, meldcultuur en het coachen van medewerkers."
 gerelateerd:
   - "agressietraining-sportaccommodaties-zwembaden-basis"
   - "agressietraining-sportaccommodaties-zwembaden-gevorderd"
@@ -52,7 +52,7 @@ gerelateerd:
 
 ## Waarom deze training
 
-Een veilige accommodatie is pas echt gastvrij. Zolang medewerkers zonder duidelijke steun van de leiding moeten handhaven, doen zij dat inconsistent, en dat merken bezoekers.
+Een accommodatie is pas gastvrij als hij veilig is. Moeten medewerkers handhaven zonder duidelijke steun van de leiding, dan doen zij dat doorgaans inconsistent. Bezoekers merken dat.
 
 Deze experttraining van Bureau Weerbaar en Veilig richt zich daarom op normen, protocol, toegangsbeleid en meldcultuur op locatieniveau.
 

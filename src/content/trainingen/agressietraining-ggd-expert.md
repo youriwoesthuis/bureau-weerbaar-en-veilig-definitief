@@ -22,7 +22,7 @@ resultaat:
   - Beleid ontwikkelen voor online bedreigingen en intimidatiecampagnes
   - Medewerkers coachen na incidenten met structurele debriefing
   - Politieke druk vertalen naar concrete ondersteuning voor teams
-  - Samenwerken met politie en justitie bij georganiseerde weerstand
+  - Met politie en justitie samenwerken bij georganiseerde weerstand
   - De meldcultuur versterken
 programma:
   - titel: "Protocol voor solo-werkzaamheden"
@@ -41,7 +41,7 @@ werkvormen:
   - intervisie na afloop (op verzoek)
 veelgestelde_vragen:
   - vraag: "Wat doet de organisatie als een medewerker persoonlijk wordt bedreigd?"
-    antwoord: "Het ontwikkelen van beleid voor online bedreigingen en intimidatiecampagnes richting individuele medewerkers is een kernonderdeel van deze training, inclusief de samenwerking met politie en justitie."
+    antwoord: "Dat hangt af van het beleid dat er ligt. Beleid ontwikkelen voor online bedreigingen en intimidatiecampagnes richting individuele medewerkers is een kernonderdeel van deze training, inclusief de samenwerking met politie en justitie."
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Teamleiders, afdelingshoofden en managers bij de GGD en aanverwante organisaties die medewerkers aansturen in agressieve burgersituaties. Voorwaarde voor deelname: leidinggevende verantwoordelijkheid voor een team GGD-medewerkers of publieke gezondheidsprofessionals."
   - vraag: "Wat is het verschil met de andere niveaus?"
@@ -55,13 +55,13 @@ gerelateerd:
 
 ## Waarom deze training
 
-Medewerkers in de publieke gezondheidszorg worden geconfronteerd met burgers die hun legitimiteit betwisten, met georganiseerde weerstand en in het uiterste geval met persoonlijke bedreigingen. Dat is een ander veiligheidslandschap dan tien jaar geleden.
+Medewerkers in de publieke gezondheidszorg krijgen te maken met burgers die hun legitimiteit betwisten, met georganiseerde weerstand en in het uiterste geval met persoonlijke bedreigingen. Dat is een ander veiligheidslandschap dan tien jaar geleden.
 
 Deze experttraining van Bureau Weerbaar en Veilig bereidt leidinggevenden daarop voor: met protocollen voor solo-werk, beleid tegen online bedreiging en structurele nazorg voor hun mensen.
 
 ## Wat speelt er op dit niveau
 
-- Medewerkers melden agressie niet omdat zij het als onderdeel van het werk zien
+- Medewerkers melden agressie vaak niet omdat zij het als onderdeel van het werk zien
 - Er is geen helder protocol voor solo-werkzaamheden op risicovolle locaties
 - Online bedreigingen richten zich op individuele medewerkers
-- Onvoldoende ondersteuning na ernstige incidenten
+- De ondersteuning na ernstige incidenten schiet tekort

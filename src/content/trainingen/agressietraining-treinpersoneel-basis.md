@@ -42,7 +42,7 @@ veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Treinpersoneel, conducteurs en metro- en trambestuurders met direct reizigerscontact. Er is geen voorkennis nodig; dit is het instapniveau."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basistraining leert treinpersoneel & conducteurs agressie herkennen, de eigen reactie reguleren en situaties de-escaleren. Wie structureel met zwaardere situaties werkt, gaat daarna verder met het gevorderde niveau."
+    antwoord: "De diepte. De basistraining leert treinpersoneel en conducteurs agressie herkennen, de eigen reactie reguleren en situaties de-escaleren. Wie structureel met zwaardere situaties werkt, gaat daarna verder met het gevorderde niveau."
 gerelateerd:
   - "agressietraining-treinpersoneel-gevorderd"
   - "agressietraining-treinpersoneel-expert"
@@ -52,9 +52,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Medewerkers in het rail- en stadsvervoer werken in rijdende voertuigen met beperkte vluchtmogelijkheden en een hoge passagiersdichtheid. Een conflict is er direct zichtbaar voor iedereen.
+Medewerkers in het rail- en stadsvervoer werken in rijdende voertuigen met beperkte vluchtmogelijkheden en een hoge passagiersdichtheid. Weglopen kan er meestal niet. Een conflict is direct zichtbaar voor iedereen.
 
-Zonder training leidt dat tot stress en handelingsverlegenheid bij grensoverschrijdend gedrag. De basistraining van Bureau Weerbaar en Veilig geeft concrete vaardigheden voor precies die omstandigheden.
+Zonder training leidt dat vaak tot stress en handelingsverlegenheid bij grensoverschrijdend gedrag. De basistraining van Bureau Weerbaar en Veilig geeft vaardigheden voor precies die omstandigheden: signalen vroeg zien, verbaal begrenzen, en melden wat er is gebeurd.
 
 ## Herkenbare praktijksituaties
 

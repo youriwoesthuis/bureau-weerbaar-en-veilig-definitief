@@ -20,7 +20,7 @@ resultaat:
   - De emotionele context achter agressie van patiënten herkennen
   - De eigen reactie reguleren bij agressieve interacties
   - Verbaal agressief gedrag professioneel begrenzen
-  - Omgaan met patiënten met verslavingsproblematiek
+  - Patiënten met verslavingsproblematiek professioneel te woord staan
   - Moeilijke gesprekken voeren over wachttijden en weigeringen
   - Incidenten correct melden en bespreken
 programma:
@@ -54,13 +54,13 @@ gerelateerd:
 
 Apotheekmedewerkers werken met patiënten die afhankelijk zijn van hun medicatie. Die afhankelijkheid maakt de drempel voor agressief gedrag laag, zeker bij pijn, angst, psychiatrische problematiek of verslaving.
 
-Zonder voorbereiding leidt dat tot onveiligheid en verzuim. De basistraining van Bureau Weerbaar en Veilig geeft het apotheekteam concrete handvatten.
+Zonder voorbereiding leidt dat vaak tot onveiligheid en verzuim. De basistraining van Bureau Weerbaar en Veilig geeft het apotheekteam concrete handvatten.
 
 ## Herkenbare praktijksituaties
 
-- Een patiënt wordt agressief over een niet-beschikbaar recept
+- Een patiënt die agressief wordt over een niet-beschikbaar recept
 - Een klant in pijn die niet kan wachten
-- Een geweigerde herhaling die niet wordt geaccepteerd
+- Een geweigerde herhaling die de patiënt niet accepteert
 - Patiënten met verslavingsproblematiek die druk uitoefenen
 - Beschuldigingen van fouten, met dreigementen
 - Verbale agressie en intimidatie aan de balie

@@ -22,6 +22,6 @@ veelgestelde_vragen:
 
 Mbo-studenten zijn jongvolwassenen, vaak met een complexe achtergrond en een leven buiten school dat de klas binnenkomt. Een docent heeft daardoor te maken met gedrag dat verder gaat dan puberaal grenzen zoeken: bewuste intimidatie, studenten onder invloed, groepen die de docent collectief testen.
 
-Daar komt bij dat elke student een telefoon op tafel heeft. Een docent die ingrijpt wordt gefilmd, het fragment staat dezelfde dag online en de reacties komen binnen via de klassenapp. Wie dat overkomt, staat de volgende les gewoon weer voor dezelfde groep.
+Daar komt bij dat elke student een telefoon op tafel heeft. Grijpt een docent in, dan gaat er soms een telefoon omhoog. Het fragment staat dezelfde dag online en de reacties komen binnen via de klassenapp. Wie dat overkomt, staat de volgende les gewoon weer voor dezelfde groep.
 
 Bureau Weerbaar en Veilig traint mbo-docenten met trainers die de sector kennen, op basis van situaties uit de eigen instelling.

@@ -47,7 +47,7 @@ const verschillen = [
     niveau: 'expert',
     kop: 'Oefenen met trainingsacteurs',
     tekst:
-      'De situaties komen uit de praktijk van de deelnemers zelf. Er wordt geoefend tot het gedrag zit, niet tot de theorie is uitgelegd.',
+      'De situaties komen uit de praktijk van de deelnemers zelf. Je oefent tot het gedrag zit, niet tot de theorie is uitgelegd.',
   },
   {
     icoon: 'ladder' as const,
@@ -78,7 +78,7 @@ const ingangen = [
   {
     icoon: 'beleid' as const,
     niveau: 'expert',
-    kop: 'Ik moet beleid vastleggen',
+    kop: 'We moeten beleid vastleggen',
     tekst: 'Teamnorm, meldingsbereidheid, nazorg en borging. Dat is waar niveau expert over gaat.',
     link: pad('/niveaus/expert/'),
     linktekst: 'Bekijk niveau expert',
@@ -86,7 +86,7 @@ const ingangen = [
   {
     icoon: 'vinkje' as const,
     niveau: 'basis',
-    kop: 'Ik weet niet welk niveau past',
+    kop: 'Welk niveau past bij ons?',
     tekst: 'Drie vragen over het team en de aanleiding, en je weet welke richting het op gaat.',
     link: '#niveauhulp',
     linktekst: 'Naar de keuzehulp',
@@ -319,8 +319,8 @@ const praktisch = [
         <p class="bovenkop">Keuzehulp</p>
         <h2>Welk niveau past bij je team?</h2>
         <p class="inleiding">
-          Drie vragen. De uitkomst verschijnt meteen: er wordt niets
-          verstuurd en u hoeft niets in te vullen.
+          Drie vragen. De uitkomst verschijnt meteen: je vult niets in
+          en er wordt niets verstuurd.
         </p>
       </div>
       <Keuzehulp />
@@ -334,7 +334,7 @@ const praktisch = [
         <p class="bovenkop">Hoe wij werken</p>
         <h2>Een training is geen dag, maar een stap</h2>
         <p class="inleiding">
-          Bureau Weerbaar en Veilig werkt in de cyclus die u zelf ook gebruikt
+          Bureau Weerbaar en Veilig werkt in de cyclus die je zelf ook gebruikt
           bij verbeteren: plan, do, check, act. Daarom staan er drie niveaus.
           Na afloop begint de cyclus opnieuw, een stap hoger.
         </p>
@@ -385,7 +385,7 @@ const praktisch = [
         <p class="inleiding">
           Trainen is één ding; er iets mee doen is een tweede. Deze vier stappen
           bepalen of een incident iets verandert of alleen iets kost, met per
-          stap de plek waar het in de praktijk vastloopt.
+          stap de plek waar het in de praktijk vaak vastloopt.
         </p>
       </div>
       <MeldingNaarNorm />

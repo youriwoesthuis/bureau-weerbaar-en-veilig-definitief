@@ -43,7 +43,7 @@ veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Leerplichtambtenaren met basisvaardigheden die werken met gezinnen met complexe problematiek en hardnekkig verzuim. Voorwaarde voor deelname: afgeronde basistraining of aantoonbare werkervaring met complexe agressiesituaties in het leerplichtwerk."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basistraining behandelt het herkennen en de-escaleren van agressie in het moment. Dit gevorderde niveau richt zich op patronen die niet impulsief zijn: bewuste grensoverschrijding, manipulatie en consistent teamoptreden."
+    antwoord: "Het soort agressie. De basistraining behandelt het herkennen en de-escaleren van agressie in het moment. Dit gevorderde niveau richt zich op patronen die niet impulsief zijn: bewuste grensoverschrijding, manipulatie en consistent teamoptreden."
 gerelateerd:
   - "agressietraining-leerplichtambtenaren-basis"
   - "agressietraining-leerplichtambtenaren-expert"

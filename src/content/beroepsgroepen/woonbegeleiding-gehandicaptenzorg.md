@@ -19,6 +19,6 @@ veelgestelde_vragen:
     antwoord: "Basis voor alle begeleiders. Gevorderd voor wie de basis beheerst en met langdurig opgebouwde spanning of complexe casuïstiek werkt. Expert voor de teamleider of gedragsdeskundige die de teamafspraken borgt."
 ---
 
-Op een woongroep in de gehandicaptenzorg is agressie meestal geen kwade wil maar een communicatieprobleem: een cliënt die geen woorden heeft voor wat hem overkomt, reageert met zijn lichaam. Begeleiders moeten dat gedrag begrijpen en tegelijk hun eigen veiligheid bewaken.
+Op een woongroep in de gehandicaptenzorg is agressie meestal geen kwade wil maar een communicatieprobleem: een cliënt die geen woorden heeft voor wat hem overkomt, reageert met zijn lichaam. Begeleiders moeten dat gedrag begrijpen en tegelijk hun eigen veiligheid bewaken. Dat is geen keuze tussen twee dingen.
 
-Wat het extra complex maakt, is de groep. Eén cliënt die ontregelt kan een hele woongroep meenemen, en spanningen bouwen zich over dagen op. Bureau Weerbaar en Veilig traint begeleiders daarom niet alleen op individueel gedrag, maar ook op groeps- en teamdynamiek.
+Wat het extra complex maakt, is de groep. Eén cliënt die ontregelt kan een hele woongroep meenemen, en spanningen bouwen zich over dagen op. Zit het bij één cliënt, dan gaat het om zijn gedrag. Zit het in de woning, dan gaat het om de afspraken van het team. Bureau Weerbaar en Veilig traint begeleiders daarom niet alleen op individueel gedrag, maar ook op groeps- en teamdynamiek.

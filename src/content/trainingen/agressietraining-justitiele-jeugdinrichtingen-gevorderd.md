@@ -54,7 +54,7 @@ gerelateerd:
 
 Sommige agressie in een jeugdinrichting is niet impulsief maar strategisch: gedrag dat een doel dient, of dat status oplevert binnen de groep.
 
-Deze verdiepingstraining van Bureau Weerbaar en Veilig vraagt om vaardigheden voorbij basiscommunicatie, met expliciete aandacht voor wat dit werk emotioneel van medewerkers vraagt.
+Deze verdiepingstraining van Bureau Weerbaar en Veilig richt zich op vaardigheden voorbij de basiscommunicatie, met expliciete aandacht voor wat dit werk emotioneel van medewerkers vraagt.
 
 ## Herkenbare praktijksituaties
 

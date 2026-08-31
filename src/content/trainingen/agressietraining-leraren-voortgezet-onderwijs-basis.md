@@ -44,7 +44,7 @@ veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: Alle leraren en onderwijsmedewerkers in het voortgezet onderwijs met direct contact met leerlingen en ouders. Er is geen voorkennis nodig; dit is het instapniveau.
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basistraining leert leraren voortgezet onderwijs agressie herkennen, de eigen reactie reguleren en situaties de-escaleren. Wie structureel met zwaardere situaties werkt, gaat daarna verder met het gevorderde niveau."
+    antwoord: "De zwaarte van de situaties. De basistraining leert leraren voortgezet onderwijs agressie herkennen, de eigen reactie reguleren en situaties de-escaleren. Wie structureel met zwaardere situaties werkt, gaat daarna verder met het gevorderde niveau."
 gerelateerd:
   - "agressietraining-leraren-voortgezet-onderwijs-gevorderd"
   - "agressietraining-leraren-voortgezet-onderwijs-expert"
@@ -54,9 +54,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Zonder concrete training weten leraren niet altijd hoe zij grensoverschrijdend gedrag effectief begrenzen. Het gevolg is gezagsverlies en een klas die structureel moeilijker te sturen is.
+Zonder concrete training weten leraren niet altijd hoe zij grensoverschrijdend gedrag effectief begrenzen. Het gevolg is vaak gezagsverlies en een klas die structureel moeilijker te sturen is.
 
-De basistraining van Bureau Weerbaar en Veilig geeft leraren praktische handvatten om rustig en duidelijk te blijven, ook als de hele klas meekijkt.
+De basistraining van Bureau Weerbaar en Veilig geeft leraren praktische handvatten: rustig blijven, duidelijk begrenzen en de-escaleren voordat het fysiek wordt, ook als de hele klas meekijkt.
 
 ## Herkenbare praktijksituaties
 

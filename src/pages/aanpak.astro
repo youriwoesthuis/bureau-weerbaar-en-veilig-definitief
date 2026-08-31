@@ -32,7 +32,7 @@ const uitgangspunten = [
     icoon: 'oefenen' as const,
     kop: 'Oefenen boven uitleggen',
     tekst:
-      'Weten wat je moet doen en het kunnen doen terwijl iemand tegen je schreeuwt, zijn twee verschillende dingen. Daarom ligt het zwaartepunt op oefenen.',
+      'Weten wat je moet doen is iets anders dan het doen terwijl iemand tegen je schreeuwt. Daarom ligt het zwaartepunt op oefenen.',
   },
   {
     icoon: 'signaleren' as const,
@@ -66,21 +66,21 @@ const vragen = [
   {
     vraag: 'Werken jullie met trainingsacteurs?',
     antwoord:
-      'Ja, standaard. Een trainingsacteur speelt bij elke training mee. Die zet een situatie precies zo neer als een deelnemer hem kent, en een oefengesprek kan in het moment worden stilgezet en bijgestuurd: dezelfde situatie opnieuw, met andere keuzes.',
+      'Ja, standaard. Een trainingsacteur speelt bij elke training mee. Die zet een situatie precies zo neer als een deelnemer hem kent, en we kunnen een oefengesprek in het moment stilzetten en bijsturen: dezelfde situatie opnieuw, met andere keuzes.',
   },
   {
     vraag: 'Kan de training bij ons op locatie?',
     antwoord:
-      'Ja, en anders niet. De trainingen worden altijd incompany gegeven, bij jullie op locatie, in heel Nederland. Dat is geen praktische keuze maar een inhoudelijke: er wordt geoefend in de ruimte waar het werk gebeurt.',
+      'Ja, en anders niet. We geven de trainingen altijd incompany, bij jullie op locatie, in heel Nederland. Dat is geen praktische keuze maar een inhoudelijke: je oefent in de ruimte waar het werk gebeurt.',
   },
   {
     vraag: 'Krijgen deelnemers een certificaat?',
-    antwoord: `Deelnemers ontvangen na afloop een ${FEITEN.certificaat}. Dat is geen wettelijk erkend diploma, maar een bewijs van deelname dat organisaties kunnen opnemen in het eigen opleidingsdossier.`,
+    antwoord: `Ja. Deelnemers ontvangen na afloop een ${FEITEN.certificaat}. Dat is geen wettelijk erkend diploma, maar een bewijs van deelname dat organisaties kunnen opnemen in het eigen opleidingsdossier.`,
   },
   {
     vraag: 'Wat kost een training?',
     antwoord:
-      'Er staat geen prijs op de site, omdat elke aanvraag anders is. Wat de prijs bepaalt: het aantal groepen, het niveau, de reisafstand en de omvang van het traject. De trainingsacteur niet: die zit er standaard bij.',
+      'Dat hangt af van de aanvraag. Er staat daarom geen prijs op de site. Wat de prijs bepaalt: het aantal groepen, het niveau, de reisafstand en de omvang van het traject. De trainingsacteur niet: die zit er standaard bij.',
   },
   // De vragen hieronder zijn de bezwaren die kopers volgens het
   // concurrentieonderzoek wél hebben en die op geen van de negen onderzochte
@@ -88,17 +88,17 @@ const vragen = [
   {
     vraag: 'Blijft er na drie weken nog iets van over?',
     antwoord:
-      'Dat is de terechte zorg bij één trainingsdag: als er daarna niets gebeurt, verandert er ook niets. Daarom eindigt elke training met afspraken die het team zelf maakt, en gaat niveau expert juist over wat de organisatie eromheen doet: melden, nabespreken en de norm vasthouden. Op verzoek volgt enkele weken later een terugkombijeenkomst om na te gaan wat er in de praktijk van terecht is gekomen.',
+      'Alleen als er daarna iets gebeurt. Dat is de terechte zorg bij één trainingsdag: als er daarna niets gebeurt, verandert er ook niets. Daarom eindigt elke training met afspraken die het team zelf maakt, en gaat niveau expert juist over wat de organisatie eromheen doet: melden, nabespreken en de norm vasthouden. Op verzoek volgt enkele weken later een terugkombijeenkomst om na te gaan wat er in de praktijk van terecht is gekomen.',
   },
   {
     vraag: 'Is oefenen met een acteur niet te heftig voor mensen die al iets hebben meegemaakt?',
     antwoord:
-      'Een oefengesprek kan op elk moment worden stilgezet, bijgestuurd en opnieuw gedaan. De acteur voert de druk niet op tot het onhoudbaar wordt: het doel is dat iemand iets kan uitproberen, niet dat iemand het zwaar krijgt. Wat een team recent heeft meegemaakt, hoort in de intake thuis. Dat bepaalt mede hoe de dag wordt opgebouwd.',
+      'Nee. We kunnen een oefengesprek op elk moment stilzetten, bijsturen en opnieuw doen. De acteur voert de druk niet op tot het onhoudbaar wordt: het doel is dat iemand iets kan uitproberen, niet dat iemand het zwaar krijgt. Wat een team recent heeft meegemaakt, hoort in de intake thuis. Dat bepaalt mede hoe de dag wordt opgebouwd.',
   },
   {
     vraag: 'Wij hebben al een agressieprotocol. Wat voegt een training dan toe?',
     antwoord:
-      'Dan is er iets om op te oefenen. In de training wordt het eigen protocol gebruikt: wat staat erin, wat betekent dat in een gesprek, en waar loopt het in de praktijk vast. Een protocol dat niemand kent verandert niets; een protocol dat geoefend is wel.',
+      'Dan is er iets om op te oefenen. In de training gebruiken we het eigen protocol: wat staat erin, wat betekent dat in een gesprek, en waar loopt het in de praktijk vast. Een protocol dat niemand kent verandert niets; een protocol dat geoefend is wel.',
   },
   {
     vraag: 'Hoe vaak moet je een agressietraining herhalen?',
@@ -207,9 +207,9 @@ const vragen = [
             <span class="acteur-icoon"><Icoon naam="grens" breedte={20} /></span>
             <span>
               <strong>Stilzetten, bijsturen, opnieuw.</strong>
-              Een oefengesprek kan in het moment worden stilgezet en
-              bijgestuurd, zodat een deelnemer op eigen tempo oefent in plaats
-              van meteen in het diepe te vallen.
+              We zetten een oefengesprek in het moment stil en sturen bij,
+              zodat een deelnemer op eigen tempo oefent in plaats van meteen
+              in het diepe te vallen.
             </span>
           </li>
           <li>

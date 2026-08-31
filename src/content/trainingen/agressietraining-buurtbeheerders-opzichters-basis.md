@@ -40,7 +40,7 @@ veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: Buurtbeheerders en opzichters met direct huurderscontact in de buurt. Er is geen voorkennis nodig; dit is het instapniveau.
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basistraining leert buurtbeheerders & opzichters agressie herkennen, de eigen reactie reguleren en situaties de-escaleren. Wie structureel met zwaardere situaties werkt, gaat daarna verder met het gevorderde niveau."
+    antwoord: "De basistraining leert buurtbeheerders en opzichters agressie herkennen, de eigen reactie reguleren en situaties de-escaleren. Wie structureel met zwaardere situaties werkt, gaat daarna verder met het gevorderde niveau."
 gerelateerd:
   - "agressietraining-buurtbeheerders-opzichters-gevorderd"
   - "agressietraining-buurtbeheerders-opzichters-expert"
@@ -52,7 +52,7 @@ gerelateerd:
 
 Buurtbeheerders werken zonder de bescherming van een balie of kantoor, direct in de openbare ruimte. Zij zijn zichtbaar en herkenbaar, en spreken mensen aan in hun eigen omgeving.
 
-Zonder training leidt dat tot onveilige situaties en handelingsverlegenheid. De basistraining van Bureau Weerbaar en Veilig is toegespitst op precies die huurderscontext.
+Zonder training leidt dat vaak tot onveilige situaties en handelingsverlegenheid. De basistraining van Bureau Weerbaar en Veilig is toegespitst op precies die context: het huurderscontact, de woninginspectie en het buurtconflict.
 
 ## Herkenbare praktijksituaties
 

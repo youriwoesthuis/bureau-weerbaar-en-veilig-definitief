@@ -42,7 +42,7 @@ veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Teamleiders, zorgcoördinatoren en senior leraren in het mbo die het gedragsbeleid willen versterken en het team willen coachen. Voorwaarde voor deelname: leidinggevende of coördinerende functie met aantoonbare werkervaring met gedragsincidenten."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basis- en gevorderde training gaan over het eigen handelen. Dit expertniveau gaat over de organisatie: beleid, escalatiestructuur, nazorg, meldcultuur en het coachen van medewerkers."
+    antwoord: "De invalshoek. De basis- en gevorderde training gaan over het eigen handelen. Dit expertniveau gaat over de organisatie: beleid, escalatiestructuur, nazorg, meldcultuur en het coachen van medewerkers."
 gerelateerd:
   - "agressietraining-leraren-mbo-basis"
   - "agressietraining-leraren-mbo-gevorderd"

@@ -41,7 +41,7 @@ veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: Medewerkers klantcontact en woonconsulenten met direct huurderscontact. Er is geen voorkennis nodig; dit is het instapniveau.
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basistraining leert woonconsulenten & klantcontact agressie herkennen, de eigen reactie reguleren en situaties de-escaleren. Wie structureel met zwaardere situaties werkt, gaat daarna verder met het gevorderde niveau."
+    antwoord: "De zwaarte. De basistraining leert woonconsulenten en medewerkers klantcontact agressie herkennen, de eigen reactie reguleren en situaties de-escaleren. Wie structureel met zwaardere situaties werkt, gaat daarna verder met het gevorderde niveau."
 gerelateerd:
   - "agressietraining-woonconsulenten-klantcontact-gevorderd"
   - "agressietraining-woonconsulenten-klantcontact-expert"
@@ -51,9 +51,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Huurders ervaren woonproblemen als een existentieel belang. De combinatie van afhankelijkheid en emotionele intensiteit maakt de drempel voor agressie laag.
+Huurders ervaren woonproblemen doorgaans als een existentieel belang. De combinatie van afhankelijkheid en emotionele intensiteit maakt de drempel voor agressie laag.
 
-Het gevolg is dat medewerkers dossiers gaan vermijden en dat het verzuim stijgt. De basistraining van Bureau Weerbaar en Veilig richt zich daarop, met respect voor de langdurige relatie met de huurder.
+Het gevolg is vaak dat medewerkers dossiers gaan vermijden en dat het verzuim stijgt. De basistraining van Bureau Weerbaar en Veilig richt zich daarop, met respect voor de langdurige relatie met de huurder.
 
 ## Herkenbare praktijksituaties
 

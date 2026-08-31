@@ -51,14 +51,14 @@ gerelateerd:
 
 ## Waarom deze training
 
-Agressie is in het maatschappelijk werk structureel. De grootste belemmering is echter niet de agressie zelf maar de beroepscultuur: melden voelt als falen, en grensvervaging heet betrokkenheid.
+Agressie is in het maatschappelijk werk structureel. De grootste belemmering is vaak niet de agressie zelf maar de beroepscultuur: melden voelt als falen, en grensvervaging heet betrokkenheid.
 
 Deze experttraining van Bureau Weerbaar en Veilig helpt leidinggevenden beleid te maken dat zowel de veiligheid van medewerkers als de hulpverleningsmissie borgt.
 
 ## Wat speelt er op dit niveau
 
 - Medewerkers melden agressie-incidenten niet omdat het voelt als falen
-- Grensvervaging wordt niet herkend als veiligheidsrisico
+- Grensvervaging geldt als betrokkenheid, niet als veiligheidsrisico
 - Er is geen structureel beleid voor veiligheid bij huisbezoeken
 - Debriefing na ernstige incidenten ontbreekt
 - Het agressieprotocol sluit niet aan op de hulpverleningsnormen

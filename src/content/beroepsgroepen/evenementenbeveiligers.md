@@ -13,7 +13,7 @@ veelgestelde_vragen:
   - vraag: "Komt het opschalingsmoment aan bod?"
     antwoord: "Ja. Een duidelijk moment om op te schalen (en de afspraak wie dat bepaalt) is een van de kernonderwerpen voor deze groep."
   - vraag: "Bezoekers zijn vaak onder invloed. Verandert dat wat werkt?"
-    antwoord: "Ja. Bij intoxicatie werkt uitleggen en redeneren minder goed, en dat vraagt eerder en duidelijker handelen. Dat verschil wordt expliciet geoefend."
+    antwoord: "Ja. Bij intoxicatie werken uitleggen en redeneren minder goed, en dat vraagt eerder en duidelijker handelen. Dat verschil oefenen we expliciet."
   - vraag: "Welk niveau past bij evenementenbeveiligers?"
     antwoord: "Basis voor nieuwe beveiligers, gevorderd voor wie op grote of risicovolle evenementen werkt, expert voor coördinatoren die de opschalingsstructuur vastleggen."
   - vraag: "Wordt er ook geoefend met bezoekers die filmen?"

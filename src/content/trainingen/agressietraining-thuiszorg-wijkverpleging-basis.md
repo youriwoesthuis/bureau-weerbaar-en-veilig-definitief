@@ -57,7 +57,7 @@ gerelateerd:
 
 Thuiszorgmedewerkers werken alleen in de woning van een cliënt. Er is geen balie tussen hen en de ander, geen collega die meekijkt en geen achterwacht om de hoek. Die kwetsbaarheid maakt agressie in de thuiszorg wezenlijk anders dan agressie in een instelling.
 
-Zonder concrete training leidt dat tot handelingsverlegenheid en hoog verzuim. De basistraining van Bureau Weerbaar en Veilig geeft medewerkers de vaardigheden om situaties beheersbaar te houden, inclusief het besluit om weg te gaan.
+Zonder concrete training leidt dat vaak tot handelingsverlegenheid en hoog verzuim. De basistraining van Bureau Weerbaar en Veilig geeft medewerkers de vaardigheden om situaties beheersbaar te houden, inclusief het besluit om weg te gaan.
 
 ## Herkenbare praktijksituaties
 

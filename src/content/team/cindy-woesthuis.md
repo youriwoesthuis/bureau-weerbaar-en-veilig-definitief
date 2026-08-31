@@ -8,7 +8,7 @@ linkedin: https://www.linkedin.com/in/cindy-woesthuis-620998332/
 volgorde: 2
 ---
 
-Cindy legt door haar luistervermogen snel verbinding en durft de vinger op
+Cindy luistert goed en legt daardoor snel verbinding. Ze durft de vinger op
 de zere plek te leggen. Haar achtergrond als verpleegkundige helpt daarbij:
-zij kent de werkvloer waar veel van onze deelnemers vandaan komen, en weet
-wat een incident met een team doet.
+zij kent de werkvloer waar veel deelnemers vandaan komen, en weet wat een
+incident met een team doet.

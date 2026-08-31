@@ -42,7 +42,7 @@ veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Alle uitvaartmedewerkers, uitvaartverzorgers en medewerkers met direct contact met nabestaanden. Er is geen voorkennis nodig; dit is het instapniveau."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basistraining leert uitvaartmedewerkers & begrafenisondernemers agressie herkennen, de eigen reactie reguleren en situaties de-escaleren. Wie structureel met zwaardere situaties werkt, gaat daarna verder met het gevorderde niveau."
+    antwoord: "De diepte. De basistraining leert uitvaartmedewerkers en begrafenisondernemers agressie herkennen, de eigen reactie reguleren en situaties de-escaleren. Wie structureel met zwaardere situaties werkt, gaat daarna verder met het gevorderde niveau."
 gerelateerd:
   - "agressietraining-uitvaartmedewerkers-gevorderd"
   - "agressietraining-uitvaartmedewerkers-expert"
@@ -52,7 +52,7 @@ gerelateerd:
 
 ## Waarom deze training
 
-Nabestaanden zijn in acute rouw en emotioneel kwetsbaar op het moment dat zij met de uitvaartverzorger aan tafel zitten. Die instabiliteit vergroot het risico op agressie aanzienlijk.
+Nabestaanden zitten bij de uitvaartverzorger aan tafel op een moment van acute rouw. Verdriet, schuldgevoel en machteloosheid slaan dan soms om in woede. Dat vergroot het risico op agressie.
 
 De basistraining van Bureau Weerbaar en Veilig leert medewerkers die dynamiek te herkennen en te hanteren, met behoud van de zorgrelatie die dit vak vraagt.
 

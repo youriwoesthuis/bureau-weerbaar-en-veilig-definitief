@@ -19,10 +19,10 @@ samenvatting: >-
   omstanders.
 resultaat:
   - Agressiesignalen lezen bij aankomst op een meldlocatie die je niet vooraf kunt inschatten
-  - Rustig en professioneel blijven tijdens medische handelingen onder dreiging
+  - De eigen reactie reguleren tijdens medische handelingen onder dreiging
   - Gedrag begrenzen bij geïntoxiceerde patiënten en tegenwerkende familieleden
   - Bemoeiende omstanders terugbrengen zonder de zorg te onderbreken
-  - "Handelen bij een patiënt in psychiatrische crisis, met behoud van de eigen veiligheid"
+  - "Een patiënt in psychiatrische crisis benaderen met behoud van de eigen veiligheid"
   - Incidenten melden en nabespreken volgens het agressieprotocol
 programma:
   - titel: Agressie ter plaatse herkennen
@@ -43,7 +43,7 @@ veelgestelde_vragen:
   - vraag: Voor wie is deze training bedoeld?
     antwoord: Voor alle ambulancemedewerkers met direct patiëntcontact. Er is geen voorkennis nodig; dit is het instapniveau.
   - vraag: Komen omstanders en familieleden ook aan bod?
-    antwoord: Ja. Agressie komt in de ambulancezorg vaak niet van de patiënt zelf maar van familieleden die de hulpverlening tegenwerken of omstanders die zich bemoeien. Beide situaties worden geoefend.
+    antwoord: Ja. Agressie komt in de ambulancezorg vaak niet van de patiënt zelf maar van familieleden die de hulpverlening tegenwerken of omstanders die zich bemoeien. Beide situaties oefen je in de training.
 gerelateerd:
   - agressietraining-ambulancemedewerkers-gevorderd
   - agressietraining-ambulancemedewerkers-expert
@@ -59,7 +59,7 @@ een patiënt onder invloed, familie in paniek, omstanders die zich ermee bemoeie
 
 De basistraining van Bureau Weerbaar en Veilig geeft ambulancemedewerkers
 concrete vaardigheden om die situaties te beheersen. Dat verhoogt de veiligheid
-en vermindert verzuim na incidenten.
+en vermindert doorgaans het verzuim na incidenten.
 
 ## Herkenbare praktijksituaties
 

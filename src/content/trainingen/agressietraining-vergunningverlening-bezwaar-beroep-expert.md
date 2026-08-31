@@ -42,7 +42,7 @@ veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Teamleiders, afdelingshoofden en managers bij gemeentelijke en regionale uitvoeringsorganisaties die verantwoordelijk zijn voor veiligheid. Voorwaarde voor deelname: leidinggevende verantwoordelijkheid voor een team medewerkers vergunningverlening of bezwaar en beroep."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basis- en gevorderde training gaan over het eigen handelen. Dit expertniveau gaat over de organisatie: beleid, escalatiestructuur, nazorg, meldcultuur en het coachen van medewerkers."
+    antwoord: "Het perspectief. De basis- en gevorderde training gaan over het eigen handelen. Dit expertniveau gaat over de organisatie: beleid, escalatiestructuur, nazorg, meldcultuur en het coachen van medewerkers."
 gerelateerd:
   - "agressietraining-vergunningverlening-bezwaar-beroep-basis"
   - "agressietraining-vergunningverlening-bezwaar-beroep-gevorderd"
@@ -54,12 +54,12 @@ gerelateerd:
 
 Medewerkers vergunningverlening nemen beslissingen met grote gevolgen. De verantwoordelijkheid voor hun veiligheid begint bij de organisatie: een helder protocol, goede voorbereiding en steun als de druk oploopt.
 
-Deze experttraining van Bureau Weerbaar en Veilig richt zich op die organisatieverantwoordelijkheid, inclusief het afschermen van politieke druk.
+Deze experttraining van Bureau Weerbaar en Veilig richt zich op die organisatieverantwoordelijkheid, inclusief het afschermen van politieke druk. Dat is beleidswerk, geen gespreksoefening.
 
 ## Wat speelt er op dit niveau
 
-- Agressie via telefoon en e-mail wordt niet structureel gemeld
+- Meldingen van agressie via telefoon en e-mail blijven uit
 - Voorbereiding en nazorg bij risicodossiers ontbreken
-- Onvoldoende ondersteuning na ernstige incidenten
-- Politieke druk wordt van bestuur naar medewerker doorgeschoven
-- Er is geen beleid voor structureel grensoverschrijdend gedrag
+- Ondersteuning na ernstige incidenten schiet tekort
+- Het bestuur schuift politieke druk door naar de medewerker
+- Beleid voor structureel grensoverschrijdend gedrag ontbreekt

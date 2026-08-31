@@ -39,7 +39,7 @@ werkvormen:
   - expliciete aandacht voor de professionele norm van nabijheid
 veelgestelde_vragen:
   - vraag: "Botst grenzen stellen niet met de hulpverleningsrelatie?"
-    antwoord: "Dat is precies de spanning die deze training behandelt. Grenzen stellen kan juist bijdragen aan een werkbare relatie: de professionele norm van nabijheid komt expliciet aan bod."
+    antwoord: "Dat hoeft niet. Grenzen stellen kan juist bijdragen aan een werkbare relatie. Die spanning is precies wat deze training behandelt: de professionele norm van nabijheid komt expliciet aan bod."
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: Alle maatschappelijk werkers met direct cliëntcontact. Er is geen voorkennis nodig; dit is het instapniveau.
   - vraag: "Wat is het verschil met de andere niveaus?"
@@ -55,7 +55,7 @@ gerelateerd:
 
 Maatschappelijk werkers werken met kwetsbare mensen bij wie agressie soms de enige beschikbare communicatievorm is. Dat vraagt begrip én de vaardigheid om te begrenzen.
 
-Zonder training ontstaat handelingsverlegenheid en op termijn burn-out. De basistraining van Bureau Weerbaar en Veilig geeft hulpverleners daarom concrete handvatten, met erkenning van de beroepsnorm van nabijheid.
+Zonder training ontstaat vaak handelingsverlegenheid, en op termijn burn-out. De basistraining van Bureau Weerbaar en Veilig geeft hulpverleners daarom concrete handvatten, met erkenning van de beroepsnorm van nabijheid.
 
 ## Herkenbare praktijksituaties
 

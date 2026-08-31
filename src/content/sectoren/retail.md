@@ -12,17 +12,17 @@ veelgestelde_vragen:
   - vraag: "Waarom trainen jullie per functie en niet de hele winkel tegelijk?"
     antwoord: "Omdat de werkplek de opties bepaalt. Wie aan de kassa vastzit heeft andere mogelijkheden dan wie tussen de schappen loopt, en een filiaalmanager heeft weer een andere taak."
   - vraag: "Werken de trainingen met rollenspellen?"
-    antwoord: "Er wordt geoefend met herkenbare winkelsituaties, praktijkgericht en op basis van wat er in jullie filialen werkelijk gebeurt. Naïeve rollenspellen leveren voor deze sector niets op."
+    antwoord: "Ja, maar niet met naïeve rollenspellen. We oefenen met herkenbare winkelsituaties, op basis van wat er in jullie filialen werkelijk gebeurt. Wat dat oplevert, hangt af van hoe open een team over die situaties praat."
 ---
 
 Winkels zijn open, publiek toegankelijke ruimten zonder fysieke barrières.
 Medewerkers helpen klanten, vullen vakken en grijpen in bij winkeldiefstal,
 vaak alleen in hun deel van de winkel. Agressie komt hier zelden uit het niets:
-een geweigerde korting, een aangesproken dief, een lange rij. Zonder training
-ontstaan vermijdingsgedrag, hoog verloop en de gedachte dat grensoverschrijdend
-gedrag "er nu eenmaal bij hoort".
+een geweigerde korting, een aangesproken dief, een lange rij. Blijft training
+uit, dan ontstaan vermijdingsgedrag, hoog verloop en de gedachte dat
+grensoverschrijdend gedrag "er nu eenmaal bij hoort".
 
 Bureau Weerbaar en Veilig traint retailteams per functie: de winkelvloer, de
 kassa en balie, en de leidinggevenden die moeten ingrijpen én hun team opvangen.
 Elke training werkt met herkenbare winkelsituaties: praktijkgericht, zonder
-naïeve rollenspellen.
+naïeve rollenspellen. Wat er op de vloer speelt, verschilt meestal per filiaal.

@@ -44,7 +44,7 @@ veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Alle medewerkers vergunningverlening, bezwaar en beroep en juridische zaken met direct klantcontact. Er is geen voorkennis nodig; dit is het instapniveau."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basistraining leert vergunningverlening & bezwaar en beroep agressie herkennen, de eigen reactie reguleren en situaties de-escaleren. Wie structureel met zwaardere situaties werkt, gaat daarna verder met het gevorderde niveau."
+    antwoord: "De zwaarte. De basistraining leert medewerkers vergunningverlening en bezwaar en beroep agressie herkennen, de eigen reactie reguleren en situaties de-escaleren. Wie structureel met zwaardere situaties werkt, gaat daarna verder met het gevorderde niveau."
 gerelateerd:
   - "agressietraining-vergunningverlening-bezwaar-beroep-gevorderd"
   - "agressietraining-vergunningverlening-bezwaar-beroep-expert"
@@ -54,14 +54,14 @@ gerelateerd:
 
 ## Waarom deze training
 
-Medewerkers vergunningverlening nemen beslissingen met grote gevolgen voor burgers en ondernemers. Een afwijzing kan een investering of bouwplan onderuit halen, en dat verhoogt de spanning in elk gesprek.
+Medewerkers vergunningverlening nemen beslissingen met grote gevolgen voor burgers en ondernemers. Een afwijzing kan een investering of een bouwplan onderuit halen. Dan loopt de spanning in het gesprek meestal op.
 
-De basistraining van Bureau Weerbaar en Veilig voorkomt handelingsverlegenheid en hoog verloop, met de nadruk op hoe je een negatief besluit brengt.
+De basistraining van Bureau Weerbaar en Veilig helpt handelingsverlegenheid en hoog verloop te voorkomen. De nadruk ligt op hoe je een negatief besluit brengt: aan de balie, aan de telefoon en per e-mail.
 
 ## Herkenbare praktijksituaties
 
 - Agressieve reacties op een geweigerde vergunning met grote financiële gevolgen
 - Bezwaarmakers die medewerkers persoonlijk aansprakelijk stellen
-- Dreigen met media, politieke druk of juridische stappen
+- Dreigementen met media, politieke druk of juridische stappen
 - Verbale intimidatie via telefoon of e-mail
 - Herhaald escalerend contact van dezelfde aanvrager

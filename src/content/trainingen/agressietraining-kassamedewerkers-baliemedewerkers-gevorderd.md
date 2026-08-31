@@ -43,9 +43,9 @@ veelgestelde_vragen:
   - vraag: Voor wie is de gevorderde agressietraining voor kassamedewerkers bedoeld?
     antwoord: "Voor kassa- en baliemedewerkers die een basistraining hebben gevolgd en regelmatig te maken hebben met complexe of herhaalde agressie-incidenten: vooral in drukke vestigingen of gebieden met een hoog incidentcijfer."
   - vraag: Is een basistraining verplicht?
-    antwoord: Ja, een afgeronde basistraining is de voorwaarde voor deelname.
+    antwoord: Ja. Een afgeronde basistraining is de voorwaarde voor deelname.
   - vraag: Wat is het verschil met de basistraining?
-    antwoord: De basistraining behandelt het herkennen en de-escaleren van agressie in het moment. Dit gevorderde niveau richt zich op bewuste, herhaalde grensoverschrijding, manipulatie en bekende probleemklanten, en op consistent teamgedrag.
+    antwoord: Het soort agressie. De basistraining behandelt het herkennen en de-escaleren van agressie in het moment. Dit gevorderde niveau richt zich op bewuste, herhaalde grensoverschrijding, manipulatie en bekende probleemklanten, en op consistent teamgedrag.
 gerelateerd:
   - agressietraining-kassamedewerkers-baliemedewerkers-basis
   - agressietraining-kassamedewerkers-baliemedewerkers-expert
@@ -63,7 +63,7 @@ Deze verdiepingstraining van Bureau Weerbaar en Veilig leert kassa- en
 baliemedewerkers patronen herkennen en er als team consistent op reageren,
 zonder de klantrelatie onnodig te beschadigen.
 
-## Herkenbare situaties op gevorderd niveau
+## Herkenbare praktijksituaties
 
 - Bewuste en herhaalde grensoverschrijding
 - Instrumentele agressie als strategisch gedrag
@@ -72,5 +72,5 @@ zonder de klantrelatie onnodig te beschadigen.
 - Groepsdruk op medewerkers
 - Escalaties ondanks de-escalatiepogingen
 
-De training werkt met casuïstiek van de eigen vestiging, met nadruk op
+De training werkt met casuïstiek van de eigen vestiging: de nadruk ligt op
 teamgedrag en consistentie.

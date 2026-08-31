@@ -54,7 +54,7 @@ gerelateerd:
 
 ## Waarom deze training
 
-Gedragsdeskundigen worden onder druk gezet om adviezen aan te passen, door families en soms door de eigen organisatie. Zonder beleid dat hun professionele autonomie beschermt, wordt inhoud een kwestie van wie het hardst duwt.
+Families zetten gedragsdeskundigen onder druk om adviezen aan te passen, en soms doet de eigen organisatie dat ook. Zonder beleid dat hun professionele autonomie beschermt, wordt inhoud een kwestie van wie het hardst duwt.
 
 Deze experttraining van Bureau Weerbaar en Veilig versterkt zowel de veiligheid als de professionele autonomie in de bijzondere driehoek tussen cliënt, familie en organisatie.
 

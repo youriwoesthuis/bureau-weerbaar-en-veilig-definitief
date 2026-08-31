@@ -41,7 +41,7 @@ veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Teamleiders, planners en operationeel managers bij energie- en nutsbedrijven die verantwoordelijk zijn voor de veiligheid bij huisbezoeken. Voorwaarde voor deelname: leidinggevende of operationele verantwoordelijkheid voor een team medewerkers met huisbezoeken."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basis- en gevorderde training gaan over het eigen handelen. Dit expertniveau gaat over de organisatie: beleid, escalatiestructuur, nazorg, meldcultuur en het coachen van medewerkers."
+    antwoord: "Het perspectief. De basis- en gevorderde training gaan over het eigen handelen. Dit expertniveau gaat over de organisatie: beleid, escalatiestructuur, nazorg, meldcultuur en het coachen van medewerkers."
 gerelateerd:
   - "agressietraining-energie-nutsbedrijven-basis"
   - "agressietraining-energie-nutsbedrijven-gevorderd"
@@ -51,7 +51,7 @@ gerelateerd:
 
 ## Waarom deze training
 
-Medewerkers met huisbezoeken werken in volledige afzondering bij klanten thuis. Hun veiligheid hangt af van wat de organisatie vooraf heeft geregeld: het protocol, het zicht op risicoadressen en de cultuur rond melden.
+Medewerkers met huisbezoeken werken alleen, bij klanten thuis, buiten het zicht van collega's. Hun veiligheid hangt af van wat de organisatie vooraf heeft geregeld: het protocol, het zicht op risicoadressen en de cultuur rond melden.
 
 Deze experttraining van Bureau Weerbaar en Veilig richt zich op die verantwoordelijkheid van de leidinggevende.
 

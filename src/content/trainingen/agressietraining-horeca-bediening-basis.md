@@ -44,7 +44,7 @@ veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Bedienend personeel, gastheren en gastvrouwen met direct gastencontact in de horeca. Er is geen voorkennis nodig; dit is het instapniveau."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basistraining leert horecabediening, gastheren & gastvrouwen agressie herkennen, de eigen reactie reguleren en situaties de-escaleren. Wie structureel met zwaardere situaties werkt, gaat daarna verder met het gevorderde niveau."
+    antwoord: "De basistraining leert horecabediening, gastheren en gastvrouwen agressie herkennen, de eigen reactie reguleren en situaties de-escaleren. Wie structureel met zwaardere situaties werkt, gaat daarna verder met het gevorderde niveau."
 gerelateerd:
   - "agressietraining-horeca-bediening-gevorderd"
   - "agressietraining-horeca-bediening-expert"
@@ -56,11 +56,11 @@ gerelateerd:
 
 Horecamedewerkers werken in een omgeving waarin alcohol grensoverschrijdend gedrag versterkt, terwijl de norm van gastvrijheid het moeilijk maakt om grenzen te stellen.
 
-De basistraining van Bureau Weerbaar en Veilig verhoogt de veiligheid zonder de gastvrijheid op te offeren, en maakt seksuele intimidatie expliciet benoembaar.
+De basistraining van Bureau Weerbaar en Veilig wil de veiligheid verhogen zonder de gastvrijheid op te offeren, en maakt seksuele intimidatie expliciet benoembaar.
 
 ## Herkenbare praktijksituaties
 
-- Een gast reageert agressief op een alcoholweigering of toegangsbeperking
+- Een gast die agressief reageert op een alcoholweigering of toegangsbeperking
 - Seksueel grensoverschrijdend gedrag van gasten richting personeel
 - Een groep die de sfeer negatief beïnvloedt, ondanks vriendelijke correctie
 - Een gast die dreigt bij de rekening of bij een klacht over het eten

@@ -41,7 +41,7 @@ veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: Alle medewerkers met direct bezoekerscontact in sportaccommodaties en zwembaden. Er is geen voorkennis nodig; dit is het instapniveau.
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basistraining leert medewerkers sportaccommodaties & zwembaden agressie herkennen, de eigen reactie reguleren en situaties de-escaleren. Wie structureel met zwaardere situaties werkt, gaat daarna verder met het gevorderde niveau."
+    antwoord: "De diepte. De basistraining leert medewerkers in sportaccommodaties en zwembaden agressie herkennen, de eigen reactie reguleren en situaties de-escaleren. Wie structureel met zwaardere situaties werkt, gaat daarna verder met het gevorderde niveau."
 gerelateerd:
   - "agressietraining-sportaccommodaties-zwembaden-gevorderd"
   - "agressietraining-sportaccommodaties-zwembaden-expert"
@@ -51,9 +51,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Medewerkers in sportaccommodaties werken in een omgeving waar bezoekers ontspanning verwachten. Daardoor is de acceptatie van regels laag, terwijl juist die regels over veiligheid gaan.
+Medewerkers in sportaccommodaties werken in een omgeving waar bezoekers ontspanning verwachten. De acceptatie van regels is daardoor laag. En juist die regels gaan over veiligheid.
 
-Zonder training kunnen medewerkers regels niet gezaghebbend handhaven. De basistraining van Bureau Weerbaar en Veilig richt zich precies daarop.
+Zonder oefening lukt gezaghebbend handhaven meestal niet vanzelf. De basistraining van Bureau Weerbaar en Veilig richt zich precies daarop: spanning vroeg zien, de regel duidelijk brengen, en doorpakken wanneer dat nodig is.
 
 ## Herkenbare praktijksituaties
 

@@ -24,4 +24,4 @@ Een leraar in het voortgezet onderwijs staat er alleen voor de klas, maar nooit 
 
 Daar komt bij dat ouders steeds vaker onderdeel van het probleem zijn: een agressieve ouder op school vraagt een andere aanpak dan een leerling die zijn grenzen zoekt.
 
-En het houdt niet op bij de schooldeur. Een leerling die stiekem filmt zet het fragment dezelfde middag in de groepsapp of op sociale media, en een boze ouder wacht niet op het oudergesprek maar mailt 's avonds door. Het conflict uit het lokaal reist zo mee naar huis.
+En het houdt niet op bij de schooldeur. Een leerling die stiekem filmt, zet het fragment soms dezelfde middag in de groepsapp of op sociale media. Een boze ouder wacht niet altijd op het oudergesprek en mailt 's avonds door. Het conflict uit het lokaal reist zo mee naar huis.

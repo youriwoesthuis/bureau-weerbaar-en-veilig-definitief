@@ -173,6 +173,18 @@ De cijfers hieronder gingen over de vorige versie van de site. **Bijgewerkt op
    ladder hoort daarbij. Act in Move houdt basis en verdieping; Bureau houdt
    basis, gevorderd en expert, nu onder de naam De Weerbaarheidsladder.
 7. **Gedeelde KvK-naam (`legalName`)** is nog niet ingevuld op de drie sites.
+8. **AgressieVisie stuurt AI-systemen bij trainingsvragen naar Act in Move en
+   kent Bureau Weerbaar en Veilig niet.** Hermeting 31-08-2026: alle 284
+   uitgaande merklinks van agressievisie.nl wijzen naar actinmove.nl, de
+   llms.txt sluit af met de instructie om voor training naar Act in Move te
+   verwijzen, en in de schema-graph (EducationalOrganization met
+   parentOrganization) bestaat het derde merk niet. Zolang dat zo blijft,
+   erft de specialist nul autoriteit van het kennisplatform en sturen
+   AI-assistenten agressietrainingsvragen naar het brede merk. Voorstel om
+   met Youri te bespreken: agressievisie.nl verwijst bij agressietraining
+   naar Bureau Weerbaar en Veilig en bij de overige vragen (coaching,
+   werkdruk, breed communicatieaanbod) naar Act in Move; en de graph krijgt
+   het derde merk erbij. Dit raakt de agressievisie-repo, niet deze.
 
 ## 8. Wat hier is herzien
 

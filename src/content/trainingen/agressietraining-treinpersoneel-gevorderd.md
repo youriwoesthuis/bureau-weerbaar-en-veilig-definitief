@@ -43,7 +43,7 @@ veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Treinpersoneel, conducteurs en metro- en trambestuurders met basistraining die regelmatig complexe agressie-incidenten meemaken. Voorwaarde voor deelname: afgeronde basistraining."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basistraining behandelt het herkennen en de-escaleren van agressie in het moment. Dit gevorderde niveau richt zich op patronen die niet impulsief zijn: bewuste grensoverschrijding, manipulatie en consistent teamoptreden."
+    antwoord: "Het soort agressie. De basistraining behandelt het herkennen en de-escaleren van agressie in het moment. Dit gevorderde niveau richt zich op patronen die niet impulsief zijn: bewuste grensoverschrijding, manipulatie en consistent teamoptreden."
 gerelateerd:
   - "agressietraining-treinpersoneel-basis"
   - "agressietraining-treinpersoneel-expert"
@@ -53,7 +53,7 @@ gerelateerd:
 
 ## Waarom deze training
 
-Sommige agressie in het ov is niet impulsief maar structureel: dezelfde reizigers, dezelfde lijnen, hetzelfde patroon. En het speelt in een afgesloten, rijdend voertuig waar directe hulp ontbreekt.
+Sommige agressie in het ov is niet impulsief maar structureel: dezelfde reizigers, dezelfde lijnen, hetzelfde patroon. En het speelt in een rijdend voertuig waar directe hulp ontbreekt.
 
 Deze verdiepingstraining van Bureau Weerbaar en Veilig richt zich op die situaties en op de besluiten die je in enkele seconden moet nemen.
 

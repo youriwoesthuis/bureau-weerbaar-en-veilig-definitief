@@ -20,7 +20,7 @@ resultaat:
   - De eigen reactie reguleren onder druk
   - Verbaal gedrag professioneel begrenzen
   - "Situaties de-escaleren voordat ze fysiek worden"
-  - Handelen binnen de juridische kaders
+  - Binnen de juridische kaders handelen
   - Incidenten correct melden en registreren
 programma:
   - titel: Agressie in de nachthoreca
@@ -43,7 +43,7 @@ veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: Horecaportiers en uitsmijters met direct publiekscontact in de nachthoreca. Er is geen voorkennis nodig; dit is het instapniveau.
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basistraining leert horecaportiers & uitsmijters agressie herkennen, de eigen reactie reguleren en situaties de-escaleren. Wie structureel met zwaardere situaties werkt, gaat daarna verder met het gevorderde niveau."
+    antwoord: "De basistraining leert horecaportiers en uitsmijters agressie herkennen, de eigen reactie reguleren en situaties de-escaleren. Wie structureel met zwaardere situaties werkt, gaat daarna verder met het gevorderde niveau."
 gerelateerd:
   - "agressietraining-horecaportiers-uitsmijters-gevorderd"
   - "agressietraining-horecaportiers-uitsmijters-expert"
@@ -53,9 +53,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Late uren en alcoholgebruik verhogen het escalatierisico in de nachthoreca aanzienlijk. Een portier neemt beslissingen die direct weerstand oproepen, vaak tegenover een groep.
+Late uren en alcoholgebruik verhogen het escalatierisico in de nachthoreca. Een portier neemt beslissingen die direct weerstand oproepen, vaak tegenover een groep.
 
-Onvoldoende training leidt tot onnodige fysieke ingrepen: met juridische consequenties voor de portier en voor de zaak. De basistraining van Bureau Weerbaar en Veilig is erop gericht dat te voorkomen.
+Onvoldoende training leidt tot onnodige fysieke ingrepen, met juridische gevolgen voor de portier en voor de zaak. De basistraining van Bureau Weerbaar en Veilig is erop gericht dat te voorkomen.
 
 ## Herkenbare praktijksituaties
 

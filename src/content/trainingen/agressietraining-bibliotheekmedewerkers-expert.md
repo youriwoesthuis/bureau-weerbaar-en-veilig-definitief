@@ -58,8 +58,8 @@ Deze experttraining van Bureau Weerbaar en Veilig helpt leidinggevenden dat bele
 
 ## Wat speelt er op dit niveau
 
-- Grensoverschrijdingen zijn in het team genormaliseerd
-- Helder beleid voor aanspreken en waarschuwen ontbreekt
+- Normalisering van grensoverschrijdend gedrag in het team
+- Ontbrekend beleid voor aanspreken en waarschuwen
 - Inconsistente teamreacties op dezelfde bezoekers
-- Inadequate nazorg na incidenten
+- Ontoereikende nazorg na incidenten
 - Moeizame samenwerking met externe partners

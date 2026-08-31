@@ -44,7 +44,7 @@ veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Teamleiders, locatiemanagers en gedragscoördinatoren in de woonbegeleiding gehandicaptenzorg. Voorwaarde voor deelname: leidinggevende verantwoordelijkheid voor een woongroep of locatie in de gehandicaptenzorg."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basis- en gevorderde training gaan over het eigen handelen. Dit expertniveau gaat over de organisatie: beleid, escalatiestructuur, nazorg, meldcultuur en het coachen van medewerkers."
+    antwoord: "Het perspectief. De basis- en gevorderde training gaan over het eigen handelen. Dit expertniveau gaat over de organisatie: beleid, escalatiestructuur, nazorg, meldcultuur en het coachen van medewerkers."
 gerelateerd:
   - "agressietraining-woonbegeleiding-gehandicaptenzorg-basis"
   - "agressietraining-woonbegeleiding-gehandicaptenzorg-gevorderd"
@@ -54,7 +54,7 @@ gerelateerd:
 
 ## Waarom deze training
 
-Woongroepen in de gehandicaptenzorg horen tot de zwaarste werkomgevingen in de zorg. Agressie is er tegelijk een zorgvraagstuk en een veiligheidsvraagstuk, en die twee kunnen op gespannen voet staan.
+Woongroepen in de gehandicaptenzorg zijn een zware werkomgeving. Agressie is er tegelijk een zorgvraagstuk en een veiligheidsvraagstuk, en die twee kunnen op gespannen voet staan.
 
 Deze experttraining van Bureau Weerbaar en Veilig helpt leidinggevenden de stap te maken van zelf handelen naar het structureel versterken van veiligheid: in gedragsplannen, teambeleid, nazorg en meldcultuur.
 

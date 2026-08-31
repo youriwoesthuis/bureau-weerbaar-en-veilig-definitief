@@ -52,13 +52,13 @@ gerelateerd:
 
 ## Waarom deze training
 
-Agressie-incidenten in het openbaar vervoer zijn moeilijk volledig te voorkomen. Cruciaal is hoe de organisatie erop reageert en ervan leert.
+Agressie-incidenten in het openbaar vervoer zijn moeilijk volledig te voorkomen. Bepalend is hoe de organisatie erop reageert en ervan leert.
 
 Deze experttraining van Bureau Weerbaar en Veilig richt zich daarom op beleid, meldcultuur en de coaching van chauffeurs.
 
 ## Wat speelt er op dit niveau
 
-- Incidenten worden onvoldoende gemeld of nabesproken, waardoor structurele probleemlijnen onzichtbaar blijven
-- Chauffeurs reageren inconsistent op vergelijkbare situaties
-- Onduidelijkheid over wanneer ritten worden gestaakt en de politie wordt ingeschakeld
-- Structurele nazorg na ernstige incidenten ontbreekt
+- Onvoldoende meldingen en nabespreking van incidenten, waardoor structurele probleemlijnen onzichtbaar blijven
+- Inconsistente reacties op vergelijkbare situaties
+- Onduidelijkheid over het staken van ritten en het inschakelen van de politie
+- Ontbrekende structurele nazorg na ernstige incidenten

@@ -54,7 +54,7 @@ gerelateerd:
 
 ## Waarom deze training
 
-Veiligheid voor bezorgers begint bij goede voorbereiding, heldere protocollen en een organisatiecultuur waarin incidenten serieus worden genomen.
+Veiligheid voor bezorgers begint bij goede voorbereiding, heldere protocollen en een organisatiecultuur die incidenten serieus neemt.
 
 Deze experttraining van Bureau Weerbaar en Veilig legt daarom de vinger op het mechanisme dat veiligheid ondermijnt: een beoordelingssysteem waarin melden of afbreken de bezorger geld kan kosten.
 

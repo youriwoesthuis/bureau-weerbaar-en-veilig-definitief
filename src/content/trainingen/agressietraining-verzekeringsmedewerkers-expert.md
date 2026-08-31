@@ -13,7 +13,7 @@ voorwaarde: leidinggevende verantwoordelijkheid voor verzekeringsmedewerkers of 
 doelgroep: "Teamleiders, managers en veiligheidscoördinatoren bij verzekeraars."
 samenvatting: >-
   De expert agressietraining voor leidinggevenden in de
-  verzekeringsbranche van Bureau Weerbaar en Veilig leert leidinggevenden
+  verzekeringsbranche van Bureau Weerbaar en Veilig leert hen
   protocollen opstellen voor grensoverschrijdend klantgedrag en beleid
   ontwikkelen voor het beëindigen van klantrelaties. De training duurt 1 dag en telt maximaal 8 deelnemers.
 resultaat:
@@ -41,7 +41,7 @@ veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Teamleiders, managers en veiligheidscoördinatoren bij verzekeraars. Voorwaarde voor deelname: leidinggevende verantwoordelijkheid voor verzekeringsmedewerkers of schadebehandelaars."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basis- en gevorderde training gaan over het eigen handelen. Dit expertniveau gaat over de organisatie: beleid, escalatiestructuur, nazorg, meldcultuur en het coachen van medewerkers."
+    antwoord: "Het perspectief. De basis- en gevorderde training gaan over het eigen handelen. Dit expertniveau gaat over de organisatie: beleid, escalatiestructuur, nazorg, meldcultuur en het coachen van medewerkers."
 gerelateerd:
   - "agressietraining-verzekeringsmedewerkers-basis"
   - "agressietraining-verzekeringsmedewerkers-gevorderd"
@@ -51,13 +51,13 @@ gerelateerd:
 
 ## Waarom deze training
 
-Agressie in de verzekeringsbranche is structureel: het hoort bij een sector waarin dagelijks financiële teleurstellingen worden gecommuniceerd.
+Agressie in de verzekeringsbranche is zelden incidenteel: het hoort bij een sector waarin medewerkers dagelijks financiële teleurstellingen overbrengen.
 
 Deze experttraining van Bureau Weerbaar en Veilig richt zich daarom op de organisatie: leidinggevenden ondersteunen hun medewerkers én bouwen beleid dat blijft staan.
 
 ## Wat speelt er op dit niveau
 
-- Medewerkers melden zware klantcontacten onvoldoende
-- Structureel beleid voor grensoverschrijdend gedrag ontbreekt
+- Onvoldoende melding van zware klantcontacten
+- Geen structureel beleid voor grensoverschrijdend gedrag
 - Ontoereikende opvang na emotioneel zware gesprekken
 - Fraude-escalaties zonder structurele veiligheidsmaatregelen

@@ -44,7 +44,7 @@ veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Uitvaartmedewerkers met basistraining die complexe familieconflicten en langdurige klachtsituaties hanteren. Voorwaarde voor deelname: afgeronde basistraining of aantoonbare werkervaring."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basistraining behandelt het herkennen en de-escaleren van agressie in het moment. Dit gevorderde niveau richt zich op patronen die niet impulsief zijn: bewuste grensoverschrijding, manipulatie en consistent teamoptreden."
+    antwoord: "Het soort agressie. De basistraining behandelt het herkennen en de-escaleren van agressie in het moment. Dit gevorderde niveau richt zich op patronen die niet impulsief zijn: bewuste grensoverschrijding, manipulatie en consistent teamoptreden."
 gerelateerd:
   - "agressietraining-uitvaartmedewerkers-basis"
   - "agressietraining-uitvaartmedewerkers-expert"
@@ -56,7 +56,7 @@ gerelateerd:
 
 Sommige conflicten in de uitvaartbranche eindigen niet bij de condoleance: klachten lopen maanden door, verhuizen naar sociale media en worden persoonlijk.
 
-Deze verdiepingstraining van Bureau Weerbaar en Veilig helpt medewerkers die lange conflicten te hanteren zonder er zelf aan onderdoor te gaan, want wie werkt op momenten van grote kwetsbaarheid, verdient zelf ook professionele bescherming.
+Deze verdiepingstraining van Bureau Weerbaar en Veilig helpt medewerkers die lange conflicten te hanteren zonder er zelf aan onderdoor te gaan. Wie werkt op momenten van kwetsbaarheid, verdient zelf ook bescherming.
 
 ## Herkenbare praktijksituaties
 

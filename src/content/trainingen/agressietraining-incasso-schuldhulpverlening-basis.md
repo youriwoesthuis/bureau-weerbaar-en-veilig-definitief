@@ -40,11 +40,11 @@ werkvormen:
   - aandacht voor de morele dimensie van het werk
 veelgestelde_vragen:
   - vraag: "Hoe stel je grenzen aan iemand die echt in nood zit?"
-    antwoord: "Dat is de morele kern van dit vak, en die wordt in de training expliciet besproken: begrenzen zonder de mens uit het oog te verliezen."
+    antwoord: "Door te begrenzen zonder de mens uit het oog te verliezen. Dat is de morele kern van dit vak en de training bespreekt die expliciet."
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Incasso- en schuldbehandelaars met direct contact met debiteuren. Er is geen voorkennis nodig; dit is het instapniveau."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basistraining leert incasso & schuldhulpverlening agressie herkennen, de eigen reactie reguleren en situaties de-escaleren. Wie structureel met zwaardere situaties werkt, gaat daarna verder met het gevorderde niveau."
+    antwoord: "De basistraining leert incasso- en schuldbehandelaars agressie herkennen, de eigen reactie reguleren en situaties de-escaleren. Wie structureel met zwaardere situaties werkt, gaat daarna verder met het gevorderde niveau."
 gerelateerd:
   - "agressietraining-incasso-schuldhulpverlening-gevorderd"
   - "agressietraining-incasso-schuldhulpverlening-expert"
@@ -56,7 +56,7 @@ gerelateerd:
 
 Debiteuren in schuldenproblematiek reageren vaak agressief op aanmaningen. Voor incasso- en schuldbehandelaars is agressie daarmee geen incident maar een structureel risico van het vak.
 
-De basistraining van Bureau Weerbaar en Veilig voorkomt escalatie en langdurig verzuim, met trainers die het incassowerk van binnenuit kennen.
+De basistraining van Bureau Weerbaar en Veilig helpt escalatie en langdurig verzuim te voorkomen, met trainers die het incassowerk van binnenuit kennen.
 
 ## Herkenbare praktijksituaties
 

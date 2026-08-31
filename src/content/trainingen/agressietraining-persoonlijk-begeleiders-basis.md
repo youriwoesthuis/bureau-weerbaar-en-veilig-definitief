@@ -57,7 +57,7 @@ gerelateerd:
 
 Persoonlijk begeleiders werken in intensieve relaties, en dat is tegelijk hun kracht en hun risico. De cliënt kent hen goed, inclusief wat werkt om iets af te dwingen.
 
-Zonder concrete training weten persoonlijk begeleiders niet altijd hoe zij agressief gedrag kunnen begrenzen zonder de relatie te beschadigen. De basistraining van Bureau Weerbaar en Veilig geeft hun daarvoor de handvatten.
+Zonder concrete training weten persoonlijk begeleiders niet altijd hoe ze agressief gedrag kunnen begrenzen zonder de relatie te beschadigen. De basistraining van Bureau Weerbaar en Veilig geeft hun daarvoor de handvatten: onderscheid maken, grenzen stellen en veilig alleen op pad gaan.
 
 ## Herkenbare praktijksituaties
 

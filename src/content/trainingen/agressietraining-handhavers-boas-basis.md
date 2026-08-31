@@ -43,7 +43,7 @@ veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: Alle handhavers en boa’s die dagelijks alleen of in tweetallen in de openbare ruimte werken. Er is geen voorkennis nodig; dit is het instapniveau.
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basistraining leert handhavers & boa’s agressie herkennen, de eigen reactie reguleren en situaties de-escaleren. Wie structureel met zwaardere situaties werkt, gaat daarna verder met het gevorderde niveau."
+    antwoord: "De basistraining leert handhavers en boa’s agressie herkennen, de eigen reactie reguleren en situaties de-escaleren. Wie structureel met zwaardere situaties werkt, gaat daarna verder met het gevorderde niveau."
 gerelateerd:
   - "agressietraining-handhavers-boas-gevorderd"
   - "agressietraining-handhavers-boas-expert"
@@ -55,7 +55,7 @@ gerelateerd:
 
 Handhavers en boa’s werken dagelijks alleen of in tweetallen in de openbare ruimte, ver van directe ondersteuning. Wat zij doen wordt bekeken, beoordeeld en steeds vaker gefilmd.
 
-Zonder concrete training escaleren situaties onnodig, met verzuim en juridische klachten als gevolg. De basistraining van Bureau Weerbaar en Veilig combineert de-escalatie met de juridische kaders van het werk.
+Zonder concrete training escaleren situaties vaak onnodig, met verzuim en juridische klachten als gevolg. De basistraining van Bureau Weerbaar en Veilig combineert de-escalatie met de juridische kaders van het werk.
 
 ## Herkenbare praktijksituaties
 

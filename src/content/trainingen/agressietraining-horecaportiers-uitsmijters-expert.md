@@ -59,6 +59,6 @@ Dat bepaalt bovendien de juridische houdbaarheid en de vergunningsrisico’s van
 
 - Onderregistratie van incidenten en daardoor blindheid voor patronen
 - Inconsistent optreden van portiers
-- Debriefing na ernstige incidenten ontbreekt
+- Geen debriefing na ernstige incidenten
 - Moeizame samenwerking met autoriteiten
 - Onduidelijke juridische grenzen voor het team

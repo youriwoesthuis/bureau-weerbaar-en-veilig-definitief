@@ -59,7 +59,7 @@ Deze experttraining van Bureau Weerbaar en Veilig versterkt beide kanten tegelij
 ## Wat speelt er op dit niveau
 
 - Er is geen helder protocol voor collectieve incidenten
-- Agressie-incidenten worden onvoldoende gemeld
+- Medewerkers melden agressie-incidenten onvoldoende
 - Debriefing na ernstige incidenten is gebrekkig
 - De samenwerking met ketenpartners verloopt stroef
 - Er is geen beleid voor structureel agressieve bewoners

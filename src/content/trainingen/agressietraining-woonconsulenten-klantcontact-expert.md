@@ -43,7 +43,7 @@ veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Teamleiders, afdelingsmanagers en veiligheidscoördinatoren bij woningcorporaties. Voorwaarde voor deelname: leidinggevende functie bij een woningcorporatie met aantoonbare ervaring met agressie in huurderscontact."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basis- en gevorderde training gaan over het eigen handelen. Dit expertniveau gaat over de organisatie: beleid, escalatiestructuur, nazorg, meldcultuur en het coachen van medewerkers."
+    antwoord: "Het perspectief. De basis- en gevorderde training gaan over het eigen handelen. Dit expertniveau gaat over de organisatie: beleid, escalatiestructuur, nazorg, meldcultuur en het coachen van medewerkers."
 gerelateerd:
   - "agressietraining-woonconsulenten-klantcontact-basis"
   - "agressietraining-woonconsulenten-klantcontact-gevorderd"
@@ -61,7 +61,7 @@ Deze experttraining van Bureau Weerbaar en Veilig bereidt leidinggevenden voor o
 
 - Onvoldoende melding van agressie-incidenten
 - Inconsistent teambeleid bij terugkerende agressie
-- Het agressieprotocol sluit niet aan op de praktijk van huisbezoeken
-- Structurele debriefing na incidenten ontbreekt
+- Een agressieprotocol dat niet aansluit op de praktijk van huisbezoeken
+- Ontbrekende debriefing na incidenten
 - Moeizame samenwerking met externe partners zoals wijkteams en GGZ
 - Spanning tussen publieke zorgplicht en medewerkersveiligheid

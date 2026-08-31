@@ -40,11 +40,11 @@ werkvormen:
   - praktijkgericht oefenen zonder naïeve rollenspellen
 veelgestelde_vragen:
   - vraag: "Leren deelnemers wanneer ze een situatie moeten afbreken?"
-    antwoord: "Ja. Bepalen wanneer je weggaat is een expliciet onderdeel van de training: het is vaak de veiligste beslissing en de moeilijkste om te nemen."
+    antwoord: "Ja. Bepalen wanneer je weggaat is een expliciet onderdeel van de training: weggaan is vaak veiliger dan blijven, en juist dat besluit is moeilijk om te nemen."
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Alle parkeerwachters, toezichthouders en handhavers die werkzaam zijn in de openbare ruimte. Er is geen voorkennis nodig; dit is het instapniveau."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basistraining leert parkeerwachters & toezichthouders agressie herkennen, de eigen reactie reguleren en situaties de-escaleren. Wie structureel met zwaardere situaties werkt, gaat daarna verder met het gevorderde niveau."
+    antwoord: "De basistraining leert parkeerwachters en toezichthouders agressie herkennen, de eigen reactie reguleren en situaties de-escaleren. Wie structureel met zwaardere situaties werkt, gaat daarna verder met het gevorderde niveau."
 gerelateerd:
   - "agressietraining-parkeerwachters-toezichthouders-gevorderd"
   - "agressietraining-parkeerwachters-toezichthouders-expert"
@@ -54,9 +54,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Toezichthouders werken zichtbaar, alleen en met beperkte bevoegdheden. Die combinatie maakt het agressierisico hoog en leidt tot onveiligheid, handelingsverlegenheid en verzuim.
+Toezichthouders werken zichtbaar, alleen en met beperkte bevoegdheden. Die combinatie maakt het agressierisico hoog en leidt vaak tot onveiligheid, handelingsverlegenheid en verzuim.
 
-De basistraining van Bureau Weerbaar en Veilig geeft toezichthouders concrete handvatten, inclusief het lastigste besluit: wanneer je een situatie beter afbreekt.
+De basistraining van Bureau Weerbaar en Veilig geeft toezichthouders concrete handvatten, inclusief het lastige besluit: wanneer je een situatie beter afbreekt.
 
 ## Herkenbare praktijksituaties
 

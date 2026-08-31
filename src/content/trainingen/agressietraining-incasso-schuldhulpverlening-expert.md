@@ -54,11 +54,11 @@ gerelateerd:
 
 Agressie is in het incasso- en schuldwerk geen uitzondering maar dagelijkse realiteit. Dat maakt het tot een organisatievraagstuk in plaats van een kwestie van individuele weerbaarheid.
 
-Deze experttraining van Bureau Weerbaar en Veilig helpt leidinggevenden structurele verbetering te realiseren en duurzaam te borgen: met aandacht voor hun eigen belasting.
+Deze experttraining van Bureau Weerbaar en Veilig helpt leidinggevenden structurele verbetering te realiseren en duurzaam te borgen, met aandacht voor hun eigen belasting.
 
 ## Wat speelt er op dit niveau
 
-- Medewerkers melden zware contacten onvoldoende, waardoor patronen onzichtbaar blijven
+- Onvoldoende melding van zware contacten, waardoor patronen onzichtbaar blijven
 - Onduidelijke protocollen bij grensoverschrijdend gedrag
 - Onvoldoende opvang na emotioneel zware contacten
-- Juridische verantwoordelijkheid is onduidelijk belegd
+- Onduidelijk belegde juridische verantwoordelijkheid

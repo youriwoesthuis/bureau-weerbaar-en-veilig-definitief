@@ -21,10 +21,10 @@ veelgestelde_vragen:
 ---
 
 Winkelmedewerkers werken in een open ruimte, tussen de klanten, en zijn vaak
-alleen in hun werkgebied. Zij spreken mensen aan op vermoedelijke diefstal,
-krijgen te maken met scheldpartijen na een opmerking en met groepen die de boel
+alleen in hun werkgebied. Je spreekt mensen aan op vermoedelijke diefstal, je
+krijgt te maken met scheldpartijen na een opmerking en met groepen die de boel
 verstoren. Wie iemand aanspreekt, heeft er bovendien geregeld een telefoon bij:
 klanten filmen de confrontatie en zetten het fragment online, vaak geknipt tot
-alleen de reactie van de medewerker. Precies die combinatie: open omgeving,
-alleen werken, direct klantcontact: maakt gerichte agressietraining voor deze
-groep noodzakelijk.
+alleen de reactie van de medewerker. Open omgeving, alleen werken, direct
+klantcontact: die drie samen maken gerichte agressietraining voor deze groep
+nodig.

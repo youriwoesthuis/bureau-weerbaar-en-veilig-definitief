@@ -43,7 +43,7 @@ veelgestelde_vragen:
   - vraag: Voor wie is de gevorderde agressietraining voor huisartsassistenten bedoeld?
     antwoord: Voor huisartsassistenten die de basis beheersen en regelmatig complexe of herhaalde agressie-incidenten meemaken.
   - vraag: Is een basistraining verplicht?
-    antwoord: Een afgeronde basistraining is de standaardvoorwaarde; aantoonbare werkervaring met agressie-incidenten kan daarvoor in de plaats komen.
+    antwoord: Niet altijd. Een afgeronde basistraining is de standaardvoorwaarde, maar aantoonbare werkervaring met agressie-incidenten kan daarvoor in de plaats komen.
   - vraag: Wat is het verschil met de basistraining?
     antwoord: "De basistraining behandelt het herkennen en de-escaleren van agressie in het moment. Dit gevorderde niveau richt zich op agressie die niet impulsief is: instrumenteel gedrag, manipulatie, risicoprofielen en consistent teamoptreden."
   - vraag: Hoe gaat de training om met patiënten met dementie of verslaving?
@@ -63,8 +63,8 @@ een terugkerende beller die telkens een stap verder gaat: daar helpt
 de-escaleren alleen niet meer.
 
 Deze verdiepingstraining van Bureau Weerbaar en Veilig gaat verder dan de
-basis. Bureau Weerbaar en Veilig richt zich op de patronen achter het gedrag en
-op de vraag hoe de praktijk daar als team eenduidig op reageert.
+basis: ze richt zich op de patronen achter het gedrag en op de vraag hoe de
+praktijk daar als team eenduidig op reageert.
 
 ## Herkenbare situaties op gevorderd niveau
 

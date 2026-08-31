@@ -43,7 +43,7 @@ veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Buurtbeheerders en opzichters met basistraining die complexe agressie- en intimidatiepatronen in wijken hanteren. Voorwaarde voor deelname: afgeronde basistraining."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basistraining behandelt het herkennen en de-escaleren van agressie in het moment. Dit gevorderde niveau richt zich op patronen die niet impulsief zijn: bewuste grensoverschrijding, manipulatie en consistent teamoptreden."
+    antwoord: "Het soort agressie. De basistraining behandelt het herkennen en de-escaleren van agressie in het moment. Dit gevorderde niveau richt zich op patronen die niet impulsief zijn: bewuste grensoverschrijding, manipulatie en consistent teamoptreden."
 gerelateerd:
   - "agressietraining-buurtbeheerders-opzichters-basis"
   - "agressietraining-buurtbeheerders-opzichters-expert"
@@ -53,7 +53,7 @@ gerelateerd:
 
 ## Waarom deze training
 
-Buurtbeheerders zijn op een unieke manier kwetsbaar: zij zijn herkenbaar in hun werkgebied, ook als zij geen dienst hebben. Intimidatie kan daardoor structureel worden.
+De kwetsbaarheid van buurtbeheerders stopt niet aan het einde van de werkdag: je bent herkenbaar in je werkgebied, ook in je vrije tijd. Intimidatie kan daardoor structureel worden.
 
 Deze verdiepingstraining van Bureau Weerbaar en Veilig helpt daar bewust mee om te gaan, met de eigen wijk als casuïstiek.
 

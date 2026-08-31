@@ -51,7 +51,7 @@ gerelateerd:
 
 ## Waarom deze training
 
-Buschauffeurs werken alleen in een rijdend voertuig en zijn tegelijk verantwoordelijk voor tientallen reizigers. De combinatie van beperkte bewegingsvrijheid, publieke zichtbaarheid en volledige afhankelijkheid van de situatie maakt hun positie kwetsbaar.
+Buschauffeurs werken alleen in een rijdend voertuig en zijn tegelijk verantwoordelijk voor tientallen reizigers. Drie dingen maken hun positie kwetsbaar: beperkte bewegingsvrijheid, publieke zichtbaarheid en volledige afhankelijkheid van de situatie.
 
 De basistraining van Bureau Weerbaar en Veilig geeft chauffeurs handvatten die werken binnen precies die beperkingen.
 

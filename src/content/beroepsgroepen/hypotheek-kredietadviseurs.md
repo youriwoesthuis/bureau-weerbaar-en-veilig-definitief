@@ -18,6 +18,6 @@ veelgestelde_vragen:
     antwoord: "Basis voor nieuwe adviseurs, gevorderd voor wie regelmatig afwijzingen brengt. Expert voor leidinggevenden die de opvang na zware gesprekken organiseren."
 ---
 
-Een hypotheekafwijzing raakt een levensplan: het huis gaat niet door, de verbouwing stopt, het bedrijf krijgt geen krediet. De adviseur die dat vertelt, wordt persoonlijk aangesproken op een beslissing van de geldverstrekker.
+Een hypotheekafwijzing raakt een levensplan: het huis gaat niet door, de verbouwing stopt, het bedrijf krijgt geen krediet. De klant spreekt de adviseur die dat vertelt persoonlijk aan op een beslissing van de geldverstrekker. Dat gesprek gaat zelden alleen over cijfers.
 
 Vaak zit er ook een crisis achter: een echtscheiding, ontslag en betalingsachterstand die samenkomen. Bureau Weerbaar en Veilig richt deze trainingen daarom op het brengen van slecht nieuws en op het gezond houden van de professionele grens.

@@ -22,4 +22,4 @@ veelgestelde_vragen:
 
 Een buschauffeur werkt alleen, achter een stuur, met tientallen reizigers in de rug. Bij een conflict kan hij niet weglopen en niet even overleggen, en tegelijk moet de bus veilig blijven rijden.
 
-Die combinatie van beperkte bewegingsvrijheid, volle publieke zichtbaarheid en verantwoordelijkheid voor iedereen aan boord maakt de positie van de chauffeur kwetsbaar. Die zichtbaarheid houdt niet op bij de deuren van de bus: bij een incident gaan er telefoons omhoog, en de beelden staan, met de chauffeur herkenbaar in beeld, dezelfde avond op sociale media. Bureau Weerbaar en Veilig traint daar specifiek op.
+Die combinatie van beperkte bewegingsvrijheid, volle publieke zichtbaarheid en verantwoordelijkheid voor iedereen aan boord maakt de positie van de chauffeur kwetsbaar. Die zichtbaarheid houdt niet op bij de deuren van de bus. Bij een incident gaan er telefoons omhoog, en de beelden staan vaak dezelfde avond op sociale media, met de chauffeur herkenbaar in beeld. Bureau Weerbaar en Veilig traint daar specifiek op.

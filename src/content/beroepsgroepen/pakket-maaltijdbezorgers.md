@@ -10,7 +10,7 @@ samenvatting: >-
   (expert).
 veelgestelde_vragen:
   - vraag: "Onze bezorgers melden incidenten bijna nooit. Kan een training daar iets aan doen?"
-    antwoord: "De training benoemt dat mechanisme expliciet: als een klacht werk kan kosten, houd je incidenten liever stil. Zolang dat niet besproken is, blijft onveiligheid onzichtbaar en verandert er weinig."
+    antwoord: "Deels. De training benoemt het mechanisme expliciet: kan een klacht werk kosten, dan houd je een incident liever stil. Zolang dat niet besproken is, blijft onveiligheid onzichtbaar en verandert er weinig."
   - vraag: "Hoe bereid je iemand voor op een deur waarvan hij niet weet wat erachter zit?"
     antwoord: "Door te oefenen met inschatten in de seconden die je hebt, en met het besluit om niet af te leveren. Dat besluit is de kern voor deze groep."
   - vraag: "Komen conflicten over bezorgtijd en de staat van de bestelling aan bod?"
@@ -23,4 +23,4 @@ veelgestelde_vragen:
 
 Een bezorger staat tientallen keren per dag aan een voordeur zonder te weten wat erachter zit. De klant heeft verwachtingen over tijd en staat van de bestelling, en de bezorger krijgt de reactie als iets niet klopt.
 
-Wat deze groep bijzonder kwetsbaar maakt, is de beoordeling: een klacht kan werk kosten. Die klacht komt zelden aan de deur zelf: hij verschijnt als bericht in de app, als review of als lage beoordeling, terwijl aan veel deuren een deurbelcamera meedraait die het conflict vastlegt. Daardoor worden incidenten vaak niet gemeld, en blijft onveiligheid onzichtbaar. Bureau Weerbaar en Veilig benoemt dat mechanisme expliciet in de trainingen.
+Wat deze groep kwetsbaar maakt, is de beoordeling: een klacht kan werk kosten. Die klacht komt zelden aan de deur zelf. Hij verschijnt als bericht in de app, als review of als lage beoordeling, en aan veel deuren draait ondertussen een deurbelcamera mee die het conflict vastlegt. Daardoor melden bezorgers incidenten vaak niet, en blijft onveiligheid onzichtbaar. Bureau Weerbaar en Veilig benoemt dat mechanisme expliciet in de trainingen.

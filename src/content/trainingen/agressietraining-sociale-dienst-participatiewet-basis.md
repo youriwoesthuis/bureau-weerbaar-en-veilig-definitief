@@ -44,7 +44,7 @@ veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Klantmanagers, consulenten en baliemedewerkers van sociale diensten en organisaties die de Participatiewet uitvoeren. Er is geen voorkennis nodig; dit is het instapniveau."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basistraining leert sociale dienst & participatiewet agressie herkennen, de eigen reactie reguleren en situaties de-escaleren. Wie structureel met zwaardere situaties werkt, gaat daarna verder met het gevorderde niveau."
+    antwoord: "De basistraining leert medewerkers agressie herkennen, de eigen reactie reguleren en situaties de-escaleren. Wie structureel met zwaardere situaties werkt, gaat daarna verder met het gevorderde niveau."
 gerelateerd:
   - "agressietraining-sociale-dienst-participatiewet-gevorderd"
   - "agressietraining-sociale-dienst-participatiewet-expert"
@@ -54,7 +54,7 @@ gerelateerd:
 
 ## Waarom deze training
 
-Medewerkers van de sociale dienst vertegenwoordigen de overheid op het moment dat burgers het meest kwetsbaar zijn. De existentiële afhankelijkheid van een uitkering maakt gesprekken over rechten, plichten en sancties potentieel explosief.
+Medewerkers van de sociale dienst vertegenwoordigen de overheid op momenten dat burgers kwetsbaar zijn. De existentiële afhankelijkheid van een uitkering maakt gesprekken over rechten, plichten en sancties potentieel explosief.
 
 De basistraining van Bureau Weerbaar en Veilig richt zich daarom op het moment zelf: hoe je een moeilijke boodschap brengt zonder de situatie te laten ontsporen.
 

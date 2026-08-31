@@ -41,7 +41,7 @@ veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Hypotheek- en kredietadviseurs met direct klantcontact. Er is geen voorkennis nodig; dit is het instapniveau."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basistraining leert hypotheek- & kredietadviseurs agressie herkennen, de eigen reactie reguleren en situaties de-escaleren. Wie structureel met zwaardere situaties werkt, gaat daarna verder met het gevorderde niveau."
+    antwoord: "De basistraining leert hypotheek- en kredietadviseurs agressie herkennen, de eigen reactie reguleren en situaties de-escaleren. Wie structureel met zwaardere situaties werkt, gaat daarna verder met het gevorderde niveau."
 gerelateerd:
   - "agressietraining-hypotheek-kredietadviseurs-gevorderd"
   - "agressietraining-hypotheek-kredietadviseurs-expert"
@@ -51,9 +51,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Hypotheek- en kredietadviseurs worden persoonlijk verantwoordelijk gesteld voor beslissingen die hun organisatie neemt. De klant ziet niet de acceptatienormen, maar de adviseur die "nee" zegt.
+Klanten stellen hypotheek- en kredietadviseurs persoonlijk verantwoordelijk voor beslissingen die de organisatie neemt. De klant ziet niet de acceptatienormen, maar de adviseur die "nee" zegt.
 
-De basistraining van Bureau Weerbaar en Veilig voorkomt verzuim, verloop en escalatie, met bijzondere aandacht voor het brengen van slecht nieuws.
+De basistraining van Bureau Weerbaar en Veilig helpt verzuim, verloop en escalatie te voorkomen, met expliciete aandacht voor het brengen van slecht nieuws.
 
 ## Herkenbare praktijksituaties
 

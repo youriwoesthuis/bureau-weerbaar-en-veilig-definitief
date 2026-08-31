@@ -44,9 +44,9 @@ veelgestelde_vragen:
   - vraag: Wat zijn de voorwaarden voor deelname?
     antwoord: Een leidinggevende of coördinerende functie met aantoonbare werkervaring met agressie op de winkelvloer.
   - vraag: Waarin verschilt dit niveau van de gevorderde training?
-    antwoord: "De gevorderde training gaat over het eigen handelen bij complexe incidenten. Het expertniveau gaat over de organisatie: beleid, escalatiestructuur, nazorg, meldcultuur en het coachen van het team."
+    antwoord: "Het perspectief. De gevorderde training gaat over het eigen handelen bij complexe incidenten. Het expertniveau gaat over de organisatie: beleid, escalatiestructuur, nazorg, meldcultuur en het coachen van het team."
   - vraag: Hoe wordt de training op onze situatie afgestemd?
-    antwoord: De training wordt voorafgegaan door een intakegesprek waarin de vestigingssituatie in kaart wordt gebracht, inclusief bestaand beleid en meldingsdata.
+    antwoord: "Met een intakegesprek vooraf. Daarin brengen we de vestigingssituatie in kaart: bestaand beleid, meldingsdata en cultuur."
 gerelateerd:
   - agressietraining-winkelmedewerkers-basis
   - agressietraining-winkelmedewerkers-gevorderd
@@ -56,9 +56,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Op veel winkelvloeren worden incidenten onvoldoende gemeld of nabesproken,
-worden agressieprotocollen niet consistent toegepast en ontbreekt structurele
-nazorg na ernstige incidenten. Inconsistente teamreacties versterken ongewenst
+Op veel winkelvloeren blijven meldingen en nabesprekingen uit, past het team het
+agressieprotocol niet consistent toe en ontbreekt structurele nazorg na ernstige
+incidenten. Inconsistente teamreacties versterken ongewenst
 gedrag, escalatiebeleid is onduidelijk en de juridische verantwoordelijkheid
 rondom agressie blijft vaag.
 

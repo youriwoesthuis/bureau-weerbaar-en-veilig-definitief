@@ -52,14 +52,14 @@ gerelateerd:
 
 ## Waarom deze training
 
-Agressie-incidenten zijn in het hypotheek- en kredietadvies structureel: er wordt dagelijks nieuws gebracht dat mensen niet willen horen.
+Agressie-incidenten zijn in het hypotheek- en kredietadvies structureel: adviseurs brengen dagelijks nieuws dat mensen niet willen horen.
 
 Deze experttraining van Bureau Weerbaar en Veilig helpt leidinggevenden beleid op te stellen en hun adviseurs beter op te vangen na moeilijke gesprekken.
 
 ## Wat speelt er op dit niveau
 
-- Adviseurs melden agressieve gesprekken onvoldoende
-- Er is geen structureel beleid voor grensstelling
+- Onvoldoende melding van agressieve gesprekken
+- Geen structureel beleid voor grensstelling
 - Onvoldoende opvang na zware klantcontacten
 - Geen helder standpunt over klachten en juridische dreigementen
-- Adviseurs hebben morele bezwaren om grenzen te stellen
+- Morele bezwaren bij adviseurs tegen het stellen van grenzen

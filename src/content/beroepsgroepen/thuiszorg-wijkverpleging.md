@@ -21,8 +21,8 @@ veelgestelde_vragen:
     antwoord: "Ja, wanneer je het inbrengt bij de intake. De training gebruikt casuïstiek uit de eigen praktijk van het team: de trainingsacteur speelt de mantelzorger die filmt of blijft appen, en je oefent hoe je daar in het moment op reageert en je grens aangeeft."
 ---
 
-Thuiszorgmedewerkers werken op de meest bijzondere werkplek die er is: de woonkamer van iemand anders. Zij zijn te gast, alleen, zonder achterwacht en zonder de mogelijkheid om even weg te stappen naar een collega. Wat binnen die voordeur gebeurt, moeten zij zelf oplossen.
+Thuiszorgmedewerkers werken op een bijzondere werkplek: de woonkamer van iemand anders. Je bent te gast, je werkt alleen en er is geen achterwacht om even naartoe te stappen. Wat binnen die voordeur gebeurt, los je zelf op.
 
-Daar komt bij dat de zorgrelatie langdurig is. Grenzen stellen bij een cliënt die je volgende week weer bezoekt, of bij een mantelzorger die altijd aanwezig is: vraagt een andere aanpak dan een eenmalige confrontatie.
+Daar komt de duur van de zorgrelatie bij. Grenzen stellen bij een cliënt die je volgende week weer bezoekt, of bij een mantelzorger die er altijd is, vraagt een andere aanpak dan een eenmalige confrontatie. Je komt elkaar terug.
 
 Ook kijkt er in die woning steeds vaker iemand mee: een huiscamera in de kamer waar je zorg verleent, of een familielid dat het zorgmoment met de telefoon filmt. En tussen de bezoeken door gaan verwijten en eisen soms verder via app-berichten en telefoontjes naar de medewerker.

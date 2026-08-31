@@ -43,11 +43,11 @@ veelgestelde_vragen:
   - vraag: Voor wie is de gevorderde agressietraining voor filiaalmanagers bedoeld?
     antwoord: "Voor filiaalmanagers en teamleiders met een eerdere basistraining die regelmatig complexe of herhaalde agressiesituaties tegenkomen: vooral in drukke, stedelijke vestigingen met hoge incidentcijfers of structurele overlast."
   - vraag: Is een basistraining verplicht?
-    antwoord: Een afgeronde basistraining is de standaardvoorwaarde; aantoonbare werkervaring met agressie-incidenten kan daarvoor in de plaats komen.
+    antwoord: Niet per se. Een afgeronde basistraining is de standaardvoorwaarde; aantoonbare werkervaring met agressie-incidenten kan daarvoor in de plaats komen.
   - vraag: Wat is het verschil met de basistraining voor filiaalmanagers?
     antwoord: "De basistraining gaat over ingrijpen bij losse escalaties en het opvangen van medewerkers. Dit gevorderde niveau richt zich op structurele problematiek: overlastpatronen, gedemotiveerde teams, samenwerking met politie en gemeente, en op de positie van de manager zelf."
   - vraag: Wordt de training afgestemd op onze vestiging?
-    antwoord: Ja, de training wordt vooraf afgestemd op de specifieke vestiging. Casuïstiek en leiderschapsvraagstukken worden met de opdrachtgever besproken zodat de training direct aansluit op de praktijk.
+    antwoord: Ja. We stemmen de training vooraf af op de eigen vestiging en bespreken casuïstiek en leiderschapsvraagstukken met de opdrachtgever, zodat de training direct aansluit op de praktijk.
 gerelateerd:
   - agressietraining-filiaalmanagers-basis
   - agressietraining-filiaalmanagers-expert
@@ -59,12 +59,13 @@ gerelateerd:
 
 Sommige vestigingen kampen niet met losse incidenten maar met structurele
 problematiek: terugkerende overlastgevers, georganiseerde winkeldiefstal, een
-team dat het vertrouwen in de eigen veiligheid kwijtraakt.
+team dat het vertrouwen in de eigen veiligheid kwijtraakt. Dat vraagt een
+andere aanpak.
 
 Deze verdiepingstraining van Bureau Weerbaar en Veilig helpt managers die
 situatie te keren: met patroonanalyse, concrete maatregelen en aandacht voor
-de positie van de manager zelf: de dubbeldruk van teamveiligheid en
-organisatieresultaten.
+de positie van de manager zelf. Die draagt de dubbeldruk van teamveiligheid
+en organisatieresultaten.
 
 ## Herkenbare situaties op gevorderd niveau
 

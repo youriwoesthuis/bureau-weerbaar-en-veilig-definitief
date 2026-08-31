@@ -13,7 +13,7 @@ veelgestelde_vragen:
   - vraag: "Hoe begrens je een patiënt die volgende week weer aan de balie staat?"
     antwoord: "Dat is voor deze beroepsgroep de kernvraag. De agressie is zelden anoniem, dus begrenzen mag de zorgrelatie niet slopen. Daar gaat een substantieel deel van de training over."
   - vraag: "Kan de huisarts of praktijkhouder met het assistententeam meedoen?"
-    antwoord: "Ja, en dat heeft voordelen: de norm over wat je wel en niet accepteert aan de balie houdt alleen stand als de praktijk daar één lijn in trekt."
+    antwoord: "Ja. Dat heeft voordelen: de norm over wat je wel en niet accepteert aan de balie houdt alleen stand als de praktijk daar één lijn in trekt."
   - vraag: "Welk niveau past bij een huisartsenpraktijk?"
     antwoord: "Basis voor het hele team. Gevorderd voor assistenten die de basis beheersen en met terugkerende patiënten of complexe casuïstiek zitten. Expert voor de praktijkhouder of -manager die het beleid vastlegt."
 ---

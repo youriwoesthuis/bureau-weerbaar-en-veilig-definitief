@@ -43,7 +43,7 @@ veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Dierenartsen en kliniekmedewerkers met basistraining die te maken hebben met ernstige of langdurige agressiesituaties. Voorwaarde voor deelname: afgeronde basistraining of aantoonbare werkervaring met complexe agressiesituaties."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basistraining behandelt het herkennen en de-escaleren van agressie in het moment. Dit gevorderde niveau richt zich op patronen die niet impulsief zijn: bewuste grensoverschrijding, manipulatie en consistent teamoptreden."
+    antwoord: "Het soort agressie. De basistraining behandelt het herkennen en de-escaleren van agressie in het moment. Dit gevorderde niveau richt zich op patronen die niet impulsief zijn: bewuste grensoverschrijding, manipulatie en consistent teamoptreden."
 gerelateerd:
   - "agressietraining-dierenartsen-dierklinieken-basis"
   - "agressietraining-dierenartsen-dierklinieken-expert"
@@ -53,7 +53,7 @@ gerelateerd:
 
 ## Waarom deze training
 
-Complexe, langdurige klantconflicten vragen andere vaardigheden dan een incident aan de balie. Situaties waarin medewerkers maandenlang te maken hebben met agressieve of klagende eigenaren putten uit: professioneel en persoonlijk.
+Langdurige klantconflicten vragen andere vaardigheden dan een incident aan de balie. Maandenlang te maken hebben met agressieve of klagende eigenaren put uit: professioneel en persoonlijk.
 
 Deze verdiepingstraining van Bureau Weerbaar en Veilig richt zich op die lange adem, inclusief de online kant van het conflict.
 

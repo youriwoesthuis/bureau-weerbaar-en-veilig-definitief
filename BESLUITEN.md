@@ -259,6 +259,42 @@ beroepsgroeppagina's (staat al in de lopende tekst; een blok ernaast wordt
 dubbelop) en voorinvulbare formulieren (kan pas als het formulier een
 verzendsleutel heeft, hoofdstuk 8).
 
+## 7h. Stijlherschrijving naar de stem van Act in Move (31-08-2026)
+
+Youri: hij vindt de schrijfstijl van actinmove.nl mooier en wil die op deze
+site, met als harde randvoorwaarde dat de drie merken elkaar niet bijten.
+
+**Eerst getoetst bij Gemini.** Oordeel: stijlgelijkenis tussen de merken is
+geen SEO- of GEO-risico. Zoekmachines en AI-systemen scheiden op zoekintentie
+en entiteiten, niet op toon; de scheiding zit in de assen uit MERKGROEP.md.
+Een gedeelde stem over een merkenfamilie is juist een pluspunt, mits het
+perspectief verschilt: Act in Move thematisch, Bureau Weerbaar en Veilig
+beroepsgericht, AgressieVisie educatief. Omdat de site nog niet live is op het
+eigen domein, is er ook geen indexatierisico; dit was juist het moment.
+
+**Vastgelegd in STIJL.md**: het recept van vijftien regels, afgeleid uit een
+analyse van twaalf pagina's van actinmove.nl, plus de bewuste afwijkingen en
+de controlelijst. Kern van de stem: zinnen van vijftien à zestien woorden met
+een korte klap erna, de dubbele punt als motor, voorwaardelijke inversie om te
+adviseren, definitie-door-ontkenning, ruimte voor twijfel (vaak, meestal,
+doorgaans), en FAQ-antwoorden die met een kort kaal antwoord beginnen.
+
+**Uitgesloten van de herschrijving** (advies Gemini, hoofdstuk 3 van STIJL.md):
+titels en H1's, de eerste zin van elk openingsantwoord, de RI&E-bouwsteen, de
+wetscitaten en de vaste feiten. Alle vijf zijn na afloop nagemeten en intact.
+
+**Uitvoering**: 207 contentbestanden plus de pagina-templates en componenten,
+in twee ronden. De eerste ronde liep halverwege op een sessielimiet van de API
+en deed 120 bestanden; de tweede ronde maakte de resterende 87 af. Netto 202
+gewijzigde bestanden. Gemeten na afloop: 221 pagina's, nul fouten, nul
+waarschuwingen, en nul keer u, nul gedachtestreepjes en nul uitroeptekens in
+de gerenderde tekst.
+
+**Wat bewust niet is aangeraakt**: de teamcitaten in de eerste persoon. Vier
+teamleden hebben een bio die volledig uit een eigen uitspraak bestaat; die
+herschrijven zou veranderen wat iemand feitelijk heeft gezegd. Wil Youri die
+in de huisstijl, dan is dat een vraag aan de betrokkenen zelf.
+
 ## 8. Nog open — heeft Youri nodig
 
 - Onderkop van de hero

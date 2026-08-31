@@ -21,7 +21,7 @@ samenvatting: >-
 resultaat:
   - "Instrumentele agressie onderscheiden van frustratie-agressie"
   - Manipulatie en druktactieken herkennen en neutraliseren
-  - Werken met risicoprofielen
+  - Risicoprofielen gebruiken
   - Teamafspraken maken bij herhaalde agressie
   - Als duo eenduidig reageren
   - Grenzen stellen bij instrumentele agressie
@@ -42,7 +42,7 @@ werkvormen:
   - oefeningen gericht op het werken als duo
 veelgestelde_vragen:
   - vraag: "Waarom is het werken als duo een apart onderwerp?"
-    antwoord: Omdat ambulancemedewerkers met twee mensen werken en een patiënt direct voelt wanneer die twee verschillend reageren. Eenduidig optreden als duo is daarom een vaste module in deze training.
+    antwoord: Omdat ambulancemedewerkers met twee mensen werken. Een patiënt voelt direct wanneer die twee verschillend reageren. Eenduidig optreden als duo is daarom een vaste module in deze training.
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Ambulancemedewerkers met een basistraining die regelmatig complexe of herhaalde agressie-incidenten meemaken. Voorwaarde voor deelname: afgeronde basistraining of aantoonbare werkervaring met agressie-incidenten."
   - vraag: "Wat is het verschil met de andere niveaus?"

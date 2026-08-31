@@ -41,11 +41,11 @@ werkvormen:
   - intervisie na afloop (op verzoek)
 veelgestelde_vragen:
   - vraag: "Hoe zit de intervisie in het programma?"
-    antwoord: "De training bestaat uit 1 dag, waarvan de tweede na ongeveer 6 weken plaatsvindt. Deelnemers brengen dan hun eigen casussen en de voortgang van de implementatie in."
+    antwoord: "Als losse terugkombijeenkomst, op verzoek, na ongeveer 6 weken. Deelnemers brengen dan hun eigen casussen en de voortgang van de implementatie in. De training zelf duurt 1 dag."
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Teamleiders, zorgcoördinatoren en managers in de thuiszorg en wijkverpleging. Voorwaarde voor deelname: leidinggevende of coördinerende verantwoordelijkheid voor een thuiszorgteam."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basis- en gevorderde training gaan over het eigen handelen. Dit expertniveau gaat over de organisatie: beleid, escalatiestructuur, nazorg, meldcultuur en het coachen van medewerkers."
+    antwoord: "De invalshoek. De basis- en gevorderde training gaan over het eigen handelen. Dit expertniveau gaat over de organisatie: beleid, escalatiestructuur, nazorg, meldcultuur en het coachen van medewerkers."
 gerelateerd:
   - "agressietraining-thuiszorg-wijkverpleging-basis"
   - "agressietraining-thuiszorg-wijkverpleging-gevorderd"
@@ -55,7 +55,7 @@ gerelateerd:
 
 ## Waarom deze training
 
-Thuiszorgmedewerkers werken alleen, zonder achterwacht, in de woning van een cliënt. Dat maakt de leidinggevende verantwoordelijk voor iets wat hij of zij niet kan zien gebeuren.
+Thuiszorgmedewerkers werken alleen, zonder achterwacht, in de woning van een cliënt. Dat maakt je als leidinggevende verantwoordelijk voor werk dat je niet ziet gebeuren.
 
 Deze experttraining van Bureau Weerbaar en Veilig richt zich daarom op wat wél te sturen is: helder veiligheidsbeleid, duidelijke afspraken per cliënt, structurele nazorg en samenwerking met huisartsen en GGZ.
 

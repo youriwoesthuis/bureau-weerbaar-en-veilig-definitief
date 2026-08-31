@@ -52,7 +52,7 @@ gerelateerd:
 
 ## Waarom deze training
 
-In de reclassering staan twee missies naast elkaar: de zorg voor de cliënt en de veiligheid van de medewerker. Zonder beleid wordt die spanning stilzwijgend bij de individuele medewerker gelegd.
+In de reclassering staan twee missies naast elkaar: de zorg voor de cliënt en de veiligheid van de medewerker. Ontbreekt beleid, dan komt die spanning stilzwijgend bij de individuele medewerker te liggen.
 
 Deze experttraining van Bureau Weerbaar en Veilig richt zich op de vraag hoe je beide borgt, zonder medewerkers op te offeren voor de relatie met de cliënt.
 
@@ -63,4 +63,4 @@ Deze experttraining van Bureau Weerbaar en Veilig richt zich op de vraag hoe je 
 - Structurele debriefing na ernstige incidenten ontbreekt
 - Medewerkers krijgen onvoldoende steun bij terugmeldbeslissingen
 - Intimidatiepatronen over langere tijd blijven buiten het zicht
-- Samenwerking met politie en OM verloopt niet optimaal
+- Samenwerking met politie en OM verloopt niet soepel

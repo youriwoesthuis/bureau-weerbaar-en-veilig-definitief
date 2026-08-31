@@ -45,7 +45,7 @@ veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Teamleiders, afdelingshoofden en locatiemanagers in verpleeghuizen en de ouderenzorg. Voorwaarde voor deelname: leidinggevende verantwoordelijkheid voor een team in een verpleeghuis of ouderenzorginstelling."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basis- en gevorderde training gaan over het eigen handelen. Dit expertniveau gaat over de organisatie: beleid, escalatiestructuur, nazorg, meldcultuur en het coachen van medewerkers."
+    antwoord: "Het perspectief. De basis- en gevorderde training gaan over het eigen handelen. Dit expertniveau gaat over de organisatie: beleid, escalatiestructuur, nazorg, meldcultuur en het coachen van medewerkers."
 gerelateerd:
   - "agressietraining-verpleeghuizen-ouderenzorg-basis"
   - "agressietraining-verpleeghuizen-ouderenzorg-gevorderd"
@@ -55,9 +55,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Agressie in de ouderenzorg is complex: het gedrag is vaak ziektegebonden, de emotionele belasting voor medewerkers is groot en incidenten raken genormaliseerd: "het hoort bij dementie" wordt een reden om niet meer te melden.
+Agressie in de ouderenzorg is complex: het gedrag is vaak ziektegebonden, de emotionele belasting voor medewerkers is groot en incidenten raken genormaliseerd. "Het hoort bij dementie" wordt een reden om niet meer te melden.
 
-Deze experttraining van Bureau Weerbaar en Veilig helpt leidinggevenden het veiligheidsbeleid te verankeren en de teamcultuur structureel te verbeteren, zonder de zorgkwaliteit voor de bewoner uit het oog te verliezen.
+Deze experttraining van Bureau Weerbaar en Veilig helpt leidinggevenden het veiligheidsbeleid te verankeren en de teamcultuur structureel te verbeteren. De zorgkwaliteit voor de bewoner blijft daarbij in beeld.
 
 ## Wat speelt er op dit niveau
 

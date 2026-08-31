@@ -11,7 +11,7 @@ veelgestelde_vragen:
   - vraag: "Veel agressie komt bij ons via telefoon en e-mail. Hoort dat bij de training?"
     antwoord: "Ja, expliciet. Agressie op afstand verloopt anders dan aan een balie: je ziet de ander niet en het gesprek is makkelijker te herhalen. Dat krijgt een eigen plek in de training."
   - vraag: "Sommige medewerkers zien op tegen hun eigen gesprekslijst. Kan de training daar iets mee?"
-    antwoord: "Ja. Dat is een herkenbaar signaal en geen uitzondering. Wat het met iemand doet om dag na dag slecht nieuws te brengen, hoort bij het onderwerp en wordt niet weggelaten."
+    antwoord: "Ja. Dat is een herkenbaar signaal en geen uitzondering. Wat het met iemand doet om dag na dag slecht nieuws te brengen, hoort bij het onderwerp. Dat laten we niet weg."
   - vraag: "Wordt de gezagspositie van de medewerker behandeld?"
     antwoord: "Ja. Grote financiële belangen, juridische complexiteit en een duidelijke gezagspositie komen hier samen. Hoe je die positie inneemt zonder de spanning op te voeren, is een kernonderwerp."
   - vraag: "Welk niveau past bij medewerkers van de Belastingdienst?"

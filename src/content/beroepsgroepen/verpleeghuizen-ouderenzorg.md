@@ -19,6 +19,6 @@ veelgestelde_vragen:
     antwoord: "Basis voor alle zorgmedewerkers, inclusief leerlingen en invalkrachten. Gevorderd voor wie de basis beheerst. Expert voor de teamleider of kwaliteitsverpleegkundige die het beleid en de nazorgstructuur inricht."
 ---
 
-In het verpleeghuis komt agressie zelden voort uit kwaadwilligheid. Een bewoner met dementie die slaat of bijt tijdens de verzorging reageert op angst, pijn of onbegrip. Dat vraagt om begrip van de belevingswereld van de bewoner: én om technieken die de medewerker fysiek en emotioneel heel houden.
+In het verpleeghuis komt agressie zelden voort uit kwaadwilligheid. Een bewoner met dementie die slaat of bijt tijdens de verzorging reageert op angst, pijn of onbegrip. Dat vraagt om begrip van de belevingswereld van de bewoner en om handelen dat de medewerker fysiek en emotioneel heel houdt.
 
-Tegelijk is er de andere kant: familieleden die zorgmedewerkers intimideren over de zorg voor hun naaste. Dat gedrag is wél begrensbaar. Het onderscheid tussen ziektegebonden en begrensbare agressie is de kern van alle trainingen van Bureau Weerbaar en Veilig in deze sector.
+Tegelijk is er de andere kant: familieleden die zorgmedewerkers intimideren over de zorg voor hun naaste. Dat gedrag is wél begrensbaar. Zit het gedrag in de ziekte, dan begint het bij begrijpen. Is het een keuze, dan begint het bij een grens. Dat onderscheid tussen ziektegebonden en begrensbare agressie is de kern van alle trainingen van Bureau Weerbaar en Veilig in deze sector.

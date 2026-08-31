@@ -10,7 +10,7 @@ samenvatting: >-
   (gevorderd) en beleid voor een veilige openbare ruimte (expert).
 veelgestelde_vragen:
   - vraag: "Wij willen een open huis blijven. Kan dat samen met grenzen stellen?"
-    antwoord: "Dat is precies de vraag waar de trainingen op gericht zijn. Openheid is de kracht van de instelling; grenzen stellen hoeft die openheid niet ongedaan te maken, maar vraagt wel dat iedereen dezelfde lijn hanteert."
+    antwoord: "Ja. Dat is precies de vraag waar de trainingen op gericht zijn. Openheid is de kracht van de instelling; grenzen stellen hoeft die openheid niet ongedaan te maken, maar vraagt wel dat iedereen dezelfde lijn hanteert."
   - vraag: "Onze medewerkers hebben hier niet voor gekozen. Is de training daarop afgestemd?"
     antwoord: "Ja. Voor bibliotheekmedewerkers is omgaan met agressie geen onderdeel van de opleiding geweest. De training begint daarom bij herkennen en niet bij techniek."
   - vraag: "Komen bezoekers in psychische nood aan bod?"

@@ -42,7 +42,7 @@ veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Verzekeringsmedewerkers met basistraining die complexe agressiepatronen en manipulatie rond schadeclaims moeten hanteren. Voorwaarde voor deelname: afgeronde basistraining."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basistraining behandelt het herkennen en de-escaleren van agressie in het moment. Dit gevorderde niveau richt zich op patronen die niet impulsief zijn: bewuste grensoverschrijding, manipulatie en consistent teamoptreden."
+    antwoord: "De focus. De basistraining behandelt het herkennen en de-escaleren van agressie in het moment. Dit gevorderde niveau richt zich op patronen die niet impulsief zijn: bewuste grensoverschrijding, manipulatie en consistent teamoptreden."
 gerelateerd:
   - "agressietraining-verzekeringsmedewerkers-basis"
   - "agressietraining-verzekeringsmedewerkers-expert"
@@ -52,7 +52,7 @@ gerelateerd:
 
 ## Waarom deze training
 
-Rond schadeclaims wordt agressie vaak berekend ingezet: druk opvoeren tot de vergoeding hoger wordt, of een afwijzing niet accepteren en escaleren via elke beschikbare route.
+Rond schadeclaims zetten klanten agressie vaak berekend in: druk opvoeren tot de vergoeding hoger wordt, of een afwijzing niet accepteren en escaleren via elke beschikbare route. Dat is zelden impulsief.
 
 Deze verdiepingstraining van Bureau Weerbaar en Veilig richt zich op dat gedrag en op standhouden bij een fraudeweigering.
 

@@ -44,7 +44,7 @@ veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: Alle medewerkers in frontlijnfuncties bij overheidsorganisaties met direct burgercontact aan loket of balie. Er is geen voorkennis nodig; dit is het instapniveau.
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basistraining leert gemeenteloket & publieksbalie agressie herkennen, de eigen reactie reguleren en situaties de-escaleren. Wie structureel met zwaardere situaties werkt, gaat daarna verder met het gevorderde niveau."
+    antwoord: "De basistraining leert loket- en baliemedewerkers agressie herkennen, de eigen reactie reguleren en situaties de-escaleren. Wie structureel met zwaardere situaties werkt, gaat daarna verder met het gevorderde niveau."
 gerelateerd:
   - "agressietraining-gemeenteloket-publieksbalie-gevorderd"
   - "agressietraining-gemeenteloket-publieksbalie-expert"
@@ -56,7 +56,7 @@ gerelateerd:
 
 Medewerkers aan het gemeenteloket staan dagelijks in de frontlinie, op de plek waar de frustratie van de burger zich richt op de persoon achter de balie.
 
-De basistraining van Bureau Weerbaar en Veilig voorkomt escalatie en handelingsverlegenheid, met aandacht voor de unieke positie van een overheidsmedewerker die gebonden is aan regels die niet ter discussie staan.
+De basistraining van Bureau Weerbaar en Veilig helpt escalatie en handelingsverlegenheid voorkomen, met aandacht voor de bijzondere positie van een overheidsmedewerker die gebonden is aan regels die niet ter discussie staan.
 
 ## Herkenbare praktijksituaties
 

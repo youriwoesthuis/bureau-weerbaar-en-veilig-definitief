@@ -42,7 +42,7 @@ veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Praktijkhouders, kliniekmanagers en leidinggevende dierenartsen van dierklinieken. Voorwaarde voor deelname: leidinggevende of eigenaarverantwoordelijkheid voor een dierkliniek of team."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basis- en gevorderde training gaan over het eigen handelen. Dit expertniveau gaat over de organisatie: beleid, escalatiestructuur, nazorg, meldcultuur en het coachen van medewerkers."
+    antwoord: "Het perspectief. De basis- en gevorderde training gaan over het eigen handelen. Dit expertniveau gaat over de organisatie: beleid, escalatiestructuur, nazorg, meldcultuur en het coachen van medewerkers."
 gerelateerd:
   - "agressietraining-dierenartsen-dierklinieken-basis"
   - "agressietraining-dierenartsen-dierklinieken-gevorderd"
@@ -52,13 +52,13 @@ gerelateerd:
 
 ## Waarom deze training
 
-Kliniekmedewerkers werken met mensen op hun meest kwetsbare momenten. Zonder beleid wordt elke grens een individuele afweging, en wint uiteindelijk de klant die het hardst roept.
+Kliniekmedewerkers werken met mensen op kwetsbare momenten. Ontbreekt beleid, dan wordt elke grens een individuele afweging. Dan wint niet de redelijkheid, maar het volume.
 
 Deze experttraining van Bureau Weerbaar en Veilig geeft praktijkhouders het beleid en de protocollen om veiligheid en zorgkwaliteit samen te bewaren.
 
 ## Wat speelt er op dit niveau
 
-- Grensoverschrijdend gedrag van eigenaren wordt gezien als onderdeel van het werk
+- Grensoverschrijdend gedrag van eigenaren geldt als onderdeel van het werk
 - Er is geen beleid voor het beëindigen van zorg bij agressie
 - Onvoldoende ondersteuning van medewerkers na incidenten
 - Online beschuldigingen en reputatieschade blijven onbehandeld

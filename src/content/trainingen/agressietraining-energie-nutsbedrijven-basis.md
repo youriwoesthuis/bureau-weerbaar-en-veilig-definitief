@@ -40,7 +40,7 @@ veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Monteurs, inspecteurs en servicemedewerkers die huisbezoeken bij klanten uitvoeren. Er is geen voorkennis nodig; dit is het instapniveau."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basistraining leert medewerkers energie- & nutsbedrijven agressie herkennen, de eigen reactie reguleren en situaties de-escaleren. Wie structureel met zwaardere situaties werkt, gaat daarna verder met het gevorderde niveau."
+    antwoord: "De zwaarte van de situaties. De basistraining leert medewerkers van energie- en nutsbedrijven agressie herkennen, de eigen reactie reguleren en situaties de-escaleren. Wie structureel met zwaardere situaties werkt, gaat daarna verder met het gevorderde niveau."
 gerelateerd:
   - "agressietraining-energie-nutsbedrijven-gevorderd"
   - "agressietraining-energie-nutsbedrijven-expert"
@@ -50,9 +50,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Medewerkers van energie- en nutsbedrijven werken alleen in privéwoningen, vaak bij ingrijpende taken zoals afsluitingen en verplichte inspecties.
+Medewerkers van energie- en nutsbedrijven werken alleen in privéwoningen, vaak bij ingrijpende taken: een afsluiting, een verplichte inspectie, een besluit dat de klant niet wil horen.
 
-Zonder concrete training weten medewerkers niet altijd hoe zij agressief gedrag kunnen begrenzen. De basistraining van Bureau Weerbaar en Veilig geeft die handvatten.
+Zonder concrete training weten medewerkers niet altijd hoe ze agressief gedrag kunnen begrenzen. De basistraining van Bureau Weerbaar en Veilig geeft die handvatten.
 
 ## Herkenbare praktijksituaties
 

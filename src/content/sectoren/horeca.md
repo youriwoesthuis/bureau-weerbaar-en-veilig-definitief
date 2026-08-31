@@ -12,7 +12,7 @@ veelgestelde_vragen:
   - vraag: "Worden ook leidinggevenden getraind?"
     antwoord: "Ja. De norm over wat wel en niet geaccepteerd wordt, kan een medewerker in de bediening niet alleen dragen. Het expertniveau is voor de leidinggevenden die die norm stellen."
   - vraag: "Seksuele intimidatie wordt bij ons vaak weggelachen. Kan dat besproken worden?"
-    antwoord: "Ja, en het wordt expliciet benoemd. Zolang het geldt als iets dat bij het vak hoort, is het geen incident dat gemeld wordt en verandert er niets."
+    antwoord: "Ja, en we benoemen het expliciet. Zolang het geldt als iets dat bij het vak hoort, meldt niemand het en verandert er niets."
 ---
 
 De horeca heeft een probleem dat andere sectoren niet zo scherp kennen: de gast heeft altijd voorrang. Dat maakt het lastig om iemand te weigeren, aan te spreken of de deur te wijzen, en gasten voelen dat.

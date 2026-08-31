@@ -19,7 +19,7 @@ samenvatting: >-
   afgeronde basistraining of aantoonbare ervaring.
 resultaat:
   - Vroege signalen van collectieve onrust herkennen
-  - Omgaan met getraumatiseerde bewoners in acute crisis
+  - Een acute crisis bij getraumatiseerde bewoners hanteren
   - Intimidatie herkennen en escaleren
   - Veilig handelen bij minimale bezetting
   - Bedreigingen correct melden
@@ -55,7 +55,7 @@ gerelateerd:
 
 Collectieve onrust, getraumatiseerde bewoners in crisis en georganiseerde intimidatie vragen meer dan basisvaardigheden, zeker wanneer je er tijdens een nachtdienst met een minimale bezetting voor staat.
 
-Deze verdiepingstraining van Bureau Weerbaar en Veilig bereidt medewerkers voor op professioneel handelen onder maximale druk.
+Deze verdiepingstraining van Bureau Weerbaar en Veilig bereidt medewerkers voor op professioneel handelen onder hoge druk.
 
 ## Herkenbare praktijksituaties
 

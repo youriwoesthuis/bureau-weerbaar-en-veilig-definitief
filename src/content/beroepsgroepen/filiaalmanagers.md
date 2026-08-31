@@ -10,15 +10,15 @@ samenvatting: >-
   beleidsverantwoordelijken).
 veelgestelde_vragen:
   - vraag: "Wij moeten zelf ingrijpen én het team opvangen. Zit dat allebei in de training?"
-    antwoord: "Ja, en dat dubbele is hier het uitgangspunt. Zelf professioneel ingrijpen is één ding; zorgen dat het team zich veilig voelt en goed wordt opgevangen na een incident is een tweede."
+    antwoord: "Ja. Dat dubbele is hier het uitgangspunt. Zelf professioneel ingrijpen is één ding; zorgen dat het team zich veilig voelt en goed wordt opgevangen na een incident is een tweede."
   - vraag: "Komt georganiseerde winkeldiefstal aan bod?"
     antwoord: "Ja. Dat is een ander vraagstuk dan een boze klant: het gaat om groepen, om herhaling en om de vraag wanneer je als manager niet meer zelf optreedt."
   - vraag: "Wat doen we met \"de klant eist de manager\"?"
-    antwoord: "Dat moment is een vast onderdeel. Overgenomen worden door je eigen medewerker is soms goed en soms precies verkeerd; wanneer welk van de twee geldt, is te leren."
+    antwoord: "Dat moment is een vast onderdeel. Dat je eigen medewerker het overneemt is soms goed en soms precies verkeerd: wanneer welk van de twee geldt, is te leren."
   - vraag: "Welk niveau past bij filiaalmanagers en teamleiders?"
     antwoord: "Expert ligt hier het meest voor de hand: beleid, teamnorm, nazorgstructuur en het coachen van medewerkers. Wie zelf nog veel op de vloer staat, doet er goed aan eerst basis of gevorderd te volgen."
   - vraag: "Incidenten bij ons worden gefilmd en komen terug in reviews. Is daar aandacht voor?"
-    antwoord: "Ja, als je dat inbrengt bij de intake. De trainingsacteur speelt bijvoorbeeld een klant die zijn telefoon pakt tijdens een escalatie, en je oefent hoe je blijft handelen en begrenst terwijl er gefilmd wordt, en hoe je daarna het gesprek met je team voert als er beelden of een boze review circuleren."
+    antwoord: "Ja, als je dat inbrengt bij de intake. De trainingsacteur speelt bijvoorbeeld een klant die zijn telefoon pakt tijdens een escalatie. Je oefent hoe je blijft handelen en begrenst terwijl er gefilmd wordt, en hoe je daarna het gesprek met je team voert als er beelden of een boze review circuleren."
 ---
 
 Filiaalmanagers en teamleiders dragen een dubbele verantwoordelijkheid: zelf
@@ -29,7 +29,7 @@ trainingen van Bureau Weerbaar en Veilig behandelen de escalatie, de nazorg en
 het beleid dat daarbij hoort.
 
 Een incident blijft bovendien zelden binnen de winkel. Omstanders filmen een
-escalatie bij de kassa en delen het fragment online, en een boze klant laat
-zijn ongenoegen achter in een review waarin de zaak, of jij persoonlijk,
-wordt genoemd. Als manager krijg je dan vragen van je team over beelden die
-maar een deel van het verhaal laten zien.
+escalatie bij de kassa en delen het fragment online. Een boze klant laat zijn
+ongenoegen achter in een review, en noemt daarin de zaak of jou persoonlijk.
+Als manager krijg je dan vragen van je team over beelden die maar een deel van
+het verhaal laten zien.

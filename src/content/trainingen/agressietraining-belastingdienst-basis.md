@@ -43,7 +43,7 @@ veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Alle medewerkers bij de Belastingdienst met direct burger- of ondernemerscontact, telefonisch en fysiek. Er is geen voorkennis nodig; dit is het instapniveau."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basistraining leert belastingdienst agressie herkennen, de eigen reactie reguleren en situaties de-escaleren. Wie structureel met zwaardere situaties werkt, gaat daarna verder met het gevorderde niveau."
+    antwoord: "De basistraining leert medewerkers van de Belastingdienst agressie herkennen, de eigen reactie reguleren en situaties de-escaleren. Wie structureel met zwaardere situaties werkt, gaat daarna verder met het gevorderde niveau."
 gerelateerd:
   - "agressietraining-belastingdienst-gevorderd"
   - "agressietraining-belastingdienst-expert"
@@ -55,7 +55,7 @@ gerelateerd:
 
 Bij de Belastingdienst leidt agressie tot zichtbare gevolgen: medewerkers die opzien tegen telefoongesprekken en hoog verzuim op bepaalde afdelingen.
 
-De basistraining van Bureau Weerbaar en Veilig geeft medewerkers concrete vaardigheden om die gesprekken te hanteren: met bijzondere aandacht voor agressie via telefoon en e-mail.
+De basistraining van Bureau Weerbaar en Veilig geeft medewerkers concrete vaardigheden om die gesprekken te hanteren, met aandacht voor agressie via telefoon en e-mail.
 
 ## Herkenbare praktijksituaties
 

@@ -51,7 +51,7 @@ gerelateerd:
 
 ## Waarom deze training
 
-Reclasseringsmedewerkers vervullen een dubbelrol: toezichthouder én begeleider. Dat schept een unieke spanning, want dezelfde professional die helpt, kan ook de vrijheid van de cliënt beperken.
+Reclasseringsmedewerkers vervullen een dubbelrol: toezichthouder én begeleider. Dat schept spanning: dezelfde professional die helpt, kan ook de vrijheid van de cliënt beperken.
 
 De basistraining van Bureau Weerbaar en Veilig geeft medewerkers de vaardigheden om die situaties veilig beheersbaar te houden, met de machtsdynamiek expliciet op tafel.
 

@@ -45,7 +45,7 @@ veelgestelde_vragen:
   - vraag: Wat zijn de voorwaarden voor deelname?
     antwoord: Een leidinggevende functie met aantoonbare werkervaring met agressie in de retail.
   - vraag: Wat levert de training de organisatie op?
-    antwoord: Een getoetst en aangescherpt agressieprotocol, een heldere escalatiestructuur, structurele nazorg en een sterkere meldcultuur, zodat het team consistent reageert en incidenten benut worden om te leren.
+    antwoord: Een getoetst en aangescherpt agressieprotocol, een heldere escalatiestructuur, structurele nazorg en een sterkere meldcultuur, zodat het team consistent reageert en van incidenten leert.
 gerelateerd:
   - agressietraining-kassamedewerkers-baliemedewerkers-basis
   - agressietraining-kassamedewerkers-baliemedewerkers-gevorderd
@@ -55,10 +55,10 @@ gerelateerd:
 
 ## Waarom deze training
 
-Achter veel kassa- en balieteams schuilt hetzelfde patroon: incidenten worden
-onvoldoende gemeld en nabesproken, protocollen worden wisselend toegepast en
-teamreacties verschillen per persoon en per dienst. Precies die
-inconsistentie versterkt ongewenst gedrag.
+Achter veel kassa- en balieteams schuilt hetzelfde patroon: het team meldt
+incidenten onvoldoende, past protocollen wisselend toe en reageert per
+persoon en per dienst verschillend. Precies die inconsistentie versterkt
+ongewenst gedrag.
 
 Deze experttraining van Bureau Weerbaar en Veilig richt zich op de
 leidinggevende, en op de stap van losse incidenten naar structuur: beleid, escalatie,

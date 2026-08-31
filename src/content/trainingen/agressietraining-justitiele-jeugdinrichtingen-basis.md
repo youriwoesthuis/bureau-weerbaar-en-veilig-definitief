@@ -41,7 +41,7 @@ veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Groepsleiders, pedagogisch medewerkers en beveiligers in justitiële jeugdinrichtingen. Er is geen voorkennis nodig; dit is het instapniveau."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basistraining leert justitiële jeugdinrichtingen agressie herkennen, de eigen reactie reguleren en situaties de-escaleren. Wie structureel met zwaardere situaties werkt, gaat daarna verder met het gevorderde niveau."
+    antwoord: "De basistraining leert medewerkers van justitiële jeugdinrichtingen agressie herkennen, de eigen reactie reguleren en situaties de-escaleren. Wie structureel met zwaardere situaties werkt, gaat daarna verder met het gevorderde niveau."
 gerelateerd:
   - "agressietraining-justitiele-jeugdinrichtingen-gevorderd"
   - "agressietraining-justitiele-jeugdinrichtingen-expert"
@@ -51,9 +51,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Medewerkers van justitiële jeugdinrichtingen werken in een van de meest veeleisende omgevingen die er zijn: met jongeren die in spanning en frustratie leven en die niet weg kunnen.
+Medewerkers van justitiële jeugdinrichtingen werken in een veeleisende omgeving: met jongeren die in spanning en frustratie leven en die niet weg kunnen.
 
-Zonder training ontstaan gevaarlijke situaties en hoog verzuim. De basistraining van Bureau Weerbaar en Veilig richt zich op gezag uitstralen zonder te escaleren.
+Zonder training leidt dat vaak tot gevaarlijke situaties en hoog verzuim. De basistraining van Bureau Weerbaar en Veilig richt zich op gezag uitstralen zonder te escaleren.
 
 ## Herkenbare praktijksituaties
 

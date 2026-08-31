@@ -53,9 +53,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-De sociale dienst werkt met een van de meest kwetsbare en tegelijk meest agressiegevoelige doelgroepen. Van medewerkers wordt gevraagd te handhaven én te helpen, vaak in hetzelfde gesprek.
+De sociale dienst werkt met een doelgroep die kwetsbaar is en tegelijk agressiegevoelig. Medewerkers moeten handhaven én helpen, vaak in hetzelfde gesprek.
 
-Deze experttraining van Bureau Weerbaar en Veilig versterkt de veiligheid zonder de dienstverlening aan kwetsbare burgers te compromitteren: door die spanning in beleid te verankeren in plaats van bij de individuele medewerker te laten.
+Deze experttraining van Bureau Weerbaar en Veilig versterkt de veiligheid zonder de dienstverlening aan kwetsbare burgers aan te tasten: door die spanning in beleid te verankeren in plaats van bij de individuele medewerker te laten.
 
 ## Wat speelt er op dit niveau
 

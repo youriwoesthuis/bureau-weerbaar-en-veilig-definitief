@@ -53,11 +53,11 @@ gerelateerd:
 Winkelmedewerkers werken in open, publiek toegankelijke ruimten zonder fysieke
 barrières. Ze helpen klanten, onderhouden de winkel en grijpen in bij
 winkeldiefstal, vaak terwijl ze alleen zijn in een deel van de winkel. Zonder
-training ontstaan vermijdingsgedrag, hoog verloop en genormaliseerde
+training ontstaan meestal vermijdingsgedrag, hoog verloop en genormaliseerde
 grensoverschrijdingen: "dat hoort er nu eenmaal bij" wordt de norm.
 
 De basistraining van Bureau Weerbaar en Veilig doorbreekt dat patroon. Medewerkers
-leren signalen vroeg herkennen, hun eigen reactie te reguleren en een gespannen
+leren signalen vroeg te herkennen, hun eigen reactie te reguleren en een gespannen
 situatie terug te brengen naar een normaal gesprek.
 
 ## Herkenbare praktijksituaties

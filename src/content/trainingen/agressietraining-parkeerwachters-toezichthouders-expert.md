@@ -54,7 +54,7 @@ gerelateerd:
 
 Toezichthouders werken alleen en zijn zichtbaar kwetsbaar. Hun veiligheid begint niet op straat maar bij het beleid: welke gebieden gelden als risicovol, wat is de afspraak bij solo-werk, wat gebeurt er na een incident.
 
-Deze experttraining van Bureau Weerbaar en Veilig richt zich op die vragen en op een organisatiecultuur waarin incidenten serieus worden genomen.
+Deze experttraining van Bureau Weerbaar en Veilig richt zich op die vragen en op een organisatiecultuur die incidenten serieus neemt.
 
 ## Wat speelt er op dit niveau
 

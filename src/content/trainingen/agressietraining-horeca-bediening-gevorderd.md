@@ -19,7 +19,7 @@ samenvatting: >-
   deelnemers en vraagt een afgeronde basistraining.
 resultaat:
   - Groepsdynamieken en escalatiepatronen vroegtijdig herkennen
-  - Omgaan met extreme intoxicatie en beslissen over hulpverlening
+  - Met extreme intoxicatie omgaan en over hulpverlening beslissen
   - Grensoverschrijding als team consistent aanpakken
   - Teamconsistentie handhaven bij terugkerende situaties
   - De regie behouden bij complexe omstandigheden

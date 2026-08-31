@@ -42,7 +42,7 @@ veelgestelde_vragen:
   - vraag: "Wordt agressie van familieleden ook behandeld?"
     antwoord: "Ja. Familieleden die zorgmedewerkers intimideren over de zorg voor hun naaste vormen een aparte module: dit gedrag is begrensbaar en vraagt een andere aanpak dan agressie bij dementie."
   - vraag: "Leert de training ook fysieke technieken?"
-    antwoord: "De nadruk ligt op het begrijpen van het gedrag, het reguleren van de eigen reactie en de-escaleren met passende technieken, zodat een situatie niet verder escaleert."
+    antwoord: "Dat is niet de kern. De nadruk ligt op het begrijpen van het gedrag, het reguleren van de eigen reactie en de-escaleren met passende technieken, zodat een situatie niet verder escaleert."
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Alle zorgmedewerkers, verzorgenden en verpleegkundigen in verpleeghuizen en ouderenzorginstellingen. Er is geen voorkennis nodig; dit is het instapniveau."
 gerelateerd:
@@ -54,9 +54,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Zorgmedewerkers in verpleeghuizen werken dagelijks met agressie die voortkomt uit kwetsbaarheid, ziekte en verlies van controle. Dat is geen kwade wil, maar het raakt medewerkers wel: fysiek en emotioneel.
+Zorgmedewerkers in verpleeghuizen werken dagelijks met agressie die voortkomt uit kwetsbaarheid, ziekte en verlies van controle. Dat is geen kwade wil. Het raakt medewerkers wel: fysiek en emotioneel.
 
-Zonder training ontstaan handelingsverlegenheid, fysieke belasting en verzuim. De basistraining van Bureau Weerbaar en Veilig geeft medewerkers houvast, juist door het onderscheid te leren tussen gedrag dat bij de ziekte hoort en gedrag dat begrensd kan worden.
+Zonder training ontstaan vaak handelingsverlegenheid, fysieke belasting en verzuim. De basistraining van Bureau Weerbaar en Veilig geeft medewerkers houvast. Dat houvast zit in één onderscheid: gedrag dat bij de ziekte hoort en gedrag dat je kunt begrenzen.
 
 ## Herkenbare praktijksituaties
 

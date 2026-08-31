@@ -54,9 +54,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Gedragsdeskundigen worden van meerdere kanten aangesproken op de gevolgen van beleid waarover zij geen directe zeggenschap hebben. Familie vindt het advies te streng, begeleiders vinden het onuitvoerbaar, en de cliënt merkt vooral dat er iets verandert.
+Gedragsdeskundigen krijgen van meerdere kanten reacties op beleid waarover zij geen directe zeggenschap hebben: familie vindt het advies te streng, begeleiders vinden het onuitvoerbaar, en de cliënt merkt vooral dat er iets verandert.
 
-Die meervoudige druk veroorzaakt handelingsverlegenheid. De basistraining van Bureau Weerbaar en Veilig biedt concrete kennis en vaardigheden om situaties beheersbaar te houden en professioneel te blijven werken.
+Die meervoudige druk veroorzaakt vaak handelingsverlegenheid. De basistraining van Bureau Weerbaar en Veilig biedt concrete kennis en vaardigheden om situaties beheersbaar te houden en professioneel te blijven werken.
 
 ## Herkenbare praktijksituaties
 

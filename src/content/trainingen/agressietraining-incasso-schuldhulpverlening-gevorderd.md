@@ -32,7 +32,7 @@ programma:
   - titel: Extreme crisissituaties
     inhoud: "Professioneel standhouden bij een combinatie van schulden, dakloosheid, psychiatrie en verslaving."
   - titel: Veilig invorderen op locatie
-    inhoud: Veiligheid bij huisbezoeken voor invordering.
+    inhoud: Veilig handelen bij huisbezoeken voor invordering.
   - titel: Contact buiten werktijd
     inhoud: Grenzen stellen aan benadering via privékanalen.
 werkvormen:

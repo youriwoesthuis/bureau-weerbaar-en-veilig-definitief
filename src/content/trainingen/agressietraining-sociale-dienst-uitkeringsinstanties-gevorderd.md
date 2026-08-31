@@ -38,7 +38,7 @@ programma:
 werkvormen:
   - casuïstiek uit de eigen organisatie
   - patroonanalyse met directe feedback
-  - morele spanning wordt bespreekbaar gemaakt
+  - aandacht voor de morele spanning van het werk
 veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Medewerkers die regelmatig complexe of herhaalde agressie-incidenten meemaken bij schuldhulp, bijzondere bijstand en re-integratie. Voorwaarde voor deelname: afgeronde basistraining of aantoonbare werkervaring met agressie-incidenten."

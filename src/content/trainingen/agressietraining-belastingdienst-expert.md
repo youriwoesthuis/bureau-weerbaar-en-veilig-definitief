@@ -52,7 +52,7 @@ gerelateerd:
 
 ## Waarom deze training
 
-Agressie is bij de Belastingdienst geen incident maar een structureel onderdeel van het werk. Essentieel is hoe medewerkers reageren en of het agressiebeleid in de praktijk werkt.
+Agressie is bij de Belastingdienst geen incident maar een structureel onderdeel van het werk. Wat telt, is hoe medewerkers reageren en of het agressiebeleid in de praktijk werkt.
 
 Deze experttraining van Bureau Weerbaar en Veilig richt zich op die organisatiekant, met specifieke aandacht voor de juridische context van de Belastingdienst.
 
@@ -61,4 +61,4 @@ Deze experttraining van Bureau Weerbaar en Veilig richt zich op die organisatiek
 - Onvoldoende meldingen en nabespreking van incidenten
 - Inconsistente reacties op vergelijkbare agressiesituaties
 - Onduidelijkheid over de grens tussen standhouden en escaleren
-- Structurele nazorg na ernstige incidenten ontbreekt
+- Ontbrekende structurele nazorg na ernstige incidenten

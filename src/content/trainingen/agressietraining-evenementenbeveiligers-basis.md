@@ -40,7 +40,7 @@ veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: Alle evenementenbeveiligers met direct publiekscontact. Er is geen voorkennis nodig; dit is het instapniveau.
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basistraining leert evenementenbeveiligers agressie herkennen, de eigen reactie reguleren en situaties de-escaleren. Wie structureel met zwaardere situaties werkt, gaat daarna verder met het gevorderde niveau."
+    antwoord: "De zwaarte van de situaties. De basistraining leert evenementenbeveiligers agressie herkennen, de eigen reactie reguleren en situaties de-escaleren. Wie structureel met zwaardere situaties werkt, gaat daarna verder met het gevorderde niveau."
 gerelateerd:
   - "agressietraining-evenementenbeveiligers-gevorderd"
   - "agressietraining-evenementenbeveiligers-expert"
@@ -50,9 +50,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Grote aantallen mensen, wisselende locaties, beperkt zicht en bezoekers onder invloed maken de risico’s bij evenementen dynamisch en onvoorspelbaar.
+Grote aantallen mensen, wisselende locaties, beperkt zicht en bezoekers onder invloed maken de risico’s bij evenementen onvoorspelbaar.
 
-Zonder training escaleren situaties onnodig, met letsel en aansprakelijkheid als gevolg. De basistraining van Bureau Weerbaar en Veilig richt zich op de-escaleren vóórdat fysiek ingrijpen nodig is.
+Zonder training escaleren situaties vaak onnodig, met letsel en aansprakelijkheid als gevolg. De basistraining van Bureau Weerbaar en Veilig richt zich op de-escaleren vóórdat fysiek ingrijpen nodig is.
 
 ## Herkenbare praktijksituaties
 

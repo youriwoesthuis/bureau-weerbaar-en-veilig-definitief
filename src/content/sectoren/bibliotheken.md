@@ -10,7 +10,7 @@ veelgestelde_vragen:
   - vraag: "Onze medewerkers zijn geen beveiligers. Past een agressietraining dan wel?"
     antwoord: "Ja, en de training gaat daar juist van uit. Bibliotheekmedewerkers hebben niet voor dit onderdeel van het werk gekozen en zijn er niet voor opgeleid; de training begint bij herkennen, niet bij optreden."
   - vraag: "Blijft de bibliotheek een open huis als we strenger worden?"
-    antwoord: "Dat is precies de vraag waarop de trainingen gericht zijn. Openheid en een duidelijke grens sluiten elkaar niet uit, maar het werkt alleen als het hele team dezelfde lijn hanteert."
+    antwoord: "Ja. Openheid en een duidelijke grens sluiten elkaar niet uit, maar het werkt alleen als het hele team dezelfde lijn hanteert. Precies daar zijn de trainingen op gericht."
   - vraag: "Worden ook vestigingsmanagers getraind?"
     antwoord: "Ja. Er is een expertniveau voor leidinggevenden, gericht op de norm van de vestiging, de meldcultuur en de opvang na een incident."
 ---

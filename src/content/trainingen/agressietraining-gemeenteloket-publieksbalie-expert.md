@@ -60,6 +60,6 @@ Deze experttraining van Bureau Weerbaar en Veilig richt zich op die organisatiek
 ## Wat speelt er op dit niveau
 
 - Onvoldoende incidentmeldingen en nabespreking
-- Het protocol wordt inconsistent toegepast door het team
+- Het team past het protocol inconsistent toe
 - Nazorg na ernstige incidenten ontbreekt
 - Het escalatiebeleid is onduidelijk

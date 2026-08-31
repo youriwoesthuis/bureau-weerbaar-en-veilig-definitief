@@ -36,12 +36,12 @@ programma:
 werkvormen:
   - realistische oefeningen met trainers uit de financiële dienstverlening
   - casuïstiek uit de eigen schadepraktijk
-  - praktijkgericht oefenen zonder naïeve rollenspellen
+  - praktijkgericht oefenen zonder generieke rollenspellen
 veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: Verzekeringsmedewerkers en schadebehandelaars met direct klantcontact. Er is geen voorkennis nodig; dit is het instapniveau.
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basistraining leert verzekeringsmedewerkers agressie herkennen, de eigen reactie reguleren en situaties de-escaleren. Wie structureel met zwaardere situaties werkt, gaat daarna verder met het gevorderde niveau."
+    antwoord: "De zwaarte. De basistraining leert verzekeringsmedewerkers agressie herkennen, de eigen reactie reguleren en situaties de-escaleren. Wie structureel met zwaardere situaties werkt, gaat daarna verder met het gevorderde niveau."
 gerelateerd:
   - "agressietraining-verzekeringsmedewerkers-gevorderd"
   - "agressietraining-verzekeringsmedewerkers-expert"
@@ -53,11 +53,11 @@ gerelateerd:
 
 Verzekeringsmedewerkers werken met klanten in stressvolle situaties. De combinatie van emotionele schade en financiële teleurstelling maakt agressie tot een reëel risico in dit werk.
 
-De basistraining van Bureau Weerbaar en Veilig geeft medewerkers concrete vaardigheden om die gesprekken te hanteren zonder zelf op te branden.
+De basistraining van Bureau Weerbaar en Veilig geeft medewerkers concrete vaardigheden om die gesprekken te hanteren zonder zelf op te branden. Praktijkgericht oefenen, geen generieke rollenspellen.
 
 ## Herkenbare praktijksituaties
 
-- Een klant reageert woedend op een afgewezen schadeclaim
+- Woedende reacties op een afgewezen schadeclaim
 - Persoonlijke verwijten richting de schadebehandelaar
 - Dreiging met een klacht, de media of juridische stappen
 - Klanten in acute crisis na ingrijpende schade

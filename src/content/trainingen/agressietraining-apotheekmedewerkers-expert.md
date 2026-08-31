@@ -19,12 +19,12 @@ samenvatting: >-
 resultaat:
   - Helder beleid opstellen over het beëindigen van de zorgrelatie bij grensoverschrijdend gedrag
   - "Medewerkers coachen na agressie-incidenten met structurele debriefing"
-  - De meldcultuur versterken zodat incidenten worden gerapporteerd
+  - De meldcultuur versterken zodat medewerkers incidenten melden
   - De balans borgen tussen zorgplicht en een veilige werkomgeving
-  - Samenwerken met huisartsen en GGZ bij complexe patiënten
+  - Samenwerking met huisartsen en GGZ organiseren bij complexe patiënten
 programma:
   - titel: Beleid rond de zorgrelatie
-    inhoud: Vastleggen wanneer en hoe de zorgrelatie wordt beëindigd bij grensoverschrijdend gedrag.
+    inhoud: Vastleggen wanneer en hoe je de zorgrelatie beëindigt bij grensoverschrijdend gedrag.
   - titel: Eenduidige aanpak probleempatiënten
     inhoud: Beleid voor patiënten met bekende agressieve patronen.
   - titel: Coachen en debriefing
@@ -51,14 +51,14 @@ gerelateerd:
 
 ## Waarom deze training
 
-De apotheek is voor veel patiënten de meest toegankelijke zorgverlener. Juist die toegankelijkheid vraagt duidelijke grenzen, zonder de bereikbaarheid op te geven.
+Weinig zorgverleners zijn zo toegankelijk als de apotheek. Juist die toegankelijkheid vraagt duidelijke grenzen, zonder de bereikbaarheid op te geven.
 
 Deze experttraining van Bureau Weerbaar en Veilig helpt apothekers dat beleid te formuleren en te verankeren in het team.
 
 ## Wat speelt er op dit niveau
 
-- Grensoverschrijding wordt geaccepteerd als "normaal in de zorg"
+- Grensoverschrijding die geldt als "normaal in de zorg"
 - Inconsistente reacties op probleempatiënten
-- Debriefing en nazorg na incidenten ontbreken
+- Ontbrekende debriefing en nazorg na incidenten
 - Onduidelijk beleid voor patiënten met bekende agressieve patronen
 - Spanning tussen zorgplicht en medewerkersveiligheid

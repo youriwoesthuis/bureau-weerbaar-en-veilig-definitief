@@ -44,7 +44,7 @@ veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: Alle leraren en onderwijsondersteuners met direct studentcontact in het mbo. Er is geen voorkennis nodig; dit is het instapniveau.
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basistraining leert leraren mbo agressie herkennen, de eigen reactie reguleren en situaties de-escaleren. Wie structureel met zwaardere situaties werkt, gaat daarna verder met het gevorderde niveau."
+    antwoord: "De zwaarte van de situaties. De basistraining leert leraren mbo agressie herkennen, de eigen reactie reguleren en situaties de-escaleren. Wie structureel met zwaardere situaties werkt, gaat daarna verder met het gevorderde niveau."
 gerelateerd:
   - "agressietraining-leraren-mbo-gevorderd"
   - "agressietraining-leraren-mbo-expert"
@@ -54,9 +54,9 @@ gerelateerd:
 
 ## Waarom deze training
 
-Mbo-studenten hebben vaak complexe achtergronden, en grensoverschrijdend gedrag leidt in het mbo snel tot gezagsverlies en uitval van personeel.
+Mbo-studenten hebben vaak complexe achtergronden. Grensoverschrijdend gedrag leidt daar snel tot gezagsverlies en uitval van personeel.
 
-De basistraining van Bureau Weerbaar en Veilig helpt docenten die situaties professioneel beheersbaar te houden, met oefeningen die gebaseerd zijn op wat zij op hun eigen instelling meemaken.
+De basistraining van Bureau Weerbaar en Veilig geeft docenten concrete handvatten om die situaties beheersbaar te houden: rustig blijven onder druk, professioneel begrenzen en oefenen met wat zij op de eigen instelling meemaken.
 
 ## Herkenbare praktijksituaties
 
