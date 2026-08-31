@@ -1,0 +1,411 @@
+---
+import Basis from '../layouts/Basis.astro';
+import Kruimels from '../components/Kruimels.astro';
+import Vragen from '../components/Vragen.astro';
+import Cta from '../components/Cta.astro';
+import { pad } from '../lib/site';
+import { paginaTitel, description, faqSchema } from '../lib/seo';
+
+/**
+ * Geen van de negen onderzochte concurrenten koppelt agressietraining aan de
+ * Arbowet; één noemt de wet één keer (CONCURRENTIE.md hoofdstuk 2). Dat is
+ * precies de taal waarmee een preventiemedewerker intern budget losmaakt, en
+ * het is de vraag die kopers als eerste stellen: moet dit eigenlijk?
+ *
+ * Alle wetsteksten hieronder zijn op 31-08-2026 letterlijk overgenomen van
+ * wetten.overheid.nl (Arbowet geldend vanaf 01-07-2026, Arbobesluit vanaf
+ * 01-08-2026). Twee dingen om niet te laten verslonzen bij een volgende
+ * bewerking:
+ *
+ * 1. De definitie van psychosociale arbeidsbelasting staat in artikel 1,
+ *    EERSTE lid. De veelgekopieerde verwijzing "art. 1 lid 3 onder e" komt uit
+ *    een oudere versie van de wet en is onjuist.
+ * 2. De preventiemedewerker heet in de wet "deskundige werknemer" en de
+ *    25-werknemersregel staat in artikel 13, TIENDE lid.
+ *
+ * Wetsteksten zijn vrij van auteursrecht (Auteurswet artikel 11). Van de
+ * werkinstructie van de Arbeidsinspectie staat hier één korte zin met
+ * bronvermelding.
+ */
+
+const kruimels = [
+  { naam: 'Home', url: pad('/') },
+  { naam: 'Wet en regels', url: pad('/wet-en-regels/') },
+];
+
+const openingsantwoord = `Er bestaat in Nederland geen wet die agressietraining verplicht stelt. Wat de Arbowet wél van een werkgever vraagt: beleid om psychosociale arbeidsbelasting te voorkomen, de risico's beoordelen in de RI&E, maatregelen vastleggen in het plan van aanpak, en voorlichting en onderricht geven aan de mensen die het risico lopen. Of training daarbij nodig is, volgt uit de RI&E — en de Nederlandse Arbeidsinspectie beoordeelt dat ook zo.`;
+
+const artikelen = [
+  {
+    bron: 'Arbowet, artikel 1, eerste lid',
+    kop: 'Agressie valt onder psychosociale arbeidsbelasting',
+    citaat:
+      'psychosociale arbeidsbelasting: de blootstelling aan factoren in de arbeidssituatie die stress teweeg brengen, waaronder in ieder geval: a. agressie of geweld; b. direct of indirect onderscheid; c. pesten; d. seksuele intimidatie; e. werkdruk;',
+    uitleg:
+      'Agressie staat als eerste in de opsomming. Dat is de haak: alles wat de wet over psychosociale arbeidsbelasting zegt, gaat dus ook over agressie op het werk.',
+    url: 'https://wetten.overheid.nl/BWBR0010346#Hoofdstuk1_Artikel1',
+  },
+  {
+    bron: 'Arbowet, artikel 3, tweede lid',
+    kop: 'De werkgever moet er beleid op voeren',
+    citaat:
+      'De werkgever voert, binnen het algemeen arbeidsomstandighedenbeleid, een beleid gericht op voorkoming en indien dat niet mogelijk is beperking van psychosociale arbeidsbelasting.',
+    uitleg:
+      'Voorkomen gaat vóór beperken. Een organisatie die alleen opvangt wat er misgaat, voldoet niet aan de volgorde die de wet aanhoudt.',
+    url: 'https://wetten.overheid.nl/BWBR0010346#Hoofdstuk2_Artikel3',
+  },
+  {
+    bron: 'Arbowet, artikel 5, eerste en derde lid',
+    kop: 'De risico’s in de RI&E, de maatregelen in het plan van aanpak',
+    citaat:
+      'Bij het voeren van het arbeidsomstandighedenbeleid legt de werkgever in een inventarisatie en evaluatie schriftelijk vast welke risico’s de arbeid voor de werknemers met zich brengt. […] Een plan van aanpak, waarin is aangegeven welke maatregelen zullen worden genomen in verband met de bedoelde risico’s en de samenhang daartussen […] maakt deel uit van de risico-inventarisatie en -evaluatie. In het plan van aanpak wordt tevens aangegeven binnen welke termijn deze maatregelen zullen worden genomen.',
+    uitleg:
+      'Hier komt training vandaan. Staat agressie als risico in de RI&E, dan hoort in het plan van aanpak te staan wat eraan gedaan wordt en wanneer.',
+    url: 'https://wetten.overheid.nl/BWBR0010346#Hoofdstuk2_Artikel5',
+  },
+  {
+    bron: 'Arbowet, artikel 8',
+    kop: 'Voorlichting en onderricht, aangepast aan de taak',
+    citaat:
+      'De werkgever zorgt ervoor dat de werknemers doeltreffend worden ingelicht over de te verrichten werkzaamheden en de daaraan verbonden risico’s, alsmede over de maatregelen die erop gericht zijn deze risico’s te voorkomen of te beperken.',
+    uitleg:
+      'Het tweede lid voegt daar onderricht aan toe dat is aangepast aan de taak van de werknemer. Dat is precies waarom een agressietraining per beroepsgroep verschilt: het onderricht hoort bij het werk te passen, niet bij de gemiddelde medewerker.',
+    url: 'https://wetten.overheid.nl/BWBR0010346#Hoofdstuk2_Artikel8',
+  },
+  {
+    bron: 'Arbobesluit, artikel 2.15, eerste en tweede lid',
+    kop: 'De bepaling waarop de Arbeidsinspectie handhaaft',
+    citaat:
+      'Indien werknemers worden of kunnen worden blootgesteld aan psychosociale arbeidsbelasting worden in het kader van de risico-inventarisatie en -evaluatie […] de risico’s ten aanzien van psychosociale arbeidsbelasting beoordeeld en worden in het plan van aanpak […] met inachtneming van de stand van de wetenschap maatregelen vastgesteld en uitgevoerd […]. Aan werknemers die arbeid verrichten waarbij gevaar bestaat voor blootstelling aan psychosociale belasting wordt voorlichting en onderricht gegeven over de risico’s […] alsmede over de maatregelen die er op zijn gericht die belasting te voorkomen of te beperken.',
+    uitleg:
+      'Twee leden, twee soorten tekortkoming: geen of ontoereikende maatregelen (lid 1), of wel maatregelen maar geen voorlichting en onderricht (lid 2).',
+    url: 'https://wetten.overheid.nl/BWBR0008498#Hoofdstuk2_Afdeling4_Artikel2.15',
+  },
+  {
+    bron: 'Arbowet, artikel 13, tiende lid',
+    kop: 'Wie het binnen de organisatie oppakt',
+    citaat:
+      'In afwijking van het eerste tot en met het derde lid, kunnen bij werkgevers met niet meer dan 25 werknemers de taken in het kader van de bijstand ook worden verricht door de werkgever zelf, indien deze natuurlijk persoon is, of door de directeur indien de werkgever rechtspersoon is, indien deze personen beschikken over voldoende deskundigheid, ervaring en uitrusting om deze taken naar behoren te vervullen.',
+    uitleg:
+      'De wet noemt deze rol "deskundige werknemer"; in de praktijk heet het de preventiemedewerker. Bij niet meer dan 25 werknemers mag de werkgever of directeur het zelf doen — mits die er echt voor is toegerust.',
+    url: 'https://wetten.overheid.nl/BWBR0010346#Hoofdstuk3_Artikel13',
+  },
+];
+
+const nietVerplicht = [
+  {
+    kop: 'Een agressietraining volgen',
+    tekst:
+      'Er is geen wetsartikel dat training voorschrijft. Het woord agressie komt in de hele Arbowet één keer voor, in de begripsomschrijving, en in het Arbobesluit geen enkele keer. Maar let op de omkering hieronder: geen trainingsplicht betekent niet dat training vrijblijvend is.',
+  },
+  {
+    kop: 'Een gecertificeerde of geaccrediteerde training',
+    tekst:
+      'De overheid stelt geen certificering verplicht van agressietrainingen, trainers of trainingsacteurs. Er bestaan wel private, vrijwillige keurmerken en certificatieschema’s; die zijn een keuze van de aanbieder, geen wettelijke eis aan de opdrachtgever.',
+  },
+  {
+    kop: 'Een vaste herhaalfrequentie',
+    tekst:
+      'Wet noch werkinstructie noemt een termijn, een aantal maanden of een geldigheidsduur. Hoe vaak herhalen nodig is, volgt uit het risico dat in de RI&E is vastgesteld.',
+  },
+  {
+    kop: 'Een erkend diploma voor deelnemers',
+    tekst:
+      'Er bestaat geen wettelijk erkend diploma voor dit vak. Deelnemers krijgen bij ons een deelnamecertificaat voor het eigen opleidingsdossier — een bewijs van deelname, en het is eerlijk om het ook zo te noemen.',
+  },
+];
+
+const vragen = [
+  {
+    vraag: 'Is agressietraining verplicht?',
+    antwoord:
+      'Nee, er is geen wettelijke plicht om een agressietraining te volgen. Wel geldt: als uit de RI&E blijkt dat medewerkers met agressie te maken kunnen krijgen, moet de werkgever daar maatregelen tegen nemen en de betrokken medewerkers voorlichting en onderricht geven. De Arbeidsinspectie handhaaft op die twee bepalingen — artikel 2.15 lid 1 en lid 2 van het Arbobesluit — en beoordeelt per functie of training daarvoor nodig is.',
+  },
+  {
+    vraag: 'Waar staat agressie precies in de Arbowet?',
+    antwoord:
+      'In artikel 1, eerste lid, als eerste onderdeel van de definitie van psychosociale arbeidsbelasting. Artikel 3 lid 2 verplicht de werkgever daar beleid op te voeren, artikel 5 om de risico’s in de RI&E vast te leggen en maatregelen in het plan van aanpak te zetten, en artikel 8 om voorlichting en onderricht te geven. Let op: de veelgeciteerde verwijzing "artikel 1 lid 3 onder e" komt uit een oudere versie van de wet en klopt niet meer.',
+  },
+  {
+    vraag: 'Wat controleert de Arbeidsinspectie bij agressie en geweld?',
+    antwoord:
+      'Of de risico’s op agressie zijn beoordeeld in de RI&E, of er maatregelen in het plan van aanpak staan en zijn uitgevoerd, en of de medewerkers die het risico lopen voorlichting en onderricht hebben gehad. In de werkinstructie Agressie en geweld staat training als mogelijke maatregel genoemd, waarbij noodzaak, inhoud en frequentie afhangen van wat er in de RI&E is vastgesteld.',
+  },
+  {
+    vraag: 'Hoe vaak moet een agressietraining herhaald worden?',
+    antwoord:
+      'De wet noemt geen termijn. De Arbeidsinspectie schrijft dat instructies en trainingen zo vaak worden herhaald als nodig is, en beoordeelt dat aan de hand van het risico uit de RI&E. Voor een team met dagelijks publiekscontact ligt de frequentie dus hoger dan voor een afdeling die er zelden mee te maken heeft.',
+  },
+  {
+    vraag: 'Moet een agressietraining gecertificeerd zijn?',
+    antwoord:
+      'Nee. Er bestaat geen wettelijk verplichte certificering of accreditatie van agressietrainingen, trainers of trainingsacteurs. Wat er wel is aan keurmerken is privaat en vrijwillig.',
+  },
+  {
+    vraag: 'Hoe sluit een training aan op ons plan van aanpak?',
+    antwoord:
+      'Een training is een maatregel in dat plan. Wat een organisatie daarna kan aantonen, is dat er onderricht is gegeven dat aansluit op de taak van de betrokken medewerkers, dat er afspraken zijn gemaakt over melden en nazorg, en wie erop toeziet dat die afspraken blijven staan. Het niveau expert is daar op gericht.',
+  },
+  {
+    vraag: 'Wie is binnen onze organisatie verantwoordelijk?',
+    antwoord:
+      'De werkgever. Die laat zich bijstaan door een of meer deskundige werknemers — in de praktijk de preventiemedewerker. Bij niet meer dan 25 werknemers mag de werkgever of directeur die taak zelf vervullen, mits daarvoor voldoende deskundigheid, ervaring en uitrusting aanwezig is.',
+  },
+];
+
+const schema = [faqSchema(vragen)].filter(Boolean);
+---
+
+<Basis
+  titel={paginaTitel('Agressietraining en de Arbowet')}
+  description={description(
+    'Er is geen wettelijke plicht tot agressietraining. Wat de Arbowet wél vraagt: beleid tegen psychosociale arbeidsbelasting, de risico’s in de RI&E, maatregelen in het plan van aanpak, en voorlichting en onderricht.',
+  )}
+  niveau="expert"
+  kruimels={kruimels}
+  schema={schema}
+>
+  <section class="kop-sectie op-licht gloed raster-achtergrond">
+    <div class="omhulsel kop-binnen">
+      <Kruimels kruimels={kruimels} />
+      <p class="bovenkop">Wet en regels</p>
+      <h1 class="display">Wat de wet van<br /><span class="verloopwoord">je organisatie vraagt</span></h1>
+      <p class="openingsantwoord">{openingsantwoord}</p>
+    </div>
+  </section>
+
+  <section class="sectie sectie-aansluitend op-wit">
+    <div class="omhulsel">
+      <div class="kop-blok">
+        <p class="bovenkop">De artikelen</p>
+        <h2>Waar het in de wet staat</h2>
+        <p class="kop-tekst">
+          Zes bepalingen, letterlijk overgenomen van wetten.overheid.nl. Handig
+          om te citeren in een plan van aanpak of een aanvraag voor budget.
+        </p>
+      </div>
+      <div class="artikelen">
+        {artikelen.map((a, i) => (
+          <article class="artikel onthul" data-niveau={['basis', 'gevorderd', 'expert'][i % 3]}>
+            <p class="artikel-bron">{a.bron}</p>
+            <h3>{a.kop}</h3>
+            <blockquote>{a.citaat}</blockquote>
+            <p>{a.uitleg}</p>
+            <a href={a.url} class="pijllink" rel="noopener">
+              Lees het artikel
+              <span class="pijl" aria-hidden="true">→</span>
+            </a>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="sectie op-licht">
+    <div class="omhulsel">
+      <div class="kop-blok">
+        <p class="bovenkop">Verplicht of niet</p>
+        <h2>Is agressietraining verplicht?</h2>
+      </div>
+      <div class="uitleg-blok">
+        <p class="leadzin">
+          Nee — en dat is een eerlijker antwoord dan de markt meestal geeft.
+        </p>
+        <p>
+          Er is geen wetsartikel dat een agressietraining voorschrijft. Maar
+          daarmee is de kous niet af, en het is verstandig om het hele verhaal
+          te kennen voordat je het intern uitlegt. Blijkt uit de RI&amp;E dat
+          medewerkers met agressie te maken kunnen krijgen, dan móet de
+          werkgever daar maatregelen tegen vaststellen en uitvoeren, en de
+          betrokken medewerkers voorlichting en onderricht geven. De Nederlandse
+          Arbeidsinspectie handhaaft precies op die twee leden van artikel 2.15
+          van het Arbobesluit.
+        </p>
+        <p>
+          In haar werkinstructie Agressie en geweld noemt de Arbeidsinspectie
+          training als maatregel, en stelt daarbij dat noodzaak, inhoud en
+          frequentie afhangen van de beoordeling van het risico in de RI&amp;E.
+          Anders gezegd: niet de wet bepaalt of jullie team getraind moet
+          worden, maar de eigen risico-inventarisatie. Wie daarin opschrijft dat
+          baliemedewerkers wekelijks met agressie te maken hebben en er
+          vervolgens niets tegenover zet, heeft een probleem — niet omdat
+          training verplicht is, maar omdat er dan geen toereikende maatregel is.
+        </p>
+        <p class="bronregel">
+          Bron: <a href="https://www.nlarbeidsinspectie.nl/publicaties/richtlijnen/2025/02/19/werkinstructie-agressie-en-geweld" rel="noopener">Werkinstructie Agressie en geweld</a>,
+          Nederlandse Arbeidsinspectie, 19 februari 2025. Zie ook
+          <a href="https://www.arboportaal.nl/onderwerpen/agressie-en-geweld/wat-zegt-de-wet-over-agressie-op-de-werkvloer" rel="noopener">Arboportaal</a>.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="sectie op-wit">
+    <div class="omhulsel">
+      <div class="kop-blok">
+        <p class="bovenkop">Misverstanden</p>
+        <h2>Wat niet verplicht is</h2>
+      </div>
+      <div class="rooster rooster-4">
+        {nietVerplicht.map((n, i) => (
+          <article class="kaart onthul" data-niveau={['basis', 'gevorderd', 'expert', 'basis'][i]}>
+            <h3>{n.kop}</h3>
+            <p>{n.tekst}</p>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="sectie op-licht">
+    <div class="omhulsel">
+      <div class="kop-blok">
+        <p class="bovenkop">Van wet naar training</p>
+        <h2>Waar de drie niveaus op aansluiten</h2>
+      </div>
+      <div class="koppeling">
+        <article class="koppel-rij" data-niveau="basis">
+          <p class="koppel-niveau">Basis</p>
+          <p class="koppel-wet">Voorlichting en onderricht — Arbowet artikel 8, Arbobesluit 2.15 lid 2</p>
+          <p>
+            Iedereen die met agressie te maken kan krijgen, weet wat de risico’s
+            zijn en wat er van hem of haar verwacht wordt in het moment.
+          </p>
+        </article>
+        <article class="koppel-rij" data-niveau="gevorderd">
+          <p class="koppel-niveau">Gevorderd</p>
+          <p class="koppel-wet">Onderricht aangepast aan de taak — Arbowet artikel 8 lid 2</p>
+          <p>
+            Voor wie structureel met zwaardere situaties werkt. Hier gaat het
+            over begrenzen als de-escaleren niet meer werkt, en over wat er na
+            afloop moet gebeuren: melden en nazorg.
+          </p>
+        </article>
+        <article class="koppel-rij" data-niveau="expert">
+          <p class="koppel-niveau">Expert</p>
+          <p class="koppel-wet">Beleid en maatregelen — Arbowet artikel 3 lid 2, Arbobesluit 2.15 lid 1</p>
+          <p>
+            Voor leidinggevenden, coördinatoren en preventiemedewerkers: van
+            incident naar beleid, de teamnorm vastleggen, nazorg inrichten en
+            borgen dat het blijft werken.
+          </p>
+        </article>
+      </div>
+      <p class="meer">
+        <a href={pad('/niveaus/')} class="pijllink">
+          Bekijk de drie niveaus
+          <span class="pijl" aria-hidden="true">→</span>
+        </a>
+        <a href={pad('/kosten/')} class="pijllink">
+          Wat een training kost
+          <span class="pijl" aria-hidden="true">→</span>
+        </a>
+      </p>
+    </div>
+  </section>
+
+  <section class="sectie op-wit">
+    <div class="omhulsel">
+      <Vragen vragen={vragen} kop="Vragen over wet en regels" groep="wetvragen" />
+      <p class="voetnoot">
+        De wetsteksten op deze pagina zijn op 31 augustus 2026 overgenomen van
+        wetten.overheid.nl. Wetten veranderen; raadpleeg bij twijfel de bron.
+        Dit is algemene informatie, geen juridisch advies.
+      </p>
+    </div>
+  </section>
+
+  <Cta
+    kop="Agressie staat in jullie RI&E. En dan?"
+    tekst="Vertel wat er in de risico-inventarisatie staat en om welke functies het gaat, dan denken we mee over welk niveau daarbij past."
+  />
+</Basis>
+
+<style>
+  .kop-tekst {
+    max-width: 52ch;
+    color: var(--tekst-donker-zacht);
+  }
+
+  .artikelen {
+    display: grid;
+    gap: clamp(0.85rem, 0.6rem + 1vw, 1.25rem);
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 20rem), 1fr));
+  }
+  .artikel {
+    display: grid;
+    align-content: start;
+    gap: 0.7rem;
+    padding: clamp(1.1rem, 0.9rem + 0.6vw, 1.6rem);
+    background: var(--wit);
+    border: 1px solid var(--rand-licht);
+    border-radius: var(--hoek);
+    border-top: 3px solid var(--niveau-op-wit);
+  }
+  .artikel h3 { margin: 0; }
+  .artikel-bron {
+    font-family: 'Manrope', system-ui, sans-serif;
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--niveau-op-wit);
+  }
+  .artikel blockquote {
+    margin: 0;
+    padding-left: 0.9rem;
+    border-left: 2px solid var(--rand-licht);
+    font-size: 0.92rem;
+    line-height: 1.6;
+    color: var(--tekst-donker);
+  }
+  .artikel blockquote::before { content: '\201C'; }
+  .artikel blockquote::after { content: '\201D'; }
+  .artikel > p:not(.artikel-bron) { color: var(--tekst-donker-zacht); }
+
+  .uitleg-blok { max-width: 62ch; display: grid; gap: 1rem; }
+  .leadzin {
+    font-family: 'Manrope', system-ui, sans-serif;
+    font-size: clamp(1.15rem, 1rem + 0.6vw, 1.45rem);
+    font-weight: 700;
+    line-height: 1.35;
+    color: var(--tekst-donker);
+  }
+  .bronregel { font-size: 0.88rem; color: var(--tekst-donker-zacht); }
+
+  .koppeling { display: grid; gap: 0.75rem; max-width: 70ch; }
+  .koppel-rij {
+    display: grid;
+    gap: 0.4rem;
+    padding: 1.1rem 1.25rem;
+    background: var(--wit);
+    border: 1px solid var(--rand-licht);
+    border-radius: var(--hoek);
+    border-left: 3px solid var(--niveau-op-wit);
+  }
+  .koppel-niveau {
+    font-family: 'Manrope', system-ui, sans-serif;
+    font-weight: 700;
+    font-size: 1.05rem;
+    color: var(--tekst-donker);
+  }
+  .koppel-wet {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--niveau-op-wit);
+  }
+  .koppel-rij > p:last-child { color: var(--tekst-donker-zacht); }
+
+  .meer {
+    margin-top: clamp(1.5rem, 1.2rem + 1vw, 2.5rem);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem 2rem;
+  }
+  .voetnoot {
+    margin-top: clamp(1.5rem, 1.2rem + 1vw, 2.5rem);
+    max-width: 62ch;
+    font-size: 0.85rem;
+    color: var(--tekst-donker-zacht);
+  }
+</style>

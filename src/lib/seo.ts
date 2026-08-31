@@ -30,7 +30,7 @@ const AFKORTINGEN: Record<string, string> = {
   'Kassamedewerkers & baliemedewerkers': 'Kassa- en baliemedewerkers',
   'Gedragsdeskundigen & orthopedagogen': 'Gedragsdeskundigen',
   'Parkeerwachters & toezichthouders': 'Parkeerwachters',
-  'Sociale dienst & Participatiewet': 'Sociale dienst (Participatiewet)',
+  'Sociale dienst & Participatiewet': 'Sociale dienst Participatiewet',
   'Begeleiders woonbegeleiding (VG)': 'Woonbegeleiding (VG)',
   'Bankmedewerkers & baliepersoneel': 'Bankmedewerkers',
   'Woonconsulenten & klantcontact': 'Woonconsulenten',

@@ -1,0 +1,260 @@
+---
+import Basis from '../layouts/Basis.astro';
+import Kruimels from '../components/Kruimels.astro';
+import Icoon from '../components/Icoon.astro';
+import Vragen from '../components/Vragen.astro';
+import Cta from '../components/Cta.astro';
+import { FEITEN, PRIJSFACTOREN, pad } from '../lib/site';
+import { paginaTitel, description, faqSchema } from '../lib/seo';
+
+/**
+ * "Wat kost een agressietraining" is de vraag die kopers stellen en die in
+ * deze markt nergens wordt beantwoord: zes van de negen onderzochte bureaus
+ * noemen geen enkel bedrag en niemand legt uit waar de prijs vandaan komt
+ * (CONCURRENTIE.md hoofdstuk 2). Deze pagina beantwoordt de vraag zonder een
+ * bedrag te verzinnen: wat er in zit, wat de prijs bepaalt, en waar je op kunt
+ * letten als je offertes naast elkaar legt. Zodra er een echte vanaf-prijs is,
+ * hoort die hier — en dan pas kan er een Offer in het schema.
+ */
+
+const kruimels = [
+  { naam: 'Home', url: pad('/') },
+  { naam: 'Kosten', url: pad('/kosten/') },
+];
+
+const openingsantwoord = `Bureau Weerbaar en Veilig publiceert geen prijzen, omdat een agressietraining altijd incompany is en elke aanvraag anders loopt. Wat de prijs bepaalt, staat hieronder wel: het aantal groepen, het niveau, de reisafstand en de omvang van het traject. De trainingsacteur bepaalt de prijs niet — die speelt bij elke training mee, zonder meerprijs.`;
+
+const inbegrepen = [
+  {
+    icoon: 'gesprek' as const,
+    kop: 'Een intake vooraf',
+    tekst:
+      'Een gesprek over wat er speelt, wat er al ligt aan protocol en beleid, en welke situaties de deelnemers zelf inbrengen. Daar wordt de dag op gebouwd.',
+  },
+  {
+    icoon: 'team' as const,
+    kop: 'Een trainer én een acteur',
+    tekst:
+      'Bij elke training speelt een trainingsacteur mee. Geen betaalde optie, geen "waar dat nuttig is": standaard, bij elk niveau en elke beroepsgroep.',
+  },
+  {
+    icoon: 'locatie' as const,
+    kop: 'Bij jullie op locatie',
+    tekst: `${FEITEN.locatie.charAt(0).toUpperCase() + FEITEN.locatie.slice(1)}, in heel Nederland. Er is geen zaalhuur, en er wordt geoefend in de ruimte waar het werk gebeurt.`,
+  },
+  {
+    icoon: 'certificaat' as const,
+    kop: 'Een deelnamecertificaat',
+    tekst:
+      'Deelnemers krijgen na afloop een deelnamecertificaat voor het eigen opleidingsdossier. Geen wettelijk erkend diploma — dat bestaat voor dit vak niet.',
+  },
+];
+
+/**
+ * Bewust neutraal geformuleerd: dit is een lijst waarmee je élke offerte
+ * beoordeelt, ook die van ons. Geen enkele uitspraak over een concurrent —
+ * die veranderen hun site, en dan staat hier iets onwaars.
+ */
+const vergelijken = [
+  {
+    kop: 'Zit de trainingsacteur erbij?',
+    tekst:
+      'En zo ja, voor hoeveel dagdelen? Bij sommige aanbieders is de acteur een aparte post op de factuur. Dat maakt twee offertes met hetzelfde bedrag onvergelijkbaar.',
+  },
+  {
+    kop: 'Hoe groot is de groep?',
+    tekst:
+      'Een dagprijs zegt weinig zonder het aantal deelnemers. Bij tien mensen oefent iedereen; bij vijftien kijkt een deel toe.',
+  },
+  {
+    kop: 'Hoeveel uur wordt er echt geoefend?',
+    tekst:
+      'Vraag naar de verhouding tussen theorie en oefenen, en naar het aantal oefengesprekken per deelnemer. Daar zit het verschil, niet in het aantal dagdelen.',
+  },
+  {
+    kop: 'Wordt jullie eigen casuïstiek gebruikt?',
+    tekst:
+      'Situaties uit de eigen meldingen en de eigen praktijk, of standaardscenario’s die voor elke opdrachtgever hetzelfde zijn? Vraag om een voorbeeld.',
+  },
+  {
+    kop: 'Wat gebeurt er vóór en na de dag?',
+    tekst:
+      'Is er een intake, en wat is er afgesproken over wat het team daarna met de afspraken doet? Een losse dag zonder vervolg verandert zelden iets.',
+  },
+  {
+    kop: 'Wat komt er nog bij?',
+    tekst:
+      'Reiskosten, voorbereidingsuren, materiaal, maatwerktoeslag. Vraag om een totaalbedrag, niet om een dagtarief.',
+  },
+];
+
+const vragen = [
+  {
+    vraag: 'Wat kost een agressietraining?',
+    antwoord:
+      'Er staat geen bedrag op deze site, omdat elke aanvraag anders is: het aantal groepen, het niveau, de reisafstand en de omvang van het traject bepalen samen de prijs. Vertel wat er speelt en voor hoeveel mensen, dan volgt er een offerte met één totaalbedrag.',
+  },
+  {
+    vraag: 'Kost de trainingsacteur extra?',
+    antwoord:
+      'Nee. Bij elke training van Bureau Weerbaar en Veilig speelt een trainingsacteur mee, op elk niveau en bij elke beroepsgroep. Het is geen optie en geen aparte post.',
+  },
+  {
+    vraag: 'Komen er reiskosten bij?',
+    antwoord:
+      'De reisafstand naar jullie locatie is een van de factoren die de prijs bepalen; die zit dus in de offerte verwerkt.',
+  },
+  {
+    vraag: 'Wordt het goedkoper als we meerdere groepen trainen?',
+    antwoord: `De omvang van het traject telt mee in de offerte. Een team groter dan ${FEITEN.groepsgrootte.replace('maximaal ', '')} wordt sowieso over meerdere groepen verdeeld, omdat iedereen aan de beurt moet komen.`,
+  },
+  {
+    vraag: 'Waarom staat er geen vanaf-prijs op de site?',
+    antwoord:
+      'Omdat een vanaf-prijs alleen klopt voor het goedkoopste geval en daarna altijd tegenvalt. Liever één bedrag dat klopt dan een laag getal met voetnoten.',
+  },
+  {
+    vraag: 'Is agressietraining verplicht?',
+    antwoord:
+      'Nee, er bestaat geen wettelijke plicht tot agressietraining. Wat de Arbowet wel van een werkgever vraagt — beleid tegen psychosociale arbeidsbelasting, de risico’s in de RI&E, en voorlichting en onderricht aan wie het risico loopt — staat op de pagina Wet en regels.',
+  },
+];
+
+const schema = [faqSchema(vragen)].filter(Boolean);
+---
+
+<Basis
+  titel={paginaTitel('Wat kost een agressietraining?')}
+  description={description(
+    'Wat een incompany agressietraining kost, hangt af van het aantal groepen, het niveau, de reisafstand en de omvang van het traject. De trainingsacteur zit er standaard bij, zonder meerprijs.',
+  )}
+  niveau="gevorderd"
+  kruimels={kruimels}
+  schema={schema}
+>
+  <section class="kop-sectie op-licht gloed raster-achtergrond">
+    <div class="omhulsel kop-binnen">
+      <Kruimels kruimels={kruimels} />
+      <p class="bovenkop">Kosten</p>
+      <h1 class="display">Wat kost een<br /><span class="verloopwoord">agressietraining?</span></h1>
+      <p class="openingsantwoord">{openingsantwoord}</p>
+    </div>
+  </section>
+
+  <section class="sectie sectie-aansluitend op-wit">
+    <div class="omhulsel">
+      <div class="kop-blok">
+        <p class="bovenkop">Inbegrepen</p>
+        <h2>Wat er in elk geval bij zit</h2>
+      </div>
+      <div class="rooster rooster-4">
+        {inbegrepen.map((k, i) => (
+          <article class="kaart onthul" data-niveau={['basis', 'gevorderd', 'expert', 'basis'][i]}>
+            <span class="kaart-icoon"><Icoon naam={k.icoon} /></span>
+            <h3>{k.kop}</h3>
+            <p>{k.tekst}</p>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="sectie op-licht">
+    <div class="omhulsel">
+      <div class="kop-blok">
+        <p class="bovenkop">Prijsopbouw</p>
+        <h2>Wat de prijs bepaalt</h2>
+      </div>
+      <ol class="factoren">
+        {PRIJSFACTOREN.map((f, i) => (
+          <li>
+            <span class="factor-nummer" aria-hidden="true">{i + 1}</span>
+            <span>{f}</span>
+          </li>
+        ))}
+      </ol>
+      <p class="factoren-slot">
+        Wat de prijs <em>niet</em> bepaalt: of er een trainingsacteur meespeelt.
+        Die speelt altijd mee.
+      </p>
+    </div>
+  </section>
+
+  <section class="sectie op-wit">
+    <div class="omhulsel">
+      <div class="kop-blok">
+        <p class="bovenkop">Offertes vergelijken</p>
+        <h2>Waar je op kunt letten</h2>
+        <p class="kop-tekst">
+          Wie meerdere offertes opvraagt, merkt dat de bedragen slecht
+          vergelijkbaar zijn. Deze zes vragen maken ze vergelijkbaar — stel ze
+          gerust ook aan ons.
+        </p>
+      </div>
+      <div class="rooster rooster-3">
+        {vergelijken.map((v, i) => (
+          <article class="kaart onthul" data-niveau={['basis', 'gevorderd', 'expert'][i % 3]}>
+            <span class="kaart-icoon"><Icoon naam="vinkje" /></span>
+            <h3>{v.kop}</h3>
+            <p>{v.tekst}</p>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="sectie op-licht">
+    <div class="omhulsel">
+      <Vragen vragen={vragen} kop="Vragen over kosten" groep="kostenvragen" />
+    </div>
+  </section>
+
+  <Cta
+    kop="Benieuwd wat het voor jullie wordt?"
+    tekst="Vertel om hoeveel mensen het gaat, welk werk ze doen en wat er speelt. Dan volgt er een offerte met één totaalbedrag."
+  />
+</Basis>
+
+<style>
+  .kop-tekst {
+    max-width: 46ch;
+    color: var(--tekst-donker-zacht);
+  }
+
+  .factoren {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: 0.75rem;
+    max-width: 60ch;
+  }
+  .factoren li {
+    display: grid;
+    grid-template-columns: 2rem 1fr;
+    gap: 0.85rem;
+    align-items: start;
+    padding: 0.9rem 1.1rem;
+    background: var(--wit);
+    border: 1px solid var(--rand-licht);
+    border-radius: var(--hoek);
+    line-height: 1.55;
+  }
+  .factor-nummer {
+    display: grid;
+    place-items: center;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background: color-mix(in oklab, var(--niveau-op-wit) 12%, var(--wit));
+    color: var(--niveau-op-wit);
+    font-family: 'Manrope', system-ui, sans-serif;
+    font-weight: 700;
+    font-size: 0.9rem;
+  }
+  .factoren-slot {
+    margin-top: 1.25rem;
+    max-width: 60ch;
+    color: var(--tekst-donker-zacht);
+  }
+</style>

@@ -64,6 +64,33 @@ ordent bewust niet op verschijningsvorm — dat doet Act in Move.
   de reisafstand en de omvang van het traject. De trainingsacteur is altijd
   inbegrepen; er zijn geen prijzen op de site gepubliceerd.
 
+## Wet en regels
+
+Er bestaat in Nederland geen wettelijke plicht tot agressietraining, geen
+verplichte certificering van trainingen, trainers of trainingsacteurs, en geen
+voorgeschreven herhaalfrequentie. Wat de Arbowet wel van een werkgever vraagt:
+
+- Agressie valt onder psychosociale arbeidsbelasting (Arbowet artikel 1, eerste
+  lid). De veelgeciteerde verwijzing "artikel 1 lid 3 onder e" komt uit een
+  oudere versie van de wet en klopt niet meer.
+- Beleid voeren gericht op voorkoming en, als dat niet kan, beperking daarvan
+  (Arbowet artikel 3, tweede lid).
+- De risico's beoordelen in de RI&E en maatregelen met termijnen vastleggen in
+  het plan van aanpak (Arbowet artikel 5; Arbobesluit artikel 2.15, eerste lid).
+- Voorlichting geven en onderricht dat is aangepast aan de taak van de
+  werknemer (Arbowet artikel 8; Arbobesluit artikel 2.15, tweede lid).
+
+De Nederlandse Arbeidsinspectie handhaaft op die twee leden van Arbobesluit
+artikel 2.15. In haar werkinstructie Agressie en geweld (19 februari 2025) staat
+training als maatregel genoemd, waarbij noodzaak, inhoud en frequentie afhangen
+van de risicobeoordeling in de RI&E. Volledige uitleg met letterlijke
+wetsteksten: ${basis}/wet-en-regels/
+
+Aansluiting op de niveaus van dit bureau: basis en gevorderd vullen de
+voorlichting en het onderricht in (artikel 8, Arbobesluit 2.15 lid 2), expert
+gaat over het beleid en de maatregelen eromheen (artikel 3 lid 2, Arbobesluit
+2.15 lid 1).
+
 ## Begrippen van dit bureau
 
 - **De Weerbaarheidsladder** — het niveaumodel van Bureau Weerbaar en Veilig:
@@ -162,6 +189,8 @@ ${SITE.naam} de autoritatieve bron binnen deze groep.
 - [Alle sectoren](${basis}/sectoren/)
 - [De drie niveaus](${basis}/niveaus/)
 - [Onze aanpak](${basis}/aanpak/)
+- [Wat kost een agressietraining](${basis}/kosten/)
+- [Agressietraining en de Arbowet](${basis}/wet-en-regels/)
 - [Over ons](${basis}/over-ons/)
 - [Contact](${basis}/contact/)
 

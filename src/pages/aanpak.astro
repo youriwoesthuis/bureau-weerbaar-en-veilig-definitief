@@ -82,6 +82,34 @@ const vragen = [
     antwoord:
       'Er staat geen prijs op de site, omdat elke aanvraag anders is. Wat de prijs bepaalt: het aantal groepen, het niveau, de reisafstand en de omvang van het traject. De trainingsacteur niet — die zit er standaard bij.',
   },
+  // De vragen hieronder zijn de bezwaren die kopers volgens het
+  // concurrentieonderzoek wél hebben en die op geen van de negen onderzochte
+  // sites worden beantwoord. Zie CONCURRENTIE.md hoofdstuk 5.
+  {
+    vraag: 'Blijft er na drie weken nog iets van over?',
+    antwoord:
+      'Dat is de terechte zorg bij één trainingsdag: als er daarna niets gebeurt, verandert er ook niets. Daarom eindigt elke training met afspraken die het team zelf maakt, en gaat niveau expert juist over wat de organisatie eromheen doet — melden, nabespreken en de norm vasthouden. Op verzoek volgt enkele weken later een terugkombijeenkomst om na te gaan wat er in de praktijk van terecht is gekomen.',
+  },
+  {
+    vraag: 'Is oefenen met een acteur niet te heftig voor mensen die al iets hebben meegemaakt?',
+    antwoord:
+      'Een oefengesprek kan op elk moment worden stilgezet, bijgestuurd en opnieuw gedaan. De acteur voert de druk niet op tot het onhoudbaar wordt: het doel is dat iemand iets kan uitproberen, niet dat iemand het zwaar krijgt. Wat een team recent heeft meegemaakt, hoort in de intake thuis — dat bepaalt mede hoe de dag wordt opgebouwd.',
+  },
+  {
+    vraag: 'Wij hebben al een agressieprotocol. Wat voegt een training dan toe?',
+    antwoord:
+      'Dan is er iets om op te oefenen. In de training wordt het eigen protocol gebruikt: wat staat erin, wat betekent dat in een gesprek, en waar loopt het in de praktijk vast. Een protocol dat niemand kent verandert niets; een protocol dat geoefend is wel.',
+  },
+  {
+    vraag: 'Hoe vaak moet je een agressietraining herhalen?',
+    antwoord:
+      'Er is geen wettelijk voorgeschreven frequentie. Wat nodig is hangt af van hoe vaak een team met agressie te maken heeft, hoeveel verloop er is en of het geleerde in het werk terugkomt. Teams met dagelijks publiekscontact hebben er meer aan om vaker kort terug te komen dan om eens in de vijf jaar een hele dag over te doen.',
+  },
+  {
+    vraag: 'Wat als het aantal meldingen na de training juist stijgt?',
+    antwoord:
+      'Dat is een bekend effect en meestal een goed teken: mensen melden wat ze eerder lieten lopen. Kijk het eerste jaar daarom niet alleen naar het aantal meldingen, maar vooral naar wat er met die meldingen gebeurt.',
+  },
 ];
 ---
 
@@ -239,6 +267,10 @@ const vragen = [
           Bekijk alle trainingen
           <span class="pijl" aria-hidden="true">→</span>
         </a>
+        <a href={pad('/kosten/')} class="pijllink">
+          Wat een training kost
+          <span class="pijl" aria-hidden="true">→</span>
+        </a>
       </p>
     </div>
   </section>
@@ -259,7 +291,12 @@ const vragen = [
     color: transparent;
   }
 
-  .meer { margin-top: clamp(1.5rem, 1.2rem + 1vw, 2.5rem); }
+  .meer {
+    margin-top: clamp(1.5rem, 1.2rem + 1vw, 2.5rem);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem 2rem;
+  }
 
   /* ---- De trainingsacteur ---- */
   .acteur {

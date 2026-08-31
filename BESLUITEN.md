@@ -155,6 +155,64 @@ certificaat" en kloktijden/lesuren (verzonnen), sitemap hernoemen (de
 index-URL is juist). Een echt Offer-blok kan pas als er een echte
 vanaf-prijs is.
 
+## 7e. Concurrentieonderzoek (31-08-2026)
+
+Negen concurrenten onderzocht plus de vraagzijde van de markt, twee keer
+getoetst bij Gemini. Het volledige onderzoek staat in CONCURRENTIE.md; hier
+alleen wat er is besloten.
+
+**Doorgevoerd**
+
+- **Nieuwe pagina /wet-en-regels/** — Arbowet artikel 1 lid 1, 3 lid 2, 5,
+  8 en 13 lid 10 en Arbobesluit 2.15, letterlijk geciteerd, plus wat er níet
+  verplicht is. Acht van de negen concurrenten noemen de wet nergens. Twee
+  fouten hersteld die op veel sites staan: de definitie van psychosociale
+  arbeidsbelasting staat in artikel 1 EERSTE lid (niet "lid 3 onder e" — dat is
+  een oudere versie van de wet), en de 25-werknemersregel voor de
+  preventiemedewerker staat in artikel 13 TIENDE lid.
+- **Nieuwe pagina /kosten/** — wat er inbegrepen is, de vier prijsfactoren, en
+  zes neutrale vragen om offertes vergelijkbaar te maken. Zes van de negen
+  concurrenten noemen geen enkel bedrag en niemand legt het prijsmodel uit.
+  Er staat nog steeds geen prijs; dit is de eerlijke versie daarvan.
+- **Sectorkaders op zes sectorpagina's** (zorg, farmacie, overheid, onderwijs,
+  openbaar vervoer, welzijn) — de norm of wet die per sector bovenop de Arbowet
+  geldt, met bronlink. Sectoren zonder geverifieerd kader krijgen geen blok.
+- **Vijf koopbezwaar-vragen op /aanpak/** — blijft het hangen, is de acteur niet
+  te heftig, wij hebben al een protocol, hoe vaak herhalen, en wat als de
+  meldingen stijgen. Geen van de negen beantwoordt deze.
+- **RI&E-bouwsteen op alle 44 beroepsgroeppagina's** — een voorbeeldpassage
+  die een preventiemedewerker kan overnemen in het plan van aanpak, met de
+  juiste wetsverwijzingen en de naam van de beroepsgroep erin. Uitdrukkelijk
+  een voorbeeld en geen juridisch advies. Dit was het advies van Gemini in de
+  derde ronde: het verandert de pagina van verkooptekst in een werkstuk voor
+  de Arbo-administratie van de klant.
+- **llms.txt** heeft een hoofdstuk Wet en regels gekregen.
+
+**Bewust niet gedaan**
+
+- Geen vergelijkingstabel "wij versus een generalistisch bureau". Dan staan er
+  uitspraken over concurrenten op de site die verouderen zodra zij hun site
+  aanpassen. De site bevat geen enkele uitspraak over een concurrent en dat
+  blijft zo; het onderzoek hoort in CONCURRENTIE.md.
+- Geen belofte "offerte binnen vier uur" — niet waar te maken zonder Youri.
+- Geen claim dat de training "voldoet aan de Arbowet". Het is de werkgever die
+  aan de wet moet voldoen, niet de training.
+- Geen CBS-cijfers op de site. Ze zijn geverifieerd en beschikbaar, maar de
+  Nationale Enquête Arbeidsomstandigheden en de werknemersenquête zorg en
+  welzijn meten verschillende dingen; naast elkaar zetten zou misleiden. Zie
+  hoofdstuk 8: als Youri cijfers wil, kan het — met de juiste bronvermelding.
+- De 132 paginatitels blijven "agressietraining", niet "de-escalatietraining".
+  Uit het marktonderzoek blijkt dat de-escalatietraining nauwelijks als
+  productnaam of landingspagina bestaat. De term staat wel in koppen en tekst.
+- Nog steeds geen kennisbank of blog (besluit hoofdstuk 2 blijft staan). De
+  nieuwe pagina's zijn vaste referentiepagina's, geen artikelenstroom.
+
+**Wat het onderzoek opleverde aan positionering**
+
+Geen van de negen heeft een matrix van beroepsgroep × niveau, geen van de negen
+heeft een echte drietrapsleerlijn, en bij twee bureaus is de trainingsacteur een
+betaalde optie. Dat zijn de drie dingen om overal te blijven zeggen.
+
 ## 8. Nog open — heeft Youri nodig
 
 - Onderkop van de hero
@@ -163,6 +221,16 @@ vanaf-prijs is.
 - LinkedIn-URL van Marieke van Leeuwen (de andere elf staan erin)
 - Keuzemenu op het gedeelde telefoonnummer (Youri bouwt dit)
 - Wanneer het domein live gaat (nu nog een WordPress-wachtpagina)
+- **Reviews** — het grootste gat ten opzichte van de concurrentie. Eén
+  verifieerbare bron met echte beoordelingen weegt zwaarder dan welke tekst dan
+  ook. Zonder bron geen `AggregateRating`: een score zonder herkomst is precies
+  wat één van de onderzochte bureaus doet, en dat is geen voorbeeld om te volgen
+- **CRKBO-registratie** — btw-vrijstelling is voor een zorg- of onderwijsklant
+  direct geld. Vijf van de negen concurrenten hebben minstens één keurmerk
+- **Klantnamen** die genoemd mogen worden, of anders de sectoren waarin gewerkt is
+- **Cijfers over agressie in Nederland** op de site zetten: ja of nee? Ze zijn
+  geverifieerd bij het CBS en beschikbaar, maar het vraagt een keuze welke reeks
+  we gebruiken en hoe we die bronnen
 
 ## 9. Bevestigd, geen actie nodig
 

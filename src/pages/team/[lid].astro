@@ -26,7 +26,7 @@ const kruimels = [
   { naam: d.naam, url: pad(`/team/${lid.id}/`) },
 ];
 
-const openingsantwoord = `${d.naam} is ${d.rol.toLowerCase()} bij Bureau Weerbaar en Veilig, het trainingsbureau dat uitsluitend agressietraining verzorgt.`;
+const openingsantwoord = `${d.naam} is ${d.rol.toLowerCase()} bij Bureau Weerbaar en Veilig, het bureau dat uitsluitend agressietraining verzorgt, altijd incompany en opgebouwd per beroepsgroep. Hieronder staat welke achtergrond en ervaring ${d.naam.split(" ")[0]} meebrengt.`;
 
 // Persoon gekoppeld aan de organisatie, zodat de blokken één grafiek vormen.
 const siteUrl = new URL(import.meta.env.BASE_URL, Astro.site).href;

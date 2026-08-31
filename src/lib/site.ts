@@ -77,6 +77,76 @@ export const PRIJSFACTOREN = [
 ] as const;
 
 /**
+ * Sectorkaders: de afspraken, normen en wettelijke plichten die per sector
+ * gelden bovenop de Arbowet. Geen van de negen onderzochte concurrenten noemt
+ * ze (CONCURRENTIE.md hoofdstuk 2), terwijl dit precies de taal is waarmee een
+ * preventiemedewerker intern budget vrijmaakt.
+ *
+ * Alle regels hieronder zijn op 31-08-2026 nagetrokken bij de bron. Twee dingen
+ * om in de gaten te houden bij een volgende ronde:
+ * - het OV-convenant liep tot 2025 en de opvolger was toen nog niet getekend;
+ * - de zorgplicht in het onderwijs gaat over leerlingen, niet over personeel.
+ * Een sector zonder kader krijgt geen blok. Liever niets dan iets bedachts.
+ */
+export const SECTORKADERS: Record<
+  string,
+  { kop: string; tekst: string; bronnen: { naam: string; url: string }[] }
+> = {
+  zorg: {
+    kop: 'Wat er in de zorg bovenop de Arbowet geldt',
+    tekst:
+      'Elke zorgaanbieder moet een schriftelijke interne procedure hebben voor het omgaan met signalen van incidenten — artikel 9 van de Wet kwaliteit, klachten en geschillen zorg, in de praktijk het VIM. Let op het onderscheid: die procedure gaat over de veiligheid van de zorg zelf. Agressie tégen medewerkers valt onder psychosociale arbeidsbelasting in de Arbowet, en vraagt dus een eigen registratie en eigen maatregelen. Voor ziekenhuizen en UMC’s bestaat daarnaast Veiligezorg®, een methodische aanpak in zeven fasen; die is vrijwillig, geen keurmerk en geen wettelijke plicht.',
+    bronnen: [
+      { naam: 'Wkkgz artikel 9', url: 'https://wetten.overheid.nl/BWBR0037173#Paragraaf3_Artikel9' },
+      { naam: 'Veiligezorg® (StAZ)', url: 'https://www.staz.nl/onderwerpen/veiligezorg/' },
+    ],
+  },
+  farmacie: {
+    kop: 'Wat er in de farmacie bovenop de Arbowet geldt',
+    tekst:
+      'Een apotheek is een zorgaanbieder en valt daarmee onder de Wet kwaliteit, klachten en geschillen zorg: er moet een schriftelijke interne procedure zijn voor het omgaan met signalen van incidenten. Die gaat over de veiligheid van de zorg. Agressie aan de balie raakt daar wel aan, maar hoort thuis in de RI&E en het plan van aanpak, als psychosociale arbeidsbelasting.',
+    bronnen: [
+      { naam: 'Wkkgz artikel 9', url: 'https://wetten.overheid.nl/BWBR0037173#Paragraaf3_Artikel9' },
+    ],
+  },
+  'overheid-handhaving': {
+    kop: 'Wat er bij de overheid bovenop de Arbowet geldt',
+    tekst:
+      'Voor gemeentelijke organisaties is er een arbocatalogus met een eigen onderdeel agressie en geweld, positief getoetst door de Nederlandse Arbeidsinspectie. Voor het Rijk bestaat een vergelijkbare catalogus, in december 2022 positief getoetst en geldig tot december 2028. Daarnaast is er de collectieve norm Stop Agressie Samen van het ministerie van BZK: nee zeggen tegen agressie, altijd melden, en als werkgever zorgen voor een veilige werkomgeving. Dat is een gezamenlijke afspraak, geen wet. Het oude programma Veilige Publieke Taak liep van 2006 tot 2016 en is opgegaan in de aanpak Veilige Publieke Dienstverlening.',
+    bronnen: [
+      { naam: 'Arbocatalogus gemeentelijke organisaties', url: 'https://www.aeno.nl/arbocatalogus/agressie-en-geweld/' },
+      { naam: 'Arbocatalogus Rijk', url: 'https://www.aofondsrijk.nl/arbocatalogus-rijk/arbocatalogus-agressie-en-geweld/' },
+      { naam: 'Norm Stop Agressie Samen', url: 'https://www.veiligepubliekedienstverlening.nl/preventie/stel-een-norm' },
+    ],
+  },
+  onderwijs: {
+    kop: 'Wat er in het onderwijs bovenop de Arbowet geldt',
+    tekst:
+      'Scholen hebben een wettelijke zorgplicht voor de veiligheid op school: beleid voeren, de veiligheidsbeleving monitoren met een representatief instrument, en de coördinatie van het anti-pestbeleid bij iemand beleggen. Belangrijk detail dat vaak wordt overgeslagen: die zorgplicht gaat uitsluitend over de sociale, psychische en fysieke veiligheid van leerlingen. Voor de veiligheid van het personeel — ouderagressie aan de balie, bedreiging via de mail, incidenten in de klas — geldt gewoon de Arbowet.',
+    bronnen: [
+      { naam: 'WPO artikel 4c', url: 'https://wetten.overheid.nl/BWBR0003420#Titeldeel1_AfdelingI_Paragraaf2_Artikel4c' },
+      { naam: 'WVO 2020 artikel 3.40', url: 'https://wetten.overheid.nl/BWBR0044212' },
+    ],
+  },
+  'openbaar-vervoer': {
+    kop: 'Wat er in het openbaar vervoer bovenop de Arbowet geldt',
+    tekst:
+      'Het landelijk convenant Sociale Veiligheid in het OV liep van 2020 tot en met 2025. Aan een opvolger voor de periode daarna wordt gewerkt door het Rijk en de sector; die was in de zomer van 2026 nog niet ondertekend. Tot die er ligt, blijft de Arbowet het kader waar een vervoerder op wordt aangesproken: de risico’s in de RI&E, de maatregelen in het plan van aanpak, en voorlichting en onderricht aan het personeel dat het risico loopt.',
+    bronnen: [
+      { naam: 'Convenant Sociale Veiligheid in het OV 2020-2025', url: 'https://www.rijksoverheid.nl/documenten/convenanten/2020/07/09/bijlage-convenant-sociale-veiligheid-in-het-ov-2020-2025' },
+    ],
+  },
+  welzijn: {
+    kop: 'Wat er in het sociaal domein bovenop de Arbowet geldt',
+    tekst:
+      'Valt de organisatie onder de cao Jeugdzorg, dan is er meer dan de Arbowet. Die cao verplicht organisaties de Complete agressie-aanpak vast te leggen en in te voeren, of een vergelijkbare integrale methode op basis van vier pijlers: dienstverlening en veilig werken, risico’s en preventie, de-escaleren en veilig handelen, en afhandeling en nazorg. De cao zegt er in zoveel woorden bij dat beleid en uitvoering rond veilig werken niet vrijblijvend zijn. De verplichting gold vanaf 1 juli 2024; de cao voor 2026-2027 stelt de eis zonder datum.',
+    bronnen: [
+      { naam: 'Cao Jeugdzorg, veilig werken en agressie', url: 'https://www.jeugdzorg-werkt.nl/cao-jeugdzorg/veilig-werken-en-agressie' },
+    ],
+  },
+};
+
+/**
  * Het niveaumodel heeft een naam, zodat het aanwijsbaar is in een offerte,
  * een opleidingsplan en een AI-antwoord. Zie BESLUITEN.md hoofdstuk 1.
  */

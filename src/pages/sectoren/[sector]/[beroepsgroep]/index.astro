@@ -133,6 +133,46 @@ const schema = [dienstSchema, faqSchema(d.veelgestelde_vragen)].filter(Boolean);
     </div>
   </section>
 
+  {/* Een preventiemedewerker moet een maatregel opschrijven in het plan van
+      aanpak bij de RI&E. Dat schrijfwerk nemen we hier uit handen: een
+      voorbeeldpassage die de lezer kan overnemen en aanpassen. Geen van de
+      onderzochte concurrenten biedt zoiets (CONCURRENTIE.md hoofdstuk 2), en
+      het is precies het moment waarop een training van "interessant" naar
+      "opgenomen in het plan" gaat. Bewust een voorbeeld en geen juridisch
+      advies — dat staat er ook bij. */}
+  <section class="sectie sectie-aansluitend op-wit">
+    <div class="omhulsel">
+      <div class="kop-blok">
+        <p class="bovenkop">Voor je plan van aanpak</p>
+        <h2>Zo schrijf je het op in de RI&E</h2>
+        <p class="rie-inleiding">
+          Staat agressie als risico in jullie risico-inventarisatie, dan hoort er
+          in het plan van aanpak een maatregel te staan. Deze passage kun je
+          overnemen en aanpassen aan de eigen situatie.
+        </p>
+      </div>
+      <div class="rie-blok">
+        <p class="rie-tekst">
+          Ter beheersing van het risico op agressie en geweld — psychosociale
+          arbeidsbelasting — voor de functie {d.naam.toLowerCase()} wordt een
+          incompany praktijktraining ingezet, gericht op het herkennen van
+          oplopende spanning, de-escaleren en begrenzen in situaties die bij dit
+          werk horen, geoefend met een trainingsacteur. De training is een
+          maatregel in het plan van aanpak bij de risico-inventarisatie en
+          -evaluatie (Arbowet artikel 5) en geeft invulling aan de voorlichting
+          en het onderricht uit Arbowet artikel 8 en Arbobesluit artikel 2.15,
+          tweede lid. Noodzaak, inhoud en frequentie volgen uit de
+          risicobeoordeling.
+        </p>
+      </div>
+      <p class="rie-voetnoot">
+        Een voorbeeldformulering om zelf aan te passen, geen juridisch advies.
+        Wat de wet precies vraagt, staat op
+        <a href={pad('/wet-en-regels/')}>wet en regels</a>.
+      </p>
+    </div>
+  </section>
+
   {buren.length > 0 && (
     <section class="sectie op-licht">
       <div class="omhulsel">
@@ -219,4 +259,25 @@ const schema = [dienstSchema, faqSchema(d.veelgestelde_vragen)].filter(Boolean);
   }
 
   .kaart-voet { margin-top: auto; padding-top: 0.4rem; font-size: 0.9rem; }
+
+  .rie-inleiding { max-width: 56ch; color: var(--tekst-donker-zacht); }
+  .rie-blok {
+    max-width: 68ch;
+    padding: clamp(1.1rem, 0.9rem + 0.8vw, 1.75rem);
+    background: var(--mist-50);
+    border: 1px dashed var(--rand-licht);
+    border-radius: var(--hoek);
+  }
+  .rie-tekst {
+    margin: 0;
+    font-size: 0.95rem;
+    line-height: 1.7;
+    color: var(--tekst-donker);
+  }
+  .rie-voetnoot {
+    margin-top: 0.85rem;
+    max-width: 68ch;
+    font-size: 0.85rem;
+    color: var(--tekst-donker-zacht);
+  }
 </style>

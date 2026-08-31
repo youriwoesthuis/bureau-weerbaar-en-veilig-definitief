@@ -6,7 +6,7 @@ import Icoon from '../../../components/Icoon.astro';
 import Cijferstrip from '../../../components/Cijferstrip.astro';
 import Vragen from '../../../components/Vragen.astro';
 import Cta from '../../../components/Cta.astro';
-import { NIVEAUS, NIVEAU_INFO, FEITEN, pad } from '../../../lib/site';
+import { NIVEAUS, NIVEAU_INFO, FEITEN, SECTORKADERS, pad } from '../../../lib/site';
 import { paginaTitel, description, faqSchema } from '../../../lib/seo';
 
 export async function getStaticPaths() {
@@ -17,6 +17,10 @@ export async function getStaticPaths() {
 const { sector } = Astro.props;
 const d = sector.data;
 const { Content } = await render(sector);
+
+// Niet elke sector heeft een eigen kader bovenop de Arbowet; wie er geen
+// heeft, krijgt geen blok. Zie SECTORKADERS in lib/site.ts.
+const kader = SECTORKADERS[d.slug];
 
 const [beroepsgroepen, trainingen] = await Promise.all([
   getCollection('beroepsgroepen'),
@@ -119,6 +123,31 @@ const schema = [faqSchema(d.veelgestelde_vragen)].filter(Boolean);
     </div>
   </section>
 
+  {kader && (
+    <section class="sectie sectie-aansluitend op-wit">
+      <div class="omhulsel">
+        <div class="kaderblok">
+          <p class="bovenkop">Kader</p>
+          <h2>{kader.kop}</h2>
+          <p>{kader.tekst}</p>
+          <p class="kaderbronnen">
+            <span class="kaderbron-label">Bronnen:</span>
+            {kader.bronnen.map((b, i) => (
+              <>
+                {i > 0 && <span aria-hidden="true"> · </span>}
+                <a href={b.url} rel="noopener">{b.naam}</a>
+              </>
+            ))}
+          </p>
+          <a href={pad('/wet-en-regels/')} class="pijllink">
+            Wat de Arbowet vraagt
+            <span class="pijl" aria-hidden="true">→</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  )}
+
   <section class="sectie op-licht">
     <div class="omhulsel">
       <div class="kop-blok">
@@ -205,4 +234,19 @@ const schema = [faqSchema(d.veelgestelde_vragen)].filter(Boolean);
     background: var(--niveau-op-wit);
     flex: none;
   }
+
+  .kaderblok {
+    max-width: 68ch;
+    display: grid;
+    gap: 0.9rem;
+    padding: clamp(1.2rem, 1rem + 0.8vw, 1.9rem);
+    background: var(--mist-50);
+    border: 1px solid var(--rand-licht);
+    border-left: 3px solid var(--niveau-op-wit);
+    border-radius: var(--hoek);
+  }
+  .kaderblok h2 { margin: 0; font-size: clamp(1.15rem, 1rem + 0.6vw, 1.5rem); }
+  .kaderblok > p { color: var(--tekst-donker-zacht); }
+  .kaderbronnen { font-size: 0.85rem; }
+  .kaderbron-label { font-weight: 600; color: var(--tekst-donker); }
 </style>
