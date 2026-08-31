@@ -2,11 +2,15 @@
 import type { Niveau } from '../lib/site';
 
 /**
- * De drie treden met het huidige niveau opgelicht. Vult de rechterhelft
- * van de kop op een trainingspagina en laat in één blik zien waar deze
- * training in de leerlijn staat — zonder dat er een woord bij hoeft.
+ * De Weerbaarheidsladder als beeld, met optioneel één niveau opgelicht.
+ * Staat in de kop van de trainings- en beroepsgroeppagina's.
  *
- * Dezelfde vormentaal als de illustratie op de homepage.
+ * Tweede versie. De eerste waren drie gekleurde blokken; de Gemini-review
+ * noemde die terecht "100% vulling zonder betekenis", en Youri had het
+ * herobeeld in dezelfde stijl al afgekeurd. Dit is dezelfde vormentaal als
+ * het nieuwe herobeeld — de dubbele chevron uit het logo, met echo en
+ * gestippelde gidslijn — maar dan òmhoog: de hero tekent het werk
+ * (de-escaleren, omlaag), dit tekent de leerlijn (doorgroeien, omhoog).
  */
 interface Props {
   /** Laat één trede oplichten. Weglaten op een pagina die over alle drie
@@ -15,53 +19,70 @@ interface Props {
 }
 const { huidig } = Astro.props;
 
+/** Oplopend, in de niveaukleuren voor een licht vlak. */
 const TREDEN = [
-  { niveau: 'basis' as const, x: 12, y: 132, h: 92, kleur: ['#f6a03a', '#e87e12'] },
-  { niveau: 'gevorderd' as const, x: 106, y: 86, h: 138, kleur: ['#c49bb0', '#8b5e76'] },
-  { niveau: 'expert' as const, x: 200, y: 34, h: 190, kleur: ['#8fa2e6', '#284191'] },
+  { niveau: 'basis' as const, x: 62, y: 208, span: 74, dikte: 19, kleur: '#a45a0a' },
+  { niveau: 'gevorderd' as const, x: 128, y: 148, span: 84, dikte: 21, kleur: '#8d6078' },
+  { niveau: 'expert' as const, x: 196, y: 82, span: 94, dikte: 23, kleur: '#4767cc' },
 ];
+
+/** Een chevron met de punt omlaag, gecentreerd op (x, y-top). */
+const chevron = (t: { x: number; y: number; span: number }, schaal = 1) => {
+  const halve = (t.span / 2) * schaal;
+  const diepte = t.span * 0.42 * schaal;
+  return `M${t.x - halve} ${t.y} L${t.x} ${t.y + diepte} L${t.x + halve} ${t.y}`;
+};
+
+/** De gidslijn omhoog, door de punten van de drie chevrons. */
+const punten = TREDEN.map((t) => ({ x: t.x, y: t.y + t.span * 0.42 }));
+const gids = `M${punten[0].x - 46} ${punten[0].y + 34} L ${punten.map((p) => `${p.x} ${p.y}`).join(' L ')} L ${punten[2].x + 42} ${punten[2].y - 32}`;
+
+const actiefIs = (n: Niveau) => !huidig || n === huidig;
+const gloed = huidig ? TREDEN.find((t) => t.niveau === huidig)! : TREDEN[2];
 ---
 
-<svg class="niveaubeeld" viewBox="0 0 292 240" fill="none" aria-hidden="true" focusable="false">
+<svg class="niveaubeeld" viewBox="0 0 280 300" fill="none" aria-hidden="true" focusable="false">
   <defs>
-    {TREDEN.map((t) => (
-      <linearGradient id={`nb-${t.niveau}`} x1="0" y1="0" x2="0.3" y2="1">
-        <stop offset="0%" stop-color={t.kleur[0]} />
-        <stop offset="100%" stop-color={t.kleur[1]} />
-      </linearGradient>
-    ))}
     <radialGradient id="nb-gloed" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0%" stop-color="#f18816" stop-opacity="0.22" />
-      <stop offset="100%" stop-color="#f18816" stop-opacity="0" />
+      <stop offset="0%" stop-color={gloed.kleur} stop-opacity="0.20" />
+      <stop offset="100%" stop-color={gloed.kleur} stop-opacity="0" />
     </radialGradient>
   </defs>
 
-  <circle cx="146" cy="110" r="120" fill="url(#nb-gloed)" />
+  {/* zachte gloed achter het niveau waar deze pagina over gaat */}
+  <circle cx={gloed.x} cy={gloed.y + 24} r="92" fill="url(#nb-gloed)" />
 
-  {TREDEN.map((t) => {
-    // Zonder `huidig` staat alles aan: de pagina gaat dan over alle drie.
-    const actief = !huidig || t.niveau === huidig;
-    return (
-      <g class:list={['trede', { 'trede-actief': actief }]}>
-        <rect
-          x={t.x}
-          y={t.y}
-          width="80"
-          height={t.h}
-          rx="14"
-          fill={`url(#nb-${t.niveau})`}
-        />
-        <path
-          d={`M${t.x + 20} ${t.y + 26} L${t.x + 40} ${t.y + 43} L${t.x + 60} ${t.y + 26} L${t.x + 60} ${t.y + 39} L${t.x + 40} ${t.y + 56} L${t.x + 20} ${t.y + 39} Z`}
-          fill="#14100a"
-          opacity="0.34"
-        />
-        {huidig && actief && (
-          <circle cx={t.x + 40} cy={t.y - 18} r="9" fill="#f18816" />
-        )}
-      </g>
-    );
-  })}
+  {/* de leerlijn omhoog, als stille onderlaag */}
+  <path d={gids} stroke="#8d6078" stroke-width="2" stroke-dasharray="1 9" stroke-linecap="round" opacity="0.45" />
+
+  {TREDEN.map((t) => (
+    <g class:list={['trede', { 'trede-actief': actiefIs(t.niveau) }]}>
+      {/* de echo: de tweede chevron uit het merkteken, lichter en hoger */}
+      <path
+        d={chevron({ ...t, y: t.y - t.dikte * 1.05 }, 0.86)}
+        stroke={t.kleur}
+        stroke-width={t.dikte * 0.45}
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        opacity="0.30"
+      />
+      <path
+        d={chevron(t)}
+        stroke={t.kleur}
+        stroke-width={t.dikte}
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+    </g>
+  ))}
+
+  {/* markering onder het huidige niveau: hier sta je */}
+  {huidig && (
+    <g class="hier">
+      <circle cx={gloed.x} cy={gloed.y + gloed.span * 0.42 + 30} r="11" fill="#fff" stroke={gloed.kleur} stroke-width="3" />
+      <circle cx={gloed.x} cy={gloed.y + gloed.span * 0.42 + 30} r="4.5" fill={gloed.kleur} />
+    </g>
+  )}
 </svg>
 
 <style>
@@ -70,14 +91,26 @@ const TREDEN = [
   /* De niet-actieve treden treden terug, zodat het huidige niveau eruit
      springt zonder dat de andere twee verdwijnen — ze horen bij het
      verhaal van de leerlijn. */
-  .trede { opacity: 0.34; transition: opacity 250ms ease; }
+  .trede { opacity: 0.28; transition: opacity 250ms ease; }
   .trede-actief { opacity: 1; }
 
   @media (prefers-reduced-motion: no-preference) {
-    .trede-actief { animation: trede-op 620ms cubic-bezier(0.2, 0.8, 0.3, 1) both; }
+    .trede-actief, .hier {
+      animation: trede-op 620ms cubic-bezier(0.2, 0.8, 0.3, 1) both;
+    }
+    .hier { animation-delay: 240ms; }
   }
   @keyframes trede-op {
-    from { opacity: 0; transform: translateY(14px); }
+    from { opacity: 0; transform: translateY(12px); }
     to { opacity: 1; transform: none; }
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .trede-actief { animation-name: trede-op; }
+    /* de terugliggende treden houden hun gedempte eindstand */
+    .trede:not(.trede-actief) { animation: trede-terug 620ms ease both; }
+    @keyframes trede-terug {
+      from { opacity: 0; }
+      to { opacity: 0.28; }
+    }
   }
 </style>

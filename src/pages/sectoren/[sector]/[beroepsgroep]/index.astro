@@ -80,7 +80,10 @@ const schema = [faqSchema(d.veelgestelde_vragen)].filter(Boolean);
     </div>
   </section>
 
-  <section class="sectie op-licht">
+  {/* sectie-aansluitend: de kop erboven eindigt al met lucht en een
+      schuine rand; de volle sectieafstand erbovenop gaf een gat van
+      dertien rem (Gemini-review). */}
+  <section class="sectie sectie-aansluitend op-licht">
     <div class="omhulsel">
       <div class="kop-blok">
         <p class="bovenkop">Kies een niveau</p>

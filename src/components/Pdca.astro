@@ -60,7 +60,7 @@ const FASEN = [
 const regels = FASEN.map(
   (f) => `.pdca:has(#fase-${f.id}:checked) .fase-paneel[data-fase="${f.id}"]{display:grid}
 .pdca:has(#fase-${f.id}:checked) .ring-boog[data-fase="${f.id}"]{opacity:1;stroke-width:30}
-.pdca:has(#fase-${f.id}:checked) .ring-letter[data-fase="${f.id}"]{opacity:1;font-size:19px}`,
+.pdca:has(#fase-${f.id}:checked) .ring-chip[data-fase="${f.id}"]{--aan:1}`,
 ).join('\n');
 
 // Ringmeetkunde: vier bogen van 90 graden met een opening ertussen.
@@ -68,55 +68,56 @@ const straal = 78;
 const omtrek = 2 * Math.PI * straal;
 const boog = omtrek / 4 - 10;
 const KLEUREN = ['#f18816', '#d99a6a', '#c49bb0', '#8fa2e6'];
+
+/* De vier knoppen staan op de ring, op het midden van hun eigen boog.
+   Posities in procenten van het vierkant: r = 78/220 = 35,45%, en de
+   hoeken -45, 45, 135 en 225 graden. */
+const POS = [
+  { x: 75.1, y: 24.9 },
+  { x: 75.1, y: 75.1 },
+  { x: 24.9, y: 75.1 },
+  { x: 24.9, y: 24.9 },
+];
 ---
 
 <div class="pdca">
   <div class="pdca-boven">
-    <!-- De ring is toelichting bij de knoppen, geen bediening: de
-         radioknoppen hieronder doen het werk en zijn met het toetsenbord
-         te bereiken. Daarom aria-hidden. -->
-    <svg class="ring" viewBox="0 0 220 220" aria-hidden="true" focusable="false">
-      {FASEN.map((f, i) => (
-        <circle
-          class="ring-boog"
-          data-fase={f.id}
-          cx="110"
-          cy="110"
-          r={straal}
-          fill="none"
-          stroke={KLEUREN[i]}
-          stroke-width="22"
-          stroke-linecap="round"
-          stroke-dasharray={`${boog} ${omtrek - boog}`}
-          transform={`rotate(${-85 + i * 90} 110 110)`}
-        />
-      ))}
-      {FASEN.map((f, i) => {
-        const hoek = (-45 + i * 90) * (Math.PI / 180);
-        return (
-          <text
-            class="ring-letter"
-            data-fase={f.id}
-            x={110 + Math.cos(hoek) * straal}
-            y={110 + Math.sin(hoek) * straal}
-            text-anchor="middle"
-            dominant-baseline="central"
-            fill="#12121a"
-          >{f.letter}</text>
-        );
-      })}
-      <text class="ring-hart" x="110" y="102" text-anchor="middle">PDCA</text>
-      <text class="ring-hart-klein" x="110" y="124" text-anchor="middle">zo werken wij</text>
-    </svg>
-
-    <fieldset class="fasekeuze">
+    {/* Ring en bediening zijn één element: de vier letters staan óp hun
+        eigen boog en zijn de labels van de radioknoppen. Er stond eerst een
+        losse knoppenrij onder de ring — dat was dubbelop. De svg zelf is
+        decoratie en aria-hidden; de knoppen dragen de betekenis. */}
+    <fieldset class="ringwrap">
       <legend class="alleen-voorlezer">Kies een fase van de cyclus</legend>
+      <svg class="ring" viewBox="0 0 220 220" aria-hidden="true" focusable="false">
+        {FASEN.map((f, i) => (
+          <circle
+            class="ring-boog"
+            data-fase={f.id}
+            cx="110"
+            cy="110"
+            r={straal}
+            fill="none"
+            stroke={KLEUREN[i]}
+            stroke-width="22"
+            stroke-linecap="round"
+            stroke-dasharray={`${boog} ${omtrek - boog}`}
+            transform={`rotate(${-85 + i * 90} 110 110)`}
+          />
+        ))}
+        <text class="ring-hart" x="110" y="102" text-anchor="middle">PDCA</text>
+        <text class="ring-hart-klein" x="110" y="124" text-anchor="middle">zo werken wij</text>
+      </svg>
       {FASEN.map((f, i) => (
         <>
           <input type="radio" name="pdca" id={`fase-${f.id}`} class="fase-radio" checked={i === 0} />
-          <label for={`fase-${f.id}`} class="fase-knop" style={`--fasekleur:${KLEUREN[i]}`}>
-            <span class="fase-letter">{f.letter}</span>
-            <span class="fase-naam">{f.naam}</span>
+          <label
+            for={`fase-${f.id}`}
+            class:list={['ring-chip', i === 0 || i === 3 ? 'chip-boven' : 'chip-onder']}
+            data-fase={f.id}
+            style={`--fasekleur:${KLEUREN[i]}; --cx:${POS[i].x}%; --cy:${POS[i].y}%`}
+          >
+            {f.letter}
+            <span class="chip-naam">{f.naam}</span>
           </label>
         </>
       ))}
@@ -151,17 +152,19 @@ const KLEUREN = ['#f18816', '#d99a6a', '#c49bb0', '#8fa2e6'];
 
   .pdca-boven { display: grid; gap: 1.25rem; justify-items: center; }
 
-  .ring { width: min(100%, 15rem); height: auto; }
+  .ringwrap {
+    position: relative;
+    width: min(100%, 16rem);
+    aspect-ratio: 1;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+  }
+  .ring { position: absolute; inset: 0; width: 100%; height: 100%; }
   .ring-boog {
     opacity: 0.32;
     transition: opacity 220ms ease, stroke-width 220ms ease;
-  }
-  .ring-letter {
-    font-family: 'Manrope', system-ui, sans-serif;
-    font-size: 15px;
-    font-weight: 800;
-    opacity: 0.55;
-    transition: opacity 220ms ease, font-size 220ms ease;
   }
   .ring-hart {
     font-family: 'Manrope', system-ui, sans-serif;
@@ -179,53 +182,57 @@ const KLEUREN = ['#f18816', '#d99a6a', '#c49bb0', '#8fa2e6'];
     fill: var(--tekst-donker-zacht);
   }
 
-  /* ---- De vier knoppen ---- */
-  .fasekeuze {
-    border: 0;
-    padding: 0;
-    margin: 0;
-    min-width: 0;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.4rem;
-    justify-content: center;
-  }
+  /* ---- De knoppen óp de ring ---- */
   .fase-radio { position: absolute; width: 1px; height: 1px; opacity: 0; pointer-events: none; }
 
-  .fase-knop {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.45rem;
-    min-height: 2.75rem;
-    padding: 0.45rem 0.9rem;
-    border: 1px solid var(--rand-licht);
-    border-radius: var(--hoek-rond);
-    color: var(--tekst-donker-zacht);
-    font-family: 'Manrope', system-ui, sans-serif;
-    font-size: 0.92rem;
-    font-weight: 600;
-    cursor: pointer;
-    user-select: none;
-    transition: background 160ms, color 160ms, border-color 160ms;
-  }
-  .fase-letter {
+  .ring-chip {
+    --aan: 0;
+    position: absolute;
+    left: var(--cx);
+    top: var(--cy);
+    translate: -50% -50%;
     display: grid;
     place-items: center;
-    width: 1.35rem;
-    height: 1.35rem;
+    width: 2.75rem;
+    aspect-ratio: 1;
     border-radius: 50%;
     background: var(--fasekleur);
-    color: #12121a;
-    font-size: 0.75rem;
+    border: 3px solid var(--wit);
+    color: #14100a;
+    font-family: 'Manrope', system-ui, sans-serif;
+    font-size: 1.05rem;
     font-weight: 800;
-    flex: none;
+    cursor: pointer;
+    user-select: none;
+    scale: calc(0.9 + var(--aan) * 0.22);
+    box-shadow: 0 2px 8px rgba(20, 16, 10, calc(0.10 + var(--aan) * 0.16));
+    transition: scale 200ms cubic-bezier(0.2, 0.7, 0.3, 1), box-shadow 200ms;
   }
-  .fase-knop:hover { color: var(--tekst-donker); border-color: var(--tekst-donker-zacht); }
-  .fase-radio:focus-visible + .fase-knop { outline: 3px solid var(--amber-400); outline-offset: 3px; }
-  .fase-radio:checked + .fase-knop {
-    background: color-mix(in oklab, var(--fasekleur) 20%, transparent);
-    border-color: var(--fasekleur);
+  .ring-chip:hover { scale: calc(0.98 + var(--aan) * 0.14); }
+  .fase-radio:focus-visible + .ring-chip { outline: 3px solid var(--focus); outline-offset: 3px; }
+
+  /* De fasenaam bij de chip: boven de bovenste twee, onder de onderste twee,
+     zodat hij nooit over de ring valt. */
+  .chip-naam {
+    position: absolute;
+    left: 50%;
+    translate: -50%;
+    white-space: nowrap;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    /* tekst-donker en niet -zacht: het naampje hangt in de DOM binnen de
+       gekleurde chip (voor het klikvlak) maar staat visueel op het lichte
+       vlak. Deze kleur haalt 4,5:1 tegen allebei. */
     color: var(--tekst-donker);
+    opacity: calc(0.78 + var(--aan) * 0.22);
+  }
+  .chip-boven .chip-naam { bottom: calc(100% + 0.35rem); }
+  .chip-onder .chip-naam { top: calc(100% + 0.35rem); }
+
+  @media (prefers-reduced-motion: reduce) {
+    .ring-chip { transition: none; }
   }
 
   /* ---- De panelen ---- */

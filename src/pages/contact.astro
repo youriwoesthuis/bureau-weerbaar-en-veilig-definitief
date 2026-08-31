@@ -220,12 +220,15 @@ const schema = [faqSchema(contactVragen)].filter(Boolean);
                 telefoon opneemt. Een belofte op de site waar de opdrachtgever
                 niet om heeft gevraagd, hoort er niet te staan. */}
             <p class="inleiding">
-              Bel of mail rechtstreeks. Bureau Weerbaar en Veilig is bereikbaar
-              op {SITE.openingstijden.replace('maandag t/m vrijdag', 'werkdagen van')}.
+              {/* Geen nummer of tijden hier: die staan al in de openingszin en in het
+                  blok Direct contact hiernaast. Drie keer hetzelfde in één scherm
+                  las als rommelig (Gemini-review). */}
+              Bel of mail rechtstreeks en vertel wat er speelt: welk team, wat
+              er gebeurt en hoe vaak. Dan denken we mee over niveau en aanpak.
             </p>
             <div class="directe-knoppen">
               <a href={`tel:${SITE.telefoonUri}`} class="knop">
-                Bel {SITE.telefoon}
+                Bel ons direct
                 <span class="pijl" aria-hidden="true">→</span>
               </a>
               <a href={mailLink} class="knop knop-tweede">Mail je aanvraag</a>

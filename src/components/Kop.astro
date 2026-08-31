@@ -75,9 +75,10 @@ const actief = (url: string) =>
     top: 0;
     z-index: 50;
     /* Niet color-mix(): dat rekent uit tot een oklab()-waarde, en dan meet
-       de contrastcontrole deze balk als een licht vlak. Zelfde kleur
-       (#121216 op 82%), maar leesbaar voor het meetscript. */
-    background: rgba(18, 18, 22, 0.82);
+       de contrastcontrole deze balk als een licht vlak.
+       0.94 en niet 0.82: bij 82% bleef tekst die onder de balk doorscrolt er
+       half doorheen zichtbaar, en dat las als slordig (Gemini-review). */
+    background: rgba(18, 18, 22, 0.94);
     backdrop-filter: blur(14px);
     border-bottom: 1px solid var(--rand);
   }
