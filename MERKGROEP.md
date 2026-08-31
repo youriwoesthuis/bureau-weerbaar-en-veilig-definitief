@@ -131,7 +131,7 @@ repo's van de andere twee sites.
 De cijfers hieronder gingen over de vorige versie van de site. **Bijgewerkt op
 25-08-2026** naar de herbouwde versie:
 
-- 207 pagina's: 132 trainingen, 19 sectoren, 44 beroepsgroepen, 12 teamleden en
+- 216 pagina's: 129 trainingen, 19 sectoren, 43 beroepsgroepen, 12 teamleden en
   de vaste pagina's. Geen kennisbank en geen redirects.
 - Titels consequent "Agressietraining {sector}" en
   "agressietraining-{beroepsgroep}-{niveau}"

@@ -102,6 +102,17 @@ werkt, blijft van het volgende af:
    acteur zonder meerprijs, altijd incompany, deelnamecertificaat, geen
    e-learning. Formuleringen mogen soepeler, de feiten zelf op geen enkele
    pagina anders.
+6. **Citaten van teamleden** in src/content/team. De regel "niet ik" gaat
+   over de stem van de site, niet over wat iemand letterlijk zegt. Een citaat
+   blijft in de ik-vorm staan en wordt niet omgeschreven naar de derde persoon.
+   Loopt een citaat over meerdere alinea's, dan opent elke alinea met een
+   aanhalingsteken en sluit alleen de laatste. Zonder dat leest de tweede
+   alinea als tekst van het bureau in de ik-vorm, en dat is precies het stuk
+   dat een AI-systeem los citeert.
+7. **Biografische gegevens van teamleden**: opleidingen, jaartallen, eerdere
+   beroepen. Die komen van de mensen zelf en zijn geen verkoopclaim van het
+   bureau. Niet aanscherpen, niet mooier maken, en ook niet schrappen omdat ze
+   niet vanaf de site te controleren zijn.
 
 ## 4. Gedeelde strings: waar de huisstijl ophoudt
 

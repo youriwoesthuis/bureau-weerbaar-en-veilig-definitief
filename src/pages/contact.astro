@@ -228,11 +228,11 @@ const schema = [faqSchema(contactVragen)].filter(Boolean);
               </a>
               <a href={mailLink} class="knop knop-tweede">Mail je aanvraag</a>
             </div>
-            <p class="notitie">
-              <strong>Voor de beheerder:</strong> het online formulier staat klaar
-              maar is nog niet gekoppeld aan een verzenddienst. Zie
-              <code>WERKWIJZE.md</code>, hoofdstuk “Het contactformulier aanzetten”.
-            </p>
+            {/* Voor de beheerder: het online formulier staat klaar maar is nog
+                niet gekoppeld aan een verzenddienst. Zie WERKWIJZE.md, hoofdstuk
+                "Het contactformulier aanzetten". Dit stond eerder als zichtbare
+                alinea op de pagina, waar een bezoeker las dat de site nog niet af
+                was, inclusief de naam van een intern document. */}
           </div>
         )}
       </div>
@@ -273,6 +273,7 @@ const schema = [faqSchema(contactVragen)].filter(Boolean);
           <ul class="feitlijst">
             <li>Elke training duurt {FEITEN.duur}</li>
             <li>{FEITEN.groepsgrootte.charAt(0).toUpperCase() + FEITEN.groepsgrootte.slice(1)}</li>
+            <li>Altijd een trainingsacteur erbij, zonder meerprijs</li>
             <li>{FEITEN.certificaat.charAt(0).toUpperCase() + FEITEN.certificaat.slice(1)} na afloop</li>
             <li>Offerte op maat per aanvraag</li>
           </ul>
@@ -282,6 +283,10 @@ const schema = [faqSchema(contactVragen)].filter(Boolean);
           </a>
           <a href={pad('/kosten/')} class="pijllink">
             Wat bepaalt de prijs?
+            <span class="pijl" aria-hidden="true">→</span>
+          </a>
+          <a href={pad('/wet-en-regels/')} class="pijllink">
+            Wat de wet van je organisatie vraagt
             <span class="pijl" aria-hidden="true">→</span>
           </a>
         </div>

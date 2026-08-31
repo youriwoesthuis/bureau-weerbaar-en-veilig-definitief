@@ -47,7 +47,7 @@ artikelen, waarvan er één de algemene voorwaarden zijn.
 
 | | Beroepsgroep-<br>pagina's | Niveaus | Acteur | Prijs op de site | Keurmerk | Reviewscore |
 |---|---|---|---|---|---|---|
-| **Bureau Weerbaar en Veilig** | **44 × 3 = 132** | **3, met naam** | **standaard, geen meerprijs** | nee (factoren wel) | nee | nee |
+| **Bureau Weerbaar en Veilig** | **43 × 3 = 129** | **3, met naam** | **standaard, geen meerprijs** | nee (factoren wel) | nee | nee |
 | incompanytrainer.nl | 0 | geen | optioneel, kost extra | ja, €1.095–€3.895 | nee | 9,5 (60) |
 | ludiektrainingen.nl | 0 | geen | optioneel | nee | CRKBO | 9,5 (11) |
 | agressiebeheer.nl | 0 | basis + herhaling | ja | €640 open inschrijving | nee | nee |

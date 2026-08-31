@@ -14,6 +14,6 @@ oefengesprek bewust te maken van het eigen gedrag en de mogelijkheid te geven to
 verandering. Ik vind het daarbij belangrijk dat ook de persoonlijke kracht van de
 deelnemer wordt belicht.
 
-Ik kijk, luister, voel en zet gedrag op een realistische manier neer, zodat de
+"Ik kijk, luister, voel en zet gedrag op een realistische manier neer, zodat de
 situatie op de werkvloer zo dicht mogelijk wordt benaderd. Het leerdoel van de
 deelnemer staat centraal."

@@ -9,8 +9,7 @@ volgorde: 11
 ---
 
 Eline houdt de organisatie draaiend: planningen, afspraken en de communicatie
-eromheen. Wie belt of mailt over een training, heeft haar meestal als eerste aan
-de lijn.
+eromheen. Zij zorgt dat een training staat voordat de trainer binnenkomt.
 
 Doordat de dagelijkse organisatie klopt, kunnen de trainers en acteurs hun
 aandacht richten op waar het om gaat: de groep die voor hen staat.

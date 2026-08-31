@@ -567,6 +567,68 @@ tussen haakjes mee welke deelvragen daar al beantwoord zijn. Dat is goedkoper
 dan hele pagina's doorsturen en voorkomt dat er adviezen komen voor gaten die
 er niet zijn.
 
+## 7n. Paginaronde stap 6: over ons, team, contact, privacy en 404 (31-08-2026)
+
+Twee parallelle audits, een op de drie mensenpagina's en een op de kleine
+pagina's plus een sitebrede controle van alle 217 gebouwde bestanden.
+
+**Wat de sitebrede controle schoon vond:** nul gedachtestreepjes, nul
+uitroeptekens, nul compliance-claims over de training zelf (alle treffers op
+"gecertificeerd", "erkend" en "wettelijk verplicht" staan in ontkennende vorm of
+leggen de plicht correct bij de werkgever), 13.087 interne links zonder een
+enkele gebroken, en 217 unieke titels.
+
+**Wat er wel mis was, en is hersteld:**
+
+- **Een notitie voor de beheerder stond publiek op de contactpagina.** "Voor de
+  beheerder: het online formulier staat klaar maar is nog niet gekoppeld aan een
+  verzenddienst. Zie WERKWIJZE.md." Een bezoeker las daar dat de site nog niet
+  af is, plus de naam van een intern document. Staat nu in een comment.
+- **De openingszin van de teampagina liep krom** bij functietitels zonder
+  persoonsvorm: "Eline Mol is office en communicatie bij Bureau Weerbaar en
+  Veilig". De rol staat nu als bijstelling achter de naam.
+- **Twaalf teampagina's hadden een bijna identieke meta description**, want die
+  kwam uit diezelfde vaste zin. De omschrijving gebruikt nu de eerste eigen zin
+  van de persoon. Twaalf unieke omschrijvingen.
+- **De kop "Wie de training geeft"** stond boven twaalf mensen van wie er vier
+  geen training geven. Nu "Wie er achter het bureau staat". De claim dat de
+  acteurs "geen ingehuurde kracht" zijn is vervangen door wat wel zichtbaar
+  waar is: ze staan tussen de trainers in het team.
+- **Twee teamleden beloofden allebei de eerste contactpersoon te zijn.** Youri
+  "degene die je spreekt als je een aanvraag doet", Eline "meestal als eerste
+  aan de lijn". Die belofte is bij Eline weg; wie er opneemt hangt ervan af wie
+  er is, en dat soort belofte was op de contactpagina eerder al geschrapt.
+- **De zin over de handelsnaam stond twee keer op de pagina over ons.**
+- **De privacyverklaring schakelde drie keer over naar "u"** in een tekst die
+  verder consequent "je" gebruikt, twee keer zelfs binnen dezelfde zin.
+- **Drie citaten liepen over twee alinea's met maar een openingsteken.** De
+  tweede alinea las daardoor als tekst van het bureau in de ik-vorm, en dat is
+  precies het stuk dat een AI-systeem eruit knipt. Elke vervolgalinea opent nu
+  met een aanhalingsteken, zoals de conventie voorschrijft.
+- **Het aantal beroepsgroepen stond als getal in de homepagetekst** ("Vier van
+  de 44 beroepsgroepen") en klopte niet meer na de samenvoeging van 7l. Dat telt
+  nu de collectie. De aantallen in README, het ontwerpdocument, MERKGROEP en
+  CONCURRENTIE zijn bijgewerkt naar 43 beroepsgroepen en 129 trainingen; die
+  liepen op sommige plekken al langer achter.
+- **Toegevoegd op de contactpagina:** de trainingsacteur in het feitenlijstje,
+  want dat is het enige onderscheidende feit dat standaard geleverd wordt en het
+  stond daar niet. En een route naar wet en regels, de pagina waarmee een
+  preventiemedewerker de aanvraag intern verantwoordt.
+
+**Wat is gemeld maar bewust niet veranderd:**
+
+- **De ik-vorm in de teamcitaten.** De regel "niet ik" gaat over de stem van de
+  site, niet over wat iemand letterlijk zegt. Dat stond nergens vastgelegd, dus
+  het leverde terecht een melding op. Toegevoegd aan STIJL.md.
+- **Maximaal acht deelnemers bij expert.** Gemeld als afwijking van het vaste
+  feit "maximaal tien", maar het is een bewuste en sitebreed consistente keuze
+  die ook wordt uitgelegd: bij expert is meer ruimte nodig voor het eigen beleid
+  van de organisatie.
+- **Biografische gegevens in de teamteksten**, zoals "sinds 2003" en "meer dan
+  35 jaar in het dementieveld", en opleidingen zoals de toneelacademie. Dat zijn
+  geen verzonnen verkoopclaims maar wat de mensen zelf over zichzelf zeggen.
+  Wel voor Youri om te bevestigen; opgenomen in hoofdstuk 8.
+
 ## 8. Nog open — heeft Youri nodig
 
 - Onderkop van de hero

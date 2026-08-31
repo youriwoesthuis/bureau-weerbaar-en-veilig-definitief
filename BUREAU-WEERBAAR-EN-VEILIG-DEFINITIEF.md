@@ -145,7 +145,7 @@ uit, en de volledige inhoud moet in de HTML staan.
 ### 2.4 Eerst het gezicht, dan de schaal
 
 Deze bouw is begonnen met het ontwerpsysteem en één pagina, en pas daarna
-uitgerold over 207 pagina's. Bij de volgende ronde graag hetzelfde: eerst
+uitgerold over ruim tweehonderd pagina's. Bij de volgende ronde graag hetzelfde: eerst
 één pagina laten zien, dan pas vermenigvuldigen.
 
 ## 3. Wat er is meegenomen uit de oude repo
@@ -153,8 +153,8 @@ uitgerold over 207 pagina's. Bij de volgende ronde graag hetzelfde: eerst
 De 207 contentbestanden. Die zijn goed en opnieuw schrijven zou pure
 verspilling zijn:
 
-- 132 trainingen (44 beroepsgroepen × 3 niveaus)
-- 44 beroepsgroepen met eigen introtekst
+- 129 trainingen (43 beroepsgroepen × 3 niveaus)
+- 43 beroepsgroepen met eigen introtekst
 - 19 sectoren met eigen introtekst
 - 12 teamleden
 

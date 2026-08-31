@@ -3,7 +3,7 @@
 De website van Bureau Weerbaar en Veilig — agressietraining per beroepsgroep
 en niveau. Statisch gegenereerd met Astro, zonder JavaScript op de site.
 
-**207 pagina's:** 132 trainingen, 44 beroepsgroepen, 19 sectoren, 3 niveaus,
+**216 pagina's:** 129 trainingen, 43 beroepsgroepen, 19 sectoren, 3 niveaus,
 en de vaste pagina's.
 
 ## Snel starten
@@ -35,8 +35,8 @@ Open daarna `http://localhost:4321/`.
 ```
 src/
   content/          de inhoud — 207 markdown-bestanden
-    trainingen/       132 trainingen
-    beroepsgroepen/   44 beroepsgroepen
+    trainingen/       129 trainingen
+    beroepsgroepen/   43 beroepsgroepen
     sectoren/         19 sectoren
     team/             12 teamleden
   components/       herbruikbare onderdelen
