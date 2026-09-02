@@ -42,7 +42,7 @@ veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Medewerkers klantcontact en woonconsulenten met basistraining die regelmatig complexe agressie-incidenten meemaken. Voorwaarde voor deelname: afgeronde basistraining of aantoonbare werkervaring met complexe agressiesituaties."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De focus. De basistraining behandelt het herkennen en de-escaleren van agressie in het moment. Dit gevorderde niveau richt zich op patronen die niet impulsief zijn: bewuste grensoverschrijding, manipulatie en consistent teamoptreden."
+    antwoord: "In de basis oefen je de huurder die kwaad wordt om een huurverhoging of een afgewezen woning en het huisbezoek waar de sfeer omslaat. Hier gaat het om huurders die stap voor stap de druk opvoeren om een besluit te keren, om uitzettings- en overlastdossiers waarin schulden, psychiatrie en overlast door elkaar lopen, en om contact dat via je privékanalen binnenkomt. Je maakt teamafspraken zodat een probleemhuurder overal hetzelfde antwoord krijgt en je op tijd opschaalt. Expert is voor teamleiders bij de corporatie, die het protocol voor huisbezoeken vaststellen."
 gerelateerd:
   - "agressietraining-woonconsulenten-klantcontact-basis"
   - "agressietraining-woonconsulenten-klantcontact-expert"

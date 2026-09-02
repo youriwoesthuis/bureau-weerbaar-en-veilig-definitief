@@ -89,7 +89,10 @@ const lijst = lijstSchema(siteUrl, 'De drie niveaus agressietraining',
         <p class="bovenkop">In één oogopslag</p>
         <h2>De drie niveaus vergeleken</h2>
       </div>
-      <div class="tabelrol">
+      {/* tabindex zodat de horizontale scroll ook met alleen een toetsenbord
+          te bedienen is (WCAG 2.1.1). Een scrollbaar vlak zonder focus is voor
+          wie geen muis gebruikt onbereikbaar. */}
+      <div class="tabelrol" tabindex="0" role="region" aria-label="De drie niveaus vergeleken">
         <table class="niveautabel">
           <caption class="alleen-voorlezer">De drie niveaus van de Weerbaarheidsladder vergeleken op doelgroep, kern, duur, groepsgrootte en trainingsacteur.</caption>
           <thead>
@@ -132,8 +135,17 @@ const lijst = lijstSchema(siteUrl, 'De drie niveaus agressietraining',
         <h2>Wat is het verschil precies?</h2>
       </div>
 
-      <div class="tabelomhulsel">
+      <div
+        class="tabelomhulsel"
+        tabindex="0"
+        role="region"
+        aria-label="Wat er per niveau verandert"
+      >
         <table class="vergelijk">
+          <caption class="alleen-voorlezer">
+            Wat er per niveau verandert aan de situaties, het doel van de dag en
+            wat een team erna kan.
+          </caption>
           <thead>
             <tr>
               <th scope="col">

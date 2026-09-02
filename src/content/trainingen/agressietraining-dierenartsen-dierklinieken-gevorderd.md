@@ -43,7 +43,7 @@ veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Dierenartsen en kliniekmedewerkers met basistraining die te maken hebben met ernstige of langdurige agressiesituaties. Voorwaarde voor deelname: afgeronde basistraining of aantoonbare werkervaring met complexe agressiesituaties."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "Het soort agressie. De basistraining behandelt het herkennen en de-escaleren van agressie in het moment. Dit gevorderde niveau richt zich op patronen die niet impulsief zijn: bewuste grensoverschrijding, manipulatie en consistent teamoptreden."
+    antwoord: "In de basis oefen je het slechtnieuwsgesprek en het gesprek over de kosten van een behandeling. Hier gaat het om conflicten die maanden doorlopen: klachten en negatieve reviews na het overlijden van een dier, klanten die niet betalen en tegelijk de druk opvoeren, en georganiseerde campagnes op sociale media. Je bekijkt ook wanneer juridische stappen of politiecontact passend zijn en hoe je zelf overeind blijft. Expert is voor praktijkhouders, die het beleid rond het beëindigen van de klantrelatie maken."
 gerelateerd:
   - "agressietraining-dierenartsen-dierklinieken-basis"
   - "agressietraining-dierenartsen-dierklinieken-expert"

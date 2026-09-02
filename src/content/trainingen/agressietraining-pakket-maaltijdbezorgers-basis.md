@@ -17,27 +17,27 @@ samenvatting: >-
   een levering veilig kan worden beëindigd. De training duurt 1 dag en
   telt maximaal 10 deelnemers.
 resultaat:
-  - Risicovolle situaties herkennen voordat er contact is
-  - De eigen reactie reguleren onder druk aan de deur
-  - Verbaal agressief gedrag professioneel begrenzen
-  - Bepalen wanneer een levering veilig kan worden beëindigd
-  - Omgaan met online bedreigingen na een incident
-  - Incidenten correct melden bij de werkgever
+  - "Een adres inschatten voordat je uitstapt"
+  - "Rustig blijven als een klant aan de deur tegen je uitvalt"
+  - "Verbaal een grens stellen aan de voordeur"
+  - "Bepalen wanneer je een levering laat zitten en wegrijdt"
+  - "Reageren als iemand je na een incident online beschuldigt"
+  - "Een incident melden bij je werkgever"
 programma:
   - titel: Inschatten vóór het aanbellen
-    inhoud: Risicovolle situaties herkennen voordat je uitstapt of aanbelt.
+    inhoud: Een adres of situatie inschatten voordat je uitstapt of aanbelt.
   - titel: Reguleren aan de deur
-    inhoud: Rustig blijven bij een klant die agressief reageert op een beschadigd of vertraagd pakket.
+    inhoud: Rustig blijven bij een klant die uitvalt over een beschadigd of vertraagd pakket.
   - titel: Begrenzen
-    inhoud: Verbale intimidatie aan de voordeur professioneel begrenzen.
+    inhoud: Verbaal een grens stellen bij intimidatie aan de voordeur.
   - titel: Levering afbreken
-    inhoud: Bepalen wanneer je een levering veilig beëindigt en vertrekt.
+    inhoud: Bepalen wanneer je een levering laat zitten en wegrijdt.
   - titel: Na het incident
-    inhoud: Omgaan met online beschuldigingen via het platform en incidenten melden bij de werkgever.
+    inhoud: "Reageren op beschuldigingen via het platform, en het incident melden bij je werkgever."
 werkvormen:
-  - realistische oefeningen met trainers die bezorgwerk kennen
-  - herkenbare bezorgscenario’s
-  - aandacht voor alleen werken zonder achterwacht
+  - oefenen met trainers die bezorgwerk kennen
+  - situaties die op de route werkelijk voorkomen
+  - "aandacht voor alleen werken, zonder collega in de buurt"
 veelgestelde_vragen:
   - vraag: "Mag een bezorger een levering afbreken?"
     antwoord: "Dat hangt af van de afspraken in de eigen organisatie. Bepalen wanneer een levering veilig kan worden beëindigd is wel een expliciet leerdoel in deze training. Hoe de eigen organisatie daarmee omgaat, is onderwerp van de experttraining voor leidinggevenden."

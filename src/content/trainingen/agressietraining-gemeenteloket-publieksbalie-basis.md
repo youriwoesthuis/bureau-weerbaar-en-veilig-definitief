@@ -18,26 +18,26 @@ samenvatting: >-
   deelnemers en gaat uit van de bijzondere positie van een medewerker die
   gebonden is aan regels die hij niet kan veranderen.
 resultaat:
-  - "Verschillende vormen van agressie herkennen: frustratie, instrumenteel gedrag en agressie uit kwetsbaarheid"
-  - De eigen reactie reguleren wanneer je een besluit moet verdedigen dat je zelf niet hebt genomen
-  - Begrenzen bij persoonlijke aantijgingen en dreiging met klachten of juridische stappen
-  - Professioneel handelen bij onvoorspelbare reacties van kwetsbare burgers
-  - "Omgaan met telefonische en digitale agressie, en incidenten correct melden"
+  - "Zien met wie je te maken hebt: iemand die vastloopt, iemand die je klemzet of iemand die het niet overziet"
+  - Rustig blijven terwijl je een besluit moet uitleggen dat je zelf niet hebt genomen
+  - Een grens stellen als iemand je persoonlijk aanvalt of dreigt met een klacht of een advocaat
+  - Weten wat je doet bij een burger die in de war of overstuur is
+  - Reageren op agressie aan de telefoon en per e-mail, en het incident daarna melden
 programma:
   - titel: Drie soorten agressie aan het loket
-    inhoud: "Frustratie, instrumenteel gedrag en agressie uit kwetsbaarheid onderscheiden, en waarom dat je reactie bepaalt."
+    inhoud: "Zien of iemand vastloopt, je klemzet of het niet overziet, en waarom dat je reactie bepaalt."
   - titel: Gebonden aan de regel
-    inhoud: De eigen reactie reguleren wanneer je een besluit moet verdedigen dat je zelf niet hebt genomen.
+    inhoud: Rustig blijven terwijl je een besluit moet uitleggen dat je zelf niet hebt genomen.
   - titel: "Begrenzen en de-escaleren"
-    inhoud: Verbaal agressief gedrag begrenzen bij persoonlijke aantijgingen en dreiging met klachten of juridische stappen.
+    inhoud: Een grens stellen als iemand je persoonlijk aanvalt of dreigt met een klacht of een advocaat.
   - titel: Kwetsbare burgers
-    inhoud: Professioneel handelen bij onvoorspelbare reacties van kwetsbare burgers.
+    inhoud: Weten wat je doet bij een burger die in de war of overstuur is.
   - titel: "Telefoon, e-mail en melden"
-    inhoud: "Omgaan met telefonische en digitale agressie, en incidenten correct melden."
+    inhoud: "Reageren op agressie aan de telefoon en per e-mail, en het incident daarna melden."
 werkvormen:
-  - realistische scenario’s met trainers uit de publieke dienstverlening
+  - een trainingsacteur die de publieke dienstverlening kent
   - casuïstiek van de eigen organisatie
-  - praktijkgericht oefenen zonder naïeve rollenspellen
+  - oefenen met situaties die aan jullie balie echt voorkomen
 veelgestelde_vragen:
   - vraag: "Hoe blijf je professioneel als je het besluit zelf niet kunt veranderen?"
     antwoord: "Dat is precies het uitgangspunt van deze training: standhouden bij een besluit dat je niet hebt genomen, zonder de burger het gevoel te geven dat hij niet gehoord wordt."

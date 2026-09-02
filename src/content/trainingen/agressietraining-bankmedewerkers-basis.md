@@ -17,27 +17,27 @@ samenvatting: >-
   voor telefonische agressie. De training duurt 1 dag en telt maximaal 10
   deelnemers.
 resultaat:
-  - Financiële stress herkennen bij klanten die vastlopen op geld
-  - De eigen reactie reguleren aan de telefoon bij dreiging en intimidatie
-  - Gedrag professioneel begrenzen bij een geweigerde lening of een geblokkeerde rekening
-  - Escalerende gesprekken over betalingsachterstanden hanteren
-  - De protocollen van de organisatie toepassen na een incident aan de balie
-  - Incidenten correct melden
+  - Zien wanneer een klant vastloopt op geld en daar boos van wordt
+  - Rustig blijven aan de telefoon terwijl iemand dreigt of je uitscheldt
+  - Een grens stellen als een lening geweigerd is of een rekening geblokkeerd
+  - Een gesprek over een betalingsachterstand voeren dat oploopt
+  - Doen wat het protocol zegt na een incident aan de balie
+  - Een incident melden, ook als er niets kapot is gegaan
 programma:
   - titel: Financiële stress aan de balie
-    inhoud: Herkennen wat er speelt bij klanten die vastlopen op geld.
+    inhoud: Zien wat er speelt bij een klant die vastloopt op geld.
   - titel: Telefonische agressie
-    inhoud: Rustig en professioneel blijven aan de telefoon bij dreiging en intimidatie.
+    inhoud: Rustig blijven aan de telefoon terwijl iemand dreigt of je uitscheldt.
   - titel: "Begrenzen en de-escaleren"
-    inhoud: Professioneel begrenzen bij een geweigerde lening of geblokkeerde rekening.
+    inhoud: Een grens stellen als een lening geweigerd is of een rekening geblokkeerd.
   - titel: Gesprekken over schulden
-    inhoud: Handelen bij escalerende gesprekken over betalingsachterstanden.
+    inhoud: Een gesprek over een betalingsachterstand voeren dat oploopt.
   - titel: Protocol en melden
-    inhoud: De protocollen van de organisatie toepassen en incidenten correct melden.
+    inhoud: Doen wat het protocol zegt en het incident daarna melden.
 werkvormen:
-  - realistische oefeningen met trainers uit de financiële dienstverlening
-  - herkenbare scenario’s uit de eigen vestiging
-  - expliciete focus op telefonische agressie
+  - een trainingsacteur die de financiële dienstverlening kent
+  - situaties uit de eigen vestiging
+  - apart oefenen met agressie aan de telefoon
 veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: Medewerkers in de financiële dienstverlening met direct klantcontact aan de balie of aan de telefoon. Er is geen voorkennis nodig; dit is het instapniveau.

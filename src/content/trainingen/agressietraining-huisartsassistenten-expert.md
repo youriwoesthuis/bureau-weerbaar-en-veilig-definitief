@@ -18,25 +18,25 @@ samenvatting: >-
   meldcultuur versterken. De training duurt 1 dag, telt maximaal 8 deelnemers
   en vraagt een leidinggevende of coördinerende functie.
 resultaat:
-  - Agressiepatronen op organisatieniveau analyseren
-  - Het agressieprotocol toetsen en aanscherpen
-  - Collega's structureel coachen na incidenten
-  - Een escalatiestructuur opzetten en borgen
-  - Juridische verantwoordelijkheid begrijpen en communiceren
-  - De meldcultuur in de praktijk versterken
+  - Uit de meldingen halen welk gedrag terugkomt en waar het steeds misgaat
+  - Nagaan of het agressieprotocol klopt met wat er aan de balie gebeurt
+  - Een incident naderhand met de betrokkene doornemen, elke keer en niet alleen bij de zware
+  - Vastleggen wie je erbij haalt als het misgaat, en zorgen dat het blijft staan
+  - Weten waar de werkgever voor aan de lat staat, en dat aan de praktijk uitleggen
+  - Zorgen dat incidenten gemeld worden, ook de kleine die niemand opschrijft
 programma:
   - titel: Patronen op organisatieniveau
-    inhoud: Meldingen, incidentgegevens en praktijkcultuur analyseren om patronen zichtbaar te maken.
-  - titel: Protocol en escalatiestructuur
-    inhoud: Het agressieprotocol toetsen, aanscherpen en vertalen naar een escalatiestructuur die geborgd is.
+    inhoud: Uit de meldingen en uit wat het team vertelt halen welk gedrag terugkomt.
+  - titel: Protocol en wie je erbij haalt
+    inhoud: Het agressieprotocol aanscherpen en vastleggen wie je erbij haalt als het misgaat.
   - titel: Coachen en nazorg
-    inhoud: Collega's structureel begeleiden na incidenten en nazorg organiseren die niet afhangt van wie er die dag staat.
-  - titel: Juridische verantwoordelijkheid en meldcultuur
-    inhoud: Verantwoordelijkheden begrijpen en communiceren, en de meldcultuur versterken zodat incidenten leermateriaal worden.
+    inhoud: Elk incident naderhand met de betrokkene doornemen, en de opvang zo regelen dat die niet afhangt van wie er die dag staat.
+  - titel: Waar de werkgever voor aan de lat staat
+    inhoud: Uitleggen waar de werkgever voor aan de lat staat, en zorgen dat ook de kleine incidenten worden gemeld.
 werkvormen:
-  - casuïstiekbespreking
-  - beleidsanalyse op basis van eigen praktijkgegevens
-  - reflectie op leiderschap
+  - casuïstiek uit de eigen praktijk doornemen
+  - het beleid naast de eigen cijfers leggen
+  - stilstaan bij hoe je zelf leidinggeeft
 veelgestelde_vragen:
   - vraag: Voor wie is de expert agressietraining voor huisartsassistenten bedoeld?
     antwoord: Voor praktijkmanagers en senior huisartsassistenten in een leidinggevende of coördinerende rol die het agressiebeleid versterken en collega's coachen.

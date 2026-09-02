@@ -17,30 +17,30 @@ samenvatting: >-
   gedragspatronen op schoolniveau analyseren, het gedragsprotocol
   aanscherpen en de meldcultuur versterken. De training duurt 1 dag en telt maximaal 8 deelnemers.
 resultaat:
-  - Gedragspatronen op schoolniveau analyseren en bespreekbaar maken
-  - Het gedragsprotocol toetsen op bruikbaarheid en aanscherpen
-  - Collega’s structureel coachen na ernstige incidenten
-  - Een heldere escalatiestructuur opzetten en borgen
-  - Juridische en organisatorische verantwoordelijkheid begrijpen en communiceren
-  - De meldcultuur op school versterken
+  - "Zien welk gedrag op school terugkeert, en dat bespreekbaar maken"
+  - "Nagaan of het gedragsprotocol werkt in een volle klas, en het aanpassen"
+  - "Een collega na een ernstig incident naderhand spreken, elke keer"
+  - "Vastleggen wie je erbij haalt als het misgaat, en zorgen dat het blijft staan"
+  - "Weten waar de school aansprakelijk voor is, en dat uitleggen aan het team"
+  - "Zorgen dat incidenten gemeld worden, ook de kleine die niemand opschrijft"
 programma:
   - titel: Patronen op schoolniveau
-    inhoud: Meldingsdata en cultuur analyseren om gedragspatronen zichtbaar en bespreekbaar te maken.
+    inhoud: De meldingen en de gang van zaken doornemen om te zien welk gedrag terugkeert.
   - titel: Protocol toetsen op de klassenpraktijk
-    inhoud: "Werkt het gedragsprotocol ook op een dinsdagmiddag in een volle klas? Toetsen en aanscherpen."
-  - titel: Collega’s coachen
-    inhoud: Leraren structureel begeleiden na ernstige incidenten.
+    inhoud: "Nagaan of het gedragsprotocol ook werkt op een dinsdagmiddag in een volle klas, en het aanpassen."
+  - titel: Collega’s na een incident
+    inhoud: Een vast moment inrichten om een ernstig incident met de betrokken leraar door te nemen.
   - titel: Escalatie en verantwoordelijkheid
-    inhoud: Een escalatiestructuur opzetten en de juridische en organisatorische verantwoordelijkheid helder communiceren.
+    inhoud: "Vastleggen wie je erbij haalt als het misgaat, en waar de school aansprakelijk voor is."
 werkvormen:
-  - "analyse van bestaand beleid, meldingsdata en schoolcultuur"
-  - casuïstiekbespreking
-  - concrete beleidsverbetering op schoolniveau
+  - het bestaande beleid en de meldingen doornemen
+  - eigen casuïstiek bespreken
+  - concrete verbeteringen in het schoolbeleid
 veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Teamleiders, afdelingsleiders, zorgcoördinatoren en senior leraren die collega’s begeleiden bij gedragsincidenten. Voorwaarde voor deelname: leidinggevende of coördinerende functie met aantoonbare werkervaring met gedragsincidenten."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basis- en gevorderde training gaan over het eigen handelen. Dit expertniveau gaat over de organisatie: beleid, escalatiestructuur, nazorg, meldcultuur en het coachen van medewerkers."
+    antwoord: "Basis en gevorderd gaan over jouw lesuur en jouw klas. Op dit niveau analyseer je de meldingen en de cultuur op schoolniveau, en toets je of het gedragsprotocol ook werkt op een dinsdagmiddag in een volle klas. Je begeleidt collega's na ernstige incidenten en zet een escalatiestructuur op waarin duidelijk is wie waarvoor verantwoordelijk is, ook juridisch."
 gerelateerd:
   - "agressietraining-leraren-voortgezet-onderwijs-basis"
   - "agressietraining-leraren-voortgezet-onderwijs-gevorderd"

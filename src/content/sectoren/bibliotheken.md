@@ -12,7 +12,7 @@ veelgestelde_vragen:
   - vraag: "Blijft de bibliotheek een open huis als we strenger worden?"
     antwoord: "Ja. Openheid en een duidelijke grens sluiten elkaar niet uit, maar het werkt alleen als het hele team dezelfde lijn hanteert. Precies daar zijn de trainingen op gericht."
   - vraag: "Worden ook vestigingsmanagers getraind?"
-    antwoord: "Ja. Er is een expertniveau voor leidinggevenden, gericht op de norm van de vestiging, de meldcultuur en de opvang na een incident."
+    antwoord: "Ja. Er is een expertniveau voor leidinggevenden, gericht op de norm van de vestiging, het melden van incidenten en de opvang erna."
 ---
 
 De bibliotheek is een van de laatste plekken waar je zonder kaartje, zonder aankoop en zonder uitleg naar binnen kunt lopen. Die openheid is de kern van de instelling, en tegelijk de reden dat medewerkers te maken krijgen met gedrag waarvoor zij niet zijn opgeleid.

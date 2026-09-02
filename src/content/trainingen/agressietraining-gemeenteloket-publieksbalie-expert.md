@@ -18,32 +18,32 @@ samenvatting: >-
   rond toegangsweigering opzetten en de meldcultuur versterken. De
   training duurt 1 dag en telt maximaal 8 deelnemers.
 resultaat:
-  - Agressiepatronen op afdelingsniveau analyseren en bespreken
-  - Het agressieprotocol toetsen en aanscherpen
-  - Medewerkers structureel coachen na incidenten
-  - Helder escalatiebeleid en beleid rond toegangsweigering opzetten
-  - Juridische verantwoordelijkheid begrijpen en communiceren
-  - De meldcultuur binnen de organisatie versterken
+  - Uit de meldingen van de afdeling halen welk gedrag terugkomt, en dat bespreekbaar maken
+  - Nagaan of het agressieprotocol klopt met wat er aan de balie gebeurt
+  - Een incident naderhand met de betrokkene doornemen, elke keer en niet alleen bij de zware
+  - Vastleggen wie je erbij haalt als het misgaat en wanneer je iemand de toegang weigert
+  - Weten waar de werkgever voor aan de lat staat, en dat aan het team uitleggen
+  - Zorgen dat incidenten gemeld worden, ook de kleine die niemand opschrijft
 programma:
   - titel: Patronen op afdelingsniveau
-    inhoud: Meldingsdata en cultuur analyseren om patronen zichtbaar te maken.
+    inhoud: Uit de meldingen en uit wat het team vertelt halen welk gedrag terugkomt.
   - titel: Protocol en toegangsweigering
-    inhoud: Het agressieprotocol aanscherpen en helder beleid opzetten rond escalatie en toegangsweigering.
+    inhoud: Het agressieprotocol aanscherpen en vastleggen wie je erbij haalt en wanneer je iemand weigert.
   - titel: Coachen na incidenten
-    inhoud: Structurele begeleiding van medewerkers na incidenten inrichten.
+    inhoud: Elk incident naderhand met de betrokkene doornemen, niet alleen het zware.
   - titel: Juridische kaders
-    inhoud: De juridische verantwoordelijkheid van de organisatie begrijpen en naar het team communiceren.
+    inhoud: Weten waar de werkgever voor aan de lat staat, en dat aan het team uitleggen.
   - titel: Intervisie na afloop (op verzoek)
-    inhoud: Op verzoek een terugkombijeenkomst over de implementatie binnen de eigen organisatie.
+    inhoud: Op verzoek terugkomen op wat er van het beleid terecht is gekomen.
 werkvormen:
-  - "analyse van beleid, meldingsdata en cultuur"
-  - casuïstiekbespreking
+  - "het beleid, de meldingen en de werksfeer naast elkaar leggen"
+  - casuïstiek uit de eigen afdeling doornemen
   - intervisie na afloop (op verzoek)
 veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Teamleiders, afdelingshoofden, veiligheidscoördinatoren en senior medewerkers bij gemeenten en publieke organisaties die het agressiebeleid willen versterken. Voorwaarde voor deelname: leidinggevende of coördinerende functie met aantoonbare werkervaring met agressie in de publieke dienstverlening."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basis- en gevorderde training gaan over het eigen handelen. Dit expertniveau gaat over de organisatie: beleid, escalatiestructuur, nazorg, meldcultuur en het coachen van medewerkers."
+    antwoord: "Bij basis en gevorderd zit jij zelf achter het loket. Op dit niveau analyseer je de meldingen en de cultuur op je afdeling, scherp je het agressieprotocol aan en zet je helder beleid neer rond escalatie en toegangsweigering. Je richt de begeleiding van medewerkers na incidenten in en vertaalt de juridische verantwoordelijkheid van de organisatie naar iets dat je aan het team kunt uitleggen."
 gerelateerd:
   - "agressietraining-gemeenteloket-publieksbalie-basis"
   - "agressietraining-gemeenteloket-publieksbalie-gevorderd"

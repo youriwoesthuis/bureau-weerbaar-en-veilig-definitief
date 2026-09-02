@@ -9,7 +9,7 @@ groepsgrootte: maximaal 10 deelnemers
 locatie: incompany
 locatie_detail: bij jullie op locatie, in heel Nederland
 certificaat: deelnamecertificaat na afloop
-voorwaarde: afgeronde basistraining
+voorwaarde: "afgeronde basistraining of aantoonbare werkervaring met agressie-incidenten"
 doelgroep: "Beveiligers met basistraining die regelmatig bij grootschalige of hoogrisico-evenementen worden ingezet."
 samenvatting: >-
   De gevorderde agressietraining voor evenementenbeveiligers van Bureau
@@ -17,32 +17,32 @@ samenvatting: >-
   gecoördineerd optreden bij meerpersoonsincidenten. De training duurt 1
   dag, telt maximaal 10 deelnemers en vraagt een afgeronde basistraining.
 resultaat:
-  - Groepsdynamieken herkennen voordat escalatie optreedt
-  - Gecoördineerd handelen met collega’s bij meerpersoonsincidenten
-  - "Crowd control-principes toepassen"
-  - Professioneel reageren wanneer er gefilmd wordt
-  - Omstanders neutraliseren zonder de focus te verliezen
-  - Bepalen wanneer wordt opgeschaald naar de politie
+  - Zien dat een groep gaat kantelen voordat het losbarst
+  - Met collega’s samen optreden als er meerdere mensen bij betrokken zijn
+  - Een menigte sturen zonder dat er gedrang ontstaat
+  - Kalm blijven als iemand je uitlokt en het filmt
+  - Omstanders op afstand houden zonder je aandacht te verliezen
+  - Beslissen wanneer je de politie erbij haalt
 programma:
   - titel: Groepsdynamiek lezen
-    inhoud: "Herkennen wanneer een groep gaat kantelen, vóórdat het escaleert."
+    inhoud: "Zien dat een groep gaat kantelen, voordat het losbarst."
   - titel: Gecoördineerd optreden
-    inhoud: Samenwerken met collega’s bij incidenten met meerdere personen.
+    inhoud: Met collega’s samen optreden bij een incident met meerdere mensen.
   - titel: Crowd control
-    inhoud: Principes van crowd control toepassen bij massadrang en ongecontroleerde publieksstromen.
+    inhoud: Een menigte sturen als het gaat dringen en de stroom bezoekers niet meer klopt.
   - titel: Provocateurs en camera
-    inhoud: Professioneel reageren op provocateurs die opnames gebruiken.
+    inhoud: Kalm blijven bij iemand die je uitlokt en de camera erbij haalt.
   - titel: Opschalen
-    inhoud: "Bepalen wanneer je opschaalt naar de politie, en proportioneel blijven."
+    inhoud: "Beslissen wanneer je de politie erbij haalt, en niet harder optreden dan nodig."
 werkvormen:
   - casuïstiek van de eigen organisatie
   - scenario’s die de grenzen opzoeken
-  - feedback op teamoptreden en proportionaliteit
+  - feedback op het optreden van het team en op wat nodig was
 veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Beveiligers met basistraining die regelmatig bij grootschalige of hoogrisico-evenementen worden ingezet. Voorwaarde voor deelname: afgeronde basistraining."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "Het soort agressie. De basistraining behandelt het herkennen en de-escaleren van agressie in het moment. Dit gevorderde niveau richt zich op patronen die niet impulsief zijn: bewuste grensoverschrijding, manipulatie en consistent teamoptreden."
+    antwoord: "In de basis oefen je de dronken bezoeker die weigert te vertrekken en het conflict dat fysiek dreigt te worden. Hier gaat het om de groep: herkennen wanneer een menigte kantelt, gecoördineerd optreden met je collega's bij een incident met meerdere personen, en crowd control bij massadrang. Je oefent ook het optreden tegen provocateurs die de camera erbij halen en het moment waarop je opschaalt naar de politie. Expert is voor hoofden beveiliging, die de risicoanalyse per evenement omzetten in maatregelen."
 gerelateerd:
   - "agressietraining-evenementenbeveiligers-basis"
   - "agressietraining-evenementenbeveiligers-expert"

@@ -9,7 +9,7 @@ groepsgrootte: maximaal 10 deelnemers
 locatie: incompany
 locatie_detail: bij jullie op locatie, in heel Nederland
 certificaat: deelnamecertificaat na afloop
-voorwaarde: afgeronde basistraining
+voorwaarde: "afgeronde basistraining of aantoonbare werkervaring met agressie-incidenten"
 doelgroep: "Bibliotheekmedewerkers met een balie- en publieksfunctie die de basistraining hebben afgerond."
 samenvatting: >-
   De gevorderde agressietraining voor bibliotheekmedewerkers van Bureau
@@ -42,7 +42,7 @@ veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Bibliotheekmedewerkers met een balie- en publieksfunctie die de basistraining hebben afgerond. Voorwaarde voor deelname: afgeronde basistraining."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basistraining behandelt het herkennen en de-escaleren van agressie in het moment. Dit gevorderde niveau richt zich op patronen die niet impulsief zijn: bewuste grensoverschrijding, manipulatie en consistent teamoptreden."
+    antwoord: "In de basis oefen je de boze reactie op een boete en het aanspreken van jongeren in de publieksruimte. Hier gaat het om de vaste bezoeker die precies weet hoe ver hij kan gaan en niet op correctie reageert, om psychiatrische ontregeling waarbij je gebruikelijke aanpak niet aankomt, en om het moment dat iemand weigert te vertrekken. Je oefent hoe je optreedt zonder dat de rust in de zaal verdwijnt. Expert is voor vestigingsmanagers, die vastleggen wat er in een ruimte zonder toegangsdrempel wel en niet kan."
 gerelateerd:
   - "agressietraining-bibliotheekmedewerkers-basis"
   - "agressietraining-bibliotheekmedewerkers-expert"

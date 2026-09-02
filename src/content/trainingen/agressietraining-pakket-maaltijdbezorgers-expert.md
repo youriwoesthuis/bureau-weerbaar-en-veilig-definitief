@@ -17,26 +17,26 @@ samenvatting: >-
   opstellen en de spanning tussen beoordelingssystemen en veiligheid
   aanpakken. De training duurt 1 dag en telt maximaal 8 deelnemers.
 resultaat:
-  - Veiligheidsprotocollen voor bezorgers opstellen
-  - De spanning tussen beoordelingssystemen en veiligheid adresseren
-  - Risicoanalyses uitvoeren op adressen en gebieden
-  - Bezorgers coachen na incidenten
-  - Een meldcultuur zonder angst creëren
-  - Juridische informatie voor bezorgers organiseren
+  - "Afspraken maken die bruikbaar zijn voor iemand die alleen op pad is"
+  - "Aanpakken dat een lage beoordeling bezorgers laat doorrijden waar dat niet veilig is"
+  - "Bijhouden welke adressen, gebieden en tijdstippen problemen geven"
+  - "Een incident naderhand doornemen met de bezorger, elke keer"
+  - "Zorgen dat een bezorger kan melden zonder bang te zijn voor de gevolgen"
+  - "Bezorgers vertellen waar ze juridisch staan na een incident"
 programma:
   - titel: Veiligheidsprotocol
-    inhoud: Een protocol opstellen dat bruikbaar is voor bezorgers die alleen op pad zijn.
-  - titel: Beoordelingen versus veiligheid
-    inhoud: De spanning aanpakken waarin platformbeoordelingen tegen veilig handelen werken.
-  - titel: Risicoanalyse
-    inhoud: "Adressen, gebieden en tijdstippen in kaart brengen."
+    inhoud: Afspraken maken die bruikbaar zijn voor iemand die alleen op pad is.
+  - titel: Beoordelingen tegenover veiligheid
+    inhoud: Aanpakken dat een lage beoordeling bezorgers laat doorrijden waar dat niet veilig is.
+  - titel: Risico in kaart
+    inhoud: "Bijhouden welke adressen, gebieden en tijdstippen problemen geven."
   - titel: Melden zonder angst
-    inhoud: Een meldcultuur bouwen waarin een incident melden geen risico is voor de bezorger.
+    inhoud: "Zorgen dat een bezorger een incident kan melden zonder dat het hem werk kost."
   - titel: Intervisie na afloop (op verzoek)
-    inhoud: Terugkombijeenkomst over de implementatie.
+    inhoud: "Terugkombijeenkomst over wat er van de afspraken terechtkwam."
 werkvormen:
-  - organisatiebrede beleidsanalyse met focus op platformdynamiek
-  - concrete protocollen voor de bezorgsector
+  - "het beleid doornemen, met aandacht voor hoe het platform werkt"
+  - protocollen uitwerken voor het bezorgwerk
   - intervisie na afloop (op verzoek)
 veelgestelde_vragen:
   - vraag: "Waarom is het beoordelingssysteem onderwerp van de training?"
@@ -44,7 +44,7 @@ veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Leidinggevenden, planners en operationeel managers bij bezorgdiensten met ervaring met agressie-incidenten. Voorwaarde voor deelname: leidinggevende functie bij een bezorgdienst."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basis- en gevorderde training gaan over het eigen handelen. Dit expertniveau gaat over de organisatie: beleid, escalatiestructuur, nazorg, meldcultuur en het coachen van medewerkers."
+    antwoord: "Basis en gevorderd gaan over wat jij aan de deur doet. Op dit niveau maak je een veiligheidsprotocol dat bruikbaar is voor iemand die alleen op pad is, en breng je adressen, gebieden en tijdstippen in kaart. Je pakt aan wat er gebeurt als platformbeoordelingen tegen veilig handelen in werken, en bouwt een meldcultuur waarin een incident melden een bezorger geen ritten of inkomen kost."
 gerelateerd:
   - "agressietraining-pakket-maaltijdbezorgers-basis"
   - "agressietraining-pakket-maaltijdbezorgers-gevorderd"

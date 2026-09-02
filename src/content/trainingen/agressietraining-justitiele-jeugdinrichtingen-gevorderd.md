@@ -9,7 +9,7 @@ groepsgrootte: maximaal 10 deelnemers
 locatie: incompany
 locatie_detail: bij jullie op locatie, in heel Nederland
 certificaat: deelnamecertificaat na afloop
-voorwaarde: afgeronde basistraining
+voorwaarde: "afgeronde basistraining of aantoonbare werkervaring met agressie-incidenten"
 doelgroep: Medewerkers met een afgeronde basistraining die werken in de gesloten justitiële jeugdzorg met ernstige agressieproblematiek.
 samenvatting: >-
   De gevorderde agressietraining voor justitiële jeugdinrichtingen van
@@ -17,7 +17,7 @@ samenvatting: >-
   informele leiders en collectieve weigeringen. De training duurt 1 dag,
   telt maximaal 10 deelnemers en vraagt een afgeronde basistraining.
 resultaat:
-  - Strategische agressiepatronen onderscheiden van impulsieve patronen
+  - Instrumentele agressiepatronen onderscheiden van impulsieve patronen
   - Groepsdynamieken en informele leiders identificeren
   - Veilig ingrijpen bij fysiek geweld
   - Omgaan met psychiatrische complexiteit
@@ -42,7 +42,7 @@ veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Medewerkers met een afgeronde basistraining die werken in de gesloten justitiële jeugdzorg met ernstige agressieproblematiek. Voorwaarde voor deelname: afgeronde basistraining."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basistraining behandelt het herkennen en de-escaleren van agressie in het moment. Dit gevorderde niveau richt zich op patronen die niet impulsief zijn: bewuste grensoverschrijding, manipulatie en consistent teamoptreden."
+    antwoord: "In de basis oefen je de boze reactie op een verlofbeslissing en het statusgedrag van een jongere die je uitdaagt. Hier gaat het om jongeren die bewust escaleren om een overplaatsing te forceren, om de informele leider die het gezag van het team ondergraaft, en om collectieve weigering op de groep. Je oefent ook veilig ingrijpen bij ernstig geweld in een gesloten ruimte en handelen bij uitbarstingen met een psychiatrische achtergrond. Expert is voor afdelingshoofden en coördinerend groepsleiders, die het teambeleid rond risicojongeren vastleggen."
 gerelateerd:
   - "agressietraining-justitiele-jeugdinrichtingen-basis"
   - "agressietraining-justitiele-jeugdinrichtingen-expert"

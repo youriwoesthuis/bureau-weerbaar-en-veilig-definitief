@@ -17,31 +17,31 @@ samenvatting: >-
   in maatregelen, incidentregistratie inrichten als sturingsinstrument en
   debriefing leiden. De training duurt 1 dag en telt maximaal 8 deelnemers.
 resultaat:
-  - Een risicoanalyse uitvoeren en vertalen naar maatregelen
-  - Het portiersteam aansturen via gedragsprotocollen
-  - Gestructureerde debriefing na incidenten leiden
-  - Incidentregistratie inrichten als sturingsinstrument
-  - De juridische positie van de locatie begrijpen
+  - Uitzoeken waar het op deze locatie misgaat, en daar maatregelen aan hangen
+  - Het portiersteam aansturen met afspraken waar iedereen zich aan houdt
+  - Een incident naderhand met het team doornemen, langs een vaste lijn
+  - De registratie zo inrichten dat je ziet wat er terugkomt
+  - Weten welk risico de locatie loopt met haar vergunning
 programma:
   - titel: Risicoanalyse van de locatie
-    inhoud: De locatie analyseren en de uitkomsten omzetten in concrete maatregelen.
+    inhoud: Uitzoeken waar het op deze locatie misgaat, en daar concrete maatregelen aan hangen.
   - titel: Gedragsprotocollen
-    inhoud: Het portiersteam aansturen met protocollen die consistent optreden mogelijk maken.
-  - titel: Debriefing
-    inhoud: Gestructureerde debriefing na ernstige incidenten leiden.
+    inhoud: Het portiersteam aansturen met afspraken waar iedereen zich aan houdt.
+  - titel: De nabespreking
+    inhoud: Een zwaar incident langs een vaste lijn nabespreken met het team.
   - titel: Registratie als sturingsinstrument
-    inhoud: Incidentregistratie zo inrichten dat patronen zichtbaar worden.
+    inhoud: De registratie zo inrichten dat je ziet welk gedrag en welke avonden terugkomen.
   - titel: Juridische positie en vergunning
-    inhoud: "De juridische positie van de locatie begrijpen, inclusief vergunningsrisico’s."
+    inhoud: "Weten waar de locatie juridisch staat, en welk risico zij loopt met haar vergunning."
 werkvormen:
-  - "analyse van bestaand beleid, incidentregistraties en teamcultuur"
-  - juridische verdieping met operationele verbetering
-  - begeleiding bij protocolverandering
+  - "het beleid, de registraties en de werksfeer in het team naast elkaar leggen"
+  - de juridische kant en het werk aan de deur uitdiepen
+  - begeleiding bij het invoeren van nieuwe afspraken
 veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Hoofden beveiliging, horecaondernemers en leidinggevende portiers die het veiligheidsbeleid van hun locatie willen versterken. Voorwaarde voor deelname: leidinggevende verantwoordelijkheid voor een portiersteam of voor de veiligheid van een locatie."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basis- en gevorderde training gaan over het eigen handelen. Dit expertniveau gaat over de organisatie: beleid, escalatiestructuur, nazorg, meldcultuur en het coachen van medewerkers."
+    antwoord: "Bij basis en gevorderd sta jij zelf aan de deur. Op dit niveau analyseer je de locatie en zet je die analyse om in concrete maatregelen, en stuur je het portiersteam aan met protocollen die consistent optreden mogelijk maken. Je leidt de debriefing na ernstige incidenten en richt de incidentregistratie zo in dat patronen zichtbaar worden. Ook de juridische positie van de locatie hoort hier, inclusief wat er met de vergunning op het spel staat."
 gerelateerd:
   - "agressietraining-horecaportiers-uitsmijters-basis"
   - "agressietraining-horecaportiers-uitsmijters-gevorderd"

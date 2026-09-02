@@ -9,7 +9,7 @@ groepsgrootte: maximaal 10 deelnemers
 locatie: incompany
 locatie_detail: bij jullie op locatie, in heel Nederland
 certificaat: deelnamecertificaat na afloop
-voorwaarde: afgeronde basistraining
+voorwaarde: "afgeronde basistraining of aantoonbare werkervaring met agressie-incidenten"
 doelgroep: "Medewerkers met basistraining die regelmatig ernstige agressie-incidenten bij huisbezoeken meemaken."
 samenvatting: >-
   De gevorderde agressietraining voor energie- en nutsbedrijven van Bureau
@@ -18,31 +18,31 @@ samenvatting: >-
   opwachten of volgen. De training duurt 1 dag, telt maximaal 10
   deelnemers en vraagt een afgeronde basistraining.
 resultaat:
-  - Veiligheidstaxatie toepassen vóór binnenkomst
-  - Beslissen wanneer een huisbezoek moet worden afgebroken
-  - Professioneel handelen bij ernstige agressie in een woning
-  - Omgaan met groepsdruk van omstanders
-  - Veilig navigeren in risicovolle wijken
+  - Voor elk risicoadres dezelfde check doen voordat je naar binnen gaat
+  - Beslissen wanneer je een huisbezoek afbreekt en weggaat
+  - Weten wat je doet als het binnen in een woning echt misgaat
+  - Blijven staan als omstanders zich ermee gaan bemoeien
+  - Veilig rondkomen in wijken waar je liever niet alleen loopt
 programma:
   - titel: Systematische veiligheidstaxatie
-    inhoud: "Een vaste taxatie vóór elk risicovol adres, in plaats van inschatten op gevoel."
+    inhoud: "Voor elk risicoadres dezelfde check doen, in plaats van het op gevoel in te schatten."
   - titel: Afbreken
-    inhoud: "Beslissen wanneer een bezoek wordt afgebroken: bijvoorbeeld bij een geblokkeerde toegang met fysieke dreiging."
+    inhoud: "Beslissen wanneer je weggaat, bijvoorbeeld als iemand de deur blokkeert en dreigend wordt."
   - titel: Ernstige agressie binnen
-    inhoud: Professioneel handelen bij ernstige agressie in de woning.
+    inhoud: Weten wat je doet als het binnen in een woning echt misgaat.
   - titel: Meervoudige problematiek
-    inhoud: "Werken bij klanten waar schulden, verslaving en psychiatrie samenkomen."
+    inhoud: "Werken bij klanten waar schulden, verslaving en psychiatrie door elkaar lopen."
   - titel: Na het bezoek
-    inhoud: "Handelen wanneer klanten je opwachten of volgen, en veilig door risicovolle wijken navigeren."
+    inhoud: "Weten wat je doet als een klant je opwacht of volgt, en veilig rondkomen in de wijk."
 werkvormen:
   - casuïstiek van de eigen routes en risicoadressen
-  - oefening van ingebrachte situaties
-  - aandacht voor de emotionele belasting van werken bij klanten in wanhoop
+  - oefenen met situaties die deelnemers zelf inbrengen
+  - aandacht voor wat werken bij mensen in wanhoop met je doet
 veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Medewerkers met basistraining die regelmatig ernstige agressie-incidenten bij huisbezoeken meemaken. Voorwaarde voor deelname: afgeronde basistraining."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "Het soort agressie. De basistraining behandelt het herkennen en de-escaleren van agressie in het moment. Dit gevorderde niveau richt zich op patronen die niet impulsief zijn: bewuste grensoverschrijding, manipulatie en consistent teamoptreden."
+    antwoord: "In de basis oefen je de klant die kwaad wordt om een afsluiting en de bewoner die je bij een verplichte inspectie niet binnenlaat. Hier werk je met een vaste veiligheidstaxatie vooraf in plaats van inschatten op gevoel, en oefen je het moment waarop je een bezoek afbreekt omdat de toegang geblokkeerd wordt en er fysiek gedreigd wordt. Ook komt aan bod wat je doet als schulden, verslaving en psychiatrie samenkomen achter dezelfde voordeur, of als een klant je na afloop opwacht. Expert is voor planners en teamleiders, die de afbreekcriteria en de risicoadressen vastleggen."
 gerelateerd:
   - "agressietraining-energie-nutsbedrijven-basis"
   - "agressietraining-energie-nutsbedrijven-expert"

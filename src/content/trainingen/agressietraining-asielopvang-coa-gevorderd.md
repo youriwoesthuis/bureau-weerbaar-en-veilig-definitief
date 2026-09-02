@@ -43,7 +43,7 @@ veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Medewerkers op asielzoekerscentra met basistraining die werken met complexe bewonerspopulaties en een hoge agressiebelasting. Voorwaarde voor deelname: afgeronde basistraining of aantoonbare ervaring."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basistraining behandelt het herkennen en de-escaleren van agressie in het moment. Dit gevorderde niveau richt zich op patronen die niet impulsief zijn: bewuste grensoverschrijding, manipulatie en consistent teamoptreden."
+    antwoord: "In de basis oefen je de boze reactie op een plaatsingsbeslissing en het begrenzen terwijl je elkaars taal niet spreekt. Hier gaat het om onrust die zich over de hele locatie verspreidt, om bewoners in acute crisis na zwaar trauma, en om intimidatie die georganiseerd is en niet van een enkeling komt. Je oefent ook de nachtdienst met minimale bezetting en bedreigingen die je buiten de poort of via sociale media bereiken. Expert is voor locatiemanagers, die het crisisprotocol en de samenwerking met politie en partners regelen."
 gerelateerd:
   - "agressietraining-asielopvang-coa-basis"
   - "agressietraining-asielopvang-coa-expert"

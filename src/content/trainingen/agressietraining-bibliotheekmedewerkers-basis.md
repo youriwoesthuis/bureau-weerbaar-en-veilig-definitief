@@ -16,26 +16,26 @@ samenvatting: >-
   gedrag begrenzen en beslissen wanneer zij hulp inschakelen in een open
   publieke ruimte. De training duurt 1 dag en telt maximaal 10 deelnemers.
 resultaat:
-  - Signalen van oplopende spanning herkennen
-  - De eigen reactie reguleren onder druk
-  - Grensoverschrijdend gedrag professioneel begrenzen
-  - Beslissen wanneer je hulp inschakelt
-  - Incidenten correct melden
+  - Zien dat de spanning oploopt voordat iemand uitvalt
+  - Rustig blijven als een bezoeker tegen je tekeergaat
+  - Een grens stellen bij gedrag dat in de bibliotheek niet hoort
+  - Weten wanneer je er iemand bij haalt en wie dat is
+  - Een incident melden, ook het kleine dat niemand opschrijft
 programma:
   - titel: De bibliotheek als open ruimte
     inhoud: "Wat het betekent dat iedereen binnen mag komen, zonder toegangsdrempel."
   - titel: Spanning herkennen en reguleren
-    inhoud: "Signalen zien oplopen aan de balie en in de publieksruimte, en zelf rustig blijven."
+    inhoud: "Zien dat het oploopt aan de balie en in de leeszaal, en zelf rustig blijven."
   - titel: Begrenzen
-    inhoud: "Grensoverschrijdend gedrag begrenzen bij boetes, weigeringen en verbale intimidatie."
+    inhoud: "Een grens stellen bij ruzie over een boete, een weigering of iemand die je uitscheldt."
   - titel: Bezoekers in psychische nood
-    inhoud: Handelen bij personen met psychiatrische problematiek.
+    inhoud: Weten wat je doet bij een bezoeker die in de war of overstuur is.
   - titel: Hulp inschakelen en melden
-    inhoud: Beslissen wanneer je hulp inroept en incidenten correct melden.
+    inhoud: Weten wanneer je er iemand bij haalt, en het incident daarna melden.
 werkvormen:
-  - realistische oefeningen met trainers die publieke omgevingen kennen
+  - een trainingsacteur die publieksruimtes kent
   - casuïstiek van de eigen vestiging
-  - aandacht voor de spanning tussen openheid en veiligheid
+  - aandacht voor het wringen tussen openhouden en veilig blijven
 veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Bibliotheekmedewerkers met een balie- of publieksfunctie. Er is geen voorkennis nodig; dit is het instapniveau."

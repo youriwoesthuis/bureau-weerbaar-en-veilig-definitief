@@ -17,27 +17,27 @@ samenvatting: >-
   dag, telt maximaal 10 deelnemers en besteedt expliciet aandacht aan de
   morele kant van het werk.
 resultaat:
-  - Onderscheiden of je woede of wanhoop tegenover je hebt bij een debiteur
-  - Rustig blijven bij een schreeuwende debiteur en bij persoonlijke aanvallen
-  - Professioneel begrenzen bij wanhopig-dreigend gedrag rond een schuldenregeling
-  - Handelen bij intimidatie tijdens een huisbezoek
-  - Het agressieprotocol toepassen en incidenten melden
-  - De morele kant van het werk bespreekbaar maken binnen het team
+  - Het verschil zien tussen een debiteur die kwaad is en een die geen uitweg meer ziet
+  - Rustig blijven als iemand aan de telefoon schreeuwt of jou persoonlijk aanvalt
+  - Een grens stellen bij iemand die dreigt omdat de regeling niet doorgaat
+  - Weten wat je doet als je tijdens een huisbezoek wordt geïntimideerd
+  - Doen wat het agressieprotocol voorschrijft en het incident melden
+  - In het team bespreken wat dit werk moreel van je vraagt
 programma:
   - titel: Woede en wanhoop
-    inhoud: Herkennen wat je tegenover je hebt bij debiteuren in schuldenproblematiek.
+    inhoud: Het verschil zien tussen een debiteur die kwaad is en een die geen uitweg meer ziet.
   - titel: Reguleren aan de telefoon
-    inhoud: Rustig blijven bij een schreeuwende debiteur en bij persoonlijke aanvallen.
+    inhoud: Rustig blijven als iemand schreeuwt of jou persoonlijk aanvalt.
   - titel: "Begrenzen en de-escaleren"
-    inhoud: "Professioneel begrenzen bij wanhopig-dreigend gedrag rond een schuldenregeling."
+    inhoud: "Een grens stellen bij iemand die dreigt omdat de regeling niet doorgaat."
   - titel: Veilig op huisbezoek
-    inhoud: Handelen bij intimidatie tijdens een huisbezoek.
+    inhoud: Weten wat je doet als je tijdens een huisbezoek wordt geïntimideerd.
   - titel: "Protocol, melden en moraal"
-    inhoud: "Het agressieprotocol toepassen, incidenten melden en de morele dimensie van het werk bespreken."
+    inhoud: "Doen wat het protocol voorschrijft, het incident melden en bespreken wat dit werk moreel van je vraagt."
 werkvormen:
-  - "realistische oefeningen met trainers met incasso-ervaring"
+  - "een trainingsacteur en trainers met incasso-ervaring"
   - casuïstiek uit eigen dossiers
-  - aandacht voor de morele dimensie van het werk
+  - ruimte om te bespreken wat dit werk moreel van je vraagt
 veelgestelde_vragen:
   - vraag: "Hoe stel je grenzen aan iemand die echt in nood zit?"
     antwoord: "Door te begrenzen zonder de mens uit het oog te verliezen. Dat is de morele kern van dit vak en de training bespreekt die expliciet."

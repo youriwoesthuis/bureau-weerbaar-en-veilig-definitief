@@ -6,7 +6,7 @@ samenvatting: >-
   Bureau Weerbaar en Veilig biedt agressietraining voor bediening,
   gastheren en gastvrouwen in de horeca in drie niveaus. Van weigeren
   zonder escalatie en seksuele intimidatie benoemen (basis) tot
-  groepsdynamiek en zware intoxicatie (gevorderd) en normen en meldcultuur
+  groepsdynamiek en zware intoxicatie (gevorderd) en normen en het melden van incidenten
   op locatie (expert).
 kern: "De gast is koning, en juist dat maakt weigeren en begrenzen zo moeilijk"
 veelgestelde_vragen:

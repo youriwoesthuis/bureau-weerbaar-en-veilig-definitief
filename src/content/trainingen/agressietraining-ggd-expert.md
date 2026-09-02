@@ -18,26 +18,26 @@ samenvatting: >-
   ontwikkelen tegen online bedreigingen en medewerkers structureel
   coachen. De training duurt 1 dag en telt maximaal 8 deelnemers.
 resultaat:
-  - "Veiligheidsprotocollen opzetten voor solo-werkzaamheden op risicovolle locaties"
-  - Beleid ontwikkelen voor online bedreigingen en intimidatiecampagnes
-  - Medewerkers coachen na incidenten met structurele debriefing
-  - Politieke druk vertalen naar concrete ondersteuning voor teams
-  - Met politie en justitie samenwerken bij georganiseerde weerstand
-  - De meldcultuur versterken
+  - Vastleggen hoe iemand veilig alleen naar een locatie gaat waar het kan misgaan
+  - Afspreken wat je doet als medewerkers online worden bedreigd
+  - Een incident naderhand met de betrokkene doornemen, elke keer en niet alleen bij de zware
+  - Merken wanneer de druk van buiten bij je team terechtkomt, en daar iets voor regelen
+  - Afspraken maken met politie en justitie als de weerstand georganiseerd is
+  - Zorgen dat incidenten gemeld worden, ook de kleine die niemand opschrijft
 programma:
   - titel: "Protocol voor solo-werkzaamheden"
-    inhoud: Een helder veiligheidsprotocol voor medewerkers die alleen op risicovolle locaties werken.
+    inhoud: Vastleggen hoe iemand veilig alleen naar een locatie gaat waar het kan misgaan.
   - titel: Beleid tegen online bedreiging
-    inhoud: Beleid ontwikkelen voor bedreigingen en intimidatiecampagnes gericht op individuele medewerkers.
-  - titel: Coachen en debriefing
-    inhoud: "Structurele debriefing na incidenten inrichten, zodat opvang niet afhangt van wie er dienst heeft."
+    inhoud: Afspreken wat de organisatie doet als medewerkers online met naam worden bedreigd.
+  - titel: Een incident naderhand doornemen
+    inhoud: "Elk incident naderhand doornemen met de betrokkene, zodat de opvang niet afhangt van wie er dienst heeft."
   - titel: Politieke druk en samenwerking
-    inhoud: "Politieke druk vertalen naar ondersteuning, en samenwerken met politie en justitie bij georganiseerde weerstand."
+    inhoud: "Zorgen dat de druk van buiten niet bij de individuele medewerker blijft hangen, en afspraken maken met politie en justitie."
   - titel: Intervisie na afloop (op verzoek)
-    inhoud: Terugkombijeenkomst over de implementatie in de eigen organisatie.
+    inhoud: Terugkomen op wat er van het beleid terecht is gekomen.
 werkvormen:
-  - analyse van veiligheidsbeleid en incidentrapportages
-  - beleidsverdieping met concrete protocollen
+  - het veiligheidsbeleid naast de gemelde incidenten leggen
+  - protocollen uitwerken die je de volgende dag kunt gebruiken
   - intervisie na afloop (op verzoek)
 veelgestelde_vragen:
   - vraag: "Wat doet de organisatie als een medewerker persoonlijk wordt bedreigd?"
@@ -45,7 +45,7 @@ veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Teamleiders, afdelingshoofden en managers bij de GGD en aanverwante organisaties die medewerkers aansturen in agressieve burgersituaties. Voorwaarde voor deelname: leidinggevende verantwoordelijkheid voor een team GGD-medewerkers of publieke gezondheidsprofessionals."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basis- en gevorderde training gaan over het eigen handelen. Dit expertniveau gaat over de organisatie: beleid, escalatiestructuur, nazorg, meldcultuur en het coachen van medewerkers."
+    antwoord: "Basis en gevorderd gaan over jouw contact met de burger, aan de balie, op inspectie of tijdens een huisbezoek. Op dit niveau maak je het veiligheidsprotocol voor medewerkers die alleen op risicovolle locaties werken, en ontwikkel je beleid voor bedreigingen en intimidatiecampagnes die op de persoon achter de functie gericht zijn. Je richt debriefing na incidenten zo in dat de opvang niet afhangt van wie er dienst heeft, en je vertaalt politieke druk naar steun voor je team in plaats van naar extra last."
 gerelateerd:
   - "agressietraining-ggd-basis"
   - "agressietraining-ggd-gevorderd"

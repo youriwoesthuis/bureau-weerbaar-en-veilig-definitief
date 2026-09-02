@@ -17,27 +17,27 @@ samenvatting: >-
   en moeilijke boodschappen zoals kortingen en sancties escalatievrij
   brengen. De training duurt 1 dag en telt maximaal 10 deelnemers.
 resultaat:
-  - De existentiële afhankelijkheid van cliënten als agressierisico herkennen
-  - "Onderscheid maken tussen frustratie-agressie en strategische agressie"
-  - De eigen reactie reguleren bij uitdagende cliënten
-  - Verbale agressie professioneel begrenzen
-  - Moeilijke boodschappen zoals kortingen en sancties escalatievrij brengen
-  - Incidenten correct melden en bespreken
+  - "Herkennen waarom een gesprek over iemands inkomen zo snel oploopt"
+  - "Zien of iemand boos is om een besluit of je onder druk zet om zijn zin te krijgen"
+  - "Rustig blijven als een cliënt je uitdaagt"
+  - "Verbaal een grens stellen aan de balie"
+  - "Een korting of maatregel zo brengen dat de kans op escalatie kleiner is"
+  - "Een incident melden en het naderhand nabespreken"
 programma:
-  - titel: Afhankelijkheid als risicofactor
-    inhoud: Waarom een gesprek over rechten en plichten explosief wordt wanneer iemands inkomen op het spel staat.
+  - titel: Afhankelijkheid als risico
+    inhoud: Waarom een gesprek over rechten en plichten oploopt zodra iemands inkomen op het spel staat.
   - titel: Frustratie of strategie
-    inhoud: Onderscheid maken tussen een emotionele reactie en gedrag dat bewust wordt ingezet.
+    inhoud: Het verschil zien tussen een emotionele reactie en gedrag dat bewust wordt ingezet.
   - titel: Slecht nieuws brengen
-    inhoud: "Kortingen, maatregelen en stopzettingen zo communiceren dat de kans op escalatie zo klein mogelijk is."
+    inhoud: "Een korting, maatregel of stopzetting zo brengen dat de kans op escalatie kleiner is."
   - titel: Begrenzen aan de balie
-    inhoud: Verbale intimidatie aan de balie professioneel begrenzen.
+    inhoud: Verbaal een grens stellen bij intimidatie aan de balie.
   - titel: Na het besluit
-    inhoud: "Omgaan met bedreigingen via telefoon of e-mail na een beslissing, en correct melden."
+    inhoud: "Reageren op bedreigingen via telefoon of e-mail na een beslissing, en het incident melden."
 werkvormen:
-  - realistische oefeningen uit de uitvoeringspraktijk
+  - oefeningen uit de uitvoeringspraktijk
   - casuïstiek van de eigen organisatie
-  - oefenen met het brengen van moeilijke boodschappen
+  - oefenen met het brengen van een moeilijke boodschap
 veelgestelde_vragen:
   - vraag: "Geldt deze training ook voor uitkeringsinstanties en schuldhulp?"
     antwoord: "Ja. Wie een besluit brengt of uitlegt dat over het inkomen van iemand gaat, komt dezelfde reacties tegen. Schuldhulp, bijzondere bijstand, re-integratie en de balie horen in dezelfde groep thuis."

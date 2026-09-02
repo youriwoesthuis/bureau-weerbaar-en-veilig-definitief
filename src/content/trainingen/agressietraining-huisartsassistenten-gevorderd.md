@@ -18,7 +18,7 @@ samenvatting: >-
   1 dag, telt maximaal 10 deelnemers en vraagt een afgeronde basistraining of
   aantoonbare werkervaring met agressie-incidenten.
 resultaat:
-  - Instrumentele agressie onderscheiden van frustratie-agressie
+  - Instrumentele agressie onderscheiden van frustratieagressie
   - Manipulatie en druktactieken herkennen en neutraliseren
   - Werken met risicoprofielen van patiënten
   - Praktijkafspraken maken bij herhaalde agressie
@@ -43,7 +43,7 @@ veelgestelde_vragen:
   - vraag: Voor wie is de gevorderde agressietraining voor huisartsassistenten bedoeld?
     antwoord: Voor huisartsassistenten die de basis beheersen en regelmatig complexe of herhaalde agressie-incidenten meemaken.
   - vraag: Is een basistraining verplicht?
-    antwoord: Niet altijd. Een afgeronde basistraining is de standaardvoorwaarde, maar aantoonbare werkervaring met agressie-incidenten kan daarvoor in de plaats komen.
+    antwoord: "Niet per se. Wat telt is dat je de basis beheerst: signalen herkennen, je eigen reactie reguleren en een gesprek terugbrengen. Dat komt meestal uit de basistraining, maar aantoonbare werkervaring met agressie-incidenten kan er ook voor in de plaats komen. Bij de intake stellen we samen vast welk niveau past."
   - vraag: Wat is het verschil met de basistraining?
     antwoord: "De basistraining behandelt het herkennen en de-escaleren van agressie in het moment. Dit gevorderde niveau richt zich op agressie die niet impulsief is: instrumenteel gedrag, manipulatie, risicoprofielen en consistent teamoptreden."
   - vraag: Hoe gaat de training om met patiënten met dementie of verslaving?

@@ -18,26 +18,26 @@ samenvatting: >-
   nazorgstructuur en meldcultuur. De training duurt 1 dag, met maximaal 8
   deelnemers en een intakegesprek vooraf.
 resultaat:
-  - Agressiedata organisatiebreed analyseren en omzetten in beleid
-  - Een uniform agressieprotocol voor verschillende vestigingstypen ontwikkelen
-  - Filiaalmanagers coachen in hun ondersteunende rol
-  - Organisatiebreed nazorgbeleid implementeren
-  - Juridische en verzekeringstechnische verantwoordelijkheid begrijpen
-  - De meldcultuur organisatiebreed versterken
+  - Uit de meldingen van alle vestigingen halen welk gedrag terugkomt, en daar beleid van maken
+  - Eén agressieprotocol maken dat werkt in een grote en in een kleine vestiging
+  - Filiaalmanagers leren hoe zij hun mensen na een incident opvangen
+  - Regelen dat elke medewerker na een incident wordt opgevangen, in elke vestiging
+  - Weten waar de werkgever en de verzekeraar voor aan de lat staan
+  - Zorgen dat incidenten gemeld worden, ook de kleine die niemand opschrijft
 programma:
   - titel: Intake en data-analyse
-    inhoud: Voorafgaand intakegesprek; analyse van incidentdata over meerdere vestigingen, bestaand beleid en organisatiestructuur.
+    inhoud: Vooraf een intakegesprek; daarna de meldingen van de vestigingen, het bestaande beleid en de organisatie naast elkaar leggen.
   - titel: Uniform beleid ontwikkelen
-    inhoud: Eén agressieprotocol dat werkt voor verschillende vestigingstypen, met heldere escalatie- en nazorgstructuur.
+    inhoud: Eén agressieprotocol maken dat overal werkt, met daarin wie je erbij haalt en hoe de opvang loopt.
   - titel: Filiaalmanagers coachen
-    inhoud: De ondersteunende rol richting filiaalmanagers invullen, zodat beleid ook op de winkelvloer gaat leven.
+    inhoud: Filiaalmanagers leren wat zij moeten doen, zodat het beleid ook op de winkelvloer terechtkomt.
   - titel: Juridische en verzekeringstechnische kaders
-    inhoud: Verantwoordelijkheden begrijpen en vertalen naar de organisatie.
+    inhoud: Weten waar de werkgever en de verzekeraar voor aan de lat staan, en dat vertalen naar de organisatie.
   - titel: Intervisie na afloop (op verzoek)
-    inhoud: Terugkombijeenkomst over de implementatie in de eigen organisatie.
+    inhoud: Terugkomen op wat er van het beleid terecht is gekomen.
 werkvormen:
-  - analyse van beleid, incidentdata en organisatiecultuur
-  - werken aan eigen structuren en processen
+  - "het beleid, de meldingen en de werksfeer naast elkaar leggen"
+  - werken aan de eigen afspraken en processen
   - intervisie na afloop (op verzoek)
 veelgestelde_vragen:
   - vraag: Voor wie is de expert agressietraining op organisatieniveau bedoeld?

@@ -17,27 +17,27 @@ samenvatting: >-
   niet-beschikbare medicatie. De training duurt 1 dag en telt maximaal 10
   deelnemers.
 resultaat:
-  - De emotionele context achter agressie van patiënten herkennen
-  - De eigen reactie reguleren bij agressieve interacties
-  - Verbaal agressief gedrag professioneel begrenzen
-  - Patiënten met verslavingsproblematiek professioneel te woord staan
-  - Moeilijke gesprekken voeren over wachttijden en weigeringen
-  - Incidenten correct melden en bespreken
+  - Zien wat er onder de boosheid van een patiënt zit
+  - Rustig blijven als iemand aan de balie tegen je uitvalt
+  - Een grens stellen als iemand je uitscheldt of onder druk zet
+  - Patiënten te woord staan die medicatie proberen los te krijgen
+  - Uitleggen dat een recept er niet is, terwijl de rij achter de patiënt aangroeit
+  - Een incident melden en het naderhand met een collega doornemen
 programma:
   - titel: Afhankelijkheid als agressiebron
-    inhoud: "Begrijpen waarom medicatie-afhankelijkheid de drempel voor agressie verlaagt."
+    inhoud: "Begrijpen waarom afhankelijkheid van medicatie de drempel voor agressie verlaagt."
   - titel: Reguleren aan de balie
-    inhoud: "Rustig blijven bij een patiënt die agressief wordt over een niet-beschikbaar recept."
+    inhoud: "Rustig blijven bij een patiënt die uitvalt over een recept dat er niet is."
   - titel: Moeilijke boodschappen
-    inhoud: "Gesprekken voeren over wachttijden, weigeringen en herhaalrecepten die niet worden verstrekt."
+    inhoud: "Vertellen dat het wachten wordt, dat iets geweigerd is of dat een herhaalrecept niet wordt verstrekt."
   - titel: Verslavingsproblematiek
-    inhoud: Professioneel omgaan met patiënten die onder druk medicatie proberen te krijgen.
+    inhoud: Patiënten te woord staan die onder druk medicatie proberen los te krijgen, zonder mee te gaan in dat gesprek.
   - titel: Begrenzen en melden
-    inhoud: "Verbale agressie en intimidatie begrenzen, en incidenten correct melden."
+    inhoud: "Schelden en intimidatie begrenzen, en het incident daarna melden."
 werkvormen:
-  - realistische oefeningen met trainers die de apotheekcontext kennen
+  - een trainingsacteur die de balie kent
   - casuïstiek uit de eigen apotheek
-  - "aandacht voor de dynamiek van medicatie-afhankelijkheid"
+  - aandacht voor wat afhankelijkheid van medicatie met een gesprek doet
 veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: Apotheekmedewerkers en apothekersassistenten met direct patiëntcontact aan de balie. Er is geen voorkennis nodig; dit is het instapniveau.

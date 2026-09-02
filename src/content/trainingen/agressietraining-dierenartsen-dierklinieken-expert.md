@@ -17,32 +17,32 @@ samenvatting: >-
   opstellen voor het beëindigen van de zorgrelatie en het omgaan met
   online beschuldigingen en reputatieschade. De training duurt 1 dag en telt maximaal 8 deelnemers.
 resultaat:
-  - Helder beleid opstellen voor het beëindigen van de zorgrelatie
-  - Eenduidig teambeleid implementeren bij probleemeigenaren
-  - "Medewerkers coachen na agressie-incidenten"
-  - Omgaan met online beschuldigingen en reputatieschade
-  - De meldcultuur versterken
-  - De balans borgen tussen klanttevredenheid en veiligheid
+  - Vastleggen wanneer de kliniek een eigenaar niet meer behandelt en hoe je dat aankondigt
+  - Afspreken hoe het hele team reageert op eigenaren van wie het gedrag bekend is
+  - Een incident naderhand met de betrokkene doornemen, elke keer en niet alleen bij de zware
+  - Reageren op beschuldigingen die online over de kliniek worden gezet
+  - Zorgen dat incidenten gemeld worden, ook de kleine die niemand opschrijft
+  - De grens bewaken tussen eigenaren tevreden houden en je team veilig laten werken
 programma:
   - titel: Beleid rond de zorgrelatie
-    inhoud: Vastleggen wanneer de kliniek de zorgrelatie beëindigt bij agressie.
+    inhoud: Vastleggen wanneer de kliniek een eigenaar niet meer behandelt na agressie.
   - titel: Eenduidig teambeleid
-    inhoud: Zorgen dat probleemeigenaren bij elke medewerker dezelfde lijn tegenkomen.
+    inhoud: Afspreken hoe het hele team reageert op eigenaren van wie het gedrag bekend is.
   - titel: Coachen na incidenten
-    inhoud: "Medewerkers structureel ondersteunen, in plaats van incidenten als bedrijfsrisico af te doen."
+    inhoud: "Elk incident naderhand doornemen met de betrokkene, in plaats van het weg te zetten als iets dat erbij hoort."
   - titel: Reputatie en online
-    inhoud: Beleid voor online beschuldigingen en reputatieschade.
+    inhoud: Afspreken wie wat doet als er online beschuldigingen over de kliniek verschijnen.
   - titel: Klanttevredenheid én veiligheid
-    inhoud: De balans tussen beide beleidsmatig borgen; intervisie na 6 weken.
+    inhoud: Op papier zetten hoe je eigenaren tevreden houdt zonder je team in de vuurlinie te zetten; intervisie na 6 weken.
 werkvormen:
-  - analyse van bestaand beleid en kliniekcultuur
-  - beleidsverdieping met protocollen voor de diergeneeskundige context
+  - het bestaande beleid naast de werksfeer in de kliniek leggen
+  - protocollen uitwerken voor de dierenartsenpraktijk
   - intervisie na afloop (op verzoek)
 veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Praktijkhouders, kliniekmanagers en leidinggevende dierenartsen van dierklinieken. Voorwaarde voor deelname: leidinggevende of eigenaarverantwoordelijkheid voor een dierkliniek of team."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "Het perspectief. De basis- en gevorderde training gaan over het eigen handelen. Dit expertniveau gaat over de organisatie: beleid, escalatiestructuur, nazorg, meldcultuur en het coachen van medewerkers."
+    antwoord: "Basis en gevorderd gaan over jouw gesprek in de spreekkamer en aan de telefoon. Op dit niveau leg je vast wanneer de kliniek de relatie met een eigenaar beëindigt, en zorg je dat een probleemeigenaar bij elke medewerker dezelfde lijn tegenkomt. Je maakt beleid voor online beschuldigingen en reputatieschade, en regelt de opvang van medewerkers na een incident in plaats van dat als bedrijfsrisico weg te zetten."
 gerelateerd:
   - "agressietraining-dierenartsen-dierklinieken-basis"
   - "agressietraining-dierenartsen-dierklinieken-gevorderd"

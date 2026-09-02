@@ -19,32 +19,32 @@ samenvatting: >-
   deelnemers en vraagt een afgeronde basistraining of ervaring met
   agressie-incidenten.
 resultaat:
-  - Complexe agressiepatronen en risicogroepen vroegtijdig herkennen
-  - "Gecoördineerd optreden bij meerpersoons- en groepsincidenten"
-  - Professioneel handelen bij gefilmde of geprovoceerde situaties
-  - "De juridische grenzen van de boa-bevoegdheid correct toepassen"
-  - Effectief escaleren naar de politie op het juiste moment
-  - Structureel omgaan met bekende overlastplegers
+  - Vroeg zien met wie en met welke groepen het steeds misgaat
+  - Met je collega samen optreden als meerdere mensen je onder druk zetten
+  - Kalm blijven als iemand je uitlokt en het filmt
+  - Binnen je bevoegdheid als boa blijven terwijl de druk oploopt
+  - Beslissen wanneer je de politie erbij haalt, en dat kort en duidelijk doen
+  - Elke keer hetzelfde reageren op mensen die vaker overlast geven
 programma:
   - titel: Risicogroepen herkennen
-    inhoud: Complexe agressiepatronen en risicogroepen vroegtijdig herkennen in het eigen werkgebied.
+    inhoud: Vroeg zien met wie en met welke groepen het in je werkgebied steeds misgaat.
   - titel: Groepsincidenten
-    inhoud: Gecoördineerd optreden wanneer meerdere personen samen de handhaver onder druk zetten.
+    inhoud: Met je collega samen optreden als meerdere mensen je tegelijk onder druk zetten.
   - titel: Provocatie en camera
-    inhoud: Professioneel handelen wanneer een situatie bewust wordt uitgelokt en gefilmd.
+    inhoud: Kalm blijven als iemand je uitlokt en het filmt.
   - titel: Juridische grenzen onder druk
-    inhoud: De grenzen van je bevoegdheid correct toepassen wanneer de druk maximaal is.
+    inhoud: Binnen je bevoegdheid blijven op het moment dat de druk het grootst is.
   - titel: Escaleren naar politie
-    inhoud: "Bepalen wanneer je opschaalt, en dat effectief doen."
+    inhoud: "Beslissen wanneer je de politie erbij haalt, en dat kort en duidelijk doen."
 werkvormen:
   - casuïstiek uit het eigen werkgebied
-  - analyse van eigen situaties met feedback op besluitvorming
-  - oefeningen gericht op samenwerking
+  - eigen situaties doornemen, met feedback op de besluiten die je nam
+  - oefenen op het samenwerken met je collega
 veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Handhavers en boa’s met basistraining die werken in gebieden met een hoog incidentcijfer of structurele overlastproblematiek. Voorwaarde voor deelname: afgeronde basistraining of aantoonbare werkervaring met agressie-incidenten."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basistraining behandelt het herkennen en de-escaleren van agressie in het moment. Dit gevorderde niveau richt zich op patronen die niet impulsief zijn: bewuste grensoverschrijding, manipulatie en consistent teamoptreden."
+    antwoord: "In de basis oefen je de burger die een boete weigert en de omstanders die de boel opjutten. Hier gaat het om je eigen werkgebied: bekende overlastplegers die precies weten hoe ver jouw bevoegdheid reikt, groepen die samen optrekken om je onder druk te zetten, en situaties die opzettelijk worden uitgelokt en gefilmd. Je oefent het toepassen van je juridische grenzen op het moment dat de druk het hoogst is en het opschalen naar de politie. Expert is voor teamleiders en coördinatoren, die per werkgebied de risicoanalyse en de briefing regelen."
 gerelateerd:
   - "agressietraining-handhavers-boas-basis"
   - "agressietraining-handhavers-boas-expert"

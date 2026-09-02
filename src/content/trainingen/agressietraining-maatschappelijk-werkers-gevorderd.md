@@ -9,7 +9,7 @@ groepsgrootte: maximaal 10 deelnemers
 locatie: incompany
 locatie_detail: bij jullie op locatie, in heel Nederland
 certificaat: deelnamecertificaat na afloop
-voorwaarde: afgeronde basistraining
+voorwaarde: "afgeronde basistraining of aantoonbare werkervaring met agressie-incidenten"
 doelgroep: "Maatschappelijk werkers met een afgeronde basistraining die werken met complexe, langdurige cliëntsituaties."
 samenvatting: >-
   De gevorderde agressietraining voor maatschappelijk werkers van Bureau
@@ -18,32 +18,32 @@ samenvatting: >-
   het netwerk van de cliënt. De training duurt 1 dag, telt maximaal 10
   deelnemers en vraagt een afgeronde basistraining.
 resultaat:
-  - Complexe agressiepatronen in langdurige relaties herkennen
-  - Grenzen handhaven zonder overmatige betrokkenheid
-  - Professioneel omgaan met manipulatie en grensverlegging
-  - Veiligheidsmaatregelen nemen bij ongewenste benadering
-  - Veiligheidstaxatie toepassen bij meervoudige problematiek
-  - Teamoverleg effectief benutten
+  - "Zien hoe grenzen in een langdurige begeleiding langzaam verschuiven"
+  - "Een grens vasthouden zonder je van de cliënt af te keren"
+  - "Reageren als een cliënt je bespeelt om zijn zin te krijgen"
+  - "Maatregelen nemen als een cliënt je buiten werktijd benadert"
+  - "Inschatten hoe riskant een situatie is bij psychiatrie en verslaving tegelijk"
+  - "Een casus zo in het teamoverleg brengen dat je er iets aan hebt"
 programma:
   - titel: Patronen in langdurige relaties
-    inhoud: Herkennen hoe grenzen over maanden of jaren verschuiven.
-  - titel: Manipulatie en grensverlegging
-    inhoud: Professioneel omgaan met cliënten die de hulpverlening bewust manipuleren.
+    inhoud: Zien hoe grenzen over maanden of jaren verschuiven.
+  - titel: Als een cliënt je bespeelt
+    inhoud: Reageren op een cliënt die de hulpverlening bewust naar zijn hand zet.
   - titel: Privésfeer
-    inhoud: Veiligheidsmaatregelen bij benadering buiten werktijd of in de privésfeer.
-  - titel: Meervoudige problematiek
-    inhoud: "Veiligheidstaxatie bij psychiatrie en verslaving, en agressie vanuit het cliëntnetwerk."
-  - titel: Compassiemoeheid en team
-    inhoud: De eigen belasting herkennen en het teamoverleg effectief benutten.
+    inhoud: Maatregelen nemen als een cliënt je buiten werktijd of thuis benadert.
+  - titel: Meerdere problemen tegelijk
+    inhoud: "Risico inschatten bij psychiatrie en verslaving, en bij agressie uit de omgeving van de cliënt."
+  - titel: Wat het je kost, en het team
+    inhoud: "Merken wat het werk je doet, en een casus zo inbrengen dat het teamoverleg je verder helpt."
 werkvormen:
   - casuïstiek uit de eigen praktijk
-  - feedback op patronen die de hulpverlener zelf niet ziet
-  - aandacht voor compassiemoeheid
+  - feedback op wat je zelf niet ziet gebeuren
+  - "aandacht voor wat het je kost om steeds met andermans nood mee te leven"
 veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Maatschappelijk werkers met een afgeronde basistraining die werken met complexe, langdurige cliëntsituaties. Voorwaarde voor deelname: afgeronde basistraining."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basistraining behandelt het herkennen en de-escaleren van agressie in het moment. Dit gevorderde niveau richt zich op patronen die niet impulsief zijn: bewuste grensoverschrijding, manipulatie en consistent teamoptreden."
+    antwoord: "In de basis oefen je de agressie die opkomt bij een grensstelling of een afgewezen hulpvraag, en het huisbezoek. Hier gaat het om trajecten die maanden of jaren duren, waarin grenzen langzaam verschuiven zonder dat je het merkt, en om cliënten die de hulpverleningsrelatie bewust gebruiken om die grenzen op te rekken. Je oefent met benadering in je privésfeer, met agressie vanuit het netwerk om de cliënt heen, en met de vraag hoe je je eigen belasting op tijd ziet. Expert is voor teamleiders, die het agressieprotocol laten aansluiten op de hulpverleningsnorm."
 gerelateerd:
   - "agressietraining-maatschappelijk-werkers-basis"
   - "agressietraining-maatschappelijk-werkers-expert"

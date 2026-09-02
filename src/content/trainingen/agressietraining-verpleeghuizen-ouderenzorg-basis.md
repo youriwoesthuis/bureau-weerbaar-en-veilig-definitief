@@ -17,27 +17,27 @@ samenvatting: >-
   ziektegebonden en begrensbaar gedrag, en familieleden professioneel
   aanspreken. De training duurt 1 dag en telt maximaal 10 deelnemers.
 resultaat:
-  - Agressie bij dementie begrijpen vanuit de belevingswereld van de bewoner
-  - Onderscheid maken tussen ziektegebonden en begrensbare agressie
-  - "De eigen reactie reguleren bij fysieke agressie, zonder te escaleren"
-  - Familieleden professioneel aanspreken bij grensoverschrijdend gedrag
-  - "Situaties de-escaleren met passende technieken"
-  - Incidenten correct melden en bespreken
+  - "Begrijpen waarom een bewoner met dementie slaat of krabt tijdens de verzorging"
+  - "Onderscheiden wat bij de ziekte hoort en wat je wel kunt begrenzen"
+  - "Rustig blijven als een bewoner naar je uithaalt"
+  - "Een familielid aanspreken op gedrag dat over de grens gaat"
+  - "De spanning eruit halen op het moment zelf"
+  - "Een incident melden en het naderhand nabespreken"
 programma:
   - titel: Agressie bij dementie
-    inhoud: "Waarom een bewoner slaat, bijt of krabt tijdens de verzorging: begrijpen vanuit angst, pijn en verwardheid."
-  - titel: Ziektegebonden of begrensbaar
-    inhoud: "Het onderscheid maken dat bepaalt hoe je handelt, en waarom dat onderscheid zo belangrijk is."
-  - titel: Eigen reactie bij fysieke agressie
-    inhoud: Reguleren van de eigen reactie zodat een situatie niet verder escaleert.
+    inhoud: "Waarom een bewoner slaat, bijt of krabt tijdens de verzorging: angst, pijn en verwardheid."
+  - titel: Bij de ziekte of te begrenzen
+    inhoud: "Het onderscheid dat bepaalt hoe je handelt, en waarom het uitmaakt."
+  - titel: Rustig blijven bij fysieke agressie
+    inhoud: "Rustig blijven en de handeling afmaken, zodat de situatie niet verder oploopt."
   - titel: Familieleden aanspreken
-    inhoud: Grensoverschrijdend gedrag van familieleden professioneel begrenzen.
-  - titel: "De-escaleren en melden"
-    inhoud: "Passende de-escalatietechnieken toepassen en incidenten correct melden en nabespreken."
+    inhoud: Een familielid aanspreken op gedrag dat over de grens gaat.
+  - titel: De spanning eruit halen en melden
+    inhoud: "De spanning eruit halen op het moment zelf, en het incident melden en nabespreken."
 werkvormen:
-  - realistische oefeningen met trainers uit de ouderenzorg
+  - oefenen met trainers uit de ouderenzorg
   - casuïstiek van de eigen afdeling
-  - theorie die de praktijk ondersteunt
+  - theorie alleen waar die de praktijk ondersteunt
 veelgestelde_vragen:
   - vraag: "Wordt agressie van familieleden ook behandeld?"
     antwoord: "Ja. Familieleden die zorgmedewerkers intimideren over de zorg voor hun naaste vormen een aparte module: dit gedrag is begrensbaar en vraagt een andere aanpak dan agressie bij dementie."

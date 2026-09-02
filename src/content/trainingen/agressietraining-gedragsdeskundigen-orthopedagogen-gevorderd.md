@@ -19,34 +19,34 @@ samenvatting: >-
   10 deelnemers en vraagt een afgeronde basistraining of ervaring met
   ernstige druk.
 resultaat:
-  - Georganiseerde familiedruk herkennen en professioneel hanteren
-  - Standhouden bij een professioneel advies onder maximale druk
-  - Veilig handelen bij diagnostisch contact met cliënten met ernstige gedragsproblematiek
-  - Juridische dreigingen evalueren en escaleren
-  - Intimidatie via privékanalen buiten werktijd aanpakken
-  - "Complexe dreiging- en agressiesituaties escaleren naar leidinggevenden"
+  - Merken wanneer een familie de druk samen opvoert, en daar rustig op reageren
+  - Bij je advies blijven terwijl de druk om het te veranderen groot is
+  - Veilig een onderzoek doen bij een cliënt die daarbij kan uithalen
+  - Inschatten of een dreiging met een advocaat serieus is, en wanneer je hem doorgeeft
+  - Een grens stellen als iemand je thuis of via je privételefoon benadert
+  - Weten wanneer je je leidinggevende erbij haalt en met welke informatie
 programma:
   - titel: Georganiseerde familiedruk
-    inhoud: "Herkennen wanneer druk gecoördineerd is en via advocaten of media loopt, en hoe je daar professioneel op reageert."
+    inhoud: "Merken dat de druk afgestemd is en via advocaten of de pers loopt, en daar rustig op reageren."
   - titel: Standhouden onder druk
-    inhoud: Een professioneel advies handhaven wanneer de druk om het aan te passen maximaal is.
+    inhoud: Bij je advies blijven terwijl de druk om het te veranderen groot is.
   - titel: Veilig diagnostisch contact
-    inhoud: Veilig werken met cliënten bij wie elk diagnostisch contact tot fysieke agressie kan leiden.
+    inhoud: Veilig een onderzoek doen bij een cliënt die daarbij kan uithalen.
   - titel: Juridische dreiging
-    inhoud: "Juridische dreigingen evalueren, onderscheiden van bluf, en tijdig escaleren."
+    inhoud: "Inschatten of een dreiging met een advocaat serieus is of bluf, en hem op tijd doorgeven."
   - titel: Intimidatie in de privésfeer
-    inhoud: Intimidatie via privékanalen en buiten werktijd aanpakken.
+    inhoud: Een grens stellen als iemand je thuis of via je privételefoon benadert.
 werkvormen:
   - casuïstiek uit de eigen organisatie
-  - analyse en oefening van ingebrachte situaties
-  - aandacht voor de emotionele belasting van professionals
+  - situaties die deelnemers zelf inbrengen doornemen en naspelen
+  - aandacht voor wat dit werk met je doet
 veelgestelde_vragen:
   - vraag: "Hoe weeg je een juridische dreiging?"
     antwoord: "Door te onderscheiden wat reëel is en wat druk uitoefenen. Dat evalueren, en het tijdig escaleren daarvan, is een expliciete module in deze training."
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Gedragsdeskundigen en orthopedagogen met een basistraining die werken met cliënten in complexe familiesituaties, forensische contexten of met ernstige meervoudige problematiek. Voorwaarde voor deelname: afgeronde basistraining of aantoonbare werkervaring met ernstige druk of agressie."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basistraining behandelt het herkennen en de-escaleren van agressie in het moment. Dit gevorderde niveau richt zich op patronen die niet impulsief zijn: bewuste grensoverschrijding, manipulatie en consistent teamoptreden."
+    antwoord: "In de basis oefen je de familie die boos reageert op een gedragsplan en de begeleider die het advies niet wil uitvoeren. Hier gaat het om druk die georganiseerd is en via advocaten of media loopt, om het handhaven van je advies terwijl die druk maximaal is, en om intimidatie die je thuis of op je eigen accounts bereikt. Je oefent ook het diagnostisch contact met cliënten bij wie elk gesprek fysiek kan worden. Expert is voor managers en bestuurders, die vastleggen hoe de organisatie de inhoudelijke autonomie beschermt."
 gerelateerd:
   - "agressietraining-gedragsdeskundigen-orthopedagogen-basis"
   - "agressietraining-gedragsdeskundigen-orthopedagogen-expert"

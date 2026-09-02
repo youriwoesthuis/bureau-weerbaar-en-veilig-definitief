@@ -18,32 +18,31 @@ samenvatting: >-
   op locatie. De training duurt 1 dag, telt maximaal 10 deelnemers en
   vraagt een afgeronde basistraining of ervaring met agressie-incidenten.
 resultaat:
-  - "Onderscheid maken tussen instrumentele agressie en frustratie-agressie"
-  - Gerichte intimidatietactieken herkennen en neutraliseren
-  - Standhouden onder juridische en financiële druk
-  - Veilig handelen tijdens controles op locatie
-  - Teamafspraken maken bij herhaalde agressie
-  - Consistent reageren als team
+  - Het verschil zien tussen iemand die overstuur is en iemand die je bewust klemzet
+  - Merken wanneer iemand je onder druk zet om er zelf beter uit te komen
+  - Blijven staan als er veel geld of een advocaat in het spel is
+  - Weten wat je doet als het tijdens een controle op locatie misgaat
+  - Als team hetzelfde antwoord geven aan iemand die vaker uitvalt
 programma:
   - titel: Gerichte intimidatie
-    inhoud: Intimidatietactieken herkennen die bewust worden ingezet tijdens bedrijfscontroles.
+    inhoud: Merken wanneer iemand je tijdens een bedrijfscontrole bewust onder druk zet.
   - titel: Druk via contacten en media
-    inhoud: Omgaan met dreiging met politieke contacten of publiciteit als drukmiddel.
+    inhoud: Reageren op iemand die dreigt met zijn contacten of met de pers.
   - titel: Standhouden onder druk
-    inhoud: Professioneel blijven wanneer juridische en financiële belangen groot zijn.
+    inhoud: Blijven staan als er veel geld of een advocaat in het spel is.
   - titel: Veilig op locatie
-    inhoud: "Handelen bij agressie op locatie, zonder directe collegiale ondersteuning."
+    inhoud: "Weten wat je doet als het op locatie misgaat en er geen collega naast je staat."
   - titel: Valse beschuldigingen en teamafspraken
-    inhoud: Omgaan met manipulatie via valse beschuldigingen en afspraken maken bij herhaalde agressie.
+    inhoud: Reageren op iemand die je iets in de schoenen schuift, en afspreken wie wat doet als het vaker gebeurt.
 werkvormen:
   - casuïstiek van de eigen afdeling
-  - oefening met directe feedback op standvastigheid
-  - aandacht voor de gezagsbalans in het gesprek
+  - oefenen met directe feedback op waar je blijft staan
+  - aandacht voor het gezagsverschil in het gesprek
 veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Medewerkers die de basis beheersen en werken met complexe of herhaalde agressie-incidenten bij controles, invordering of behandeling. Voorwaarde voor deelname: afgeronde basistraining of aantoonbare werkervaring met agressie-incidenten."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basistraining behandelt het herkennen en de-escaleren van agressie in het moment. Dit gevorderde niveau richt zich op patronen die niet impulsief zijn: bewuste grensoverschrijding, manipulatie en consistent teamoptreden."
+    antwoord: "In de basis oefen je de burger die schreeuwt over een aanslag en de mailwisseling die steeds verder oploopt. Hier gaat het om intimidatie die bewust wordt ingezet, zoals de ondernemer die tijdens een controle dreigt met de pers of met contacten in de politiek, en om valse beschuldigingen aan jouw adres. Je oefent ook het werken op locatie, waar geen collega naast je staat. Expert is voor teamleiders en veiligheidscoördinatoren, die het veiligheidsbeleid rond controles vastleggen."
 gerelateerd:
   - "agressietraining-belastingdienst-basis"
   - "agressietraining-belastingdienst-expert"

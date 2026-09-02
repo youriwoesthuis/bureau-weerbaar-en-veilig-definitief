@@ -17,26 +17,26 @@ samenvatting: >-
   en balie vroegtijdig de-escaleren. De training duurt 1 dag, telt maximaal 10
   deelnemers en wordt bij jullie op locatie gegeven.
 resultaat:
-  - Verschillende agressievormen herkennen
-  - De eigen reactie reguleren onder druk
-  - Professioneel verbale grenzen stellen
-  - Situaties vroegtijdig de-escaleren
-  - Interne protocollen toepassen
-  - Incidenten correct rapporteren
+  - "Zien of iemand boos is om iets wat misging of je onder druk zet om zijn zin te krijgen"
+  - "Rustig blijven als een klant tegen je schreeuwt terwijl de rij aangroeit"
+  - "Verbaal een grens stellen zonder de klant kwader te maken"
+  - "Signalen vroeg oppikken en de spanning eruit halen voordat het uit de hand loopt"
+  - "Doen wat het protocol van de winkel voorschrijft"
+  - "Een incident opschrijven, zodat je werkgever weet wat er speelt"
 programma:
   - titel: Agressie aan kassa en balie herkennen
-    inhoud: Vormen van agressie en vroege signalen, toegespitst op het werken in de frontlinie met wachtrijen en direct klantcontact.
+    inhoud: "Vormen van agressie en de signalen die eraan voorafgaan, met een rij achter je en klanten die meekijken."
   - titel: Eigen reactie reguleren
-    inhoud: Rustig en professioneel blijven wanneer een klant scheldt, dreigt of druk opvoert.
+    inhoud: "Rustig blijven en je werk afmaken terwijl een klant scheldt, dreigt of druk opvoert."
   - titel: Grenzen stellen en de-escaleren
-    inhoud: Verbale grenzen stellen bij geweigerde kortingen, discussies over afrekenen en diefstalverdenkingen, zonder het conflict te voeden.
-  - titel: Protocol en rapporteren
-    inhoud: Handelen volgens het interne protocol en incidenten correct rapporteren.
-  - titel: Oefenen met realistische scenario's
-    inhoud: "Praktijkgerichte oefeningen op basis van echte kassasituaties: geen naïeve rollenspellen."
+    inhoud: "Een grens stellen bij een geweigerde korting, een discussie over het afrekenen of een diefstalverdenking, zonder het conflict te voeden."
+  - titel: Protocol en melden
+    inhoud: "Handelen volgens het protocol van de winkel, en achteraf opschrijven wat er gebeurde."
+  - titel: Oefenen met echte situaties
+    inhoud: "Oefeningen op basis van situaties die aan de kassa werkelijk voorkomen."
 werkvormen:
-  - realistische scenario's uit de kassapraktijk
-  - praktijkgerichte oefeningen
+  - situaties die aan de kassa werkelijk voorkomen
+  - oefenen met een trainingsacteur
   - feedback van de trainer
 veelgestelde_vragen:
   - vraag: Voor wie is deze training bedoeld?

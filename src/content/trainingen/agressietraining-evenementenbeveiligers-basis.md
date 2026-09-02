@@ -16,25 +16,25 @@ samenvatting: >-
   escalatie, in een omgeving met grote aantallen mensen en beperkt zicht.
   De training duurt 1 dag en telt maximaal 10 deelnemers.
 resultaat:
-  - Verschillende vormen van agressie herkennen
-  - Verbaal agressief gedrag professioneel begrenzen
-  - "Situaties de-escaleren vóór fysieke escalatie"
-  - De eigen emotionele reactie reguleren onder druk
-  - Incidenten correct melden volgens protocol
+  - Zien met wat voor agressie je te maken hebt op een druk terrein
+  - Een grens stellen bij iemand die je uitscheldt of niet weg wil
+  - Een situatie eruit halen voordat er geduwd en geslagen wordt
+  - Rustig blijven als een dronken bezoeker tegen je tekeergaat
+  - Een incident melden zoals het protocol voorschrijft
 programma:
   - titel: Agressie op een evenement
-    inhoud: Vormen van agressie herkennen bij grote aantallen mensen en bezoekers onder invloed.
+    inhoud: Zien met wat voor agressie je te maken hebt bij veel mensen en bezoekers onder invloed.
   - titel: Reguleren onder druk
-    inhoud: De eigen emotionele reactie beheersen bij dronken bezoekers die weigeren te vertrekken.
+    inhoud: Rustig blijven bij een dronken bezoeker die niet weg wil.
   - titel: "De-escaleren vóór fysiek"
-    inhoud: Groepsconflicten terugbrengen voordat ze fysiek worden.
+    inhoud: Een ruzie tussen groepen eruit halen voordat er geduwd en geslagen wordt.
   - titel: Omstanders
-    inhoud: Handelen wanneer omstanders je interventie tegenwerken.
+    inhoud: Blijven staan als omstanders zich met je optreden gaan bemoeien.
   - titel: Massapaniek en melden
-    inhoud: Handelen bij dreigende massapaniek en incidenten correct melden volgens protocol.
+    inhoud: Weten wat je doet als een menigte in paniek dreigt te raken, en het incident daarna melden.
 werkvormen:
-  - realistische oefeningen met trainers uit de evenementenbeveiliging
-  - werkelijke situaties van de eigen werkvloer
+  - een trainingsacteur die de evenementenbeveiliging kent
+  - situaties van de eigen werkvloer
   - oefenen met de protocollen van de eigen organisatie
 veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"

@@ -26,7 +26,7 @@ resultaat:
   - Veilig optreden zonder directe ondersteuning van collega's
 programma:
   - titel: Complexe agressiepatronen herkennen
-    inhoud: Het verschil tussen impulsieve en instrumentele agressie, en klanten die het systeem kennen en bewust grenzen verleggen.
+    inhoud: Het verschil tussen frustratieagressie en instrumentele agressie, en klanten die het systeem kennen en bewust grenzen verleggen.
   - titel: Strategische intimidatie en manipulatie
     inhoud: Omgaan met doelbewuste grensoverschrijding, valse discriminatiebeschuldigingen en groepsgedrag als afleidingstactiek.
   - titel: Teamconsistentie en afspraken
@@ -43,7 +43,7 @@ veelgestelde_vragen:
   - vraag: Voor wie is de gevorderde agressietraining voor winkelmedewerkers bedoeld?
     antwoord: "Voor winkelmedewerkers die een basistraining hebben afgerond en regelmatig met herhaalde of complexe agressie-incidenten te maken hebben: bijvoorbeeld in drukke stadslocaties, avond- en weekendploegen of winkels met veel diefstal en overlast."
   - vraag: Is een basistraining verplicht om mee te doen?
-    antwoord: Meestal wel. Een afgeronde basistraining is de standaardvoorwaarde. Aantoonbare werkervaring met agressie-incidenten kan daarvoor in de plaats komen.
+    antwoord: "Niet per se. Wat telt is dat je de basis beheerst: signalen herkennen, je eigen reactie reguleren en een gesprek terugbrengen. Dat komt meestal uit de basistraining, maar aantoonbare werkervaring met agressie-incidenten kan er ook voor in de plaats komen. Bij de intake stellen we samen vast welk niveau past."
   - vraag: Wat is het verschil met de basistraining?
     antwoord: "De focus. De basistraining gaat over herkennen en de-escaleren van agressie in het moment. De gevorderde training richt zich op patronen die niet impulsief zijn: bewuste grensoverschrijding, manipulatie en terugkerende overlastgevers, en op consistent teamgedrag."
 gerelateerd:

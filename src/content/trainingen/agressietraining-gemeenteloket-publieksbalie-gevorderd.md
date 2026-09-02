@@ -18,32 +18,31 @@ samenvatting: >-
   training duurt 1 dag, telt maximaal 10 deelnemers en vraagt een
   afgeronde basistraining of ervaring met loketincidenten.
 resultaat:
-  - "Instrumentele agressie onderscheiden van frustratie-agressie"
-  - Manipulatie en druktactieken herkennen en neutraliseren
-  - Werken met profielen van probleembezoekers
-  - Teamafspraken maken en nakomen
-  - Eenduidig reageren als team
-  - Professioneel omgaan met agressie vanuit kwetsbaarheid
+  - Het verschil zien tussen iemand die vastloopt en iemand die je bewust klemzet
+  - Merken wanneer iemand je bespeelt om zijn zin te krijgen, en daar rustig op reageren
+  - Werken met een korte beschrijving van bezoekers waar het vaker misgaat
+  - Afspreken wie wat zegt, en je daar als team ook aan houden
+  - Weten wat je doet bij een burger die in de war of overstuur is
 programma:
   - titel: Instrumentele agressie
-    inhoud: Intimidatie die bewust wordt ingezet om een beslissing te beïnvloeden.
+    inhoud: Merken dat iemand je onder druk zet om een besluit de goede kant op te krijgen.
   - titel: Manipulatie en juridische dreiging
-    inhoud: Omgaan met manipulatie via klachten of dreiging met juridische stappen.
+    inhoud: Reageren op iemand die je bespeelt met een klacht of dreigt met een advocaat.
   - titel: Profielen en teamafspraken
-    inhoud: Werken met profielen van probleembezoekers en afspraken die het hele team nakomt.
+    inhoud: Werken met een korte beschrijving van bezoekers waar het vaker misgaat, en afspraken die iedereen nakomt.
   - titel: Agressie uit kwetsbaarheid
-    inhoud: "Professioneel handelen bij burgers met psychiatrische problematiek, waar begrenzen anders werkt."
+    inhoud: "Weten wat je doet bij een burger die in de war of overstuur is, waar een grens stellen anders uitpakt."
   - titel: Casuïstiek van de eigen organisatie
-    inhoud: Eigen situaties analyseren en oefenen met directe feedback.
+    inhoud: Eigen situaties doornemen en naspelen, met directe feedback.
 werkvormen:
   - casuïstiek van de eigen organisatie
-  - analyse van teampatronen
-  - oefening van ingebrachte situaties
+  - nagaan hoe het team op deze bezoekers reageert
+  - oefenen met situaties die deelnemers zelf inbrengen
 veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Loket- en baliemedewerkers die regelmatig complexe of herhaalde agressie-incidenten hanteren. Voorwaarde voor deelname: afgeronde basistraining of aantoonbare werkervaring met agressie-incidenten aan het loket."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basistraining behandelt het herkennen en de-escaleren van agressie in het moment. Dit gevorderde niveau richt zich op patronen die niet impulsief zijn: bewuste grensoverschrijding, manipulatie en consistent teamoptreden."
+    antwoord: "In de basis oefen je de burger die schreeuwt over een afgewezen aanvraag en de persoonlijke aantijging aan het loket. Hier gaat het om intimidatie die bewust wordt ingezet om een besluit te beïnvloeden, om manipulatie via de klachtenprocedure of dreiging met een advocaat, en om burgers met psychiatrische problematiek bij wie begrenzen anders werkt. Je werkt met profielen van bekende bezoekers en met afspraken die het hele team nakomt, zodat dezelfde persoon niet aan elk loket iets anders hoort. Expert is voor teamleiders, die het beleid rond escalatie en toegangsweigering vaststellen."
 gerelateerd:
   - "agressietraining-gemeenteloket-publieksbalie-basis"
   - "agressietraining-gemeenteloket-publieksbalie-expert"

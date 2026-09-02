@@ -18,26 +18,26 @@ samenvatting: >-
   De training duurt 1 dag, met maximaal 8
   deelnemers en een leidinggevende functie als voorwaarde.
 resultaat:
-  - Agressiepatronen op vestigingsniveau analyseren en bespreken
-  - Het agressieprotocol toetsen en aanscherpen
-  - Medewerkers structureel coachen na incidenten
-  - Een heldere escalatiestructuur opzetten
-  - Juridische verantwoordelijkheden begrijpen en communiceren
-  - De meldcultuur in de vestiging versterken
+  - "Zien welke incidenten in de vestiging terugkeren, en dat met het team bespreken"
+  - "Nagaan of het agressieprotocol werkt op een drukke zaterdag, en het aanpassen"
+  - "Een incident naderhand doornemen met de medewerker, elke keer"
+  - "Vastleggen wie je erbij haalt als het misgaat, en zorgen dat het blijft staan"
+  - "Weten waar de winkel aansprakelijk voor is, en dat uitleggen aan het team"
+  - "Zorgen dat incidenten gemeld worden, ook de kleine die niemand opschrijft"
 programma:
   - titel: Analyse van de eigen vestiging
-    inhoud: "Wat gebeurt er werkelijk aan kassa en balie: meldingen, nabesprekingen en de consistentie van teamreacties."
-  - titel: Protocol en escalatiestructuur
-    inhoud: Het agressieprotocol toetsen, aanscherpen en vertalen naar een heldere escalatiestructuur voor het hele team.
-  - titel: Coachen en nazorg
-    inhoud: Medewerkers structureel begeleiden na incidenten en zorgen voor nazorg bij ernstige situaties.
-  - titel: Juridische kaders en meldcultuur
-    inhoud: Juridische verantwoordelijkheden begrijpen en communiceren, en incidenten inzetten als leermiddel.
+    inhoud: "Wat er werkelijk gebeurt aan kassa en balie: wat er gemeld wordt, wat er nabesproken wordt en of het team hetzelfde doet."
+  - titel: Protocol en escalatie
+    inhoud: "Het agressieprotocol toetsen en vertalen naar afspraken over wie je erbij haalt als het misgaat."
+  - titel: Nabespreken en nazorg
+    inhoud: "Een vast moment inrichten om een incident door te nemen, en opvang regelen na de zware."
+  - titel: Aansprakelijkheid en melden
+    inhoud: "Weten waar de winkel aansprakelijk voor is, en meldingen gebruiken om het werk te veranderen."
   - titel: Intervisie na afloop (op verzoek)
-    inhoud: Terugkombijeenkomst waarin deelnemers eigen casussen inbrengen en de toepassing in de praktijk wordt aangescherpt.
+    inhoud: "Terugkombijeenkomst waarin deelnemers eigen situaties inbrengen en nagaan wat er van de afspraken terechtkwam."
 werkvormen:
-  - casuïstiekbespreking
-  - beleidsanalyse en concrete beleidsverbetering
+  - eigen casuïstiek bespreken
+  - "het bestaande beleid doornemen en er concrete verbeteringen uit halen"
   - intervisie na afloop (op verzoek)
 veelgestelde_vragen:
   - vraag: Voor wie is de expert agressietraining voor leidinggevenden in de retail bedoeld?

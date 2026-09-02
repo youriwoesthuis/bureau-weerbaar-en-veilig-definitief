@@ -17,26 +17,26 @@ samenvatting: >-
   training duurt 1 dag, telt maximaal 10 deelnemers en wordt gegeven door
   trainers met retailervaring.
 resultaat:
-  - Agressievormen herkennen en inschatten
-  - De eigen reactie reguleren onder druk
-  - Escalaties stabiliseren en de-escaleren
-  - Opvanggesprekken met medewerkers voeren
-  - Incidenten correct melden
+  - Zien met wat voor agressie je te maken hebt en hoe ver het kan gaan
+  - Rustig blijven als een klant jou als leidinggevende erbij haalt en tekeergaat
+  - Een oplopende situatie tot stilstand brengen zonder er olie op te gooien
+  - Een medewerker opvangen die net iets naars heeft meegemaakt
+  - Een incident melden, ook het kleine dat niemand opschrijft
 programma:
   - titel: De dubbele rol van de leidinggevende
-    inhoud: "Zelf ingrijpen bij escalaties én de veiligheid van het team bewaken: wat die dubbele verantwoordelijkheid vraagt."
+    inhoud: "Zelf ingrijpen én je team veilig houden: wat het van je vraagt om dat allebei te doen."
   - titel: Ingrijpen zonder olie op het vuur
-    inhoud: Een situatie stabiliseren wanneer een medewerker hulp inroept of een diefstalconfrontatie uit de hand loopt.
+    inhoud: Een situatie tot stilstand brengen als een medewerker je roept of een aangehouden dief zich verzet.
   - titel: Eigen reactie reguleren
-    inhoud: Rustig en professioneel blijven, ook wanneer een klant "de manager eist" en agressief reageert.
+    inhoud: Rustig blijven als een klant de manager erbij haalt en tegen je uitvalt.
   - titel: Opvang van medewerkers
-    inhoud: Een goed opvanggesprek voeren met een medewerker die in shock is na een incident.
+    inhoud: Een gesprek voeren met een medewerker die na een incident van slag is.
   - titel: Melden en opvolgen
-    inhoud: Incidenten correct melden, de politie inschakelen wanneer nodig en structureel onveilige situaties aankaarten.
+    inhoud: Het incident melden, de politie inschakelen als dat nodig is en aankaarten wat er structureel niet klopt.
 werkvormen:
-  - oefening van echte retailsituaties
-  - praktijkgerichte casuïstiek
-  - trainers met retailervaring
+  - oefenen met situaties van de eigen winkelvloer
+  - casuïstiek uit de eigen vestiging
+  - een trainingsacteur en trainers die de retail kennen
 veelgestelde_vragen:
   - vraag: Voor wie is de agressietraining voor filiaalmanagers en teamleiders bedoeld?
     antwoord: Voor filiaalmanagers, assistent-managers en teamleiders in de retail. Er is geen voorkennis nodig; dit is het instapniveau voor leidinggevenden.

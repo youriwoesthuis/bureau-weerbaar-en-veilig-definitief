@@ -17,27 +17,27 @@ samenvatting: >-
   benoemen, inclusief seksuele intimidatie. De training duurt 1 dag en
   telt maximaal 10 deelnemers.
 resultaat:
-  - Signalen van oplopende spanning herkennen voordat escalatie optreedt
-  - "De eigen reactie reguleren onder druk, ondanks de gastvrijheidsnorm"
-  - Een weigering professioneel formuleren zonder onnodige escalatie
-  - "Grensoverschrijdend gedrag benoemen, inclusief seksuele intimidatie"
-  - Collega’s op het juiste moment inschakelen
-  - Incidenten correct melden en bespreken
+  - Zien dat een gast omslaat voordat het misgaat
+  - Rustig blijven terwijl je geacht wordt gastvrij te zijn
+  - Nee zeggen op een manier waar de gast niet meteen op ontploft
+  - Benoemen wanneer een gast te ver gaat, ook bij handtastelijkheid
+  - Op tijd een collega erbij roepen
+  - Een incident melden en het naderhand met een collega doornemen
 programma:
   - titel: Spanning zien oplopen
-    inhoud: "Signalen herkennen voordat een gast omslaat, ook in een drukke zaak."
+    inhoud: "Zien dat een gast omslaat, ook als het druk is in de zaak."
   - titel: Gastvrij én duidelijk
-    inhoud: "De eigen reactie reguleren wanneer de gastvrijheidsnorm zegt \"vriendelijk blijven\"."
+    inhoud: Rustig blijven terwijl de regel van het huis zegt dat je vriendelijk blijft.
   - titel: Weigeren zonder escalatie
-    inhoud: Een alcoholweigering of toegangsbeperking professioneel formuleren.
+    inhoud: Nee zeggen tegen nog een drankje of tegen iemand aan de deur, zonder dat het ontploft.
   - titel: Grensoverschrijdend gedrag benoemen
-    inhoud: Seksuele intimidatie van gasten richting personeel benoemen en begrenzen.
+    inhoud: Benoemen en stoppen als een gast handtastelijk wordt tegen het personeel.
   - titel: Collega’s en melden
-    inhoud: Op het juiste moment een collega inschakelen en incidenten correct melden.
+    inhoud: Op tijd een collega erbij roepen en het incident daarna melden.
 werkvormen:
-  - "realistische oefeningen met trainers met horeca-ervaring"
+  - "een trainingsacteur en trainers met horeca-ervaring"
   - casuïstiek van de eigen zaak
-  - expliciete erkenning van de spanning tussen gastvrijheid en grenzen stellen
+  - aandacht voor het wringen tussen gastvrij zijn en nee zeggen
 veelgestelde_vragen:
   - vraag: "Komt seksuele intimidatie aan bod?"
     antwoord: "Ja, expliciet. Grensoverschrijdend gedrag van gasten richting personeel, inclusief seksuele intimidatie: benoemen en begrenzen is een vast leerdoel."

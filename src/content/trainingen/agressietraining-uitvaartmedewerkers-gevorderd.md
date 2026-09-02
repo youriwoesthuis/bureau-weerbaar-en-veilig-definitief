@@ -19,32 +19,32 @@ samenvatting: >-
   deelnemers en vraagt een afgeronde basistraining of aantoonbare
   werkervaring.
 resultaat:
-  - "Rouw- en familiedynamiek herkennen en de eigen rol professioneel bepalen"
-  - Langdurige conflicten hanteren zonder emotioneel uitgeput te raken
-  - Grenzen stellen aan agressieve communicatie
-  - Omgaan met online beschuldigingen en reputatieschade
-  - Bepalen wanneer juridische interventie nodig is
-  - Professionele distantie bewaren in belaste situaties
+  - "Zien wat er tussen familieleden speelt, en bepalen welke rol jij daarin neemt"
+  - "Een conflict dat maanden doorloopt volhouden zonder eraan onderdoor te gaan"
+  - "Een grens stellen aan mails en telefoontjes die over de schreef gaan"
+  - "Reageren als een familie je online beschuldigt"
+  - "Bepalen wanneer je er een jurist bij haalt"
+  - "Betrokken blijven zonder het verdriet mee naar huis te nemen"
 programma:
   - titel: De lange nasleep
-    inhoud: Maandenlange klachten en persoonlijke aanvallen na een uitvaart hanteren.
-  - titel: Complexe familiedynamiek
-    inhoud: De eigen rol bepalen bij families met tegengestelde belangen.
-  - titel: Online beschuldigingen
-    inhoud: "Omgaan met social-mediacampagnes en reputatieschade."
+    inhoud: Omgaan met klachten en persoonlijke aanvallen die maanden na een uitvaart doorlopen.
+  - titel: Families met tegengestelde belangen
+    inhoud: "Zien wat er tussen familieleden speelt, en bepalen welke rol jij daarin neemt."
+  - titel: Beschuldigingen online
+    inhoud: Reageren als een familie je op sociale media beschuldigt.
   - titel: Grenzen en juridische stappen
-    inhoud: Grenzen stellen aan agressieve communicatie en bepalen wanneer juridische interventie nodig is.
-  - titel: Distantie en veerkracht
-    inhoud: "Professionele distantie bewaren, ook wanneer nabestaanden je thuis opzoeken."
+    inhoud: "Een grens stellen aan agressieve mails en telefoontjes, en bepalen wanneer je er een jurist bij haalt."
+  - titel: Afstand houden en het volhouden
+    inhoud: "Betrokken blijven zonder het verdriet mee naar huis te nemen, ook als nabestaanden je thuis opzoeken."
 werkvormen:
   - casuïstiek van de eigen onderneming
-  - analyse en oefening van ingebrachte situaties
-  - expliciete aandacht voor de emotionele belasting van medewerkers
+  - ingebrachte situaties doornemen en oefenen
+  - "aandacht voor wat dit werk medewerkers kost"
 veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Uitvaartmedewerkers met basistraining die complexe familieconflicten en langdurige klachtsituaties hanteren. Voorwaarde voor deelname: afgeronde basistraining of aantoonbare werkervaring."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "Het soort agressie. De basistraining behandelt het herkennen en de-escaleren van agressie in het moment. Dit gevorderde niveau richt zich op patronen die niet impulsief zijn: bewuste grensoverschrijding, manipulatie en consistent teamoptreden."
+    antwoord: "In de basis oefen je de nabestaande die kwaad wordt over de kosten en de familie die jou als scheidsrechter wil gebruiken. Hier gaat het om wat er maanden later nog doorloopt: aanhoudende klachten en persoonlijke aanvallen na een uitvaart, campagnes op sociale media, en families met tegengestelde belangen waarin jouw rol steeds ter discussie staat. Je bepaalt wanneer juridische stappen aan de orde zijn en hoe je afstand houdt als nabestaanden je thuis opzoeken. Expert is voor ondernemers en praktijkmanagers, die vastleggen wanneer de onderneming de dienstverlening beëindigt."
 gerelateerd:
   - "agressietraining-uitvaartmedewerkers-basis"
   - "agressietraining-uitvaartmedewerkers-expert"

@@ -17,32 +17,32 @@ samenvatting: >-
   lijn analyseren, escalatie- en meldbeleid implementeren en chauffeurs
   structureel coachen. De training duurt 1 dag en telt maximaal 8 deelnemers.
 resultaat:
-  - Agressiepatronen per lijn analyseren en vertalen naar maatregelen
-  - Het agressieprotocol testen op praktische bruikbaarheid
-  - Chauffeurs structureel coachen na incidenten
-  - "Escalatie- en meldbeleid implementeren"
-  - Juridische verantwoordelijkheid begrijpen en communiceren
-  - De meldcultuur binnen het bedrijf versterken
+  - Zien op welke lijnen het misgaat, en daar maatregelen aan hangen
+  - Nagaan of het agressieprotocol klopt met wat een chauffeur alleen achter het stuur kan
+  - Een incident naderhand met de chauffeur doornemen, elke keer en niet alleen bij de zware
+  - Vastleggen wanneer een rit stopt, wie je erbij haalt en hoe het gemeld wordt
+  - Weten waar de werkgever voor aan de lat staat, en dat aan de chauffeurs uitleggen
+  - Zorgen dat incidenten gemeld worden, ook de kleine die niemand opschrijft
 programma:
   - titel: Meldingsdata per lijn
-    inhoud: "Analyseren waar het structureel misgaat, zodat probleemlijnen zichtbaar worden."
+    inhoud: "Zien waar het steeds misgaat, zodat duidelijk wordt om welke lijnen het gaat."
   - titel: Protocol op bruikbaarheid
-    inhoud: Toetsen of het protocol werkt voor een chauffeur die alleen achter het stuur zit.
+    inhoud: Nagaan of het protocol werkt voor een chauffeur die alleen achter het stuur zit.
   - titel: Rituitval en politie
-    inhoud: Duidelijk maken wanneer een rit wordt gestaakt en de politie wordt ingeschakeld.
+    inhoud: Vastleggen wanneer een rit stopt en wanneer de politie erbij komt.
   - titel: Coachen na incidenten
-    inhoud: Structurele coaching van chauffeurs inrichten.
+    inhoud: Elk incident naderhand met de chauffeur doornemen, niet alleen het zware.
   - titel: Intervisie na afloop (op verzoek)
-    inhoud: Terugkombijeenkomst over de implementatie.
+    inhoud: Terugkomen op wat er van het beleid terecht is gekomen.
 werkvormen:
-  - "analyse van bestaand beleid, meldingsdata per lijn en bedrijfscultuur"
-  - casuïstiekbespreking
+  - "het beleid, de meldingen per lijn en de werksfeer naast elkaar leggen"
+  - casuïstiek uit het eigen bedrijf doornemen
   - intervisie na afloop (op verzoek)
 veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Lijnmanagers, depotmanagers en veiligheidscoördinatoren in het openbaar vervoer. Voorwaarde voor deelname: leidinggevende functie met aantoonbare werkervaring."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basis- en gevorderde training gaan over het eigen handelen. Dit expertniveau gaat over de organisatie: beleid, escalatiestructuur, nazorg, meldcultuur en het coachen van medewerkers."
+    antwoord: "Basis en gevorderd gaan over wat jij achter het stuur doet. Op dit niveau lees je de meldingen per lijn, zodat zichtbaar wordt waar het structureel misgaat, en toets je of het protocol werkelijk bruikbaar is voor een chauffeur die er alleen voor staat. Je legt vast wanneer een rit wordt gestaakt en de politie erbij komt, en richt de coaching van chauffeurs na incidenten in."
 gerelateerd:
   - "agressietraining-buschauffeurs-basis"
   - "agressietraining-buschauffeurs-gevorderd"

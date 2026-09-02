@@ -43,7 +43,7 @@ veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Taxichauffeurs met een afgeronde basistraining die regelmatig ernstige agressie-incidenten meemaken. Voorwaarde voor deelname: afgeronde basistraining of aantoonbare werkervaring met ernstige agressie-incidenten."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "Het soort agressie. De basistraining behandelt het herkennen en de-escaleren van agressie in het moment. Dit gevorderde niveau richt zich op patronen die niet impulsief zijn: bewuste grensoverschrijding, manipulatie en consistent teamoptreden."
+    antwoord: "In de basis oefen je de passagier die weigert te betalen en het gesprek dat oploopt over route of rijstijl. Hier gaat het om de zwaardere kant: iemand die zo ver heen is dat veilig rijden niet meer kan, een groep die je auto omsingelt of blokkeert, en fysieke dreiging terwijl je rijdt. Je oefent het snelle besluit tussen doorrijden, stoppen en hulpdiensten inschakelen, en wat je doet bij online dreiging via opnames of achtervolging na een rit. Expert is voor planners en operationeel managers, die het veiligheidsprotocol en de risicoanalyse maken."
 gerelateerd:
   - "agressietraining-taxichauffeurs-basis"
   - "agressietraining-taxichauffeurs-expert"

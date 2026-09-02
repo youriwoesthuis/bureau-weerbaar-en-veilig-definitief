@@ -17,32 +17,32 @@ samenvatting: >-
   veiligheidsprotocollen opzetten voor solo-werk in de buitenruimte en
   risicovolle locaties in kaart brengen. De training duurt 1 dag en telt maximaal 8 deelnemers.
 resultaat:
-  - "Veiligheidsprotocollen opzetten voor solo-werkzaamheden in de buitenruimte"
-  - Risicovolle locaties en personen structureel in kaart brengen
-  - "Medewerkers coachen na agressie-incidenten"
-  - Een meldcultuur creëren voor incidenten en risico’s
-  - Samenwerking met politie en wijkteams organiseren
-  - Structurele terugkoppeling van wijkactiviteiten realiseren
+  - Op papier zetten hoe iemand veilig alleen de wijk in gaat
+  - Bijhouden welke adressen en personen een risico vormen, en dat actueel houden
+  - Een incident naderhand met de betrokkene doornemen, elke keer en niet alleen bij de zware
+  - Zorgen dat incidenten gemeld worden, ook de kleine die niemand opschrijft
+  - Afspraken maken met de politie en het wijkteam voordat je ze nodig hebt
+  - Zorgen dat medewerkers terughoren wat er met hun melding is gebeurd
 programma:
   - titel: "Protocol voor solo-werk buiten"
-    inhoud: Een veiligheidsprotocol dat werkt voor medewerkers die alleen de wijk in gaan.
+    inhoud: Op papier zetten hoe iemand veilig alleen de wijk in gaat.
   - titel: Risicolocaties in kaart
-    inhoud: Locaties en personen structureel registreren en vertalen naar afspraken.
-  - titel: Coachen en debriefing
-    inhoud: Medewerkers begeleiden na incidenten met vaste debriefing.
+    inhoud: Bijhouden welke adressen en personen een risico vormen, en daar afspraken aan hangen.
+  - titel: Een incident naderhand doornemen
+    inhoud: Elk incident naderhand met de betrokkene doornemen, niet alleen het zware.
   - titel: Politie en wijkteams
-    inhoud: Samenwerking organiseren die er ook is op het moment dat het nodig is.
+    inhoud: Afspraken maken met de politie en het wijkteam die ook staan op het moment dat je belt.
   - titel: Intervisie na afloop (op verzoek)
-    inhoud: "Terugkombijeenkomst over de implementatie, op basis van het intakegesprek."
+    inhoud: "Terugkomen op wat er van het beleid terecht is gekomen, aansluitend op het intakegesprek."
 werkvormen:
-  - "analyse van veiligheidsbeleid, werkgebieden en veiligheidscultuur"
+  - "het veiligheidsbeleid, de werkgebieden en de werksfeer naast elkaar leggen"
   - maatwerk op basis van een intakegesprek
   - intervisie na afloop (op verzoek)
 veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Teamleiders, coördinatoren en managers bij woningcorporaties die buurtbeheerders en opzichters aansturen. Voorwaarde voor deelname: leidinggevende verantwoordelijkheid voor buurtbeheerders of opzichters."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "Het perspectief. De basis- en gevorderde training gaan over het eigen handelen. Dit expertniveau gaat over de organisatie: beleid, escalatiestructuur, nazorg, meldcultuur en het coachen van medewerkers."
+    antwoord: "Bij basis en gevorderd sta jij zelf in de straat. Op dit niveau maak je een veiligheidsprotocol dat werkt voor mensen die alleen de wijk in gaan, en breng je risicolocaties en risicopersonen systematisch in kaart zodat de afspraken daarop aansluiten. Je richt de debriefing na incidenten in en organiseert de samenwerking met politie en wijkteams zo dat die er ook is op het moment dat je erom vraagt."
 gerelateerd:
   - "agressietraining-buurtbeheerders-opzichters-basis"
   - "agressietraining-buurtbeheerders-opzichters-gevorderd"

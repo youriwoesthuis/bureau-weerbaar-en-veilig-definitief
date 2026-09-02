@@ -17,26 +17,26 @@ samenvatting: >-
   beleid opstellen dat de inhoudelijke autonomie van professionals
   beschermt tegen familiedruk en juridische dreiging. De training duurt 1 dag en telt maximaal 8 deelnemers.
 resultaat:
-  - Beleid opstellen dat de inhoudelijke autonomie van gedragsdeskundigen beschermt
-  - Protocollen ontwikkelen voor omgang met familiedruk en juridische dreiging
-  - Professionals coachen na incidenten
-  - De meldcultuur versterken
-  - "Veiligheidsprotocollen voor solo-werkzaamheden implementeren"
-  - Samenwerking met juridische ondersteuning organiseren
+  - Vastleggen dat een inhoudelijk advies overeind blijft, ook als er druk op komt
+  - Op papier zetten wat je doet als een familie escaleert of met een advocaat dreigt
+  - Een incident naderhand met de betrokkene doornemen, elke keer en niet alleen bij de zware
+  - Zorgen dat incidenten gemeld worden, ook de kleine die niemand opschrijft
+  - Vastleggen hoe iemand veilig alleen op locatie werkt
+  - Regelen dat er juridische hulp klaarstaat als een professional die nodig heeft
 programma:
   - titel: Autonomie beschermen
-    inhoud: Beleid dat voorkomt dat inhoudelijke adviezen wijken onder druk van buiten.
+    inhoud: Vastleggen dat een inhoudelijk advies overeind blijft, ook als er van buiten druk op komt.
   - titel: Protocol bij familiedruk en juridische dreiging
-    inhoud: Concrete protocollen voor het moment dat een familie escaleert of juridisch dreigt.
-  - titel: Coachen en meldcultuur
-    inhoud: "Professionals begeleiden na incidenten en intimidatiecampagnes, en zorgen dat er gemeld wordt."
+    inhoud: Op papier zetten wat je doet als een familie escaleert of met een advocaat dreigt.
+  - titel: Coachen en zorgen dat er gemeld wordt
+    inhoud: "Elk incident naderhand doornemen met de betrokkene, en zorgen dat ook de kleine incidenten worden gemeld."
   - titel: "Solo-werkzaamheden"
-    inhoud: Veiligheidsprotocollen voor professionals die alleen op locatie werken.
+    inhoud: Vastleggen hoe iemand veilig alleen op locatie werkt.
   - titel: Juridische ondersteuning en intervisie
-    inhoud: Samenwerking met juridische ondersteuning organiseren; na 6 weken intervisie over de implementatie.
+    inhoud: Regelen dat er juridische hulp klaarstaat; na 6 weken intervisie over wat ervan terecht is gekomen.
 werkvormen:
-  - beleidsanalyse en onderzoek van incidentrapportages
-  - beleidsverdieping met concrete protocollen
+  - het beleid naast de gemelde incidenten leggen
+  - protocollen uitwerken die je de volgende dag kunt gebruiken
   - intervisie na afloop (op verzoek)
 veelgestelde_vragen:
   - vraag: "Wat betekent het beschermen van inhoudelijke autonomie?"
@@ -44,7 +44,7 @@ veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Managers, coördinatoren en bestuurders in de gehandicaptenzorg die teams van gedragsdeskundigen en orthopedagogen leiden. Voorwaarde voor deelname: leidinggevende verantwoordelijkheid voor een team gedragsdeskundigen of orthopedagogen in de gehandicaptenzorg."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basis- en gevorderde training gaan over het eigen handelen. Dit expertniveau gaat over de organisatie: beleid, escalatiestructuur, nazorg, meldcultuur en het coachen van medewerkers."
+    antwoord: "Basis en gevorderd gaan over jouw eigen positie als adviseur. Op dit niveau maak je beleid dat voorkomt dat inhoudelijke adviezen wijken zodra een familie escaleert of juridisch dreigt, en leg je vast wat er dan precies gebeurt. Je richt de begeleiding na incidenten en intimidatiecampagnes in, regelt de juridische ondersteuning en zorgt voor een veiligheidsafspraak voor professionals die alleen op locatie werken."
 gerelateerd:
   - "agressietraining-gedragsdeskundigen-orthopedagogen-basis"
   - "agressietraining-gedragsdeskundigen-orthopedagogen-gevorderd"

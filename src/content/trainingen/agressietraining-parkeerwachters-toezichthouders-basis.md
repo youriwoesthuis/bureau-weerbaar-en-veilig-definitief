@@ -17,27 +17,27 @@ samenvatting: >-
   worden afgebroken. De training duurt 1 dag en telt maximaal 10
   deelnemers.
 resultaat:
-  - Signalen van oplopende spanning herkennen
-  - De eigen reactie reguleren bij agressieve burgers
-  - Verbaal agressief gedrag professioneel begrenzen
-  - Veilig handelen bij groepsdruk
-  - Bepalen wanneer een situatie moet worden afgebroken
-  - Incidenten correct melden
+  - "Zien dat de spanning oploopt voordat iemand ontploft"
+  - "Rustig blijven als een automobilist tegen je uitvalt"
+  - "Verbaal een grens stellen bij een agressieve reactie op een bon"
+  - "Veilig handelen als omstanders zich ermee gaan bemoeien"
+  - "Bepalen wanneer je weggaat, en dat besluit ook nemen"
+  - "Een incident melden"
 programma:
   - titel: Spanning zien oplopen
-    inhoud: Signalen herkennen vóór het moment dat een automobilist ontploft.
+    inhoud: Signalen herkennen voordat een automobilist ontploft.
   - titel: Reguleren en begrenzen
-    inhoud: De eigen reactie beheersen en verbaal begrenzen bij een agressieve reactie op een bon.
+    inhoud: Rustig blijven en een grens stellen bij een agressieve reactie op een bon.
   - titel: Groepsdruk
     inhoud: Veilig handelen wanneer omstanders zich ermee gaan bemoeien of je omsingelen.
   - titel: Afbreken
-    inhoud: Bepalen wanneer je vertrekt, en dat besluit durven nemen.
+    inhoud: "Bepalen wanneer je weggaat, en dat besluit ook nemen."
   - titel: Na het optreden
-    inhoud: "Omgaan met online bedreigingen na handhavingsoptreden, en incidenten correct melden."
+    inhoud: "Reageren op online bedreigingen na een optreden, en het incident melden."
 werkvormen:
-  - realistische oefeningen met trainers die de handhavingscontext kennen
+  - oefenen met trainers die het handhavingswerk kennen
   - casuïstiek uit het eigen werkgebied
-  - praktijkgericht oefenen zonder naïeve rollenspellen
+  - oefenen met een trainingsacteur
 veelgestelde_vragen:
   - vraag: "Leren deelnemers wanneer ze een situatie moeten afbreken?"
     antwoord: "Ja. Bepalen wanneer je weggaat is een expliciet onderdeel van de training: weggaan is vaak veiliger dan blijven, en juist dat besluit is moeilijk om te nemen."

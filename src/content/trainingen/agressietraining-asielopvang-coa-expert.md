@@ -17,32 +17,32 @@ samenvatting: >-
   crisisprotocollen opstellen voor collectieve incidenten en medewerkers
   steunen onder politieke en maatschappelijke druk. De training duurt 1 dag en telt maximaal 8 deelnemers.
 resultaat:
-  - Crisisprotocollen opstellen voor collectieve incidenten
-  - "Samenwerking organiseren met politie, beveiliging en ketenpartners"
-  - Medewerkers coachen na ernstige incidenten
-  - Beleid ontwikkelen voor structureel agressieve bewoners
-  - De meldcultuur versterken
-  - Medewerkers ondersteunen die onder politieke en maatschappelijke druk werken
+  - Op papier zetten wie wat doet als een incident meerdere bewoners meetrekt
+  - "Afspraken maken met politie, beveiliging en ketenpartners voordat je ze nodig hebt"
+  - Een incident naderhand met de betrokkene doornemen, ook als het zwaar was
+  - Afspreken hoe je omgaat met bewoners bij wie agressie een patroon is
+  - Zorgen dat incidenten gemeld worden, ook de kleine die niemand opschrijft
+  - Merken wanneer de druk van buiten bij je medewerkers terechtkomt, en dat opvangen
 programma:
   - titel: Crisisprotocol
-    inhoud: "Een helder protocol voor collectieve incidenten, afgestemd op de eigen locatie."
+    inhoud: "Op papier zetten wie wat doet als een incident meerdere bewoners meetrekt, toegespitst op de eigen locatie."
   - titel: Ketensamenwerking
-    inhoud: "Samenwerking met politie, beveiliging en partners organiseren vóórdat het nodig is."
+    inhoud: "Afspraken maken met politie, beveiliging en partners voordat je ze nodig hebt."
   - titel: Beleid bij structurele agressie
-    inhoud: Beleid voor bewoners bij wie agressie een patroon is.
-  - titel: Coachen en debriefing
-    inhoud: Structurele opvang na ernstige incidenten inrichten.
+    inhoud: Afspreken hoe je omgaat met bewoners bij wie agressie een patroon is.
+  - titel: Een incident naderhand doornemen
+    inhoud: De opvang na een zwaar incident zo inrichten dat elk incident wordt doorgenomen.
   - titel: Politieke en maatschappelijke druk
-    inhoud: Voorkomen dat de druk op de organisatie doorslaat naar de individuele medewerker; intervisie na 6 weken.
+    inhoud: Voorkomen dat de druk op de organisatie bij de individuele medewerker terechtkomt; intervisie na 6 weken.
 werkvormen:
-  - analyse van bestaand beleid en incidenten
-  - beleidsverdieping met crisisprotocollen voor de opvangpraktijk
+  - het bestaande beleid naast de gemelde incidenten leggen
+  - crisisprotocollen uitwerken voor de eigen opvangpraktijk
   - intervisie na afloop (op verzoek)
 veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Locatiemanagers, coördinatoren en operationeel leidinggevenden bij asielzoekerscentra. Voorwaarde voor deelname: leidinggevende of coördinerende verantwoordelijkheid op een opvanglocatie."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basis- en gevorderde training gaan over het eigen handelen. Dit expertniveau gaat over de organisatie: beleid, escalatiestructuur, nazorg, meldcultuur en het coachen van medewerkers."
+    antwoord: "Basis en gevorderd gaan over wat jij op de locatie zelf doet. Op dit niveau maak je het crisisprotocol voor collectieve incidenten passend bij jullie eigen locatie, regel je de samenwerking met politie en ketenpartners voordat je die nodig hebt, en leg je beleid vast voor bewoners bij wie agressie een patroon is. Daar komt bij dat jij de politieke en maatschappelijke druk opvangt, zodat die niet bij de medewerker op de groep terechtkomt."
 gerelateerd:
   - "agressietraining-asielopvang-coa-basis"
   - "agressietraining-asielopvang-coa-gevorderd"

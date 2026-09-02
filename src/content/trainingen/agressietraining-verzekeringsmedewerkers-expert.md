@@ -41,7 +41,7 @@ veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Teamleiders, managers en veiligheidscoördinatoren bij verzekeraars. Voorwaarde voor deelname: leidinggevende verantwoordelijkheid voor verzekeringsmedewerkers of schadebehandelaars."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "Het perspectief. De basis- en gevorderde training gaan over het eigen handelen. Dit expertniveau gaat over de organisatie: beleid, escalatiestructuur, nazorg, meldcultuur en het coachen van medewerkers."
+    antwoord: "Bij basis en gevorderd voer jij zelf het gesprek met de klant. Op dit niveau analyseer je de meldingen op afdelingsniveau en zet je die om in maatregelen, en stel je een protocol op voor klanten die over de grens gaan. Je ontwikkelt beleid om een klantrelatie vanwege agressie te beëindigen, richt de opvang na zware gesprekken in en neemt veiligheidsmaatregelen voor risicovolle contactmomenten zoals inspecties op locatie."
 gerelateerd:
   - "agressietraining-verzekeringsmedewerkers-basis"
   - "agressietraining-verzekeringsmedewerkers-gevorderd"

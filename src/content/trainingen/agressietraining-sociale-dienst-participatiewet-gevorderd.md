@@ -13,36 +13,36 @@ voorwaarde: afgeronde basistraining of aantoonbare werkervaring met complexe agr
 doelgroep: Klantmanagers en consulenten die de basistraining hebben afgerond en regelmatig met complexe cliëntsituaties werken.
 samenvatting: >-
   De gevorderde agressietraining voor de Participatiewet van Bureau
-  Weerbaar en Veilig richt zich op strategische agressie,
+  Weerbaar en Veilig richt zich op instrumentele agressie,
   fraudeconstatering en bedreigingen via privékanalen. De training duurt 1
   dag, telt maximaal 10 deelnemers en vraagt een afgeronde basistraining
   of ervaring met complexe agressiesituaties.
 resultaat:
-  - Strategische agressiepatronen onderscheiden van impulsieve reacties
-  - Professioneel standhouden bij intimidatie en druk
-  - Als team reageren op cliënten die inconsistentie uitbuiten
-  - Veilig handelen bij fraudeconstatering en complexe problematiek
-  - Bedreigingen buiten werktijd correct escaleren
+  - "Zien of iemand uit frustratie reageert of je onder druk zet om een besluit te veranderen"
+  - "Standhouden en het besluit vasthouden als de druk oploopt"
+  - "Met het team afspreken wat je doet, zodat een cliënt geen verschil kan uitspelen"
+  - "Veilig handelen op het moment dat je fraude constateert"
+  - "Doorgeven aan wie erover gaat als je buiten werktijd wordt bedreigd"
 programma:
-  - titel: Strategische agressie
-    inhoud: Herkennen wanneer intimidatie bewust wordt ingezet om een beslissing te beïnvloeden.
+  - titel: Druk in plaats van frustratie
+    inhoud: Herkennen wanneer intimidatie bewust wordt ingezet om een beslissing te veranderen.
   - titel: Standhouden onder druk
-    inhoud: Professioneel blijven en het besluit handhaven wanneer de druk toeneemt.
-  - titel: Fraudeconstatering
+    inhoud: Rustig blijven en het besluit vasthouden wanneer de druk oploopt.
+  - titel: Fraude constateren
     inhoud: Veilig handelen op het moment dat je fraude constateert en moet melden.
-  - titel: Teaminconsistentie
-    inhoud: Voorkomen dat cliënten verschil tussen collega’s uitbuiten.
+  - titel: Als het team uiteenloopt
+    inhoud: Voorkomen dat een cliënt het verschil tussen collega’s uitspeelt.
   - titel: Bedreiging buiten werktijd
-    inhoud: Bedreigingen via privékanalen na ingrijpende besluiten correct escaleren.
+    inhoud: "Doorgeven aan wie erover gaat als je na een besluit via privékanalen wordt bedreigd."
 werkvormen:
   - casuïstiek van de eigen organisatie
-  - analyse van teampatronen
-  - aandacht voor de emotionele belasting van medewerkers
+  - doornemen wat er in het team terugkeert
+  - "aandacht voor wat dit werk medewerkers kost"
 veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Klantmanagers en consulenten die de basistraining hebben afgerond en regelmatig met complexe cliëntsituaties werken. Voorwaarde voor deelname: afgeronde basistraining of aantoonbare werkervaring met complexe agressiesituaties."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basistraining behandelt het herkennen en de-escaleren van agressie in het moment. Dit gevorderde niveau richt zich op patronen die niet impulsief zijn: bewuste grensoverschrijding, manipulatie en consistent teamoptreden."
+    antwoord: "In de basis oefen je de reactie op een korting of stopzetting en het begrenzen aan de balie. Hier gaat het om intimidatie die bewust wordt ingezet om een beslissing te kantelen, om het moment dat je fraude constateert en moet melden, en om bedreigingen die na een besluit via je privékanalen binnenkomen. Je maakt ook afspraken die voorkomen dat een cliënt het verschil tussen twee klantmanagers uitbuit. Expert is voor teamleiders en afdelingshoofden, die het beleid bij grensoverschrijdend gedrag vaststellen."
 gerelateerd:
   - "agressietraining-sociale-dienst-participatiewet-basis"
   - "agressietraining-sociale-dienst-participatiewet-expert"

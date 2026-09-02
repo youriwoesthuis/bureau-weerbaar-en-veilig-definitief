@@ -19,34 +19,34 @@ samenvatting: >-
   dag, telt maximaal 10 deelnemers en vraagt een afgeronde basistraining
   of ervaring met complexe begeleidingsrelaties.
 resultaat:
-  - Manipulatieve gedragspatronen in langdurige begeleidingsrelaties herkennen
-  - Grensvervaging bij jezelf en collega’s signaleren en bespreekbaar maken
-  - Ontspoorde begeleidingsrelaties herstellen
-  - "Ernstige agressie-incidenten in een één-op-één context professioneel hanteren"
-  - Isolatie door cliënten herkennen en doorbreken
-  - Professionele distantie bewaken in intensieve relaties
+  - "Zien hoe een cliënt de vertrouwensband gebruikt om grenzen op te rekken"
+  - "Merken dat je eigen grens is verschoven, en dat met een collega bespreken"
+  - "Een begeleidingsrelatie die is ontspoord weer op orde krijgen"
+  - "Handelen bij ernstige agressie op een moment dat er niemand anders is"
+  - "Merken wanneer een cliënt je van het team losweekt, en dat doorbreken"
+  - "Betrokken blijven zonder de cliënt mee naar huis te nemen"
 programma:
-  - titel: Manipulatieve patronen
-    inhoud: Herkennen hoe een cliënt de vertrouwensrelatie gebruikt om grenzen op te rekken.
-  - titel: Grensvervaging zien bij jezelf
-    inhoud: "Signaleren wanneer je eigen grenzen zijn verschoven zonder dat je het merkte, en dat bespreekbaar maken."
+  - titel: Grenzen die worden opgerekt
+    inhoud: Zien hoe een cliënt de vertrouwensband gebruikt om steeds iets meer te vragen.
+  - titel: Je eigen grens
+    inhoud: "Merken dat je eigen grens is verschoven zonder dat je het doorhad, en dat bespreken."
   - titel: Ontspoorde relaties herstellen
-    inhoud: Een begeleidingsrelatie die is ontspoord weer op professionele voet krijgen.
-  - titel: "Ernstige incidenten één-op-één"
-    inhoud: Professioneel handelen bij ernstige agressie wanneer er niemand anders is.
+    inhoud: Een begeleidingsrelatie die is ontspoord weer op orde krijgen.
+  - titel: Ernstige incidenten zonder collega
+    inhoud: Handelen bij ernstige agressie op een moment dat er niemand anders is.
   - titel: Isolatie doorbreken
-    inhoud: "Herkennen wanneer een cliënt je van het team isoleert, en die dynamiek doorbreken."
+    inhoud: "Merken wanneer een cliënt je van het team losweekt, en dat doorbreken."
 werkvormen:
   - eigen casuïstiek van deelnemers
-  - "signalering van grensvervaging door de trainer, met directe feedback"
-  - aandacht voor de emotionele kant van intensieve relaties
+  - de trainer benoemt het moment waarop je grens verschuift
+  - aandacht voor wat intensieve begeleiding je kost
 veelgestelde_vragen:
   - vraag: "Wat wordt bedoeld met grensvervaging?"
     antwoord: "Dat de grens tussen professioneel en persoonlijk langzaam verschuift in een langdurige begeleidingsrelatie. Begeleiders zien dat bij zichzelf vaak als laatste; deze training leert die signalen herkennen en bespreken."
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Persoonlijk begeleiders die de basistraining hebben gevolgd en werken met cliënten met een hoog risicoprofiel of complexe gedragsproblematiek. Voorwaarde voor deelname: afgeronde basistraining of aantoonbare werkervaring met complexe begeleidingsrelaties in de gehandicaptenzorg."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basistraining behandelt het herkennen en de-escaleren van agressie in het moment. Dit gevorderde niveau richt zich op patronen die niet impulsief zijn: bewuste grensoverschrijding, manipulatie en consistent teamoptreden."
+    antwoord: "In de basis oefen je de cliënt die uitvalt bij een confrontatie over afspraken en het onderscheid tussen gedrag dat bij de beperking hoort en gedrag dat je begrenst. Hier gaat het om de lange lijn: een cliënt die de vertrouwensrelatie gebruikt om steeds meer ruimte te nemen, grenzen die bij jezelf verschoven zijn zonder dat je het doorhad, en een cliënt die jou van het team losweekt. Je oefent ook ernstige agressie op het moment dat er niemand anders in huis is en het herstellen van een relatie die is ontspoord. Expert is voor teamleiders en gedragscoördinatoren, die grensvervaging als leidinggevende leren zien."
 gerelateerd:
   - "agressietraining-persoonlijk-begeleiders-basis"
   - "agressietraining-persoonlijk-begeleiders-expert"

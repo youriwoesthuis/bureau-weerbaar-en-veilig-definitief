@@ -17,25 +17,25 @@ samenvatting: >-
   vluchtmogelijkheden. De training duurt 1 dag en telt maximaal 10
   deelnemers.
 resultaat:
-  - "Verschillende agressievormen herkennen: frustratie, instrumenteel gedrag en gedrag onder invloed"
-  - De-escaleren in een rijdend voertuig zonder vluchtmogelijkheid
-  - Rustig blijven wanneer een reiziger weigert uit te stappen of een groep de coupé verstoort
-  - Verbaal begrenzen bij controle op vervoerbewijzen en bij conflicten tussen reizigers
-  - Handelen bij passagiers onder invloed met onvoorspelbaar gedrag
-  - "Professioneel blijven wanneer je optreden wordt gefilmd, en incidenten correct melden"
+  - "Zien of iemand boos is om iets wat misging of je onder druk zet om zijn zin te krijgen"
+  - "De spanning eruit halen in een rijdend voertuig waar je niet weg kunt"
+  - "Rustig blijven als een reiziger weigert uit te stappen of een groep de coupé verstoort"
+  - "Verbaal een grens stellen bij de kaartcontrole en bij ruzie tussen reizigers"
+  - "Handelen bij een passagier onder invloed die onvoorspelbaar reageert"
+  - "Doorwerken terwijl iemand je filmt, en het incident melden"
 programma:
   - titel: Agressie in een afgesloten ruimte
-    inhoud: "Wat het betekent om te de-escaleren in een rijdend voertuig zonder vluchtmogelijkheid."
+    inhoud: "Wat het betekent om de spanning eruit te halen in een rijdend voertuig waar je niet weg kunt."
   - titel: Reguleren onder druk
     inhoud: Rustig blijven wanneer een reiziger weigert uit te stappen of een groep de coupé verstoort.
-  - titel: "Begrenzen en de-escaleren"
-    inhoud: Verbaal begrenzen bij controle op vervoerbewijzen en bij conflicten tussen reizigers.
+  - titel: Begrenzen en de-escaleren
+    inhoud: Verbaal een grens stellen bij de kaartcontrole en bij ruzie tussen reizigers.
   - titel: Onder invloed
-    inhoud: Handelen bij passagiers onder invloed met onvoorspelbaar gedrag.
+    inhoud: Handelen bij een passagier onder invloed die onvoorspelbaar reageert.
   - titel: "Gefilmd worden, protocol en melden"
-    inhoud: "Professioneel blijven wanneer optreden wordt gefilmd, en incidenten correct melden."
+    inhoud: "Doorwerken terwijl iemand je filmt, en het incident melden."
 werkvormen:
-  - "realistische oefeningen met trainers met ov-ervaring"
+  - oefenen met trainers die het openbaar vervoer kennen
   - casuïstiek van de eigen lijnen
   - theorie alleen waar die de praktijk ondersteunt
 veelgestelde_vragen:

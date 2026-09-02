@@ -16,27 +16,27 @@ samenvatting: >-
   de-escaleren, met expliciete aandacht voor telefonische agressie. De
   training duurt 1 dag en telt maximaal 10 deelnemers.
 resultaat:
-  - Herkennen waarom een financieel belang en een gezagspositie samen zoveel spanning geven
-  - "Rustig en professioneel blijven aan de telefoon, ook bij schreeuwen en dreigen"
-  - Verbaal agressief gedrag begrenzen bij aanslagen, controles en toeslagproblematiek
-  - Veilig handelen bij verbale agressie tijdens een bedrijfsbezoek
-  - Escalerende e-mailcorrespondentie afbouwen in plaats van beantwoorden
-  - Incidenten correct melden volgens het agressieprotocol
+  - Snappen waarom geld en gezag samen zoveel spanning geven
+  - Rustig blijven aan de telefoon terwijl iemand schreeuwt of dreigt
+  - Een grens stellen bij boosheid over een aanslag, een controle of een toeslag
+  - Weten wat je doet als iemand tijdens een bedrijfsbezoek tegen je uitvalt
+  - Een e-mailwisseling die oploopt afbouwen in plaats van beantwoorden
+  - Een incident melden zoals het agressieprotocol voorschrijft
 programma:
   - titel: Agressie rond geld en gezag
-    inhoud: Waarom financiële belangen en een gezagspositie samen zoveel spanning geven.
+    inhoud: Waarom geld en gezag samen zoveel spanning geven.
   - titel: Telefonische agressie
-    inhoud: "Rustig en professioneel blijven aan de telefoon, ook bij schreeuwen en dreigen."
+    inhoud: "Rustig blijven aan de telefoon, ook als iemand schreeuwt of dreigt."
   - titel: "Begrenzen en de-escaleren"
-    inhoud: "Verbaal agressief gedrag begrenzen bij aanslagen, controles en toeslagproblematiek."
+    inhoud: "Een grens stellen bij boosheid over een aanslag, een controle of een toeslag."
   - titel: Op locatie
-    inhoud: Veilig handelen bij verbale agressie tijdens bedrijfsbezoeken.
+    inhoud: Weten wat je doet als iemand tijdens een bedrijfsbezoek tegen je uitvalt.
   - titel: "E-mail, protocol en melden"
-    inhoud: "Omgaan met escalerende e-mailcorrespondentie en incidenten correct melden."
+    inhoud: "Een e-mailwisseling die oploopt afbouwen, en het incident daarna melden."
 werkvormen:
-  - realistische oefeningen met trainers uit de publieke dienstverlening
-  - expliciete aandacht voor telefonische agressie
-  - praktijkgericht oefenen zonder naïeve rollenspellen
+  - een trainingsacteur die de publieke dienstverlening kent
+  - apart oefenen met agressie aan de telefoon
+  - oefenen met situaties die op jullie afdeling echt voorkomen
 veelgestelde_vragen:
   - vraag: "Is er specifieke aandacht voor telefonische agressie?"
     antwoord: "Ja. Omdat een groot deel van de agressie bij de Belastingdienst telefonisch en per e-mail binnenkomt, is agressie op afstand een expliciet onderdeel van de training."

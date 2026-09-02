@@ -17,32 +17,32 @@ samenvatting: >-
   vaststellen voor acceptabel gedrag en een agressieprotocol implementeren
   dat past bij het open karakter van de bibliotheek. De training duurt 1 dag en telt maximaal 8 deelnemers.
 resultaat:
-  - Helder beleid vaststellen voor acceptabel gedrag
-  - Een agressieprotocol implementeren dat aansluit op het openbare karakter
-  - Medewerkers coachen na incidenten
-  - Eenduidig teambeleid bij probleembezoekers
-  - Samenwerking met gemeente en politie organiseren
-  - De meldcultuur versterken
+  - Op papier zetten welk gedrag in de bibliotheek wel en niet kan
+  - Een agressieprotocol invoeren dat past bij een ruimte die voor iedereen open is
+  - Een incident naderhand met de betrokkene doornemen, elke keer en niet alleen bij de zware
+  - Afspreken hoe het hele team reageert op bezoekers van wie het gedrag bekend is
+  - Afspraken maken met de gemeente en de politie over structurele overlast
+  - Zorgen dat incidenten gemeld worden, ook de kleine die niemand opschrijft
 programma:
   - titel: Beleid voor acceptabel gedrag
-    inhoud: Vaststellen wat wel en niet kan in een ruimte die voor iedereen open is.
+    inhoud: Op papier zetten wat wel en niet kan in een ruimte die voor iedereen open is.
   - titel: Protocol met behoud van openheid
-    inhoud: Een agressieprotocol implementeren dat het open karakter niet ondermijnt.
+    inhoud: Een agressieprotocol invoeren dat de deur niet dichtduwt voor gewone bezoekers.
   - titel: Eenduidig teambeleid
-    inhoud: Zorgen dat het team hetzelfde doet bij bekende probleembezoekers.
-  - titel: Coachen en meldcultuur
-    inhoud: Medewerkers begeleiden na incidenten en normalisering doorbreken.
+    inhoud: Afspreken hoe het hele team reageert op bezoekers van wie het gedrag bekend is.
+  - titel: Coachen en zorgen dat er gemeld wordt
+    inhoud: Elk incident naderhand doornemen, en zorgen dat ook de kleine incidenten worden gemeld.
   - titel: Gemeente en politie
-    inhoud: Samenwerking organiseren bij structurele overlast.
+    inhoud: Afspraken maken met de gemeente en de politie over structurele overlast.
 werkvormen:
-  - "analyse van beleid, bezoekerssituaties en teamcultuur"
-  - beleidsontwikkeling waarin openheid en veiligheid samengaan
+  - "het beleid, de bezoekerssituaties en de werksfeer naast elkaar leggen"
+  - beleid maken waarin openhouden en veilig blijven allebei passen
   - intervisie na afloop (op verzoek)
 veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Vestigingsmanagers en teamleiders in bibliotheken. Voorwaarde voor deelname: leidinggevende verantwoordelijkheid in een bibliotheek, met ervaring met agressie-incidenten."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basis- en gevorderde training gaan over het eigen handelen. Dit expertniveau gaat over de organisatie: beleid, escalatiestructuur, nazorg, meldcultuur en het coachen van medewerkers."
+    antwoord: "Bij basis en gevorderd sta jij zelf tegenover de bezoeker. Op dit niveau stel je vast wat acceptabel gedrag is in een ruimte waar iedereen zonder drempel binnenkomt, en voer je een agressieprotocol in dat die openheid niet ondermijnt. Je zorgt dat het team bij bekende probleembezoekers dezelfde lijn kiest, en organiseert de samenwerking met gemeente en politie bij structurele overlast."
 gerelateerd:
   - "agressietraining-bibliotheekmedewerkers-basis"
   - "agressietraining-bibliotheekmedewerkers-gevorderd"

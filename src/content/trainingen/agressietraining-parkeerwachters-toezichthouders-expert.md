@@ -17,32 +17,32 @@ samenvatting: >-
   veiligheidsprotocol voor solo-werk ontwikkelen, risicogebieden in kaart
   brengen en debriefing inrichten. De training duurt 1 dag en telt maximaal 8 deelnemers.
 resultaat:
-  - "Een helder veiligheidsprotocol voor solo-werkzaamheden ontwikkelen"
-  - Risicogebieden structureel in kaart brengen en vertalen naar veiligheidsafspraken
-  - "Toezichthouders coachen na incidenten, met debriefing en nazorg"
-  - Samenwerking met politie en boa’s proactief organiseren
-  - Beleid ontwikkelen voor gebieden met structurele intimidatie
-  - De meldcultuur versterken
+  - "Afspreken hoe iemand alleen de straat op gaat, en wie weet waar hij is"
+  - "Bijhouden waar en wanneer het misgaat, en daar afspraken aan koppelen"
+  - "Een incident naderhand doornemen met de toezichthouder, elke keer en niet alleen bij de zware"
+  - "Met politie en boa’s afspreken wat er gebeurt, voordat het nodig is"
+  - "Beleid maken voor gebieden waar intimidatie steeds terugkomt"
+  - "Zorgen dat incidenten gemeld worden, ook de kleine die niemand opschrijft"
 programma:
-  - titel: "Protocol voor solo-werk"
-    inhoud: Een helder veiligheidsprotocol voor medewerkers die alleen op straat werken.
+  - titel: "Afspraken voor het werken alleen"
+    inhoud: "Wat een medewerker vooraf regelt als hij alleen de straat op gaat, en wie weet waar hij is."
   - titel: Risicogebieden in kaart
-    inhoud: Werkgebieden structureel analyseren en omzetten in veiligheidsafspraken.
-  - titel: Debriefing en nazorg
-    inhoud: "Structurele debriefing na incidenten inrichten in plaats van ad-hoc opvang."
+    inhoud: "Bijhouden waar en wanneer het misgaat, en daar afspraken aan koppelen."
+  - titel: Nabespreken en nazorg
+    inhoud: "Een vast moment inrichten om een incident door te nemen, in plaats van opvang als er toevallig tijd is."
   - titel: Samenwerking en online schade
-    inhoud: "Samenwerking met politie en boa’s organiseren, en beleid maken voor online bedreiging en reputatieschade."
+    inhoud: "Met politie en boa’s afspreken wat er gebeurt, en beleid maken voor bedreiging en beschadiging online."
   - titel: Intervisie na afloop (op verzoek)
-    inhoud: Terugkombijeenkomst over de implementatie.
+    inhoud: "Terugkombijeenkomst over wat er van de afspraken terechtkwam."
 werkvormen:
-  - "analyse van veiligheidsbeleid, incidentrapportages en werkgebieden"
-  - beleidsverdieping met concrete protocollen
+  - "het veiligheidsbeleid, de meldingen en de werkgebieden doornemen"
+  - protocollen uitwerken voor het eigen werkgebied
   - intervisie na afloop (op verzoek)
 veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Teamcoördinatoren, gebiedsmanagers en leidinggevenden van parkeer- en toezichtteams bij gemeenten en handhavingsorganisaties. Voorwaarde voor deelname: coördinerende of leidinggevende verantwoordelijkheid voor een team parkeerwachters of toezichthouders."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basis- en gevorderde training gaan over het eigen handelen. Dit expertniveau gaat over de organisatie: beleid, escalatiestructuur, nazorg, meldcultuur en het coachen van medewerkers."
+    antwoord: "Bij basis en gevorderd sta jij zelf naast de auto. Op dit niveau maak je een veiligheidsprotocol voor medewerkers die alleen op straat werken en analyseer je de werkgebieden zo dat er echte afspraken uit komen. Je richt debriefing na incidenten structureel in in plaats van opvang die toevallig ontstaat, organiseert de samenwerking met politie en boa's, en maakt beleid voor online bedreiging en reputatieschade van je mensen."
 gerelateerd:
   - "agressietraining-parkeerwachters-toezichthouders-basis"
   - "agressietraining-parkeerwachters-toezichthouders-gevorderd"

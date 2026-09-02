@@ -17,27 +17,27 @@ samenvatting: >-
   De training duurt 1 dag, telt maximaal 10 deelnemers en behandelt ook
   agressieve ouders op school.
 resultaat:
-  - Verschillende vormen van grensoverschrijdend gedrag herkennen
-  - "De eigen reactie reguleren onder druk, zonder gezag te verliezen"
-  - "Gedrag professioneel begrenzen met heldere, rustige communicatie"
-  - "Situaties de-escaleren voordat ze fysiek worden"
-  - Handelen volgens de schoolprotocollen
-  - Incidenten correct melden en bespreken
+  - "Zien of een leerling uit frustratie handelt of je bewust uitdaagt"
+  - "Rustig blijven als een leerling je uitscheldt waar de klas bij zit"
+  - "Gedrag begrenzen met rustige, heldere taal"
+  - "De spanning eruit halen voordat het fysiek wordt"
+  - "Doen wat de schoolprotocollen voorschrijven"
+  - "Een incident melden en het naderhand nabespreken"
 programma:
   - titel: Grensoverschrijdend gedrag in de klas
-    inhoud: "Vormen van gedrag herkennen en de signalen die eraan voorafgaan, met de groep als publiek."
+    inhoud: "Vormen van gedrag en de signalen die eraan voorafgaan, met de klas als publiek."
   - titel: Gezag houden onder druk
-    inhoud: De eigen reactie reguleren wanneer je wordt uitgescholden of belachelijk gemaakt.
+    inhoud: Rustig blijven wanneer je wordt uitgescholden of belachelijk gemaakt.
   - titel: Begrenzen met rust
-    inhoud: "Gedrag begrenzen met heldere, rustige communicatie, ook bij weigering het lokaal te verlaten."
+    inhoud: "Gedrag begrenzen met rustige, heldere taal, ook als een leerling weigert het lokaal te verlaten."
   - titel: Agressieve ouders
-    inhoud: Professioneel handelen bij een ouder die op school agressief wordt.
+    inhoud: Handelen wanneer een ouder op school agressief wordt.
   - titel: Protocol en melden
-    inhoud: Handelen volgens de schoolprotocollen en incidenten correct melden en nabespreken.
+    inhoud: "Handelen volgens de schoolprotocollen, en een incident melden en nabespreken."
 werkvormen:
-  - realistische oefeningen uit de praktijk van het voortgezet onderwijs
+  - oefeningen uit de praktijk van het voortgezet onderwijs
   - casuïstiek van de eigen school
-  - praktijkgericht oefenen zonder naïeve rollenspellen
+  - oefenen met een trainingsacteur
 veelgestelde_vragen:
   - vraag: "Wordt agressie van ouders ook behandeld?"
     antwoord: Ja. Een agressieve ouder op school is een aparte situatie met een eigen aanpak en komt expliciet aan bod in de training.

@@ -18,25 +18,25 @@ samenvatting: >-
   meldcultuur opbouwen. De training duurt 1 dag, met maximaal 8 deelnemers, en start met een intakegesprek over de
   vestigingssituatie.
 resultaat:
-  - Agressiepatronen op vestigingsniveau analyseren
-  - Medewerkers structureel coachen na incidenten
-  - Een duidelijke escalatiestructuur opzetten
-  - Juridische verantwoordelijkheid begrijpen en communiceren
-  - De meldcultuur versterken door incidenten als leermiddel te gebruiken
+  - "Zien welke incidenten in de vestiging terugkeren, en waar ze vandaan komen"
+  - "Een incident naderhand doornemen met de medewerker, elke keer"
+  - "Vastleggen wie je erbij haalt als het misgaat, en zorgen dat het blijft staan"
+  - "Weten waar de winkel aansprakelijk voor is, en dat uitleggen aan het team"
+  - "Zorgen dat incidenten gemeld worden, en er daarna iets mee doen"
 programma:
   - titel: Intake en analyse van de vestiging
-    inhoud: "Voorafgaand aan de training wordt in een intakegesprek de vestigingssituatie in kaart gebracht: beleid, meldingsdata en cultuur."
+    inhoud: "In een intakegesprek vooraf wordt de vestiging doorgenomen: het beleid, de meldingen en de gang van zaken."
   - titel: Patronen en beleid
-    inhoud: Agressiepatronen op vestigingsniveau analyseren en vertalen naar concrete beleidsverbetering.
-  - titel: Coachen en nazorg
-    inhoud: Medewerkers structureel begeleiden na incidenten en nazorg organiseren die verder gaat dan één gesprek.
-  - titel: Escalatiestructuur en juridische kaders
-    inhoud: Een heldere escalatiestructuur opzetten en juridische verantwoordelijkheid rondom agressie begrijpen en communiceren.
+    inhoud: "Zien welke incidenten terugkeren, en daar concrete verbeteringen aan koppelen."
+  - titel: Nabespreken en nazorg
+    inhoud: "Een vast moment inrichten om een incident door te nemen, en opvang die verder gaat dan een enkel gesprek."
+  - titel: Escalatie en aansprakelijkheid
+    inhoud: "Vastleggen wie je erbij haalt als het misgaat, en waar de winkel aansprakelijk voor is."
   - titel: Intervisie na afloop (op verzoek)
-    inhoud: Terugkomdagdeel waarin deelnemers eigen casussen inbrengen en de toepassing in de praktijk wordt aangescherpt.
+    inhoud: "Terugkombijeenkomst waarin deelnemers eigen situaties inbrengen en nagaan wat er van de afspraken terechtkwam."
 werkvormen:
-  - casuïstiekbespreking
-  - analyse van bestaand beleid en meldingsdata
+  - eigen casuïstiek bespreken
+  - het bestaande beleid en de meldingen doornemen
   - intervisie na afloop (op verzoek)
 veelgestelde_vragen:
   - vraag: Voor wie is de expert agressietraining op de winkelvloer bedoeld?

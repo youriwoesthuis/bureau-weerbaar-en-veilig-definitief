@@ -18,27 +18,27 @@ samenvatting: >-
   deelnemers en behandelt ook veilig werken bij huisbezoeken en op
   buitenlocaties.
 resultaat:
-  - "Agressievormen herkennen: frustratie, ideologisch gemotiveerd gedrag en wantrouwen"
-  - De eigen reactie reguleren onder druk
-  - Verbaal agressief gedrag professioneel begrenzen
-  - Veilig handelen bij huisbezoeken en op buitenlocaties
-  - Het agressieprotocol van de eigen organisatie toepassen
-  - Incidenten correct melden en bespreken
+  - "Zien waar het gedrag vandaan komt: onmacht, wantrouwen of een overtuiging"
+  - Rustig blijven als iemand tegen je uitvalt
+  - Een grens stellen als iemand je uitscheldt of dreigt
+  - Weten wat je doet bij een huisbezoek of op een locatie waar je alleen staat
+  - Doen wat het agressieprotocol van je organisatie voorschrijft
+  - Een incident melden en het naderhand met een collega doornemen
 programma:
   - titel: Agressie in een klimaat van wantrouwen
-    inhoud: "Herkennen wat je tegenover je hebt: frustratie, diep wantrouwen of ideologisch gemotiveerd gedrag."
+    inhoud: "Zien wat je tegenover je hebt: onmacht, diep wantrouwen of een overtuiging."
   - titel: Optreden namens de overheid
-    inhoud: De eigen reactie reguleren wanneer je positie of legitimiteit ter discussie wordt gesteld.
+    inhoud: Rustig blijven als iemand betwist dat jij hier iets over te zeggen hebt.
   - titel: "Begrenzen en de-escaleren"
-    inhoud: "Verbaal agressief gedrag professioneel begrenzen, aan de balie, telefonisch en per e-mail."
+    inhoud: "Een grens stellen bij schelden en dreigen, aan de balie, aan de telefoon en per e-mail."
   - titel: Veilig op locatie
-    inhoud: "Veilig handelen bij huisbezoeken, inspecties en solo-werkzaamheden op risicovolle locaties."
+    inhoud: "Weten wat je doet bij een huisbezoek, een inspectie of een locatie waar je alleen staat."
   - titel: Protocol en melden
-    inhoud: Het agressieprotocol van de eigen organisatie toepassen en incidenten correct melden.
+    inhoud: Doen wat het agressieprotocol voorschrijft en het incident daarna melden.
 werkvormen:
-  - realistische oefeningen met trainers die de publieke gezondheidszorg kennen
+  - een trainingsacteur die de publieke gezondheidszorg kent
   - casuïstiek uit de eigen organisatie
-  - aandacht voor optreden namens de overheid
+  - aandacht voor wat het doet als je namens de overheid voor de deur staat
 veelgestelde_vragen:
   - vraag: "Behandelt de training ook agressie via e-mail en telefoon?"
     antwoord: "Ja. Een deel van de agressie richting GGD-medewerkers verloopt schriftelijk of telefonisch; die situaties komen expliciet aan bod."

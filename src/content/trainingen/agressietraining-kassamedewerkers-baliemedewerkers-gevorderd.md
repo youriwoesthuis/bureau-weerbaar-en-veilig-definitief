@@ -9,7 +9,7 @@ groepsgrootte: maximaal 10 deelnemers
 locatie: incompany
 locatie_detail: bij jullie op locatie, in heel Nederland
 certificaat: deelnamecertificaat na afloop
-voorwaarde: afgeronde basistraining
+voorwaarde: "afgeronde basistraining of aantoonbare werkervaring met agressie-incidenten"
 doelgroep: Kassa- en baliemedewerkers die de basistraining hebben gevolgd en regelmatig te maken hebben met complexe of herhaalde agressie-incidenten, vooral in drukke vestigingen of gebieden met een hoog incidentcijfer.
 samenvatting: >-
   De gevorderde agressietraining voor kassamedewerkers en baliemedewerkers van
@@ -43,7 +43,7 @@ veelgestelde_vragen:
   - vraag: Voor wie is de gevorderde agressietraining voor kassamedewerkers bedoeld?
     antwoord: "Voor kassa- en baliemedewerkers die een basistraining hebben gevolgd en regelmatig te maken hebben met complexe of herhaalde agressie-incidenten: vooral in drukke vestigingen of gebieden met een hoog incidentcijfer."
   - vraag: Is een basistraining verplicht?
-    antwoord: Ja. Een afgeronde basistraining is de voorwaarde voor deelname.
+    antwoord: "Niet per se. Wat telt is dat je de basis beheerst: signalen herkennen, je eigen reactie reguleren en een gesprek terugbrengen. Dat komt meestal uit de basistraining, maar aantoonbare werkervaring met agressie-incidenten kan er ook voor in de plaats komen. Bij de intake stellen we samen vast welk niveau past."
   - vraag: Wat is het verschil met de basistraining?
     antwoord: Het soort agressie. De basistraining behandelt het herkennen en de-escaleren van agressie in het moment. Dit gevorderde niveau richt zich op bewuste, herhaalde grensoverschrijding, manipulatie en bekende probleemklanten, en op consistent teamgedrag.
 gerelateerd:

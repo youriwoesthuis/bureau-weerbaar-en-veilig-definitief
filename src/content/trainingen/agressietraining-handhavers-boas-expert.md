@@ -17,32 +17,32 @@ samenvatting: >-
   werkgebied maken, teams briefen op juridische kaders en debriefing na
   incidenten leiden. De training duurt 1 dag en telt maximaal 8 deelnemers.
 resultaat:
-  - Risicoanalyses voor werkgebieden uitvoeren en vertalen naar gedragsprotocollen
-  - Teams briefen op basis van de juridische kaders
-  - Gestructureerde debriefing na incidenten leiden
-  - Samenwerking met partners proactief vormgeven
-  - Klachten professioneel afhandelen en inzetten als leermiddel
-  - De meldcultuur en leercyclus versterken
+  - Uitzoeken waar het in je werkgebied misgaat, en daar afspraken over gedrag aan hangen
+  - Een team briefen op wat het wettelijk wel en niet mag voordat het de straat op gaat
+  - Een incident naderhand met het team doornemen, langs een vaste lijn
+  - Afspraken maken met partners voordat je ze nodig hebt
+  - Een klacht afhandelen en er iets van leren in plaats van hem alleen wegwerken
+  - Zorgen dat incidenten gemeld worden, ook de kleine die niemand opschrijft
 programma:
   - titel: Risicoanalyse per werkgebied
-    inhoud: Werkgebieden analyseren en de uitkomsten vertalen naar concrete gedragsprotocollen.
+    inhoud: Uitzoeken waar het in het werkgebied misgaat, en daar afspraken over gedrag aan hangen.
   - titel: Briefen op juridische kaders
-    inhoud: Teams voorbereiden met heldere juridische kaders vóór ze het gebied ingaan.
-  - titel: Debriefing leiden
-    inhoud: "Gestructureerde debriefing na incidenten voeren, gericht op leren in plaats van afrekenen."
+    inhoud: Een team briefen op wat het wettelijk wel en niet mag voordat het de straat op gaat.
+  - titel: Een nabespreking leiden
+    inhoud: "Een incident langs een vaste lijn nabespreken, gericht op leren en niet op afrekenen."
   - titel: Klachten als leermiddel
-    inhoud: Klachten professioneel afhandelen en gebruiken om beleid te verbeteren.
+    inhoud: Een klacht afhandelen en er het beleid mee verbeteren.
   - titel: Intervisie na afloop (op verzoek)
-    inhoud: Terugkombijeenkomst over de implementatie in het eigen team en werkgebied.
+    inhoud: Terugkomen op wat er van de afspraken terecht is gekomen.
 werkvormen:
-  - "analyse van bestaande protocollen, incidentrapportages en teamcultuur"
-  - juridische en operationele verdieping
+  - "de bestaande protocollen, de meldingen en de werksfeer naast elkaar leggen"
+  - de juridische kant en het dagelijkse werk uitdiepen
   - intervisie na afloop (op verzoek)
 veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Teamleiders, coördinatoren en senior handhavers die verantwoordelijk zijn voor boa-teams en aantoonbare ervaring hebben met agressie in de handhaving. Voorwaarde voor deelname: leidinggevende of coördinerende functie binnen een boa- of handhavingsteam."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basis- en gevorderde training gaan over het eigen handelen. Dit expertniveau gaat over de organisatie: beleid, escalatiestructuur, nazorg, meldcultuur en het coachen van medewerkers."
+    antwoord: "Bij basis en gevorderd sta jij zelf op straat. Op dit niveau analyseer je de werkgebieden van je team en vertaal je dat naar gedragsprotocollen, en brief je mensen op de juridische kaders voordat ze het gebied in gaan. Je leidt de debriefing na incidenten zo dat er geleerd wordt in plaats van afgerekend, en gebruikt binnengekomen klachten om het beleid bij te stellen."
 gerelateerd:
   - "agressietraining-handhavers-boas-basis"
   - "agressietraining-handhavers-boas-gevorderd"

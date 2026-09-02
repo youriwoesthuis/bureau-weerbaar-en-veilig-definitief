@@ -18,32 +18,32 @@ samenvatting: >-
   maximaal 10 deelnemers en vraagt een afgeronde basistraining of
   aantoonbare werkervaring.
 resultaat:
-  - Strategische weigeraars onderscheiden van debiteuren in nood
-  - "Manipulatie- en intimidatietactieken neutraliseren"
-  - Veilig handelen bij huisbezoeken
-  - Grenzen stellen aan ongewenst contact
-  - Professioneel standhouden in extreme situaties
-  - Teamafspraken maken bij herhaalde agressie
+  - "Onderscheiden wie niet wil betalen en wie niet kan betalen"
+  - "Herkennen wanneer iemand je onder druk zet om een afspraak te veranderen, en daar niet in meegaan"
+  - "Veilig werken op huisbezoek: wat je vooraf nagaat en wanneer je vertrekt"
+  - "Een grens stellen als een debiteur je buiten werktijd benadert"
+  - "Rustig blijven als iemand vertelt dat hij zijn huis kwijtraakt en jou de schuld geeft"
+  - "Met het team afspreken wat er gebeurt als dezelfde persoon opnieuw agressief wordt"
 programma:
   - titel: Weigeraar of noodgeval
-    inhoud: Onderscheid maken tussen systematische weigering met intimidatie en echte nood.
+    inhoud: "Het verschil zien tussen iemand die stelselmatig weigert en intimideert, en iemand die echt klem zit."
   - titel: Manipulatie via rechtsmiddelen
-    inhoud: Omgaan met het inzetten van rechtsmiddelen als druktactiek.
+    inhoud: "Wat je doet als iemand bezwaar en klacht inzet om tijd te winnen en druk op te voeren."
   - titel: Extreme crisissituaties
-    inhoud: "Professioneel standhouden bij een combinatie van schulden, dakloosheid, psychiatrie en verslaving."
+    inhoud: "Standhouden als schulden, dakloosheid, psychiatrie en verslaving in een gesprek samenvallen."
   - titel: Veilig invorderen op locatie
-    inhoud: Veilig handelen bij huisbezoeken voor invordering.
+    inhoud: "Wat je vooraf regelt voor een huisbezoek voor invordering, en wanneer je vertrekt."
   - titel: Contact buiten werktijd
-    inhoud: Grenzen stellen aan benadering via privékanalen.
+    inhoud: "Een grens stellen als iemand je thuis of via een privékanaal benadert."
 werkvormen:
   - casuïstiek uit eigen dossiers
-  - patroonsignalering met directe feedback
-  - aandacht voor emotionele balans en compassiemoeheid
+  - "oefenen met signalen, met feedback op het moment zelf"
+  - "aandacht voor wat het je kost om steeds met andermans nood mee te leven"
 veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Incasso- en schuldbehandelaars met basistraining die regelmatig complexe agressie-incidenten hanteren. Voorwaarde voor deelname: afgeronde basistraining of aantoonbare werkervaring met agressie-incidenten."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basistraining behandelt het herkennen en de-escaleren van agressie in het moment. Dit gevorderde niveau richt zich op patronen die niet impulsief zijn: bewuste grensoverschrijding, manipulatie en consistent teamoptreden."
+    antwoord: "In de basis oefen je de schreeuwende debiteur aan de telefoon en de persoonlijke aanval op jou. Hier leer je onderscheiden of iemand systematisch weigert en intimideert of werkelijk in nood zit, en wat je doet als rechtsmiddelen als druktactiek worden ingezet. Je oefent het standhouden bij dossiers waar schulden, dakloosheid, psychiatrie en verslaving samenkomen, het veilig invorderen op locatie, en het stellen van grenzen als iemand je via je privékanalen benadert. Expert is voor teamleiders en managers, die het protocol voor huisbezoeken en de nazorg vastleggen."
 gerelateerd:
   - "agressietraining-incasso-schuldhulpverlening-basis"
   - "agressietraining-incasso-schuldhulpverlening-expert"

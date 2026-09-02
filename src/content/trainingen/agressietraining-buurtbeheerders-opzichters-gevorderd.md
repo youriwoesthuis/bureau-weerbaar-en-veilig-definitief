@@ -9,7 +9,7 @@ groepsgrootte: maximaal 10 deelnemers
 locatie: incompany
 locatie_detail: bij jullie op locatie, in heel Nederland
 certificaat: deelnamecertificaat na afloop
-voorwaarde: afgeronde basistraining
+voorwaarde: "afgeronde basistraining of aantoonbare werkervaring met agressie-incidenten"
 doelgroep: "Buurtbeheerders en opzichters met basistraining die complexe agressie- en intimidatiepatronen in wijken hanteren."
 samenvatting: >-
   De gevorderde agressietraining voor buurtbeheerders en opzichters van
@@ -18,32 +18,32 @@ samenvatting: >-
   werktijd. De training duurt 1 dag, telt maximaal 10 deelnemers en vraagt
   een afgeronde basistraining.
 resultaat:
-  - "Intimidatie- en agressiepatronen herkennen en erop anticiperen"
-  - Groepsdynamieken inschatten en professioneel reageren
-  - Standhouden tegenover bekende risicogroepen
-  - Grenzen stellen aan contact buiten werktijd
-  - Complexe overlastsituaties hanteren zonder partijdig te worden
-  - Teamafspraken maken over risicolocaties
+  - Merken dat iemand je stelselmatig onder druk zet, en daarop vooruitlopen
+  - Inschatten wat een groep op straat gaat doen en daar rustig op reageren
+  - Blijven staan tegenover bewoners van wie het gedrag bekend is
+  - Een grens stellen als je in je vrije tijd wordt aangesproken
+  - Een overlastdossier met meerdere partijen behandelen zonder partij te kiezen
+  - Met het team afspreken hoe je omgaat met de adressen waar het misgaat
 programma:
   - titel: Structurele intimidatie
-    inhoud: Herkennen en anticiperen op intimidatie die begint zodra je de straat in komt.
+    inhoud: Merken dat het al begint zodra je de straat in komt, en daarop vooruitlopen.
   - titel: Groepsdynamiek in de wijk
-    inhoud: "Groepen inschatten die de openbare ruimte domineren, en professioneel reageren."
+    inhoud: "Inschatten wat een groep die de straat bepaalt gaat doen, en daar rustig op reageren."
   - titel: Buiten werktijd
-    inhoud: Grenzen stellen wanneer je herkend en aangesproken wordt in je vrije tijd.
+    inhoud: Een grens stellen als je in je vrije tijd wordt herkend en aangesproken.
   - titel: Overlastdossiers
-    inhoud: Complexe dossiers met meerdere partijen hanteren zonder partij te kiezen.
+    inhoud: Een dossier met meerdere partijen behandelen zonder partij te kiezen.
   - titel: Risicolocaties en teamafspraken
-    inhoud: Afspraken maken over inspecties op risicovolle locaties en georganiseerde weerstand.
+    inhoud: Afspreken hoe je inspecteert op adressen waar het misgaat en waar bewoners zich verenigen.
 werkvormen:
-  - casuïstiek van het eigen werkgebied
-  - directe feedback op handelen en op wijkdynamiek
-  - oefening van ingebrachte situaties
+  - casuïstiek uit het eigen werkgebied
+  - directe feedback op wat je doet en op wat de wijk doet
+  - oefenen met situaties die deelnemers zelf inbrengen
 veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Buurtbeheerders en opzichters met basistraining die complexe agressie- en intimidatiepatronen in wijken hanteren. Voorwaarde voor deelname: afgeronde basistraining."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "Het soort agressie. De basistraining behandelt het herkennen en de-escaleren van agressie in het moment. Dit gevorderde niveau richt zich op patronen die niet impulsief zijn: bewuste grensoverschrijding, manipulatie en consistent teamoptreden."
+    antwoord: "In de basis oefen je het aanspreken van een huurder op overlast en de inspectie waarbij toegang wordt geweigerd. Hier gaat het om intimidatie die begint zodra je de straat in komt, om groepen die bepalen wat er in de openbare ruimte gebeurt, en om overlastdossiers met meerdere partijen waarin je geen kant kiest. Je oefent ook wat je zegt als je in je vrije tijd wordt herkend en aangesproken. Expert is voor teamleiders bij de corporatie, die het protocol voor alleen werken buiten vastleggen."
 gerelateerd:
   - "agressietraining-buurtbeheerders-opzichters-basis"
   - "agressietraining-buurtbeheerders-opzichters-expert"

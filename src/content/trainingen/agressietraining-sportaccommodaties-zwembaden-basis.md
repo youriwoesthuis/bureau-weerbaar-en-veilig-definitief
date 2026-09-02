@@ -16,27 +16,27 @@ samenvatting: >-
   en veiligheidsregels professioneel en gezaghebbend communiceren. De
   training duurt 1 dag en telt maximaal 10 deelnemers.
 resultaat:
-  - Signalen van oplopende spanning herkennen voordat escalatie plaatsvindt
-  - De eigen reactie reguleren onder druk
-  - "Veiligheids- en gedragsregels professioneel en gezaghebbend communiceren"
-  - Collega’s en leidinggevenden op het juiste moment inschakelen
-  - "Situaties de-escaleren bij groepen jongeren en boze ouders"
-  - Incidenten correct registreren
+  - "Zien dat de spanning oploopt voordat het uit de hand loopt"
+  - "Rustig blijven als een bezoeker tegen je uitvalt"
+  - "Een veiligheidsregel zo brengen dat hij wordt opgevolgd en niets uitlokt"
+  - "Op tijd een collega of leidinggevende erbij halen"
+  - "De spanning eruit halen bij een groep jongeren of een boze ouder"
+  - "Een incident opschrijven"
 programma:
-  - titel: Regels handhaven in een vrijetijdsomgeving
-    inhoud: "Waarom bezoekers regels hier minder makkelijk accepteren, en wat dat vraagt van je optreden."
-  - titel: Gezaghebbend communiceren
-    inhoud: Veiligheidsregels overbrengen op een manier die duidelijk is en niet uitlokt.
+  - titel: Regels handhaven waar mensen ontspannen komen
+    inhoud: "Waarom bezoekers regels hier minder makkelijk aannemen, en wat dat vraagt van je optreden."
+  - titel: Duidelijk zijn zonder uit te lokken
+    inhoud: Een veiligheidsregel zo brengen dat hij wordt opgevolgd en niets uitlokt.
   - titel: Groepen jongeren
-    inhoud: "De-escaleren wanneer een groep jongeren correctie met intimidatie beantwoordt."
+    inhoud: "De spanning eruit halen wanneer een groep jongeren je correctie met intimidatie beantwoordt."
   - titel: Boze ouders en sporters
-    inhoud: Handelen bij ouders die je aanspreken op een correctie en bij sporters na een verlies.
-  - titel: Toegangsweigering en sluitingstijd
-    inhoud: Handelen bij dreigende reacties op toegangsweigering en bij bezoekers die weigeren te vertrekken.
+    inhoud: Handelen bij een ouder die je aanspreekt op een correctie en bij sporters na een verlies.
+  - titel: Toegang weigeren en sluitingstijd
+    inhoud: Handelen bij een dreigende reactie op een weigering en bij bezoekers die niet weggaan.
 werkvormen:
-  - realistische oefeningen met trainers die sportaccommodaties kennen
+  - oefenen met trainers die sportaccommodaties kennen
   - casuïstiek van de eigen locatie
-  - aandacht voor de spanning tussen gastvrijheid en gezaghebbend optreden
+  - "aandacht voor de spanning tussen gastvrij zijn en optreden"
 veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: Alle medewerkers met direct bezoekerscontact in sportaccommodaties en zwembaden. Er is geen voorkennis nodig; dit is het instapniveau.

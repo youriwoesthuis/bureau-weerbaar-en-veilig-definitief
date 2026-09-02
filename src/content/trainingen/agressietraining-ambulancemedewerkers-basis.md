@@ -18,27 +18,27 @@ samenvatting: >-
   hulpverlening: geïntoxiceerde patiënten, tegenwerkende familie en bemoeiende
   omstanders.
 resultaat:
-  - Agressiesignalen lezen bij aankomst op een meldlocatie die je niet vooraf kunt inschatten
-  - De eigen reactie reguleren tijdens medische handelingen onder dreiging
-  - Gedrag begrenzen bij geïntoxiceerde patiënten en tegenwerkende familieleden
-  - Bemoeiende omstanders terugbrengen zonder de zorg te onderbreken
-  - "Een patiënt in psychiatrische crisis benaderen met behoud van de eigen veiligheid"
-  - Incidenten melden en nabespreken volgens het agressieprotocol
+  - Zien aankomen dat het misgaat bij een melding die je vooraf niet kunt inschatten
+  - Rustig blijven en de handeling afmaken terwijl iemand tegen je schreeuwt
+  - Een grens stellen bij patiënten onder invloed en familie die je tegenwerkt
+  - Omstanders op afstand houden zonder de zorg te onderbreken
+  - Iemand in psychiatrische crisis benaderen en zelf uit de gevarenzone blijven
+  - Een incident melden en het naderhand met je collega doornemen
 programma:
   - titel: Agressie ter plaatse herkennen
-    inhoud: Signalen lezen bij aankomst op de meldlocatie, in een onvoorspelbare omgeving zonder directe bescherming.
+    inhoud: Signalen lezen zodra je uitstapt, in een omgeving die je niet kent en waar niemand je afschermt.
   - titel: Eigen reactie reguleren
-    inhoud: Rustig en professioneel blijven tijdens medische handelingen onder verbale of non-verbale dreiging.
+    inhoud: Rustig blijven en de handeling afmaken terwijl iemand tegen je schreeuwt of dreigt.
   - titel: Begrenzen en de-escaleren
-    inhoud: Agressief gedrag begrenzen bij geïntoxiceerde patiënten, tegenwerkende familieleden en bemoeiende omstanders.
+    inhoud: Een grens stellen bij patiënten onder invloed, familie die tegenwerkt en omstanders die zich ermee bemoeien.
   - titel: Psychiatrische crisis
-    inhoud: Handelen bij patiënten in een psychiatrische crisis, met behoud van de eigen veiligheid.
+    inhoud: Handelen bij een patiënt in psychiatrische crisis en zelf uit de gevarenzone blijven.
   - titel: Protocol, melden en nabespreken
-    inhoud: Handelen volgens het agressieprotocol en incidenten correct melden en nabespreken.
+    inhoud: Doen wat het agressieprotocol zegt, het incident melden en het daarna met je collega doornemen.
 werkvormen:
-  - realistische oefeningen uit de pre-hospitale praktijk
+  - oefenen met situaties uit de ritten die jullie zelf draaien
   - casuïstiek uit de eigen dienst
-  - praktijkgericht oefenen zonder naïeve rollenspellen
+  - een trainingsacteur die tegengas geeft
 veelgestelde_vragen:
   - vraag: Voor wie is deze training bedoeld?
     antwoord: Voor alle ambulancemedewerkers met direct patiëntcontact. Er is geen voorkennis nodig; dit is het instapniveau.

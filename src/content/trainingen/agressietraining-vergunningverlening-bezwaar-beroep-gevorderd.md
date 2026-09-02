@@ -18,32 +18,32 @@ samenvatting: >-
   intimidatie. De training duurt 1 dag, telt maximaal 10 deelnemers en
   vraagt een afgeronde basistraining of ervaring met complexe situaties.
 resultaat:
-  - Georganiseerde druk en langdurige intimidatie herkennen en professioneel hanteren
-  - Juridische dreigingen professioneel hanteren
-  - Politieke druk vanuit de eigen organisatie aanpakken
-  - Grenzen stellen aan aanhoudend contact
-  - Online intimidatiecampagnes herkennen en de juiste stappen zetten
-  - Professionele distantie en veerkracht bewaren
+  - "Herkennen wanneer druk van meerdere kanten tegelijk wordt georganiseerd"
+  - "Standhouden als iemand dreigt met een advocaat of een tuchtklacht"
+  - "Aankaarten dat het bestuur je onder druk zet om een besluit te veranderen"
+  - "Een grens stellen aan iemand die dagelijks contact blijft zoeken"
+  - "Zien wanneer een aanval online wordt opgezet, en de juiste stappen zetten"
+  - "Een dossier dat maanden duurt volhouden zonder eraan onderdoor te gaan"
 programma:
-  - titel: Georganiseerde druk
-    inhoud: "Druk via advocaten, politici of media herkennen en professioneel hanteren."
+  - titel: Druk van meerdere kanten
+    inhoud: "Herkennen wanneer druk via advocaten, politici of media wordt georganiseerd."
   - titel: Juridische dreiging en tuchtklachten
-    inhoud: Omgaan met juridische bedreigingen en tuchtrechtklachten.
+    inhoud: Standhouden als iemand dreigt met een advocaat of een tuchtklacht.
   - titel: Druk van binnenuit
-    inhoud: Politieke druk vanuit het eigen bestuur of de eigen organisatie aanpakken.
-  - titel: Online campagnes
-    inhoud: Online intimidatiecampagnes en publieke beschuldigingen van willekeur herkennen en aanpakken.
-  - titel: Distantie en veerkracht
-    inhoud: Professionele distantie bewaren bij dossiers die maanden duren.
+    inhoud: Aankaarten dat het eigen bestuur je onder druk zet om een besluit te veranderen.
+  - titel: Aanvallen online
+    inhoud: "Zien wanneer een aanval online wordt opgezet, en de juiste stappen zetten."
+  - titel: Het volhouden
+    inhoud: Betrokken blijven bij een dossier dat maanden duurt zonder eraan onderdoor te gaan.
 werkvormen:
-  - casuïstiek met eigen dossiertypen
-  - directe feedback op het omgaan met langdurige druk
-  - aandacht voor cumulatieve belasting
+  - casuïstiek met de eigen dossiersoorten
+  - feedback op het omgaan met druk die lang aanhoudt
+  - "aandacht voor wat maandenlange druk je kost"
 veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Medewerkers die complexe, hoogprofiel vergunningaanvragen en bezwaarprocedures behandelen waarbij aanvragers grote belangen hebben. Voorwaarde voor deelname: afgeronde basistraining of aantoonbare werkervaring met complexe agressiesituaties."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De focus. De basistraining behandelt het herkennen en de-escaleren van agressie in het moment. Dit gevorderde niveau richt zich op patronen die niet impulsief zijn: bewuste grensoverschrijding, manipulatie en consistent teamoptreden."
+    antwoord: "In de basis oefen je de aanvrager die woedend reageert op een weigering en het herhaalde escalerende contact per mail of telefoon. Hier gaat het om druk die georganiseerd is en via advocaten, politici of de pers loopt, om tuchtklachten en juridische dreiging, en om publieke beschuldigingen dat je willekeur toepast. Ook de druk van binnenuit komt aan bod, van het eigen bestuur, en de vraag hoe je afstand houdt in dossiers die maanden doorlopen. Expert is voor teamleiders en afdelingshoofden, die het protocol voor risicodossiers opstellen."
 gerelateerd:
   - "agressietraining-vergunningverlening-bezwaar-beroep-basis"
   - "agressietraining-vergunningverlening-bezwaar-beroep-expert"

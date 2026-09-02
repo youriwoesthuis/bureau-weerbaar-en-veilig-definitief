@@ -42,7 +42,7 @@ veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Adviseurs met basistraining die regelmatig complexe klantgesprekken voeren met klanten in financiële crisis. Voorwaarde voor deelname: afgeronde basistraining of aantoonbare werkervaring met complexe klantgesprekken."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basistraining behandelt het herkennen en de-escaleren van agressie in het moment. Dit gevorderde niveau richt zich op patronen die niet impulsief zijn: bewuste grensoverschrijding, manipulatie en consistent teamoptreden."
+    antwoord: "In de basis oefen je de furieuze reactie op een afgewezen aanvraag en het brengen van slecht nieuws over een ingetrokken krediet. Hier gaat het om klanten die juridische dreiging inzetten om een uitzondering af te dwingen, om de klant die jou persoonlijk verantwoordelijk maakt voor zijn situatie, en om gesprekken waarin echtscheiding, ontslag en hypotheekproblemen tegelijk spelen. Je oefent ook het houden van de regie als de druk via een partner of advocaat komt of buiten werktijd bij je binnenkomt. Expert is voor teamleiders en directeuren, die het beleid rond grensoverschrijdend klantgedrag vastleggen."
 gerelateerd:
   - "agressietraining-hypotheek-kredietadviseurs-basis"
   - "agressietraining-hypotheek-kredietadviseurs-expert"

@@ -16,27 +16,27 @@ samenvatting: >-
   voordat een situatie fysiek wordt, binnen de juridische kaders van hun
   functie. De training duurt 1 dag en telt maximaal 10 deelnemers.
 resultaat:
-  - "Agressievormen herkennen: frustratie, groepsgedrag en gedrag onder invloed"
-  - De eigen reactie reguleren onder druk
-  - Verbaal gedrag professioneel begrenzen
-  - "Situaties de-escaleren voordat ze fysiek worden"
-  - Binnen de juridische kaders handelen
-  - Incidenten correct melden en registreren
+  - "Zien met wat voor agressie je te maken hebt: onmacht, groepsgedrag of drank en drugs"
+  - Rustig blijven als iemand die je weigert tegen je uitvalt
+  - Een grens stellen met woorden, voordat het handen wordt
+  - De zaak eruit halen zonder dat je hoeft aan te pakken
+  - Weten wat je als portier wettelijk wel en niet mag
+  - Een incident melden en opschrijven wat er is gebeurd
 programma:
   - titel: Agressie in de nachthoreca
-    inhoud: "Vormen van agressie herkennen bij alcohol, drugs en groepsgedrag."
+    inhoud: "Zien met wat voor agressie je te maken hebt bij drank, drugs en groepsgedrag."
   - titel: Reguleren aan de deur
-    inhoud: De eigen reactie beheersen wanneer een geweigerde bezoeker uitvalt.
+    inhoud: Rustig blijven als iemand die je weigert tegen je uitvalt.
   - titel: "De-escaleren vóór fysiek"
-    inhoud: Situaties met woorden oplossen zodat fysiek ingrijpen onnodig blijft.
+    inhoud: De zaak met woorden oplossen, zodat je niet hoeft aan te pakken.
   - titel: Juridische positie
-    inhoud: Handelen binnen de juridische kaders die voor een portier gelden.
+    inhoud: Weten wat je als portier wettelijk wel en niet mag.
   - titel: Melden en registreren
-    inhoud: Incidenten correct melden en registreren.
+    inhoud: Het incident melden en opschrijven wat er is gebeurd.
 werkvormen:
-  - realistische oefeningen met trainers uit de horecabeveiliging
+  - een trainingsacteur en trainers uit de horecabeveiliging
   - casuïstiek van de eigen locatie
-  - expliciete aandacht voor de juridische positie van de portier
+  - de juridische positie van de portier komt apart aan bod
 veelgestelde_vragen:
   - vraag: "Behandelt de training de juridische positie van de portier?"
     antwoord: "Ja. De juridische kaders waarbinnen een portier mag optreden zijn een expliciet onderdeel van de training, naast de gesprekstechniek."

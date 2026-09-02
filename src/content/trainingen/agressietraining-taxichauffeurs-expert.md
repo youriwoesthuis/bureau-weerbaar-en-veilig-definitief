@@ -17,32 +17,32 @@ samenvatting: >-
   een veiligheidsprotocol opstellen, risicoanalyses maken op rittypen en
   gebieden, en een meldcultuur bouwen. De training duurt 1 dag en telt maximaal 8 deelnemers.
 resultaat:
-  - Een helder veiligheidsprotocol voor chauffeurs opstellen
-  - Risicoanalyses uitvoeren op rittypen en gebieden
-  - "Chauffeurs coachen na agressie-incidenten"
-  - Een meldcultuur creëren binnen de organisatie
-  - Chauffeurs informeren over hun juridische positie en aangifte
-  - Samenwerken met de politie bij structurele problemen
+  - "Afspraken maken die bruikbaar zijn voor een chauffeur die alleen op de weg zit"
+  - "Bijhouden welke ritten, gebieden en tijdstippen problemen geven"
+  - "Een incident naderhand doornemen met de chauffeur, elke keer"
+  - "Zorgen dat chauffeurs melden zonder bang te zijn voor de gevolgen"
+  - "Chauffeurs vertellen waar ze staan en hoe ze aangifte doen"
+  - "Met de politie afspreken wat er gebeurt bij aanhoudende problemen"
 programma:
   - titel: Veiligheidsprotocol
-    inhoud: Een helder protocol opstellen voor chauffeurs die alleen op de weg zitten.
-  - titel: Risicoanalyse
-    inhoud: "Rittypen, gebieden en tijdstippen analyseren op risico."
-  - titel: Meldcultuur zonder angst
-    inhoud: Wegnemen van de vrees dat melden gevolgen heeft voor de chauffeur.
-  - titel: Juridische positie en aangifte
-    inhoud: Chauffeurs informeren over hun rechten en over het doen van aangifte.
+    inhoud: Afspraken maken die bruikbaar zijn voor een chauffeur die alleen op de weg zit.
+  - titel: Risico in kaart
+    inhoud: "Bijhouden welke ritten, gebieden en tijdstippen problemen geven."
+  - titel: Melden zonder angst
+    inhoud: "Zorgen dat een chauffeur een incident kan melden zonder dat het hem ritten kost."
+  - titel: Positie en aangifte
+    inhoud: Chauffeurs vertellen waar ze staan en hoe ze aangifte doen.
   - titel: Intervisie na afloop (op verzoek)
-    inhoud: Terugkombijeenkomst over de implementatie.
+    inhoud: "Terugkombijeenkomst over wat er van de afspraken terechtkwam."
 werkvormen:
-  - analyse van bestaand veiligheidsbeleid en incidentrapportages
-  - concrete protocollen voor de operationele praktijk
+  - het veiligheidsbeleid en de meldingen doornemen
+  - protocollen uitwerken voor het werk op de weg
   - intervisie na afloop (op verzoek)
 veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Planners, operationeel leidinggevenden en managers bij taxibedrijven met ervaring met agressie-incidenten. Voorwaarde voor deelname: leidinggevende of operationele verantwoordelijkheid voor taxichauffeurs."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De invalshoek. De basis- en gevorderde training gaan over het eigen handelen. Dit expertniveau gaat over de organisatie: beleid, escalatiestructuur, nazorg, meldcultuur en het coachen van medewerkers."
+    antwoord: "Basis en gevorderd gaan over wat jij in de auto doet. Op dit niveau maak je een protocol dat bruikbaar is voor een chauffeur die alleen op de weg zit, en analyseer je welke rittypen, gebieden en tijdstippen het meeste risico geven. Je neemt de vrees weg dat een melding gevolgen heeft voor de chauffeur zelf, en zorgt dat je mensen weten wat hun juridische positie is en hoe aangifte werkt."
 gerelateerd:
   - "agressietraining-taxichauffeurs-basis"
   - "agressietraining-taxichauffeurs-gevorderd"

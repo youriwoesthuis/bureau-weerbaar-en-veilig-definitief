@@ -9,7 +9,7 @@ groepsgrootte: maximaal 10 deelnemers
 locatie: incompany
 locatie_detail: bij jullie op locatie, in heel Nederland
 certificaat: deelnamecertificaat na afloop
-voorwaarde: afgeronde basistraining
+voorwaarde: "afgeronde basistraining of aantoonbare werkervaring met agressie-incidenten"
 doelgroep: Ervaren bedienend personeel en gastheren uit drukke horecaomgevingen die de basistraining hebben afgerond.
 samenvatting: >-
   De gevorderde agressietraining voor de horeca van Bureau Weerbaar en
@@ -42,7 +42,7 @@ veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Ervaren bedienend personeel en gastheren uit drukke horecaomgevingen die de basistraining hebben afgerond. Voorwaarde voor deelname: afgeronde basistraining."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basistraining behandelt het herkennen en de-escaleren van agressie in het moment. Dit gevorderde niveau richt zich op patronen die niet impulsief zijn: bewuste grensoverschrijding, manipulatie en consistent teamoptreden."
+    antwoord: "In de basis oefen je de gast die kwaad wordt om een alcoholweigering en het benoemen van grensoverschrijdend gedrag. Hier gaat het om de vaste gast die je medewerkers bespeelt en de grenzen steeds iets verder oprekt, om een groep die de zaak overneemt, en om een gast die zo ver heen is dat hij hulp nodig heeft in plaats van een correctie. Je oefent ook hoe je als team consistent optreedt bij terugkerende seksuele intimidatie en hoe je regie houdt als er meerdere dingen tegelijk spelen. Expert is voor bedrijfsleiders en shiftleiders, die de norm voor gastengedrag vaststellen."
 gerelateerd:
   - "agressietraining-horeca-bediening-basis"
   - "agressietraining-horeca-bediening-expert"

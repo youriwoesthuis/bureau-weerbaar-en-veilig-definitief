@@ -18,31 +18,31 @@ samenvatting: >-
   huisbezoeken opzetten en medewerkers coachen na zware contacten. De
   training duurt 1 dag en telt maximaal 8 deelnemers.
 resultaat:
-  - Agressiepatronen herkennen en vertalen naar concrete beleidsmaatregelen
-  - Veiligheidsprotocollen voor huisbezoeken opzetten
-  - Medewerkers coachen na zware debiteurencontacten
-  - Grensstelling communiceren rond contact buiten werktijd
-  - De meldcultuur versterken
+  - "Zien welke agressie in de dossiers terugkeert, en daar een maatregel aan koppelen"
+  - "Afspreken hoe iemand op huisbezoek gaat: wat hij vooraf nagaat en wie weet waar hij is"
+  - "Een zwaar debiteurencontact naderhand doornemen met de medewerker, elke keer"
+  - "Vastleggen wat er geldt voor contact buiten werktijd, en dat uitleggen aan het team"
+  - "Zorgen dat incidenten gemeld worden, ook de kleine die niemand opschrijft"
 programma:
   - titel: Patronen naar beleid
-    inhoud: Agressiepatronen zichtbaar maken en omzetten in concrete maatregelen.
+    inhoud: "Welke agressie in de dossiers terugkeert, en welke maatregel daarbij past."
   - titel: Protocol voor huisbezoeken
-    inhoud: Veiligheidsprotocollen opzetten voor medewerkers die op huisbezoek gaan.
-  - titel: Coachen na zware contacten
-    inhoud: Structurele opvang inrichten na emotioneel zware debiteurencontacten.
+    inhoud: "Afspreken wat een medewerker vooraf nagaat, wie weet waar hij is en wanneer hij vertrekt."
+  - titel: Nabespreken na zware contacten
+    inhoud: "Een vast moment inrichten om een zwaar debiteurencontact met de medewerker door te nemen."
   - titel: Grenzen en verantwoordelijkheid
-    inhoud: Juridische verantwoordelijkheid helder beleggen en grenzen communiceren rond contact buiten werktijd.
+    inhoud: "Vastleggen wie waarvoor aansprakelijk is, en wat er geldt voor contact buiten werktijd."
   - titel: Intervisie na afloop (op verzoek)
-    inhoud: "Terugkombijeenkomst over de implementatie, met aandacht voor de belasting van de leidinggevende zelf."
+    inhoud: "Terugkombijeenkomst over wat er van de afspraken terechtkwam, en over wat het de leidinggevende zelf kost."
 werkvormen:
-  - "analyse van bestaand beleid, dossieraard en organisatiecultuur"
-  - "beleidsverdieping met veiligheids- en coachingsstrategieën"
+  - "het bestaande beleid, de dossiers en de gang van zaken doornemen"
+  - "afspraken uitwerken over veilig werken en over nabespreken"
   - intervisie na afloop (op verzoek)
 veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Teamleiders, afdelingsmanagers en veiligheidscoördinatoren bij incassobureaus en schuldhulpverleningsorganisaties. Voorwaarde voor deelname: leidinggevende verantwoordelijkheid voor een team incasso- of schuldbehandelaars."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basis- en gevorderde training gaan over het eigen handelen. Dit expertniveau gaat over de organisatie: beleid, escalatiestructuur, nazorg, meldcultuur en het coachen van medewerkers."
+    antwoord: "Bij basis en gevorderd voer jij zelf het gesprek met de debiteur. Op dit niveau maak je de agressiepatronen in je team zichtbaar en zet je die om in maatregelen, en stel je een veiligheidsprotocol op voor medewerkers die op huisbezoek gaan. Je richt structurele opvang in na emotioneel zware contacten, belegt de juridische verantwoordelijkheid en communiceert waar de grens ligt bij contact buiten werktijd. Er is ook aandacht voor wat dit werk met jou als leidinggevende doet."
 gerelateerd:
   - "agressietraining-incasso-schuldhulpverlening-basis"
   - "agressietraining-incasso-schuldhulpverlening-gevorderd"

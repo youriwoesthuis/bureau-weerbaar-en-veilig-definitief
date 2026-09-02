@@ -17,7 +17,7 @@ veelgestelde_vragen:
   - vraag: "Kunnen inspecteurs en baliemedewerkers in dezelfde groep?"
     antwoord: "Vaak wel. Beiden hebben overheidsbevoegdheden nodig én de medewerking van de burger; dat gedeelde spanningsveld maakt de oefening voor allebei bruikbaar."
   - vraag: "Welk niveau past bij GGD-medewerkers?"
-    antwoord: "Basis voor iedereen met publiekscontact. Gevorderd wanneer de agressie structureel of georganiseerd is. Expert voor wie verantwoordelijk is voor beleid, meldcultuur en nazorg."
+    antwoord: "Basis voor iedereen met publiekscontact. Gevorderd wanneer de agressie structureel of georganiseerd is. Expert voor wie verantwoordelijk is voor beleid, voor het melden van incidenten en voor de opvang erna."
 ---
 
 GGD-medewerkers werken op een bijzonder snijvlak: zij hebben overheidsbevoegdheden nodig én de medewerking van burgers. Wie een oproep voor contactonderzoek krijgt, een inspectie op bezoek heeft of bij een vaccinatielocatie werkt, merkt hoe snel dat spanning oplevert.

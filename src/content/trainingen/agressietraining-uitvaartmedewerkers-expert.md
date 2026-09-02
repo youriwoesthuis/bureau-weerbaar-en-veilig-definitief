@@ -17,31 +17,31 @@ samenvatting: >-
   over het beëindigen van dienstverlening bij grensoverschrijdend gedrag
   en teambeleid implementeren voor risicosituaties. De training duurt 1 dag en telt maximaal 8 deelnemers.
 resultaat:
-  - Beleid opstellen over het beëindigen van dienstverlening bij grensoverschrijdend gedrag
-  - Teambeleid implementeren voor probleemfamilies en risicosituaties
-  - "Medewerkers coachen na agressie-incidenten, met debriefing en nazorg"
-  - Omgaan met online beschuldigingen en reputatieschade
-  - De meldcultuur versterken
+  - "Vastleggen wanneer je de opdracht teruggeeft omdat gedrag over de grens gaat"
+  - "Met het team afspreken wat je doet bij een familie waar het steeds misgaat"
+  - "Een incident naderhand doornemen met de medewerker, elke keer en niet alleen bij de zware"
+  - "Reageren als een familie je online beschuldigt"
+  - "Zorgen dat incidenten gemeld worden, ook de kleine die niemand opschrijft"
 programma:
   - titel: Intake en analyse
-    inhoud: "De training start met een intakegesprek; bestaand beleid, klantenpopulatie en cultuur worden geanalyseerd."
+    inhoud: "De training begint met een intakegesprek, waarin het beleid, de klantenkring en de gang van zaken worden doorgenomen."
   - titel: Beleid rond dienstverlening
-    inhoud: Vastleggen wanneer de onderneming dienstverlening beëindigt bij grensoverschrijdend gedrag.
-  - titel: Teambeleid risicosituaties
-    inhoud: Eenduidige afspraken voor probleemfamilies en hoogrisicosituaties.
-  - titel: "Coachen, reputatie en meldcultuur"
-    inhoud: "Debriefing en nazorg inrichten, omgaan met online beschuldigingen en zorgen dat incidenten gemeld worden."
+    inhoud: Vastleggen wanneer de onderneming de opdracht teruggeeft bij gedrag dat over de grens gaat.
+  - titel: Teamafspraken bij risicosituaties
+    inhoud: Afspreken wat het team doet bij een familie waar het steeds misgaat.
+  - titel: "Nabespreken, reputatie en melden"
+    inhoud: "Een vast moment inrichten om een incident door te nemen, reageren op beschuldigingen online, en zorgen dat er gemeld wordt."
   - titel: Intervisie na afloop (op verzoek)
-    inhoud: Terugkombijeenkomst over de implementatie.
+    inhoud: "Terugkombijeenkomst over wat er van de afspraken terechtkwam."
 werkvormen:
-  - "analyse van beleid, klantenpopulatie en veiligheidscultuur"
-  - maatwerk op basis van een intakegesprek
+  - "het beleid, de klantenkring en de gang van zaken doornemen"
+  - werken met wat uit het intakegesprek komt
   - intervisie na afloop (op verzoek)
 veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Uitvaartondernemers, praktijkmanagers en leidinggevenden die verantwoordelijk zijn voor de veiligheid van hun medewerkers. Voorwaarde voor deelname: leidinggevende of eigenaarverantwoordelijkheid voor een uitvaartonderneming of team."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De invalshoek. De basis- en gevorderde training gaan over het eigen handelen. Dit expertniveau gaat over de organisatie: beleid, escalatiestructuur, nazorg, meldcultuur en het coachen van medewerkers."
+    antwoord: "Bij basis en gevorderd voer jij zelf het gesprek met de nabestaanden. Op dit niveau kijk je met een intake vooraf naar je bestaande beleid, je klantenpopulatie en de cultuur in je bedrijf, en leg je vast wanneer de onderneming de dienstverlening bij grensoverschrijdend gedrag beëindigt. Je maakt eenduidige afspraken voor probleemfamilies en hoogrisicosituaties, richt debriefing en nazorg in, en bepaalt hoe je reageert op online beschuldigingen."
 gerelateerd:
   - "agressietraining-uitvaartmedewerkers-basis"
   - "agressietraining-uitvaartmedewerkers-gevorderd"

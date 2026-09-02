@@ -18,32 +18,32 @@ samenvatting: >-
   training duurt 1 dag, telt maximaal 10 deelnemers en vraagt een
   afgeronde basistraining of aantoonbare werkervaring.
 resultaat:
-  - "Instrumentele agressie onderscheiden van frustratie-agressie"
-  - Bekende probleemreizigers herkennen en consistent aanpakken
-  - "Crisissituaties beoordelen: stoppen, melden of evacueren"
-  - Professioneel reageren op provocatie en filmen
-  - Groepsdruk weerstaan
-  - Bruikbare meldingen doen
+  - Het verschil zien tussen een reiziger die overstuur is en een die je bewust klemzet
+  - Bekende probleemreizigers herkennen en er elke keer hetzelfde op reageren
+  - "Beslissen wat je doet: doorrijden, stoppen, melden of de bus leeg laten lopen"
+  - Kalm blijven als iemand je uitlokt en het filmt
+  - Blijven staan als een groep je samen onder druk zet
+  - Een melding doen waar de organisatie iets mee kan
 programma:
   - titel: Probleemreizigers
-    inhoud: Reizigers die structureel problemen veroorzaken herkennen en consistent aanpakken.
+    inhoud: Reizigers die steeds terugkomen herkennen en er elke keer hetzelfde op reageren.
   - titel: Crisisbesluiten
-    inhoud: "Beoordelen wanneer je stopt, meldt of evacueert: met een volle bus."
+    inhoud: "Beslissen wanneer je stopt, meldt of de bus leeg laat lopen, met een volle bus achter je."
   - titel: Groepsdruk
-    inhoud: Standhouden wanneer een groep samenwerkt om druk uit te oefenen.
+    inhoud: Blijven staan als een groep je samen onder druk zet.
   - titel: Provocatie en camera
-    inhoud: Professioneel reageren wanneer je bewust wordt uitgelokt en gefilmd.
+    inhoud: Kalm blijven als iemand je uitlokt en het filmt.
   - titel: Bruikbaar melden
-    inhoud: Meldingen doen waar de organisatie werkelijk iets mee kan.
+    inhoud: Een melding doen waar de organisatie iets mee kan.
 werkvormen:
-  - casuïstiek van deelnemers zelf
-  - patroonanalyse door de trainer
-  - directe feedback op besluitvorming
+  - casuïstiek die deelnemers zelf inbrengen
+  - de trainer legt de patronen bloot die eronder zitten
+  - directe feedback op de besluiten die je neemt
 veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Buschauffeurs met een afgeronde basistraining die regelmatig complexe agressie-incidenten meemaken. Voorwaarde voor deelname: afgeronde basistraining of aantoonbare werkervaring met agressie-incidenten in het openbaar vervoer."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basistraining behandelt het herkennen en de-escaleren van agressie in het moment. Dit gevorderde niveau richt zich op patronen die niet impulsief zijn: bewuste grensoverschrijding, manipulatie en consistent teamoptreden."
+    antwoord: "In de basis oefen je de reiziger die weigert in te checken en het conflict tussen passagiers onderling. Hier gaat het om de reiziger die je elke week op dezelfde lijn tegenkomt, om een groep die samen druk zet, en om het besluit of je doorrijdt, stopt of meldt terwijl de bus vol zit. Je oefent ook het optreden dat bewust gefilmd wordt. Expert is voor lijn- en depotmanagers, die per lijn kijken waar het structureel misgaat."
 gerelateerd:
   - "agressietraining-buschauffeurs-basis"
   - "agressietraining-buschauffeurs-expert"

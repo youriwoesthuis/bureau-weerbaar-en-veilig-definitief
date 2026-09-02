@@ -17,27 +17,27 @@ samenvatting: >-
   verkeersveiligheid in gevaar te brengen. De training duurt 1 dag en telt
   maximaal 10 deelnemers.
 resultaat:
-  - Signalen van oplopende spanning herkennen
-  - De eigen reactie reguleren zonder de verkeersveiligheid in gevaar te brengen
-  - Verbaal agressief gedrag professioneel begrenzen
-  - Beslissen wanneer je stopt of hulpdiensten inschakelt
-  - Veilig omgaan met personen onder invloed
-  - Incidenten correct melden
+  - "Zien dat de spanning in de auto oploopt"
+  - "Rustig blijven zonder je aandacht van de weg te halen"
+  - "Verbaal een grens stellen bij een passagier die intimideert"
+  - "Beslissen wanneer je stopt of hulp inschakelt"
+  - "Veilig omgaan met een passagier onder invloed"
+  - "Een incident melden"
 programma:
   - titel: Spanning in de auto
-    inhoud: "Signalen van oplopende spanning herkennen bij discussies over route, prijs of rijstijl."
+    inhoud: "Zien dat de spanning oploopt bij discussie over de route, de prijs of je rijstijl."
   - titel: Reguleren tijdens het rijden
-    inhoud: De eigen reactie beheersen zonder de aandacht van het verkeer te halen.
-  - titel: "Begrenzen en de-escaleren"
-    inhoud: Verbaal begrenzen bij een passagier die weigert te betalen of intimideert.
+    inhoud: Rustig blijven zonder je aandacht van de weg te halen.
+  - titel: Begrenzen en de-escaleren
+    inhoud: Verbaal een grens stellen bij een passagier die weigert te betalen of intimideert.
   - titel: Onder invloed
-    inhoud: Veilig omgaan met personen onder invloed en met onbeheersbaar gedrag.
+    inhoud: Veilig omgaan met een passagier onder invloed die onvoorspelbaar reageert.
   - titel: Stoppen of doorrijden
-    inhoud: "Beslissen wanneer je stopt, hulpdiensten inschakelt en hoe je het incident meldt."
+    inhoud: "Beslissen wanneer je stopt, wanneer je hulp inschakelt en hoe je het incident meldt."
 werkvormen:
-  - realistische oefeningen met trainers die de dynamiek van rijdende voertuigen kennen
+  - oefenen met trainers die het werk in een rijdend voertuig kennen
   - casuïstiek uit de eigen ritten
-  - praktijkgericht oefenen zonder naïeve rollenspellen
+  - oefenen met een trainingsacteur
 veelgestelde_vragen:
   - vraag: "Blijft de verkeersveiligheid een aandachtspunt in de training?"
     antwoord: "Ja. De-escaleren mag nooit ten koste gaan van veilig rijden. Het reguleren van de eigen reactie zonder de aandacht van het verkeer te halen is een expliciet leerdoel."

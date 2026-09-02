@@ -4,7 +4,7 @@ slug: hypotheek-kredietadviseurs
 sector: financiele-dienstverlening
 samenvatting: >-
   Bureau Weerbaar en Veilig biedt agressietraining voor hypotheek- en
-  kredietadviseurs in drie niveaus. Van slecht nieuws professioneel
+  kredietadviseurs in drie niveaus. Van slecht nieuws zonder escalatie
   brengen (basis) tot schuld-projectie en combinatiecrisis (gevorderd) en
   beleid rond grensoverschrijdend klantgedrag (expert).
 kern: "Slecht nieuws brengen dat een levensplan raakt, en er persoonlijk op aangesproken worden"

@@ -19,27 +19,27 @@ samenvatting: >-
   telt maximaal 10 deelnemers en vraagt een afgeronde basistraining of
   ervaring met complexe situaties.
 resultaat:
-  - Ideologisch gemotiveerde agressie onderscheiden en adequaat reageren
-  - Professioneel standhouden wanneer je legitimiteit wordt betwist
-  - Georganiseerde weerstand herkennen en escaleren
-  - Veilig handelen op risicovolle locaties
-  - Omgaan met online bedreigingen en intimidatiecampagnes
-  - Professionele distantie bewaren onder politieke druk
+  - Merken dat iemand vanuit een overtuiging tegen je optreedt, en daar anders op reageren
+  - Blijven staan als iemand betwist dat jij hier iets over te zeggen hebt
+  - Zien dat weerstand afgestemd is, en dat op tijd doorgeven
+  - Weten wat je doet op een locatie waar het kan misgaan
+  - Reageren als je met naam online wordt bedreigd
+  - Het werk van jezelf los blijven zien als de politiek zich ermee bemoeit
 programma:
   - titel: Ideologische agressie
-    inhoud: "Onderscheiden van frustratie, en reageren op agressie die voortkomt uit overtuiging in plaats van emotie."
+    inhoud: "Het verschil zien met gewone boosheid, en reageren op iemand die vanuit een overtuiging handelt."
   - titel: Betwiste legitimiteit
-    inhoud: Professioneel standhouden wanneer iemand je bevoegdheid of het bestaansrecht van je organisatie ter discussie stelt.
+    inhoud: Blijven staan als iemand betwist dat jij of je organisatie hier iets over te zeggen heeft.
   - titel: Georganiseerde weerstand
-    inhoud: "Herkennen wanneer weerstand gecoördineerd is, en dat tijdig escaleren."
+    inhoud: "Zien dat weerstand afgestemd is, en dat op tijd doorgeven."
   - titel: Online bedreiging
-    inhoud: Omgaan met bedreigingen en intimidatiecampagnes die zich richten op de persoon achter de functie.
+    inhoud: Reageren als de bedreiging niet je functie maar jou persoonlijk raakt.
   - titel: Politieke druk en distantie
-    inhoud: Professionele distantie bewaren wanneer het werk politiek onder druk staat.
+    inhoud: Het werk van jezelf los blijven zien als de politiek zich ermee bemoeit.
 werkvormen:
   - casuïstiek uit de eigen organisatie
-  - analyse van reactiepatronen op ideologische agressie
-  - aandacht voor emotionele belasting
+  - nagaan hoe je nu reageert op iemand met een overtuiging
+  - aandacht voor wat dit met je doet
 veelgestelde_vragen:
   - vraag: "Wat is ideologisch gemotiveerde agressie?"
     antwoord: "Agressie die niet voortkomt uit frustratie over een concrete beslissing, maar uit een overtuiging over de overheid of de gezondheidszorg. Die vraagt een andere reactie, omdat de-escaleren het onderliggende motief niet wegneemt."

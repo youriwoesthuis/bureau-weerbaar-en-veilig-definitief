@@ -19,7 +19,7 @@ samenvatting: >-
   dag, telt maximaal 10 deelnemers en vraagt een afgeronde basistraining
   of aantoonbare werkervaring.
 resultaat:
-  - "Instrumentele agressie onderscheiden van frustratie-agressie"
+  - "Instrumentele agressie onderscheiden van frustratieagressie"
   - Manipulatie en druktactieken herkennen en neutraliseren
   - Risicoprofielen gebruiken
   - Teamafspraken maken bij herhaalde agressie
@@ -46,7 +46,7 @@ veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Ambulancemedewerkers met een basistraining die regelmatig complexe of herhaalde agressie-incidenten meemaken. Voorwaarde voor deelname: afgeronde basistraining of aantoonbare werkervaring met agressie-incidenten."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basistraining behandelt het herkennen en de-escaleren van agressie in het moment. Dit gevorderde niveau richt zich op patronen die niet impulsief zijn: bewuste grensoverschrijding, manipulatie en consistent teamoptreden."
+    antwoord: "In de basis oefen je de geïntoxiceerde patiënt die ter plaatse uit de hand loopt en de familie die de hulpverlening tegenwerkt. Hier gaat het om agressie met een doel, zoals de patiënt die dreigt met een klacht of een advocaat om sneller vervoerd te worden, en om een duo dat niet hetzelfde zegt. Expert is voor rayonmanagers en veiligheidscoördinatoren, die kijken naar het meldgedrag binnen de dienst en naar de vraag of het protocol ook op straat werkt, midden in de nacht, met twee mensen."
 gerelateerd:
   - "agressietraining-ambulancemedewerkers-basis"
   - "agressietraining-ambulancemedewerkers-expert"

@@ -18,34 +18,34 @@ samenvatting: >-
   opstellen en de balans tussen zorgkwaliteit en teamveiligheid borgen. De
   training duurt 1 dag en telt maximaal 8 deelnemers.
 resultaat:
-  - Agressiepatronen op afdelingsniveau herkennen en bespreken
-  - Eenduidig teambeleid opstellen bij terugkerende agressie
-  - "Medewerkers coachen na agressie-incidenten"
-  - Beleid formuleren voor grensoverschrijdend gedrag van familieleden
-  - De meldcultuur versterken
-  - De balans tussen zorgkwaliteit en teamveiligheid borgen
+  - "Zien welke agressie op de afdeling terugkeert, en dat bespreekbaar maken"
+  - "Herkennen wanneer een team gedrag is gaan accepteren dat niet hoort"
+  - "Met het team afspreken wat je doet bij dezelfde bewoner"
+  - "Een incident naderhand doornemen met de medewerker, elke keer"
+  - "Beleid maken voor familieleden die over de grens gaan"
+  - "Zorgen dat incidenten gemeld worden, ook de kleine die niemand opschrijft"
 programma:
-  - titel: Patronen op afdelingsniveau
-    inhoud: "Agressiepatronen zichtbaar maken en bespreekbaar houden, ook wanneer ze genormaliseerd zijn."
+  - titel: Patronen op de afdeling
+    inhoud: "Zien welke agressie terugkeert, en dat bespreekbaar houden als het team eraan gewend is geraakt."
   - titel: Eenduidig teambeleid
-    inhoud: Beleid opstellen dat het hele team volgt bij terugkerende agressie van dezelfde bewoner.
+    inhoud: Afspraken maken die het hele team volgt bij terugkerende agressie van dezelfde bewoner.
   - titel: Familiebeleid
-    inhoud: Helder beleid formuleren voor grensoverschrijdend gedrag van familieleden.
-  - titel: Coachen en meldcultuur
-    inhoud: Medewerkers begeleiden na incidenten en zorgen dat er weer gemeld wordt.
-  - titel: Zorgkwaliteit én teamveiligheid
-    inhoud: De balans borgen tussen goede zorg voor de bewoner en veiligheid voor het team.
+    inhoud: Beleid maken voor familieleden die over de grens gaan.
+  - titel: Nabespreken en melden
+    inhoud: "Een incident doornemen met de medewerker, en zorgen dat er weer gemeld wordt."
+  - titel: Goede zorg en een veilig team
+    inhoud: "Vastleggen hoe je beide vasthoudt, zodat de zorg voor de bewoner niet ten koste van het team gaat."
 werkvormen:
-  - beleidsanalyse
-  - "coaching- en ondersteuningsstrategieën"
-  - praktijkgericht ontwerp van afdelingsbeleid
+  - het bestaande beleid doornemen
+  - uitwerken hoe je medewerkers na een incident begeleidt
+  - afdelingsbeleid ontwerpen dat op de vloer werkt
 veelgestelde_vragen:
   - vraag: "Hoe voorkom je dat agressie genormaliseerd wordt?"
     antwoord: "Door meldgedrag zichtbaar te maken, patronen op afdelingsniveau te bespreken en incidenten consequent na te bespreken. Dat is een kernonderdeel van deze training."
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Teamleiders, afdelingshoofden en locatiemanagers in verpleeghuizen en de ouderenzorg. Voorwaarde voor deelname: leidinggevende verantwoordelijkheid voor een team in een verpleeghuis of ouderenzorginstelling."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "Het perspectief. De basis- en gevorderde training gaan over het eigen handelen. Dit expertniveau gaat over de organisatie: beleid, escalatiestructuur, nazorg, meldcultuur en het coachen van medewerkers."
+    antwoord: "Basis en gevorderd gaan over jouw werk aan het bed en op de afdeling. Op dit niveau maak je de agressiepatronen op afdelingsniveau zichtbaar en houd je ze bespreekbaar, ook wanneer het team ze allang normaal is gaan vinden. Je stelt beleid op dat iedereen volgt bij terugkerende agressie van dezelfde bewoner en formuleert een heldere lijn voor grensoverschrijdend gedrag van familieleden. Daarbij bewaak je de balans tussen goede zorg voor de bewoner en de veiligheid van je team."
 gerelateerd:
   - "agressietraining-verpleeghuizen-ouderenzorg-basis"
   - "agressietraining-verpleeghuizen-ouderenzorg-gevorderd"

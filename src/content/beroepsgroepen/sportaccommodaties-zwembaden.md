@@ -6,7 +6,7 @@ samenvatting: >-
   Bureau Weerbaar en Veilig biedt agressietraining voor medewerkers in
   sportaccommodaties en zwembaden in drie niveaus. Van veiligheidsregels
   gezaghebbend communiceren (basis) tot groepsintimidatie en
-  supportersescalaties (gevorderd) en toegangsbeleid en meldcultuur
+  supportersescalaties (gevorderd) en toegangsbeleid en het melden van incidenten
   (expert).
 kern: "Regels handhaven die bezoekers hinderlijk vinden, vaak met een telefoon erop gericht"
 veelgestelde_vragen:

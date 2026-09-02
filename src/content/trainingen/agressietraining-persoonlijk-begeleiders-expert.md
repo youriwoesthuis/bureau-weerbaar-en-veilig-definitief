@@ -18,26 +18,26 @@ samenvatting: >-
   veiligheidsafspraken maken voor één-op-één werk en medewerkers
   structureel coachen. De training duurt 1 dag en telt maximaal 8 deelnemers.
 resultaat:
-  - Grensvervaging in begeleidingsrelaties tijdig signaleren en bespreekbaar maken
-  - "Veiligheidsafspraken maken voor één-op-één werk en activiteiten buitenshuis"
-  - Beleid opstellen voor contact buiten werktijd en via sociale media
-  - Medewerkers structureel coachen na incidenten
-  - Isolatie van een begeleider door een cliënt doorbreken
-  - De meldcultuur versterken
+  - "Zien dat een begeleider te dichtbij komt, en dat bespreekbaar maken"
+  - "Afspraken maken over werken zonder collega in de buurt en over uitstapjes"
+  - "Beleid maken voor contact buiten werktijd en via sociale media"
+  - "Een incident naderhand doornemen met de begeleider, elke keer"
+  - "Merken wanneer een cliënt een begeleider van het team losweekt, en dat doorbreken"
+  - "Zorgen dat incidenten gemeld worden, ook de kleine die niemand opschrijft"
 programma:
-  - titel: Grensvervaging signaleren als leidinggevende
-    inhoud: "Hoe je ziet dat een begeleidingsrelatie verschuift, terwijl de begeleider zelf niets merkt."
-  - titel: "Veiligheidsafspraken voor één-op-één werk"
-    inhoud: Afspraken maken over activiteiten buitenshuis en momenten zonder collega in de buurt.
-  - titel: Beleid voor contact buiten werktijd
-    inhoud: Helder beleid over sociale media en contact buiten diensttijd.
-  - titel: Coachen en meldcultuur
-    inhoud: "Structurele begeleiding na incidenten, en zorgen dat begeleiders blijven melden."
+  - titel: Zien dat de grens verschuift
+    inhoud: "Hoe je merkt dat een begeleidingsrelatie verschuift, terwijl de begeleider zelf niets ziet."
+  - titel: "Afspraken voor het werken alleen met een cliënt"
+    inhoud: Afspraken over uitstapjes en over momenten zonder collega in de buurt.
+  - titel: Contact buiten werktijd
+    inhoud: Beleid maken over sociale media en contact buiten diensttijd.
+  - titel: Nabespreken en melden
+    inhoud: "Een vast moment inrichten om een incident door te nemen, en zorgen dat begeleiders blijven melden."
   - titel: Intervisie na afloop (op verzoek)
-    inhoud: Terugkombijeenkomst over de implementatie in de eigen organisatie.
+    inhoud: "Terugkombijeenkomst over wat er in de eigen organisatie van de afspraken terechtkwam."
 werkvormen:
-  - casuïstiekbespreking op teamniveau
-  - beleidsverdieping met concrete veiligheidsafspraken
+  - casuïstiek op teamniveau bespreken
+  - concrete veiligheidsafspraken uitwerken
   - intervisie na afloop (op verzoek)
 veelgestelde_vragen:
   - vraag: "Waarom is dit een apart expertniveau?"
@@ -45,7 +45,7 @@ veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Teamleiders, locatiemanagers en gedragscoördinatoren die persoonlijk begeleiders aansturen in intensieve één-op-één begeleidingsrelaties. Voorwaarde voor deelname: leidinggevende verantwoordelijkheid voor een team persoonlijk begeleiders in de gehandicaptenzorg."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basis- en gevorderde training gaan over het eigen handelen. Dit expertniveau gaat over de organisatie: beleid, escalatiestructuur, nazorg, meldcultuur en het coachen van medewerkers."
+    antwoord: "Basis en gevorderd gaan over jouw eigen begeleidingsrelatie. Op dit niveau leer je zien dat een relatie verschuift terwijl de begeleider zelf niets merkt, en maak je veiligheidsafspraken voor activiteiten buitenshuis en diensten zonder collega in de buurt. Je stelt beleid op voor sociale media en contact buiten diensttijd, en richt de begeleiding na incidenten zo in dat mensen blijven melden."
 gerelateerd:
   - "agressietraining-persoonlijk-begeleiders-basis"
   - "agressietraining-persoonlijk-begeleiders-gevorderd"

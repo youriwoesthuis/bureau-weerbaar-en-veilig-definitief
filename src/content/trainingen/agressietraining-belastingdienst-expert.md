@@ -17,32 +17,32 @@ samenvatting: >-
   afdelingsniveau in beleid vertalen, veiligheidsbeleid voor controles
   opzetten en de meldcultuur versterken. De training duurt 1 dag en telt maximaal 8 deelnemers.
 resultaat:
-  - Agressiepatronen op afdelingsniveau analyseren en in beleid vertalen
-  - Het agressieprotocol toetsen op praktische bruikbaarheid
-  - Medewerkers structureel coachen na incidenten
-  - Beleid opzetten voor veiligheid bij controles en toegangsweigering
-  - Juridische verantwoordelijkheid begrijpen en communiceren
-  - De meldcultuur versterken
+  - Uit de meldingen van de afdeling halen welk gedrag terugkomt, en daar beleid van maken
+  - Nagaan of het agressieprotocol klopt met wat medewerkers op locatie meemaken
+  - Een incident naderhand met de betrokkene doornemen, elke keer en niet alleen bij de zware
+  - Vastleggen hoe medewerkers veilig een controle doen en wanneer je iemand weigert
+  - Weten waar de werkgever voor aan de lat staat, en dat aan het team uitleggen
+  - Zorgen dat incidenten gemeld worden, ook de kleine die niemand opschrijft
 programma:
   - titel: Patronen naar beleid
-    inhoud: Agressiepatronen op afdelingsniveau analyseren en omzetten in concreet beleid.
+    inhoud: Uit de meldingen van de afdeling halen welk gedrag terugkomt, en daar beleid van maken.
   - titel: Protocol toetsen
     inhoud: "Werkt het agressieprotocol ook tijdens een controle op locatie? Toetsen en verbeteren."
   - titel: Veiligheid bij controles
-    inhoud: Beleid opzetten voor veilig werken tijdens controles en voor toegangsweigering.
+    inhoud: Vastleggen hoe medewerkers veilig een controle doen en wanneer je iemand de toegang weigert.
   - titel: Standhouden of escaleren
-    inhoud: "De grens bepalen tussen professioneel standhouden en escaleren, en die grens uitleggen aan het team."
+    inhoud: "Bepalen waar de grens ligt tussen zelf doorgaan en iemand erbij halen, en die grens aan het team uitleggen."
   - titel: Intervisie na afloop (op verzoek)
-    inhoud: Terugkombijeenkomst over de implementatie.
+    inhoud: Terugkomen op wat er van het beleid terecht is gekomen.
 werkvormen:
-  - casuïstiekbespreking
-  - beleidsanalyse met aandacht voor de juridische context
+  - casuïstiek uit de eigen afdeling doornemen
+  - het beleid naast de juridische kaders leggen
   - intervisie na afloop (op verzoek)
 veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Teamleiders, afdelingshoofden en veiligheidscoördinatoren bij de Belastingdienst. Voorwaarde voor deelname: leidinggevende functie met aantoonbare werkervaring met agressie bij de Belastingdienst."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basis- en gevorderde training gaan over het eigen handelen. Dit expertniveau gaat over de organisatie: beleid, escalatiestructuur, nazorg, meldcultuur en het coachen van medewerkers."
+    antwoord: "Basis en gevorderd gaan over jouw gesprek met de burger of de ondernemer. Op dit niveau analyseer je de agressiepatronen op je afdeling en zet je die om in beleid: hoe veilig werken tijdens een controle op locatie geregeld is, wanneer iemand de toegang wordt geweigerd en waar de grens ligt tussen professioneel standhouden en opschalen. Je legt die grens ook uit aan je team, zodat een medewerker weet dat zijn besluit gedekt is."
 gerelateerd:
   - "agressietraining-belastingdienst-basis"
   - "agressietraining-belastingdienst-gevorderd"

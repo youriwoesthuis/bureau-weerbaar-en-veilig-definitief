@@ -17,26 +17,26 @@ samenvatting: >-
   deelnemers en wordt bij jullie op locatie gegeven, met realistische oefeningen
   uit de dagelijkse winkelpraktijk.
 resultaat:
-  - Verschillende vormen van agressie herkennen
-  - De eigen reactie reguleren onder druk
-  - Verbaal agressief gedrag professioneel begrenzen
-  - Gespannen situaties de-escaleren
-  - Handelen volgens het agressieprotocol van de eigen winkel
-  - Incidenten correct melden
+  - "Zien of iemand boos is om iets wat misging of je onder druk zet om zijn zin te krijgen"
+  - "Rustig blijven als een klant tegen je uitvalt"
+  - "Verbaal een grens stellen zonder de klant kwader te maken"
+  - "De spanning eruit halen voordat het uit de hand loopt"
+  - "Doen wat het agressieprotocol van je winkel voorschrijft"
+  - "Een incident opschrijven, zodat je werkgever weet wat er speelt"
 programma:
   - titel: Agressie herkennen
-    inhoud: Vormen van agressie en de signalen die eraan voorafgaan, toegespitst op de open winkelomgeving zonder fysieke barrières.
+    inhoud: "Vormen van agressie en de signalen die eraan voorafgaan, in een winkel waar niets tussen jou en de klant staat."
   - titel: Eigen reactie reguleren
-    inhoud: Wat spanning met je doet en hoe je onder druk rustig en professioneel blijft.
+    inhoud: "Wat spanning met je doet, en hoe je rustig blijft en je werk afmaakt."
   - titel: Begrenzen en de-escaleren
-    inhoud: Verbaal agressief gedrag begrenzen en het gesprek terugbrengen, ook bij aanspreken op vermoedelijke diefstal.
+    inhoud: "Een grens stellen en het gesprek terugbrengen, ook als je iemand aanspreekt op vermoedelijke diefstal."
   - titel: Protocol en melden
-    inhoud: Handelen volgens het agressieprotocol en incidenten correct melden.
-  - titel: Oefenen met praktijksituaties
-    inhoud: "Realistische oefeningen gebaseerd op dagelijkse winkelsituaties: praktijkgericht, zonder naïeve rollenspellen."
+    inhoud: Handelen volgens het agressieprotocol en het incident melden.
+  - titel: Oefenen met echte situaties
+    inhoud: "Oefeningen op basis van situaties die in de winkel dagelijks voorkomen."
 werkvormen:
-  - realistische oefeningen op basis van dagelijkse winkelsituaties
-  - casuïstiek uit de eigen winkelpraktijk
+  - oefeningen op basis van dagelijkse winkelsituaties
+  - casuïstiek uit de eigen winkel
   - feedback van de trainer
 veelgestelde_vragen:
   - vraag: Voor wie is deze training bedoeld?
@@ -50,7 +50,7 @@ gerelateerd:
 
 ## Waarom deze training
 
-Je staat op een open vloer, zonder balie of glas ertussen. Je helpt klanten, vult vakken bij en spreekt iemand aan die iets in zijn jas laat glijden, vaak terwijl je alleen in dat deel van de winkel bent. Blijft dat onbesproken, dan gaan collega's situaties ontwijken, vertrekken ze eerder en wordt "dat hoort er nu eenmaal bij" de teamnorm: de stilzwijgende afspraak over wat jullie normaal zijn gaan vinden.
+Je staat op een open vloer, zonder balie of glas ertussen. Je helpt klanten, vult vakken bij en spreekt iemand aan die iets in zijn jas laat glijden, vaak terwijl je alleen in dat deel van de winkel bent. Blijft dat onbesproken, dan gaan collega's situaties ontwijken, vertrekken ze eerder en wordt "dat hoort er nu eenmaal bij" de teamnorm: de gedeelde lijn over wat jullie laten passeren, ook als niemand hem heeft opgeschreven.
 
 Je leert dat patroon doorbreken. Wie tegen je uitvalt omdat de aanbieding op is, is gefrustreerd en kalmeert als je de spanning erkent. Wie je bij een diefstal onder druk zet, rekent erop dat je terugdeinst, en daar werkt juist een korte grens op het gedrag. Je oefent allebei: signalen vroeg lezen, je eigen reactie reguleren en een gespannen situatie terugbrengen tot een gewoon gesprek.
 

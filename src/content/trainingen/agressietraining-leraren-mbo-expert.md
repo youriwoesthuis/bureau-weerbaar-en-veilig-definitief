@@ -17,32 +17,32 @@ samenvatting: >-
   instellingsniveau analyseren, het gedragsprotocol aanscherpen en de
   meldcultuur versterken. De training duurt 1 dag en telt maximaal 8 deelnemers.
 resultaat:
-  - Gedragspatronen op instellingsniveau analyseren
-  - Het gedragsprotocol toetsen en aanscherpen
-  - Collega’s coachen na ernstige incidenten
-  - Een escalatiestructuur opzetten en borgen
-  - Juridische verantwoordelijkheid begrijpen en communiceren
-  - De meldcultuur versterken
+  - "Zien welke incidenten in de instelling terugkeren, en waar ze vandaan komen"
+  - "Nagaan of het gedragsprotocol werkt in een volle klas, en het aanpassen"
+  - "Een collega na een ernstig incident naderhand spreken, elke keer"
+  - "Vastleggen wie je erbij haalt als het misgaat, en zorgen dat het blijft staan"
+  - "Weten waar de instelling aansprakelijk voor is, en dat uitleggen aan het team"
+  - "Zorgen dat incidenten gemeld worden, ook de kleine die niemand opschrijft"
 programma:
   - titel: Patronen op instellingsniveau
-    inhoud: "Beleid, meldingsdata en cultuur analyseren om patronen zichtbaar te maken."
+    inhoud: "Het beleid, de meldingen en de gang van zaken doornemen om te zien wat er terugkeert."
   - titel: Protocol aanscherpen
-    inhoud: Het gedragsprotocol toetsen en verbeteren op basis van wat er werkelijk gebeurt.
-  - titel: Coachen na incidenten
-    inhoud: Collega’s structureel begeleiden na ernstige incidenten.
+    inhoud: "Het gedragsprotocol toetsen aan wat er werkelijk gebeurt, en het aanpassen."
+  - titel: Collega’s na een incident
+    inhoud: Een vast moment inrichten om een ernstig incident met de betrokken collega door te nemen.
   - titel: Escalatie en verantwoordelijkheid
-    inhoud: Een escalatiestructuur opzetten en verantwoordelijkheden helder maken.
+    inhoud: "Vastleggen wie je erbij haalt als het misgaat, en waar de instelling aansprakelijk voor is."
   - titel: Intervisie na afloop (op verzoek)
-    inhoud: Op verzoek een terugkombijeenkomst over de implementatie binnen de eigen instelling.
+    inhoud: "Terugkombijeenkomst over wat er binnen de eigen instelling van de afspraken terechtkwam."
 werkvormen:
-  - "analyse van bestaand beleid, meldingsdata en cultuur"
-  - casuïstiekbespreking
+  - het bestaande beleid en de meldingen doornemen
+  - eigen casuïstiek bespreken
   - intervisie na afloop (op verzoek)
 veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Teamleiders, zorgcoördinatoren en senior leraren in het mbo die het gedragsbeleid willen versterken en het team willen coachen. Voorwaarde voor deelname: leidinggevende of coördinerende functie met aantoonbare werkervaring met gedragsincidenten."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De invalshoek. De basis- en gevorderde training gaan over het eigen handelen. Dit expertniveau gaat over de organisatie: beleid, escalatiestructuur, nazorg, meldcultuur en het coachen van medewerkers."
+    antwoord: "Bij basis en gevorderd sta jij zelf voor de klas. Op dit niveau kijk je naar de instelling als geheel: wat de meldingen laten zien, welk gedrag genormaliseerd is geraakt en of het gedragsprotocol klopt met wat er werkelijk in de gangen gebeurt. Je zet een escalatiestructuur op met heldere verantwoordelijkheden en begeleidt collega's na ernstige incidenten, zodat een docent na een bedreiging niet zelf hoeft uit te zoeken wat er nu moet gebeuren."
 gerelateerd:
   - "agressietraining-leraren-mbo-basis"
   - "agressietraining-leraren-mbo-gevorderd"

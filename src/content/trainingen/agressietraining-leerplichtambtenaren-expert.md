@@ -18,32 +18,32 @@ samenvatting: >-
   ketensamenwerking organiseren en medewerkers coachen na incidenten. De
   training duurt 1 dag en telt maximaal 8 deelnemers.
 resultaat:
-  - "Een veiligheidsprotocol voor solo-huisbezoeken ontwikkelen"
-  - Ketensamenwerking met jeugdzorg en politie organiseren
-  - "Medewerkers coachen na agressie-incidenten"
-  - Beleid opstellen voor structureel agressieve gezinnen
-  - Ondersteuning bieden bij juridische dreigingen
-  - De meldcultuur versterken
+  - "Afspreken hoe iemand alleen op huisbezoek gaat: wat hij vooraf nagaat en wie weet waar hij is"
+  - "Regelen dat jeugdzorg en politie er ook zijn als het nodig is"
+  - "Een incident naderhand doornemen met de medewerker, elke keer"
+  - "Beleid maken voor gezinnen waar agressie steeds terugkomt"
+  - "Een medewerker bijstaan als ouders dreigen met een klacht of een advocaat"
+  - "Zorgen dat incidenten gemeld worden, ook de kleine die niemand opschrijft"
 programma:
-  - titel: "Protocol voor solo-huisbezoeken"
-    inhoud: Een helder veiligheidsprotocol voor medewerkers die alleen op huisbezoek gaan.
+  - titel: "Afspraken voor het huisbezoek alleen"
+    inhoud: "Wat een medewerker vooraf nagaat, wie weet waar hij is en wanneer hij vertrekt."
   - titel: Ketensamenwerking
-    inhoud: Samenwerking met jeugdzorg en politie organiseren zodat die er ook is als het nodig is.
+    inhoud: Regelen dat jeugdzorg en politie er ook zijn als het nodig is.
   - titel: Beleid bij structureel agressieve gezinnen
-    inhoud: Beleid opstellen voor gezinnen waar agressie een patroon is.
-  - titel: Coachen en juridische ondersteuning
-    inhoud: Debriefing na incidenten inrichten en medewerkers bijstaan bij juridische dreiging.
+    inhoud: Beleid maken voor gezinnen waar agressie steeds terugkomt.
+  - titel: Nabespreken en juridische steun
+    inhoud: "Een vast moment inrichten om een incident door te nemen, en medewerkers bijstaan bij dreiging met een klacht of een advocaat."
   - titel: Intervisie na afloop (op verzoek)
-    inhoud: Terugkombijeenkomst over de implementatie binnen de gemeente.
+    inhoud: "Terugkombijeenkomst over wat er binnen de gemeente van de afspraken terechtkwam."
 werkvormen:
-  - "analyse van veiligheidsbeleid, incidentrapportages en ketensamenwerking"
-  - beleidsverdieping met concrete protocollen
+  - "het veiligheidsbeleid, de meldingen en de afspraken met ketenpartners doornemen"
+  - protocollen uitwerken voor de eigen gemeente
   - intervisie na afloop (op verzoek)
 veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Coördinatoren leerplicht, teamleiders en beleidsmedewerkers bij gemeenten die verantwoordelijk zijn voor de veiligheid van het leerplichtwerk. Voorwaarde voor deelname: coördinerende of leidinggevende verantwoordelijkheid voor een leerplichtteam."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De invalshoek. De basis- en gevorderde training gaan over het eigen handelen. Dit expertniveau gaat over de organisatie: beleid, escalatiestructuur, nazorg, meldcultuur en het coachen van medewerkers."
+    antwoord: "Basis en gevorderd gaan over jouw gesprek met de ouder of de jongere. Op dit niveau maak je een veiligheidsprotocol voor medewerkers die alleen op huisbezoek gaan, en organiseer je de samenwerking met jeugdzorg en politie zo dat die er ook is als het misgaat. Je stelt beleid op voor gezinnen waar agressie een patroon is, richt de debriefing in en staat medewerkers bij wanneer ouders juridisch dreigen."
 gerelateerd:
   - "agressietraining-leerplichtambtenaren-basis"
   - "agressietraining-leerplichtambtenaren-gevorderd"

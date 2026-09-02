@@ -18,32 +18,32 @@ samenvatting: >-
   duurt 1 dag, telt maximaal 10 deelnemers en wordt vooraf afgestemd op de
   eigen vestiging.
 resultaat:
-  - Overlastpatronen analyseren en aanpakken met concrete maatregelen
-  - Gedemotiveerde teams begeleiden naar herstel
-  - Samenwerken met politie, gemeente en buurtnetwerken
-  - Nazorgtrajecten voor medewerkers opzetten
-  - Organisatiedruk professioneel weerleggen met data
-  - De vestiging minder aantrekkelijk maken als doelwit
+  - Zien welke overlast terugkomt, en daar maatregelen aan hangen
+  - Een team dat het vertrouwen kwijt is weer op gang helpen
+  - Optrekken met de politie, de gemeente en andere ondernemers in de straat
+  - Regelen dat een medewerker na een zwaar incident wordt opgevangen en begeleid
+  - Met cijfers laten zien waarom de druk van boven hier niet werkt
+  - Je vestiging minder aantrekkelijk maken voor wie het op je gemunt heeft
 programma:
   - titel: Structurele overlast analyseren
-    inhoud: Patronen herkennen bij terugkerende groepen of individuen en georganiseerde winkeldiefstalproblematiek.
+    inhoud: Zien welke groepen of personen terugkomen en waar de diefstal georganiseerd is.
   - titel: Team en vertrouwen herstellen
-    inhoud: Teams begeleiden die het vertrouwen in hun veiligheid zijn verloren, en medewerkers met langdurige uitval na ernstige incidenten.
+    inhoud: Een team weer op gang helpen dat zich niet meer veilig voelt, en medewerkers die na een zwaar incident lang thuis zitten.
   - titel: Samenwerken met externe partners
-    inhoud: Effectief optrekken met politie, gemeente en buurtnetwerken.
+    inhoud: Optrekken met de politie, de gemeente en andere ondernemers in de straat.
   - titel: De managerspositie zelf
-    inhoud: De dubbeldruk van teamveiligheid en organisatieresultaten bespreekbaar maken, en organisatiedruk professioneel weerleggen met data.
+    inhoud: Benoemen dat je klem zit tussen de veiligheid van je team en de cijfers, en met gegevens laten zien wat er speelt.
   - titel: Eigen casuïstiek
-    inhoud: Analyse van situaties uit de eigen vestiging, met patronen en directe feedback.
+    inhoud: Situaties uit de eigen vestiging doornemen, met directe feedback op wat je deed.
 werkvormen:
-  - eigen casuïstiek van deelnemers
-  - patroonanalyse met directe feedback
+  - casuïstiek die deelnemers zelf inbrengen
+  - de patronen eronder blootleggen, met directe feedback
   - afstemming vooraf met de opdrachtgever
 veelgestelde_vragen:
   - vraag: Voor wie is de gevorderde agressietraining voor filiaalmanagers bedoeld?
     antwoord: "Voor filiaalmanagers en teamleiders met een eerdere basistraining die regelmatig complexe of herhaalde agressiesituaties tegenkomen: vooral in drukke, stedelijke vestigingen met hoge incidentcijfers of structurele overlast."
   - vraag: Is een basistraining verplicht?
-    antwoord: Niet per se. Een afgeronde basistraining is de standaardvoorwaarde; aantoonbare werkervaring met agressie-incidenten kan daarvoor in de plaats komen.
+    antwoord: "Niet per se. Wat telt is dat je de basis beheerst: signalen herkennen, je eigen reactie reguleren en een gesprek terugbrengen. Dat komt meestal uit de basistraining, maar aantoonbare werkervaring met agressie-incidenten kan er ook voor in de plaats komen. Bij de intake stellen we samen vast welk niveau past."
   - vraag: Wat is het verschil met de basistraining voor filiaalmanagers?
     antwoord: "De basistraining gaat over ingrijpen bij losse escalaties en het opvangen van medewerkers. Dit gevorderde niveau richt zich op structurele problematiek: overlastpatronen, gedemotiveerde teams, samenwerking met politie en gemeente, en op de positie van de manager zelf."
   - vraag: Wordt de training afgestemd op onze vestiging?

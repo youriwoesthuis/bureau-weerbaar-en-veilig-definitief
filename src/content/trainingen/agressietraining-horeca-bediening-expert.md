@@ -17,26 +17,26 @@ samenvatting: >-
   gastengedrag, seksuele intimidatie structureel aanpakken en een
   meldcultuur creëren. De training duurt 1 dag en telt maximaal 8 deelnemers.
 resultaat:
-  - Heldere normen stellen over acceptabel gastengedrag
-  - Een werkbaar agressieprotocol ontwikkelen
-  - Medewerkers coachen na incidenten zonder te bagatelliseren
-  - Seksuele intimidatie structureel aanpakken
-  - Een meldcultuur creëren waarin incidenten worden gerapporteerd
-  - Consequent voorgaan bij grensoverschrijding
+  - Op papier zetten welk gedrag van gasten hier wel en niet kan
+  - Een agressieprotocol maken dat op een drukke avond ook werkt
+  - Een incident naderhand met de medewerker doornemen zonder het klein te praten
+  - Handtastelijkheid van gasten aanpakken in plaats van laten lopen
+  - Zorgen dat incidenten gemeld worden, ook de kleine die niemand opschrijft
+  - Zelf elke keer hetzelfde ingrijpen, zodat je team weet waar het aan toe is
 programma:
   - titel: Normen stellen
-    inhoud: Duidelijk maken welk gastengedrag wel en niet acceptabel is op deze locatie.
+    inhoud: Op papier zetten welk gedrag van gasten hier wel en niet kan.
   - titel: Werkbaar protocol
-    inhoud: Een agressieprotocol ontwikkelen dat ook op een drukke zaterdagavond werkt.
+    inhoud: Een agressieprotocol maken dat op een drukke zaterdagavond ook werkt.
   - titel: Seksuele intimidatie
-    inhoud: Structureel aanpakken wat vaak onopgelost blijft vanwege de gastvrijheidsnorm.
+    inhoud: Handtastelijkheid van gasten aanpakken, die nu vaak blijft liggen omdat de gast koning is.
   - titel: Melden en fooien
-    inhoud: "Een meldcultuur bouwen, ook wanneer medewerkers vrezen voor hun fooien."
+    inhoud: "Zorgen dat er gemeld wordt, ook als medewerkers bang zijn dat het hun fooi kost."
   - titel: Zelf voorgaan
-    inhoud: Consequent ingrijpen als leidinggevende, en wat inconsistentie met een team doet.
+    inhoud: Elke keer hetzelfde ingrijpen, en zien wat het met een team doet als je dat niet doet.
 werkvormen:
-  - cultuuranalyse op locatieniveau
-  - constructieve confrontatie met de eigen rol als leidinggevende
+  - kijken hoe er op deze locatie met gasten wordt omgegaan
+  - je eigen rol als leidinggevende tegen het licht houden
   - intervisie na afloop (op verzoek)
 veelgestelde_vragen:
   - vraag: "Waarom staat de rol van de leidinggevende zo centraal?"
@@ -44,7 +44,7 @@ veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Horecamanagers, bedrijfsleiders en shiftleiders met leidinggevende verantwoordelijkheid. Voorwaarde voor deelname: leidinggevende verantwoordelijkheid in een horecagelegenheid."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basis- en gevorderde training gaan over het eigen handelen. Dit expertniveau gaat over de organisatie: beleid, escalatiestructuur, nazorg, meldcultuur en het coachen van medewerkers."
+    antwoord: "Basis en gevorderd gaan over wat jij in de bediening doet. Op dit niveau bepaal je welk gastengedrag op jouw locatie wel en niet kan, en maak je een agressieprotocol dat ook op een drukke zaterdagavond overeind blijft. Je pakt structurele seksuele intimidatie aan die vaak blijft liggen omdat gastvrijheid voorgaat, en bouwt een meldcultuur op terwijl medewerkers bang zijn voor hun fooien. Je kijkt daarbij ook naar je eigen voorbeeld, want een leidinggevende die de ene avond wel ingrijpt en de andere niet, maakt de norm waardeloos."
 gerelateerd:
   - "agressietraining-horeca-bediening-basis"
   - "agressietraining-horeca-bediening-gevorderd"
@@ -54,7 +54,7 @@ gerelateerd:
 
 ## Waarom deze training
 
-In de horeca bepaal je als leidinggevende of grensoverschrijdend gedrag erbij hoort. Kijkt de bedrijfsleider weg bij een gast die te ver gaat, dan kijkt het team de volgende keer ook weg, en zo verschuift de teamnorm: de gedeelde opvatting over wat jullie laten passeren.
+In de horeca bepaal je als leidinggevende of grensoverschrijdend gedrag erbij hoort. Kijkt de bedrijfsleider weg bij een gast die te ver gaat, dan kijkt het team de volgende keer ook weg, en zo verschuift de teamnorm: de gedeelde lijn over wat jullie laten passeren.
 
 Je werkt daarom aan die norm en aan je eigen rol daarin. Je maakt gastvrijheid iets dat ook je medewerkers beschermt, je legt vast wanneer je weigert en verwijdert, en je haalt weg wat de meldingsbereidheid nu laag houdt: de angst voor gedoe en voor minder fooi.
 

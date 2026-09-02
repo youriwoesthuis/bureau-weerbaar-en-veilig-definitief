@@ -18,32 +18,32 @@ samenvatting: >-
   dag, telt maximaal 10 deelnemers en vraagt een afgeronde basistraining
   of aantoonbare werkervaring.
 resultaat:
-  - Groepsdynamieken en escalatiepatronen vroegtijdig herkennen
-  - Gecoördineerd handelen met collega’s bij meerpersoonssituaties
-  - Terugkerende overlastplegers structureel aanpakken
-  - "Professioneel standhouden bij groepsdruk, zonder de eigen positie te ondermijnen"
-  - Preventief ingrijpen bij evenementen voordat escalatie optreedt
-  - Externe steun op het juiste moment inschakelen
+  - "Zien hoe een groep kantelt, en ingrijpen voordat het zover is"
+  - "Met collega’s samen optreden als je tegenover meerdere mensen staat"
+  - "Een bezoeker die steeds terugkomt met overlast gericht aanpakken"
+  - "Standhouden bij groepsdruk zonder je gezag te verspelen"
+  - "Bij een evenement ingrijpen voordat het misgaat"
+  - "Op tijd politie of beveiliging erbij halen"
 programma:
-  - titel: Systematische overtreders
-    inhoud: Vaste bezoekers die de regels structureel overtreden gericht aanpakken.
+  - titel: Vaste overtreders
+    inhoud: Bezoekers die de regels steeds overtreden gericht aanpakken.
   - titel: Supporters en wedstrijden
-    inhoud: Preventief ingrijpen bij escalaties tussen supporters rond wedstrijden.
+    inhoud: Ingrijpen bij oplopende spanning tussen supporters rond een wedstrijd.
   - titel: Groepsintimidatie
-    inhoud: Standhouden bij groepsdruk zonder je eigen positie te ondermijnen.
-  - titel: Ouders bij jeugdevenementen
-    inhoud: Handelen bij grensoverschrijdend gedrag van ouders bij jeugdwedstrijden.
-  - titel: Terugkeer na weigering
-    inhoud: Handelen wanneer iemand na een toegangsweigering terugkomt met meer mensen.
+    inhoud: Standhouden bij groepsdruk zonder je gezag te verspelen.
+  - titel: Ouders bij jeugdwedstrijden
+    inhoud: Handelen bij ouders die zich bij een jeugdwedstrijd misdragen.
+  - titel: Terugkeer na een weigering
+    inhoud: Handelen wanneer iemand na een weigering terugkomt met meer mensen.
 werkvormen:
-  - casuïstiek afgestemd op de eigen locatie en bezoekerspopulatie
-  - oefeningen gericht op gecoördineerd optreden
-  - feedback op besluitvorming onder groepsdruk
+  - casuïstiek van de eigen locatie en de eigen bezoekers
+  - oefenen met samen optreden
+  - feedback op de keuzes die je onder groepsdruk maakt
 veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Ervaren medewerkers die de basistraining hebben afgerond en regelmatig werken op drukke of risicovolle momenten. Voorwaarde voor deelname: afgeronde basistraining of aantoonbare werkervaring met agressie-incidenten."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "Het soort agressie. De basistraining behandelt het herkennen en de-escaleren van agressie in het moment. Dit gevorderde niveau richt zich op patronen die niet impulsief zijn: bewuste grensoverschrijding, manipulatie en consistent teamoptreden."
+    antwoord: "In de basis oefen je de bezoeker die een veiligheidsregel niet accepteert en de groep jongeren die op een correctie reageert met intimidatie. Hier gaat het om de vaste bezoeker die de regels stelselmatig aan zijn laars lapt, om spanning tussen supporters rond een wedstrijd, en om ouders die bij een jeugdwedstrijd over de schreef gaan. Je oefent ook wat je doet als iemand na een toegangsweigering terugkomt met meer mensen. Expert is voor accommodatiemanagers en locatieleiders, die de gedragsnormen en het ontzeggingsbeleid vaststellen."
 gerelateerd:
   - "agressietraining-sportaccommodaties-zwembaden-basis"
   - "agressietraining-sportaccommodaties-zwembaden-expert"

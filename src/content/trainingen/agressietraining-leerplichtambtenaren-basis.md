@@ -17,27 +17,27 @@ samenvatting: >-
   veilig handelen bij huisbezoeken. De training duurt 1 dag en telt
   maximaal 10 deelnemers.
 resultaat:
-  - De spanning tussen handhaving en hulpverlening als risicofactor herkennen
-  - Signalen van risicovolle gezinssituaties vroegtijdig identificeren
-  - De eigen reactie reguleren bij agressief gedrag
-  - Verbaal agressief gedrag professioneel begrenzen
-  - Veilig handelen bij huisbezoeken
-  - Incidenten correct melden
+  - "Herkennen dat je dubbele rol zelf spanning oproept: je handhaaft en je helpt"
+  - "Vóór het huisbezoek zien welke gezinssituaties risico geven"
+  - "Rustig blijven als een ouder tegen je uitvalt"
+  - "Verbaal een grens stellen bij ouders die overheidsbemoeienis afwijzen"
+  - "Veilig handelen aan de deur en in de woning"
+  - "Een incident melden, ook een bedreiging via telefoon of sociale media"
 programma:
-  - titel: Handhaver én hulpverlener
-    inhoud: Waarom de dubbele rol van de leerplichtambtenaar zelf een risicofactor is.
+  - titel: Handhaver en hulpverlener
+    inhoud: Waarom de dubbele rol van de leerplichtambtenaar zelf spanning oproept.
   - titel: Signalen in het gezin
-    inhoud: "Risicovolle gezinssituaties vroegtijdig herkennen, vóór het huisbezoek."
+    inhoud: "Risicovolle gezinssituaties herkennen vóór je op de stoep staat."
   - titel: Begrenzen bij weerstand
-    inhoud: Verbaal agressief gedrag begrenzen bij ouders die overheidsbemoeienis afwijzen.
+    inhoud: Een grens stellen bij ouders die overheidsbemoeienis afwijzen.
   - titel: Veilig op huisbezoek
-    inhoud: "Veilig handelen aan de deur en in de woning, ook bij een vijandig gestemd gezin."
+    inhoud: "Veilig handelen aan de deur en in de woning, ook bij een gezin dat je liever ziet gaan."
   - titel: Melden
-    inhoud: "Incidenten correct melden, ook bedreigingen via telefoon of sociale media."
+    inhoud: "Een incident melden, ook een bedreiging via telefoon of sociale media."
 werkvormen:
-  - realistische oefeningen met trainers die de leerplichtcontext kennen
-  - herkenbare casuïstiek uit de eigen caseload
-  - aandacht voor de positie van de ambtenaar in een wantrouwend gezin
+  - oefenen met trainers die de leerplichtpraktijk kennen
+  - casuïstiek uit de eigen caseload
+  - "aandacht voor je positie in een gezin dat je wantrouwt"
 veelgestelde_vragen:
   - vraag: "Is er aandacht voor huisbezoeken?"
     antwoord: "Ja. Veilig handelen bij huisbezoeken, zowel aan de deur als binnen, is een kernonderdeel van de training, net als het vooraf herkennen van risicosignalen."

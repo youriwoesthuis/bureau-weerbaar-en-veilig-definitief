@@ -18,32 +18,32 @@ samenvatting: >-
   toegangsweigering en aangifte, en de balans vinden tussen
   klantvriendelijkheid en medewerkersveiligheid. De training duurt 1 dag en telt maximaal 8 deelnemers.
 resultaat:
-  - Agressiepatronen analyseren en vertalen naar beleidsmaatregelen
-  - Het agressieprotocol toetsen en aanscherpen
-  - Medewerkers structureel coachen na incidenten
-  - Beleid opstellen rond toegangsweigering en aangifte
-  - De balans vinden tussen klantvriendelijkheid en medewerkersveiligheid
-  - De meldcultuur versterken
+  - Uit de meldingen halen welk gedrag terugkomt, en daar beleid van maken
+  - Nagaan of het agressieprotocol klopt met wat er aan de balie gebeurt
+  - Een incident naderhand met de betrokkene doornemen, elke keer en niet alleen bij de zware
+  - Vastleggen wanneer je iemand de toegang weigert en wanneer je aangifte doet
+  - De grens bewaken tussen klanten binnenhalen en je team veilig laten werken
+  - Zorgen dat incidenten gemeld worden, ook de kleine die niemand opschrijft
 programma:
   - titel: Patronen en meldingsdata
-    inhoud: Meldingsdata analyseren en patronen omzetten in beleid.
+    inhoud: Uit de meldingen halen welk gedrag terugkomt, en daar beleid van maken.
   - titel: "Protocol, toegangsweigering en aangifte"
-    inhoud: Beleid opstellen dat duidelijk maakt wanneer toegang wordt geweigerd of aangifte wordt gedaan.
+    inhoud: Vastleggen wanneer je iemand de toegang weigert en wanneer je aangifte doet.
   - titel: Klantvriendelijk én veilig
-    inhoud: De balans vinden tussen commerciële klantbenadering en de veiligheid van medewerkers.
+    inhoud: De grens bewaken tussen klanten binnenhalen en je team veilig laten werken.
   - titel: Coachen en compliance
-    inhoud: "Structurele opvang na incidenten, binnen de compliance-kaders van de sector."
+    inhoud: "Elk incident naderhand doornemen met de betrokkene, binnen de regels die in deze sector gelden."
   - titel: Intervisie na afloop (op verzoek)
-    inhoud: Terugkombijeenkomst over de implementatie.
+    inhoud: Terugkomen op wat er van het beleid terecht is gekomen.
 werkvormen:
-  - analyse van bestaand beleid en meldingsdata
-  - organisatiegerichte beleidsverdieping
+  - het bestaande beleid naast de meldingen leggen
+  - beleid maken voor de hele organisatie
   - intervisie na afloop (op verzoek)
 veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Vestigingsmanagers, teamleiders en veiligheidscoördinatoren bij financiële instellingen. Voorwaarde voor deelname: aantoonbare werkervaring met agressie in klantcontact binnen de financiële sector, in een leidinggevende rol."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basis- en gevorderde training gaan over het eigen handelen. Dit expertniveau gaat over de organisatie: beleid, escalatiestructuur, nazorg, meldcultuur en het coachen van medewerkers."
+    antwoord: "Bij basis en gevorderd voer je zelf het gesprek aan de balie of aan de telefoon. Op dit niveau kijk je naar de meldingen van je vestiging en vertaal je de patronen daarin naar beleid: wanneer je een klant de toegang weigert, wanneer je aangifte doet en hoe de opvang na een incident eruitziet. Je zoekt daarbij de grens tussen een commerciële klantbenadering en de veiligheid van je mensen, binnen de compliance-kaders van de sector."
 gerelateerd:
   - "agressietraining-bankmedewerkers-basis"
   - "agressietraining-bankmedewerkers-gevorderd"

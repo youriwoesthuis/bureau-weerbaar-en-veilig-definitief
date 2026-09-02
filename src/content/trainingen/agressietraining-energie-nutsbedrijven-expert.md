@@ -17,31 +17,31 @@ samenvatting: >-
   veiligheidsprotocollen opzetten met afbreekcriteria en risicoadressen
   systematisch in kaart brengen. De training duurt 1 dag en telt maximaal 8 deelnemers.
 resultaat:
-  - "Veiligheidsprotocollen opzetten, inclusief afbreekcriteria"
-  - Risicovolle situaties systematisch in kaart brengen
-  - Medewerkers coachen en nazorg organiseren na incidenten
-  - Een meldcultuur voor veiligheid creëren
-  - "Samenwerking organiseren met schuldhulp, gemeente en politie"
+  - Op papier zetten wanneer een medewerker een bezoek mag en moet afbreken
+  - Bijhouden op welke adressen en tijdstippen het misgaat, en dat delen met de ploeg
+  - Een incident naderhand met de betrokkene doornemen, elke keer en niet alleen bij de zware
+  - Zorgen dat incidenten gemeld worden, ook de kleine die niemand opschrijft
+  - "Afspraken maken met schuldhulp, de gemeente en de politie voordat je ze nodig hebt"
 programma:
   - titel: Protocol met afbreekcriteria
     inhoud: Vastleggen wanneer een medewerker een bezoek mag en moet afbreken.
   - titel: Risicoadressen in kaart
-    inhoud: "Hoogrisico-adressen en tijdstippen systematisch registreren en delen."
+    inhoud: "Bijhouden op welke adressen en tijdstippen het misgaat, en dat delen met de ploeg."
   - titel: Coachen en nazorg
-    inhoud: Debriefing en nazorg na ernstige incidenten inrichten.
+    inhoud: Elk incident naderhand met de betrokkene doornemen, en de opvang daarna regelen.
   - titel: Wettelijke taak én veiligheid
-    inhoud: De spanning tussen wettelijke taken en medewerkersveiligheid beleidsmatig oplossen.
+    inhoud: Op papier zetten hoe je het werk dat moet gebeuren rijmt met een veilige medewerker.
   - titel: Externe partners en intervisie
-    inhoud: "Samenwerking met schuldhulp, gemeente en politie organiseren; intervisie na 6 weken."
+    inhoud: "Afspraken maken met schuldhulp, de gemeente en de politie; intervisie na 6 weken."
 werkvormen:
-  - analyse van veiligheidsbeleid en operationele context
-  - "concrete protocollen voor solo-werk bij klanten thuis"
+  - het veiligheidsbeleid naast het dagelijkse werk leggen
+  - "protocollen uitwerken voor medewerkers die alleen bij klanten thuis komen"
   - intervisie na afloop (op verzoek)
 veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Teamleiders, planners en operationeel managers bij energie- en nutsbedrijven die verantwoordelijk zijn voor de veiligheid bij huisbezoeken. Voorwaarde voor deelname: leidinggevende of operationele verantwoordelijkheid voor een team medewerkers met huisbezoeken."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "Het perspectief. De basis- en gevorderde training gaan over het eigen handelen. Dit expertniveau gaat over de organisatie: beleid, escalatiestructuur, nazorg, meldcultuur en het coachen van medewerkers."
+    antwoord: "Bij basis en gevorderd sta jij zelf voor de deur. Op dit niveau leg je vast wanneer een medewerker een bezoek mag en moet afbreken, en registreer je hoogrisico-adressen en tijdstippen zo dat collega's er werkelijk iets aan hebben. Je richt de nazorg na ernstige incidenten in en organiseert de samenwerking met schuldhulp, gemeente en politie, zodat de wettelijke taak en de veiligheid van je mensen elkaar niet in de weg zitten."
 gerelateerd:
   - "agressietraining-energie-nutsbedrijven-basis"
   - "agressietraining-energie-nutsbedrijven-gevorderd"

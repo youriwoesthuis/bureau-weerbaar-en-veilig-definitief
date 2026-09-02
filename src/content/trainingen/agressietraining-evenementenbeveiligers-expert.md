@@ -17,32 +17,32 @@ samenvatting: >-
   in maatregelen, teams briefen op incidentscenario’s en debriefing leiden
   na ernstige incidenten. De training duurt 1 dag en telt maximaal 8 deelnemers.
 resultaat:
-  - Risicoanalyses uitvoeren en vertalen naar veiligheidsmaatregelen
-  - Teams briefen op basis van incidentscenario’s
-  - Coördineren bij grootschalige incidenten
-  - Gestructureerde debriefing na ernstige incidenten leiden
-  - De juridische kaders rond geweldgebruik begrijpen
-  - De meldcultuur en leercyclus versterken
+  - Vooraf uitzoeken waar het op dit evenement mis kan gaan, en daar maatregelen aan hangen
+  - Een team briefen aan de hand van incidenten die echt kunnen gebeuren
+  - De leiding houden als een incident meerdere teams raakt
+  - Een incident naderhand met het team doornemen, langs een vaste lijn
+  - Weten wat je wettelijk wel en niet mag als het op handen komt
+  - Zorgen dat incidenten gemeld worden en dat het volgende evenement er iets mee doet
 programma:
   - titel: Risicoanalyse per evenement
-    inhoud: Analyseren en omzetten in concrete veiligheidsmaatregelen.
+    inhoud: Vooraf uitzoeken waar het mis kan gaan, en daar concrete maatregelen aan hangen.
   - titel: Briefen op scenario’s
-    inhoud: Teams voorbereiden met realistische incidentscenario’s.
+    inhoud: Een team briefen aan de hand van incidenten die echt kunnen gebeuren.
   - titel: Coördinatie bij grootschalige incidenten
-    inhoud: Regie houden wanneer meerdere teams en hulpdiensten betrokken zijn.
-  - titel: Debriefing en leercyclus
-    inhoud: Gestructureerde debriefing leiden en de leercyclus na een evenement inrichten.
+    inhoud: De leiding houden als meerdere teams en hulpdiensten tegelijk bezig zijn.
+  - titel: Nabespreken en er iets mee doen
+    inhoud: Een incident langs een vaste lijn nabespreken en zorgen dat het volgende evenement er iets mee doet.
   - titel: Juridische kaders geweldgebruik
-    inhoud: De juridische verantwoordelijkheid rond geweldgebruik begrijpen en uitleggen.
+    inhoud: Weten wat je wettelijk wel en niet mag als het op handen komt, en dat uitleggen aan het team.
 werkvormen:
-  - analyse van incidentrapportages en teamcultuur
-  - strategische beleidsverdieping met teamcoaching
+  - de incidentrapportages naast de werksfeer in het team leggen
+  - beleid maken en het team daarop coachen
   - intervisie na afloop (op verzoek)
 veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Hoofden beveiliging, veiligheidsmanagers en senior beveiligers in een leidinggevende rol bij evenementen. Voorwaarde voor deelname: leidinggevende rol in de evenementenbeveiliging met aantoonbare werkervaring."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "Het perspectief. De basis- en gevorderde training gaan over het eigen handelen. Dit expertniveau gaat over de organisatie: beleid, escalatiestructuur, nazorg, meldcultuur en het coachen van medewerkers."
+    antwoord: "Bij basis en gevorderd sta jij zelf in de menigte. Op dit niveau maak je de risicoanalyse per evenement en zet je die om in maatregelen, brief je je teams op realistische incidentscenario's en houd je regie wanneer meerdere teams en hulpdiensten tegelijk in actie zijn. Na afloop leid je de debriefing en zorg je dat wat er misging het volgende evenement haalt. Ook de juridische verantwoordelijkheid rond geweldgebruik hoort hier, want die moet je aan je mensen kunnen uitleggen."
 gerelateerd:
   - "agressietraining-evenementenbeveiligers-basis"
   - "agressietraining-evenementenbeveiligers-gevorderd"
@@ -54,7 +54,7 @@ gerelateerd:
 
 Bij een evenement voorkom je incidenten nooit helemaal. Wat je wel stuurt, is hoe je team reageert: of twee beveiligers bij dezelfde situatie hetzelfde doen, en of iemand een week later nog precies weet wat er gebeurde.
 
-Je werkt aan de teamnorm, de gedeelde afspraak over wat jullie wel en niet laten passeren, en aan de nabespreking na afloop, waarin je een incident uit elkaar haalt in plaats van het af te vinken. De juridische kaders rond geweldgebruik lopen daar als vast onderdeel doorheen, want die bepalen waar de grens van jullie optreden ligt.
+Je werkt aan de teamnorm, de gedeelde lijn over wat jullie wel en niet laten passeren, en aan de nabespreking na afloop, waarin je een incident uit elkaar haalt in plaats van het af te vinken. De juridische kaders rond geweldgebruik lopen daar als vast onderdeel doorheen, want die bepalen waar de grens van jullie optreden ligt.
 
 ## Wat speelt er op dit niveau
 

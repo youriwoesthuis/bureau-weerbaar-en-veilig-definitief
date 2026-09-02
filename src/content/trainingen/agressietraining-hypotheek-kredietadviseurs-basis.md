@@ -16,27 +16,27 @@ samenvatting: >-
   en agressie de-escaleren wanneer een aanvraag wordt afgewezen. De
   training duurt 1 dag en telt maximaal 10 deelnemers.
 resultaat:
-  - Herkennen waarom je persoonlijk wordt aangesproken op een besluit van de organisatie
-  - Een afwijzing of intrekking van krediet brengen met zo min mogelijk escalatie
-  - Rustig blijven bij een furieuze reactie en de situatie terugbrengen
-  - Omgaan met dreiging met een klacht bij de AFM of met een advocaat
-  - Handelen bij een klant onder grote persoonlijke druk
-  - Incidenten correct melden
+  - Snappen waarom een klant jou aanspreekt op een besluit dat de bank nam
+  - Een afwijzing of een ingetrokken krediet brengen zonder dat het ontploft
+  - Rustig blijven bij een woedende klant en het gesprek terugbrengen
+  - Reageren op iemand die dreigt met een klacht bij de AFM of met een advocaat
+  - Weten wat je doet bij een klant die er persoonlijk doorheen zit
+  - Een incident melden, ook het kleine dat niemand opschrijft
 programma:
   - titel: Persoonlijk aangesproken worden
-    inhoud: Waarom adviseurs verantwoordelijk worden gehouden voor beslissingen van de organisatie.
+    inhoud: Waarom een klant jou aanspreekt op een besluit dat de bank nam.
   - titel: Slecht nieuws brengen
-    inhoud: Een afwijzing of intrekking van krediet zo brengen dat escalatie zo klein mogelijk blijft.
+    inhoud: Een afwijzing of een ingetrokken krediet brengen zonder dat het ontploft.
   - titel: "Reguleren en de-escaleren"
-    inhoud: Rustig blijven bij een furieuze reactie en de situatie terugbrengen.
+    inhoud: Rustig blijven bij een woedende klant en het gesprek terugbrengen.
   - titel: Dreiging met klacht of advocaat
-    inhoud: Omgaan met dreiging met een klacht bij de AFM of met een advocaat.
+    inhoud: Reageren op iemand die dreigt met een klacht bij de AFM of met een advocaat.
   - titel: Wanhoop en protocol
-    inhoud: "Handelen bij een klant onder grote persoonlijke druk, en incidenten correct melden."
+    inhoud: "Weten wat je doet bij een klant die er persoonlijk doorheen zit, en het incident daarna melden."
 werkvormen:
-  - realistische oefeningen met trainers uit de financiële dienstverlening
+  - een trainingsacteur die de financiële dienstverlening kent
   - casuïstiek uit de eigen adviespraktijk
-  - expliciete aandacht voor het brengen van slecht nieuws
+  - apart oefenen met het brengen van slecht nieuws
 veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Hypotheek- en kredietadviseurs met direct klantcontact. Er is geen voorkennis nodig; dit is het instapniveau."

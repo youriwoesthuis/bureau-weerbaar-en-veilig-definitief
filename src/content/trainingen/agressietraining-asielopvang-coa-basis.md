@@ -17,27 +17,27 @@ samenvatting: >-
   en escalatie tussen groepen voorkomen. De training duurt 1 dag en telt
   maximaal 10 deelnemers.
 resultaat:
-  - "Bronnen van agressie herkennen: trauma, onzekerheid en culturele verschillen"
-  - De eigen reactie reguleren bij agressief gedrag
-  - Verbale agressie professioneel begrenzen
-  - Escalatie tussen groepen voorkomen
-  - Veilig handelen bij beperkte bezetting
-  - Incidenten correct overdragen
+  - "Zien waar het gedrag vandaan komt: doorgemaakt geweld, onzekerheid of onbegrip over en weer"
+  - Rustig blijven als een bewoner tegen je uitvalt
+  - Een grens stellen bij schelden en dreigen, ook zonder gedeelde taal
+  - Ruzie tussen groepen bewoners zien aankomen en eruit halen
+  - Weten wat je doet als je met te weinig collega's op de locatie staat
+  - Een incident zo overdragen dat de volgende dienst weet wat er speelt
 programma:
   - titel: Waar de agressie vandaan komt
-    inhoud: "Trauma, onzekerheid en culturele verschillen herkennen als bron van gedrag."
+    inhoud: "Zien wat er onder het gedrag zit: doorgemaakt geweld, onzekerheid of onbegrip over en weer."
   - titel: Reguleren en begrenzen
-    inhoud: "De eigen reactie beheersen en verbale agressie begrenzen, ook bij taalbarrières."
+    inhoud: "Rustig blijven en een grens stellen bij schelden en dreigen, ook zonder gedeelde taal."
   - titel: Groepen en spanningen
-    inhoud: Escalatie tussen bewonersgroepen zien aankomen en voorkomen.
+    inhoud: Ruzie tussen groepen bewoners zien aankomen en eruit halen voordat het uitloopt.
   - titel: Beperkte bezetting
-    inhoud: Veilig handelen tijdens diensten met weinig collega’s.
+    inhoud: Weten wat je doet in een dienst met te weinig collega's op de locatie.
   - titel: Overdragen
-    inhoud: Incidenten correct overdragen zodat de volgende dienst weet wat er speelt.
+    inhoud: Een incident zo overdragen dat de volgende dienst weet wat er speelt.
 werkvormen:
-  - realistische oefeningen met trainers die de asielopvang kennen
+  - een trainingsacteur die de asielopvang kent
   - casuïstiek van de eigen locatie
-  - praktijkgericht oefenen zonder naïeve rollenspellen
+  - oefenen met situaties die op jullie locatie echt voorkomen
 veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Medewerkers van asielzoekerscentra en COA-locaties met direct bewonerscontact. Er is geen voorkennis nodig; dit is het instapniveau."

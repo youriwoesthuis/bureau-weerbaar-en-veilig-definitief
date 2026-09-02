@@ -17,32 +17,32 @@ samenvatting: >-
   vaststellen, een toegangs- en ontzeggingsbeleid opstellen en de
   meldcultuur versterken. De training duurt 1 dag en telt maximaal 8 deelnemers.
 resultaat:
-  - Gedragsnormen voor bezoekers helder definiëren en uitdragen
-  - Een werkbaar agressieprotocol implementeren
-  - Medewerkers coachen na incidenten
-  - "Toegangs- en ontzeggingsbeleid opstellen en toepassen"
-  - Een meldcultuur creëren
-  - Samenwerking met autoriteiten organiseren
+  - "Vastleggen welk bezoekersgedrag hier wel en niet kan, en dat uitdragen"
+  - "Een agressieprotocol maken dat medewerkers op de vloer echt kunnen gebruiken"
+  - "Een incident naderhand doornemen met de medewerker, elke keer"
+  - "Vastleggen wanneer je iemand de toegang ontzegt, en dat ook doen"
+  - "Zorgen dat incidenten gemeld worden, ook de kleine die niemand opschrijft"
+  - "Met gemeente en politie afspreken wat er gebeurt bij aanhoudende overlast"
 programma:
   - titel: Normen vaststellen en uitdragen
-    inhoud: "Bepalen welk bezoekersgedrag acceptabel is, en dat consistent uitdragen."
+    inhoud: "Vastleggen welk bezoekersgedrag hier wel en niet kan, en dat steeds hetzelfde uitdragen."
   - titel: Werkbaar protocol
-    inhoud: Een agressieprotocol implementeren dat medewerkers op de vloer echt kunnen gebruiken.
-  - titel: "Toegangs- en ontzeggingsbeleid"
-    inhoud: "Beleid opstellen én toepassen, inclusief gelijke behandeling van clubs en individuele bezoekers."
-  - titel: Coachen en nazorg
-    inhoud: Medewerkers begeleiden na incidenten en nazorg organiseren.
-  - titel: Samenwerking met autoriteiten
-    inhoud: Structurele overlast aanpakken met gemeente en politie.
+    inhoud: Een agressieprotocol maken dat medewerkers op de vloer echt kunnen gebruiken.
+  - titel: Toegang ontzeggen
+    inhoud: "Vastleggen wanneer je iemand de toegang ontzegt, en dat voor clubs en losse bezoekers gelijk toepassen."
+  - titel: Nabespreken en nazorg
+    inhoud: "Een vast moment inrichten om een incident door te nemen, en opvang regelen na de zware."
+  - titel: Samenwerking met gemeente en politie
+    inhoud: Met gemeente en politie afspreken wat er gebeurt bij aanhoudende overlast.
 werkvormen:
-  - "analyse van cultuur, beleid en incidentafhandeling op locatie"
-  - beleidsontwikkeling met nadruk op gastvrijheid als veiligheidskwestie
+  - "de gang van zaken, het beleid en de afhandeling op locatie doornemen"
+  - beleid uitwerken waarin gastvrij zijn en veilig werken samengaan
   - intervisie na afloop (op verzoek)
 veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Accommodatiemanagers en locatieleiders in sportaccommodaties en zwembaden. Voorwaarde voor deelname: aantoonbare leidinggevende ervaring en kennis van de dynamiek op de locatie."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De invalshoek. De basis- en gevorderde training gaan over het eigen handelen. Dit expertniveau gaat over de organisatie: beleid, escalatiestructuur, nazorg, meldcultuur en het coachen van medewerkers."
+    antwoord: "Bij basis en gevorderd sta jij zelf op de vloer of aan de kassa. Op dit niveau bepaal je welk bezoekersgedrag acceptabel is en draag je die norm consistent uit, en voer je een agressieprotocol in dat medewerkers op de vloer werkelijk kunnen gebruiken. Je stelt een toegangs- en ontzeggingsbeleid op dat je ook toepast, en dat een vaste club niet anders behandelt dan een losse bezoeker. Daarnaast richt je de nazorg in en pak je structurele overlast samen met gemeente en politie aan."
 gerelateerd:
   - "agressietraining-sportaccommodaties-zwembaden-basis"
   - "agressietraining-sportaccommodaties-zwembaden-gevorderd"

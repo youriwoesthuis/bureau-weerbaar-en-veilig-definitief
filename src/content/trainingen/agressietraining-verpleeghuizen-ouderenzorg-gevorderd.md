@@ -19,27 +19,27 @@ samenvatting: >-
   deelnemers en vraagt een afgeronde basistraining of ervaring met
   ernstige agressie.
 resultaat:
-  - Complexe gedragspatronen bij gevorderde dementie herkennen en de benadering aanpassen
-  - Fysiek agressief gedrag professioneel hanteren
-  - Grensoverschrijdend familiegedrag aanpakken via teamafspraken
-  - Eenduidig teamhandelen bij terugkerende agressie
-  - Afdelingsdynamieken herkennen en bespreekbaar maken
-  - De eigen emotionele belasting herkennen en delen
+  - "Zien wat gedrag bij gevorderde dementie uitlokt, en je benadering aanpassen"
+  - "Handelen als je alleen tegenover fysieke agressie staat"
+  - "Gedrag van familieleden aanpakken met afspraken die het team draagt"
+  - "Zorgen dat collega’s hetzelfde doen bij dezelfde bewoner"
+  - "Zien wanneer bewoners elkaar opjagen, en dat benoemen"
+  - "Merken wat het werk je doet, en dat in het team delen"
 programma:
   - titel: Gevorderde dementie en fysiek verzet
-    inhoud: Complexe gedragspatronen herkennen en de zorgbenadering daarop aanpassen.
-  - titel: Fysieke agressie hanteren
-    inhoud: Professioneel handelen wanneer je alleen tegenover fysieke agressie staat.
+    inhoud: "Zien wat het gedrag uitlokt, en je benadering in de zorg daarop aanpassen."
+  - titel: Alleen tegenover fysieke agressie
+    inhoud: Handelen op een moment dat er niemand anders is om bij te springen.
   - titel: Familiegedrag en teamafspraken
-    inhoud: Grensoverschrijdend familiegedrag aanpakken met afspraken die het hele team draagt.
-  - titel: Afdelingsdynamiek
-    inhoud: "Herkennen wanneer meerdere bewoners met gedragsproblematiek elkaar versterken, en dat bespreekbaar maken."
-  - titel: Eigen belasting
-    inhoud: De emotionele en fysieke belasting van dit werk herkennen en binnen het team delen.
+    inhoud: Gedrag van familieleden aanpakken met afspraken die het hele team draagt.
+  - titel: Wat er op de afdeling gebeurt
+    inhoud: "Zien wanneer bewoners met gedragsproblemen elkaar opjagen, en dat benoemen."
+  - titel: Wat het je kost
+    inhoud: Merken wat dit werk je doet en dat binnen het team delen.
 werkvormen:
   - casuïstiek van de eigen afdeling
-  - analyse van teampatronen
-  - aandacht voor emotionele en fysieke belasting
+  - doornemen wat er in het team terugkeert
+  - "aandacht voor de belasting, lichamelijk en emotioneel"
 veelgestelde_vragen:
   - vraag: "Voor welke afdelingen is deze training bedoeld?"
     antwoord: "Voor afdelingen met een hoge agressiebelasting, zoals PG-afdelingen en gecombineerde somatiek- en dementieafdelingen."

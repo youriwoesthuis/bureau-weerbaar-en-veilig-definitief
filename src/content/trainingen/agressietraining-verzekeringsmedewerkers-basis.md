@@ -16,27 +16,27 @@ samenvatting: >-
   emotionele schade en financiële teleurstelling combineren. De training
   duurt 1 dag en telt maximaal 10 deelnemers.
 resultaat:
-  - Herkennen waarom emotionele schade en financiële teleurstelling samen agressie uitlokken
-  - De eigen reactie beheersen wanneer een klant de afwijzing persoonlijk maakt
-  - Professioneel begrenzen in een gesprek over een afgewezen claim
-  - Handelen bij klanten die in acute crisis zitten na ingrijpende schade
-  - Het verschil aanvoelen tussen een boze klant en een klant in nood
-  - Incidenten melden en nabespreken volgens het agressieprotocol
+  - "Herkennen waarom schade en een afwijzing samen zo hard aankomen"
+  - "Rustig blijven als een klant de afwijzing persoonlijk maakt"
+  - "Een grens stellen in een gesprek over een afgewezen claim"
+  - "Handelen bij een klant die in de knel zit na ingrijpende schade"
+  - "Het verschil voelen tussen een boze klant en een klant in nood"
+  - "Een incident melden en het naderhand nabespreken"
 programma:
   - titel: Schade en teleurstelling
-    inhoud: Waarom de combinatie van emotionele schade en financiële teleurstelling agressie uitlokt.
+    inhoud: Waarom schade en een afwijzing samen zo hard aankomen.
   - titel: Reguleren onder druk
-    inhoud: De eigen reactie beheersen wanneer een klant de afwijzing persoonlijk maakt.
-  - titel: "Begrenzen en de-escaleren"
-    inhoud: Professioneel begrenzen aan de telefoon en in gesprekken over een afgewezen claim.
-  - titel: Klanten in crisis
-    inhoud: Handelen bij klanten die in acute crisis zitten na ingrijpende schade.
+    inhoud: Rustig blijven wanneer een klant de afwijzing persoonlijk maakt.
+  - titel: Begrenzen en de-escaleren
+    inhoud: Een grens stellen aan de telefoon en in een gesprek over een afgewezen claim.
+  - titel: Klanten in de knel
+    inhoud: Handelen bij een klant die in de knel zit na ingrijpende schade.
   - titel: Protocol en melden
-    inhoud: Handelen volgens het agressieprotocol en incidenten correct melden.
+    inhoud: Handelen volgens het agressieprotocol en het incident melden.
 werkvormen:
-  - realistische oefeningen met trainers uit de financiële dienstverlening
+  - oefenen met trainers die de financiële dienstverlening kennen
   - casuïstiek uit de eigen schadepraktijk
-  - praktijkgericht oefenen zonder generieke rollenspellen
+  - oefenen met een trainingsacteur
 veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: Verzekeringsmedewerkers en schadebehandelaars met direct klantcontact. Er is geen voorkennis nodig; dit is het instapniveau.

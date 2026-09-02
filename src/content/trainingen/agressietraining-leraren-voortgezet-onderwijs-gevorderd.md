@@ -18,26 +18,26 @@ samenvatting: >-
   training duurt 1 dag, telt maximaal 10 deelnemers en vraagt een
   afgeronde basistraining of ervaring met gedragsincidenten.
 resultaat:
-  - Instrumenteel en manipulatief gedrag onderscheiden van frustratie
-  - Groepsdynamiek lezen en bijsturen voordat escalatie optreedt
-  - Gedragsprofielen hanteren en risico’s inschatten
-  - Teamafspraken formuleren bij herhaald grensoverschrijdend gedrag
-  - Consistent en eenduidig reageren als team
-  - Grenzen stellen zonder de onderwijsrelatie onnodig te beschadigen
+  - "Zien of een leerling uit frustratie handelt of je bewust uitdaagt"
+  - "Zien hoe een klas kantelt, en ingrijpen voordat het zover is"
+  - "Inschatten wat een leerling gaat doen op grond van wat hij eerder deed"
+  - "Met het team afspreken wat je doet bij herhaald grensoverschrijdend gedrag"
+  - "Zorgen dat collega’s hetzelfde reageren bij dezelfde leerling"
+  - "Een grens stellen zonder de leerling kwijt te raken"
 programma:
   - titel: Instrumenteel gedrag herkennen
     inhoud: Het verschil tussen frustratie en gedrag dat bewust wordt ingezet voor aandacht of verstoring.
   - titel: Klasdynamiek bijsturen
-    inhoud: Groepsdynamiek lezen en ingrijpen vóór het moment dat een klas collectief omslaat.
+    inhoud: "Zien hoe een klas kantelt, en waar je ingrijpt voordat het zover is."
   - titel: Manipulatie en valse beschuldigingen
-    inhoud: Professioneel handelen bij manipulatie via valse beschuldigingen.
+    inhoud: Handelen wanneer een leerling je met een valse beschuldiging onder druk zet.
   - titel: Teamafspraken
     inhoud: Afspraken maken en nakomen bij leerlingen die herhaald grenzen overschrijden.
   - titel: Casuïstiek van de eigen school
-    inhoud: "Eigen situaties analyseren en oefenen, met aandacht voor patronen in het team."
+    inhoud: "Eigen situaties oefenen, waarbij de trainer benoemt wat er in het team terugkeert."
 werkvormen:
   - casuïstiek van de eigen school
-  - patroonherkenning met feedback van de trainer
+  - "doornemen wat er terugkeert, met feedback van de trainer"
   - oefeningen gericht op teamafspraken
 veelgestelde_vragen:
   - vraag: "Waarom is teamconsistentie zo belangrijk?"
@@ -45,7 +45,7 @@ veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Leraren met basiskennis die regelmatig complexe of herhaalde gedragsincidenten meemaken. Voorwaarde voor deelname: afgeronde basistraining of aantoonbare werkervaring met gedragsincidenten."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "Het soort agressie. De basistraining behandelt het herkennen en de-escaleren van agressie in het moment. Dit gevorderde niveau richt zich op patronen die niet impulsief zijn: bewuste grensoverschrijding, manipulatie en consistent teamoptreden."
+    antwoord: "In de basis oefen je de leerling die je uitscheldt, de weigering om het lokaal te verlaten en de boze ouder op school. Hier gaat het om gedrag dat berekend is: gedrag dat wordt ingezet voor aandacht of verstoring, en manipulatie via valse beschuldigingen. Je leert een klas lezen en ingrijpen vóór het moment dat de groep collectief omslaat, en je maakt teamafspraken voor leerlingen die steeds opnieuw over de grens gaan. Expert is voor afdelingsleiders en zorgcoördinatoren, die het gedragsprotocol van de school toetsen."
 gerelateerd:
   - "agressietraining-leraren-voortgezet-onderwijs-basis"
   - "agressietraining-leraren-voortgezet-onderwijs-expert"

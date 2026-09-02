@@ -17,32 +17,32 @@ samenvatting: >-
   dreigingsmanagementbeleid implementeren en medewerkers steunen bij
   moeilijke terugmeldbeslissingen. De training duurt 1 dag en telt maximaal 8 deelnemers.
 resultaat:
-  - Structureel dreigingsmanagementbeleid implementeren
-  - Medewerkers coachen bij moeilijke meldingsbeslissingen
-  - Debriefing en nazorg na incidenten organiseren
-  - Dreigingspatronen herkennen en vertalen naar maatregelen
-  - Samenwerking met externe partners versterken
-  - De meldcultuur verankeren
+  - "Beleid maken voor cliënten van wie een reële dreiging uitgaat"
+  - "Een medewerker bijstaan die moet beslissen of hij terugmeldt"
+  - "Een incident naderhand doornemen met de medewerker, elke keer"
+  - "Zien welke dreiging terugkeert, en daar een maatregel aan koppelen"
+  - "Met politie en Openbaar Ministerie afspreken wat er gebeurt, voordat het nodig is"
+  - "Zorgen dat incidenten gemeld worden, ook de kleine die niemand opschrijft"
 programma:
-  - titel: Dreigingsmanagement
-    inhoud: Structureel beleid voor cliënten met een hoog risicoprofiel.
+  - titel: Beleid bij dreiging
+    inhoud: Beleid maken voor cliënten van wie een reële dreiging uitgaat.
   - titel: Steun bij terugmeldbeslissingen
-    inhoud: Medewerkers coachen op het moment dat een terugmelding gevolgen heeft.
+    inhoud: Een medewerker bijstaan op het moment dat een terugmelding gevolgen heeft.
   - titel: Patronen over tijd
-    inhoud: Intimidatiepatronen zichtbaar maken die anders buiten het zicht blijven.
+    inhoud: "Intimidatie zichtbaar maken die per keer klein lijkt maar over maanden een patroon vormt."
   - titel: Politie en OM
-    inhoud: De samenwerking met politie en Openbaar Ministerie versterken.
-  - titel: Zorgmissie én veiligheid
-    inhoud: Beide borgen zonder medewerkers op te offeren voor de relatie met de cliënt.
+    inhoud: "Met politie en Openbaar Ministerie afspreken wat er gebeurt, voordat het nodig is."
+  - titel: Zorg en veiligheid tegelijk
+    inhoud: "Vastleggen hoe je beide vasthoudt, zodat de relatie met de cliënt niet ten koste van de medewerker gaat."
 werkvormen:
-  - analyse van veiligheidsbeleid en incidentrapportages
-  - beleidsverdieping vanuit kennis van de justitiële sector
+  - het veiligheidsbeleid en de meldingen doornemen
+  - beleid uitwerken met trainers die de justitiële praktijk kennen
   - intervisie na afloop (op verzoek)
 veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Teamleiders, unitmanagers en veiligheidscoördinatoren bij reclasseringsorganisaties. Voorwaarde voor deelname: leidinggevende verantwoordelijkheid voor een team reclasseringsmedewerkers."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basis- en gevorderde training gaan over het eigen handelen. Dit expertniveau gaat over de organisatie: beleid, escalatiestructuur, nazorg, meldcultuur en het coachen van medewerkers."
+    antwoord: "Bij basis en gevorderd voer jij zelf het toezichtgesprek. Op dit niveau zet je structureel dreigingsmanagement op voor cliënten met een hoog risicoprofiel en maak je intimidatiepatronen zichtbaar die over losse dossiers verspreid onopgemerkt blijven. Je staat medewerkers bij op het moment dat een terugmelding gevolgen krijgt, en versterkt de samenwerking met politie en Openbaar Ministerie, zodat de zorgmissie niet ten koste gaat van de veiligheid van je mensen."
 gerelateerd:
   - "agressietraining-reclasseringsmedewerkers-basis"
   - "agressietraining-reclasseringsmedewerkers-gevorderd"

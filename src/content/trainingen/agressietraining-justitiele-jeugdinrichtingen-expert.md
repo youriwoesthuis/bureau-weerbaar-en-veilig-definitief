@@ -17,32 +17,32 @@ samenvatting: >-
   eenduidig teambeleid implementeren bij risicojongeren en
   leefgroepsdynamiek bijsturen. De training duurt 1 dag en telt maximaal 8 deelnemers.
 resultaat:
-  - Eenduidig teambeleid implementeren bij risicojongeren
-  - Leefgroepsdynamieken analyseren en bijsturen
-  - Structurele debriefing en nazorg na incidenten organiseren
-  - Nieuwe medewerkers systematisch voorbereiden
-  - De pedagogische en beveiligingstaken beleidsmatig verankeren
-  - De meldcultuur en het veiligheidsbeleid versterken
+  - "Zorgen dat het hele team hetzelfde doet bij dezelfde jongere"
+  - "Zien hoe de spanning in een leefgroep oploopt, en op tijd bijsturen"
+  - "Een incident naderhand doornemen met wie erbij was, elke keer en niet alleen bij de zware"
+  - "Nieuwe medewerkers vooraf vertellen wat ze op de groep tegenkomen"
+  - "Vastleggen wat voorgaat als opvoeden en beveiligen botsen"
+  - "Zorgen dat incidenten gemeld worden, ook de kleine die niemand opschrijft"
 programma:
   - titel: Eenduidig teambeleid
     inhoud: Zorgen dat het hele team hetzelfde doet bij dezelfde jongere.
   - titel: Leefgroepsdynamiek
-    inhoud: Escalatiepatronen in de leefgroep analyseren en bijsturen.
-  - titel: Debriefing en nazorg
-    inhoud: Structurele opvang na ernstige incidenten inrichten.
+    inhoud: "Zien hoe de spanning in een leefgroep oploopt, en waar je ingrijpt."
+  - titel: Nabespreken en nazorg
+    inhoud: "Een vast moment inrichten om een ernstig incident door te nemen met wie erbij was."
   - titel: Nieuwe medewerkers
-    inhoud: Systematische voorbereiding van nieuwe medewerkers op de agressiebelasting.
-  - titel: Pedagogiek én beveiliging
-    inhoud: Beide taken beleidsmatig verankeren in plaats van bij de groepsleider laten botsen.
+    inhoud: "Nieuwe medewerkers vooraf vertellen wat ze op de groep tegenkomen, en wat ze ermee doen."
+  - titel: Pedagogiek en beveiliging
+    inhoud: "Vastleggen wat voorgaat als opvoeden en beveiligen botsen, zodat de groepsleider dat niet alleen uitzoekt."
 werkvormen:
-  - analyse van veiligheidsbeleid en incidentrapportages
-  - beleidsverdieping met concrete protocollen voor de jeugdinrichting
+  - het veiligheidsbeleid en de incidentmeldingen doornemen
+  - protocollen uitwerken voor de eigen inrichting
   - intervisie na afloop (op verzoek)
 veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Groepsleiders met coördinerende verantwoordelijkheid, afdelingshoofden en managers in justitiële jeugdinrichtingen. Voorwaarde voor deelname: coördinerende of leidinggevende verantwoordelijkheid in een justitiële jeugdinrichting."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basis- en gevorderde training gaan over het eigen handelen. Dit expertniveau gaat over de organisatie: beleid, escalatiestructuur, nazorg, meldcultuur en het coachen van medewerkers."
+    antwoord: "Basis en gevorderd gaan over wat jij op de groep doet. Op dit niveau zorg je dat het hele team bij dezelfde jongere dezelfde lijn houdt, analyseer je de escalatiepatronen in de leefgroep en stuur je die bij. Je richt de opvang na ernstige incidenten in en bereidt nieuwe medewerkers systematisch voor op de agressiebelasting. De botsing tussen pedagogiek en beveiliging los je hier in beleid op, in plaats van die bij de groepsleider op de gang te laten liggen."
 gerelateerd:
   - "agressietraining-justitiele-jeugdinrichtingen-basis"
   - "agressietraining-justitiele-jeugdinrichtingen-gevorderd"

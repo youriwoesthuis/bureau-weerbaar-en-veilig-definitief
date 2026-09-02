@@ -18,31 +18,31 @@ samenvatting: >-
   opvangen na zware gesprekken. De training duurt 1 dag inclusief een
   vervolgmoment na 6 weken en telt maximaal 8 deelnemers.
 resultaat:
-  - Agressiepatronen herkennen en vertalen naar beleidsmaatregelen
-  - Een protocol opstellen voor grensoverschrijdend klantgedrag
-  - Adviseurs coachen na zware gesprekken
-  - Beleid ontwikkelen voor het beëindigen van klantrelaties
-  - De meldcultuur binnen het team versterken
+  - Zien welk klantgedrag terugkomt, en daar beleid van maken
+  - Op papier zetten wat je doet als een klant over de grens gaat
+  - Een adviseur na een zwaar gesprek opvangen, elke keer en niet alleen bij de zware
+  - Vastleggen wanneer je een klantrelatie beëindigt en hoe je dat aankondigt
+  - Zorgen dat incidenten gemeld worden, ook de kleine die niemand opschrijft
 programma:
   - titel: Patronen naar beleid
-    inhoud: Agressiepatronen zichtbaar maken en vertalen naar beleid.
+    inhoud: Zien welk klantgedrag terugkomt, en daar beleid van maken.
   - titel: Protocol en grensstelling
-    inhoud: Een protocol opstellen voor grensoverschrijdend klantgedrag en voor klachten en juridische dreiging.
+    inhoud: Op papier zetten wat je doet als een klant over de grens gaat of dreigt met een klacht of een advocaat.
   - titel: Adviseurs coachen
-    inhoud: Opvang inrichten na zware klantgesprekken.
+    inhoud: De opvang na een zwaar klantgesprek regelen, zodat elk gesprek wordt nabesproken.
   - titel: Klantrelatie beëindigen
-    inhoud: Beleid ontwikkelen om een klantrelatie te beëindigen.
-  - titel: Vervolgmoment na 6 weken
-    inhoud: "Terugkombijeenkomst over de implementatie, met aandacht voor de belasting van de leidinggevende zelf."
+    inhoud: Vastleggen wanneer je een klantrelatie beëindigt en hoe je dat aankondigt.
+  - titel: Intervisie na afloop (op verzoek)
+    inhoud: "Terugkomen op wat er van het beleid terecht is gekomen, en op wat het jou als leidinggevende kost."
 werkvormen:
-  - beleidsanalyse
-  - "coaching- en ondersteuningsstrategieën"
-  - vervolgmoment na 6 weken
+  - het bestaande beleid naast de praktijk leggen
+  - "afspreken hoe je adviseurs opvangt en begeleidt"
+  - intervisie na afloop (op verzoek)
 veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Teamleiders en directeuren van hypotheek- en kredietadviseurskantoren met ervaring in klantconflicten. Voorwaarde voor deelname: leidinggevende verantwoordelijkheid voor een adviseursteam."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basis- en gevorderde training gaan over het eigen handelen. Dit expertniveau gaat over de organisatie: beleid, escalatiestructuur, nazorg, meldcultuur en het coachen van medewerkers."
+    antwoord: "Basis en gevorderd gaan over jouw gesprek met de klant. Op dit niveau maak je de patronen in je kantoor zichtbaar en vertaal je die naar een protocol voor grensoverschrijdend klantgedrag, voor klachten en voor juridische dreiging. Je legt vast wanneer je een klantrelatie beëindigt en richt de opvang van adviseurs na zware gesprekken in. Er is ook aandacht voor wat het met jou doet om die gesprekken elke keer op te vangen."
 gerelateerd:
   - "agressietraining-hypotheek-kredietadviseurs-basis"
   - "agressietraining-hypotheek-kredietadviseurs-gevorderd"

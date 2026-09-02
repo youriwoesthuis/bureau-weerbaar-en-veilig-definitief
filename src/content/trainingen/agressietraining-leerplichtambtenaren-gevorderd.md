@@ -18,32 +18,32 @@ samenvatting: >-
   training duurt 1 dag, telt maximaal 10 deelnemers en vraagt een
   afgeronde basistraining of ervaring met complexe situaties.
 resultaat:
-  - "Complexe gezins- en agressiepatronen herkennen"
-  - Professioneel standhouden bij juridische dreigingen
-  - Veiligheidstaxatie toepassen bij huisbezoeken
-  - Omgaan met agressie buiten werktijd via privékanalen
-  - Samenwerken met ketenpartners
-  - Professionele distantie bewaren
+  - "Herkennen wanneer een gezin elk contact stelselmatig blokkeert"
+  - "Standhouden als ouders dreigen met een klacht of een advocaat"
+  - "Vooraf en ter plekke inschatten hoe riskant een huisbezoek is"
+  - "Reageren als een ouder je buiten werktijd benadert via sociale media"
+  - "Samenwerken met jeugdzorg en politie in een lopende zaak"
+  - "Betrokken blijven zonder het gezin mee naar huis te nemen"
 programma:
   - titel: Complexe gezinspatronen
-    inhoud: "Herkennen wanneer een gezin elk contact structureel saboteert, en wat dat betekent voor je aanpak."
+    inhoud: "Herkennen wanneer een gezin elk contact stelselmatig blokkeert, en wat dat betekent voor je aanpak."
   - titel: Juridische dreiging
-    inhoud: Professioneel standhouden wanneer ouders dreigen met juridische stappen.
-  - titel: Veiligheidstaxatie
-    inhoud: Systematisch taxeren van risico’s vóór en tijdens een huisbezoek bij meervoudige problematiek.
+    inhoud: Standhouden wanneer ouders dreigen met een klacht of een advocaat.
+  - titel: Risico inschatten
+    inhoud: "Vooraf en ter plekke inschatten hoe riskant een huisbezoek is bij een gezin met veel problemen tegelijk."
   - titel: Agressie in de privésfeer
-    inhoud: "Omgaan met benadering buiten werktijd, via sociale media of privékanalen."
-  - titel: Ketensamenwerking en distantie
-    inhoud: "Samenwerken met jeugdzorg en andere partners, en professionele distantie bewaren."
+    inhoud: "Reageren als iemand je buiten werktijd benadert, via sociale media of een privékanaal."
+  - titel: Ketensamenwerking en afstand houden
+    inhoud: "Samenwerken met jeugdzorg en andere partners, en betrokken blijven zonder het gezin mee naar huis te nemen."
 werkvormen:
   - casuïstiek uit de eigen caseload
-  - analyse en oefening van ingebrachte situaties
-  - aandacht voor emotionele belasting
+  - ingebrachte situaties doornemen en oefenen
+  - "aandacht voor wat dit werk je kost"
 veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Leerplichtambtenaren met basisvaardigheden die werken met gezinnen met complexe problematiek en hardnekkig verzuim. Voorwaarde voor deelname: afgeronde basistraining of aantoonbare werkervaring met complexe agressiesituaties in het leerplichtwerk."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "Het soort agressie. De basistraining behandelt het herkennen en de-escaleren van agressie in het moment. Dit gevorderde niveau richt zich op patronen die niet impulsief zijn: bewuste grensoverschrijding, manipulatie en consistent teamoptreden."
+    antwoord: "In de basis oefen je de ouder die kwaad wordt als je verzuim aankaart en het huisbezoek bij een vijandig gestemd gezin. Hier gaat het om gezinnen die elk contact stelselmatig saboteren, om ouders die met juridische stappen dreigen, en om benadering buiten werktijd via sociale media of je privénummer. Je leert vóór en tijdens een huisbezoek systematisch taxeren in plaats van op gevoel, zeker als er meerdere instanties bij het gezin betrokken zijn. Expert is voor coördinatoren leerplicht en teamleiders, die het protocol voor solo-huisbezoeken vastleggen."
 gerelateerd:
   - "agressietraining-leerplichtambtenaren-basis"
   - "agressietraining-leerplichtambtenaren-expert"

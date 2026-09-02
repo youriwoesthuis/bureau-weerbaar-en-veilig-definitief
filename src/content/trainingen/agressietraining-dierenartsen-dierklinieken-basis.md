@@ -17,27 +17,27 @@ samenvatting: >-
   voeren zonder escalatie. De training duurt 1 dag en telt maximaal 10
   deelnemers.
 resultaat:
-  - De emotionele dynamiek achter agressie herkennen
-  - De eigen reactie reguleren in geladen situaties
-  - Verbaal agressief gedrag professioneel begrenzen
-  - Slecht nieuws effectief communiceren
-  - Gesprekken over kosten voeren zonder escalatie
-  - Incidenten correct rapporteren
+  - Zien dat verdriet en machteloosheid onder de boosheid van een eigenaar zitten
+  - Rustig blijven als een eigenaar in de spreekkamer uitvalt
+  - Een grens stellen als iemand je uitscheldt of een behandeling eist
+  - Een slechte diagnose brengen op een manier die aankomt zonder ruzie
+  - Over de kosten praten zonder dat het gesprek ontspoort
+  - Een incident opschrijven zodat de kliniek weet wat er is gebeurd
 programma:
   - titel: Emotie achter de agressie
-    inhoud: Verdriet en machteloosheid herkennen als bron van woede, en onderscheiden van bewuste intimidatie.
+    inhoud: Verdriet en machteloosheid herkennen onder de woede, en het verschil zien met iemand die je bewust klemzet.
   - titel: Slecht nieuws brengen
-    inhoud: Een moeilijke diagnose of prognose communiceren op een manier die aankomt zonder te escaleren.
+    inhoud: Een moeilijke diagnose brengen op een manier die aankomt zonder dat het ruzie wordt.
   - titel: Het kostengesprek
-    inhoud: Over behandelkosten praten zonder dat het gesprek ontspoort.
+    inhoud: Over de behandelkosten praten zonder dat het gesprek ontspoort.
   - titel: Begrenzen in de spreekkamer
-    inhoud: Professioneel begrenzen bij eigenaren die de diagnose niet accepteren of een onverantwoorde behandeling eisen.
+    inhoud: Een grens stellen bij een eigenaar die de diagnose niet aanneemt of een behandeling eist die niet kan.
   - titel: "Telefoon, online en rapporteren"
-    inhoud: "Omgaan met telefonische en online agressie richting de kliniek, en incidenten correct rapporteren."
+    inhoud: "Reageren op agressie aan de telefoon en online, en het incident daarna opschrijven."
 werkvormen:
-  - realistische oefeningen met trainers met kennis van de diergeneeskundige praktijk
+  - een trainingsacteur die de dierenartsenpraktijk kent
   - casuïstiek uit de eigen kliniek
-  - aandacht voor het onderscheid tussen verdriet en bewuste intimidatie
+  - aandacht voor het verschil tussen verdriet en iemand die je bewust klemzet
 veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Dierenartsen, dierenartsassistenten en baliemedewerkers met direct klantcontact. Er is geen voorkennis nodig; dit is het instapniveau."

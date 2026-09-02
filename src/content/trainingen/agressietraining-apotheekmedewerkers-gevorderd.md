@@ -9,7 +9,7 @@ groepsgrootte: maximaal 10 deelnemers
 locatie: incompany
 locatie_detail: bij jullie op locatie, in heel Nederland
 certificaat: deelnamecertificaat na afloop
-voorwaarde: afgeronde basistraining
+voorwaarde: "afgeronde basistraining of aantoonbare werkervaring met agressie-incidenten"
 doelgroep: "Apotheekmedewerkers met basistraining die regelmatig ernstige agressie-incidenten meemaken."
 samenvatting: >-
   De gevorderde agressietraining voor apotheekmedewerkers van Bureau
@@ -18,31 +18,31 @@ samenvatting: >-
   probleempatiënten. De training duurt 1 dag, telt maximaal 10 deelnemers
   en vraagt een afgeronde basistraining.
 resultaat:
-  - "Complexe agressiepatronen bij verslavings- of psychiatrische problematiek herkennen"
-  - Een medicatieweigering handhaven onder oplopende druk
-  - Als team eenduidig handelen bij bekende probleempatiënten
-  - Dreigementen professioneel hanteren
-  - De eigen veiligheid bewaken
+  - Patronen herkennen bij patiënten met verslaving of psychiatrie die elke week terugkomen
+  - Bij een weigering blijven staan terwijl de druk oploopt
+  - Als team hetzelfde antwoord geven aan patiënten van wie het gedrag bekend is
+  - Reageren op iemand die dreigt met de pers of met een advocaat
+  - Merken wanneer het voor jou te ver gaat en daar iets mee doen
 programma:
   - titel: Complexe patronen
-    inhoud: "Patronen herkennen bij patiënten met verslavings- of psychiatrische problematiek die dagelijks terugkomen."
+    inhoud: "Patronen herkennen bij patiënten met verslaving of psychiatrie die elke week terugkomen."
   - titel: Standhouden bij weigering
-    inhoud: Een medicatieweigering handhaven onder oplopende druk.
+    inhoud: Bij een geweigerde medicatie blijven staan terwijl de druk oploopt.
   - titel: Teamconsistentie
-    inhoud: "Eenduidig handelen als team, zodat probleempatiënten overal hetzelfde antwoord krijgen."
+    inhoud: "Afspreken wie wat zegt, zodat een patiënt aan elke balie hetzelfde antwoord krijgt."
   - titel: Dreigementen
-    inhoud: "Omgaan met dreiging met media-aandacht of juridische stappen."
+    inhoud: "Reageren op iemand die dreigt met de pers of met een advocaat."
   - titel: Wachtrij en veiligheid
-    inhoud: "Spanning in de wachtrij hanteren en de eigen veiligheid bewaken, ook bij telefonische en online agressie."
+    inhoud: "Spanning in de wachtrij eruit halen, en weten wat je doet bij agressie aan de telefoon en online."
 werkvormen:
   - casuïstiek uit de eigen apotheek
-  - analyse van patronen in de teamreactie
-  - aandacht voor emotionele belasting
+  - nagaan hoe het team op deze patiënten reageert
+  - aandacht voor wat dit met je doet
 veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Apotheekmedewerkers met basistraining die regelmatig ernstige agressie-incidenten meemaken. Voorwaarde voor deelname: afgeronde basistraining."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basistraining behandelt het herkennen en de-escaleren van agressie in het moment. Dit gevorderde niveau richt zich op patronen die niet impulsief zijn: bewuste grensoverschrijding, manipulatie en consistent teamoptreden."
+    antwoord: "In de basis oefen je het gesprek aan de balie over een recept dat er niet is of een herhaling die niet wordt verstrekt. Hier gaat het om de patiënt die dagelijks terugkomt, om een weigering die je volhoudt terwijl de druk oploopt, en om dreiging met de media of met een advocaat. Je zorgt ook dat het team dezelfde lijn houdt, zodat iemand bij de volgende collega niet alsnog zijn zin krijgt. Expert is voor apothekers en managers, die vastleggen wanneer de apotheek de zorgrelatie beëindigt."
 gerelateerd:
   - "agressietraining-apotheekmedewerkers-basis"
   - "agressietraining-apotheekmedewerkers-expert"

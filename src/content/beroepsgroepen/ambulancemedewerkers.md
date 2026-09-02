@@ -16,7 +16,7 @@ veelgestelde_vragen:
   - vraag: "Gaat het alleen over de patiënt, of ook over familie en omstanders?"
     antwoord: "Over allebei. Een patiënt in crisis of onder invloed vraagt iets anders dan een familielid in paniek of een omstander die zich ermee bemoeit; het onderscheid maken hoort bij de training."
   - vraag: "Welk niveau past bij een ambulanceteam?"
-    antwoord: "Dat hangt af van de rol. Basis voor iedereen die rijdt, gevorderd voor wie de basis beheerst en met structurele of complexe agressie te maken heeft. Expert is bedoeld voor teamleiders en coördinatoren en gaat over beleid, meldcultuur en nazorg."
+    antwoord: "Dat hangt af van de rol. Basis voor iedereen die rijdt, gevorderd voor wie de basis beheerst en met structurele of complexe agressie te maken heeft. Expert is bedoeld voor teamleiders en coördinatoren en gaat over beleid, over het melden van incidenten en over de opvang erna."
 ---
 
 Ambulancemedewerkers komen aan op een plek die niemand heeft voorbereid: een woonkamer, een uitgaansgebied, de berm van een snelweg. De patiënt is onder invloed of in crisis, familie is in paniek, omstanders filmen mee. Beschermde werkomgeving bestaat hier niet.

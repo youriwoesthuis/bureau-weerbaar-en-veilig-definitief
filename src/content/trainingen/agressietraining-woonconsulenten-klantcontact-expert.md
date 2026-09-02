@@ -18,32 +18,32 @@ samenvatting: >-
   implementeren bij probleemhuurders en de meldcultuur versterken. De
   training duurt 1 dag en telt maximaal 8 deelnemers.
 resultaat:
-  - Agressiepatronen herkennen en vertalen naar beleidsmaatregelen
-  - Een veiligheidsprotocol voor huisbezoeken opzetten
-  - Medewerkers structureel coachen na incidenten
-  - Eenduidig teambeleid implementeren bij bekende probleemhuurders
-  - Samenwerking met externe partners proactief organiseren
-  - De meldcultuur versterken en de balans borgen tussen zorgplicht en veiligheid
+  - "Zien welke agressie bij de huurders terugkeert, en daar een maatregel aan koppelen"
+  - "Afspreken hoe iemand op huisbezoek gaat: wat hij vooraf nagaat en wie weet waar hij is"
+  - "Een incident naderhand doornemen met de medewerker, elke keer"
+  - "Zorgen dat een bekende probleemhuurder overal hetzelfde antwoord krijgt"
+  - "Met wijkteams en GGZ afspreken wat er gebeurt, voordat het nodig is"
+  - "Zorgen dat incidenten gemeld worden, ook de kleine die niemand opschrijft"
 programma:
   - titel: Patronen naar beleid
-    inhoud: Agressiepatronen in de huurderspopulatie omzetten in beleid.
+    inhoud: "Zien welke agressie bij de huurders terugkeert, en welke maatregel daarbij past."
   - titel: Protocol voor huisbezoeken
-    inhoud: Een protocol dat aansluit op de praktijk van medewerkers die bij mensen thuis komen.
+    inhoud: "Afspreken wat een medewerker vooraf nagaat, wie weet waar hij is en wanneer hij vertrekt."
   - titel: Eenduidig teambeleid
-    inhoud: Zorgen dat bekende probleemhuurders overal dezelfde lijn tegenkomen.
+    inhoud: Zorgen dat een bekende probleemhuurder overal hetzelfde antwoord krijgt.
   - titel: Externe partners
-    inhoud: Samenwerking met wijkteams en GGZ proactief organiseren.
-  - titel: Zorgplicht én veiligheid
-    inhoud: De spanning tussen publieke zorgplicht en medewerkersveiligheid beleidsmatig borgen.
+    inhoud: "Met wijkteams en GGZ afspreken wat er gebeurt, voordat het nodig is."
+  - titel: Zorgplicht en veiligheid
+    inhoud: "Vastleggen hoe je beide vasthoudt, zodat de zorgplicht niet ten koste van de medewerker gaat."
 werkvormen:
-  - "analyse van beleid, huurderspopulatie en veiligheidscultuur"
-  - beleidsverdieping met concrete protocollen en coachingsstrategieën
+  - "het beleid, de huurderspopulatie en de gang van zaken doornemen"
+  - "protocollen uitwerken en afspraken over nabespreken"
   - intervisie na afloop (op verzoek)
 veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Teamleiders, afdelingsmanagers en veiligheidscoördinatoren bij woningcorporaties. Voorwaarde voor deelname: leidinggevende functie bij een woningcorporatie met aantoonbare ervaring met agressie in huurderscontact."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "Het perspectief. De basis- en gevorderde training gaan over het eigen handelen. Dit expertniveau gaat over de organisatie: beleid, escalatiestructuur, nazorg, meldcultuur en het coachen van medewerkers."
+    antwoord: "Bij basis en gevorderd voer jij zelf het gesprek met de huurder. Op dit niveau vertaal je de agressiepatronen in de huurderspopulatie naar beleid en maak je een protocol voor huisbezoeken dat aansluit op wat medewerkers bij mensen thuis werkelijk tegenkomen. Je zorgt dat bekende probleemhuurders overal dezelfde lijn tegenkomen en organiseert de samenwerking met wijkteams en GGZ voordat een dossier vastloopt. De spanning tussen de zorgplicht van de corporatie en de veiligheid van je mensen borg je in beleid."
 gerelateerd:
   - "agressietraining-woonconsulenten-klantcontact-basis"
   - "agressietraining-woonconsulenten-klantcontact-gevorderd"

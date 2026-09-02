@@ -6,7 +6,7 @@ samenvatting: >-
   Bureau Weerbaar en Veilig biedt agressietraining voor kassamedewerkers en
   baliemedewerkers in drie niveaus. Van het de-escaleren van conflicten aan
   kassa en balie (basis) tot omgaan met bekende probleemklanten (gevorderd) en
-  het versterken van protocol en meldcultuur (expert, voor leidinggevenden).
+  het aanscherpen van het protocol en zorgen dat incidenten gemeld worden (expert, voor leidinggevenden).
 kern: "Niet weg kunnen van je werkplek, met een wachtrij als publiek"
 veelgestelde_vragen:
   - vraag: "Onze medewerkers kunnen niet weglopen van de kassa. Houdt de training daar rekening mee?"

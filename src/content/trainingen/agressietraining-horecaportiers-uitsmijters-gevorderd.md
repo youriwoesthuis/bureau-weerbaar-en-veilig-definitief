@@ -9,7 +9,7 @@ groepsgrootte: maximaal 10 deelnemers
 locatie: incompany
 locatie_detail: bij jullie op locatie, in heel Nederland
 certificaat: deelnamecertificaat na afloop
-voorwaarde: afgeronde basistraining
+voorwaarde: "afgeronde basistraining of aantoonbare werkervaring met agressie-incidenten"
 doelgroep: Horecaportiers en uitsmijters met een afgeronde basistraining die werken op drukke of hoogrisicolocaties.
 samenvatting: >-
   De gevorderde agressietraining voor horecaportiers en uitsmijters van
@@ -18,32 +18,32 @@ samenvatting: >-
   van de portier. De training duurt 1 dag, telt maximaal 10 deelnemers en
   vraagt een afgeronde basistraining.
 resultaat:
-  - Complexe agressiepatronen herkennen
-  - Gecoördineerd optreden met collega’s
-  - Professioneel handelen onder druk en provocatie
-  - De juridische grenzen correct toepassen
-  - Effectief samenwerken met de politie
-  - Structureel omgaan met probleembezoekers
+  - Zien wanneer het niet bij één bezoeker blijft
+  - Met je collega’s samen optreden als het uit de hand loopt
+  - Kalm blijven als iemand je uitlokt of persoonlijk aanvalt
+  - Binnen de grenzen blijven van wat je als portier mag
+  - Kort en duidelijk overdragen aan de politie
+  - Elke keer hetzelfde reageren op bezoekers die vaker problemen geven
 programma:
   - titel: Probleembezoekers
-    inhoud: Bekende bezoekers die de grenzen kennen en anderen meenemen structureel aanpakken.
+    inhoud: Bezoekers die de grenzen kennen en anderen meenemen elke keer hetzelfde aanpakken.
   - titel: Groepen aan de deur
-    inhoud: Handelen bij groepen die bewust de deur testen met wisselende personen.
+    inhoud: Weten wat je doet als een groep de deur test met steeds iemand anders vooraan.
   - titel: Gerichte intimidatie
-    inhoud: Professioneel blijven wanneer de intimidatie op jou persoonlijk is gericht.
+    inhoud: Kalm blijven als de intimidatie niet de zaak maar jou persoonlijk geldt.
   - titel: Gecoördineerd optreden
-    inhoud: Samenwerken met collega’s bij vechtpartijen met meerdere personen.
+    inhoud: Met je collega’s samen optreden bij een vechtpartij met meerdere mensen.
   - titel: Politie en camera
-    inhoud: Effectief samenwerken met de politie en professioneel blijven wanneer er gefilmd wordt.
+    inhoud: Kort en duidelijk overdragen aan de politie, en kalm blijven als er gefilmd wordt.
 werkvormen:
   - casuïstiek van de eigen locatie
-  - patroonsignalering door de trainer
-  - feedback op besluitvorming en samenwerking
+  - de trainer legt de patronen bloot die eronder zitten
+  - feedback op de besluiten die je neemt en op het samenwerken
 veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Horecaportiers en uitsmijters met een afgeronde basistraining die werken op drukke of hoogrisicolocaties. Voorwaarde voor deelname: afgeronde basistraining."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basistraining behandelt het herkennen en de-escaleren van agressie in het moment. Dit gevorderde niveau richt zich op patronen die niet impulsief zijn: bewuste grensoverschrijding, manipulatie en consistent teamoptreden."
+    antwoord: "In de basis oefen je de geweigerde bezoeker die uitvalt en de dronken gast die niet wil vertrekken. Hier gaat het om de bekende bezoeker die de grenzen kent en anderen meeneemt, om groepen die de deur testen met steeds andere gezichten, en om intimidatie die op jou persoonlijk gericht is. Je oefent het gecoördineerd optreden met collega's bij een vechtpartij met meerdere personen en de samenwerking met de politie terwijl er gefilmd wordt. Expert is voor hoofden beveiliging en ondernemers, die de risicoanalyse van de locatie omzetten in maatregelen."
 gerelateerd:
   - "agressietraining-horecaportiers-uitsmijters-basis"
   - "agressietraining-horecaportiers-uitsmijters-expert"

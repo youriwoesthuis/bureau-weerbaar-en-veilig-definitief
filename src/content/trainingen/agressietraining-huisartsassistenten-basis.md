@@ -17,26 +17,26 @@ samenvatting: >-
   telt maximaal 10 deelnemers en werkt met situaties die huisartsassistenten
   dagelijks aan balie en telefoon meemaken.
 resultaat:
-  - Agressiesignalen herkennen in de praktijk van triage, balie en telefoon
-  - Rustig blijven wanneer een beller uitvalt na een triage-beslissing
-  - Verbaal agressief gedrag begrenzen voordat een situatie in de wachtkamer fysiek wordt
-  - Volgens het praktijkprotocol handelen
-  - Incidenten correct melden en nabespreken met de praktijk
+  - Zien dat het misgaat aan de balie, aan de telefoon en tijdens de triage
+  - Rustig blijven als een beller uitvalt omdat hij vandaag geen plek krijgt
+  - Een grens stellen voordat het in de wachtkamer uit de hand loopt
+  - Doen wat het protocol van de praktijk voorschrijft
+  - Een incident melden en het naderhand met de praktijk doornemen
 programma:
   - titel: Agressie aan balie en telefoon herkennen
-    inhoud: Vormen van agressie en de signalen die eraan voorafgaan, in de praktijk van triage, balie en telefoon.
+    inhoud: Zien wat eraan voorafgaat, aan de balie, aan de telefoon en tijdens de triage.
   - titel: Eigen reactie reguleren
-    inhoud: Rustig en professioneel blijven wanneer een patiënt schreeuwt of een beller uitvalt na een triage-beslissing.
+    inhoud: Rustig blijven als een patiënt schreeuwt of een beller uitvalt omdat hij vandaag geen plek krijgt.
   - titel: Begrenzen en de-escaleren
-    inhoud: Verbaal agressief gedrag begrenzen en de-escaleren voordat een situatie fysiek wordt.
+    inhoud: Een grens stellen en de spanning eruit halen voordat het in de wachtkamer uit de hand loopt.
   - titel: Protocol en melden
-    inhoud: Handelen volgens het praktijkprotocol en incidenten correct melden en nabespreken.
+    inhoud: Doen wat het praktijkprotocol voorschrijft, het incident melden en het daarna doornemen.
   - titel: Oefenen met eigen praktijksituaties
-    inhoud: Realistische oefeningen op basis van situaties uit de eigen huisartsenpraktijk.
+    inhoud: Oefenen met situaties die in jullie eigen praktijk echt voorkomen.
 werkvormen:
-  - realistische oefeningen uit de dagelijkse praktijk
+  - een trainingsacteur en oefeningen uit het werk van alledag
   - casuïstiek uit de eigen huisartsenpraktijk
-  - feedback van de trainer
+  - directe feedback van de trainer
 veelgestelde_vragen:
   - vraag: Voor wie is deze training bedoeld?
     antwoord: Voor alle huisartsassistenten met direct patiëntcontact via balie en telefoon. Er is geen voorkennis nodig; dit is het instapniveau.

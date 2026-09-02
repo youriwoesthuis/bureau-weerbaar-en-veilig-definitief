@@ -17,27 +17,27 @@ samenvatting: >-
   en grenzen stellen aan herhaald agressief contact. De training duurt 1
   dag en telt maximaal 10 deelnemers.
 resultaat:
-  - "De emotionele achtergrond van agressie herkennen: financieel verlies, teleurstelling en machteloosheid"
-  - De eigen reactie reguleren bij agressieve burgers
-  - Negatieve beslissingen professioneel communiceren met minimale escalatiekans
-  - "Verbale agressie aan balie, telefoon en e-mail begrenzen"
-  - Grenzen stellen aan herhaald agressief contact
-  - Incidenten correct melden en bespreken
+  - "Herkennen dat de woede uit geldverlies, teleurstelling of machteloosheid komt"
+  - "Rustig blijven als een burger tegen je uitvalt"
+  - "Een afwijzing zo brengen dat de kans op escalatie kleiner is"
+  - "Verbaal een grens stellen aan de balie, aan de telefoon en per e-mail"
+  - "Een grens stellen aan iemand die telkens opnieuw escalerend contact zoekt"
+  - "Een incident melden en het naderhand nabespreken"
 programma:
   - titel: Wat er achter de agressie zit
-    inhoud: "Financieel verlies, teleurstelling en machteloosheid herkennen als bron van de reactie."
+    inhoud: "Geldverlies, teleurstelling en machteloosheid herkennen als bron van de reactie."
   - titel: Negatief nieuws brengen
-    inhoud: Een afwijzing communiceren met zo klein mogelijke kans op escalatie.
+    inhoud: Een afwijzing zo brengen dat de kans op escalatie kleiner is.
   - titel: Begrenzen op drie kanalen
-    inhoud: "Verbale agressie begrenzen aan de balie, aan de telefoon en per e-mail."
+    inhoud: "Een grens stellen aan de balie, aan de telefoon en per e-mail."
   - titel: Herhaald contact
-    inhoud: Grenzen stellen aan een aanvrager die telkens opnieuw escalerend contact zoekt.
-  - titel: Melden en bespreken
-    inhoud: Incidenten correct melden en nabespreken.
+    inhoud: Een grens stellen aan een aanvrager die telkens opnieuw escalerend contact zoekt.
+  - titel: Melden en nabespreken
+    inhoud: Een incident melden en het naderhand nabespreken.
 werkvormen:
-  - realistische oefeningen op basis van herkenbare dossiers
-  - expliciete aandacht voor het communiceren van negatieve beslissingen
-  - alleen theorie die de praktijk ondersteunt
+  - oefeningen op basis van dossiers die je herkent
+  - oefenen met het brengen van een afwijzing
+  - theorie alleen waar die de praktijk ondersteunt
 veelgestelde_vragen:
   - vraag: "Wordt het communiceren van een afwijzing geoefend?"
     antwoord: Ja. Negatieve beslissingen professioneel communiceren met een minimale kans op escalatie is de kern van deze training.

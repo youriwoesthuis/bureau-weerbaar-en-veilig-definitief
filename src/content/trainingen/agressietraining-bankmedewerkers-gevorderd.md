@@ -9,7 +9,7 @@ groepsgrootte: maximaal 10 deelnemers
 locatie: incompany
 locatie_detail: bij jullie op locatie, in heel Nederland
 certificaat: deelnamecertificaat na afloop
-voorwaarde: afgeronde basistraining
+voorwaarde: "afgeronde basistraining of aantoonbare werkervaring met agressie-incidenten"
 doelgroep: "Bankmedewerkers en baliepersoneel met basistraining die complexe agressie-incidenten hanteren."
 samenvatting: >-
   De gevorderde agressietraining voor bankmedewerkers van Bureau Weerbaar
@@ -18,31 +18,31 @@ samenvatting: >-
   duurt 1 dag, telt maximaal 10 deelnemers en vraagt een afgeronde
   basistraining.
 resultaat:
-  - "Onderscheid maken tussen frustratie-agressie en doelgerichte intimidatie"
-  - Druktactieken herkennen en neutraliseren
-  - Klantprofielen inschatten op risico
-  - Teamafspraken toepassen bij herhaalde agressie
-  - Standhouden onder emotionele druk
+  - Het verschil zien tussen een klant die overstuur is en een klant die je bewust klemzet
+  - Merken wanneer iemand druk opvoert om een uitzondering los te krijgen
+  - Inschatten bij welke klanten het uit de hand kan lopen
+  - Als team hetzelfde antwoord geven aan een klant die vaker uitvalt
+  - Blijven staan als het gesprek emotioneel wordt
 programma:
   - titel: Frustratie of doelgericht
-    inhoud: Onderscheiden of iemand overstuur is of bewust intimideert.
+    inhoud: Het verschil zien tussen een klant die overstuur is en een klant die je bewust klemzet.
   - titel: Instrumentele intimidatie
-    inhoud: Omgaan met intimidatie die wordt ingezet voor een uitzondering of kwijtschelding.
+    inhoud: Reageren op iemand die druk opvoert om een uitzondering of kwijtschelding los te krijgen.
   - titel: Manipulatie via klacht en media
-    inhoud: Omgaan met manipulatie via klachtenprocedures en sociale media.
+    inhoud: Reageren op iemand die dreigt met een klacht of met sociale media.
   - titel: Klantprofielen en teamafspraken
-    inhoud: Risico inschatten en afspraken toepassen bij herhaalde agressie.
+    inhoud: Inschatten bij welke klanten het uit de hand kan lopen, en afspreken wie dan wat doet.
   - titel: Standhouden onder druk
-    inhoud: Professioneel blijven bij schuldenproblematiek en emotionele druk.
+    inhoud: Blijven staan bij iemand met schulden die het gesprek emotioneel maakt.
 werkvormen:
   - casuïstiek van de eigen vestiging
-  - directe feedback op teamgedrag
-  - aandacht voor de morele spanning tussen grenzen stellen en klanten in nood
+  - directe feedback op wat het team doet
+  - aandacht voor het wringen tussen grenzen stellen en klanten in nood
 veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Bankmedewerkers en baliepersoneel met basistraining die complexe agressie-incidenten hanteren. Voorwaarde voor deelname: afgeronde basistraining."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basistraining behandelt het herkennen en de-escaleren van agressie in het moment. Dit gevorderde niveau richt zich op patronen die niet impulsief zijn: bewuste grensoverschrijding, manipulatie en consistent teamoptreden."
+    antwoord: "In de basis oefen je de klant die schreeuwt over een geweigerde lening of een geblokkeerde rekening. Hier leer je onderscheiden of iemand echt overstuur is of bewust intimideert om een uitzondering of kwijtschelding los te krijgen, en wat je doet als de druk via een klachtenprocedure of sociale media wordt opgevoerd. Je maakt ook teamafspraken, zodat dezelfde klant niet bij iedere collega een ander antwoord krijgt. Expert is voor vestigingsmanagers en veiligheidscoördinatoren, die het beleid rond toegangsweigering en aangifte vaststellen."
 gerelateerd:
   - "agressietraining-bankmedewerkers-basis"
   - "agressietraining-bankmedewerkers-expert"

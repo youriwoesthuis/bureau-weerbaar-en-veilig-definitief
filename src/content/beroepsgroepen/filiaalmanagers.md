@@ -11,7 +11,7 @@ samenvatting: >-
 kern: "Zelf ingrijpen in het filiaal en daarna het team opvangen dat het zag gebeuren"
 veelgestelde_vragen:
   - vraag: "Wij moeten zelf ingrijpen én het team opvangen. Zit dat allebei in de training?"
-    antwoord: "Ja. Dat dubbele is hier het uitgangspunt. Zelf professioneel ingrijpen is één ding; zorgen dat het team zich veilig voelt en goed wordt opgevangen na een incident is een tweede."
+    antwoord: "Ja. Dat dubbele is hier het uitgangspunt. Zelf ingrijpen is één ding; zorgen dat het team zich veilig voelt en goed wordt opgevangen na een incident is een tweede."
   - vraag: "Komt georganiseerde winkeldiefstal aan bod?"
     antwoord: "Ja. Dat is een ander vraagstuk dan een boze klant: het gaat om groepen, om herhaling en om de vraag wanneer je als manager niet meer zelf optreedt."
   - vraag: "Wat doen we met \"de klant eist de manager\"?"
@@ -23,7 +23,7 @@ veelgestelde_vragen:
 ---
 
 Filiaalmanagers en teamleiders dragen een dubbele verantwoordelijkheid: zelf
-professioneel ingrijpen wanneer een situatie escaleert, én zorgen dat het team
+ingrijpen wanneer een situatie escaleert, én zorgen dat het team
 zich veilig voelt en goed wordt opgevangen na een incident. Van "de klant eist
 de manager" tot structurele overlast en georganiseerde winkeldiefstal: je
 oefent het ingrijpen zelf, de nazorg en opvang direct erna, en het beleid dat

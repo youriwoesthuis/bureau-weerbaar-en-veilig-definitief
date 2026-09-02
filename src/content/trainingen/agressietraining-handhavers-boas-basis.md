@@ -17,26 +17,26 @@ samenvatting: >-
   dag, telt maximaal 10 deelnemers en behandelt ook groepsdruk en gefilmd
   optreden.
 resultaat:
-  - Signalen lezen bij burgers die een boete of aanwijzing weigeren
-  - Rustig blijven wanneer een groep om je heen komt staan of omstanders de situatie aanwakkeren
-  - "Verbaal begrenzen en de-escaleren zonder de grenzen van de boa-bevoegdheid te overschrijden"
-  - Professioneel blijven wanneer je optreden wordt gefilmd voor sociale media
-  - Incidenten correct melden en registreren
+  - Zien dat het misgaat bij iemand die een boete of aanwijzing niet accepteert
+  - Rustig blijven als er een groep om je heen komt staan die zich ermee bemoeit
+  - Een grens stellen zonder buiten je bevoegdheid als boa te stappen
+  - Kalm blijven als iemand je optreden filmt voor sociale media
+  - Een incident melden en opschrijven wat er is gebeurd
 programma:
   - titel: Agressie in de openbare ruimte
-    inhoud: Signalen lezen bij burgers die een boete of aanwijzing weigeren.
+    inhoud: Zien dat het misgaat bij iemand die een boete of aanwijzing niet accepteert.
   - titel: Reguleren onder druk
-    inhoud: Rustig blijven wanneer een groep om je heen komt staan of omstanders de situatie aanwakkeren.
+    inhoud: Rustig blijven als er een groep om je heen komt staan die zich ermee bemoeit.
   - titel: Begrenzen binnen je bevoegdheid
-    inhoud: "Verbaal begrenzen en de-escaleren zonder de grenzen van de boa-bevoegdheid te overschrijden."
+    inhoud: "Een grens stellen en de zaak eruit halen zonder buiten je bevoegdheid als boa te stappen."
   - titel: Gefilmd worden
-    inhoud: Professioneel blijven wanneer je optreden wordt gefilmd voor sociale media.
+    inhoud: Kalm blijven als iemand je optreden filmt voor sociale media.
   - titel: Melden en registreren
-    inhoud: Incidenten correct melden en registreren.
+    inhoud: Het incident melden en opschrijven wat er is gebeurd.
 werkvormen:
-  - realistische oefeningen met trainers met handhavingservaring
+  - een trainingsacteur en trainers die het handhavingswerk kennen
   - casuïstiek uit het eigen werkgebied
-  - expliciete behandeling van de juridische positie van de boa
+  - de juridische positie van de boa komt apart aan bod
 veelgestelde_vragen:
   - vraag: "Komt de juridische positie van de boa aan bod?"
     antwoord: "Ja. Handelen binnen de juridische kaders van de boa-bevoegdheid is een expliciet onderwerp: de-escaleren en rechtmatig optreden gaan in dit werk samen."

@@ -16,7 +16,7 @@ veelgestelde_vragen:
   - vraag: "Kunnen baliemedewerkers en callcentermedewerkers samen in één groep?"
     antwoord: "Dat kan, en het levert vaak inzicht op. Wel is het goed te weten dat het telefoonkanaal andere oefeningen vraagt dan de balie; in de intake bepalen we de verhouding."
   - vraag: "Welk niveau past bij bankmedewerkers?"
-    antwoord: "Basis voor iedereen met klantcontact. Gevorderd voor wie zware financiële gesprekken voert. Expert voor teamleiders die verantwoordelijk zijn voor meldcultuur en opvang na een incident."
+    antwoord: "Basis voor iedereen met klantcontact. Gevorderd voor wie zware financiële gesprekken voert. Expert voor teamleiders die verantwoordelijk zijn voor het melden van incidenten en de opvang erna."
 ---
 
 Aan de bankbalie en aan de telefoon komt financiële stress rechtstreeks binnen: een geweigerde lening, een geblokkeerde rekening, een oplopende schuld. De medewerker kan het besluit niet terugdraaien maar is wel de eerste die het te horen krijgt.

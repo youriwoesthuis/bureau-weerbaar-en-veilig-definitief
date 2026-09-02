@@ -17,32 +17,32 @@ samenvatting: >-
   agressiepatronen per lijn analyseren, escalatie- en meldbeleid opzetten
   en medewerkers coachen na incidenten. De training duurt 1 dag en telt maximaal 8 deelnemers.
 resultaat:
-  - Agressiepatronen per lijn analyseren en vertalen naar maatregelen
-  - Het agressieprotocol toetsen op bruikbaarheid
-  - Medewerkers coachen na incidenten
-  - "Escalatie- en meldbeleid opzetten"
-  - Juridische verantwoordelijkheid begrijpen en communiceren
-  - De meldcultuur versterken
+  - "Zien op welke lijnen en tijdstippen het misgaat, en daar een maatregel aan koppelen"
+  - "Nagaan of het agressieprotocol werkt in een volle tram, en het aanpassen"
+  - "Een incident naderhand doornemen met de medewerker, elke keer"
+  - "Vastleggen wanneer een rit wordt gestaakt en wie je erbij haalt"
+  - "Weten waar het bedrijf aansprakelijk voor is, en dat uitleggen aan het team"
+  - "Zorgen dat incidenten gemeld worden, ook de kleine die niemand opschrijft"
 programma:
   - titel: Patronen per lijn
-    inhoud: Meldingsdata per lijn analyseren zodat structurele probleemlijnen zichtbaar worden.
+    inhoud: De meldingen per lijn doornemen zodat zichtbaar wordt waar het steeds misgaat.
   - titel: Protocol toetsen
-    inhoud: "Werkt het agressieprotocol ook in een volle tram op vrijdagavond? Toetsen en aanscherpen."
+    inhoud: "Nagaan of het agressieprotocol ook werkt in een volle tram op vrijdagavond, en het aanpassen."
   - titel: Rituitval en politie
-    inhoud: Helder beleid over wanneer ritten worden gestaakt en de politie wordt ingeschakeld.
-  - titel: Coachen en nazorg
-    inhoud: Structurele coaching en nazorg na incidenten inrichten.
+    inhoud: "Vastleggen wanneer een rit wordt gestaakt en wanneer de politie erbij komt."
+  - titel: Nabespreken en nazorg
+    inhoud: Een vast moment inrichten om een incident met de medewerker door te nemen.
   - titel: Intervisie na afloop (op verzoek)
-    inhoud: Terugkombijeenkomst over de implementatie.
+    inhoud: "Terugkombijeenkomst over wat er van de afspraken terechtkwam."
 werkvormen:
-  - beleidsanalyse op basis van meldingsdata per lijn
-  - casuïstiekbespreking
+  - de meldingen per lijn doornemen
+  - eigen casuïstiek bespreken
   - intervisie na afloop (op verzoek)
 veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Lijnmanagers, depotmanagers en veiligheidscoördinatoren in het openbaar vervoer. Voorwaarde voor deelname: leidinggevende functie met aantoonbare werkervaring met agressiesituaties."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De invalshoek. De basis- en gevorderde training gaan over het eigen handelen. Dit expertniveau gaat over de organisatie: beleid, escalatiestructuur, nazorg, meldcultuur en het coachen van medewerkers."
+    antwoord: "Basis en gevorderd gaan over jouw optreden in de coupé of achter de knop. Op dit niveau lees je de meldingen per lijn, zodat zichtbaar wordt welke lijnen structureel problemen geven, en toets je of het agressieprotocol ook klopt in een volle tram op vrijdagavond. Je legt vast wanneer een rit wordt gestaakt en de politie erbij komt, en richt de coaching en nazorg na incidenten in."
 gerelateerd:
   - "agressietraining-treinpersoneel-basis"
   - "agressietraining-treinpersoneel-gevorderd"

@@ -17,26 +17,26 @@ samenvatting: >-
   gedragsplannen beoordelen vanuit medewerkersveiligheid, eenduidig
   teambeleid implementeren en de meldcultuur versterken. De training duurt 1 dag en telt maximaal 8 deelnemers.
 resultaat:
-  - Gedragsplannen beoordelen vanuit het perspectief van medewerkersveiligheid
-  - Eenduidig teambeleid implementeren bij terugkerende agressiepatronen
-  - Medewerkers structureel coachen na incidenten
-  - De meldcultuur versterken
-  - Samenwerking met gedragsdeskundigen organiseren
-  - De balans borgen tussen cliëntenzorg en teamveiligheid
+  - "Een gedragsplan ook beoordelen op wat het voor de veiligheid van de begeleider betekent"
+  - "Met het team afspreken wat je doet bij agressie die steeds terugkomt"
+  - "Een incident naderhand doornemen met de begeleider, elke keer"
+  - "Herkennen wanneer een team gedrag is gaan accepteren dat niet hoort"
+  - "Met de gedragsdeskundige afspreken hoe je samenwerkt"
+  - "Vastleggen hoe je goede zorg en een veilig team allebei vasthoudt"
 programma:
   - titel: Gedragsplannen en veiligheid
-    inhoud: Gedragsplannen beoordelen met de veiligheid van medewerkers als expliciet criterium.
+    inhoud: Een gedragsplan ook beoordelen op wat het voor de veiligheid van de begeleider betekent.
   - titel: Eenduidig teambeleid
-    inhoud: Beleid implementeren dat het hele team volgt bij terugkerende agressiepatronen.
-  - titel: Coachen en meldcultuur
-    inhoud: Medewerkers structureel begeleiden na incidenten en normalisering van agressie doorbreken.
+    inhoud: Afspraken maken die het hele team volgt bij agressie die steeds terugkomt.
+  - titel: Nabespreken en melden
+    inhoud: "Een incident doornemen met de begeleider, en benoemen wat het team is gaan accepteren."
   - titel: Samenwerking met gedragsdeskundigen
-    inhoud: "De samenwerking organiseren tussen woongroep, gedragsdeskundige en leidinggevende."
+    inhoud: "Afspreken hoe woongroep, gedragsdeskundige en leidinggevende samenwerken."
   - titel: Intervisie na afloop (op verzoek)
-    inhoud: Terugkombijeenkomst over de implementatie op de eigen locatie.
+    inhoud: "Terugkombijeenkomst over wat er op de eigen locatie van de afspraken terechtkwam."
 werkvormen:
-  - beleidsmatige verdieping met concrete veiligheidsprotocollen
-  - analyse van gedragsbeleid en incidentrapportages
+  - concrete veiligheidsafspraken uitwerken
+  - het gedragsbeleid en de meldingen doornemen
   - intervisie na afloop (op verzoek)
 veelgestelde_vragen:
   - vraag: "Hoe verhoudt medewerkersveiligheid zich tot het gedragsplan van een cliënt?"
@@ -44,7 +44,7 @@ veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Teamleiders, locatiemanagers en gedragscoördinatoren in de woonbegeleiding gehandicaptenzorg. Voorwaarde voor deelname: leidinggevende verantwoordelijkheid voor een woongroep of locatie in de gehandicaptenzorg."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "Het perspectief. De basis- en gevorderde training gaan over het eigen handelen. Dit expertniveau gaat over de organisatie: beleid, escalatiestructuur, nazorg, meldcultuur en het coachen van medewerkers."
+    antwoord: "Basis en gevorderd gaan over jouw werk op de woongroep. Op dit niveau beoordeel je gedragsplannen met de veiligheid van medewerkers als expliciet criterium, en zorg je dat het hele team bij terugkerende agressiepatronen dezelfde lijn volgt. Je begeleidt mensen structureel na incidenten en doorbreekt de normalisering waarin klappen erbij horen gaan horen. Ook de samenwerking tussen woongroep, gedragsdeskundige en leidinggevende organiseer je hier."
 gerelateerd:
   - "agressietraining-woonbegeleiding-gehandicaptenzorg-basis"
   - "agressietraining-woonbegeleiding-gehandicaptenzorg-gevorderd"

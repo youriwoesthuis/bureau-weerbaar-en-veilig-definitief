@@ -9,7 +9,7 @@ groepsgrootte: maximaal 10 deelnemers
 locatie: incompany
 locatie_detail: bij jullie op locatie, in heel Nederland
 certificaat: deelnamecertificaat na afloop
-voorwaarde: afgeronde basistraining
+voorwaarde: "afgeronde basistraining of aantoonbare werkervaring met agressie-incidenten"
 doelgroep: Verzekeringsmedewerkers met basistraining die complexe agressiepatronen en manipulatie rond schadeclaims moeten hanteren.
 samenvatting: >-
   De gevorderde agressietraining voor verzekeringsmedewerkers van Bureau
@@ -42,7 +42,7 @@ veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Verzekeringsmedewerkers met basistraining die complexe agressiepatronen en manipulatie rond schadeclaims moeten hanteren. Voorwaarde voor deelname: afgeronde basistraining."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De focus. De basistraining behandelt het herkennen en de-escaleren van agressie in het moment. Dit gevorderde niveau richt zich op patronen die niet impulsief zijn: bewuste grensoverschrijding, manipulatie en consistent teamoptreden."
+    antwoord: "In de basis oefen je de woedende reactie op een afgewezen claim en het verwijt dat persoonlijk wordt. Hier leer je onderscheiden of een klant systematisch druk opbouwt voor een hogere vergoeding of werkelijk in crisis zit na ingrijpende schade. Je oefent het standhouden bij een afwijzing rond fraude, het omgaan met druk via tussenpersonen en advocaten, en veilig werken bij een schade-inspectie ter plaatse. Expert is voor teamleiders en veiligheidscoördinatoren, die het protocol voor grensoverschrijdend klantgedrag opstellen."
 gerelateerd:
   - "agressietraining-verzekeringsmedewerkers-basis"
   - "agressietraining-verzekeringsmedewerkers-expert"

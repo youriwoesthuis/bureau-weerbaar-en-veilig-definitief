@@ -17,32 +17,32 @@ samenvatting: >-
   protocollen opstellen voor dossiers met hoog agressierisico en
   medewerkers ondersteunen na intimidatiecampagnes. De training duurt 1 dag en telt maximaal 8 deelnemers.
 resultaat:
-  - Een protocol opstellen voor dossiers met hoog agressierisico
-  - Beleid ontwikkelen voor structureel grensoverschrijdend gedrag
-  - Medewerkers coachen bij het communiceren van negatieve beslissingen
-  - Ondersteuning bieden na intimidatiecampagnes
-  - Politieke druk beleidsmatig adresseren
-  - De meldcultuur versterken
+  - "Afspreken wat er extra geregeld wordt bij een dossier waar agressie te verwachten is"
+  - "Beleid maken voor aanvragers die steeds over de grens gaan"
+  - "Een medewerker bijstaan die een afwijzing moet brengen"
+  - "Een medewerker steunen die maandenlang wordt bestookt"
+  - "Bestuurlijke druk bij jezelf houden in plaats van doorgeven aan de medewerker"
+  - "Zorgen dat incidenten gemeld worden, ook de kleine die niemand opschrijft"
 programma:
   - titel: Risicodossiers
-    inhoud: "Een protocol voor dossiers met verhoogd agressierisico: voorbereiding, begeleiding en nazorg."
-  - titel: Beleid bij structureel gedrag
-    inhoud: Beleid ontwikkelen voor aanvragers die structureel grensoverschrijdend gedrag vertonen.
-  - titel: Coachen bij slecht nieuws
-    inhoud: Medewerkers begeleiden die een negatief besluit moeten communiceren.
-  - titel: Politieke druk afschermen
-    inhoud: Politieke druk vanuit het bestuur beleidsmatig adresseren in plaats van doorschuiven naar de medewerker.
+    inhoud: "Wat je extra regelt bij een dossier waar agressie te verwachten is: vooraf, tijdens en achteraf."
+  - titel: Beleid bij aanhoudend gedrag
+    inhoud: Beleid maken voor aanvragers die steeds over de grens gaan.
+  - titel: Steun bij slecht nieuws
+    inhoud: Een medewerker bijstaan die een afwijzing moet brengen.
+  - titel: Druk van het bestuur
+    inhoud: "Bestuurlijke druk bij jezelf houden, in plaats van hem door te geven aan de medewerker."
   - titel: Intervisie na afloop (op verzoek)
-    inhoud: Terugkombijeenkomst over de implementatie.
+    inhoud: "Terugkombijeenkomst over wat er van de afspraken terechtkwam."
 werkvormen:
-  - analyse van veiligheidsbeleid en incidentrapportages
-  - beleidsverdieping met concrete protocollen
+  - het veiligheidsbeleid en de meldingen doornemen
+  - protocollen uitwerken voor de eigen organisatie
   - intervisie na afloop (op verzoek)
 veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Teamleiders, afdelingshoofden en managers bij gemeentelijke en regionale uitvoeringsorganisaties die verantwoordelijk zijn voor veiligheid. Voorwaarde voor deelname: leidinggevende verantwoordelijkheid voor een team medewerkers vergunningverlening of bezwaar en beroep."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "Het perspectief. De basis- en gevorderde training gaan over het eigen handelen. Dit expertniveau gaat over de organisatie: beleid, escalatiestructuur, nazorg, meldcultuur en het coachen van medewerkers."
+    antwoord: "Basis en gevorderd gaan over jouw dossier en jouw gesprek met de aanvrager. Op dit niveau maak je een protocol voor dossiers met verhoogd agressierisico, met afspraken over de voorbereiding, de begeleiding tijdens het traject en de nazorg. Je ontwikkelt beleid voor aanvragers die structureel over de grens gaan, coacht medewerkers die een negatief besluit moeten overbrengen, en adresseert politieke druk vanuit het bestuur in plaats van die door te schuiven naar de behandelaar."
 gerelateerd:
   - "agressietraining-vergunningverlening-bezwaar-beroep-basis"
   - "agressietraining-vergunningverlening-bezwaar-beroep-gevorderd"

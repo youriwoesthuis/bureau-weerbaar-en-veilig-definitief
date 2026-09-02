@@ -18,32 +18,32 @@ samenvatting: >-
   beschadigen. De training duurt 1 dag, telt maximaal 10 deelnemers en
   vraagt een afgeronde basistraining of ervaring met ernstige agressie.
 resultaat:
-  - Georganiseerde intimidatie en groepsagressie vroegtijdig herkennen
-  - Veilig reageren bij omsingeling of blokkade
-  - Professioneel standhouden onder systematische uitdaging
-  - Omgaan met het filmen van handhavingssituaties
-  - Bepalen wanneer een situatie moet worden verlaten
-  - De juiste stappen zetten na een ernstig incident
+  - "Herkennen wanneer intimidatie onderling is afgesproken in plaats van los gedrag"
+  - "Veilig reageren als je wordt ingesloten of de weg wordt versperd"
+  - "Standhouden in een wijk waar je elke dag wordt uitgedaagd"
+  - "Doorwerken terwijl iemand je filmt"
+  - "Bepalen wanneer je de situatie verlaat"
+  - "Weten wat je doet in de uren na een ernstig incident"
 programma:
   - titel: Georganiseerde intimidatie
-    inhoud: Herkennen wanneer intimidatie gecoördineerd is in plaats van incidenteel.
+    inhoud: Herkennen wanneer intimidatie onderling is afgesproken in plaats van los gedrag.
   - titel: Omsingeling en blokkade
     inhoud: Veilig reageren wanneer je fysiek wordt ingesloten.
-  - titel: Systematische uitdaging
-    inhoud: Standhouden in wijken waar de vijandigheid structureel is.
-  - titel: Gefilmd voor online schade
-    inhoud: Omgaan met bewust filmen dat bedoeld is om je online te beschadigen.
+  - titel: Dagelijkse vijandigheid
+    inhoud: Standhouden in een wijk waar je elke dag wordt uitgedaagd.
+  - titel: Gefilmd worden
+    inhoud: Doorwerken terwijl iemand filmt om je online te beschadigen.
   - titel: Na een ernstig incident
-    inhoud: De juiste stappen zetten na een fysieke aanval of bedreiging buiten werktijd.
+    inhoud: Weten wat je doet na een fysieke aanval of een bedreiging buiten werktijd.
 werkvormen:
   - casuïstiek uit eigen werkgebieden en risicolocaties
-  - directe feedback op besluitvorming onder groepsdruk
-  - oefening van ingebrachte situaties
+  - feedback op de keuzes die je onder groepsdruk maakt
+  - ingebrachte situaties oefenen
 veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Parkeerwachters en toezichthouders met basiservaring die werken in gebieden met hoge agressiebelasting of structurele spanning. Voorwaarde voor deelname: afgeronde basistraining of aantoonbare werkervaring met ernstige agressie in de openbare ruimte."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basistraining behandelt het herkennen en de-escaleren van agressie in het moment. Dit gevorderde niveau richt zich op patronen die niet impulsief zijn: bewuste grensoverschrijding, manipulatie en consistent teamoptreden."
+    antwoord: "In de basis oefen je de automobilist die ontploft bij een bon en de omstanders die zich ermee bemoeien. Hier gaat het om intimidatie die gecoördineerd is in plaats van toevallig, om het moment dat je fysiek wordt ingesloten, en om wijken waar de vijandigheid structureel is. Je oefent met bewust filmen dat bedoeld is om je online te beschadigen, en met de stappen na een fysieke aanval of een bedreiging in je vrije tijd. Expert is voor gebiedsmanagers en teamcoördinatoren, die het protocol voor alleen werken op straat vastleggen."
 gerelateerd:
   - "agressietraining-parkeerwachters-toezichthouders-basis"
   - "agressietraining-parkeerwachters-toezichthouders-expert"

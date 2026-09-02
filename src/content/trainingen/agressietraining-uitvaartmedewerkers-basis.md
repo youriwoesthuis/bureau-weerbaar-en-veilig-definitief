@@ -17,27 +17,27 @@ samenvatting: >-
   familieconflicten hanteren zonder partij te kiezen. De training duurt 1
   dag en telt maximaal 10 deelnemers.
 resultaat:
-  - "De emotionele dynamiek achter agressie herkennen: rouw, schuld en machteloosheid"
-  - De eigen reactie reguleren bij agressief gedrag van nabestaanden
-  - Verbale agressie professioneel begrenzen zonder de zorgrelatie te beschadigen
-  - Familieconflicten hanteren zonder partij te kiezen
-  - Moeilijke boodschappen zo brengen dat de kans op escalatie klein blijft
-  - Incidenten correct melden en bespreken
+  - "Herkennen dat de woede uit rouw, schuldgevoel of machteloosheid komt"
+  - "Rustig blijven als een nabestaande tegen je uitvalt"
+  - "Verbaal een grens stellen zonder de familie kwijt te raken"
+  - "Een ruzie tussen familieleden hanteren zonder partij te kiezen"
+  - "Een moeilijke boodschap zo brengen dat de kans op escalatie kleiner is"
+  - "Een incident melden en het naderhand nabespreken"
 programma:
   - titel: Rouw en agressie
-    inhoud: "Begrijpen hoe verdriet, schuldgevoel en machteloosheid omslaan in woede."
+    inhoud: "Hoe verdriet, schuldgevoel en machteloosheid omslaan in woede."
   - titel: Reguleren in geladen situaties
     inhoud: Rustig blijven bij nabestaanden die in acute rouw de controle verliezen.
-  - titel: Begrenzen met behoud van de relatie
-    inhoud: Professioneel begrenzen bij agressie over kosten of afspraken.
+  - titel: Begrenzen zonder de familie kwijt te raken
+    inhoud: Een grens stellen bij woede over kosten of afspraken.
   - titel: Tussen familieleden
-    inhoud: Familieconflicten hanteren zonder zondebok of scheidsrechter te worden.
+    inhoud: Een ruzie tussen familieleden hanteren zonder zondebok of scheidsrechter te worden.
   - titel: De plechtigheid en daarna
-    inhoud: Handelen bij spanningen tijdens de plechtigheid en bij online beschuldigingen na afloop.
+    inhoud: Handelen bij spanning tijdens de plechtigheid en bij beschuldigingen online na afloop.
 werkvormen:
-  - realistische oefeningen op basis van herkenbare praktijksituaties
-  - expliciete aandacht voor de dynamiek tussen rouw en agressie
-  - geen generieke rollenspellen
+  - oefeningen op basis van situaties die werkelijk voorkomen
+  - aandacht voor hoe rouw in woede omslaat
+  - oefenen met een trainingsacteur
 veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Alle uitvaartmedewerkers, uitvaartverzorgers en medewerkers met direct contact met nabestaanden. Er is geen voorkennis nodig; dit is het instapniveau."

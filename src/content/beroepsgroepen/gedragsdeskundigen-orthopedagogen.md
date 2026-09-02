@@ -11,7 +11,7 @@ samenvatting: >-
 kern: "Adviseren over gedrag zonder zeggenschap over de uitvoering, en de reactie opvangen"
 veelgestelde_vragen:
   - vraag: "Wij adviseren, maar voeren de zorg niet uit. Is deze training dan passend?"
-    antwoord: "Juist daarom. De training gaat over standhouden bij een professioneel advies terwijl je geen directe zeggenschap hebt over de uitvoering: precies de positie waarin een gedragsdeskundige zit."
+    antwoord: "Juist daarom. De training gaat over standhouden bij je advies terwijl je geen directe zeggenschap hebt over de uitvoering: precies de positie waarin een gedragsdeskundige zit."
   - vraag: "Komt druk via advocaten, media en sociale kanalen aan bod?"
     antwoord: "Ja. Die vorm van druk komt bij deze beroepsgroep steeds vaker voor en verloopt anders dan een confrontatie in de spreekkamer. Die behandelen we apart."
   - vraag: "Kunnen gedragsdeskundigen en begeleiders in één groep?"

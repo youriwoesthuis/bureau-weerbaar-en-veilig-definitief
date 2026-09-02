@@ -18,32 +18,32 @@ samenvatting: >-
   telt maximaal 10 deelnemers en vraagt een afgeronde basistraining of
   aantoonbare werkervaring.
 resultaat:
-  - Veiligheidstaxatie toepassen vóór het uitstappen
-  - Beslissen wanneer een levering moet worden afgebroken
-  - Professioneel handelen bij fysieke dreiging
-  - Omgaan met online bedreigingen en valse klachten
-  - Veilig navigeren in risicovolle omgevingen
-  - De juiste stappen zetten na een ernstig incident
+  - "Een adres inschatten voordat je uitstapt"
+  - "Beslissen wanneer je een levering niet doorzet"
+  - "Handelen als iemand aan de deur fysiek dreigt"
+  - "Reageren op online bedreigingen en op klachten die niet kloppen"
+  - "Veilig rijden en lopen in een wijk waar het onrustig is"
+  - "Weten wat je doet in de uren na een ernstig incident"
 programma:
-  - titel: Taxatie vóór het uitstappen
-    inhoud: Systematisch inschatten van een adres of situatie voordat je de auto of scooter verlaat.
+  - titel: Inschatten vóór het uitstappen
+    inhoud: Een adres of situatie inschatten voordat je de auto of scooter verlaat.
   - titel: Afbreken
     inhoud: Beslissen wanneer je een levering niet doorzet.
   - titel: Fysieke dreiging
-    inhoud: Professioneel handelen bij fysieke dreiging of intimidatie aan de deur.
+    inhoud: Handelen als iemand aan de deur fysiek dreigt of intimideert.
   - titel: Online bedreiging en valse klachten
-    inhoud: Omgaan met online bedreigingen en met valse klachten die je werk raken.
-  - titel: Risicovolle omgevingen
-    inhoud: "Veilig navigeren in wijken met een hoge veiligheidsdreiging en tijdens avond- en nachtdiensten."
+    inhoud: "Reageren op online bedreigingen en op klachten die niet kloppen maar je werk wel raken."
+  - titel: Onrustige omgevingen
+    inhoud: "Veilig rijden en lopen in een wijk waar het onrustig is, ook in de avond en de nacht."
 werkvormen:
   - casuïstiek uit eigen routes
-  - praktische feedback op besluitvorming onder druk
-  - oefening van veiligheidstaxatie
+  - feedback op de keuzes die je onder druk maakt
+  - oefenen met inschatten voordat je uitstapt
 veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Bezorgers met basistraining die regelmatig ernstige of herhaalde agressie-incidenten meemaken. Voorwaarde voor deelname: afgeronde basistraining of aantoonbare werkervaring."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basistraining behandelt het herkennen en de-escaleren van agressie in het moment. Dit gevorderde niveau richt zich op patronen die niet impulsief zijn: bewuste grensoverschrijding, manipulatie en consistent teamoptreden."
+    antwoord: "In de basis oefen je de klant die kwaad wordt om een beschadigd of te laat pakket en het begrenzen aan de voordeur. Hier leer je een adres systematisch taxeren voordat je uitstapt, en beslis je wanneer je een levering niet doorzet. Je oefent handelen bij fysieke dreiging aan de deur, het omgaan met online bedreigingen en valse klachten die je werk raken, en het rijden door wijken waar je je 's avonds niet prettig voelt. Expert is voor planners en operationeel managers, die het veiligheidsprotocol en de risicoanalyse vastleggen."
 gerelateerd:
   - "agressietraining-pakket-maaltijdbezorgers-basis"
   - "agressietraining-pakket-maaltijdbezorgers-expert"

@@ -18,32 +18,32 @@ samenvatting: >-
   meldcultuur versterken. De training duurt 1 dag, telt maximaal 8
   deelnemers en start met een intakegesprek.
 resultaat:
-  - Agressiepatronen op organisatieniveau analyseren
-  - Het agressieprotocol toetsen op bruikbaarheid in de praktijk
-  - Collega’s professioneel coachen na incidenten
-  - Een escalatiestructuur opzetten en borgen
-  - Juridische verantwoordelijkheid begrijpen en communiceren
-  - De meldcultuur binnen de organisatie versterken
+  - Zien welke incidenten zich herhalen, bij welke ritten en bij wie
+  - Nagaan of het agressieprotocol klopt met wat er 's nachts op straat gebeurt
+  - Een incident naderhand met de betrokkene doornemen, elke keer en niet alleen bij de zware
+  - Vastleggen wie je erbij haalt als het misgaat, en zorgen dat het blijft staan
+  - Weten waar de werkgever voor aan de lat staat, en dat aan het team uitleggen
+  - Zorgen dat incidenten gemeld worden, ook de kleine die niemand opschrijft
 programma:
   - titel: Intake en patroonanalyse
-    inhoud: Intakegesprek vooraf; analyse van incidentgegevens en meldgedrag binnen de dienst.
+    inhoud: Vooraf een intakegesprek; daarna kijken welke incidenten zich herhalen en wat er wel en niet gemeld wordt.
   - titel: Protocol toetsen op de praktijk
     inhoud: "Werkt het agressieprotocol ook op straat, midden in de nacht, met twee mensen? Toetsen en aanscherpen."
   - titel: Coachen en nazorg
-    inhoud: Medewerkers structureel begeleiden na incidenten en nazorg organiseren die niet afhangt van de dienstdoende leidinggevende.
+    inhoud: Elk incident naderhand met de betrokkene doornemen, en de opvang zo regelen dat die niet afhangt van wie er die dienst leidinggeeft.
   - titel: Escalatie en juridische kaders
-    inhoud: Een escalatiestructuur opzetten en de juridische verantwoordelijkheid helder communiceren.
+    inhoud: Vastleggen wie je erbij haalt als het misgaat, en aan het team uitleggen waar de werkgever voor aan de lat staat.
 werkvormen:
-  - casuïstiekbespreking
-  - beleidsanalyse
-  - organisatiegericht advies na intakegesprek
+  - casuïstiek uit de eigen dienst doornemen
+  - het bestaande beleid naast de praktijk leggen
+  - advies voor de organisatie na het intakegesprek
 veelgestelde_vragen:
   - vraag: "Hoe wordt de training op onze dienst afgestemd?"
     antwoord: "Met een intakegesprek vooraf. Bureau Weerbaar en Veilig brengt daarin de situatie in kaart en analyseert incidentgegevens en het bestaande beleid, zodat de training aansluit op de eigen organisatie."
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Rayonmanagers, teamleiders, veiligheidscoördinatoren en senior medewerkers in leidinggevende rollen bij ambulancediensten. Voorwaarde voor deelname: leidinggevende of coördinerende functie met aantoonbare werkervaring met agressie."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De basis- en gevorderde training gaan over het eigen handelen. Dit expertniveau gaat over de organisatie: beleid, escalatiestructuur, nazorg, meldcultuur en het coachen van medewerkers."
+    antwoord: "De basis en het gevorderde niveau gaan over jouw optreden bij de patiënt. Dit niveau gaat over de dienst als geheel: wat er wel en niet gemeld wordt, of het agressieprotocol standhoudt op straat midden in de nacht met twee mensen, en wie de nazorg doet als de dienstdoende leidinggevende steeds een andere is. Je werkt met de incidentgegevens van je eigen regio en legt een escalatiestructuur vast die je aan het team kunt uitleggen."
 gerelateerd:
   - "agressietraining-ambulancemedewerkers-basis"
   - "agressietraining-ambulancemedewerkers-gevorderd"

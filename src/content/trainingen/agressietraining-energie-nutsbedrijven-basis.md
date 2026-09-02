@@ -16,26 +16,26 @@ samenvatting: >-
   herkennen vóór binnenkomst en agressief gedrag begrenzen tijdens
   huisbezoeken. De training duurt 1 dag en telt maximaal 10 deelnemers.
 resultaat:
-  - Risicovolle thuissituaties herkennen vóór binnenkomst
-  - De eigen reactie reguleren onder druk
-  - Verbaal agressief gedrag professioneel begrenzen
-  - Veilig handelen bij escalatie
-  - Incidenten correct melden
+  - Aan de deur al zien dat je beter niet naar binnen gaat
+  - Rustig blijven als een klant tegen je uitvalt over een besluit dat je niet nam
+  - Een grens stellen als iemand je uitscheldt of de meterkast blokkeert
+  - Weten wat je doet als het in de woning uit de hand loopt
+  - Een incident melden, ook het kleine dat niemand opschrijft
 programma:
   - titel: Inschatten vóór de deur
-    inhoud: Risicovolle thuissituaties herkennen voordat je binnenstapt.
+    inhoud: Aan de deur al zien dat je beter niet naar binnen gaat.
   - titel: De boodschapper van het besluit
-    inhoud: Reguleren van de eigen reactie bij klanten die agressief reageren op een afsluiting.
+    inhoud: Rustig blijven bij een klant die tegen je uitvalt over een afsluiting die je niet zelf besloot.
   - titel: Begrenzen in de woning
-    inhoud: Verbaal begrenzen wanneer toegang wordt geweigerd bij een verplichte inspectie.
+    inhoud: Een grens stellen als iemand je bij een verplichte inspectie niet bij de meter laat.
   - titel: Escalatie en omstanders
-    inhoud: Veilig handelen wanneer dreigende familieleden aanwezig zijn.
+    inhoud: Weten wat je doet als er familieleden bij staan die dreigend worden.
   - titel: Melden
-    inhoud: Incidenten correct melden zodat het bedrijf risicoadressen kent.
+    inhoud: Het incident melden, zodat het bedrijf weet op welke adressen het misgaat.
 werkvormen:
-  - realistische oefeningen met trainers die de huisbezoekcontext kennen
+  - een trainingsacteur die het werk bij mensen thuis kent
   - casuïstiek uit de eigen routes
-  - praktijkgericht oefenen zonder naïeve rollenspellen
+  - oefenen met situaties die op jullie routes echt voorkomen
 veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Monteurs, inspecteurs en servicemedewerkers die huisbezoeken bij klanten uitvoeren. Er is geen voorkennis nodig; dit is het instapniveau."

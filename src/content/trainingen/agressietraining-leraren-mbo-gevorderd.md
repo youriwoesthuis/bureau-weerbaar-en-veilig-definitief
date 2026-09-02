@@ -19,32 +19,32 @@ samenvatting: >-
   duurt 1 dag, telt maximaal 10 deelnemers en vraagt een afgeronde
   basistraining.
 resultaat:
-  - Instrumenteel en manipulatief gedrag herkennen en adequaat reageren
-  - Groepsdynamiek analyseren en bijsturen vóór escalatie
-  - "Gedragsprofielen gebruiken voor risico-inschatting"
-  - Teamafspraken maken en consistent nakomen
-  - Eenduidige reacties van het team organiseren
-  - Grenzen stellen zonder de onderwijsrelatie te beschadigen
+  - "Zien wanneer een student bewust grenzen opzoekt in plaats van uit frustratie handelt"
+  - "Zien hoe een groep kantelt, en ingrijpen voordat het zover is"
+  - "Inschatten wat een student gaat doen op grond van wat hij eerder deed"
+  - "Met het team afspreken wat je doet, en je er daarna aan houden"
+  - "Zorgen dat collega’s hetzelfde reageren bij dezelfde student"
+  - "Een grens stellen zonder de student kwijt te raken"
 programma:
   - titel: Strategisch gedrag herkennen
-    inhoud: Studenten die bewust grenzen overschrijden en het systeem van de instelling manipuleren.
+    inhoud: Studenten die bewust grenzen opzoeken en de regels van de instelling tegen je gebruiken.
   - titel: Groepsdynamiek bijsturen
-    inhoud: Analyseren en ingrijpen wanneer een groep de docent collectief uitdaagt.
-  - titel: Complexe problematiek
-    inhoud: Agressie in combinatie met verslavingsproblematiek of een psychiatrische achtergrond.
+    inhoud: "Zien hoe een groep kantelt als hij de docent collectief uitdaagt, en waar je ingrijpt."
+  - titel: Meerdere problemen tegelijk
+    inhoud: Agressie bij een student die daarnaast verslaafd is of een psychiatrische diagnose heeft.
   - titel: Teamafspraken en consistentie
-    inhoud: "Afspraken maken en nakomen, zodat het team eenduidig reageert."
+    inhoud: "Afspraken maken en nakomen, zodat collega’s hetzelfde reageren bij dezelfde student."
   - titel: Casuïstiek van de eigen instelling
-    inhoud: "Eigen situaties oefenen, met signalering van teampatronen door de trainer."
+    inhoud: "Eigen situaties oefenen, waarbij de trainer benoemt wat er in het team terugkeert."
 werkvormen:
   - casuïstiek van de eigen instelling
-  - "analyse van groeps- en teampatronen"
-  - oefening van eigen situaties met feedback
+  - "doornemen wat er in de groep en in het team terugkeert"
+  - eigen situaties oefenen met feedback
 veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Leraren in het mbo die de basisvaardigheden beheersen en regelmatig te maken hebben met complexe of herhaalde gedragsincidenten. Voorwaarde voor deelname: afgeronde basistraining of aantoonbare werkervaring met gedragsincidenten."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "Het soort agressie. De basistraining behandelt het herkennen en de-escaleren van agressie in het moment. Dit gevorderde niveau richt zich op patronen die niet impulsief zijn: bewuste grensoverschrijding, manipulatie en consistent teamoptreden."
+    antwoord: "In de basis oefen je de student die je uitscheldt en de groep die de les verstoort. Hier gaat het om gedrag dat een plan heeft: studenten die precies weten hoe de regels van de instelling werken en die bespelen, en groepen die je collectief uitdagen. Je oefent met agressie waar verslaving of psychiatrie in meespeelt, en met teamafspraken, want zolang de ene docent iets toestaat wat de andere verbiedt blijft het gedrag bestaan. Expert is voor teamleiders en zorgcoördinatoren, die het gedragsbeleid van de instelling aanscherpen."
 gerelateerd:
   - "agressietraining-leraren-mbo-basis"
   - "agressietraining-leraren-mbo-expert"

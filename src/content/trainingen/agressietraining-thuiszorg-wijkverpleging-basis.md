@@ -18,27 +18,27 @@ samenvatting: >-
   duurt 1 dag, telt maximaal 10 deelnemers en gaat expliciet in op alleen
   werken zonder achterwacht.
 resultaat:
-  - "Vormen van agressie herkennen: frustratie, dementie, psychiatrische ontregeling en seksueel grensoverschrijdend gedrag"
-  - De eigen reactie reguleren onder druk
-  - Professioneel grenzen stellen zonder de zorgrelatie te beschadigen
-  - Bepalen wanneer een bezoek veilig kan worden beëindigd
-  - Veilig handelen bij agressie van familie of mantelzorgers
-  - Incidenten correct melden en overdragen
+  - "Zien waar agressie vandaan komt: frustratie, dementie, ontregeling of seksueel grensoverschrijdend gedrag"
+  - "Rustig blijven en de handeling afmaken terwijl iemand tegen je uitvalt"
+  - "Een grens stellen zonder de zorgrelatie kapot te maken"
+  - "Bepalen wanneer je een bezoek afbreekt"
+  - "Veilig handelen als een familielid of mantelzorger agressief wordt"
+  - "Een incident melden en overdragen aan de volgende collega"
 programma:
   - titel: Agressie achter de voordeur
-    inhoud: "Vormen van agressie in de thuissituatie: frustratie, dementie, psychiatrische ontregeling en seksueel grensoverschrijdend gedrag."
-  - titel: Alleen werken zonder achterwacht
-    inhoud: "Wat het betekent om er alleen voor te staan, en hoe je de eigen reactie reguleert wanneer niemand kan bijspringen."
+    inhoud: "Waar agressie in de thuissituatie vandaan komt: frustratie, dementie, ontregeling of seksueel grensoverschrijdend gedrag."
+  - titel: Alleen werken
+    inhoud: "Wat het betekent om er alleen voor te staan, en hoe je rustig blijft als niemand kan bijspringen."
   - titel: Grenzen stellen in een langdurige zorgrelatie
-    inhoud: Begrenzen zonder de relatie met cliënt of mantelzorger onnodig te beschadigen.
-  - titel: Een bezoek beëindigen
-    inhoud: Bepalen wanneer je weggaat, en hoe je dat doet als je wordt tegengehouden.
+    inhoud: Een grens stellen zonder de relatie met cliënt of mantelzorger kapot te maken.
+  - titel: Een bezoek afbreken
+    inhoud: "Bepalen wanneer je weggaat, en hoe je dat doet als je wordt tegengehouden."
   - titel: Melden en overdragen
-    inhoud: Incidenten correct melden en zorgen dat de volgende collega weet wat er speelt.
+    inhoud: Een incident melden en zorgen dat de volgende collega weet wat er speelt.
 werkvormen:
-  - realistische oefeningen met trainers uit de thuiszorg
+  - oefenen met trainers uit de thuiszorg
   - casuïstiek uit de eigen wijk
-  - oefeningen gericht op alleen werken in een privéomgeving
+  - oefenen met alleen werken bij iemand thuis
 veelgestelde_vragen:
   - vraag: "Leren medewerkers ook wanneer ze een bezoek mogen afbreken?"
     antwoord: "Ja. Bepalen wanneer een bezoek veilig kan worden beëindigd is een vast onderdeel van de training, inclusief wat je doet als je wordt tegengehouden."

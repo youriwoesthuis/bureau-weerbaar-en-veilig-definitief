@@ -18,26 +18,26 @@ samenvatting: >-
   cliëntsituaties vertalen naar afspraken en medewerkers coachen na
   incidenten. De training duurt 1 dag en telt maximaal 8 deelnemers.
 resultaat:
-  - Helder veiligheidsbeleid voor thuisbezoeken opstellen
-  - Risicovolle cliëntsituaties signaleren en vertalen naar veiligheidsafspraken
-  - "Medewerkers coachen na agressie-incidenten"
-  - De grenzen van het zorgcontract helder communiceren
-  - Samenwerking met huisartsen en GGZ organiseren
-  - De meldcultuur versterken
+  - "Afspraken maken die werken voor iemand die alleen bij een cliënt binnenstapt"
+  - "Per cliënt vastleggen wat er geldt als de situatie risicovol is"
+  - "Een incident naderhand doornemen met de medewerker, elke keer"
+  - "Uitleggen aan cliënt en familie wanneer de zorg verandert of stopt"
+  - "Met huisarts en GGZ afspreken wat er gebeurt als het misgaat"
+  - "Zorgen dat incidenten gemeld worden, ook de kleine die niemand opschrijft"
 programma:
   - titel: Veiligheidsbeleid voor thuisbezoeken
-    inhoud: Beleid opstellen dat werkt voor medewerkers die alleen en zonder achterwacht werken.
+    inhoud: "Beleid maken dat werkt voor medewerkers die alleen naar binnen gaan, zonder collega in de buurt."
   - titel: Risicovolle cliëntsituaties
-    inhoud: Signaleren en vertalen naar concrete veiligheidsafspraken per cliënt.
-  - titel: Coachen en nazorg
-    inhoud: "Medewerkers structureel begeleiden na incidenten, met een vaste vorm van debriefing."
+    inhoud: "Signaleren waar het misgaat, en dat per cliënt vertalen naar concrete afspraken."
+  - titel: Nabespreken en nazorg
+    inhoud: Een vast moment inrichten om een incident met de medewerker door te nemen.
   - titel: Grenzen van het zorgcontract
-    inhoud: "Helder communiceren wanneer zorg wordt aangepast of beëindigd: naar medewerker, cliënt en familie."
+    inhoud: "Uitleggen wanneer de zorg verandert of stopt: aan de medewerker, de cliënt en de familie."
   - titel: Samenwerking en intervisie
-    inhoud: Samenwerking met huisartsen en GGZ organiseren; na 6 weken intervisie over de implementatie.
+    inhoud: "Met huisarts en GGZ afspreken wat er gebeurt als het misgaat, met op verzoek een terugkombijeenkomst."
 werkvormen:
-  - analyse van bestaand beleid en cliëntpopulatie
-  - beleidsmatige verdieping gecombineerd met concrete protocollen
+  - het bestaande beleid en de cliëntenpopulatie doornemen
+  - concrete protocollen uitwerken
   - intervisie na afloop (op verzoek)
 veelgestelde_vragen:
   - vraag: "Hoe zit de intervisie in het programma?"
@@ -45,7 +45,7 @@ veelgestelde_vragen:
   - vraag: "Voor wie is deze training bedoeld?"
     antwoord: "Teamleiders, zorgcoördinatoren en managers in de thuiszorg en wijkverpleging. Voorwaarde voor deelname: leidinggevende of coördinerende verantwoordelijkheid voor een thuiszorgteam."
   - vraag: "Wat is het verschil met de andere niveaus?"
-    antwoord: "De invalshoek. De basis- en gevorderde training gaan over het eigen handelen. Dit expertniveau gaat over de organisatie: beleid, escalatiestructuur, nazorg, meldcultuur en het coachen van medewerkers."
+    antwoord: "Basis en gevorderd gaan over wat jij achter de voordeur doet, alleen en zonder achterwacht. Op dit niveau stel je het veiligheidsbeleid voor thuisbezoeken op en vertaal je risicovolle cliëntsituaties naar concrete afspraken per cliënt, zodat de volgende collega niet blanco naar binnen gaat. Je richt een vaste vorm van debriefing na incidenten in en communiceert helder wanneer zorg wordt aangepast of stopt, naar de medewerker, de cliënt en de familie. Ook de samenwerking met huisartsen en de GGZ regel je hier."
 gerelateerd:
   - "agressietraining-thuiszorg-wijkverpleging-basis"
   - "agressietraining-thuiszorg-wijkverpleging-gevorderd"
